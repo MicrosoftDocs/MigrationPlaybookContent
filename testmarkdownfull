@@ -26,9 +26,9 @@ There are two phases to assessment - Discover and Uncover
 <span style="color: #3399FF">*Discover*</span>: You will be able to get a detailed reporting on the scope for server and storage consolidations, migrations and upgrade; hardware information. 
 You can use Microsoft Assessment and Planning (MAP) toolkit for SQL Server to securely assess your environment for your migration.
 
-[Learn more about MAP Toolkit in the TechNet Blog.](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)  
+Learn more about MAP Toolkit in the [TechNet Blog.](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)  
 
-[Download the MAP Toolkit from Microsoft Download Center.](http://go.microsoft.com/fwlink/?LinkID=316883)
+Download the MAP Toolkit from [Microsoft Download Center.](http://go.microsoft.com/fwlink/?LinkID=316883)
 
 **Note**: If you already have a good knowledge of the inventory, please proceed to Step 2 - Uncover.  
 
@@ -65,6 +65,7 @@ Refer to Shamik’s TR deck
 
 [https://microsoft.sharepoint.com/teams/sqlaa/_layouts/15/WopiFrame.aspx?sourcedoc=%7BEDFC32A3-8CF7-4E02-A702-9661D1FDA502%7D&file=DPCT306%20-%20Competitive%20migrations.pptx&action=default&IsList=1&ListId=%7BD9414889-8912-4DE3-B1E1-352799CE1556%7D&ListItemId=854](https://microsoft.sharepoint.com/teams/sqlaa/_layouts/15/WopiFrame.aspx?sourcedoc=%7BEDFC32A3-8CF7-4E02-A702-9661D1FDA502%7D&file=DPCT306%20-%20Competitive%20migrations.pptx&action=default&IsList=1&ListId=%7BD9414889-8912-4DE3-B1E1-352799CE1556%7D&ListItemId=854) 
 #### STEP 5: APPLICATION MIGRATION
+
 
 #### STEP 6: AZURE VM OVERVIEW
 Watch the technical overview of SQL on Azure Virtual Machine [here](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview).
