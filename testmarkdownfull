@@ -6,7 +6,7 @@ SQL Server 2016 delivers 11.7X better TCO than a comparable Oracle solution. And
 More importantly, with Oracle, it is not what you are paying for now, but what you will pay in the future. As you take advantage of more capabilities, you’ve got to fork out additional money….
 With SQL Server 2016, developments in in-memory, advanced analytics, and mobile BI are all built-into the product; no need for any additional investment. 
 
-## TECHNICAL SECTION
+### TECHNICAL SECTION
 #### STEP 0: OVERALL PROCESS
 Migrations should be approached with the same rigor and processes as a full software or hardware project. A methodology is required for success. We have these 5 step process we recommend for migration projects.
 ![Migration Process](http://localhost:29955/Images/MigrationProcess.png)
