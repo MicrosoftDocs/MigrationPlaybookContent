@@ -1,4 +1,3 @@
-
 ## BUSINESS SECTION
 ### STEP 0: LICENSING
 [https://microsoft.sharepoint.com/teams/Migration_Bootcamp_2016_2017/Shared%20Documents/Speaker%20Bootcamp%20Content/Day%201/04_Licensing.pptx?d=w4338b4b1716149c18b3aa0aeca2932d8](https://microsoft.sharepoint.com/teams/Migration_Bootcamp_2016_2017/Shared%20Documents/Speaker%20Bootcamp%20Content/Day%201/04_Licensing.pptx?d=w4338b4b1716149c18b3aa0aeca2932d8) 
@@ -22,14 +21,12 @@ Once you define the requirements of the migration project, it is important to as
 - Application stack discovery (Database & application)
 - Impact analysis
 
-There are two phases to assessment - Discover and Uncover
-
+There are two phases to assessment - Discover and Uncover  
 <span style="color: #3399FF">*Discover*</span>: You will be able to get a detailed reporting on the scope for server and storage consolidations, migrations and upgrade; hardware information. 
 You can use Microsoft Assessment and Planning (MAP) toolkit for SQL Server to securely assess your environment for your migration.
 [Learn more about MAP Toolkit in the TechNet Blog.](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)
 [Download the MAP Toolkit from Microsoft Download Center.](http://go.microsoft.com/fwlink/?LinkID=316883)
-Note: If you already have a good knowledge of the inventory, please proceed to Step 2 - Uncover.
-
+Note: If you already have a good knowledge of the inventory, please proceed to Step 2 - Uncover.  
 <span style="color: #3399FF">*Uncover*</span>: This step will allow you to assess individual databases in your inventory and provides you a HTML report with conversion statistics and errors/warnings that need to be resolved.
 You can use SQL Server Migration Assistant (SSMA) to assess the database, discover conversation rate and resolve any issues.
 Learn more about [SSMA Assessments](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
