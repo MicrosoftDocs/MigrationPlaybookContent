@@ -66,9 +66,7 @@ Refer to Shamik’s TR deck
 [https://microsoft.sharepoint.com/teams/sqlaa/_layouts/15/WopiFrame.aspx?sourcedoc=%7BEDFC32A3-8CF7-4E02-A702-9661D1FDA502%7D&file=DPCT306%20-%20Competitive%20migrations.pptx&action=default&IsList=1&ListId=%7BD9414889-8912-4DE3-B1E1-352799CE1556%7D&ListItemId=854](https://microsoft.sharepoint.com/teams/sqlaa/_layouts/15/WopiFrame.aspx?sourcedoc=%7BEDFC32A3-8CF7-4E02-A702-9661D1FDA502%7D&file=DPCT306%20-%20Competitive%20migrations.pptx&action=default&IsList=1&ListId=%7BD9414889-8912-4DE3-B1E1-352799CE1556%7D&ListItemId=854) 
 #### STEP 5: APPLICATION MIGRATION
 
-
 #### STEP 6: AZURE VM OVERVIEW
 Watch the technical overview of SQL on Azure Virtual Machine [here](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview).
-
 #### STEP 7: AZURE SQL DB OVERVIEW
 Watch the technical overview of quickly creating an Azure SQL Database [here](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-technical-overview).
