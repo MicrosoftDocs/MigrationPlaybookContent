@@ -1,20 +1,20 @@
-## BUSINESS SECTION
+### BUSINESS SECTION
 ### STEP 0: LICENSING
 [https://microsoft.sharepoint.com/teams/Migration_Bootcamp_2016_2017/Shared%20Documents/Speaker%20Bootcamp%20Content/Day%201/04_Licensing.pptx?d=w4338b4b1716149c18b3aa0aeca2932d8](https://microsoft.sharepoint.com/teams/Migration_Bootcamp_2016_2017/Shared%20Documents/Speaker%20Bootcamp%20Content/Day%201/04_Licensing.pptx?d=w4338b4b1716149c18b3aa0aeca2932d8) 
-### STEP 1: COSTS
+#### STEP 1: COSTS
 SQL Server 2016 delivers 11.7X better TCO than a comparable Oracle solution. And these are annualized cost savings!
 More importantly, with Oracle, it is not what you are paying for now, but what you will pay in the future. As you take advantage of more capabilities, you’ve got to fork out additional money….
 With SQL Server 2016, developments in in-memory, advanced analytics, and mobile BI are all built-into the product; no need for any additional investment. 
 
 ## TECHNICAL SECTION
-### STEP 0: OVERALL PROCESS
+#### STEP 0: OVERALL PROCESS
 Migrations should be approached with the same rigor and processes as a full software or hardware project. A methodology is required for success. We have these 5 step process we recommend for migration projects.
 ![Migration Process](http://localhost:29955/Images/MigrationProcess.png)
 The schema conversion and migration tools cover Assess and Migrate steps. Proceed to next section to learn about assessment tools. 
 
 Find a [partner](http://migration/Pages/SearchPartners.aspx) who can assist with your Oracle to SQL migration.
 
-### STEP 1: ASSESSMENT
+#### STEP 1: ASSESSMENT
 Once you define the requirements of the migration project, it is important to assess the environment. Here are some of the questions for consideration:
 - What is the scope of the project?
 - Inventory the current system
@@ -31,12 +31,12 @@ Note: If you already have a good knowledge of the inventory, please proceed to S
 You can use SQL Server Migration Assistant (SSMA) to assess the database, discover conversation rate and resolve any issues.
 Learn more about [SSMA Assessments](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
 Download the SSMA from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54258). 
-### STEP 2: MIGRATION
+#### STEP 2: MIGRATION
 Once you are done with assessing your databases, the next step is to execute the migration process. Migration involves two steps - schema migration and data migration. 
 You can use SQL Server Migration Assistant (SSMA) to accomplish the above steps. 
 Learn more about [SSMA Assessments](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
 Download the SSMA from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54258). 
-### STEP 3: VALIDATE & OPTIMIZE
+#### STEP 3: VALIDATE & OPTIMIZE
 This post migration step is very crucial for reconciling any data accuracy and completeness; performance issues with the workload. There are no automated tools for post migration validation and optimization. The recommended manual steps involve: 
 1. Converted Oracle trace to SQL trace – SSMA produces this output. Fields include: SQL query, Duration, error field and timestamp. 
 2. Created a console application that replays the SQL queries received from step #1 by using the offset of the timestamp. 
@@ -47,13 +47,13 @@ This post migration step is very crucial for reconciling any data accuracy and c
 Note: this solution may not be a true indicator of the performance. We suggest that you take the most business-critical queries from your workload and go through the manual comparison. 
 If any data correctness issues are encountered, query re-writing might be required.
 If any Performance issues are encountered, database tuning might be advised. Refer to the [whitepaper](https://www.scribd.com/document/328718966/SQL-Server-2016-Mission-Critical-Performance-White-Paper) for more details on database tuning. 
-### STEP 4: PLAN
+#### STEP 4: PLAN
 Refer to Shamik’s TR deck
 [https://microsoft.sharepoint.com/teams/sqlaa/_layouts/15/WopiFrame.aspx?sourcedoc=%7BEDFC32A3-8CF7-4E02-A702-9661D1FDA502%7D&file=DPCT306%20-%20Competitive%20migrations.pptx&action=default&IsList=1&ListId=%7BD9414889-8912-4DE3-B1E1-352799CE1556%7D&ListItemId=854](https://microsoft.sharepoint.com/teams/sqlaa/_layouts/15/WopiFrame.aspx?sourcedoc=%7BEDFC32A3-8CF7-4E02-A702-9661D1FDA502%7D&file=DPCT306%20-%20Competitive%20migrations.pptx&action=default&IsList=1&ListId=%7BD9414889-8912-4DE3-B1E1-352799CE1556%7D&ListItemId=854) 
-### STEP 5: APPLICATION MIGRATION
+#### STEP 5: APPLICATION MIGRATION
 
-### STEP 6: AZURE VM OVERVIEW
+#### STEP 6: AZURE VM OVERVIEW
 Watch the technical overview of SQL on Azure Virtual Machine [here](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview).
 
-### STEP 7: AZURE SQL DB OVERVIEW
+#### STEP 7: AZURE SQL DB OVERVIEW
 Watch the technical overview of quickly creating an Azure SQL Database [here](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-technical-overview).
