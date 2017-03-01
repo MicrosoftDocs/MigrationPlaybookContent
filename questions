@@ -18,7 +18,6 @@
 */
 [
 	{
-		"id": "1",
 		"text": "$What is your Data Source?",
 		"options": [
 			"$Oracle",
@@ -28,7 +27,6 @@
 		"required": "t"
 	},
 	{
-		"id": "2",
 		"text": "$How many users in your organization?",
 		"options": [
 			"$1 - 100",
