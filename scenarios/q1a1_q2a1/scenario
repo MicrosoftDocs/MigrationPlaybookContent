@@ -1,0 +1,35 @@
+// Let this template be your guide and we'll all be fine.
+// Do NOT modify the names of the fields, only modify the values.
+// Values must be within "".
+// Values are on the right hand side of the ":".
+// All values except the last one has to end with a comma after the quotes.
+
+/*	"sectiontype"
+		- The section in which this item belongs. Accepts "B" (for Business) or "T" (for Technical)
+	"itemtype"
+		- What this item's type is. Accepts "A" (for Action) or "S" (for Step)
+	"order"
+		- The order in its section it will appear to the user. Accepts a number.
+	"filelocation"
+		- The location of the resource file.
+		- The folder name of its type is assumed. So if it's a step do NOT include "step/" as part of the location.
+		- You may, however, put files in subfolders and those should be included.
+		- You should also not include the ".md" as part of the file.
+		Example (correct): A step file called assessment in the steps folder should just be: "assessment".
+		Example (correct): A step file called premigration in the subfolder oracle (in the steps folder) would be: "oracle/premigration".
+		Example (wrong): "actions/gethelp"
+*/
+[
+	{
+		sectiontype: "B",
+		itemtype: "S",
+		order: "1",
+		filelocation: "licensing"
+	},
+	{
+		sectiontype: "T",
+		itemtype: "A",
+		order: "1",
+		filelocation: "migration"
+	}
+]
