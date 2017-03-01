@@ -9,7 +9,7 @@ With SQL Server 2016, developments in in-memory, advanced analytics, and mobile 
 ### TECHNICAL SECTION
 #### STEP 0: OVERALL PROCESS
 Migrations should be approached with the same rigor and processes as a full software or hardware project. A methodology is required for success. We have these 5 step process we recommend for migration projects.
-![Migration Process](http://localhost:29955/Images/MigrationProcess.png)
+![Migration Process](http://localhost:29955/Images/MigrationProcess.png =100x50)
 The schema conversion and migration tools cover Assess and Migrate steps. Proceed to next section to learn about assessment tools. 
 
 Find a [partner](http://migration/Pages/SearchPartners.aspx) who can assist with your Oracle to SQL migration.
