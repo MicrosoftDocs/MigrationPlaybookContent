@@ -19,6 +19,7 @@
 		Example (correct): A step file called premigration in the subfolder oracle (in the steps folder) would be: "oracle/premigration".
 		Example (wrong): "actions/gethelp"
 */
+{
 [
 	{
 		sectiontype: "B",
@@ -33,3 +34,4 @@
 		filelocation: "migration"
 	}
 ]
+}
