@@ -18,24 +18,25 @@
 */
 
 {
-[
-	{
-		"text": "$What is your Data Source?",
-		"options": [
-			"$Oracle",
-			"$SQL Server"
-		],
-		"order": "1",
-		"required": "t"
-	},
-	{
-		"text": "$How many users in your organization?",
-		"options": [
-			"$1 - 100",
-			"$100 - 1000"
-		],
-		"order": "2",
-		"required": "f"
-	}
-]
+	questions:
+	[
+		{
+			"text": "$What is your Data Source?",
+			"options": [
+				"$Oracle",
+				"$SQL Server"
+			],
+			"order": "1",
+			"required": "t"
+		},
+		{
+			"text": "$How many users in your organization?",
+			"options": [
+				"$1 - 100",
+				"$100 - 1000"
+			],
+			"order": "2",
+			"required": "f"
+		}
+	]
 }
