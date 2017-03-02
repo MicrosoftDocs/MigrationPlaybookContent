@@ -1,17 +1,18 @@
 
 {
-[
-	{
-		sectiontype: "B",
-		itemtype: "S",
-		order: "1",
-		filelocation: "licensing"
-	},
-	{
-		sectiontype: "T",
-		itemtype: S",
-		order: "1",
-		filelocation: "assessment"
-	}
-]
+	sectionitems:
+	[
+		{
+			sectiontype: "B",
+			itemtype: "S",
+			order: "1",
+			filelocation: "licensing"
+		},
+		{
+			sectiontype: "T",
+			itemtype: S",
+			order: "1",
+			filelocation: "assessment"
+		}
+	]
 }
