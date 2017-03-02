@@ -17,6 +17,8 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 		- What this item's type is. Accepts "A" (for Action) or "S" (for Step)
 	"order"
 		- The order in its section it will appear to the user. Accepts a number.
+		- You don't need to physically order the steps and actions or even order the sections. The code monkeys will do that for you.
+		  So if you just wanted to add a step to the business section, you can simply add it to the end.
 	"filelocation"
 		- The location of the resource file.
 		- The folder name of its type is assumed. So if it's a step do NOT include "step/" as part of the location.
