@@ -1,7 +1,7 @@
 /*
 
 DO NOT REMOVE OR EDIT THIS FILE.
-Edit the questions file instead.
+Edit the "questions" file instead.
 
 */
 
@@ -23,7 +23,7 @@ Edit the questions file instead.
 	"required"
 		- If the user is required to answer this question or not (if not then it is considered to optional or advanced). Accepts "t" or "f".
 */
-// After pasting this to the new location, you may delete everything from this line and above
+// In the real "questions" file, you may delete everything from this line and above
 
 {
 [
