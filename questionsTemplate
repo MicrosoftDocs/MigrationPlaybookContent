@@ -19,9 +19,11 @@ Edit the questions file instead.
 		- The list of options of the question displayed to the user. Same rules apply as in "text".
 	"order"
 		- The order it will appear to the user. Accepts a number.
+		- You don't need to physically order the questions within the file. The code monkeys will make sure that the questions will be listed according to the values here. So if you just wanted to add a question you can simply add it to the end even if that new question should be first. Just make sure to update the value for "order" for all the questions to be correct.
 	"required"
 		- If the user is required to answer this question or not (if not then it is considered to optional or advanced). Accepts "t" or "f".
 */
+// After pasting this to the new location, you may delete everything from this line and above
 
 {
 [
