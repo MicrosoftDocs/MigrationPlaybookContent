@@ -30,7 +30,7 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 // After pasting this to the new location, you may delete everything from this line and above
 
 {
-	questions:
+	sectionitems:
 	[
 		{
 			sectiontype: "B",
