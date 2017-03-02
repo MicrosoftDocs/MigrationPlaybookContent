@@ -30,18 +30,19 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 // After pasting this to the new location, you may delete everything from this line and above
 
 {
-[
-	{
-		sectiontype: "B",
-		itemtype: "S",
-		order: "1",
-		filelocation: "licensing"
-	},
-	{
-		sectiontype: "T",
-		itemtype: "A",
-		order: "1",
-		filelocation: "migration"
-	}
-]
+	questions:
+	[
+		{
+			sectiontype: "B",
+			itemtype: "S",
+			order: "1",
+			filelocation: "licensing"
+		},
+		{
+			sectiontype: "T",
+			itemtype: "A",
+			order: "1",
+			filelocation: "migration"
+		}
+	]
 }
