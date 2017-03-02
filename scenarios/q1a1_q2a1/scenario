@@ -1,17 +1,18 @@
 
 {
-[
-	{
-		sectiontype: "B",
-		itemtype: "S",
-		order: "1",
-		filelocation: "licensing"
-	},
-	{
-		sectiontype: "T",
-		itemtype: "A",
-		order: "1",
-		filelocation: "migration"
-	}
-]
+	sectionitems:
+	[
+		{
+			sectiontype: "B",
+			itemtype: "S",
+			order: "1",
+			filelocation: "licensing"
+		},
+		{
+			sectiontype: "T",
+			itemtype: "A",
+			order: "1",
+			filelocation: "migration"
+		}
+	]
 }
