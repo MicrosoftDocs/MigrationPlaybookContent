@@ -3,7 +3,6 @@
 // Values must be within "".
 // Values are on the right hand side of the ":".
 // All values except the last one has to end with a comma after the quotes.
-
 /*	"text"
 		- The text of the question as displayed to the user.
 		- If it starts with a $ then it will be passed through to the UI as is, otherwise it will be interpreted as the name of the localized resource string to use.
@@ -13,9 +12,12 @@
 		- The list of options of the question displayed to the user. Same rules apply as in "text".
 	"order"
 		- The order it will appear to the user. Accepts a number.
+		- You don't need to physically order the questions within the file. The code monkeys will make sure that the questions will be listed according to the values here. So if you just wanted to add a question you can simply add it to the end even if that new question should be first. Just make sure to update the value for "order" for all the questions to be correct.
 	"required"
 		- If the user is required to answer this question or not (if not then it is considered to optional or advanced). Accepts "t" or "f".
 */
+
+{
 [
 	{
 		"text": "$What is your Data Source?",
@@ -36,3 +38,4 @@
 		"required": "f"
 	}
 ]
+}
