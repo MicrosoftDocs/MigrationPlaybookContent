@@ -28,6 +28,8 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 		Example (correct): A step file called premigration in the subfolder oracle (in the steps folder) would be: "oracle/premigration".
 		Example (wrong): "actions/gethelp"
 */
+// After pasting this to the new location, you may delete everything from this line and above
+
 {
 [
 	{
