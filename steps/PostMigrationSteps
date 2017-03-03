@@ -1,0 +1,19 @@
+
+
+This post migration step is very crucial for reconciling any
+data accuracy and completeness; performance issues with the workload. There are
+no automated tools for post migration validation and optimization. The
+recommended manual steps involve: 
+
+Converted Oracle trace to SQL trace – SSMA produces this output. Fields include: SQL query, Duration, error field and
+timestamp. Created a console application that replays the SQL queries received from step #1 by using the offset of the timestamp. Captured a SQL trace.Produced a CSV file containing executed SQL
+queries, duration, and error field. Compared results.
+
+
+
+
+
+
+
+
+
