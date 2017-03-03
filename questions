@@ -26,8 +26,7 @@
 				"$Oracle",
 				"$SQL Server"
 			],
-			"order": "1",
-			"required": "t"
+			"required": "true"
 		},
 		{
 			"text": "$What is your target?",
@@ -35,8 +34,7 @@
 				"$1 - 100",
 				"$100 - 1000"
 			],
-			"order": "2",
-			"required": "t"
+			"required": "false"
 		}
 	]
 }
