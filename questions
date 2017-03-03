@@ -30,13 +30,13 @@
 			"required": "t"
 		},
 		{
-			"text": "$How many users in your organization?",
+			"text": "$What is your target?",
 			"options": [
 				"$1 - 100",
 				"$100 - 1000"
 			],
 			"order": "2",
-			"required": "f"
+			"required": "t"
 		}
 	]
 }
