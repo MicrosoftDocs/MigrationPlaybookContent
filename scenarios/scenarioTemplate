@@ -11,14 +11,7 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 // Values are on the right hand side of the ":".
 // All values except the last one has to end with a comma after the quotes.
 
-/*	"sectiontype"
-		- The section in which this item belongs. Accepts "B" (for Business) or "T" (for Technical)
-	"itemtype"
-		- What this item's type is. Accepts "A" (for Action) or "S" (for Step)
-	"order"
-		- The order in its section it will appear to the user. Accepts a number.
-		- You don't need to physically order the steps and actions or even order the sections. The code monkeys will do that for you. So if you just wanted to add a step to the business section, you can simply add it to the end. Just make sure to update the value for "order" for all the items to be correct.
-	"filelocation"
+/*	"filelocation"
 		- The location of the resource file.
 		- The folder name of its type is assumed. So if it's a step do NOT include "step/" as part of the location.
 		- You may, however, put files in subfolders and those should be included.
@@ -30,19 +23,23 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 // After pasting this to the new location, you may delete everything from this line and above
 
 {
-	sectionitems:
+	businesssectionitems: 
 	[
 		{
-			sectiontype: "B",
-			itemtype: "S",
-			order: "1",
 			filelocation: "licensing"
 		},
 		{
-			sectiontype: "T",
-			itemtype: "A",
-			order: "1",
+			filelocation: "costbasedanalysis"
+		}
+	],
+	technicalsectionitems: 
+	[
+		{
 			filelocation: "migration"
 		}
-	]
+	],
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
 }
