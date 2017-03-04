@@ -5,13 +5,13 @@
 			filelocation: "licensing"
 		},
 		{
-			filelocation: "costbenefitanalysis"
+			filelocation: "Assessment"
 		}
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "migration"
+			filelocation: "Migration"
 		}
 	],
 	footer: 
