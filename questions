@@ -3,7 +3,10 @@
 // Values must be within "".
 // Values are on the right hand side of the ":".
 // All values except the last one has to end with a comma after the quotes.
-/*	"text"
+/*	"id"
+		- A meaningfull name that is unique from all other questions
+		- Can NOT contain spaces, numbers, or special characters
+	"text"
 		- The text of the question as displayed to the user.
 		- If it starts with a $ then it will be passed through to the UI as is, otherwise it will be interpreted as the name of the localized resource string to use.
 		Example: "$What is your data source?" will be displayed to the user as "$What is your data source?". This is used for internal previewing only.
