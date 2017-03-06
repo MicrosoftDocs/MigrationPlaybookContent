@@ -35,7 +35,7 @@ Edit the "questions" file instead.
 				"$Oracle",
 				"$SQL Server"
 			],
-			"required": "t"
+			"required": "true"
 		},
 		{
 			"id": "usercount",
@@ -44,7 +44,7 @@ Edit the "questions" file instead.
 				"$1 - 100",
 				"$100 - 1000"
 			],
-			"required": "f"
+			"required": "false"
 		}
 	]
 }
