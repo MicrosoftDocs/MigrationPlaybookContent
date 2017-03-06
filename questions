@@ -28,7 +28,7 @@
 				"$Oracle",
 				"$SQL Server"
 			],
-			"required": "t"
+			"required": "true"
 		},
 		{
 			"id": "target",
@@ -37,7 +37,7 @@
 				"$Azure",
 				"$Azure VM"
 			],
-			"required": "f"
+			"required": "false"
 		}
 	]
 }
