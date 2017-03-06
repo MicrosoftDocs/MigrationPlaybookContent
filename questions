@@ -14,24 +14,27 @@
 		- If the user is required to answer this question or not (if not then it is considered to optional or advanced). Accepts "true" or "false".
 */
 
+
 {
 	questions:
 	[
 		{
+			"id": "source",
 			"text": "$What is your Data Source?",
 			"options": [
 				"$Oracle",
 				"$SQL Server"
 			],
-			"required": "true"
+			"required": "t"
 		},
 		{
+			"id": "target",
 			"text": "$What is your target?",
 			"options": [
-				"$1 - 100",
-				"$100 - 1000"
+				"$Azure",
+				"$Azure VM"
 			],
-			"required": "false"
+			"required": "f"
 		}
 	]
 }
