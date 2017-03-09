@@ -37,7 +37,7 @@
 				"$Azure",
 				"$Azure VM"
 			],
-			"required": "false"
+			"required": "true"
 		}
 	]
 }
