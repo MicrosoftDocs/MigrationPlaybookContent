@@ -23,19 +23,43 @@
 	[
 		{
 			"id": "source",
-			"text": "$What is your Data Source?",
+			"text": "$Where is your data stored today?",
 			"options": [
 				"$Oracle",
+				"$Teradata",
+				"$MySQL",
 				"$SQL Server"
 			],
 			"required": "true"
 		},
 		{
 			"id": "target",
-			"text": "$What is your target?",
+			"text": "$Where do you want to move your data to?",
 			"options": [
-				"$Azure",
-				"$Azure VM"
+				"$SQL Server 2016",
+				"$SQL on Virtual Machine",
+				"$Azure SQL Database",
+				"$Help me decide"
+			],
+			"required": "true"
+		},
+		{
+			"id": "goal",
+			"text": "$WHat's the business goal?",
+			"options": [
+				"$Data Modernization",
+				"$Reducing Cost",
+				"$Migrate to Cloud",
+				"$All of the above"
+			],
+			"required": "true"
+		},
+		{
+			"id": "partner",
+			"text": "$Do you require Partner support to assist with migrations?",
+			"options": [
+				"$Yes",
+				"$No"
 			],
 			"required": "true"
 		}
