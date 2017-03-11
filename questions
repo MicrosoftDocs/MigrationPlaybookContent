@@ -52,7 +52,7 @@
 				"$Migrate to Cloud",
 				"$All of the above"
 			],
-			"required": "true"
+			"required": "false"
 		},
 		{
 			"id": "partner",
@@ -61,7 +61,7 @@
 				"$Yes",
 				"$No"
 			],
-			"required": "true"
+			"required": "false"
 		}
 	]
 }
