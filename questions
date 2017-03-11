@@ -45,7 +45,7 @@
 		},
 		{
 			"id": "goal",
-			"text": "$WHat's the business goal?",
+			"text": "$What's the business goal?",
 			"options": [
 				"$Data Modernization",
 				"$Reducing Cost",
