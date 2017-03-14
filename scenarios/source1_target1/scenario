@@ -2,7 +2,11 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "licensing"
+			filelocation: "costs",
+			actions: [
+				{ filelocation: "tcocalculator" },
+				{ filelocation: "pricingcalculator" }
+			]
 		},
 		{
 			filelocation: "Assessment"
