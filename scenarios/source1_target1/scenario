@@ -9,13 +9,15 @@
 			]
 		},
 		{
-			filelocation: "Assessment"
+			filelocation: "Assessment",
+			actions: [ ]
 		}
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "Migration"
+			filelocation: "Migration",
+			actions: [ ]
 		}
 	],
 	footer: 
