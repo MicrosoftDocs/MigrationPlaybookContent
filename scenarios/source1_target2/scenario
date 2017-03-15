@@ -2,16 +2,22 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "licensing"
+			filelocation: "costs",
+			actions: [
+				{ filelocation: "tcocalculator" },
+				{ filelocation: "pricingcalculator" }
+			]
 		},
 		{
-			filelocation: "Assessment"
+			filelocation: "Assessment",
+			actions: [ ]
 		}
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "Migration"
+			filelocation: "Migration",
+			actions: [ ]
 		}
 	],
 	footer: 
