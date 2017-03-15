@@ -19,6 +19,15 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 		Example (correct): A step file called assessment in the steps folder should just be: "assessment".
 		Example (correct): A step file called premigration in the subfolder oracle (in the steps folder) would be: "oracle/premigration".
 		Example (wrong): "actions/gethelp"
+	"actions"
+		- Generally small, follow-up items for steps. Because of this, and that they are unique for each step,
+		  they are a sub-field of steps. These generally take the form of websites or other online resources.
+		  But they are still contained within their own files within the "actions" folder so they need the same
+		  filelocation information as steps.
+		- "filelocation"
+			- This follows the exact same rules and guidelines as the filelocation for steps outlined above.
+	"footer"
+		- Not currently used but probability of use is high enough that this is left in.
 */
 // After pasting this to the new location, you may delete everything from this line and above
 
@@ -26,16 +35,22 @@ Instead, copy it and paste it to a new location, name it "scenario" and edit it 
 	businesssectionitems: 
 	[
 		{
-			filelocation: "licensing"
+			filelocation: "licensing",
+			actions: [
+				{ filelocation: "tcocalculator" },
+				{ filelocation: "pricingcalculator" }
+			]
 		},
 		{
-			filelocation: "costbenefitanalysis"
+			filelocation: "costbenefitanalysis",
+			actions: [ ]
 		}
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "migration"
+			filelocation: "migration",
+			actions: [ ]
 		}
 	],
 	footer: 
