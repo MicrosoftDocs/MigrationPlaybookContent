@@ -16,10 +16,22 @@
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "Migration Process",
+			filelocation: "Overall Migration Process",
 			actions: [ ]
-		}
-	],
+		},
+		{
+                 	filelocation: "Assessment",
+			actions: [ ]
+		},
+		{
+                        filelocation: "Migration",
+	                actions: [ ]  
+		},
+		{
+			filelocation: "Optimization",
+			actions: [ ]
+		}   				
+],
 	footer: 
 	{
 		// empty for now but will probably contain lists of download links etc.
