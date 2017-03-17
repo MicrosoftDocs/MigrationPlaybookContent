@@ -7,17 +7,12 @@
 				{ filelocation: "tcocalculator" },
 				{ filelocation: "pricingcalculator" }
 			]
-		},
-		{
-                       filelocation: "licensing",
-		       actions: [ ]
 		}
-	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "Overall Migration Process",
-			actions: [ ]
+			filelocation: "OverallMigrationProcess",
+			actions: [ ]
 		},
 		{
                  	filelocation: "Assessment",
@@ -27,10 +22,7 @@
                         filelocation: "Migration",
 	                actions: [ ]  
 		},
-		{
-			filelocation: "Optimization",
-			actions: [ ]
-		}   				
+					
 ],
 	footer: 
 	{
