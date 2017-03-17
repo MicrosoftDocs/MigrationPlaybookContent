@@ -9,10 +9,6 @@
 			]
 		},
 		{
-			filelocation: "TCO/ROI Calculator",
-			actions: [ ]
-		},
-		{
                        filelocation: "licensing",
 		       actions: [ ]
 		}
