@@ -2,7 +2,7 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "costs",
+			filelocation: "Costs",
 			actions: [
 				{ filelocation: "tcocalculator" },
 				{ filelocation: "pricingcalculator" }
