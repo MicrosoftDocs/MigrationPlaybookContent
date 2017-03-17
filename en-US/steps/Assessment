@@ -3,15 +3,14 @@
 Once you define the requirements of the migration project, it is important to assess the environment. Here are some of the questions for
 consideration:
 
-*What is the scope of the project?
-*Inventory the current system
-*Application stack discovery (Database & application)
-*Impact analysis
+* What is the scope of the project?
+* Inventory the current system
+* Application stack discovery (Database & application)
+* Impact analysis
 
 There are two phases to assessment - Discover and Uncover
 
-Discover: You will be able to get a detailed reporting on the scope for server and storage consolidations,
-migrations and upgrade; hardware information. 
+**Discover**: You will be able to get a detailed reporting on the scope for server and storage consolidations, migrations and upgrade; hardware information. 
 
 You can use Microsoft Assessment and Planning (MAP) toolkit for SQL Server to securely assess your environment for your migration.
 
@@ -23,7 +22,7 @@ Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883) from M
 
 Note: If you already have a good knowledge of the inventory, please proceed to Step 2 - Uncover.
 
-Uncover: This step will allow you to assess individual databases in your inventory and provides
+**Uncover**: This step will allow you to assess individual databases in your inventory and provides
 you a HTML report with conversion statistics and errors/warnings that need to be resolved.
 
 You can use SQL Server Migration Assistant (SSMA) to assess the database, discover conversation rate and resolve any issues.
@@ -31,4 +30,3 @@ You can use SQL Server Migration Assistant (SSMA) to assess the database, discov
 Learn more about SSMA Assessments
 
 Download the SSMA from Microsoft Download Center. 
-
