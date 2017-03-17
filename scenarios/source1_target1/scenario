@@ -24,7 +24,7 @@
 	                actions: [ ]  
 		},
 	        {
-		 	filelocation: "PostMigrationSteps",
+		 	filelocation: "Optimization",
 	                actions: [ ]  
 		}
 	],
