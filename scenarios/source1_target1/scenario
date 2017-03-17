@@ -24,8 +24,9 @@
 	                actions: [ ]  
 		},
 	        {
-		  
-							
+		 	filelocation: "PostMigrationSteps",
+	                actions: [ ]  
+		}
 	],
 	footer: 
 	{
