@@ -3,10 +3,10 @@
 Once you define the requirements of the migration project, it is important to assess the environment. Here are some of the questions for
 consideration:
 
-* What is the scope of the project?
-* Inventory the current system
-* Application stack discovery (Database & application)
-* Impact analysis
+    * What is the scope of the project?
+    * Inventory the current system
+    * Application stack discovery (Database & application)
+    * Impact analysis
 
 There are two phases to assessment - Discover and Uncover
 
