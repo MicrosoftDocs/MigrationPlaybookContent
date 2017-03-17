@@ -8,6 +8,7 @@
 				{ filelocation: "pricingcalculator" }
 			]
 		}
+	]
 	technicalsectionitems: 
 	[
 		{
@@ -23,7 +24,7 @@
 	                actions: [ ]  
 		},
 					
-],
+	],
 	footer: 
 	{
 		// empty for now but will probably contain lists of download links etc.
