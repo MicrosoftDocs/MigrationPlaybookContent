@@ -22,7 +22,7 @@ Note: If you already have a good knowledge of the inventory, please proceed to S
 **Uncover**: This step will allow you to assess individual databases in your inventory and provides
 you a HTML report with conversion statistics and errors/warnings that need to be resolved.
 
-You can use SQL Server Migration Assistant (SSMA) to assess the database, discover conversation rate and resolve any issues.
+You can use **SQL Server Migration Assistant (SSMA)** to assess the database, discover conversation rate and resolve any issues.
 
 Read about **SSMA Assessments** in the [blog](https://blogs.msdn.microsoft.com/ssma/). 
 
