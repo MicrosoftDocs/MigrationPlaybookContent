@@ -2,7 +2,7 @@
 
 The post migration step is very crucial for reconciling any data accuracy and completeness; performance issues with the workload. There are no automated tools for post migration validation and optimization, but Tiger can provide scripts that aid in the detection of some of these tasks/scenarios (Tiger is also building some automation to query plan analysis starting in Potassium, that can be leveraged as part of this). Below are the recommend steps for Performance Tuning Patterns and Practices.
 
-COMMON PERFORMANCE SCENARIOS
+** Common Performance Scenarios **
 1. Sensitivity to parameter sniffing
 What is it?
 * SQL Server compiles query plans on stored procedures by using sniffing the input parameters at the first compile, generating a parameterized and reusable plan, optimized for that input data distribution.
@@ -59,7 +59,7 @@ Steps to resolve
 1.	We can add indexes to the base table(s) but it is not going to help much. 
 2.	SQL Server assumes 1 row will be returned from a TVF (with SQL Server 2014 that becomes 100).
 
-To learn more about SQL Server heuristics, refer https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/ and https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/ 
+Learn more about [SQL Server heuristics](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/ and https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/).
 
 •	Steps to resolve
 •	If the TVF is single statement only, convert to inline TVF.
@@ -89,7 +89,7 @@ RETURN (
 )”
 •	If more complex, consider using intermediate results stored in in-memory tables or temporary tables.
 
-PERFORMANCE TUNING TOOLS
+**Performance Tuning Tools**
 It is difficult to determine when, why and how the plan changed. Fixing Plan Choice Regressions can be hard. Here are a few steps that can help diagnose plan regressions. 
 •	First You must find the “Slow” Query – How do you know if it is slow? You can find the slowest query, but how do you know how it typically runs. Therefore, we usually recommend having a baseline of the critical applications. 
 •	Figuring out Why it is slow isn’t Easy
@@ -106,14 +106,3 @@ It is difficult to determine when, why and how the plan changed. Fixing Plan Cho
 •	Need to catch both the good and the bad plan to troubleshoot.
 •	Reboot or memory pressure causes diagnostic data to be lost.
 •	Can I modify the query to hint it? How to use plan guide?
-
-
-
-
-
-
-
-
-
-
-
