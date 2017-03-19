@@ -4,6 +4,17 @@ success. We have these 5 step process we recommend for migration projects.
 
 ![Migration Process](http://www.cleanrecords.com/mpb/images/OverallMigrationProcess.png)
 
-Find a [partner](http://migration/Pages/SearchPartners.aspx) who can assist with your Oracle to SQL migration.
+Each phase in the process is briefly described as below:
+**Phase**	                    **Description**
+
+Define	                
+Assess	
+Design	
+Migrate/Test/Remediate	
+Deploy	
+
+The schema conversion and migration tools are covered in Assess and Migrate steps. Proceed to next sections to learn about recommended assessment & migration tools. 
+
+If you need assistant with your migration needs, see the list of recommended [partners](http://migration/Pages/SearchPartners.aspx).
 
 
