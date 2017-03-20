@@ -5,8 +5,6 @@ This optimization step is very crucial for reconciling any data accuracy and com
 
 #### Sensitivity to parameter sniffing
 
-prior:
-
 * SQL Server compiles query plans on stored procedures by using sniffing the input parameters at the first compile, generating a parameterized and reusable plan, optimized for that input data distribution.
 * Even if not stored procedures, most statements generating trivial plans will be parameterized.
 * After a plan is first cached, any future execution maps to a previously cached plan.
@@ -58,18 +56,18 @@ prior:
 	1. This is a matter of comparing code (sprocs, functions, etc) with system tables that hold information on data types for underlying tables used.
 * Change the data type on the table for the same purpose.
 * Carefully reason about usefulness of:
-	1. Functions being used as predicates.
-	2. Wildcard searches.
-	3.  Complex expressions based on columnar data – evaluate persisted learn columns.
-	4. All of the above can be done programmatically.
+  1. Functions being used as predicates.
+  2. Wildcard searches.
+  3.  Complex expressions based on columnar data – evaluate persisted learn columns.
+  4. All of the above can be done programmatically.
 
 #### Use of Table Valued Functions (Multi-valued vs Inline)
 
 * Return a table data type that can be an alternative to views. 
 * While views are limited to a single SELECT statement, user-defined functions can contain additional statements that allow more logic than is possible in views.
 * The caveat? Since the table is not populated at compile time, the optimizer relies on heuristics, and not actual statistics.
-	* We can add indexes to the base table(s) but it is not going to help much. 
-	* SQL Server assumes 1 row will be returned from a TVF (with SQL Server 2014 that becomes 100).
+    * We can add indexes to the base table(s) but it is not going to help much. 
+    * SQL Server assumes 1 row will be returned from a TVF (with SQL Server 2014 that becomes 100).
 
 #### SQL Server Heuristics
 Learn more about [SQL Server heuristics Part 1](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/) and [Part 2](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/).
