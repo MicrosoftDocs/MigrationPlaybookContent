@@ -7,7 +7,7 @@ success. We have these 5 step process we recommend for migration projects.
 Each phase in the process is briefly described as below:
 
 |**Phase** |**Description** |
-| :--------- | :--------------- |
+| :---------: | :--------------- |
 | Define | Requirements, success and risks for your migration project. |
 | Assess | Inventory of your current database assets and application stack discovery. |
 | Design | Design to land the migration, plan to expand. |
