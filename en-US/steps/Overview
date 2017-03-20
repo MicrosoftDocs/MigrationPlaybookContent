@@ -14,6 +14,7 @@ Each phase in the process is briefly described as below:
 |Migrate/Test/Remediate     | Schema and data migration; perform validations. |
 |Deploy | Deployment workflow to production. |
 
+
 Proceed to next sections to learn about recommended assessment & migration tools. If you need assistance with your migration needs, see the list of recommended [partners](http://migration/Pages/SearchPartners.aspx).
 
 
