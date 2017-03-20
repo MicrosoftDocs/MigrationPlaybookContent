@@ -2,14 +2,16 @@
 This optimization step is very crucial for reconciling any data accuracy and completeness; performance issues with the workload. There are no automated tools for post migration validation and optimization, but Tiger can provide scripts that aid in the detection of some of these tasks/scenarios (Tiger is also building some automation to query plan analysis starting in Potassium, that can be leveraged as part of this). Below are the recommend steps for Performance Tuning Patterns and Practices.
 
 **Common Performance Scenarios**
-1. Sensitivity to parameter sniffing
-* SQL Server compiles query plans on stored procedures by using sniffing the input parameters at the first compile, generating a parameterized and reusable plan, optimized for that input data distribution.
-* Even if not stored procedures, most statements generating trivial plans will be parameterized.
-* After a plan is first cached, any future execution maps to a previously cached plan.
-* A potential problem arises when that first compilation may not have used the most common sets of parameters for the usual workload.
-* For different parameters, the same execution plan becomes inefficient.
+
+##Sensitivity to parameter sniffing
+*SQL Server compiles query plans on stored procedures by using sniffing the input parameters at the first compile, generating a parameterized and reusable plan, optimized for that input data distribution.
+*Even if not stored procedures, most statements generating trivial plans will be parameterized.
+*After a plan is first cached, any future execution maps to a previously cached plan.
+*A potential problem arises when that first compilation may not have used the most common sets of parameters for the usual workload.
+*For different parameters, the same execution plan becomes inefficient.
 
 ***Steps to resolve***
+
 *Use the RECOMPILE hint
 *With this a plan is calculated every time, adapted to each parameter value
 *Rewrite the stored procedure to use the option (OPTIMIZE FOR(<input parameter> = <value>)) 
@@ -22,7 +24,7 @@ This optimization step is very crucial for reconciling any data accuracy and com
 *Same practical effect as using the local variable technique by totally disabling parameter sniffing, unless OPTION(RECOMPILE), WITH RECOMPILE or OPTIMIZE FOR value is used.
 	
 
-2. Missing indexes
+##Missing indexes
 *Wrong or missing indexes causes extra I/O, which leads to extra memory and CPU being wasted.
 *Evidence of a poor indexing strategy or changes in workload profile. 
 *Look for duplicate, redundant, rarely used and completely unused indexes.
@@ -35,7 +37,7 @@ This optimization step is very crucial for reconciling any data accuracy and com
 *Look for missing, duplicate, redundant, rarely used and completely unused indexes using scripts at https://blogs.msdn.microsoft.com/blogdoezequiel/2012/04/07/sql-swiss-army-knife-12-index-information-galore/ and those that may be hinted/hard-coded with https://blogs.msdn.microsoft.com/blogdoezequiel/2014/11/12/sql-swiss-army-knife-15-handling-duplicate-indexes/
 
 
-3. Inability to use predicates to filter data
+##Inability to use predicates to filter data
 *SQL Server optimizer can only account for information that is known at compile time
 *If a workload relies on predicates that can only be known at execution time, them the potential for a poor plan choice increases.
 *For a better-quality plan, predicates must be SARGable, or Search Argumentable.
@@ -55,14 +57,14 @@ This optimization step is very crucial for reconciling any data accuracy and com
 	*Complex expressions based on columnar data – evaluate persisted learn columns.
 	*All of the above can be done programmatically.
 
-4.Use of Table Valued Functions (Multi-valued vs Inline)
+##Use of Table Valued Functions (Multi-valued vs Inline)
 *Return a table data type that can be an alternative to views. 
 *While views are limited to a single SELECT statement, user-defined functions can contain additional statements that allow more logic than is possible in views.
 *The caveat? Since the table is not populated at compile time, the optimizer relies on heuristics, and not actual statistics.
 	*We can add indexes to the base table(s) but it is not going to help much. 
 	*SQL Server assumes 1 row will be returned from a TVF (with SQL Server 2014 that becomes 100).
 
-5. Learn more about [SQL Server heuristics](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/ and https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/).
+##Learn more about [SQL Server heuristics](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/ and https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/).
 
 **Steps to resolve**
 	*If the TVF is single statement only, convert to inline TVF.
