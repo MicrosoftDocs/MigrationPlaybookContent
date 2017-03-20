@@ -46,20 +46,20 @@ This optimization step is very crucial for reconciling any data accuracy and com
 * If a workload relies on predicates that can only be known at execution time, them the potential for a poor plan choice increases.
 * For a better-quality plan, predicates must be SARGable, or Search Argumentable.
 * Examples of non-SARGable:
-	* Implicit data conversions, like VARCHAR to NVARCHAR. Look for CONVERT_IMPLICIT warning. Converting from one type to another can also cause a loss of precision.
-	* Complex undetermined expressions such as “WHERE UnitPrice + 1 < 3.975”, but not “WHERE UnitPrice < 320 * 200 * 32” *
-	* Expressions using functions, such as “WHERE ABS(ProductID) = 771” or “WHERE UPPER(LastName) = ‘LOPES’”
-	* Strings with a leading wildcard character, such as “WHERE LastName LIKE ‘%Lopes’”
+	1. Implicit data conversions, like VARCHAR to NVARCHAR. Look for CONVERT_IMPLICIT warning. Converting from one type to another can also cause a loss of precision.
+	2. Complex undetermined expressions such as “WHERE UnitPrice + 1 < 3.975”, but not “WHERE UnitPrice < 320 * 200 * 32” *
+	3. Expressions using functions, such as “WHERE ABS(ProductID) = 771” or “WHERE UPPER(LastName) = ‘LOPES’”
+	4. Strings with a leading wildcard character, such as “WHERE LastName LIKE ‘%Lopes’”
 	
 ***Steps to resolve***
 * Always declare variables as target data type. 
-	* This is a matter of comparing code (sprocs, functions, etc) with system tables that hold information on data types for underlying tables used.
+	1. This is a matter of comparing code (sprocs, functions, etc) with system tables that hold information on data types for underlying tables used.
 * Change the data type on the table for the same purpose.
 * Carefully reason about usefulness of:
-	* Functions being used as predicates.
-	* Wildcard searches.
-	* Complex expressions based on columnar data – evaluate persisted learn columns.
-	* All of the above can be done programmatically.
+	1. Functions being used as predicates.
+	2. Wildcard searches.
+	3.  Complex expressions based on columnar data – evaluate persisted learn columns.
+	4. All of the above can be done programmatically.
 
 ### Use of Table Valued Functions (Multi-valued vs Inline)
 
