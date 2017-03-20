@@ -1,9 +1,9 @@
 
 This optimization step is very crucial for reconciling any data accuracy and completeness; performance issues with the workload. There are no automated tools for post migration validation and optimization, but Tiger can provide scripts that aid in the detection of some of these tasks/scenarios (Tiger is also building some automation to query plan analysis starting in Potassium, that can be leveraged as part of this). Below are the recommend steps for Performance Tuning Patterns and Practices.
 
-**Common Performance Scenarios**
+### Common Performance Scenarios
 
-### Sensitivity to parameter sniffing
+#### Sensitivity to parameter sniffing
 
 * SQL Server compiles query plans on stored procedures by using sniffing the input parameters at the first compile, generating a parameterized and reusable plan, optimized for that input data distribution.
 * Even if not stored procedures, most statements generating trivial plans will be parameterized.
@@ -25,7 +25,7 @@ This optimization step is very crucial for reconciling any data accuracy and com
 * Same practical effect as using the local variable technique by totally disabling parameter sniffing, unless OPTION(RECOMPILE), WITH RECOMPILE or OPTIMIZE FOR value is used.
 	
 
-### Missing indexes
+#### Missing indexes
 
 * Wrong or missing indexes causes extra I/O, which leads to extra memory and CPU being wasted.
 * Evidence of a poor indexing strategy or changes in workload profile. 
@@ -40,7 +40,7 @@ This optimization step is very crucial for reconciling any data accuracy and com
  and those that may be hinted/hard-coded [here](https://blogs.msdn.microsoft.com/blogdoezequiel/2014/11/12/sql-swiss-army-knife-15-handling-duplicate-indexes/). 
 
 
-### Inability to use predicates to filter data
+#### Inability to use predicates to filter data
 
 * SQL Server optimizer can only account for information that is known at compile time
 * If a workload relies on predicates that can only be known at execution time, them the potential for a poor plan choice increases.
@@ -61,7 +61,7 @@ This optimization step is very crucial for reconciling any data accuracy and com
 	3.  Complex expressions based on columnar data – evaluate persisted learn columns.
 	4. All of the above can be done programmatically.
 
-### Use of Table Valued Functions (Multi-valued vs Inline)
+#### Use of Table Valued Functions (Multi-valued vs Inline)
 
 * Return a table data type that can be an alternative to views. 
 * While views are limited to a single SELECT statement, user-defined functions can contain additional statements that allow more logic than is possible in views.
@@ -69,7 +69,7 @@ This optimization step is very crucial for reconciling any data accuracy and com
 	* We can add indexes to the base table(s) but it is not going to help much. 
 	* SQL Server assumes 1 row will be returned from a TVF (with SQL Server 2014 that becomes 100).
 
-## SQL Server Heuristics
+#### SQL Server Heuristics
 Learn more about [SQL Server heuristics](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/ and https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/).
 
 **Steps to resolve**
@@ -101,7 +101,7 @@ Learn more about [SQL Server heuristics](https://blogs.msdn.microsoft.com/blogdo
 
 * If more complex, consider using intermediate results stored in in-memory tables or temporary tables.
 
-**Performance Tuning Tools**
+### Performance Tuning Tools
 
 It is difficult to determine when, why and how the plan changed. Fixing Plan Choice Regressions can be hard. Here are a few steps that can help diagnose plan regressions. 
 
