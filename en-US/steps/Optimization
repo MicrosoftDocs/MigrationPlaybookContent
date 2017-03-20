@@ -70,10 +70,11 @@ This optimization step is very crucial for reconciling any data accuracy and com
 	* SQL Server assumes 1 row will be returned from a TVF (with SQL Server 2014 that becomes 100).
 
 #### SQL Server Heuristics
-Learn more about [SQL Server heuristics](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/ and https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/).
+Learn more about [SQL Server heuristics Part 1](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/11/30/table-variables-and-row-estimations-part-1/) and [Part 2](https://blogs.msdn.microsoft.com/blogdoezequiel/2012/12/09/table-variables-and-row-estimations-part-2/).
 
-**Steps to resolve**
-	* If the TVF is single statement only, convert to inline TVF.
+***Steps to resolve***
+
+* If the TVF is single statement only, convert to inline TVF.
 	“CREATE FUNCTION dbo.tfnGetRecentAddress(@ID int)
 	RETURNS @tblAddress TABLE
 	([Address] VARCHAR(60) NOT NULL)
