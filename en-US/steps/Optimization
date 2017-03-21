@@ -71,6 +71,7 @@ Learn more about [SQL Server heuristics Part 1](https://blogs.msdn.microsoft.com
 ***Steps to resolve***
 
 If the TVF is single statement only, convert to inline TVF.
+
 	“CREATE FUNCTION dbo.tfnGetRecentAddress(@ID int)
 	RETURNS @tblAddress TABLE
 	([Address] VARCHAR(60) NOT NULL)
