@@ -4,11 +4,11 @@
 		{
 			filelocation: "Costs",
 			actions: [ {
-					type: "forwardlink",
+					actiontype: "forwardlink",
 					filelocation: "tcocalculator"
 				},
 				{
-					type: "download",
+					actiontype: "download",
 					filelocation: "pricingcalculator"
 				}
 			]
