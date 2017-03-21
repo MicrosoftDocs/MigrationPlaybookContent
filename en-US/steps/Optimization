@@ -1,3 +1,4 @@
+<!-- Post-Migration Optimization -->
 This optimization step is very crucial for reconciling any data accuracy and completeness; performance issues with the workload. There are no automated tools for post migration validation and optimization, but Tiger can provide scripts that aid in the detection of some of these tasks/scenarios (Tiger is also building some automation to query plan analysis starting in Potassium, that can be leveraged as part of this). Below are the recommend steps for Performance Tuning Patterns and Practices.
 
 ### Common Performance Scenarios
