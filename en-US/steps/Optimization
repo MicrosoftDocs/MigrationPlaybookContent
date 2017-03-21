@@ -1,3 +1,16 @@
+***Steps to resolve***
+
+* Use the RECOMPILE hint.
+* With this a plan is calculated every time, adapted to each parameter value.
+* Rewrite the stored procedure to use the option (OPTIMIZE FOR(<input parameter> = <value>)).
+* Need to decide which value we want to use that suits most of the relevant workload, creating and maintaining one plan that becomes efficient for the parameterized value.
+* Rewrite the stored procedure using local variable inside the procedure.
+* Now the optimizer uses the density vector for estimations, resulting in the same plan regardless of the parameter value.
+* Rewrite the stored procedure to use the option (OPTIMIZE FOR UNKNOWN).
+* Same practical effect as using the local variable technique.
+* Rewrite the query to use the hint 'DISABLE_PARAMETER_SNIFFING'.
+* Same practical effect as using the local variable technique by totally disabling parameter sniffing, unless OPTION(RECOMPILE), WITH RECOMPILE or OPTIMIZE FOR value is used.
+
 #### Missing indexes
 
 * Wrong or missing indexes causes extra I/O, which leads to extra memory and CPU being wasted.
