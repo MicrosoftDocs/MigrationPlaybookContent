@@ -2,14 +2,14 @@
 
 |**Phase**|**Description**|**Steps**|
 |:--------|:--------------|:--------|
-|Define/Discover|	Requirements, success, risks for your migration project.	|1.	Download MAP Toolkit from Microsoft Download Center.
-2.	Get reports on Discovery & Inventory, Oracle schema reporting, and Hardware and Platform details. |
-|Assessment|	Inventory of your current database assets and application stack discovery.|	1.	Download SQL Server Migration Assistant from Microsoft Download Center.
-2.	Review database objects and data
-3.	Assess databases for migration.|
-|Migration & Remediation|	Schema and data migration; perform validations. |	1.	Download SQL Server Migration Assistant from Microsoft Download Center.
-2.	Review database objects and data
-3.	Migrate Oracle databases to SQL Server or Azure SQL Database.|
-|Optimization|	Fix performance issues with the workload.|	TBD|
+|Define/Discover|Requirements, success, risks for your migration project.|1.	Download MAP Toolkit from Microsoft Download Center.
+2. Get reports on Discovery & Inventory, Oracle schema reporting, and Hardware and Platform details.|
+|Assessment|Inventory of your current database assets and application stack discovery.|1.	Download SQL Server Migration Assistant from Microsoft Download Center.
+2. Review database objects and data
+3. Assess databases for migration.|
+|Migration & Remediation|Schema and data migration; perform validations. |1. Download SQL Server Migration Assistant from Microsoft Download Center.
+2. Review database objects and data
+3. Migrate Oracle databases to SQL Server or Azure SQL Database.|
+|Optimization|Fix performance issues with the workload.|TBD|
 
 
