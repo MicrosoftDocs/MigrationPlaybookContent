@@ -9,3 +9,9 @@ You can use **SQL Server Migration Assistant (SSMA)** to accomplish the above st
 Learn more about [SSMA Assessments](https://blogs.msdn.microsoft.com/ssma/). 
 
 Download the **SSMA** from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54258).
+
+By using SSMA for Oracle, you can do the following:
+  * Review database objects and data.
+  * Assess databases for migration.
+  * Migrate Oracle databases to SQL Server or Azure SQL Database.
+
