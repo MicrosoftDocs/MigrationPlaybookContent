@@ -1,4 +1,4 @@
-<! -- Assessment -->
+<!-- Assessment -->
 
 Once the data sources are identified, each one needs to be scanned to identify gaps between source and target. This includes identifying compatibility issues, feature parity, incompatible source schema etc. 
 Example: When migrating from SQL Server 2005 on-prem instance to Azure SQL DB, we need to identify all the features that are not supported in Azure SQL DB such as SQL Agent jobs, or unsupported syntax such as non-ANSI style joins.
