@@ -1,6 +1,7 @@
 <! -- Quick step by step guide -->
 
-Phase	Description	Steps
+|**Phase**|**Description**|**Steps**|
+|:--------|:--------------|:--------|
 Define/Discover	Requirements, success, risks for your migration project.	1.	Download MAP Toolkit from Microsoft Download Center.
 2.	Get reports on Discovery & Inventory, Oracle schema reporting, and Hardware and Platform details. 
 Assessment	Inventory of your current database assets and application stack discovery.	1.	Download SQL Server Migration Assistant from Microsoft Download Center.
