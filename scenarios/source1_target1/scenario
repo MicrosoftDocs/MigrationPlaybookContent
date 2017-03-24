@@ -12,6 +12,10 @@
 					filelocation: "pricingcalculator"
 				}
 			]
+		},
+		{
+			filelocation: "Licensing",
+			actions: [ ]
 		}
 	],
 	technicalsectionitems: 
