@@ -35,11 +35,11 @@
 	        {
 		 	filelocation: "Optimization",
 	                actions: [ ]  
-		}
+		},
 		{
 			filelocation: "QuickSteps",
 			actions: [ ]
-		},
+		}
 	],
 	footer: 
 	{
