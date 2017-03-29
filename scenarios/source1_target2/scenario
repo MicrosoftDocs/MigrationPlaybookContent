@@ -2,22 +2,48 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "costs",
-			actions: [
-				{ filelocation: "tcocalculator" },
-				{ filelocation: "pricingcalculator" }
+			filelocation: "Costs",
+			actions: [ {
+					actiontype: "forwardlink",
+					filelocation: "tcocalculator"
+				},
+				{
+					actiontype: "download",
+					filelocation: "pricingcalculator"
+				}
 			]
 		},
 		{
-			filelocation: "Assessment",
-			actions: [ ]
+			filelocation: "Licensing",
+			actions: [ ]
+		},
+		{
+			filelocation: "On-Prem vs. Cloud",
+			actions: [ ]
 		}
+
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "Migration",
-			actions: [ ]
+			filelocation: "Overview",
+			actions: [ ]
+		},
+		{
+                 	filelocation: "Assessment",
+			actions: [ ]
+		},
+		{
+                        filelocation: "Migration",
+	                actions: [ ]  
+		},
+	        {
+		 	filelocation: "Optimization",
+	                actions: [ ]  
+		},
+		{
+			filelocation: "QuickSteps",
+			actions: [ ]
 		}
 	],
 	footer: 
@@ -25,3 +51,4 @@
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
+
