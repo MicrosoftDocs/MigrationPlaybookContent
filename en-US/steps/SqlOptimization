@@ -1,0 +1,5 @@
+<!--Optimization-->
+
+Post data and schema migration, the target needs to be tested to identify functional and perf issues. Most of the functional issues will be identified during assessments, however assessments cannot identify 100% of issues specially with performance. Therefore, the target needs to be tested with production workload and fine-tuned. This also involves using new features from target to improve performance.
+
+Read the Common Performance Scenarios (TBD: link to new blog entry) and how to resolve them. Read this for recommended steps on Performance Tuning Patterns and Practices (TBD: link to new blog entry).
