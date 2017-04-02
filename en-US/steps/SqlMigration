@@ -1,0 +1,13 @@
+<! -- Migration -->
+
+After assessing your databases, the next step is to execute the migration process. Migration involves two steps - schema migration and data migration.
+
+You can use **Data Migration Assistant (DMA)** to assess the database, identify potential upgrade blockers, resolve issues, and migrate your schema and data to target SQL platform.
+
+Learn more about [DMA migrations](https://blogs.msdn.microsoft.com/datamigration/dma/).
+
+Download the DMA from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
+
+DMA migration workflow can help you with the following:
+* Migrate on-premises SQL Server instance to a modern SQL Server instance hosted on-premises or on an Azure virtual machine accessible from your on-premises network (via VPN or other technologies). 
+* Migration workflow helps you migrate the following components: Schema of databases, Data and users, Server roles, SQL and windows logins.
