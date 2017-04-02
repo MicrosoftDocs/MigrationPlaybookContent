@@ -28,35 +28,8 @@
 		{
 			filelocation: "SqlOverview",
 			actions: [ ]
-		},
-		{
-                 	filelocation: "SqlDiscover",
-			actions: [ ]
-		},
-		{
-                        filelocation: "SqlAssessment",
-	                actions: [ ]  
-		},
-	        {
-		 	filelocation: "SqlMigration",
-	                actions: [ ]  
-		},
-		{
-			filelocation: "SqlDataSync",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlRemediateApp",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlOptimization",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlCutover",
-			actions: [ ]
 		}
+		
 	],
 	footer: 
 	{
