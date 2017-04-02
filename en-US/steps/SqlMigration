@@ -1,4 +1,4 @@
-<! -- Migration -->
+<!-- Migration -->
 
 After assessing your databases, the next step is to execute the migration process. Migration involves two steps - schema migration and data migration.
 
