@@ -30,11 +30,11 @@
 			actions: [ ]
 		},
 		{
-                 	filelocation: "Assessment",
+                 	filelocation: "SqlDiscover",
 			actions: [ ]
 		},
 		{
-                        filelocation: "Migration",
+                        filelocation: "SqlAssessment",
 	                actions: [ ]  
 		},
 	        {
