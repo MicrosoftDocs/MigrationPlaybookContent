@@ -38,11 +38,23 @@
 	                actions: [ ]  
 		},
 	        {
-		 	filelocation: "Optimization",
+		 	filelocation: "SqlMigration",
 	                actions: [ ]  
 		},
 		{
-			filelocation: "QuickSteps",
+			filelocation: "SqlDataSync",
+			actions: [ ]
+		},
+		{
+			filelocation: "SqlRemediateApp",
+			actions: [ ]
+		},
+		{
+			filelocation: "SqlOptimization",
+			actions: [ ]
+		},
+		{
+			filelocation: "SqlCutover",
 			actions: [ ]
 		}
 	],
