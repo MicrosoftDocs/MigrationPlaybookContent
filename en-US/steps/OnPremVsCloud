@@ -1,4 +1,3 @@
-<!-- OnPremVsCloud -->
+<!-- Upgrade Options -->
 
-If you are upgrading relational databases from SQL on-prem, check out the upgrade options on the [Microsoft platform] 
-(https://docs.microsoft.com/en-us/sql/database-engine/install-windows/are-you-upgrading-from-sql-server-2005).
+If you are upgrading relational databases from SQL on-prem, check out the upgrade options on the [Microsoft platform](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/are-you-upgrading-from-sql-server-2005).
