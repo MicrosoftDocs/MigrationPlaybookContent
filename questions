@@ -37,7 +37,6 @@
 			"text": "QuestionTarget",
 			"options": [
 				"AnswerTargetSqlServer",
-				"AnswerTargetSqlServerVm",
 				"AnswerTargetAzureSql",
 				"AnswerTargetHelpMe"
 			],
