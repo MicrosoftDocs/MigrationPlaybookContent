@@ -26,11 +26,19 @@
 		},
 		{
                  	filelocation: "Assessment",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "SSMADownload"
+				}
+			]
 		},
 		{
                         filelocation: "Migration",
-	                actions: [ ]  
+	                actions: [ {
+					actiontype: "download",
+					filelocation: "SSMADownload"
+				}
+			] 
 		},
 	        {
 		 	filelocation: "Optimization",
