@@ -39,11 +39,19 @@
 		},
 		{
 			filelocation: "SqlAssessment",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "DMADownload"
+				}
+			]
 		},
 		{
 			filelocation: "SqlMigration",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "DMADownload"
+				}
+			]
 		},
 		{
 			filelocation: "SqlDataSync",
