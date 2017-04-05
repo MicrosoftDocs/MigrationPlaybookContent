@@ -8,7 +8,6 @@ toolkit for SQL Server to securely assess your environment for your migration.
 Download the MAP Toolkit from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=316883).
 
 With MAP, you get the following reports for migration to the latest version of SQL Server:
-* Discovery and inventory: Database inventory and reporting of SQL Server and Oracle instances on Windows and Linux based servers and Oracle schemas in your organization.
+* Discovery and inventory: Database inventory and reporting of SQL Server instances on Windows and Linux based servers and schemas in your organization.
 * Detailed reporting: Covers specific SQL Server instances that include component name, version, edition, and more. Includes wide-ranging details of databases and server instances that can be used for consolidation. 
-* Oracle schema reporting identifies the size and use of each schema, estimates of the complexity of migration which may suggest candidates for migration to SQL Server. This information can be used to determine the total cost of ownership in maintaining Oracle and the potential ROI from switching to SQL Server.
 * Hardware and platform details: Details for computers that are running heterogeneous database instances, including determining whether the machines are virtual or physical.
