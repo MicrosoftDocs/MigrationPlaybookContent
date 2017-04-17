@@ -62,6 +62,18 @@
 			actions: [ ]
 		}
 	],
+	casestudies:
+	[
+		{
+			filelocation: "Sumitomo"
+		},
+		{
+			filelocation: "KDS"
+		},
+		{
+			filelocation: "PTC"
+		}
+	],
 	footer: 
 	{
 		// empty for now but will probably contain lists of download links etc.
