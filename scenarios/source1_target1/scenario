@@ -49,17 +49,11 @@
 			actions: [ ]
 		}
 	],
-	casestudies:
+	casestudiesfilelocations:
 	[
-		{
-			filelocation: "Sumitomo"
-		},
-		{
-			filelocation: "KDS"
-		},
-		{
-			filelocation: "PTC"
-		}
+		"Sumitomo",
+		"KDS",
+		"PTC"
 	],
 	footer: 
 	{
