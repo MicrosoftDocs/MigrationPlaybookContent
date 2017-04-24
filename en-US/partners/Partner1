@@ -1,5 +1,5 @@
 {
-	name: "Partner1",
+	title: "Partner1",
 	text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm nibh euismod tincidunt."
 	url: "https://partner.microsoft.com/"
 }
