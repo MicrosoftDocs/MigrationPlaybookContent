@@ -46,5 +46,14 @@ Edit the "questions" file instead.
 			],
 			"required": "false"
 		}
+	],
+	casestudies:
+	[
+		{
+			filelocation: "CaseStudy1"
+		},
+		{
+			filelocation: "CaseStudy2"
+		}
 	]
 }
