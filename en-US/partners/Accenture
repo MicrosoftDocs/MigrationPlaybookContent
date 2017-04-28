@@ -1,5 +1,7 @@
 {
 	title: "Accenture",
 	text: "Accenture can help clients obtain more value out of existing investments by re-platforming, decommissioning, remediating, and reverse engineering existing or legacy technologies and applications.",
-	url: "https://www.platformmodernization.org/accenture/Pages/Default.aspx"
+	url: "https://www.platformmodernization.org/accenture/Pages/Default.aspx",
+	logoUrl: "https://mpbdevcontent.azureedge.net/Images/capax-logo.jpg",
+	logoAltText: "Capax Global"
 }
