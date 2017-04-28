@@ -1,7 +1,7 @@
 {
-	title: "Partner2",
-	text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm nibh euismod tincidunt.",
-	url: "https://partner.microsoft.com/",
+	title: "Capax Global",
+	text: "Capax Global specializes in providing end-to-end solution delivery .",
+	url: "https://www.platformmodernization.org/capax/Pages/Default.aspx",
 	logoUrl: "https://mpbdevcontent.azureedge.net/Images/capax-logo.jpg",
 	logoAltText: "Capax Global"
 }
