@@ -89,10 +89,10 @@
 	partners:
 	[
 		{
-			filelocation: "Accenture"
+			filelocation: "Fujitsu"
 		},
 		{
-			filelocation: "Partner2"
+			filelocation: "DSP"
 		}
 	],
 	footer: 
