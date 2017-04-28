@@ -2,6 +2,6 @@
 	title: "Sumitomo",
 	text: "Shifts from Oracle and Itanium to the Microsoft Platform, Cutting Costs by Half",
 	url: "http://customers.microsoft.com/en-us/story/company-shifts-from-oracle-and-itanium-to-the-microsof",
-	logoUrl: "",
-	logoAltText: "Sumitomo Logo"
+	logoUrl: "https://mpbdevcontent.azureedge.net/Images/manufacturing.png",
+	logoAltText: "Sumitomo"
 }
