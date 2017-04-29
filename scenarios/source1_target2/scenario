@@ -61,6 +61,15 @@
 			filelocation: "PTC"
 		}
 	],
+	partners:
+	[
+		{
+			filelocation: "Accenture"
+		},
+		{
+			filelocation: "Fujitsu"
+		}
+	],
 	footer: 
 	{
 		// empty for now but will probably contain lists of download links etc.

@@ -77,13 +77,22 @@
 	casestudies:
 	[
 		{
-			filelocation: "Sumitomo"
+			filelocation: "Convergent"
 		},
 		{
-			filelocation: "KDS"
+			filelocation: "Derivco"
 		},
 		{
-			filelocation: "PTC"
+			filelocation: "SBI"
+		}
+	],
+	partners:
+	[
+		{
+			filelocation: "Fujitsu"
+		},
+		{
+			filelocation: "DSP"
 		}
 	],
 	footer: 

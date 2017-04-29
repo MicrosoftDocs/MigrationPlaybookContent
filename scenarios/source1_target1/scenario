@@ -52,13 +52,22 @@
 	casestudies:
 	[
 		{
-			filelocation: "Sumitomo"
+			filelocation: "PACTGroup"
 		},
 		{
 			filelocation: "KDS"
 		},
 		{
 			filelocation: "PTC"
+		}
+	],
+	partners:
+	[
+		{
+			filelocation: "Accenture"
+		},
+		{
+			filelocation: "Fujitsu"
 		}
 	],
 	footer: 
