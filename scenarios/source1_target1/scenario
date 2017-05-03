@@ -2,7 +2,7 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "Costs",
+			filelocation: "Rationale",
 			actions: [ {
 					actiontype: "forwardlink",
 					filelocation: "tcocalculator"
