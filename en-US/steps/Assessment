@@ -1,13 +1,9 @@
 <!-- Assessment -->
 
-Once the data sources are identified, each one needs to be scanned to identify gaps between source and target. This includes identifying compatibility issues, feature parity, incompatible source schema etc. 
-Example: When migrating from SQL Server 2005 on-prem instance to Azure SQL DB, we need to identify all the features that are not supported in Azure SQL DB such as SQL Agent jobs, or unsupported syntax such as non-ANSI style joins.
+**Overview**
 
-You can use **SQL Server Migration Assistant (SSMA)** to assess the database, discover conversation rate and resolve any issues.
+After the data sources are identified, each data source needs to be scanned to identify any discrepancies between the source and the target. These discrepancies can include potential compatibility issues, feature parity, incompatible source schema, etc. For example, when migrating from a SQL Server 2005 on-premises instance to Azure SQL DB, we need to identify all the features that are not supported in Azure SQL DB such as SQL Agent jobs, or unsupported syntax such as non-ANSI style joins.
+You can use SQL Server Migration Assistant (SSMA) to assess the database, discover conversion rate, and resolve any issues.
 
-Learn more about [SSMA Assessments](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/). Download the **SSMA** from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54258). 
+Note: For more information about SSMA, see the article [SQL Server Migration Assistant for Oracle (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql).
 
-By using SSMA for Oracle, you can do the following:
-  * Review database objects and data.
-  * Assess databases for migration.
-  * Migrate Oracle databases to SQL Server or Azure SQL Database.
