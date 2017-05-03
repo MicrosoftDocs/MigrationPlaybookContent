@@ -7,3 +7,14 @@ You can use SQL Server Migration Assistant (SSMA) to assess the database, discov
 
 Note: For more information about SSMA, see the article [SQL Server Migration Assistant for Oracle (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql).
 
+**Process**
+
+To use SSMA for Oracle to create an assessment, perform the following steps.
+1.Download SSMA from the Microsoft Download Center here, and then install it.
+_SSMA is now ready for use._
+
+2.Assess the source database and discover conversion rate and effort to resolve issues.
+_This will generate an HTML report with conversion statistics and error/ warnings. Be sure to analyze this report to understand any conversion issues and their cause. Then address the issues before continuing to the next step._
+
+3.Perform schema conversion.
+_With the schema conversion is complete, you are ready to move on to the Migration phase._
