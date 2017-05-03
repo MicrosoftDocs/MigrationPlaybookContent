@@ -14,7 +14,7 @@
 			]
 		},
 		{
-			filelocation: "Licensing",
+			filelocation: "ProductLicensing",
 			actions: [ ]
 		}
 	],
