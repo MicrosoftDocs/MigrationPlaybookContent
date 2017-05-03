@@ -1,6 +1,6 @@
 <!--Process Overview-->
 Migrations should be approached with the same rigor and processes as a full software or hardware project. A methodology is required for
-success. We have these 5 step process we recommend for migration projects. 
+success. We recommend the below steps for migration project considerations. 
 
 ![Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess.png)
 
@@ -16,5 +16,3 @@ Each phase in the process is briefly described as below:
 
 
 Proceed to next sections to learn about recommended assessment & migration tools. If you need assistance with your migration needs, see the list of recommended [partners](http://migration/Pages/SearchPartners.aspx).
-
-
