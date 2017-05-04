@@ -6,10 +6,6 @@
 			actions: [ {
 					actiontype: "forwardlink",
 					filelocation: "tcocalculator"
-				},
-				{
-					actiontype: "download",
-					filelocation: "pricingcalculator"
 				}
 			]
 		},

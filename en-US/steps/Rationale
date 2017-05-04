@@ -1,0 +1,31 @@
+<!--Rationale for Migrating-->
+
+Customers and partners alike have touted SQL Server 2016 as the best release ever. For clients currently using Oracle, there is no better time to migrate to the industry leading data platform. Consider the following points.
+
+If **security** is a concern:
+
+For the 6th year in a row, SQL Server is the **least vulnerable database** based on data from NIST (National Institute of Standards and Technology), which shows that SQL Server has the fewest vulnerabilities despite having more units deployed in production than both Oracle and IBM combined.  SQL Server 2016 also delivers layers of protection with capabilities that can protect your data at rest and in motion. This multi-layered approach combined with proven track record of being least vulnerable provide you with the most secure database on the planet. 
+
+If **performance** is a concern:
+
+From a performance perspective, looking at TPC-H a standard benchmark for Data Warehousing workloads, SQL holds the number #1, #2, and #3 spots for non-clustered scale up performance on multiple hardware platforms including HP, Lenovo and Cisco and for multiple data sizes including 1TB, 3TB ,10TB and now 30B.  For the 10TB workload, Oracle first comes in at #5.  This not only showcases SQL Server performance, but performance at scale for data warehousing.
+
+If **end-to-end mobile BI on any device** is a concern:
+
+SQL Server 2016 will be integrating this technology into Reporting Services so that customers will be able to publish modern reports using PowerBI or Excel 2016 to an iPhone, Android phone, as well as Windows phone.  Best of all its built-in so no need to buy a separate product.  With the new integration of Power BI and SQL Server, you can enable self-service BI in addition to mobility. SQL Server can tackle all data workloads give you BI and Advanced Analytics built-in.
+
+If having **in-databased Advanced Analytics** is a concern:
+
+Many customers are exploring going beyond BI into predictive analytics where they want to proactively pave their business’ future with data rather than react to data.  With SQL Server 2016 you can now accomplish this with built-in in-database advanced analytics.  Again, the key here is in-database, because when we talk to customers trying to implement advanced analytics the number one challenge is moving the data out of your database to do perform open source R models.  In addition, customers want to perform analysis using R models on the latest data.  With 2016 you can create and run R models directly in the database, combining the power of open source R with SQL Server in-memory technology for incredibly fast reads and writes. 
+
+If having a **consistent experience from on-premises to cloud** is a concern:
+
+SQL Server 2016 delivers these capabilities with a consistent experience both on-premises and in the cloud, and with common development and management tools and common T-SQL. Customers decide what is best for each application or workload, and they can move from on-premises to the cloud without having to rewrite an application, learn new development tools, a new development language, or new management tools. Only Microsoft can offer this consistent experience across identity, virtualization, management, and dev-ops. We’ve got all the tools to ensure that we deliver a great experience no matter where you choose to deploy!
+
+If having **In-memory across workloads** is a concern:
+
+SQL Server 2016’s optimized in-memory technology increases performance across all workloads by using an in-memory OLTP. This provides up to 30x transactional performance to our in-memory columnstore that enables over 100x faster queries for data warehouse and BI workloads.  With SQL Server 2016, customers can combine in-memory technologies to deliver super-fast reads on top of super-fast writes, which enables real-time operational analytics.
+
+If **costs** are a concern:
+
+SQL Server 2016 delivers 11.7X better TCO than a comparable Oracle solution. And these are annualized cost savings! More importantly, with Oracle, it is not what you are paying for now, but what you will pay in the future. Taking advantage of additional capabilities increases your cost of operations. With SQL Server 2016, developments in in-memory, advanced analytics, and mobile BI are all built-into the product, with no need for any additional investment.

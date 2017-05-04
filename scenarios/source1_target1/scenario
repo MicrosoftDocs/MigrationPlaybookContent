@@ -2,19 +2,15 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "Costs",
+			filelocation: "Rationale",
 			actions: [ {
 					actiontype: "forwardlink",
 					filelocation: "tcocalculator"
-				},
-				{
-					actiontype: "download",
-					filelocation: "pricingcalculator"
 				}
 			]
 		},
 		{
-			filelocation: "Licensing",
+			filelocation: "ProductLicensing",
 			actions: [ ]
 		}
 	],
@@ -64,7 +60,7 @@
 	partners:
 	[
 		{
-			filelocation: "Accenture"
+			filelocation: "Capax"
 		},
 		{
 			filelocation: "Fujitsu"
