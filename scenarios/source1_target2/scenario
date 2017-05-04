@@ -3,10 +3,7 @@
 	[
 		{
 			filelocation: "Costs",
-			actions: [ {
-					actiontype: "forwardlink",
-					filelocation: "tcocalculator"
-				},
+			actions: [ 
 				{
 					actiontype: "download",
 					filelocation: "pricingcalculator"
