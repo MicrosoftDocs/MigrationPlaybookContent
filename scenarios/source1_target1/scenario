@@ -21,6 +21,10 @@
 			actions: [ ]
 		},
 		{
+			filelocation: "Discover",
+			actions: [ ]
+		},
+		{
                  	filelocation: "Assessment",
 			actions: [ {
 					actiontype: "download",
@@ -46,6 +50,10 @@
 		},
 		{
 			filelocation: "DataSync",
+			actions: [ ]
+		},
+		{
+			filelocation: "Cutover",
 			actions: [ ]
 		}
 	],
