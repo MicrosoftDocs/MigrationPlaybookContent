@@ -7,6 +7,10 @@
 				{
 					actiontype: "download",
 					filelocation: "pricingcalculator"
+				},
+				{
+					actiontype: "download",
+					filelocation: "AzureTCO"
 				}
 			]
 		},
