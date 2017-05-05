@@ -1,11 +1,19 @@
 <!--Discover-->
 
-Scan your inventory to build a list of data sources. The goal is to identify all the existing data sources and your organization’s state/version to understand and plan migration. This involves scanning network to identify all the SQL Server instances that your organization has along with the version and features that are being used. 
+**Overview**
+
+Scan your inventory to build a list of data sources. The goal is to identify all the existing data sources and your organization’s state/version to understand and plan migration. This involves scanning network to identify all the Oracle instances that your organization has along with the version and features that are being used. 
 
 You can use [Microsoft Assessment and Planning (MAP)](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)
 toolkit to securely assess your environment for your migration.
 
-Download the MAP Toolkit from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=316883).
+**Process**
+
+To use MAP Toolkit to perform an inventory scan, perform the following steps.
+
+1.Download the MAP Toolkit from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=316883) and install it.
+
+_MAP Toolkit is now ready for use._
 
 With MAP, you get the following reports for migration to the latest version of SQL Server:
 * Discovery and inventory: Database inventory and reporting of SQL Server instances on Windows and Linux based servers and schemas in your organization.
