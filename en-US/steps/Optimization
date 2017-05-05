@@ -1,6 +1,6 @@
 <!--Optimization-->
 This post migration step is very crucial for reconciling any data accuracy and completeness, as well as uncover performance issues with the workload. 
 
-For ccommon performance scenarios encountered after migrating to SQL Server Platform and steps to resolve them, see the following resource:
+For common performance scenarios encountered after migrating to SQL Server Platform and steps to resolve them, see the following resource:
 
 * [Post-migration Validation and Optimization Guide](https://review.docs.microsoft.com/en-us/sql/relational-databases/post-migration-validation-and-optimization-guide?branch=pr-en-us-1554)
