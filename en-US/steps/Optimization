@@ -1,5 +1,5 @@
 <!--Optimization-->
-SQL Server post migration step is very crucial for reconciling any data accuracy and completeness, as well as uncover performance issues with the workload. 
+This post migration step is very crucial for reconciling any data accuracy and completeness, as well as uncover performance issues with the workload. 
 
 For ccommon performance scenarios encountered after migrating to SQL Server Platform and steps to resolve them, see the following resource:
 
