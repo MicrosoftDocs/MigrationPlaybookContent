@@ -1,4 +1,4 @@
-<!--Optimization-->
+<!--Optimize-->
 The post migration step is very crucial for reconciling any data accuracy and completeness, as well as uncovering performance issues with the workload.
 
 Common performance scenarios encountered after migrating to SQL Server Platform can include:
