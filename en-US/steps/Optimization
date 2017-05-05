@@ -8,7 +8,6 @@ Common performance scenarios encountered after migrating to SQL Server Platform 
 **Missing indexes** - Evidence of a poor indexing strategy or changes in workload profile include:
 
 * Looking for duplicate, redundant, rarely used and completely unused indexes.
-
 * Taking special care with unused indexes with updates.
 
 **Inability to use predicates to filter data** - SQL Server Query Optimizer can only account for information that is known at compile time. If a workload relies on predicates that can only be known at execution time, then the potential for a poor plan choice increases. For a better-quality plan, predicates must be **S**earch **Arg**ument**able** (SARGable).
