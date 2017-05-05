@@ -40,13 +40,17 @@
 				}
 			] 
 		},
-	        {
-		 	filelocation: "Optimization",
-	                actions: [ ]  
-		},
 		{
 			filelocation: "RemediateApps",
 			actions: [ ]
+		},
+		{
+			filelocation: "PerformTests",
+			actions: [ ]
+		},
+	        {
+		 	filelocation: "Optimization",
+	                actions: [ ]  
 		},
 		{
 			filelocation: "DataSync",
