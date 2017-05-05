@@ -41,7 +41,11 @@
 	                actions: [ ]  
 		},
 		{
-			filelocation: "QuickSteps",
+			filelocation: "RemediateApps",
+			actions: [ ]
+		},
+		{
+			filelocation: "DataSync",
 			actions: [ ]
 		}
 	],
