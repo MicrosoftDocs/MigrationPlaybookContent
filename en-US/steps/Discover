@@ -1,1 +1,14 @@
 <!--Discover-->
+
+Scan your inventory to build a list of data sources. The goal is to identify all the existing data sources and your organization’s state/version to understand and plan migration. This involves scanning network to identify all the SQL Server instances that your organization has along with the version and features that are being used. 
+
+You can use [Microsoft Assessment and Planning (MAP)](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)
+toolkit to securely assess your environment for your migration.
+
+Download the MAP Toolkit from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=316883).
+
+With MAP, you get the following reports for migration to the latest version of SQL Server:
+* Discovery and inventory: Database inventory and reporting of SQL Server instances on Windows and Linux based servers and schemas in your organization.
+* Detailed reporting: Covers specific SQL Server instances that include component name, version, edition, and more. Includes wide-ranging details of databases and server instances that can be used for consolidation. 
+* Hardware and platform details: Details for computers that are running heterogeneous database instances, including determining whether the machines are virtual or physical.
+
