@@ -27,8 +27,8 @@
 			"options": [
 				"AnswerSourceOracle",
 				"AnswerSourceSqlServer",
-				"AnswerSourceTeradata",
-				"AnswerSourceMySql",
+				"AnswerSourceMySQL",
+				"AnswerSourceDB2",
 			],
 			"required": "true"
 		},
