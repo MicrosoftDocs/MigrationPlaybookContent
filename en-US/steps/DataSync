@@ -1,0 +1,3 @@
+<!-- Data Sync -->
+
+The source that is being migrated will continue to change post one-time migration and will drift from the target in terms of data as well as schema. With this stage, you will need to ensure that all changes from source are captured and applied to the target in near real time manner.
