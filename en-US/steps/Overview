@@ -8,11 +8,15 @@ Each phase in the process is briefly described as below:
 
 |**Phase** |**Description** |
 |:---------|:---------------|
-|Define | Requirements, success and risks for your migration project. |
-|Assess | Inventory of your current database assets and application stack discovery. |
-|Design | Design to land the migration, plan to expand. |
-|Migrate/Test/Remediate     | Schema and data migration; perform validations. |
-|Deploy | Deployment workflow to production. |
+|Discover | Inventory of your current database assets and application stack discovery.|
+|Assess & Convert | Assess workloads and fix recommedations; schema conversion. |
+|Migrate | Iterative process of schema and data migration; perform validations. |
+|Remediate Applications | Iterative process of making necessary changes to applications, if any. |
+|Perform Tests | Iterative process of execution funtional and performance tests. |
+|Optimize | Post-migration validation and optimization. |
+|Data Sync | Keep the data sync between source and target. |
+|Cutover | Rollback strategy and plans post migration. |
 
+For more details on the individual step, see the links on navigation bar.
 
-Proceed to next sections to learn about recommended assessment & migration tools. If you need assistance with your migration needs, see the list of recommended [partners](http://migration/Pages/SearchPartners.aspx).
+If you need assistance with your migration needs, see the list of recommended [partners](https://www.platformmodernization.org/).

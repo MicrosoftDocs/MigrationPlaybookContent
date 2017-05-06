@@ -21,6 +21,10 @@
 			actions: [ ]
 		},
 		{
+			filelocation: "Discover",
+			actions: [ ]
+		},
+		{
                  	filelocation: "Assessment",
 			actions: [ {
 					actiontype: "download",
@@ -36,16 +40,24 @@
 				}
 			] 
 		},
-	        {
-		 	filelocation: "Optimization",
-	                actions: [ ]  
-		},
 		{
 			filelocation: "RemediateApps",
 			actions: [ ]
 		},
 		{
+			filelocation: "PerformTests",
+			actions: [ ]
+		},
+	        {
+		 	filelocation: "Optimization",
+	                actions: [ ]  
+		},
+		{
 			filelocation: "DataSync",
+			actions: [ ]
+		},
+		{
+			filelocation: "Cutover",
 			actions: [ ]
 		}
 	],
