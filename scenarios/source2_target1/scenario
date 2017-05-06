@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			filelocation: "SqlDataSync",
+			filelocation: "SqlRemediateApps",
 			actions: [ ]
 		},
 		{
@@ -58,11 +58,11 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlRemediateApps",
+			filelocation: "SqlOptimization",
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlOptimization",
+			filelocation: "SqlDataSync",
 			actions: [ ]
 		},
 		{
