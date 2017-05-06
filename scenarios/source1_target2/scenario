@@ -34,7 +34,7 @@
 			]
 		},
 		{
-                        filelocation: "Migration",
+                        filelocation: "OracleAzureMigration",
 	                actions: [ {
 					actiontype: "download",
 					filelocation: "SSMADownload"
