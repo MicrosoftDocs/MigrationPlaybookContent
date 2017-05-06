@@ -2,8 +2,7 @@
 
 **Overview**
 
-After the data sources are identified, each data source needs to be scanned to identify any discrepancies between the source and the target. These discrepancies can include potential compatibility issues, feature parity, incompatible source schema, etc. For example, when migrating from a SQL Server 2005 on-premises instance to Azure SQL Database, we need to identify all the features that are not supported in Azure SQL Database such as SQL Agent jobs, or unsupported syntax such as non-ANSI style joins.
-You can use SQL Server Migration Assistant (SSMA) to assess the database, discover conversion rate, and resolve any issues.
+By using SQL Server Migration Assistant (SSMA) for Oracle, you can review database objects and data, assess databases for migration, migrate database objects to SQL Server, and then migrate data to SQL Server. 
 
 Note: For more information about SSMA, see the article [SQL Server Migration Assistant for Oracle (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql).
 
