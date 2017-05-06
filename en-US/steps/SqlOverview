@@ -1,4 +1,4 @@
-<!-- Overview -->
+<!-- Process Overview -->
 
 Migrations should be approached with the same rigor and processes as a full software or hardware project. A methodology is required for success. We recommend the below steps for migration project considerations.
 
@@ -9,7 +9,7 @@ Each phase in the process is briefly described in the following table:
 |**Phase** |**Description** |
 |:---------|:---------------|
 |Discover | Discover requirements, success, risks for your migration project. |
-|Assess | Assessment	Inventory of your current database assets and application stack discovery. |
+|Assess | Inventory of your current database assets and application stack discovery. |
 |Migrate Schema | Convert/Migrate Schema	Source schema needs to be converted to work in target. |
 |Migrate Data | Migration of data to target. |
 |Data Sync | Data Sync	Data and schema sync post migration. |
