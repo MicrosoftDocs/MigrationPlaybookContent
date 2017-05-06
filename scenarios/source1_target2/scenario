@@ -26,7 +26,7 @@
 			actions: [ ]
 		},
 		{
-                 	filelocation: "Assessment",
+                 	filelocation: "OracleAzureAssessment",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "SSMADownload"
