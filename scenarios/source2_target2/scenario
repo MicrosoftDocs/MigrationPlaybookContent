@@ -23,7 +23,7 @@
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "SqlOverview",
+			filelocation: "AzureSqlOverview",
 			actions: [ ]
 		},
 		{
