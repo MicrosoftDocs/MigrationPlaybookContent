@@ -1,1 +1,76 @@
-
+{
+	businesssectionitems: 
+	[
+		{
+			filelocation: "Rationale",
+			actions: [ {
+					actiontype: "forwardlink",
+					filelocation: "tcocalculator"
+				}
+			]
+		},
+		{
+			filelocation: "ProductLicensing",
+			actions: [ ]
+		}
+	],
+	technicalsectionitems: 
+	[
+		{
+			filelocation: "Overview",
+			actions: [ ]
+		},
+		{
+			filelocation: "Discover",
+			actions: [ ]
+		},
+		{
+                 	filelocation: "Assessment",
+			actions: [ {
+					actiontype: "download",
+					filelocation: "SSMADownload"
+				}
+			]
+		},
+		{
+                        filelocation: "Migration",
+	                actions: [ {
+					actiontype: "download",
+					filelocation: "SSMADownload"
+				}
+			] 
+		},
+		{
+			filelocation: "RemediateApps",
+			actions: [ ]
+		},
+		{
+			filelocation: "PerformTests",
+			actions: [ ]
+		},
+	        {
+		 	filelocation: "Optimization",
+	                actions: [ ]  
+		},
+		{
+			filelocation: "DataSync",
+			actions: [ ]
+		},
+		{
+			filelocation: "Cutover",
+			actions: [ ]
+		}
+	],
+	casestudies:
+	[
+		
+	],
+	partners:
+	[
+		
+	],
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
+}
