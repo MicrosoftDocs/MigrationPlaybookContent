@@ -64,10 +64,6 @@
 		{
 			filelocation: "SqlRollback",
 			actions: [ ]
-		},
-		{
-			filelocation: "SqlQuickSteps",
-			actions: [ ]
 		}
 	],
 	casestudies:
