@@ -7,7 +7,7 @@ For this, use Data Experimentation Assistant (DEA) to assist with evaluating the
 
 Note: For more information about DEA, see the article [here](https://blogs.msdn.microsoft.com/datamigration/2016/10/24/database-experimentation-assistant-v1-0-preview/).
 
-**Process*
+**Process**
 
 To use DEA for database migration testing, perform the following steps.
 
