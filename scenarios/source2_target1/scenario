@@ -54,6 +54,10 @@
 			actions: [ ]
 		},
 		{
+			filelocation: "SqlPerformTests",
+			actions: [ ]
+		},
+		{
 			filelocation: "SqlRemediateApps",
 			actions: [ ]
 		},
