@@ -2,23 +2,9 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "Costs",
-			actions: [ 
-				{
-					actiontype: "download",
-					filelocation: "pricingcalculator"
-				}
-			]
-		},
-		{
-			filelocation: "Licensing",
-			actions: [ ]
-		},
-		{
-			filelocation: "OnPremVsCloud",
+			filelocation: "AzureRationale",
 			actions: [ ]
 		}
-
 	],
 	technicalsectionitems: 
 	[
