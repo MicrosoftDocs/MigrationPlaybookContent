@@ -2,7 +2,7 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "Costs",
+			filelocation: "AzureRationale",
 			actions: [ 
 				{
 					actiontype: "download",
@@ -13,10 +13,6 @@
 					filelocation: "AzureTCO"
 				}
 			]
-		},
-		{
-			filelocation: "Licensing",
-			actions: [ ]
 		}
 	],
 	technicalsectionitems: 
