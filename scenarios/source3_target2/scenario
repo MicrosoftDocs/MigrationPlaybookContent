@@ -25,7 +25,7 @@
                  	filelocation: "AzureMySqlAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "SSMAForMySQLDownload"
 				}
 			]
 		},
@@ -33,7 +33,7 @@
                         filelocation: "Migration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "SSMAForMySQLDownload"
 				}
 			] 
 		},
