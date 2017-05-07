@@ -23,7 +23,11 @@
 		},
 		{
 			filelocation: "Discover",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "MAPDownload"
+				}
+			]
 		},
 		{
                  	filelocation: "OracleAzureAssessment",
