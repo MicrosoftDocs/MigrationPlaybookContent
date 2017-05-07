@@ -2,7 +2,7 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "AzureMySqlRationale",
+			filelocation: "AzureRationale",
 			actions: [ 
 			]
 		}
