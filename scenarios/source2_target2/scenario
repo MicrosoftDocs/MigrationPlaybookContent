@@ -29,15 +29,19 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlDataSync",
-			actions: [ ]
-		},
-		{
 			filelocation: "SqlRemediateApps",
 			actions: [ ]
 		},
 		{
+			filelocation: "PerformTests",
+			actions: [ ]
+		},	
+		{
 			filelocation: "SqlOptimization",
+			actions: [ ]
+		},
+		{
+			filelocation: "SqlDataSync",
 			actions: [ ]
 		},
 		{
