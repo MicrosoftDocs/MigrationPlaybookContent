@@ -15,7 +15,11 @@
 		},
 		{
 			filelocation: "Discover",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "MAPToolkit"
+				}
+			]
 		},
 		{
                  	filelocation: "AzureMySqlAssessment",
