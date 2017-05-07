@@ -14,7 +14,11 @@
 		},
 		{
 			filelocation: "SqlDiscover",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "MAPToolkit"
+				}
+			]
 		},
 		{
 			filelocation: "SqlAssessment",
