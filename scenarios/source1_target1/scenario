@@ -24,7 +24,7 @@
 			filelocation: "Discover",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "MAPDownload"
+					filelocation: "MAPToolkit"
 				}
 			]
 		},
