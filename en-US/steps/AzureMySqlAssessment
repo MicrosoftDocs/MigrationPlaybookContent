@@ -22,7 +22,7 @@ _This will generate an HTassessment ML report with conversion statistics and err
 
 _When the schema conversion is complete, you are ready to move on to the Migration phase._
 
-Note: For complete step-by-step guidance on installing and using SSMA for Oracle, see the following resources:
+Note: For complete step-by-step guidance on installing and using SSMA for MySQL, see the following resources:
 
 * [Getting Started with SSMA for MySQL (MySQLToSQL)](https://docs.microsoft.com/en-us/sql/ssma/mysql/getting-started-with-ssma-for-mysql-mysqltosql)
 * [Installing SSMA for MySQL (MySqlToSql)](https://docs.microsoft.com/en-us/sql/ssma/mysql/installing-ssma-for-mysql-mysqltosql)
