@@ -30,7 +30,7 @@
 			]
 		},
 		{
-                        filelocation: "Migration",
+                        filelocation: "MySqlAzureMigration",
 	                actions: [ {
 					actiontype: "download",
 					filelocation: "SSMAForMySqlDownload"
