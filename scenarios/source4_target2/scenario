@@ -15,7 +15,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "Discover",
+			filelocation: "DB2Discover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
