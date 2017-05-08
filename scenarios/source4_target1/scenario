@@ -2,7 +2,7 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "DB2Rationale",
+			filelocation: "SqlRationale",
 			actions: [ ]
 		}
 	],
