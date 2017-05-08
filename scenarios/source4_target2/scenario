@@ -1,12 +1,13 @@
 {
 	businesssectionitems: 
 	[
-      {
-        filelocation: "AzureRationale",
-        actions: [ 
-        ]
-      }
+	      {
+		filelocation: "AzureRationale",
+		actions: [ 
+		]
+	      }
 	],
+	
 	technicalsectionitems: 
 	[
 		{
@@ -22,18 +23,18 @@
 			]
 		},
 		{
-                 	filelocation: "AzureMySqlAssessment",
+			filelocation: "AzureMySqlAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForDB2Download"
 				}
 			]
 		},
 		{
-                        filelocation: "Migration",
-	                actions: [ {
+			filelocation: "Migration",
+			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForDB2Download"
 				}
 			] 
 		},
@@ -45,9 +46,9 @@
 			filelocation: "PerformTests",
 			actions: [ ]
 		},
-	        {
-		 	filelocation: "Optimization",
-	                actions: [ ]  
+		{
+			filelocation: "Optimization",
+			actions: [ ]  
 		},
 		{
 			filelocation: "DataSync",
@@ -60,11 +61,11 @@
 	],
 	casestudies:
 	[
-		
+
 	],
 	partners:
 	[
-		
+
 	],
 	footer: 
 	{
