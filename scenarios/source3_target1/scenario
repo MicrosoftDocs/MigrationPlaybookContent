@@ -2,9 +2,8 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "AzureRationale",
-			actions: [ 
-			]
+			filelocation: "Rationale",
+			actions: [ ]
 		}
 	],
 	technicalsectionitems: 
@@ -14,7 +13,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "Discover",
+			filelocation: "DB2Discover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -22,18 +21,18 @@
 			]
 		},
 		{
-                 	filelocation: "MySqlAzureAssessment",
+                 	filelocation: "DB2Assessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForDB2Download"
 				}
 			]
 		},
 		{
-                        filelocation: "MySqlAzureMigration",
+                        filelocation: "DB2Migration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForDB2Download"
 				}
 			] 
 		},

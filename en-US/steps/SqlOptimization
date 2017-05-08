@@ -1,5 +1,21 @@
-<!-- Optimization -->
+<!--Optimize-->
+The post migration step is very crucial for reconciling any data accuracy and completeness, as well as uncovering performance issues with the workload.
 
-Post data and schema migration, the target needs to be tested to identify functional and perf issues. Most of the functional issues will be identified during assessments, however assessments cannot identify 100% of issues specially with performance. Therefore, the target needs to be tested with production workload and fine-tuned. This also involves using new features from target to improve performance.
+Common performance scenarios encountered after migrating to SQL Server or Azure SQL Platforms can include:
 
-Read the Common Performance Scenarios (TBD: link to new blog entry) and how to resolve them. Read this for recommended steps on Performance Tuning Patterns and Practices (TBD: link to new blog entry).
+**Sensitivity to parameter sniffing** - SQL Server compiles query plans on stored procedures by using sniffing the input parameters at the first compile, generating a parameterized and reusable plan, optimized for that input data distribution. Even if not stored procedures, most statements generating trivial plans will be parameterized. After a plan is first cached, any future execution maps to a previously cached plan. A potential problem arises when that first compilation may not have used the most common sets of parameters for the usual workload
+
+**Missing indexes** - Evidence of a poor indexing strategy or changes in workload profile include:
+
+* Looking for duplicate, redundant, rarely used and completely unused indexes.
+* Taking special care with unused indexes with updates.
+
+**Inability to use predicates to filter data** - SQL Server Query Optimizer can only account for information that is known at compile time. If a workload relies on predicates that can only be known at execution time, then the potential for a poor plan choice increases. For a better-quality plan, predicates must be **S**earch **Arg**ument**able** (SARGable).
+
+**Use of Table Valued Functions (Multi-Statement vs Inline)** - Table Valued Functions return a table data type that can be an alternative to views. While views are limited to a single SELECT statement, user-defined functions can contain additional statements that allow more logic than is possible in views.
+
+**Important**: Since the output table of an MSTVF (Multi-Statement Table Valued Function) is not created at compile time, the SQL Server Query Optimizer relies on heuristics, and not actual statistics, to determine row estimations. Even if indexes are added to the base table(s), this is not going to help. For MSTVFs, SQL Server uses a fixed estimation of 1 for the number of rows expected to be returned by an MSTVF (starting with SQL Server 2014 that fixed estimation is 100 rows).
+
+For additional detail about these issues and specific steps to mitigate them, see the following resource:
+
+* [Post-migration Validation and Optimization Guide](https://review.docs.microsoft.com/en-us/sql/relational-databases/post-migration-validation-and-optimization-guide?branch=pr-en-us-1554)

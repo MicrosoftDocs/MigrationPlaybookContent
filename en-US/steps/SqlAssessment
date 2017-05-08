@@ -1,15 +1,20 @@
-<!-- Assessment -->
+<!-- Assess -->
 
-Once the data sources are identified, each one needs to be scanned to identify gaps between source and target. This includes identifying compatibility issues, feature parity, incompatible source schema etc. 
-Example: When migrating from SQL Server 2005 on-prem instance to Azure SQL DB, we need to identify all the features that are not supported in Azure SQL DB such as SQL Agent jobs, or unsupported syntax such as non-ANSI style joins.
+**Overview**
 
-You can use **Data Migration Assistant (DMA)** to assess the database, identify potential upgrade blockers, and resolve any issues.
+When the data sources have been identified, each of them needs to be scanned to identify gaps between source and target. This includes identifying compatibility issues, breaking changes and behavior changes between the two versions. As an example, for upgrading from SQL Server 2008 to the latest SQL Server, we need to identify all the breaking changes or unsupported syntax such as non-ANSI style joins that will likely block migrations.
+By using Data Migration Assistant (DMA) to assess the database, you can identify potential upgrade blockers, and resolve any issues.
 
-Learn more about [DMA assessments](https://blogs.msdn.microsoft.com/datamigration/dma/).
+Note: For more information about DMA, see the article [DMA assessments](https://blogs.msdn.microsoft.com/datamigration/dma/).
 
-Download the DMA from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
+**Process**
 
-DMA assessment workflow can help you with the following:
-* Discover compatibility issues and unsupported features that are blocking migrations from SQL Server to Azure SQL Database.
-* Discover breaking changes, behavior changes, and deprecated features that can affect an upgrade to an on-premises SQL Server.
-* Discover new features in the target SQL Server platform that the database can benefit from after an upgrade. 
+To use DMA to create an assessment, perform the following steps.
+
+1.Download DMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595), and then install it.
+
+_DMA is now ready for use._
+
+2.Create new projects and use the DMA Assessment workflow to run through your databases.
+
+_This will generate a report of compatibility issues, breaking or behavior changes along with recommendations of fixes._

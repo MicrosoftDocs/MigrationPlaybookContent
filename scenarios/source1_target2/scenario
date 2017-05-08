@@ -2,7 +2,7 @@
 	businesssectionitems: 
 	[
 		{
-			filelocation: "Costs",
+			filelocation: "AzureRationale",
 			actions: [ 
 				{
 					actiontype: "download",
@@ -13,10 +13,6 @@
 					filelocation: "AzureTCO"
 				}
 			]
-		},
-		{
-			filelocation: "Licensing",
-			actions: [ ]
 		}
 	],
 	technicalsectionitems: 
@@ -27,10 +23,14 @@
 		},
 		{
 			filelocation: "Discover",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "MAPToolkit"
+				}
+			]
 		},
 		{
-                 	filelocation: "Assessment",
+                 	filelocation: "OracleAzureAssessment",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "SSMADownload"
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-                        filelocation: "Migration",
+                        filelocation: "OracleAzureMigration",
 	                actions: [ {
 					actiontype: "download",
 					filelocation: "SSMADownload"

@@ -1,0 +1,28 @@
+<!--Perform Tests-->
+
+**Overview**
+
+Once the data is migrated to target, perform tests against the databases to understand that the applications are expected to perform well against the after the migration.
+For this, use Data Experimentation Assistant (DEA) to assist with evaluating the target SQL Server. 
+
+Note: For more information about DEA, see the article [here](https://blogs.msdn.microsoft.com/datamigration/2016/10/24/database-experimentation-assistant-v1-0-preview/).
+
+**Process**
+
+To use DEA for database migration testing, perform the following steps.
+
+1.Download DEA from the Microsoft Download Center here, and then install it.
+
+_DEA is now ready for use._
+
+2.Run a trace capture using DEA.
+
+_This workflow will give the ability to automatically capture a production workload trace on source SQL Server with only a few inputs._
+
+3.Run a trace replay using DEA.
+
+_This workflow will give the ability to replay a source trace captured on a target SQL Server._
+
+4.Create new analysis report.
+
+_This workflow will give the ability to generate new reports which provide insight into how workload performance changes across versions of SQL._
