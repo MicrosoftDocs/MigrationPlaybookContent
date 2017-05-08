@@ -1,65 +1,65 @@
 {
 	businesssectionitems: 
 	[
-      {
-          filelocation: "Rationale",
-          actions: [ {
-              actiontype: "forwardlink",
-              filelocation: "tcocalculator"
-            }
-          ]
-      },
+	      {
+		  filelocation: "Rationale",
+		  actions: [ {
+		      actiontype: "forwardlink",
+		      filelocation: "tcocalculator"
+		    }
+		  ]
+	      },
  	],
 	technicalsectionitems: 
 	[
-      {
-        filelocation: "Overview",
-        actions: [ ]
-      },
-      {
-        filelocation: "Discover",
-        actions: [ {
-            actiontype: "download",
-            filelocation: "MAPToolkit"
-          }
-        ]
-      },
-      {
-                    filelocation: "Assessment",
-        actions: [ {
-            actiontype: "download",
-            filelocation: "SSMADownload"
-          }
-        ]
-      },
-      {
-                          filelocation: "Migration",
-                    actions: [ {
-            actiontype: "download",
-            filelocation: "SSMADownload"
-          }
-        ] 
-      },
-      {
-        filelocation: "RemediateApps",
-        actions: [ ]
-      },
-      {
-        filelocation: "PerformTests",
-        actions: [ ]
-      },
-            {
-        filelocation: "Optimization",
-                    actions: [ ]  
-      },
-      {
-        filelocation: "DataSync",
-        actions: [ ]
-      },
-      {
-        filelocation: "Cutover",
-        actions: [ ]
-      }
+	      {
+		filelocation: "Overview",
+		actions: [ ]
+	      },
+	      {
+		filelocation: "Discover",
+		actions: [ {
+		    actiontype: "download",
+		    filelocation: "MAPToolkit"
+		  }
+		]
+	      },
+	      {
+			    filelocation: "Assessment",
+		actions: [ {
+		    actiontype: "download",
+		    filelocation: "SSMADownload"
+		  }
+		]
+	      },
+	      {
+				  filelocation: "Migration",
+			    actions: [ {
+		    actiontype: "download",
+		    filelocation: "SSMADownload"
+		  }
+		] 
+	      },
+	      {
+		filelocation: "RemediateApps",
+		actions: [ ]
+	      },
+	      {
+		filelocation: "PerformTests",
+		actions: [ ]
+	      },
+		    {
+		filelocation: "Optimization",
+			    actions: [ ]  
+	      },
+	      {
+		filelocation: "DataSync",
+		actions: [ ]
+	      },
+	      {
+		filelocation: "Cutover",
+		actions: [ ]
+	      }
 	],
 	casestudies:
 	[
