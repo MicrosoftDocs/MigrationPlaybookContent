@@ -13,52 +13,52 @@
 	technicalsectionitems: 
 	[
 	      {
-		filelocation: "Overview",
-		actions: [ ]
+			filelocation: "Overview",
+			actions: [ ]
 	      },
 	      {
-		filelocation: "Discover",
-		actions: [ {
-		    actiontype: "download",
-		    filelocation: "MAPToolkit"
-		  }
-		]
+			filelocation: "Discover",
+			actions: [ {
+			    actiontype: "download",
+			    filelocation: "MAPToolkit"
+		  		}
+			]	
 	      },
 	      {
-			    filelocation: "Assessment",
-		actions: [ {
-		    actiontype: "download",
-		    filelocation: "SSMADownload"
-		  }
-		]
+			filelocation: "Assessment",
+			actions: [ {
+				actiontype: "download",
+				filelocation: "SSMADownload"
+	  			}
+			]
 	      },
 	      {
-				  filelocation: "Migration",
-			    actions: [ {
-		    actiontype: "download",
-		    filelocation: "SSMADownload"
-		  }
-		] 
+		  	filelocation: "Migration",
+	    		actions: [ {
+			    actiontype: "download",
+			    filelocation: "SSMADownload"
+			    }
+			] 
 	      },
 	      {
-		filelocation: "RemediateApps",
-		actions: [ ]
+			filelocation: "RemediateApps",
+			actions: [ ]
 	      },
 	      {
-		filelocation: "PerformTests",
-		actions: [ ]
-	      },
-		    {
-		filelocation: "Optimization",
-			    actions: [ ]  
+			filelocation: "PerformTests",
+			actions: [ ]
 	      },
 	      {
-		filelocation: "DataSync",
-		actions: [ ]
+			filelocation: "Optimization",
+		    	actions: [ ]  
 	      },
 	      {
-		filelocation: "Cutover",
-		actions: [ ]
+			filelocation: "DataSync",
+			actions: [ ]
+	      },
+	      {
+			filelocation: "Cutover",
+			actions: [ ]
 	      }
 	],
 	casestudies:
