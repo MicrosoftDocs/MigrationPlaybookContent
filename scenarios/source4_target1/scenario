@@ -17,7 +17,7 @@
 			actions: [ ]
 	      },
 	      {
-			filelocation: "Discover",
+			filelocation: "SybaseDiscover",
 			actions: [ {
 			    actiontype: "download",
 			    filelocation: "MAPToolkit"
