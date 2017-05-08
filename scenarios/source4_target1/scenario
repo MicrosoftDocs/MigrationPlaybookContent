@@ -25,7 +25,7 @@
 			]	
 	      },
 	      {
-			filelocation: "Assessment",
+			filelocation: "SybaseAssessment",
 			actions: [ {
 				actiontype: "download",
 				filelocation: "SSMADownload"
@@ -33,7 +33,7 @@
 			]
 	      },
 	      {
-		  	filelocation: "Migration",
+		  	filelocation: "SybaseMigration",
 	    		actions: [ {
 			    actiontype: "download",
 			    filelocation: "SSMADownload"
