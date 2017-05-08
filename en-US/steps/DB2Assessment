@@ -16,7 +16,7 @@ _SSMA is now ready for use._
 
 2.Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for DB2 Assessments, see the article [Assessing DB2 Schemas for Conversion (DB2ToSQL)](https://docs.microsoft.com/en-us/sql/ssma/db2/assessing-db2-schemas-for-conversion-db2tosql).
 
-_ This will generate an Assessment Report which shows the results of the conversion of database objects to Transact-SQL syntax, and can also help you estimate the complexity and cost of your migration projects._
+_This will generate an Assessment Report which shows the results of the conversion of database objects to Transact-SQL syntax, and can also help you estimate the complexity and cost of your migration projects._
 
 3.Converting DB2 Schemas. For more information about SSMA for DB2 Conversion, see the article [Converting DB2 Schemas (DB2ToSQL)](https://docs.microsoft.com/en-us/sql/ssma/db2/converting-db2-schemas-db2tosql).
 
