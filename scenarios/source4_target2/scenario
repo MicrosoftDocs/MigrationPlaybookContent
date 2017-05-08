@@ -1,62 +1,62 @@
 {
 	businesssectionitems: 
 	[
-      {
-        filelocation: "AzureRationale",
-        actions: [ 
-        ]
-      }
+	      {
+		filelocation: "AzureRationale",
+		actions: [ 
+		]
+	      }
 	],
 	technicalsectionitems: 
 	[
-      {
-        filelocation: "Overview",
-        actions: [ ]
-      },
-      {
-        filelocation: "Discover",
-        actions: [ {
-            actiontype: "download",
-            filelocation: "MAPToolkit"
-          }
-        ]
-      },
-      {
-        filelocation: "MySqlAzureAssessment",
-        actions: [ {
-            actiontype: "download",
-            filelocation: "SSMAForMySqlDownload"
-          }
-        ]
-      },
-      {
-            filelocation: "MySqlAzureMigration",
-            actions: [ {
-            actiontype: "download",
-            filelocation: "SSMAForMySqlDownload"
-          }
-        ] 
-      },
-      {
-        filelocation: "RemediateApps",
-        actions: [ ]
-      },
-      {
-        filelocation: "PerformTests",
-        actions: [ ]
-      },
-            {
-        filelocation: "Optimization",
-                    actions: [ ]  
-      },
-      {
-        filelocation: "DataSync",
-        actions: [ ]
-      },
-      {
-        filelocation: "Cutover",
-        actions: [ ]
-      }
+	      {
+		filelocation: "Overview",
+		actions: [ ]
+	      },
+	      {
+		filelocation: "SybaseAzureDiscover",
+		actions: [ {
+		    actiontype: "download",
+		    filelocation: "MAPToolkit"
+		  }
+		]
+	      },
+	      {
+		filelocation: "SybaseAzureAssessment",
+		actions: [ {
+		    actiontype: "download",
+		    filelocation: "SSMAForMySqlDownload"
+		  }
+		]
+      	       },
+	      {
+		    filelocation: "SybaseAzureMigration",
+		    actions: [ {
+		    actiontype: "download",
+		    filelocation: "SSMAForMySqlDownload"
+		  }
+		] 
+	      },
+	      {
+		filelocation: "RemediateApps",
+		actions: [ ]
+	      },
+	      {
+		filelocation: "PerformTests",
+		actions: [ ]
+	      },
+		    {
+		filelocation: "Optimization",
+			    actions: [ ]  
+	      },
+	      {
+		filelocation: "DataSync",
+		actions: [ ]
+	      },
+	      {
+		filelocation: "Cutover",
+		actions: [ ]
+	      }
 	],
 	casestudies:
 	[
