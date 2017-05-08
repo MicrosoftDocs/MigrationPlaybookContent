@@ -21,7 +21,7 @@
 			]
 		},
 		{
-                 	filelocation: "MySqlAssessment",
+                 	filelocation: "DB2Assessment",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "SSMAForMySqlDownload"
