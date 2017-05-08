@@ -22,7 +22,7 @@
 			]
 		},
 		{
-                 	filelocation: "AzureMySqlAssessment",
+                 	filelocation: "MySqlAzureAssessment",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "SSMAForMySqlDownload"
