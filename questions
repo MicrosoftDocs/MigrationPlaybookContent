@@ -26,9 +26,9 @@
 			"text": "QuestionSource",
 			"options": [
 				"AnswerSourceOracle",
-				"AnswerSourceSqlServer",
 				"AnswerSourceMySQL",
 				"AnswerSourceDB2",
+				"AnswerSourceSqlServer",
 			],
 			"required": "true"
 		},
