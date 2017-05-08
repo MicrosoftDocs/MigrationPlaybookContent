@@ -10,7 +10,7 @@ To use SSMA for DB2 to publish the database schema and migrate the data, perform
 
 1.Setting migration options
 
-_Review the project migration otpions in the Project Settings dialog._
+_Review the project migration options in the Project Settings dialog._
 
 2.Migrating data to SQL Server.
 
