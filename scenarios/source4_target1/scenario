@@ -24,7 +24,7 @@
                  	filelocation: "DB2Assessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForDB2Download"
 				}
 			]
 		},
@@ -32,7 +32,7 @@
                         filelocation: "MySqlMigration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForDB2Download"
 				}
 			] 
 		},
