@@ -29,7 +29,7 @@
 			]
 		},
 		{
-                        filelocation: "MySqlMigration",
+                        filelocation: "DB2Migration",
 	                actions: [ {
 					actiontype: "download",
 					filelocation: "SSMAForDB2Download"
