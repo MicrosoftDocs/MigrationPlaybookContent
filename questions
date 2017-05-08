@@ -28,6 +28,7 @@
 				"AnswerSourceOracle",
 				"AnswerSourceMySQL",
 				"AnswerSourceDB2",
+				"AnswerSourceSybase",
 				"AnswerSourceSqlServer",
 			],
 			"required": "true"
