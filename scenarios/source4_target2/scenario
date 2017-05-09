@@ -7,55 +7,70 @@
 		]
 	      }
 	],
+	
 	technicalsectionitems: 
 	[
-	      {
-		filelocation: "Overview",
-		actions: [ ]
-	      },
-	      {
-		filelocation: "SybaseAzureDiscover",
-		actions: [ {
-		    actiontype: "download",
-		    filelocation: "MAPToolkit"
-		  }
-		]
-	      },
-	      {
-		filelocation: "SybaseAzureAssessment",
-		actions: [ {
-		    actiontype: "download",
-		    filelocation: "SSMAForSybaseDownload"
-		  }
-		]
-      	       },
-	      {
-		    filelocation: "SybaseAzureMigration",
-		    actions: [ {
-		    actiontype: "download",
-		    filelocation: "SSMAForSybaseDownload"
-		  }
-		] 
-	      },
-	      {
-		filelocation: "RemediateApps",
-		actions: [ ]
-	      },
-	      {
-		filelocation: "PerformTests",
-		actions: [ ]
-	      },
-		    {
-		filelocation: "Optimization",
-			    actions: [ ]  
-	      },
-	      {
-		filelocation: "DataSync",
-		actions: [ ]
-	      },
-	      {
-		filelocation: "Cutover",
-		actions: [ ]
-	      }
-	]
+		{
+			filelocation: "Overview",
+			actions: [ ]
+		},
+		{
+			filelocation: "SybaseAzureDiscover",
+			actions: [ {
+					actiontype: "download",
+					filelocation: "MAPToolkit"
+				}
+			]
+		},
+		{
+			filelocation: "Sybase2AzureAssessment",
+			actions: [ {
+					actiontype: "download",
+					filelocation: "SSMAForSybaseDownload"
+				}
+			]
+		},
+		{
+			filelocation: "SybaseAzureMigration",
+			actions: [ {
+					actiontype: "download",
+					filelocation: "SSMAForSybaseDownload"
+				}
+			] 
+		},
+		{
+			filelocation: "RemediateApps",
+			actions: [ ]
+		},
+		{
+			filelocation: "PerformTests",
+			actions: [ ]
+		},
+		{
+			filelocation: "Optimization",
+			actions: [ ]  
+		},
+		{
+			filelocation: "DataSync",
+			actions: [ ]
+		},
+		{
+			filelocation: "Cutover",
+			actions: [ ]
+		}
+	],
+	casestudies:
+	[
+
+	],
+	partners:
+	[
+
+	],
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
 }
+
+
