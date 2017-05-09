@@ -1,1 +1,74 @@
+{
+      businesssectionitems: 
+      [
+          {
+            filelocation: "Rationale",
+            actions: [ ]
+          }
+      ],
+      technicalsectionitems: 
+      [
+          {
+            filelocation: "Overview",
+            actions: [ ]
+          },
+          {
+                filelocation: "AccessDiscover",
+                actions: [ {
+                  actiontype: "download",
+                  filelocation: "MAPToolkit"
+                  }
+                ]
+          },
+          {
+                filelocation: "AccessAssessment",
+                actions: [ {
+                  actiontype: "download",
+                  filelocation: "SSMAForAccessDownload"
+                }
+             ]   
+          },
+          {
+                filelocation: "AccessMigration",
+                actions: [ {
+                  actiontype: "download",
+                  filelocation: "SSMAForAccessDownload"
+                }
+            ] 
+          },
+          {
+              filelocation: "RemediateApps",
+              actions: [ ]
+          },
+          {
+              filelocation: "PerformTests",
+              actions: [ ]
+          },
+          {
+              filelocation: "Optimization",
+              actions: [ ]  
+          },
+          {
+              filelocation: "DataSync",
+              actions: [ ]
+          },
+          {
+              filelocation: "Cutover",
+              actions: [ ]
+          }
+      ],
+      casestudies:
+      [
+
+      ],
+      partners:
+      [
+
+      ],
+      footer: 
+      {
+        // empty for now but will probably contain lists of download links etc.
+      }
+}
+
 
