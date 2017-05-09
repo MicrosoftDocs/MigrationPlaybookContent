@@ -23,7 +23,7 @@
 			]
 		},
 		{
-			filelocation: "Sybase2AzureAssessment",
+			filelocation: "SybaseAzureAssessment",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "SSMAForSybaseDownload"
