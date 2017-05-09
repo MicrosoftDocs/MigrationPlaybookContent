@@ -1,1 +1,80 @@
-
+{
+	businesssectionitems: 
+	[
+      {
+          filelocation: "Rationale",
+          actions: [ {
+              actiontype: "forwardlink",
+              filelocation: "tcocalculator"
+            }
+        ]
+      }
+	],
+	technicalsectionitems: 
+	[
+      {
+          filelocation: "SqlOverview",
+          actions: [ ]
+      },
+      {
+          filelocation: "SqlDiscover",
+          actions: [ {
+              actiontype: "download",
+              filelocation: "MAPToolkit"
+            }
+          ]
+      },
+      {
+          filelocation: "SqlAssessment",
+          actions: [ {
+              actiontype: "download",
+              filelocation: "DMADownload"
+            }
+          ]
+      },
+      {
+          filelocation: "SqlMigration",
+          actions: [ {
+              actiontype: "download",
+              filelocation: "DMADownload"
+            }
+          ]
+      },
+		{
+        filelocation: "SqlRemediateApps",
+        actions: [ ]
+		},
+		{
+        filelocation: "SqlPerformTests",
+        actions: [ {
+            actiontype: "download",
+            filelocation: "DEADownload"
+          }
+        ]
+		},
+		{
+        filelocation: "SqlOptimization",
+        actions: [ ]
+		},
+		{
+        filelocation: "SqlDataSync",
+        actions: [ ]
+		},
+		{
+        filelocation: "SqlRollback",
+        actions: [ ]
+		}
+	],
+	casestudies:
+	[
+		
+	],
+	partners:
+	[
+		
+	],
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
+}
