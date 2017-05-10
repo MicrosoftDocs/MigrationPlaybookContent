@@ -22,7 +22,7 @@ If having a **consistent experience from on-premises to cloud** is a concern:
 
 SQL Server 2016 delivers these capabilities with a consistent experience both on-premises and in the cloud, and with common development and management tools and common T-SQL. Customers decide what is best for each application or workload, and they can move from on-premises to the cloud without having to rewrite an application, learn new development tools, a new development language, or new management tools. Only Microsoft can offer this consistent experience across identity, virtualization, management, and dev-ops. We’ve got all the tools to ensure that we deliver a great experience no matter where you choose to deploy!
 
-If having **In-memory across workloads** is a concern:
+If having **in-memory across workloads** is a concern:
 
 SQL Server 2016’s optimized in-memory technology increases performance across all workloads by using an in-memory OLTP. This provides up to 30x transactional performance to our in-memory columnstore that enables over 100x faster queries for data warehouse and BI workloads.  With SQL Server 2016, customers can combine in-memory technologies to deliver super-fast reads on top of super-fast writes, which enables real-time operational analytics.
 
