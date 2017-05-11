@@ -1,3 +1,3 @@
 <!-- Remediate Applications -->
 
-After the data is migrated to  target and kept in-sync with the source, all the applications that consumed the source need to now start consuming the target. This will require changes to the applications in some cases.
+After the data is migrated to the target and synchronized with the source, all the applications that consumed the source now need to start consuming the target. Accomplishing this will in some cases require changes to the applications.
