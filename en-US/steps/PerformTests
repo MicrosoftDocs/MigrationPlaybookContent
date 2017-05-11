@@ -2,11 +2,11 @@
 
 The test approach for database migration consists of the following activities:
 
-**Develop validation tests** - In order to test database migration, you need to use SQL queries. You need to create the validation queries to run against both the source as well as the target databases. Your validation queries should cover the scope defined by you.
+**Develop validation tests** - To test database migration, you need to use SQL queries. You must create the validation queries to run against both the source and the target databases. Your validation queries should cover the scope you have defined.
 
-**Set up test environment** - The test environment should contain a copy of the source database, and a copy of the target database. You should isolate the test environment so that it does not change externally.
+**Set up test environment** - The test environment should contain a copy of the source database and a copy of the target database. Be sure to isolate the test environment so that it does not change externally.
 
-**Run your validation tests** - Execute your validation tests against source and target and analyze the results.
+**Run your validation tests** - Run your validation tests against the source and the target, and then analyze the results.
 
-**Run your performance tests** - Execute performance testing against source and target; analyze and compare the results.
+**Run your performance tests** - Run performance test against the source and the target, and then analyze and compare the results.
 
