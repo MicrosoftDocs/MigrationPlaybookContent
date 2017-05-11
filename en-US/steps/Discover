@@ -2,7 +2,7 @@
 
 **Overview**
 
-Scan your inventory to build a list of data sources. The goal is to identify all the existing data sources and your organization’s state/version to understand and plan migration. This involves scanning network to identify all the Oracle instances that your organization has along with the version and features that are being used. 
+The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s Oracle instances together with the version and features in use.
 
 You can use [Microsoft Assessment and Planning (MAP)](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)
 toolkit to securely assess your environment for your migration.
@@ -13,8 +13,8 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
 
 1.Download the MAP Toolkit from Microsoft Download Center [here](http://go.microsoft.com/fwlink/?LinkID=316883), and then install it.
 
-_MAP Toolkit is now ready for use._
+_The MAP Toolkit is now ready for use._
 
-2.Execute the MAP tool
+2.Run the MAP tool
 
-_After execution is complete you will be able to get a detailed Oracle schema reporting, estimates of the complexity of migration._
+_After the MAP tool has finish running, you will be able to get a detailed Oracle schema report and estimates of the complexity of migration._
