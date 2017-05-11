@@ -1,6 +1,5 @@
 <!--Process Overview-->
-Migrations should be approached with the same rigor and processes as a full software or hardware project. A methodology is required for
-success. We recommend the below steps for migration project considerations. 
+Migrations should be approached with the same rigor and processes as a full software or hardware project – a  solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
 
 ![Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess.png)
 
@@ -9,14 +8,14 @@ Each phase in the process is briefly described as below:
 |**Phase** |**Description** |
 |:---------|:---------------|
 |Discover | Inventory of your current database assets and application stack discovery.|
-|Assess & Convert | Assess workloads and fix recommedations; schema conversion. |
+|Assess & Convert | Assess workloads and fix recommendations; schema conversion. |
 |Migrate | Iterative process of schema and data migration; perform validations. |
-|Remediate Applications | Iterative process of making necessary changes to applications, if any. |
-|Perform Tests | Iterative process of execution funtional and performance tests. |
+|Remediate Applications | Iterative process of making any necessary changes to applications, if any. |
+|Perform Tests | Iterative process of funtional and performance testing. |
 |Optimize | Post-migration validation and optimization. |
-|Data Sync | Keep the data sync between source and target. |
+|Data Sync | Sync the data between source and target. |
 |Cutover | Rollback strategy and plans post migration. |
 
-For more details on the individual step, see the links on navigation bar.
+For more detail on a specific phase, click on the associated link on navigation bar.
 
-If you need assistance with your migration needs, see the list of recommended [partners](https://www.platformmodernization.org/).
+If you require assistance with your migration needs, see the list of recommended [partners](https://www.platformmodernization.org/).
