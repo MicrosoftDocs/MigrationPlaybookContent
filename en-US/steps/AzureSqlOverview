@@ -1,6 +1,6 @@
 <!--Process Overview-->
 
-Migrations should be approached with the same rigor and processes as a full software or hardware project. A methodology is required for success. We recommend the below steps for migration project considerations.
+Migrations should be approached with the same rigor and processes as a full software or hardware project – a  solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
 
 ![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/SQLUpgradeProcess.png)
 
