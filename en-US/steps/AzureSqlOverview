@@ -4,7 +4,7 @@ Migrations should be approached with the same rigor and processes as a full soft
 
 ![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/SQLUpgradeProcess.png)
 
-Each phase in the process is briefly described in the following table:
+Each phase in the data migration process is briefly described in the following table:
 
 |**Phase** |**Description** |
 |:---------|:---------------|
