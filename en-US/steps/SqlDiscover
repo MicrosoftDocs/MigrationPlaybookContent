@@ -2,7 +2,7 @@
 
 **Overview**
 
-Scan your inventory to build a list of data sources. The goal is to identify all the existing data sources and your organization’s state/version to understand and plan migration. This involves scanning network to identify all the SQL instances that your organization has along with the version and features that are being used. 
+The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s SQL instances together with the version and features in use.
 
 You can use [Microsoft Assessment and Planning (MAP)](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)
 toolkit to securely assess your environment for your migration.
