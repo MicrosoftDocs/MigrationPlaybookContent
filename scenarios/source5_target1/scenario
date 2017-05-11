@@ -1,13 +1,11 @@
 {
 	businesssectionitems: 
 	[
-	      {
-		filelocation: "AzureRationale",
-		actions: [ 
-		]
-	      }
+		{
+			filelocation: "Rationale",
+			actions: [ ]
+		}
 	],
-	
 	technicalsectionitems: 
 	[
 		{
@@ -15,7 +13,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "SybaseDiscover",
+			filelocation: "AccessDiscover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -23,18 +21,18 @@
 			]
 		},
 		{
-			filelocation: "SybaseAzureAssessment",
+                 	filelocation: "AccessAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForSybaseDownload"
+					filelocation: "SSMAForAccessDownload"
 				}
 			]
 		},
 		{
-			filelocation: "SybaseAzureMigration",
-			actions: [ {
+                        filelocation: "AccessMigration",
+	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForSybaseDownload"
+					filelocation: "SSMAForAccessDownload"
 				}
 			] 
 		},
@@ -46,9 +44,9 @@
 			filelocation: "PerformTests",
 			actions: [ ]
 		},
-		{
-			filelocation: "Optimization",
-			actions: [ ]  
+	        {
+		 	filelocation: "Optimization",
+	                actions: [ ]  
 		},
 		{
 			filelocation: "DataSync",
@@ -61,16 +59,15 @@
 	],
 	casestudies:
 	[
-
+		
 	],
 	partners:
 	[
-
+		
 	],
 	footer: 
 	{
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
-
 
