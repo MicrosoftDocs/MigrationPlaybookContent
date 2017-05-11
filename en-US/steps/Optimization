@@ -1,5 +1,5 @@
 <!--Optimize-->
-The post migration step phase is very crucial for reconciling any data accuracy issues and completeness, as well as uncovering performance issues with the workload.
+The post migration phase is very crucial for reconciling any data accuracy issues and completeness, as well as uncovering performance issues with the workload.
 
 Common performance scenarios encountered after migrating to SQL Server or Azure SQL Platforms can include:
 
