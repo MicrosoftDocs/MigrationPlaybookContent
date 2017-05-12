@@ -7,15 +7,15 @@ Each phase in the data migration process is briefly described in the following t
 
 |**Phase** |**Description** |
 |:---------|:---------------|
-|Discover | Inventory of your current database assets and application stack discovery.|
-|Assess & Convert | Assess workloads and fix recommendations; schema conversion. |
-|Migrate | Iterative process of schema and data migration; perform validations. |
-|Remediate Applications | Iterative process of making any necessary changes to applications, if any. |
-|Perform Tests | Iterative process of funtional and performance testing. |
-|Optimize | Post-migration validation and optimization. |
-|Data Sync | Sync the data between source and target. |
+|Discover | Discover requirements, success, risks for your migration project. |
+|Assess | Inventory database assets, and application stack discovery. |
+|Migrate  | Source schema needs to be converted to work in target. Migration of data to target. |
+|Remediate Applications | Iterative process of making necessary changes to applications. |
+|Perform Tests | Iterative process of executing functional and performance tests. |
+|Optimize | Post data and schema migration, the target needs to be tested to identify performance issues. |
+|Sync Data | Data Sync	Data and schema sync post migration. |
 |Cutover | Rollback strategy and plans post migration. |
 
-For more detail on a specific phase, click on the associated link on navigation bar.
+For more detail on a specific phase, click the associated link on navigation bar.
 
 If you require assistance with your migration needs, see the list of recommended [partners](https://www.platformmodernization.org/).
