@@ -14,7 +14,7 @@ _This action will publish the Oracle schema to the Azure SQL Database instance._
 
 2.Migrate data to Azure SQL Database.
 
-_After the migration is complete you will be able to view the “Data Migration report”._
+_After the migration is complete, you will be able to view the “Data Migration report”._
 
 **Important**: SSMA does not support migration of all Oracle features. For associated workarounds, see the following resource:
 
