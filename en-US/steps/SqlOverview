@@ -8,8 +8,8 @@ Each phase in the data migration process is briefly described in the following t
 
 |**Phase** |**Description** |
 |:---------|:---------------|
-|Discover | Discover requirements, success, risks for your migration project. |
-|Assess | Inventory database assets, and application stack discovery. |
+|Discover | Inventory database assets, and application stack discovery. |
+|Assess | Assess workloads and fix recommendations. |
 |Migrate  | Source schema needs to be converted to work in target. Migration of data to target. |
 |Remediate Applications | Iterative process of making necessary changes to applications. |
 |Perform Tests | Iterative process of executing functional and performance tests. |
