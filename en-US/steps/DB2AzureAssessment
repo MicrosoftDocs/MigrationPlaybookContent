@@ -4,7 +4,7 @@
 
 By using SQL Server Migration Assistant (SSMA) for DB2, you can review database objects and data, assess databases for migration, migrate DB2 database objects to Azure SQL Database, and then migrate data to Azure SQL Database.
 
-Note: For more information about SSMA, see the article [SQL Server Migration Assistant for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/sql-server-migration-assistant-for-db2-db2tosql).
+**Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/sql-server-migration-assistant-for-db2-db2tosql).
 
 **Process**
 
@@ -22,7 +22,7 @@ _This will generate an Assessment Report which shows the results of the conversi
 
 _When the schema conversion is complete, you are ready to move on to the Migration phase._
 
-Note: For complete step-by-step guidance on installing and using SSMA for DB2, see the following resources:
+**Note**: For complete step-by-step guidance on installing and using SSMA for DB2, see the following resources:
 
 * [Getting Started with SSMA for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/getting-started-with-ssma-for-db2-db2tosql)
 * [Installing SSMA for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/installing-ssma-for-db2-client-db2tosql)

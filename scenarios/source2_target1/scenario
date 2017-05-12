@@ -14,7 +14,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "Discover",
+			filelocation: "MySqlDiscover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"

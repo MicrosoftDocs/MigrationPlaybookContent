@@ -1,3 +1,3 @@
 <!-- Cutover -->
 
-It is important to have a rollback plan ready in case of issues encountered during post-migrations, and a plan to eventually deprecate the source.
+Be sure to prepare a rollback plan should issues be encountered post migration, and ensure that the plan covers eventually deprecating the source.
