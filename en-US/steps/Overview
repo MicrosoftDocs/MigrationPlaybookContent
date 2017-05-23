@@ -15,9 +15,7 @@ Each phase in the data migration process is briefly described in the following t
 |Optimize | Post data and schema migration, the target needs to be tested to identify performance issues. |
 |Sync Data | Data Sync	Data and schema sync post migration. |
 |Cutover | Rollback strategy and plans post migration. |
-|test | 1. item1
-2. item2
-3. item3 |
+|test | 1. item1 2. item2 3. item3 |
 |test2 | text |
 
 For more detail on a specific phase, click the associated link on navigation bar.
