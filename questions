@@ -25,12 +25,12 @@
 			"id": "source",
 			"text": "QuestionSource",
 			"options": [
+				"AnswerSourceSqlServer",
 				"AnswerSourceOracle",
 				"AnswerSourceMySQL",
 				"AnswerSourceDB2",
 				"AnswerSourceSybase",
-				"AnswerSourceAccess",
-				"AnswerSourceSqlServer",
+				"AnswerSourceAccess"
 			],
 			"required": "true"
 		},
