@@ -21,8 +21,8 @@ The following data migration options are discussed:
 
 In the detailed descriptions below, the options with no or few constraints will be decorated with “***”; the options with some constraints will be decorated with “**”; unsupported options will be decorated with “*”.
 
-|**SQL Server Veriosn (From/To)** |**Backup & Restore** |**Transaction Replication**|**Availability Groups**|**Migration Tools (DMA/DMS)**|**Database Mirroring**|**Log Shipping**|**Bulk Load**|
-|:--------------------------------|:--------------------|:--------------------------|:----------------------|:----------------------------|:---------------------|:---------------|:------------|
+|** SQL Server Veriosn (From/To) ** |** Backup & Restore ** |** Transaction Replication**|** Availability Groups**|**Migration Tools (DMA/DMS)**|**Database Mirroring**|**Log Shipping**|**Bulk Load**|
+|:----------------------------------|:----------------------|:---------------------------|:----------------------|:----------------------------|:---------------------|:---------------|:------------|
 |Discover | Inventory database assets, and application stack discovery. |
 |Assess | Assess workloads and fix recommendations. |
 |Migrate  | Source schema needs to be converted to work in target. Migration of data to target. |
