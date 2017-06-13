@@ -42,10 +42,29 @@ Note that legends used below:
 *	Backup and restore (**Supported**): Backup taken on SQL Server 2005 can be restored to SQL Server 2014.
 *	Transactional replication (**Unsupported**): SQL Server replication from SQL Server 2005 to SQL Server 2014 is NOT supported.
 *	Availability group (**Unsupported**): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2014.
-*	DMS and DMA (**Supported**): Supported.
+* Migration Tools (**Supported**): Migration supported through DMS and DMA.
 *	Database mirroring (**Unsupported**): Database mirroring is NOT supported between SQL Server 2005 and SQL Server 2014.
 *	Log shipping (**Unsupported**): Log shipping is NOT supported between SQL Server 2005 and SQL Server 2014.
 *	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into SQL Server 2014.
 
+### From SQL Server 2008 or SQL Server 2008 R2
+
+#### To SQL Server 2016
+*	Backup and restore (**Supported**): Backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2016.
+*	Transactional replication (**Partial**): SQL Server replication from SQL Server 2008 or SQL Server 2008 R2 to SQL Server 2016 is NOT supported. 
+*	Availability group (**Partial**): Always On Availability Group is NOT available in SQL Server 2008 or SQL Server 2008 R2 and Availability Group can not be formed between SQL Server 2008 or SQL Server 2008 R2 and SQL Server 2016.
+*	Migration Tools (**Supported**): Migration supported through DMS and DMA.
+*	Database mirroring (**Unsupported**): Database mirroring is supported if principal is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and mirror is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes principal, SQL Server 2008 or SQL Server 2008 R2 instance becomes mirror and will NOT receive changes from principal.
+*	Log shipping (**Unsupported**): Log shipping is supported if primary is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and secondary is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes primary, SQL Server 2008 or SQL Server 2008 R2 instance becomes secondary and will NOT receive changes from primary.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into SQL Server 2016.
+
+#### To SQL Server 2014
+*	Backup and restore (**Supported**): Backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2014.
+*	Transactional replication (**Unsupported**): SQL Server replication from SQL Server 2008 to SQL Server 2014 is NOT supported. SQL Server transactional replication from SQL Server 2008 R2 to SQL Server 2014 is supported.
+*	Availability group (**Partial**): Always On Availability Group is NOT available in SQL Server 2008 or SQL Server 2008 R2 and Availability Group can not be formed between SQL Server 2008 or SQL Server 2008 R2 and SQL Server 2014.
+*	Migration Tools (**Supported**): Migration supported through DMS and DMA.
+*	Database mirroring (**Unsupported**): Database mirroring is supported if principal is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and mirror is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes principal, SQL Server 2008 or SQL Server 2008 R2 instance becomes mirror and will NOT receive changes from principal.
+*	Log shipping (**Unsupported**): Log shipping is supported if primary is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and secondary is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes primary, SQL Server 2008 or SQL Server 2008 R2 instance becomes secondary and will NOT receive changes from primary.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into SQL Server 2014.
 
 
