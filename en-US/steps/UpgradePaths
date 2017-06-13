@@ -19,20 +19,23 @@ The following data migration options are discussed:
 *	Log shipping
 *	Bulk load
 
-In the detailed descriptions below, the options with no or few constraints will be decorated with “***”; the options with some constraints will be decorated with “**”; unsupported options will be decorated with “*”.
+Note that legends used below:
+**Supported**: Upgrade options with no or few constraints
+**Partial**: Upgrade options with some constraints 
+**Unsupported**: Upgrade options that are not supported
 
-# From SQL Server 2005
+## From SQL Server 2005
 
-## To SQL Server 2016 
-*	Backup and restore (***): Backup taken on SQL Server 2005 can be restored to SQL Server 2016.
-*	Transactional replication (*): SQL Server replication from SQL Server 2005 to SQL Server 2016 is NOT supported.
-*	Availability group (*): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2016.
-*	DMS and DMA (***): Supported.
-*	Database mirroring (*): Database mirroring is NOT supported between SQL Server 2005 and SQL Server 2016.
-*	Log shipping (*): Log shipping is NOT supported between SQL Server 2005 and SQL Server 2016.
-*	Bulk load (***): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into SQL Server 2016.
+### To SQL Server 2016 
+*	Backup and restore (**Supported**): Backup taken on SQL Server 2005 can be restored to SQL Server 2016.
+*	Transactional replication (**Unsupported**): SQL Server replication from SQL Server 2005 to SQL Server 2016 is NOT supported.
+*	Availability group (**Unsupported**): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2016.
+*	Migration tools (**Supported**): Migration supported through DMS and DMA.
+*	Database mirroring (**Unsupported**): Database mirroring is NOT supported between SQL Server 2005 and SQL Server 2016.
+*	Log shipping (**Unsupported**): Log shipping is NOT supported between SQL Server 2005 and SQL Server 2016.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into SQL Server 2016.
 
-## To SQL Server 2014
+### To SQL Server 2014
 *	Backup and restore (***): Backup taken on SQL Server 2005 can be restored to SQL Server 2014.
 *	Transactional replication (*): SQL Server replication from SQL Server 2005 to SQL Server 2014 is NOT supported.
 *	Availability group (*): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2014.
