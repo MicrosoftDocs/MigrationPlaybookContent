@@ -16,8 +16,11 @@
 		{
 			filelocation: "OnPremVsCloud",
 			actions: [ ]
-		}
-
+		},
+		{
+			filelocation: "UpgradePaths",
+			actions: [ ]
+		},
 	],
 	technicalsectionitems: 
 	[
