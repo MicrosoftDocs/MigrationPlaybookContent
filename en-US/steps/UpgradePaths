@@ -1,6 +1,6 @@
 <!--Supported Technologies for Upgrade-->
 
-This describes the supported scenarios and options for an upgrade from SQL Server older version to a newer version of SQL Server. This information is current as of June 2017. The following sources of SQL Server are included:
+This section describes all supported scenarios and options for an upgrade from SQL Server older version to a newer version of SQL Server. This information is current as of June 2017. The following sources of SQL Server are included:
 * SQL Server 2005
 * SQL Server 2008 and SQL Server 2008 R2
 * SQL Server 2012
@@ -15,31 +15,31 @@ The following data migration options are discussed:
 *	Transactional replication
 *	Always On Availability Group
 *	Data Migration toolset [Data Migration Service (DMS) and Data Migration Assistant (DMA)]
-•	Database mirroring
-•	Log shipping
-•	Bulk load
+*	Database mirroring
+*	Log shipping
+*	Bulk load
 
 In the detailed descriptions below, the options with no or few constraints will be decorated with “***”; the options with some constraints will be decorated with “**”; unsupported options will be decorated with “*”.
 
-|** SQL Server Veriosn (From/To) ** |** Backup & Restore ** |** Transaction Replication**|** Availability Groups**|**Migration Tools (DMA/DMS)**|**Database Mirroring**|**Log Shipping**|**Bulk Load**|
-|:----------------------------------|:----------------------|:---------------------------|:----------------------|:----------------------------|:---------------------|:---------------|:------------|
+# From SQL Server 2005
 
-From SQL Server 2005
-To SQL Server 2014
-•	Backup and restore (***): Backup taken on SQL Server 2005 can be restored to SQL Server 2014.
-•	Transactional replication (*): SQL Server replication from SQL Server 2005 to SQL Server 2014 is NOT supported.
-•	Availability group (*): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2014.
-•	DMS and DMA (***): Supported.
-•	Database mirroring (*): Database mirroring is NOT supported between SQL Server 2005 and SQL Server 2014.
-•	Log shipping (*): Log shipping is NOT supported between SQL Server 2005 and SQL Server 2014.
-•	Bulk load (***): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into SQL Server 2014.
+## To SQL Server 2016 
+*	Backup and restore (***): Backup taken on SQL Server 2005 can be restored to SQL Server 2016.
+*	Transactional replication (*): SQL Server replication from SQL Server 2005 to SQL Server 2016 is NOT supported.
+*	Availability group (*): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2016.
+*	DMS and DMA (***): Supported.
+*	Database mirroring (*): Database mirroring is NOT supported between SQL Server 2005 and SQL Server 2016.
+*	Log shipping (*): Log shipping is NOT supported between SQL Server 2005 and SQL Server 2016.
+*	Bulk load (***): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into SQL Server 2016.
 
-To SQL Server 2016
-•	Backup and restore (***): Backup taken on SQL Server 2005 can be restored to SQL Server 2016.
-•	Transactional replication (*): SQL Server replication from SQL Server 2005 to SQL Server 2016 is NOT supported.
-•	Availability group (*): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2016.
-•	DMS and DMA (***): Supported.
-•	Database mirroring (*): Database mirroring is NOT supported between SQL Server 2005 and SQL Server 2016.
-•	Log shipping (*): Log shipping is NOT supported between SQL Server 2005 and SQL Server 2016.
-•	Bulk load (***): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into SQL Server 2016.
+## To SQL Server 2014
+*	Backup and restore (***): Backup taken on SQL Server 2005 can be restored to SQL Server 2014.
+*	Transactional replication (*): SQL Server replication from SQL Server 2005 to SQL Server 2014 is NOT supported.
+*	Availability group (*): Always On Availability Group is NOT available in SQL Server 2005 and Availability Group can not be formed between SQL Server 2005 and SQL Server 2014.
+*	DMS and DMA (***): Supported.
+*	Database mirroring (*): Database mirroring is NOT supported between SQL Server 2005 and SQL Server 2014.
+*	Log shipping (*): Log shipping is NOT supported between SQL Server 2005 and SQL Server 2014.
+*	Bulk load (***): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into SQL Server 2014.
+
+
 
