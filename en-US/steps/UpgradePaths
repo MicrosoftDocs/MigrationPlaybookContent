@@ -1,0 +1,33 @@
+<!--Technology Supported Matrix-->
+
+This describes the supported scenarios and options of data migration from older versions of SQL Server to newer versions of SQL Server. The information is current as of June 2017.
+The following sources of data migration are included:
+•	SQL Server 2005
+•	SQL Server 2008 and SQL Server 2008 R2
+•	SQL Server 2012
+•	SQL Server 2014
+The following destinations of data migration are included:
+•	SQL Server 2014
+•	SQL Server 2016
+•	Azure SQL DB (as of June 2017 the internal database engine runs at SQL Server 2017 level)
+The following data migration options are discussed:
+•	Backup and restore
+•	Transactional replication
+•	Always On Availability Group
+•	Data Migration Service and Data Migration Assistant (DMS and DMA)
+•	Database mirroring
+•	Log shipping
+•	Bulk load
+
+
+|**Phase** |**Description** |
+|:---------|:---------------|
+|Discover | Inventory database assets, and application stack discovery. |
+|Assess | Assess workloads and fix recommendations. |
+|Migrate  | Source schema needs to be converted to work in target. Migration of data to target. |
+|Remediate Applications | Iterative process of making necessary changes to applications. |
+|Perform Tests | Iterative process of executing functional and performance tests. |
+|Optimize | Post data and schema migration, the target needs to be tested to identify performance issues. |
+|Sync Data | Data Sync	Data and schema sync post migration. |
+|Cutover | Rollback strategy and plans post migration. |
+
