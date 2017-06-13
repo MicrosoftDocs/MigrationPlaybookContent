@@ -18,7 +18,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "UpgradePaths",
+			filelocation: "SqlUpgradePaths",
 			actions: [ ]
 		},
 	],
