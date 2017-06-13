@@ -19,7 +19,7 @@ The following data migration options are discussed:
 *	Log shipping
 *	Bulk load
 
-Note that legends used below:
+Note the legends used below:
 
 **Supported**: Upgrade options with no or few constraints
 
