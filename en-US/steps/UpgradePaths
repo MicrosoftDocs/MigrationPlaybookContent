@@ -1,20 +1,20 @@
 <!--Supported Technologies for Upgrade-->
 
-This describes the supported scenarios and options of data migration from older versions of SQL Server to newer versions of SQL Server. The information is current as of June 2017.
-The following sources of data migration are included:
-•	SQL Server 2005
-•	SQL Server 2008 and SQL Server 2008 R2
-•	SQL Server 2012
-•	SQL Server 2014
-The following destinations of data migration are included:
-•	SQL Server 2014
-•	SQL Server 2016
-•	Azure SQL DB (as of June 2017 the internal database engine runs at SQL Server 2017 level)
+This describes the supported scenarios and options for an upgrade from SQL Server older version to a newer version of SQL Server. This information is current as of June 2017. The following sources of SQL Server are included:
+* SQL Server 2005
+* SQL Server 2008 and SQL Server 2008 R2
+* SQL Server 2012
+* SQL Server 2014
+
+The following targets of SQL Server are included:
+* SQL Server 2014
+* SQL Server 2016
+
 The following data migration options are discussed:
-•	Backup and restore
-•	Transactional replication
-•	Always On Availability Group
-•	Data Migration Service and Data Migration Assistant (DMS and DMA)
+*	Backup and restore
+*	Transactional replication
+*	Always On Availability Group
+*	Data Migration toolset [Data Migration Service (DMS) and Data Migration Assistant (DMA)]
 •	Database mirroring
 •	Log shipping
 •	Bulk load
