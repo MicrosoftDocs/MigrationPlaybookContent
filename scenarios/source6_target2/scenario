@@ -3,17 +3,26 @@
 	[
 		{
 			filelocation: "AzureRationale",
-			actions: [ ]
+			actions: [ 
+				{
+					actiontype: "download",
+					filelocation: "pricingcalculator"
+				},
+				{
+					actiontype: "download",
+					filelocation: "AzureTCO"
+				}
+			]
 		}
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "AzureSqlOverview",
+			filelocation: "Overview",
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlDiscover",
+			filelocation: "Discover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -21,31 +30,39 @@
 			]
 		},
 		{
-			filelocation: "SqlAssessment",
-			actions: [ ]
+                 	filelocation: "OracleAzureAssessment",
+			actions: [ {
+					actiontype: "download",
+					filelocation: "SSMADownload"
+				}
+			]
 		},
 		{
-			filelocation: "SqlMigration",
-			actions: [ ]
+                        filelocation: "OracleAzureMigration",
+	                actions: [ {
+					actiontype: "download",
+					filelocation: "SSMADownload"
+				}
+			] 
 		},
 		{
-			filelocation: "SqlRemediateApps",
+			filelocation: "RemediateApps",
 			actions: [ ]
 		},
 		{
 			filelocation: "PerformTests",
 			actions: [ ]
-		},	
+		},
+	        {
+		 	filelocation: "Optimization",
+	                actions: [ ]  
+		},
 		{
-			filelocation: "SqlOptimization",
+			filelocation: "DataSync",
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlDataSync",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlRollback",
+			filelocation: "Cutover",
 			actions: [ ]
 		}
 	],
@@ -75,4 +92,3 @@
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
-

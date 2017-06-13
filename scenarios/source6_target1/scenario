@@ -12,21 +12,16 @@
 		{
 			filelocation: "ProductLicensing",
 			actions: [ ]
-		},
-		{
-			filelocation: "OnPremVsCloud",
-			actions: [ ]
 		}
-
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "SqlOverview",
+			filelocation: "Overview",
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlDiscover",
+			filelocation: "Discover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -34,65 +29,61 @@
 			]
 		},
 		{
-			filelocation: "SqlAssessment",
+                 	filelocation: "Assessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "DMADownload"
+					filelocation: "SSMADownload"
 				}
 			]
 		},
 		{
-			filelocation: "SqlMigration",
-			actions: [ {
+                        filelocation: "Migration",
+	                actions: [ {
 					actiontype: "download",
-					filelocation: "DMADownload"
+					filelocation: "SSMADownload"
 				}
-			]
+			] 
 		},
 		{
-			filelocation: "SqlRemediateApps",
+			filelocation: "RemediateApps",
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlPerformTests",
-			actions: [ {
-					actiontype: "download",
-					filelocation: "DEADownload"
-				}
-			]
+			filelocation: "PerformTests",
+			actions: [ ]
+		},
+	        {
+		 	filelocation: "Optimization",
+	                actions: [ ]  
 		},
 		{
-			filelocation: "SqlOptimization",
+			filelocation: "DataSync",
 			actions: [ ]
 		},
 		{
-			filelocation: "SqlDataSync",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlRollback",
+			filelocation: "Cutover",
 			actions: [ ]
 		}
 	],
 	casestudies:
 	[
 		{
-			filelocation: "Convergent"
+			filelocation: "PACTGroup"
 		},
 		{
-			filelocation: "Derivco"
+			filelocation: "KDS"
 		},
 		{
-			filelocation: "SBI"
+			filelocation: "PTC"
 		}
 	],
 	partners:
 	[
 		{
-			filelocation: "Fujitsu"
+			filelocation: "Capax"
 		},
 		{
-			filelocation: "DSP"
+			filelocation: "Fujitsu"
 		}
 	],
 	footer: 
@@ -100,4 +91,3 @@
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
-

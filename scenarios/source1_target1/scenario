@@ -12,16 +12,24 @@
 		{
 			filelocation: "ProductLicensing",
 			actions: [ ]
-		}
+		},
+		{
+			filelocation: "OnPremVsCloud",
+			actions: [ ]
+		},
+		{
+			filelocation: "SqlUpgradePaths",
+			actions: [ ]
+		},
 	],
 	technicalsectionitems: 
 	[
 		{
-			filelocation: "Overview",
+			filelocation: "SqlOverview",
 			actions: [ ]
 		},
 		{
-			filelocation: "Discover",
+			filelocation: "SqlDiscover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -29,61 +37,65 @@
 			]
 		},
 		{
-                 	filelocation: "Assessment",
+			filelocation: "SqlAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "DMADownload"
 				}
 			]
 		},
 		{
-                        filelocation: "Migration",
-	                actions: [ {
+			filelocation: "SqlMigration",
+			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "DMADownload"
 				}
-			] 
+			]
 		},
 		{
-			filelocation: "RemediateApps",
+			filelocation: "SqlRemediateApps",
 			actions: [ ]
 		},
 		{
-			filelocation: "PerformTests",
-			actions: [ ]
-		},
-	        {
-		 	filelocation: "Optimization",
-	                actions: [ ]  
-		},
-		{
-			filelocation: "DataSync",
-			actions: [ ]
+			filelocation: "SqlPerformTests",
+			actions: [ {
+					actiontype: "download",
+					filelocation: "DEADownload"
+				}
+			]
 		},
 		{
-			filelocation: "Cutover",
+			filelocation: "SqlOptimization",
+			actions: [ ]
+		},
+		{
+			filelocation: "SqlDataSync",
+			actions: [ ]
+		},
+		{
+			filelocation: "SqlRollback",
 			actions: [ ]
 		}
 	],
 	casestudies:
 	[
 		{
-			filelocation: "PACTGroup"
+			filelocation: "Convergent"
 		},
 		{
-			filelocation: "KDS"
+			filelocation: "Derivco"
 		},
 		{
-			filelocation: "PTC"
+			filelocation: "SBI"
 		}
 	],
 	partners:
 	[
 		{
-			filelocation: "Capax"
+			filelocation: "Fujitsu"
 		},
 		{
-			filelocation: "Fujitsu"
+			filelocation: "DSP"
 		}
 	],
 	footer: 
@@ -91,3 +103,4 @@
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
+
