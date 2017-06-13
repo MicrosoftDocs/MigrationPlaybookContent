@@ -74,7 +74,7 @@ Note that legends used below:
 *	Backup and restore (**Supported**): Backup taken on SQL Server 2012 can be restored to SQL Server 2016.
 *	Transactional replication (**Supported**): SQL Server transactional replication from SQL Server 2012 to SQL Server 2016 is supported.
 *	Availability group (**Partial**): Always On Availability Group is supported if primary replica is running SQL Server 2012 SP2 or later and secondary replicas are running SQL Server 2016. If a failover, either automatic or manual, happens such that a SQL Server 2016 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT be able to receive changes from primary.
-*	Migration Tools (**Supported**): Supported.
+*	Migration Tools (**Supported**): Migration supported through DMS and DMA.
 *	Database mirroring (**Partial**): Database mirroring is supported if principal is running SQL Server 2012 SP1 or later and mirror is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes principal, SQL Server 2012 instance becomes mirror and will NOT receive changes from principal.
 *	Log shipping (**Partial**): Log shipping is supported if primary is running SQL Server 2012 SP1 or later and secondary is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT receive changes from primary.
 *	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2012 and then bulk copied into SQL Server 2016.
@@ -83,7 +83,19 @@ Note that legends used below:
 *	Backup and restore (**Supported**): Backup taken on SQL Server 2012 can be restored to SQL Server 2014.
 *	Transactional replication (**Supported**): SQL Server transactional replication from SQL Server 2012 to SQL Server 2014 is supported.
 *	Availability group (**Partial**): Always On Availability Group is supported if primary replica is running SQL Server 2012 SP1 or later and secondary replicas are running SQL Server 2014. If a failover, either automatic or manual, happens such that a SQL Server 2014 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT be able to receive changes from primary.
-*	Migration Tools (**Supported**): Supported.
+*	Migration Tools (**Supported**): Migration supported through DMS and DMA.
 *	Database mirroring (**Partial**): Database mirroring is supported if principal is running SQL Server 2012 SP1 or later and mirror is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes principal, SQL Server 2012 instance becomes mirror and will NOT receive changes from principal.
 *	Log shipping (**Partial**): Log shipping is supported if primary is running SQL Server 2012 SP1 or later and secondary is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT receive changes from primary.
 *	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2012 and then bulk copied into SQL Server 2014.
+
+#### From SQL Server 2014
+
+##### To SQL Server 2016
+*	Backup and restore (**Supported**): Backup taken on SQL Server 2014 can be restored to SQL Server 2016.
+*	Transactional replication (**Supported**): SQL Server transactional replication from SQL Server 2014 to SQL Server 2016 is supported.
+*	Availability group (**Partial**): Always On Availability Group is supported if primary replica is running SQL Server 2014 and secondary replicas are running SQL Server 2016. If a failover, either automatic or manual, happens such that a SQL Server 2016 instance becomes primary, SQL Server 2014 instance becomes secondary and will NOT be able to receive changes from primary.
+*	Migration Tools (**Supported**): Migration supported through DMS and DMA.
+*	Database mirroring (**Partial**): Database mirroring is supported if principal is running SQL Server 2014 and mirror is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes principal, SQL Server 2014 instance becomes mirror and will NOT receive changes from principal.
+*	Log shipping (**Partial**): Log shipping is supported if primary is running SQL Server 2014 and secondary is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes primary, SQL Server 2014 instance becomes secondary and will NOT receive changes from primary.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2014 and then bulk copied into SQL Server 2016.
+
