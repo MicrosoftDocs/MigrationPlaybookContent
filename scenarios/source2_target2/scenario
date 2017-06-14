@@ -14,7 +14,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "MySqlDiscover",
+			filelocation: "Discover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -22,18 +22,18 @@
 			]
 		},
 		{
-                 	filelocation: "MySqlAzureAssessment",
+                 	filelocation: "OracleAzureAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForOracleDownload"
+					filelocation: "SSMADownload"
 				}
 			]
 		},
 		{
-                        filelocation: "MySqlAzureMigration",
+                        filelocation: "OracleAzureMigration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForOracleDownload"
+					filelocation: "SSMADownload"
 				}
 			] 
 		},
