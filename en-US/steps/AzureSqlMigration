@@ -1,0 +1,23 @@
+<!--Migrate-->
+
+**Overview**
+
+After assessing your databases, the next step is to execute the migration process for the schema and database. The two recommended tools are Data Migration Assistant (DMA) for schema migration and Azure Database Migration Service (DMS) for data migration.
+
+**Process**
+
+1. For schema migration, use DMA to create a new Migration project and follow the wizard to kick off schema migration.
+
+_This workflow will migrate the following components: database schema, data and users, server roles, and SQL/Windows logins._
+
+2. For data migration, use Azure DMS to create a new Migration project and follow the wizard to kick off data migration.
+
+_Azure Database Migration Service (DMS) designed to streamline the process of migrating on premises databases to Azure. 
+Using DMS will simplify the migration of existing on-premises SQL Server, Oracle, and MySQL databases to Azure SQL Database or Microsoft SQL Server in an Azure virtual machine. The automated workflow, with assessment reporting, guides the user through the changes that are required prior to performing the actual migration. When the modifications are in place and the customer is prepared, 
+the service will migrate their database to Azure SQL Database or SQL Server in Azure._
+
+Note: For more details on Azure DMS, see the following resources:
+
+* [Interested in participating in Azure DMS Private Preview? Sign up here.](aka.ms/sqldatabase-migrationpreview)
+* [Getting to cloud faster with Azure DMS](2.	SQL Server Blog: Get to cloud faster with a new database migration service private preview)
+* [Azure DMS Demo](https://aka.ms/DMS_demo)
