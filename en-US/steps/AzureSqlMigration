@@ -18,6 +18,6 @@ the service will migrate their database to Azure SQL Database or SQL Server in A
 
 Note: For more details on Azure DMS, see the following resources:
 
-* [Interested in participating in Azure DMS Private Preview? Sign up here.](aka.ms/sqldatabase-migrationpreview)
+* Interested in participating in Azure DMS Private Preview? [Sign up here.](aka.ms/sqldatabase-migrationpreview)
 * [Getting to cloud faster with Azure DMS](2.	SQL Server Blog: Get to cloud faster with a new database migration service private preview)
 * [Azure DMS Demo](https://aka.ms/DMS_demo)
