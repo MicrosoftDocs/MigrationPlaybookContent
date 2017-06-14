@@ -13,7 +13,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "DB2Discover",
+			filelocation: "MySqlDiscover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -21,18 +21,18 @@
 			]
 		},
 		{
-                 	filelocation: "DB2Assessment",
+                 	filelocation: "MySqlAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForDB2Download"
+					filelocation: "SSMAForMySqlDownload"
 				}
 			]
 		},
 		{
-                        filelocation: "DB2Migration",
+                        filelocation: "MySqlMigration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForDB2Download"
+					filelocation: "SSMAForMySqlDownload"
 				}
 			] 
 		},
