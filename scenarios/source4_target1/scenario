@@ -25,7 +25,7 @@
 			]	
 	      },
 	      {
-			filelocation: "SybaseAssessment",
+			filelocation: "DB2Assessment",
 			actions: [ {
 				actiontype: "download",
 				filelocation: "SSMAForDB2Download"
@@ -33,7 +33,7 @@
 			]
 	      },
 	      {
-		  	filelocation: "SybaseMigration",
+		  	filelocation: "DB2Migration",
 	    		actions: [ {
 			    actiontype: "download",
 			    filelocation: "SSMAForDB2Download"
