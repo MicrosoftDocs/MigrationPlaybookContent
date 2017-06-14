@@ -17,7 +17,7 @@
 			actions: [ ]
 	      },
 	      {
-			filelocation: "SybaseDiscover",
+			filelocation: "DB2Discover",
 			actions: [ {
 			    actiontype: "download",
 			    filelocation: "MAPToolkit"
@@ -28,7 +28,7 @@
 			filelocation: "SybaseAssessment",
 			actions: [ {
 				actiontype: "download",
-				filelocation: "SSMAForSybaseDownload"
+				filelocation: "SSMAForDB2Download"
 	  			}
 			]
 	      },
@@ -36,7 +36,7 @@
 		  	filelocation: "SybaseMigration",
 	    		actions: [ {
 			    actiontype: "download",
-			    filelocation: "SSMAForSybaseDownload"
+			    filelocation: "SSMAForDB2Download"
 			    }
 			] 
 	      },
