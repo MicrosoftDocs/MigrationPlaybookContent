@@ -15,7 +15,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "DB2Discover",
+			filelocation: "MySqlDiscover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -23,18 +23,18 @@
 			]
 		},
 		{
-			filelocation: "DB2AzureAssessment",
+			filelocation: "MySqlAzureAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForDB2Download"
+					filelocation: "SSMAForMySqlDownload"
 				}
 			]
 		},
 		{
-			filelocation: "DB2AzureMigration",
+			filelocation: "MySqlAzureMigration",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForDB2Download"
+					filelocation: "SSMAForMySqlDownload"
 				}
 			] 
 		},
