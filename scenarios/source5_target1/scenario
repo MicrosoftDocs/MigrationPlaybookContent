@@ -29,7 +29,7 @@
 			]
 		},
 		{
-                        filelocation: "AccessMigration",
+                        filelocation: "SybaseMigration",
 	                actions: [ {
 					actiontype: "download",
 					filelocation: "SSMAForSybaseDownload"
