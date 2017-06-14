@@ -33,7 +33,7 @@
 			]
 		},
 		{
-			filelocation: "SqlMigration",
+			filelocation: "AzureSqlMigration",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "DMADownload"
