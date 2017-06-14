@@ -13,7 +13,7 @@
             actions: [ ]
           },
           {
-                filelocation: "AccessDiscover",
+                filelocation: "SybaseDiscover",
                 actions: [ {
                   actiontype: "download",
                   filelocation: "MAPToolkit"
@@ -21,18 +21,18 @@
                 ]
           },
           {
-                filelocation: "AccessAssessment",
+                filelocation: "SybaseAssessment",
                 actions: [ {
                   actiontype: "download",
-                  filelocation: "SSMAForAccessDownload"
+                  filelocation: "SSMAForSybaseDownload"
                 }
              ]   
           },
           {
-                filelocation: "AccessMigration",
+                filelocation: "SybaseMigration",
                 actions: [ {
                   actiontype: "download",
-                  filelocation: "SSMAForAccessDownload"
+                  filelocation: "SSMAForSybaseDownload"
                 }
             ] 
           },
