@@ -25,7 +25,7 @@
                  	filelocation: "MySqlAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForOracleDownload"
 				}
 			]
 		},
@@ -33,7 +33,7 @@
                         filelocation: "MySqlMigration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMAForMySqlDownload"
+					filelocation: "SSMAForOracleDownload"
 				}
 			] 
 		},
