@@ -22,7 +22,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "Discover",
+			filelocation: "AccessAzureDiscover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -30,18 +30,18 @@
 			]
 		},
 		{
-                 	filelocation: "OracleAzureAssessment",
+                 	filelocation: "AccessAzureAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "SSMAForAccessDownload"
 				}
 			]
 		},
 		{
-                        filelocation: "OracleAzureMigration",
+                        filelocation: "AccessAzureMigration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "SSMAForAccessDownload"
 				}
 			] 
 		},

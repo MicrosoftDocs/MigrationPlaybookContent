@@ -14,7 +14,7 @@ Each phase in the data migration process is briefly described in the following t
 |Remediate Applications | Iterative process of making necessary changes to applications. |
 |Perform Tests | Iterative process of executing functional and performance tests. |
 |Optimize | Post data and schema migration, the target needs to be tested to identify performance issues. |
-|Sync Data | Data Sync	Data and schema sync post migration. |
+|Sync Data | Data Sync and schema sync post migration. |
 |Cutover | Rollback strategy and plans post migration. |
 
 For more detail on a specific phase, click the associated link on navigation bar.

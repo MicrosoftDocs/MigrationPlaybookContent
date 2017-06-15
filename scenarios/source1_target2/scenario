@@ -26,11 +26,19 @@
 		},
 		{
 			filelocation: "SqlAssessment",
-			actions: [ ]
+			actions: [ {
+					actiontype: "download",
+					filelocation: "DMADownload"
+				}
+			]
 		},
 		{
-			filelocation: "SqlMigration",
-			actions: [ ]
+			filelocation: "AzureSqlMigration",
+			actions: [ {
+					actiontype: "download",
+					filelocation: "DMADownload"
+				}
+			]
 		},
 		{
 			filelocation: "SqlRemediateApps",

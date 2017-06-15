@@ -21,7 +21,7 @@
 			actions: [ ]
 		},
 		{
-			filelocation: "Discover",
+			filelocation: "AccessDiscover",
 			actions: [ {
 					actiontype: "download",
 					filelocation: "MAPToolkit"
@@ -29,18 +29,18 @@
 			]
 		},
 		{
-                 	filelocation: "Assessment",
+                 	filelocation: "AccessAssessment",
 			actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "SSMAForAccessDownload"
 				}
 			]
 		},
 		{
-                        filelocation: "Migration",
+                        filelocation: "AccessMigration",
 	                actions: [ {
 					actiontype: "download",
-					filelocation: "SSMADownload"
+					filelocation: "SSMAForAccessDownload"
 				}
 			] 
 		},

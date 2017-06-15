@@ -2,13 +2,13 @@
 
 **Overview**
 
-By using SQL Server Migration Assistant (SSMA) for Oracle, you can review database objects and data, assess databases for migration, migrate database objects to Azure SQL Database, and then migrate data to Azure SQL Database.
+By using SQL Server Migration Assistant (SSMA) for Oracle, you can review database objects and data, assess databases for migration, and then migrate schema to Azure SQL Database.
 
 **Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for Oracle (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql).
 
 **Process**
 
-To use SSMA for Oracle to create an assessment, perform the following steps.
+To use SSMA for Oracle to create an assessment and schema deployment, perform the following steps.
 
 1.Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54258), and then install it.
 
@@ -21,6 +21,11 @@ _This will generate an HTML report with conversion statistics and error/ warning
 3.Perform schema conversion.
 
 _With the schema conversion is complete, you are ready to move on to the Migration phase._
+
+4.Publish the schema to Azure SQL Database.
+
+_This action will publish the Oracle schema to the Azure SQL Database instance._
+
 
 **Note**: For complete step-by-step guidance on installing and using SSMA for Oracle, see the following resources:
 
