@@ -1,1 +1,4 @@
-[TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/)
+{
+  text: "TCO Calculator",
+  url: "http://sqltcocalculator.azurewebsites.net/#!/"
+}
