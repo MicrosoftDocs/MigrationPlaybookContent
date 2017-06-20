@@ -1,92 +1,98 @@
 {
-	businesssectionitems: 
-	[
-		{
-			filelocation: "AzureRationale",
-			actions: [ 
-				{
-					actiontype: "download",
-					filelocation: "pricingcalculator"
-				},
-				{
-					actiontype: "download",
-					filelocation: "AzureTCO"
-				}
-			]
-		}
-	],
-	technicalsectionitems: 
-	[
-		{
-			filelocation: "Overview",
-			actions: [ ]
-		},
-		{
-			filelocation: "AccessAzureDiscover",
-			actions: [ {
-					actiontype: "download",
-					filelocation: "MAPToolkit"
-				}
-			]
-		},
-		{
-                 	filelocation: "AccessAzureAssessment",
-			actions: [ {
-					actiontype: "download",
-					filelocation: "SSMAForAccessDownload"
-				}
-			]
-		},
-		{
-                        filelocation: "AccessAzureMigration",
-	                actions: [ {
-					actiontype: "download",
-					filelocation: "SSMAForAccessDownload"
-				}
-			] 
-		},
-		{
-			filelocation: "RemediateApps",
-			actions: [ ]
-		},
-		{
-			filelocation: "PerformTests",
-			actions: [ ]
-		},
-	        {
-		 	filelocation: "Optimization",
-	                actions: [ ]  
-		},
-		{
-			filelocation: "DataSync",
-			actions: [ ]
-		},
-		{
-			filelocation: "Cutover",
-			actions: [ ]
-		}
-	],
-	casestudies:
-	[
-		{
-			filelocation: "Sumitomo"
-		},
-		{
-			filelocation: "KDS"
-		},
-		{
-			filelocation: "PTC"
-		}
-	],
-	partners:
-	[
-		{
-			filelocation: "Accenture"
-		},
-		{
-			filelocation: "Fujitsu"
-		}
-	],
+	businesssection:
+	{
+		items: 
+		[
+			{
+				filelocation: "AzureRationale",
+				actions: [ 
+					{
+						actiontype: "download",
+						filelocation: "pricingcalculator"
+					},
+					{
+						actiontype: "download",
+						filelocation: "AzureTCO"
+					}
+				]
+			}
+		],
+		casestudies:
+		[
+			{
+				filelocation: "Sumitomo"
+			},
+			{
+				filelocation: "KDS"
+			},
+			{
+				filelocation: "PTC"
+			}
+		],
+		partners:
+		[
+			{
+				filelocation: "Accenture"
+			},
+			{
+				filelocation: "Fujitsu"
+			}
+		]
+	},
+	technicalsection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Overview",
+				actions: [ ]
+			},
+			{
+				filelocation: "AccessAzureDiscover",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "MAPToolkit"
+					}
+				]
+			},
+			{
+				filelocation: "AccessAzureAssessment",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForAccessDownload"
+					}
+				]
+			},
+			{
+				filelocation: "AccessAzureMigration",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForAccessDownload"
+					}
+				] 
+			},
+			{
+				filelocation: "RemediateApps",
+				actions: [ ]
+			},
+			{
+				filelocation: "PerformTests",
+				actions: [ ]
+			},
+			{
+				filelocation: "Optimization",
+				actions: [ ]  
+			},
+			{
+				filelocation: "DataSync",
+				actions: [ ]
+			},
+			{
+				filelocation: "Cutover",
+				actions: [ ]
+			}
+		]
+	},
 	footer: 
 	{
 		// empty for now but will probably contain lists of download links etc.
