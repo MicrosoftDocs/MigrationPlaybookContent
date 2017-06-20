@@ -1,74 +1,78 @@
 {
-      businesssectionitems: 
-      [
-          {
-            filelocation: "Rationale",
-            actions: [ ]
-          }
-      ],
-      technicalsectionitems: 
-      [
-          {
-            filelocation: "Overview",
-            actions: [ ]
-          },
-          {
-                filelocation: "SybaseDiscover",
-                actions: [ {
-                  actiontype: "download",
-                  filelocation: "MAPToolkit"
-                  }
-                ]
-          },
-          {
-                filelocation: "SybaseAssessment",
-                actions: [ {
-                  actiontype: "download",
-                  filelocation: "SSMAForSybaseDownload"
-                }
-             ]   
-          },
-          {
-                filelocation: "SybaseMigration",
-                actions: [ {
-                  actiontype: "download",
-                  filelocation: "SSMAForSybaseDownload"
-                }
-            ] 
-          },
-          {
-              filelocation: "RemediateApps",
-              actions: [ ]
-          },
-          {
-              filelocation: "PerformTests",
-              actions: [ ]
-          },
-          {
-              filelocation: "Optimization",
-              actions: [ ]  
-          },
-          {
-              filelocation: "DataSync",
-              actions: [ ]
-          },
-          {
-              filelocation: "Cutover",
-              actions: [ ]
-          }
-      ],
-      casestudies:
-      [
-
-      ],
-      partners:
-      [
-
-      ],
-      footer: 
-      {
-        // empty for now but will probably contain lists of download links etc.
-      }
+	businesssection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Rationale",
+				actions: [ ]
+			}
+		],
+		casestudies: [ ],
+		partners: [ ]
+	},
+	technicalsection
+	{
+		items: 
+		[
+			{
+				filelocation: "Overview",
+				actions: [ ]
+			},
+			{
+				filelocation: "SybaseDiscover",
+				actions:
+				[
+					{
+						actiontype: "download",
+						filelocation: "MAPToolkit"
+					}
+				]
+			},
+			{
+				filelocation: "SybaseAssessment",
+				actions:
+				[
+					{
+						actiontype: "download",
+						filelocation: "SSMAForSybaseDownload"
+					}
+				]   
+			},
+			{
+				filelocation: "SybaseMigration",
+				actions:
+				[
+					{
+						actiontype: "download",
+						filelocation: "SSMAForSybaseDownload"
+					}
+				] 
+			},
+			{
+				filelocation: "RemediateApps",
+				actions: [ ]
+			},
+			{
+				filelocation: "PerformTests",
+				actions: [ ]
+			},
+			{
+				filelocation: "Optimization",
+				actions: [ ]  
+			},
+			{
+				filelocation: "DataSync",
+				actions: [ ]
+			},
+			{
+				filelocation: "Cutover",
+				actions: [ ]
+			}
+		]
+	},
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
 }
-
-
