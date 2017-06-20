@@ -1,87 +1,93 @@
 {
-	businesssectionitems: 
-	[
-		{
-			filelocation: "AzureRationale",
-			actions: [ ]
-		},
-		{
-			filelocation: "AzureUpgradePaths",
-			actions: [ ]
-		}
-	],
-	technicalsectionitems: 
-	[
-		{
-			filelocation: "AzureSqlOverview",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlDiscover",
-			actions: [ {
-					actiontype: "download",
-					filelocation: "MAPToolkit"
-				}
-			]
-		},
-		{
-			filelocation: "SqlAssessment",
-			actions: [ {
-					actiontype: "download",
-					filelocation: "DMADownload"
-				}
-			]
-		},
-		{
-			filelocation: "AzureSqlMigration",
-			actions: [ {
-					actiontype: "download",
-					filelocation: "DMADownload"
-				}
-			]
-		},
-		{
-			filelocation: "SqlRemediateApps",
-			actions: [ ]
-		},
-		{
-			filelocation: "PerformTests",
-			actions: [ ]
-		},	
-		{
-			filelocation: "SqlOptimization",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlDataSync",
-			actions: [ ]
-		},
-		{
-			filelocation: "SqlRollback",
-			actions: [ ]
-		}
-	],
-	casestudies:
-	[
-		{
-			filelocation: "Sumitomo"
-		},
-		{
-			filelocation: "KDS"
-		},
-		{
-			filelocation: "PTC"
-		}
-	],
-	partners:
-	[
-		{
-			filelocation: "Accenture"
-		},
-		{
-			filelocation: "Fujitsu"
-		}
-	],
+	businesssection:
+	{
+		items: 
+		[
+			{
+				filelocation: "AzureRationale",
+				actions: [ ]
+			},
+			{
+				filelocation: "AzureUpgradePaths",
+				actions: [ ]
+			}
+		],
+		casestudies:
+		[
+			{
+				filelocation: "Sumitomo"
+			},
+			{
+				filelocation: "KDS"
+			},
+			{
+				filelocation: "PTC"
+			}
+		],
+		partners:
+		[
+			{
+				filelocation: "Accenture"
+			},
+			{
+				filelocation: "Fujitsu"
+			}
+		]
+	},
+	technicalsection:
+	{
+		items: 
+		[
+			{
+				filelocation: "AzureSqlOverview",
+				actions: [ ]
+			},
+			{
+				filelocation: "SqlDiscover",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "MAPToolkit"
+					}
+				]
+			},
+			{
+				filelocation: "SqlAssessment",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "DMADownload"
+					}
+				]
+			},
+			{
+				filelocation: "AzureSqlMigration",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "DMADownload"
+					}
+				]
+			},
+			{
+				filelocation: "SqlRemediateApps",
+				actions: [ ]
+			},
+			{
+				filelocation: "PerformTests",
+				actions: [ ]
+			},	
+			{
+				filelocation: "SqlOptimization",
+				actions: [ ]
+			},
+			{
+				filelocation: "SqlDataSync",
+				actions: [ ]
+			},
+			{
+				filelocation: "SqlRollback",
+				actions: [ ]
+			}
+		]
+	},
 	footer: 
 	{
 		// empty for now but will probably contain lists of download links etc.
