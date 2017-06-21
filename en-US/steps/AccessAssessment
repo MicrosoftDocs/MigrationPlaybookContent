@@ -1,6 +1,6 @@
 <!-- Assess & Convert -->
 
-**Overview**
+## Overview
 
 By using SQL Server Migration Assistant (SSMA) for Access, you can review database objects and data, assess databases for migration, migrate Access database objects to SQL Server, and then migrate data to SQL Server.
 
