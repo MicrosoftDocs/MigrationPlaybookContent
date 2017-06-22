@@ -1,12 +1,12 @@
 <!-- Assess & Convert -->
 
-**Overview**
+### Overview
 
 By using SQL Server Migration Assistant (SSMA) for DB2, you can review database objects and data, assess databases for migration, migrate DB2 database objects to SQL Server, and then migrate data to SQL Server.
 
 **Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/sql-server-migration-assistant-for-db2-db2tosql).
 
-**Process**
+### Process
 
 To use SSMA for DB2 to create an assessment, perform the following steps.
 
