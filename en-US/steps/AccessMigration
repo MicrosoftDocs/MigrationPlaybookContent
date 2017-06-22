@@ -1,10 +1,10 @@
 <!--Migrate-->
 
-**Overview**
+### Overview
 
 After you have completed assessing your databases and addressing any discrepancies, the next step is to execute the migration process. Migration involves two steps – publishing the schema and migrating the data. SSMA for Access is the correct tool to use for this process.
 
-**Process**
+### Process
 
 To use SSMA for Access to publish the database schema and migrate the data, perform the following steps.
 
