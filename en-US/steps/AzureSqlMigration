@@ -1,10 +1,10 @@
 <!--Migrate-->
 
-**Overview**
+### Overview
 
 After assessing your databases, the next step is to execute the migration process for the schema and database. The two recommended tools are Data Migration Assistant (DMA) for schema migration and Azure Database Migration Service (DMS) for data migration.
 
-**Process**
+### Process
 
 1.For schema migration, use DMA to create a new Migration project and follow the wizard to execute schema migration.
 
