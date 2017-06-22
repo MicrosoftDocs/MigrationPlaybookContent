@@ -1,12 +1,12 @@
 <!-- Assess & Convert -->
 
-**Overview**
+### Overview
 
 By using SQL Server Migration Assistant (SSMA) for MySQL, you can review database objects and data, assess databases for migration, migrate database objects to SQL Server, and then migrate data to SQL Server.
 
 **Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for MySQL (MySQLToSQL)](https://docs.microsoft.com/en-us/sql/ssma/mysql/sql-server-migration-assistant-for-mysql-mysqltosql).
 
-**Process**
+### Process
 
 To use SSMA for MySQL to create an assessment, perform the following steps.
 
