@@ -1,13 +1,13 @@
 <!--Discover-->
 
-**Overview**
+### Overview
 
 The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s SQL instances together with the version and features in use.
 
 You can use [Microsoft Assessment and Planning (MAP)](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx)
 toolkit to securely assess your environment for your migration.
 
-**Process**
+### Process
 
 To use MAP Toolkit to perform an inventory scan, perform the following steps.
 
