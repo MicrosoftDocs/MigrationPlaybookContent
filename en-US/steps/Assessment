@@ -1,12 +1,12 @@
 <!-- Assess & Convert -->
 
-**Overview**
+### Overview
 
 By using SQL Server Migration Assistant (SSMA) for Oracle, you can review database objects and data, assess databases for migration, migrate database objects to SQL Server, and then migrate data to SQL Server. 
 
 **Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for Oracle (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql).
 
-**Process**
+### Process
 
 To use SSMA for Oracle to create an assessment, perform the following steps.
 
