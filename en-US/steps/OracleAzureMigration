@@ -1,10 +1,10 @@
 <!--Migrate-->
 
-**Overview**
+### Overview
 
 After deploying your schema, the next step is to execute the data migration to Azure SQL Database. The recommended tool for data movement workflow is Azure Database Migration Service (DMS).
 
-**Process**
+### Process
 
 1.For data migration, use Azure DMS to create a new Migration project and follow the wizard to execute data migration.
 
