@@ -8,6 +8,7 @@ By using SQL Server Migration Assistant (SSMA) for DB2, you can review database 
 
 ### Process
 
+{.c-list}
 To use SSMA for DB2 to create an assessment, perform the following steps.
 
 1.Download SSMA from the Microsoft Download Center [here]( https://www.microsoft.com/en-us/download/details.aspx?id=54254), and then install it.
@@ -25,7 +26,6 @@ _When the schema conversion is complete, you are ready to move on to the Migrati
 **Note**: For complete step-by-step guidance on installing and using SSMA for DB2, see the following resources:
 
 * [Getting Started with SSMA for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/getting-started-with-ssma-for-db2-db2tosql)
-{.c-list}
 * [Installing SSMA for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/installing-ssma-for-db2-client-db2tosql)
 * [Installing SSMA Components on SQL Server (DB2ToSQL)](https://docs.microsoft.com/en-us/sql/ssma/db2/installing-ssma-components-on-sql-server-db2tosql)
 * [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
