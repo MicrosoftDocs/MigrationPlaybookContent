@@ -46,12 +46,12 @@
 		},
 		{
 			"id": "goal",
-			"text": "QuestionGoal",
+			"text": "What's the business goal?",
 			"options": [
-				"AnswerGoalDataModernization",
-				"AnswerGoalReduceCost",
-				"AnswerGoalMigrateCloud",
-				"AnswerGoalAllAbove"
+				"Data modernization",
+				"Reducing cost",
+				"Migrate to Cloud",
+				"All of the above"
 			],
 			"required": "false"
 		},
