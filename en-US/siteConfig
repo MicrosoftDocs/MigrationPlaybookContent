@@ -36,11 +36,11 @@
 		},
 		{
 			"id": "target",
-			"text": "QuestionTarget",
+			"text": "Where do you want to move your data to?",
 			"options": [
-				"AnswerTargetSqlServer",
-				"AnswerTargetAzureSql",
-				"AnswerTargetHelpMe"
+				"SQL Server 2016",
+				"Azure SQL Database",
+				"Help me decide"
 			],
 			"required": "true"
 		},
