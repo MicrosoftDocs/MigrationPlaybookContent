@@ -57,10 +57,10 @@
 		},
 		{
 			"id": "partner",
-			"text": "QuestionRequirePartner",
+			"text": "Do you require Partner support to assist with the migrations?",
 			"options": [
-				"AnswerRequirePartnerYes",
-				"AnswerRequirePartnerNo"
+				"Yes",
+				"No"
 			],
 			"required": "false"
 		}
