@@ -25,64 +25,64 @@
 			"id": "source",
 			"text": "Where is your data stored today?",
 			"options":
-			[
+			{
 				"sourceSql" : "SQL Server",
 				"sourceOracle" : "Oracle",
 				"sourceMysql" : "MySQL",
 				"sourceDb2" : "DB2",
 				"sourceSybase" : "Sybase",
 				"sourceAccess" : "Access"
-			],
+			},
 			"required": "true"
 		},
 		{
 			"id": "target",
 			"text": "Where do you want to move your data to?",
 			"options":
-			[
+			{
 				"targetSql" : "SQL Server 2016",
 				"targetAzure" : "Azure SQL Database",
 				"targetHelp" : "Help me decide"
-			],
+			},
 			"required": "true"
 		},
 		{
 			"id": "goal",
 			"text": "What's the business goal?",
 			"options":
-			[
+			{
 				"goalModern" : "Data modernization",
 				"goalCost" : "Reducing cost",
 				"goalCloud" : "Migrate to Cloud",
 				"goalAll" : "All of the above"
-			],
+			},
 			"required": "false"
 		},
 		{
 			"id": "partner",
 			"text": "Do you require Partner support to assist with the migrations?",
 			"options":
-			[
+			{
 				"partnerYes" : "Yes",
 				"partnerNo" : "No"
-			],
+			},
 			"required": "false"
 		}
 	],
 	"caseStudies":
 	[
 		{
-			filelocation: "Floatel"
+			"filelocation": "Floatel"
 		},
 		{
-			filelocation: "Infosys"
+			"filelocation": "Infosys"
 		},
 		{
-			filelocation: "HollandAmerica"
+			"filelocation": "HollandAmerica"
 		}
 	],
 	"scenarioMap":
-	[
+	{
 		"sourceSql_targetSql" : "sql-to-sqlserver2016",
 		"sourceSql_targetAzure" : "sql-to-azuresql",
 		"sourceOracle_targetSql" : "oracle-to-sqlserver2016",
@@ -95,5 +95,5 @@
 		"sourceSybase_targetAzure" : "sybase-to-azuresql",
 		"sourceAccess_targetSql" : "access-to-sqlserver2016",
 		"sourceAccess_targetAzure" : "access-to-azuresql"
-	]
+	}
 }
