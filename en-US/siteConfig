@@ -19,53 +19,57 @@
 
 
 {
-	questions:
+	"questions":
 	[
 		{
 			"id": "source",
 			"text": "Where is your data stored today?",
-			"options": [
-				"SQL Server",
-				"Oracle",
-				"MySQL",
-				"DB2",
-				"Sybase",
-				"Access"
+			"options":
+			[
+				"sourceSql" : "SQL Server",
+				"sourceOracle" : "Oracle",
+				"sourceMysql" : "MySQL",
+				"sourceDb2" : "DB2",
+				"sourceSybase" : "Sybase",
+				"sourceAccess" : "Access"
 			],
 			"required": "true"
 		},
 		{
 			"id": "target",
 			"text": "Where do you want to move your data to?",
-			"options": [
-				"SQL Server 2016",
-				"Azure SQL Database",
-				"Help me decide"
+			"options":
+			[
+				"targetSql" : "SQL Server 2016",
+				"targetAzure" : "Azure SQL Database",
+				"targetHelp" : "Help me decide"
 			],
 			"required": "true"
 		},
 		{
 			"id": "goal",
 			"text": "What's the business goal?",
-			"options": [
-				"Data modernization",
-				"Reducing cost",
-				"Migrate to Cloud",
-				"All of the above"
+			"options":
+			[
+				"goalModern" : "Data modernization",
+				"goalCost" : "Reducing cost",
+				"goalCloud" : "Migrate to Cloud",
+				"goalAll" : "All of the above"
 			],
 			"required": "false"
 		},
 		{
 			"id": "partner",
 			"text": "Do you require Partner support to assist with the migrations?",
-			"options": [
-				"Yes",
-				"No"
+			"options":
+			[
+				"partnerYes" : "Yes",
+				"partnerNo" : "No"
 			],
 			"required": "false"
 		}
 	],
-	casestudies:
+	"caseStudies":
 	[
 		{
 			filelocation: "Floatel"
@@ -76,5 +80,20 @@
 		{
 			filelocation: "HollandAmerica"
 		}
+	],
+	"scenarioMap":
+	[
+		"sourceSql_targetSql" : "sql-to-sql2016",
+		"sourceSql_targetAzure" : "sql-to-azuresql",
+		"sourceOracle_targetSql" : "oracle-to-sql2016",
+		"sourceOracle_targetAzure" : "oracle-to-azuresql",
+		"sourceMysql_targetSql" : "mysql-to-sql2016",
+		"sourceMysql_targetAzure" : "mysql-to-azuresql",
+		"sourceDb2_targetSql" : "db2-to-sql2016",
+		"sourceDb2_targetAzure" : "db2-to-azuresql",
+		"sourceSybase_targetSql" : "sybase-to-sql2016",
+		"sourceSybase_targetAzure" : "sybase-to-azuresql",
+		"sourceAccess_targetSql" : "access-to-sql2016",
+		"sourceAccess_targetAzure" : "access-to-azuresql"
 	]
 }
