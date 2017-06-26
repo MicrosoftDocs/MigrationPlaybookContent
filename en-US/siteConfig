@@ -23,14 +23,14 @@
 	[
 		{
 			"id": "source",
-			"text": "QuestionSource",
+			"text": "Where is your data stored today?",
 			"options": [
-				"AnswerSourceSqlServer",
-				"AnswerSourceOracle",
-				"AnswerSourceMySQL",
-				"AnswerSourceDB2",
-				"AnswerSourceSybase",
-				"AnswerSourceAccess"
+				"SQL Server",
+				"Oracle",
+				"MySQL",
+				"DB2",
+				"Sybase",
+				"Access"
 			],
 			"required": "true"
 		},
