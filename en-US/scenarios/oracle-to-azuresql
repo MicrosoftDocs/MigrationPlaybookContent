@@ -1,6 +1,6 @@
 {
-	"displayname" : "Oracle to Azure SQL Databas",
-	"emailmessage" : "Check out the migration process from Oracle to Azure SQL Databas here:",
+	"displayname" : "Oracle to Azure SQL Database",
+	"emailmessage" : "Check out the migration process from Oracle to Azure SQL Database here:",
 	businesssection:
 	{
 		items: 
