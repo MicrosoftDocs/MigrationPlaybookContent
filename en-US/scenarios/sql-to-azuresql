@@ -1,6 +1,6 @@
 {
-	"displayname" : "SQL Server to Azure SQL Databas",
-	"emailmessage" : "Check out the migration process from SQL Server to Azure SQL Databas here:",
+	"displayname" : "SQL Server to Azure SQL Database",
+	"emailmessage" : "Check out the migration process from SQL Server to Azure SQL Database here:",
 	businesssection:
 	{
 		items: 
