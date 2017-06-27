@@ -25,47 +25,47 @@
 			"id": "source",
 			"text": "Where is your data stored today?",
 			"options":
-			{
-				"sourceSql" : "SQL Server",
-				"sourceOracle" : "Oracle",
-				"sourceMysql" : "MySQL",
-				"sourceDb2" : "DB2",
-				"sourceSybase" : "Sybase",
-				"sourceAccess" : "Access"
-			},
+			[
+				1 : "SQL Server",
+				2 : "Oracle",
+				3 : "MySQL",
+				4 : "DB2",
+				5 : "Sybase",
+				6 : "Access"
+			],
 			"required": "true"
 		},
 		{
 			"id": "target",
 			"text": "Where do you want to move your data to?",
 			"options":
-			{
-				"targetSql" : "SQL Server 2016",
-				"targetAzure" : "Azure SQL Database",
-				"targetHelp" : "Help me decide"
-			},
+			[
+				1 : "SQL Server 2016",
+				2 : "Azure SQL Database",
+				3 : "Help me decide"
+			],
 			"required": "true"
 		},
 		{
 			"id": "goal",
 			"text": "What's the business goal?",
 			"options":
-			{
-				"goalModern" : "Data modernization",
-				"goalCost" : "Reducing cost",
-				"goalCloud" : "Migrate to Cloud",
-				"goalAll" : "All of the above"
-			},
+			[
+				1 : "Data modernization",
+				2 : "Reducing cost",
+				3 : "Migrate to Cloud",
+				4 : "All of the above"
+			],
 			"required": "false"
 		},
 		{
 			"id": "partner",
 			"text": "Do you require Partner support to assist with the migrations?",
 			"options":
-			{
-				"partnerYes" : "Yes",
-				"partnerNo" : "No"
-			},
+			[
+				1 : "Yes",
+				2 : "No"
+			],
 			"required": "false"
 		}
 	],
