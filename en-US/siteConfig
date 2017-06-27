@@ -83,17 +83,17 @@
 	],
 	"scenarioMap":
 	{
-		"sourceSql_targetSql" : "sql-to-sqlserver2016",
-		"sourceSql_targetAzure" : "sql-to-azuresql",
-		"sourceOracle_targetSql" : "oracle-to-sqlserver2016",
-		"sourceOracle_targetAzure" : "oracle-to-azuresql",
-		"sourceMysql_targetSql" : "mysql-to-sqlserver2016",
-		"sourceMysql_targetAzure" : "mysql-to-azuresql",
-		"sourceDb2_targetSql" : "db2-to-sqlserver2016",
-		"sourceDb2_targetAzure" : "db2-to-azuresql",
-		"sourceSybase_targetSql" : "sybase-to-sqlserver2016",
-		"sourceSybase_targetAzure" : "sybase-to-azuresql",
-		"sourceAccess_targetSql" : "access-to-sqlserver2016",
-		"sourceAccess_targetAzure" : "access-to-azuresql"
+		"source1_target1" : "sql-to-sqlserver2016",
+		"source1_target2" : "sql-to-azuresql",
+		"source2_target1" : "oracle-to-sqlserver2016",
+		"source2_target2" : "oracle-to-azuresql",
+		"source3_target1" : "mysql-to-sqlserver2016",
+		"source3_target2" : "mysql-to-azuresql",
+		"source4_target1" : "db2-to-sqlserver2016",
+		"source4_target2" : "db2-to-azuresql",
+		"source5_target1" : "sybase-to-sqlserver2016",
+		"source5_target2" : "sybase-to-azuresql",
+		"source5_target1" : "access-to-sqlserver2016",
+		"source5_target2" : "access-to-azuresql"
 	}
 }
