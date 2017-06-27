@@ -1,6 +1,6 @@
 {
-	"displayname" : "SQL Server to SQL Server 2016",
-	"emailmessage" : "Check out the migration process from SQL Server to SQL Server 2016 here:",
+	"displayname" : "Oracle to SQL Server 2016",
+	"emailmessage" : "Check out the migration process from Oracle to SQL Server 2016 here:",
 	businesssection:
 	{
 		items: 
