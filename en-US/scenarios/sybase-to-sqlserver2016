@@ -1,4 +1,6 @@
 {
+	"displayname" : "Sybase to SQL Server 2016",
+	"emailmessage" : "Check out the migration process from Sybase to SQL Server 2016 here:",
 	businesssection:
 	{
 		items: 
