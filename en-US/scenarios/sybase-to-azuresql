@@ -1,6 +1,6 @@
 {
-	"displayname" : "Sybase to Azure SQL Databas",
-	"emailmessage" : "Check out the migration process from Sybase to Azure SQL Databas here:",
+	"displayname" : "Sybase to Azure SQL Database",
+	"emailmessage" : "Check out the migration process from Sybase to Azure SQL Database here:",
 	businesssection:
 	{
 		items: 
