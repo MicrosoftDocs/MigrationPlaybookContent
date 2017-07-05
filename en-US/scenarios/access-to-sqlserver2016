@@ -1,6 +1,7 @@
 {
 	"displayname" : "Access to SQL Server 2016",
 	"emailmessage" : "Check out the migration process from Access to SQL Server 2016 here:",
+	description:"Migrating from Access to Azure's SQL Server could not be simpler due to the SQL server's top tier performance, interconnectivity, consistency, and value.",
 	businesssection:
 	{
 		items: 
