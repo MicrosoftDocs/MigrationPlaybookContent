@@ -1,6 +1,7 @@
 {
 	"displayname" : "DB2 to Azure SQL Database",
 	"emailmessage" : "Check out the migration process from DB2 to Azure SQL Database here:",
+	description:"Azure's SQL Database system boasts unparalleled interconnectivity, scalability, and utilization. Learn more about our migration process from DB2 here.",
 	businesssection:
 	{
 		items: 
