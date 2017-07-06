@@ -8,9 +8,11 @@
 		[
 			{
 				filelocation: "Rationale",
-				actions: [ {
-						actiontype: "forwardlink",
-						filelocation: "tcocalculator"
+				actions:
+        [
+          {
+					  actiontype: "forwardlink",
+					  filelocation: "tcocalculator"
 					}
 				]
 			}
