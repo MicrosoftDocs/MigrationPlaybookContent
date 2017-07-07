@@ -14,7 +14,7 @@ If **end-to-end mobile BI on any device** is a concern:
 
 SQL Server 2016 will be integrating this technology into Reporting Services so that customers will be able to publish modern reports using PowerBI or Excel 2016 to an iPhone, Android phone, as well as Windows phone.  Best of all its built-in so no need to buy a separate product.  With the new integration of Power BI and SQL Server, you can enable self-service BI in addition to mobility. SQL Server can tackle all data workloads give you BI and Advanced Analytics built-in.
 
-If having **in-databased Advanced Analytics** is a concern:
+If having **in-database Advanced Analytics** is a concern:
 
 Many customers are exploring going beyond BI into predictive analytics where they want to proactively pave their business’ future with data rather than react to data.  With SQL Server 2016 you can now accomplish this with built-in in-database advanced analytics.  Again, the key here is in-database, because when we talk to customers trying to implement advanced analytics the number one challenge is moving the data out of your database to do perform open source R models.  In addition, customers want to perform analysis using R models on the latest data.  With 2016 you can create and run R models directly in the database, combining the power of open source R with SQL Server in-memory technology for incredibly fast reads and writes. 
 
