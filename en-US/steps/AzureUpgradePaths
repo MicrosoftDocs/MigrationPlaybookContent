@@ -1,0 +1,63 @@
+<!--Supported Upgrade Technologies -->
+
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database . This information is current as of June 2017. The following sources of SQL Server are included:
+* SQL Server 2005
+* SQL Server 2008 and SQL Server 2008 R2
+* SQL Server 2012
+* SQL Server 2014
+
+The following targets of Azure are included:
+* Azure SQL Database
+
+The following data migration options are discussed:
+*	Backup and restore
+*	Transactional replication
+*	Always On Availability Group
+*	Data Migration toolset [Data Migration Service (DMS) and Data Migration Assistant (DMA)]
+*	Database mirroring
+*	Log shipping
+*	Bulk load
+
+Note the legends used below:
+
+**Supported**: Upgrade options with no or few constraints
+
+**Unsupported**: Upgrade options that are not supported
+
+
+#### From SQL Server 2005
+*	Backup and restore (**Unsupported**): Backup taken on SQL Server 2005 cannot be restored to Azure SQL Database.
+*	Transactional replication (**Unsupported**): SQL Server replication from SQL Server 2005 to Azure SQL Database is NOT supported.
+*	Availability group (**Unsupported**): Always On Availability Group is NOT available in SQL Server 2005 or Azure SQL Database and Availability Group can not be formed between SQL Server 2005 and Azure SQL DB.
+*	Migration Tools (**Supported**): Migration is supported by DMS and DMA.
+*	Database mirroring (**Unsupported**): Database mirroring is NOT supported between SQL Server 2005 and Azure SQL Database.
+*	Log shipping (**Unsupported**): Log shipping is NOT supported between SQL Server 2005 and Azure SQL Database.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2005 and then bulk copied into Azure SQL Database.
+
+#### From SQL Server 2008 or SQL Server 2008 R2
+*	Backup and restore (**Unsupported**): Backup taken on SQL Server 2008 or SQL Server 2008 R2 cannot be restored to Azure SQL Database.
+*	Transactional replication (**Unsupported**): SQL Server replication from SQL Server 2008 or SQL Server 2008 R2 to Azure SQL Database is NOT supported.
+*	Availability group (**Unsupported**): Always On Availability Group is NOT available in SQL Server 2008, SQL Server 2008 R2, or Azure SQL Database and Availability Group cannot be formed between SQL Server 2008 or SQL Server 2008 R2 and Azure SQL Database.
+*	Migration Tools (**Supported**): Migration is supported by DMS and DMA.
+*	Database mirroring (**Unsupported**): Database mirroring is NOT supported between SQL Server 2008 or SQL Server 2008 R2 and Azure SQL Database.
+*	Log shipping (**Unsupported**): Log shipping is NOT supported between SQL Server 2008 or SQL Server 2008 R2 and Azure SQL Database.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into Azure SQL Database.
+
+#### From SQL Server 2012
+*	Backup and restore (**Unsupported**): Backup taken on SQL Server 2012 cannot be restored to Azure SQL Database.
+*	Transactional replication (**Supported**): Transactional replication from SQL Server 2012 to Azure SQL Database is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.
+*	Availability group (**Unsupported**): Always On Availability Group is NOT available in Azure SQL Database and Availability Group cannot be formed between SQL Server 2012 and Azure SQL Database.
+*	Migration Tools (**Supported**): Migration is supported by DMS and DMA.
+*	Database mirroring (**Unsupported**): Database mirroring is NOT supported between SQL Server 2012 and Azure SQL Database.
+*	Log shipping (**Unsupported**): Log shipping is NOT supported between SQL Server 2012 and Azure SQL Database.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database.
+
+#### From SQL Server 2014
+*	Backup and restore (**Unsupported**): Backup taken on SQL Server 2014 cannot be restored to Azure SQL Database.
+*	Transactional replication (**Supported**): Transactional replication from SQL Server 2014 to Azure SQL Database is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.
+*	Availability group (**Unsupported**): Always On Availability Group is NOT available in Azure SQL Database and Availability Group cannot be formed between SQL Server 2014 and Azure SQL Database.
+*	Migration Tools (**Supported**): Migration is supported by DMS and DMA.
+*	Database mirroring (**Unsupported**): Database mirroring is NOT supported between SQL Server 2014 and Azure SQL Database.
+*	Log shipping (**Unsupported**): Log shipping is NOT supported between SQL Server 2014 and Azure SQL Database.
+*	Bulk load (**Supported**): Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database.
+

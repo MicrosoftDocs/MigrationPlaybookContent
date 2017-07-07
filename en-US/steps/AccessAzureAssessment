@@ -1,0 +1,29 @@
+<!-- Assess & Convert -->
+
+### Overview
+
+By using SQL Server Migration Assistant (SSMA) for Access, you can review database objects and data, assess databases for migration, migrate Access database objects to Azure SQL Database, and then migrate data to Azure SQL Database.
+
+**Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for Access (AccessToSQL)](https://docs.microsoft.com/en-us/sql/ssma/access/sql-server-migration-assistant-for-access-accesstosql).
+
+### Process
+
+To use SSMA for Access to create an assessment, perform the following steps.
+
+1.Download SSMA from the Microsoft Download Center [here]( https://www.microsoft.com/en-us/download/details.aspx?id=54255), and then install it.
+
+_SSMA is now ready for use._
+
+2.Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for Access Assessments, see the article [Assessing Access Database Objects for Conversion (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/assessing-access-database-objects-for-conversion-accesstosql).
+
+_This will generate an Assessment Report which shows the results of the conversion of database objects to Transact-SQL syntax, and can also help you estimate the complexity and cost of your migration projects._
+
+3.Converting Access Database Objects. For more information about SSMA for Access Conversion, see the article [Converting Access Database Objects (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/converting-access-database-objects-accesstosql).
+
+_When the schema conversion is complete, you are ready to move on to the Migration phase._
+
+**Note**: For complete step-by-step guidance on installing and using SSMA for Access, see the following resources:
+
+* [Installing SSMA for Access (AccessToSQL)](https://docs.microsoft.com/en-us/sql/ssma/access/installing-sql-server-migration-assistant-for-access-accesstosql)
+* [Preparing Access Databases for Migration (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/preparing-access-databases-for-migration-accesstosql)
+* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)

@@ -1,0 +1,10 @@
+<!-- Quick Steps -->
+
+|**Phase**|**Description**|**Steps**|
+|:--------|:--------------|:--------|
+|Define/Discover|Requirements, success, risks for your migration project.|<ol><li>Download [MAP Toolkit](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx) from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=316883).</li><li>Get reports on Discovery & Inventory, Oracle schema reporting, and Hardware and Platform details.</li></ol>|
+|Assessment|Inventory of your current database assets and application stack discovery.|<ol><li>Download [SQL Server Migration Assistant](https://blogs.msdn.microsoft.com/ssma/) from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54258).</li><li>Review database objects and data.</li><li>Assess databases for migration.</li></ol>|
+|Migration & Remediation|Schema and data migration; perform validations. |<ol><li>Download [SQL Server Migration Assistant](https://blogs.msdn.microsoft.com/ssma/) from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54258).</li><li>Review database objects and data.</li><li>Migrate Oracle databases to SQL Server or Azure SQL Database.</li></ol>|
+|Optimization|Fix performance issues with the workload.|TBD|
+
+

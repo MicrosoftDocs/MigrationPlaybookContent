@@ -1,0 +1,95 @@
+// Let this template be your guide and we'll all be fine.
+// Do NOT modify the names of the fields, only modify the values.
+// Values must be within "".
+// Values are on the right hand side of the ":".
+// All values except the last one has to end with a comma after the quotes.
+/*	"id"
+		- A meaningfull name that is unique from all other questions
+		- Can NOT contain spaces, numbers, or special characters
+	"text"
+		- The text of the question as displayed to the user.
+		- If it starts with a $ then it will be passed through to the UI as is, otherwise it will be interpreted as the name of the localized resource string to use.
+		Example: "$What is your data source?" will be displayed to the user as "$What is your data source?". This is used for internal previewing only.
+		Example: "DataSourceQuestion" will display to the user the localized text of that resource (if it exists). So if the site was viewed in English that might display "What is your data source?" to the user. This has to be used for production.
+	"options"
+		- The list of options of the question displayed to the user. Same rules apply as in "text".
+	"required"
+		- If the user is required to answer this question or not (if not then it is considered to optional or advanced). Accepts "true" or "false".
+*/
+
+
+{
+	"questions":
+	[
+		{
+			"id": "source",
+			"text": "Where is your data stored today?",
+			"options":[
+				"SQL Server",
+				"Oracle",
+				"DB2",
+				"MySQL",
+				"Sybase",
+				"Access"
+			],
+			"required": "true"
+		},
+		{
+			"id": "target",
+			"text": "Where do you want to move your data to?",
+			"options":[
+				"SQL Server 2016",
+				"Azure SQL Database",
+				"Help me decide"
+			],
+			"required": "true"
+		},
+		{
+			"id": "goal",
+			"text": "What's the business goal?",
+			"options":[
+				"Data modernization",
+				"Reducing cost",
+				"Migrate to Cloud",
+				"All of the above"
+			],
+			"required": "false"
+		},
+		{
+			"id": "partner",
+			"text": "Do you require Partner support to assist with the migrations?",
+			"options":[
+				"Yes",
+				"No"
+			],
+			"required": "false"
+		}
+	],
+	"caseStudies":
+	[
+		{
+			"filelocation": "Floatel"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "HollandAmerica"
+		}
+	],
+	"scenarioMap":
+	{
+		"source0_target0" : "sql-to-sqlserver2016",
+		"source0_target1" : "sql-to-azuresql",
+		"source1_target0" : "oracle-to-sqlserver2016",
+		"source1_target1" : "oracle-to-azuresql",
+		"source2_target0" : "db2-to-sqlserver2016",
+		"source2_target1" : "db2-to-azuresql",
+		"source3_target0" : "mysql-to-sqlserver2016",
+		"source3_target1" : "mysql-to-azuresql",
+		"source4_target0" : "sybase-to-sqlserver2016",
+		"source4_target1" : "sybase-to-azuresql",
+		"source5_target0" : "access-to-sqlserver2016",
+		"source5_target1" : "access-to-azuresql"
+	}
+}

@@ -1,0 +1,24 @@
+<!-- Process Overview -->
+
+Migrations should be approached with the same rigor and processes as a full software or hardware project – a  solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
+
+![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/SQLUpgradeProcess.png)
+
+Each phase in the data migration process is briefly described in the following table:
+
+|**Phase** |**Description** |
+|:---------|:---------------|
+|Discover | Inventory database assets, and application stack discovery. |
+|Assess | Assess workloads and fix recommendations. |
+|Migrate  | Source schema needs to be converted to work in target. Migration of data to target. |
+|Remediate Applications | Iterative process of making necessary changes to applications. |
+|Perform Tests | Iterative process of executing functional and performance tests. |
+|Optimize | Post data and schema migration, the target needs to be tested to identify performance issues. |
+|Sync Data | Data Sync and schema sync post migration. |
+|Cutover | Rollback strategy and plans post migration. |
+
+For more detail on a specific phase, click the associated link on navigation bar.
+
+See [here](http://download.microsoft.com/download/7/1/5/715BDFA7-51B6-4D7B-AF17-61E78C7E538F/SQL_Server_2014_Upgrade_technical_guide.pdf) for a comprehensive SQL Server Upgrade guide.
+
+If you require assistance with your migration needs, see the list of recommended [partners](https://www.platformmodernization.org/).

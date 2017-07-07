@@ -1,0 +1,82 @@
+{
+	"displayname" : "MySQL to SQL Server 2016",
+	"emailmessage" : "Check out the migration process from MySQL to SQL Server 2016 here:",
+	description: "Azure SQL Server is the least vulnerable database in the industry, exhibiting solid, consistent performance. Learn about the benefits of moving from MySQL today.",
+	businesssection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Rationale",
+				actions: [ ]
+			}
+		],
+		casestudies:
+		[
+
+		],
+		partners:
+		[
+
+		]
+	},
+	technicalsection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Overview",
+				actions: [ ]
+			},
+			{
+				filelocation: "MySqlDiscover",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "MAPToolkit"
+					}
+				]
+			},
+			{
+				filelocation: "MySqlAssessment",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForMySqlDownload"
+					}
+				]
+			},
+			{
+				filelocation: "MySqlMigration",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForMySqlDownload"
+					}
+				] 
+			},
+			{
+				filelocation: "RemediateApps",
+				actions: [ ]
+			},
+			{
+				filelocation: "PerformTests",
+				actions: [ ]
+			},
+			{
+				filelocation: "Optimization",
+				actions: [ ]  
+			},
+			{
+				filelocation: "DataSync",
+				actions: [ ]
+			},
+			{
+				filelocation: "Cutover",
+				actions: [ ]
+			}
+		]
+	},
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
+}
+

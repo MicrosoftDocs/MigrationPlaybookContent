@@ -1,0 +1,20 @@
+<!-- Assess -->
+
+### Overview
+
+When the data sources have been identified, each of them needs to be scanned to identify gaps between source and target. This includes identifying compatibility issues, breaking changes and behavior changes between the two versions. As an example, for upgrading from SQL Server 2008 to the latest SQL Server, we need to identify all the breaking changes or unsupported syntax such as non-ANSI style joins that will likely block migrations.
+By using Data Migration Assistant (DMA) to assess the database, you can identify potential upgrade blockers, and resolve any issues.
+
+**Note**: For more information about DMA, see the article [DMA assessments](https://blogs.msdn.microsoft.com/datamigration/dma/).
+
+### Process
+
+To use DMA to create an assessment, perform the following steps.
+
+1.Download DMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595), and then install it.
+
+_DMA is now ready for use._
+
+2.Create new projects and use the DMA Assessment workflow to run through your databases.
+
+_This will generate a report of compatibility issues, breaking or behavior changes along with recommendations of fixes._

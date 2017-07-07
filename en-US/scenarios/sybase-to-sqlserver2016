@@ -1,0 +1,81 @@
+{
+	"displayname" : "Sybase to SQL Server 2016",
+	"emailmessage" : "Check out the migration process from Sybase to SQL Server 2016 here:",
+	description: "SQL Server 2016 has a multi-layered approach that provides the most secure database worldwide, making the transition from Sybase, as well as other servers, simple.",
+	businesssection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Rationale",
+				actions: [ ]
+			}
+		],
+		casestudies:
+		[
+
+		],
+		partners:
+		[
+
+		]
+	},
+	technicalsection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Overview",
+				actions: [ ]
+			},
+			{
+				filelocation: "SybaseDiscover",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "MAPToolkit"
+					}
+				]
+			},
+			{
+				filelocation: "SybaseAssessment",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForSybaseDownload"
+					}
+				]
+			},
+			{
+				filelocation: "SybaseMigration",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForSybaseDownload"
+					}
+				] 
+			},
+			{
+				filelocation: "RemediateApps",
+				actions: [ ]
+			},
+			{
+				filelocation: "PerformTests",
+				actions: [ ]
+			},
+			{
+				filelocation: "Optimization",
+				actions: [ ]  
+			},
+			{
+				filelocation: "DataSync",
+				actions: [ ]
+			},
+			{
+				filelocation: "Cutover",
+				actions: [ ]
+			}
+		]
+	},
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
+}

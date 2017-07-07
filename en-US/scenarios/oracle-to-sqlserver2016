@@ -1,0 +1,87 @@
+{
+	"displayname" : "Oracle to SQL Server 2016",
+	"emailmessage" : "Check out the migration process from Oracle to SQL Server 2016 here:",
+	description:"For clients currently using Oracle, there is no better time to migrate to Azure SQL Server 2016, the industry leading data platform for customers and partners alike.",
+	businesssection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Rationale",
+				actions:
+        [
+          {
+					  actiontype: "forwardlink",
+					  filelocation: "tcocalculator"
+					}
+				]
+			}
+		],
+		casestudies:
+		[
+
+		],
+		partners:
+		[
+
+		]
+	},
+	technicalsection:
+	{
+		items: 
+		[
+			{
+				filelocation: "Overview",
+				actions: [ ]
+			},
+			{
+				filelocation: "Discover",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "MAPToolkit"
+					}
+				]
+			},
+			{
+				filelocation: "Assessment",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForOracleDownload"
+					}
+				]
+			},
+			{
+				filelocation: "Migration",
+				actions: [ {
+						actiontype: "download",
+						filelocation: "SSMAForOracleDownload"
+					}
+				] 
+			},
+			{
+				filelocation: "RemediateApps",
+				actions: [ ]
+			},
+			{
+				filelocation: "PerformTests",
+				actions: [ ]
+			},
+			{
+				filelocation: "Optimization",
+				actions: [ ]  
+			},
+			{
+				filelocation: "DataSync",
+				actions: [ ]
+			},
+			{
+				filelocation: "Cutover",
+				actions: [ ]
+			}
+		]
+	},
+	footer: 
+	{
+		// empty for now but will probably contain lists of download links etc.
+	}
+}

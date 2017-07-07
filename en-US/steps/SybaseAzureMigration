@@ -1,0 +1,22 @@
+<!--Migrate-->
+
+### Overview
+
+After you have completed assessing your databases and addressing any discrepancies, the next step is to execute the migration process. Migration involves two steps – publishing the schema and migrating the data. SSMA for Sybase is the correct tool to use for this process.
+
+### Process
+
+To use SSMA for Sybase to publish the database schema and migrate the data, perform the following steps.
+
+1.Setting migration options
+
+_Review the project migration options in the Project Settings dialog._
+
+2.Migrate data to Azure SQL Database.
+
+_After the migration is complete you will be able to view the migration report._
+
+**Note**: For complete step-by-step guidance on publishing the schema and migrating the data, see the following resource:
+
+* [Migrating Sybase ASE Data into SQL Server - Azure SQL DB (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/migrating-sybase-ase-data-into-sql-server-azure-sql-db-sybasetosql)
+* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)

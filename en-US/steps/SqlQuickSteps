@@ -1,0 +1,11 @@
+<!-- Quick Steps -->
+
+|**Phase**|**Description**|**Steps**|
+|:--------|:--------------|:--------|
+|Discover|Requirements, success, risks for your migration project.|<ol><li>Download [MAP Toolkit](https://technet.microsoft.com/en-us/solutionaccelerators/dd537572.aspx) from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=316883).</li><li>Get reports on Discovery & Inventory, schema reporting, and Hardware and Platform details.</li></ol>|
+|Assessment|Inventory of your current database assets and application stack discovery.|<ol><li>Download [Data Migration Assistant](https://blogs.msdn.microsoft.com/dma/) from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53595).</li><li>Use assessment workflow in DMA on your source database to identify and breaking or behavioral changes, deprecated features against your target.</li></ol>|
+|Convert/Migrate Schema & Data|Source schema needs to be converted to work in target. Migration of data to target. |<ol><li>Download [Data Migration Assistant](https://blogs.msdn.microsoft.com/dma/) from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53595).</li><li>Use migration wizard in DMA to migrate your databases to target.</li></ol>|
+|Data Sync|Data and schema sync post migration.|** TBD **|
+|Remediate Applications|Perform validations to ensure applications work on target platform.| ** TBD **|
+|Optimization|Post data and schema migration, the target needs to be tested to identify functional and perf issues.| ** TBD **|
+|Cutover|Rollback plan in ready.|** TBD **|
