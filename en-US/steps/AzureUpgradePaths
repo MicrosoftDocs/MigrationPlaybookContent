@@ -18,11 +18,6 @@ The following data migration options are discussed:
 *	Log shipping
 *	Bulk load
 
-Note the legends used below:
-
-**Supported**: Upgrade options with no or few constraints
-
-
 
 #### From SQL Server 2005
 *	Migration Tools: Migration is supported by DMS and DMA.
