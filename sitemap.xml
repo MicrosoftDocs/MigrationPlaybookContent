@@ -10,4 +10,34 @@
   <url>
     <loc>https://datamigration.microsoft.com/scenario/sql-to-azuresql</loc>
   </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/oracle-to-sqlserver2016</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/oracle-to-azuresql</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/db2-to-sqlserver2016</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/db2-to-azuresql</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/mysql-to-sqlserver2016</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/mysql-to-azuresql</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/sybase-to-sqlserver2016</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/sybase-to-azuresql</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/access-to-sqlserver2016</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/access-to-azuresql</loc>
+  </url>
 </urlset>
