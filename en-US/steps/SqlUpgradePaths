@@ -19,12 +19,6 @@ The following data migration options are discussed:
 *	Log shipping
 *	Bulk load
 
-Note the legends used below:
-
-**Supported**: Upgrade options with no or few constraints
-
-**Partial**: Upgrade options with some constraints 
-
 
 
 #### From SQL Server 2005
@@ -50,7 +44,7 @@ Note the legends used below:
 
 ##### To SQL Server 2014
 *	Backup and restore: Backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2014.
-*	Transactional replication: SQL Server replication from SQL Server 2008 to SQL Server 2014 is NOT supported. SQL Server transactional replication from SQL Server 2008 R2 to SQL Server 2014 is supported.
+*	Transactional replication: SQL Server replication from SQL Server 2008/2008R2 to SQL Server is supported. Replication upgrade options are outlined in detail in the blog [here](https://blogs.msdn.microsoft.com/sql_server_team/upgrading-a-replication-topology-to-sql-server-2016/). 
 *	Migration Tools: Migration supported through DMA.
 *	Database mirroring: Database mirroring is supported if principal is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and mirror is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes principal, SQL Server 2008 or SQL Server 2008 R2 instance becomes mirror and will NOT receive changes from principal.
 *	Log shipping: Log shipping is supported if primary is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and secondary is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes primary, SQL Server 2008 or SQL Server 2008 R2 instance becomes secondary and will NOT receive changes from primary.
