@@ -1,7 +1,7 @@
 {
 	"displayname" : "Sybase to Azure SQL Database",
 	"emailmessage" : "Check out the migration process from Sybase to Azure SQL Database here:",
-	description :"Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from Sybase simple and reliable.",
+	description : "Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from Sybase simple and reliable.",
 	businesssection:
 	{
 		items: 
@@ -14,7 +14,7 @@
 		casestudies: [ ],
 		partners: [ ]
 	},
-	technicalsection
+	technicalsection:
 	{
 		items: 
 		[
