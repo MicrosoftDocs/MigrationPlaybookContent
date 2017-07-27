@@ -4,7 +4,8 @@
 // Values must be within "".
 // Values are on the right hand side of the ":".
 // All values except the last one has to end with a comma after the quotes.
-/*	"id"
+/*
+	"id"
 		- A meaningfull name that is unique from all other questions
 		- Can NOT contain spaces, numbers, or special characters
 	"text"
@@ -16,7 +17,6 @@
 		- The list of options of the question displayed to the user. Same rules apply as in "text".
 	"required"
 		- If the user is required to answer this question or not (if not then it is considered to optional or advanced). Accepts "true" or "false".
-
 */
 
 
