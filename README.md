@@ -59,7 +59,7 @@ This section holds the questions presented to users along with the possible answ
 ...
 ```
 
-The meaning of the fields and their expected values are as follows:
+An explanation of each of the properties and their expected values are as follows:
 
   * id
     * A meaningful name that is unique from all other questions
@@ -99,13 +99,45 @@ So the following entry:
 
 `"source0_target0" : "sql-to-sqlserver2016"`
 
-Breaks down like this (using the current `siteConfig`):
-
-If a user selected the first option for source (since Javascript has zero-based indexes this maps to 0) and the first option for target then they would be directed (mapped) to the file called "sql-to-sqlserver2016".
+Breaks down like this (using the current `siteConfig`): If a user selected the first option for source (since Javascript has zero-based indexes this maps to 0) and the first option for target then they would be directed (mapped) to the file called "sql-to-sqlserver2016".
 
 
 ## Scenarios
-Some text
+This file contains all the metadata necessary to displaying a single scenario and everything associated with it. The content of a scenario is displayed in two sections: Business and Technical. Each of these sections is further broken down into "steps" that the user would go through either in justifying the migration (Business) or carrying it out (Technical). Each "step" is a file in the `steps` folder containing displayable content in Markdown format.
+
+An explanation of each of the properties and their expected values are as follows:
+
+  * displayname
+    * The title of the scenario as displayed to the user. It is displayed as the title of the browser tab, as a heading to the scenario, the heading and file name when choosing to print (or save to PDF), and the email subject line when choosing to email the scenario to someone.
+  * emailmessage
+    * Used as the message body when emailing the scenario.
+  * description
+    * Used in the scenario page's <meta content=""> tag, useful for Search Engine Optimization.
+  * businesssection
+    * A collection of `items` or "steps" explaining the business justification for migrating to Microsoft SQL technologies. The `item` format is explained below.
+    * In addition to `items`, the business section contains a section for related Case Studies and another section for Partners. These are explained in their own sections below.
+  * technicalsection
+    * A collection of `items` or "steps" explaining the physical process of migrating.
+  * footer
+    * This section is not in use but acting as a placeholder for a future feature.
+
+### Items
+Items are subsections in the Business and Technical sections. Items essentially refer to a file containing a "step" in the process of migrating. Each `item` can optionally contain one or more `actions` which are either links to an onlince resource or downloadable tools or documents.
+
+An explanation of each of the properties and their expected values are as follows:
+
+  * filelocation
+    * The location of this file in relation to the `steps` folder. Do ***not*** include `steps` or any folder above it in this path.
+  * actions
+    * This is a collection of resources the user can use to further help them with migration.
+    * This can be empty. But be sure to include `[ ]` to explicity indicate an empty array.
+    * Each action has the following two properties:
+      * actiontype
+        * Accepts either "forwardlink" or "download"
+        * "forwardlink" means the user is directed to an online resource in a new browser tab.
+        * "download" means the user will be asked to download either a document or tool.
+      * filelocation
+        * The location of the action file in relation to the `actions` folder. As with all times when you see "filelocation", do ***not*** include `actions` or any yfolder above it in the path you enter here.
 
 
 ## Steps
