@@ -92,10 +92,15 @@ This section contains case studies of how other companies have benefited from mi
 
 ### 3. scenarioMap
 This section ties the selection of a source and a target to an actual scenario file. The format of each line is as follows:
+
 `"source[option index]_target[option index]" : "[scenario file name]"`
+
 So the following entry:
+
 `"source0_target0" : "sql-to-sqlserver2016"`
+
 Breaks down like this (using the current `siteConfig`):
+
 If a user selected the first option for source (since Javascript has zero-based indexes this maps to 0) and the first option for target then they would be directed (mapped) to the file called "sql-to-sqlserver2016".
 
 
