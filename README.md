@@ -10,6 +10,7 @@ This is the content repository for Microsoft's Data Migration Playbook which is 
 6. [JSON](#json)
 7. [Markdown](#markdown)
 
+
 ## Folder Structure Overview
 All the files are organized in a structure that must be adhered to. It's not overly complicated and within the structure there is some freedom. With the exception of step files, everything is in JSON format. There is a section covering some [basic rules of JSON](#json). Step files take up the bulk of the actual content and are in Markdown format. We've created a [cheat sheet](#markdown) to help you.
 
@@ -38,23 +39,30 @@ The other files here are:
 </urlset>
 ```
 
+
 ## SiteConfig
 Directly under `en-US` is the `siteConfig` file. 
+
 
 ## Scenarios
 Some text
 
+
 ## Steps
 Some text
+
 
 ## Actions
 Some text
 
+
 ## Partners & Case Studies
 Some text
 
+
 ## JSON
 Some text
+
 
 ## Markdown
 Some text
