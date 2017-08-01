@@ -12,7 +12,7 @@ This is the content repository for Microsoft's Data Migration Playbook which is 
 
 
 ## Folder Structure Overview
-All the files are organized in a structure that must be adhered to. It's not overly complicated and within the structure there is some freedom. With the exception of step files, everything is in JSON format. There is a section covering some [basic rules of JSON](#json). Step files take up the bulk of the actual content and are in Markdown format. We've created a [cheat sheet](#markdown) to help you.
+All the files are organized in a structure that must be adhered to. It's not overly complicated and within the structure there is some freedom. With the exception of step files, everything is in JSON format. There is a section covering some [basic rules of JSON](#json). Step files take up the bulk of the actual content and are in Markdown format. We've created a [cheat sheet](#markdown) to help you. The rationale for making all these discrete files in their own folders is to make them reusable for different scenarios.
 
 ### en-US
 At the top level is the folder for the default language which is United States English. All content files should be placed in their respective subfolders under this folder. We will explore this further below. Other languages might be brought on later but any translations should be based on the files here in the `en-US` folder. So, if and when multiple languages become available, if you want content available in all languages it should first be made here and translated after.
@@ -75,7 +75,7 @@ An explanation of each of the properties and their expected values are as follow
       placeholders for future features.
 
 ### 2. caseStudies
-This section contains case studies of how other companies have benefited from migrating to Microsoft SQL technologies. Each item in this section has a single property `filelocation` whose value references a file within the `caseStudies` folder. The value is in relation to the `caseStudies` folder so it should *_NOT_* include any part of the path from the root of the repository to the `caseStudies` folder.
+This section contains case studies of how other companies have benefited from migrating to Microsoft SQL technologies. Each item in this section has a single property `filelocation` whose value references a file within the `caseStudies` folder. The value is in relation to the `caseStudies` folder so it should ***not*** include any part of the path from the root of the repository to the `caseStudies` folder.
 ```
 ...
   {
@@ -114,8 +114,8 @@ An explanation of each of the properties and their expected values are as follow
   * description
     * Used in the scenario page's <meta content=""> tag, useful for Search Engine Optimization.
   * businesssection
-    * A collection of `items` or "steps" explaining the business justification for migrating to Microsoft SQL technologies. The `item` format is explained below.
-    * In addition to `items`, the business section contains a section for related Case Studies and another section for Partners. These are explained in their own sections below.
+    * A collection of `items` or "steps" explaining the business justification for migrating to Microsoft SQL technologies. The `item` [format is explained below](#items).
+    * In addition to `items`, the business section contains a section for related Case Studies and another section for Partners. These are explained in their own [section below](#partners--case-studies).
   * technicalsection
     * A collection of `items` or "steps" explaining the physical process of migrating.
   * footer
@@ -141,7 +141,7 @@ An explanation of each of the properties and their expected values are as follow
 
 
 ## Steps
-Some text
+Steps are the meat in the Migration Playbook stew. Or, if you're a vegetarian, it's the legumes. Either way, this is where all the protein is. Steps are files containing [Markdown](http://commonmark.org/). These are split out 
 
 
 ## Actions
