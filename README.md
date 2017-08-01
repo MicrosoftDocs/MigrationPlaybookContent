@@ -115,7 +115,7 @@ An explanation of each of the properties and their expected values are as follow
     * Used in the scenario page's <meta content=""> tag, useful for Search Engine Optimization.
   * businesssection
     * A collection of `items` or "steps" explaining the business justification for migrating to Microsoft SQL technologies. The `item` [format is explained below](#items).
-    * In addition to `items`, the business section contains a section for related Case Studies and another section for Partners. These are explained in their own [section below](#partners--case-studies).
+    * In addition to `items`, the business section contains a section for related Case Studies and another section for Partners. These are explained in their [own section below](#partners--case-studies).
   * technicalsection
     * A collection of `items` or "steps" explaining the physical process of migrating.
   * footer
@@ -141,7 +141,9 @@ An explanation of each of the properties and their expected values are as follow
 
 
 ## Steps
-Steps are the meat in the Migration Playbook stew. Or, if you're a vegetarian, it's the legumes. Either way, this is where all the protein is. Steps are files containing [Markdown](http://commonmark.org/). These are split out 
+Steps are the meat in the Migration Playbook stew. Or, if you're a vegetarian, it's the legumes. Either way, this is where all the protein is. Steps are files containing [Markdown](http://commonmark.org/) describing an individual concept or unit of work during the migration process. To make things more digestible it is recommended to keeping steps as small as possible without unnecessarily splitting related work.
+
+To help you make sense to Markdown, we've created a [cheat sheet below](#markdown).
 
 
 ## Actions
