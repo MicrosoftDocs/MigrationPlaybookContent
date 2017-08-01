@@ -43,20 +43,37 @@ The other files here are:
 ## SiteConfig
 Directly under `en-US` is the `siteConfig` file. This JSON file has three main sections:
 
-### 1. Questions
+### 1. questions
 This section holds the questions presented to users along with the possible answers. Currently, the only two questions shown are `source` and `target`. The selection of a source and a target maps to a specific `scenario`. Generally, the most you will edit in this section is adding an option to `source`. Simply add a data source enclosed in double quotes to the `options` list, making sure that each option is followed by a comma exception the last one. For example:
 ```
+...
 "options":[
-  "SQL Server",
-  "Oracle",
-  "DB2",
-  "MySQL",
-  "Sybase",
-  "Access"  <-- a comma needs to be added here
-  "Teradata"  <-- no comma should be here since it is the last item in a list
+    "SQL Server",
+    "Oracle",
+    "DB2",
+    "MySQL",
+    "Sybase",
+    "Access"  <-- a comma needs to be added here
+    "Teradata"  <-- no comma should be here since it is the last item in a list
+],
+...
 ```
 
-### 2. 
+### 2. caseStudies
+This section contains case studies of how other companies have benefited from migrating to Microsoft SQL technologies. Each item in this section has a single property `filelocation` whose value references a file within the `caseStudies` folder. The value is in relation to the `caseStudies` folder so it should *_NOT_* include any part of the path from the root of the repository to the `caseStudies` folder.
+```
+...
+  {
+    "filelocation": "MigrationPlaybookContent/en-US/caseStudies/Floatel" //WRONG!
+  },
+  {
+    "filelocation": "caseStudies/Infosys" // ALSO WRONG!
+  },
+  {
+    "filelocation": "HollandAmerica" // CORRECT!
+  }
+  ...
+```
 
 
 ## Scenarios
