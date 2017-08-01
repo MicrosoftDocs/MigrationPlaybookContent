@@ -41,7 +41,22 @@ The other files here are:
 
 
 ## SiteConfig
-Directly under `en-US` is the `siteConfig` file. 
+Directly under `en-US` is the `siteConfig` file. This JSON file has three main sections:
+
+### 1. Questions
+This section holds the questions presented to users along with the possible answers. Currently, the only two questions shown are `source` and `target`. The selection of a source and a target maps to a specific `scenario`. Generally, the most you will edit in this section is adding an option to `source`. Simply add a data source enclosed in double quotes to the `options` list, making sure that each option is followed by a comma exception the last one. For example:
+```JSON
+"options":[
+				"SQL Server",
+				"Oracle",
+				"DB2",
+				"MySQL",
+				"Sybase",
+				"Access"  <-- a comma needs to be added here
+        "Teradata"  <-- no comma should be here since it is the last item in a list
+```
+
+### 2. 
 
 
 ## Scenarios
