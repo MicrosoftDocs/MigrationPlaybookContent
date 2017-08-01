@@ -115,7 +115,13 @@ An explanation of each of the properties and their expected values are as follow
     * Used in the scenario page's <meta content=""> tag, useful for Search Engine Optimization.
   * businesssection
     * A collection of `items` or "steps" explaining the business justification for migrating to Microsoft SQL technologies. The `item` [format is explained below](#items).
-    * In addition to `items`, the business section contains a section for related Case Studies and another section for Partners. These are explained in their [own section below](#partners--case-studies).
+    * The format of step files are explained in their [own section below](#steps)
+    * In addition to `items`, the business section contains a section for related Partners and another section for Case Studies.
+      * These are collections of entities pointing to related Partners or Case Studies.
+      * This can be empty but the `[ ]` must be included to explicitly indicate an empty array.
+      * The only property is filelocation.
+        * The location of the file in relation to either the `partners` or `caseStudies` folders. Do ***not*** include `partners`/`caseStudies` or any folder above it in this path.
+      * The format of partner and case study files are explained in their [own section below](#partners--case-studies).
   * technicalsection
     * A collection of `items` or "steps" explaining the physical process of migrating.
   * footer
@@ -141,17 +147,37 @@ An explanation of each of the properties and their expected values are as follow
 
 
 ## Steps
-Steps are the meat in the Migration Playbook stew. Or, if you're a vegetarian, it's the legumes. Either way, this is where all the protein is. Steps are files containing [Markdown](http://commonmark.org/) describing an individual concept or unit of work during the migration process. To make things more digestible it is recommended to keeping steps as small as possible without unnecessarily splitting related work.
+Steps are the meat in the Migration Playbook stew. Or, if you're a vegetarian, it's the legumes. Either way, this is where all the protein is. Steps are files containing [Markdown](http://commonmark.org/) residing in their own `steps` folder. They describe an individual concept or unit of work during the migration process. To make things more digestible it is recommended to keep steps as small as possible without unnecessarily splitting related work.
 
 To help you make sense to Markdown, we've created a [cheat sheet below](#markdown).
 
 
 ## Actions
-Some text
+Actions are external resources (tools, documents, etc.) that you can display along with a step (as defined in the scenario file). Action files are in [JSON format](#json) and reside within their own `actions` folder.
+
+An explanation of each of the properties and their expected values are as follows:
+
+  * text
+    * The text of the link as displayed to the user.
+  * url
+    * The URL of the external resource.
 
 
 ## Partners & Case Studies
-Some text
+Partners and Case Studies are related online documents describing how our partners are using our technologies or how a company switched to Microsoft SQL technologies, respectively. These are lumped together in this one section because they are both in JSON format and the both share the exact same properties.
+
+An explanation of each of the properties and their expected values are as follows:
+
+* title
+  * The title of the partner/case study as displayed to the user.
+* text
+  * The description of the partner/case study as displayed to the user.
+* url
+  * The URL to the story of the partner/case study.
+* logoUrl
+  * The company's logo. The logo with either be expanded or contracted to about 320px wide by 191px high.
+* logoAltText
+  * The alt text to be displayed to the user if the image is unavailable or used with screen readers.
 
 
 ## JSON
