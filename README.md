@@ -53,18 +53,32 @@ This section holds the questions presented to users along with the possible answ
     "DB2",
     "MySQL",
     "Sybase",
-    "Access"  <-- a comma needs to be added here
-    "Teradata"  <-- no comma should be here since it is the last item in a list
+    "Access",  // a comma was added here since it was the old last item
+    "Teradata"  // no comma should be here since it is the new last item in a list
 ],
 ...
 ```
+
+The meaning of the fields and their expected values are as follows:
+  • id
+    ○ A meaningful name that is unique from all other questions
+    ○ Must NOT contain spaces, numbers, or special characters (i.e. !@#$%^&\*()-\_\[]{};:'",.<>/?\|\`~)
+  • text
+    ○ The text of the question as displayed to the user.
+  • options
+    ○ The list of options of the question displayed to the user. Same rules for text (above) apply here.
+  • required
+    ○ If the user is required to answer this question or not (if not then it is considered to optional or advanced).
+    ○ Accepts "true" or "false".
+    ○ Currently, only the two questions marked as required, `source` and `target` are ever displayed. Optional questions are
+      placeholders for future features.
 
 ### 2. caseStudies
 This section contains case studies of how other companies have benefited from migrating to Microsoft SQL technologies. Each item in this section has a single property `filelocation` whose value references a file within the `caseStudies` folder. The value is in relation to the `caseStudies` folder so it should *_NOT_* include any part of the path from the root of the repository to the `caseStudies` folder.
 ```
 ...
   {
-    "filelocation": "MigrationPlaybookContent/en-US/caseStudies/Floatel" //WRONG!
+    "filelocation": "MigrationPlaybookContent/en-US/caseStudies/Floatel" // WRONG!
   },
   {
     "filelocation": "caseStudies/Infosys" // ALSO WRONG!
