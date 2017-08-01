@@ -64,14 +64,14 @@ The meaning of the fields and their expected values are as follows:
   * id
     * A meaningful name that is unique from all other questions
     * Must NOT contain spaces, numbers, or special characters (i.e. !@#$%^&\*()-\_\[]{};:'",.<>/?\|\`~)
-  • text
-    ○ The text of the question as displayed to the user.
-  • options
-    ○ The list of options of the question displayed to the user. Same rules for text (above) apply here.
-  • required
-    ○ If the user is required to answer this question or not (if not then it is considered to optional or advanced).
-    ○ Accepts "true" or "false".
-    ○ Currently, only the two questions marked as required, `source` and `target` are ever displayed. Optional questions are
+  * text
+    * The text of the question as displayed to the user.
+  * options
+    * The list of options of the question displayed to the user. Same rules for text (above) apply here.
+  * required
+    * If the user is required to answer this question or not (if not then it is considered to optional or advanced).
+    * Accepts "true" or "false".
+    * Currently, only the two questions marked as required, `source` and `target` are ever displayed. Optional questions are
       placeholders for future features.
 
 ### 2. caseStudies
