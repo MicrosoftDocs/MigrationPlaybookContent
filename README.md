@@ -67,7 +67,7 @@ The meaning of the fields and their expected values are as follows:
   * text
     * The text of the question as displayed to the user.
   * options
-    * The list of options of the question displayed to the user. Same rules for text (above) apply here.
+    * The list of options of the question as displayed to the user.
   * required
     * If the user is required to answer this question or not (if not then it is considered to optional or advanced).
     * Accepts "true" or "false".
@@ -89,6 +89,14 @@ This section contains case studies of how other companies have benefited from mi
   }
   ...
 ```
+
+### 3. scenarioMap
+This section ties the selection of a source and a target to an actual scenario file. The format of each line is as follows:
+`"source[option index]_target[option index]" : "[scenario file name]"`
+So the following entry:
+`"source0_target0" : "sql-to-sqlserver2016"`
+Breaks down like this (using the current `siteConfig`):
+If a user selected the first option for source (since Javascript has zero-based indexes this maps to 0) and the first option for target then they would be directed (mapped) to the file called "sql-to-sqlserver2016".
 
 
 ## Scenarios
