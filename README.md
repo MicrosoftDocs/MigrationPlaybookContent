@@ -19,6 +19,7 @@ At the top level is the folder for the default language which is United States E
 The only other folder currently here is a folder called `test` and this is strictly used for nightly unit and availability tests so this folder and its contents should be left alone.
 
 The other files here are:
+
 `.gitignore` - This should be obvious and should also, obviously, be left alone.
 
 `README.md` - The file you are currently reading.
