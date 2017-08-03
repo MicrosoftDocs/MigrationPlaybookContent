@@ -4,50 +4,33 @@ DO NOT REMOVE OR EDIT THIS FILE.
 Edit the "questions" file instead.
 
 */
-
-// Let this template be your guide and we'll all be fine.
-// Do NOT modify the names of the fields, only modify the values.
-// Values must be within "".
-// Values are on the right hand side of the ":".
-// All values except the last one has to end with a comma after the quotes.
-/*	"id"
-		- A meaningfull name that is unique from all other questions
-		- Can NOT contain spaces, numbers, or special characters
-	"text"
-		- The text of the question as displayed to the user.
-		- If it starts with a $ then it will be passed through to the UI as is, otherwise it will be interpreted as the name of the localized resource string to use.
-		Example: "$What is your data source?" will be displayed to the user as "$What is your data source?". This is used for internal previewing only.
-		Example: "DataSourceQuestion" will display to the user the localized text of that resource (if it exists). So if the site was viewed in English that might display "What is your data source?" to the user. This has to be used for production.
-	"options"
-		- The list of options of the question displayed to the user. Same rules apply as in "text".
-	"required"
-		- If the user is required to answer this question or not (if not then it is considered to optional or advanced). Accepts "true" or "false".
-*/
 // In the real "questions" file, you may delete everything from this line and above
 
 {
-	questions:
+	"questions":
 	[
 		{
 			"id": "source",
-			"text": "$What is your Data Source?",
-			"options": [
-				"$Oracle",
-				"$SQL Server"
+			"text": "Where is your data stored today?",
+			"options":
+			[
+				"SQL Server",
+				"Oracle"
 			],
 			"required": "true"
 		},
 		{
-			"id": "usercount",
-			"text": "$How many users in your organization?",
-			"options": [
-				"$1 - 100",
-				"$100 - 1000"
+			"id": "target",
+			"text": "Where do you want to move your data to?",
+			"options":
+			[
+				"SQL Server 2016",
+				"Azure SQL Database"
 			],
-			"required": "false"
+			"required": "true"
 		}
 	],
-	casestudies:
+	"casestudies":
 	[
 		{
 			filelocation: "CaseStudy1"
@@ -55,5 +38,12 @@ Edit the "questions" file instead.
 		{
 			filelocation: "CaseStudy2"
 		}
-	]
+	],
+	"scenarioMap":
+	{
+		"source0_target0" : "sql-to-sqlserver2016",
+		"source0_target1" : "sql-to-azuresql",
+		"source1_target0" : "oracle-to-sqlserver2016",
+		"source1_target1" : "oracle-to-azuresql"
+	}
 }
