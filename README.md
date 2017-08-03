@@ -389,6 +389,7 @@ If Markdown just can't seem to do what you want, you can always put in HTML and 
 | Left-aligned      | Centered     | Right-aligned |
 | *Most* Markdown   | `still`      | **Works**     |
 | <ul><li>First bullet</li><li>Second Bullet</li></ul> | HTML | **Works** |
+| Also notice | that the pipes delineating the columns don't have to line up | <hr /> |
 ```
 **Will be converted to this:**
 
@@ -397,4 +398,5 @@ If Markdown just can't seem to do what you want, you can always put in HTML and 
 | Left-aligned      | Centered     | Right-aligned |
 | *Most* Markdown   | `still`      | **Works**     |
 | <ul><li>First bullet</li><li>Second Bullet</li></ul> | HTML | **Works** |
+| Also notice | that the pipes delineating the columns don't have to line up | <hr /> |
 
