@@ -192,12 +192,35 @@ We won't dwell too long here but just know JSON is pretty finicky and there's li
 
 
 ## Markdown
-Markdown is a little more forgiving but it still has some rules. Moreover, there are several different "flavors" of Markdown. Migration Playbook's handles Markdown that follows the [CommonMark specification](http://commonmark.org/). Having said all that, if you follow the following examples you should get almost all of what you'd want to do with no issues.
+Markdown is a little more forgiving but it still has some rules. Moreover, there are several different "flavors" of Markdown. Migration Playbook's handles Markdown that follows the [CommonMark specification](http://commonmark.org/). Having said all that, if you follow the following examples you should be abl;e to do almost all of what you'd want with no issues.
+
+### Paragraphs
+**This:**
+```
+This is a paragraph
+
+This is a separate paragraph. Notice that there is an empty line (two line breaks) in between the paragraph above and this one.
+
+This is a third paragraph.
+This is a new line in the third paragraph. Notice there's only one line break between the two.
+```
+**Results in this:**
+This is a paragraph
+
+This is a separate paragraph. Notice that there is an empty line (two line breaks) in between the paragraph above and this one.
+
+This is a third paragraph.
+This is a new line in the third paragraph. Notice there's only one line break between the two.
 
 | This Markdown            | Will be converted to this   |
 |:------------------------ | ---------------------------:|
 | \*Italics*               | *Italics*                   |
 | \*\*Bold\*\*             | **Bold**                    |
 | \*\*\*Bold Italics\*\*\* | ***Bold Italics***          |
-| \# Heading 1             | <h1>Heading 1</h1>          |
-| \# Heading 2             | <h2>Heading 2</h2>          |
+| # Heading 1              | <h1>Heading 1</h1>          |
+| ## Heading 2             | <h2>Heading 2</h2>          |
+| ### Heading 3            | <h3>Heading 3</h3>          |
+| #### Heading 4           | <h4>Heading 4</h4>          |
+| ##### Heading 5          | <h5>Heading 5</h5>          |
+| ###### Heading 6         | <h6>Heading 6</h6>          |
+| 
