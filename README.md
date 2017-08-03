@@ -347,13 +347,14 @@ A single `word` of code
 
 ```
 
-<code>
-```
-A block of code
-that spans
-multiple lines
+<code><br/>
+```<br/>
+A block of code<br/>
+that spans<br/>
+multiple lines<br/>
 ```
 </code>
+
 **Will be converted to this:**
 
 > A block quote that has
