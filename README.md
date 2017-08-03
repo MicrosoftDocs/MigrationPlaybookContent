@@ -347,11 +347,11 @@ A single `word` of code
 ```
 
 <code>
-  ```<br/>
-  A block of code<br/>
-  that spans<br/>
-  multiple lines<br/>
-  ```<br/>
+  ```<br />
+  A block of code<br />
+  that spans<br />
+  multiple lines<br />
+  ```<br />
 </code>
 
 **Will be converted to this:**
