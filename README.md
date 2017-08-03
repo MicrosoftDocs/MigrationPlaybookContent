@@ -213,6 +213,7 @@ This is a separate paragraph. Notice that there is an empty line (two line break
 This is a third paragraph.  
 This is a new line in the third paragraph. Notice there's only one line break between the two.
 
+
 ### Headings
 **This Markdown:**
 ```
@@ -242,6 +243,7 @@ This is a new line in the third paragraph. Notice there's only one line break be
 
 ###### Heading 6
 
+
 ### Emphasis
 **This Markdown:**
 ```
@@ -255,6 +257,7 @@ This is a new line in the third paragraph. Notice there's only one line break be
 **Bold**  
 ***Bold Italics***
 
+
 ### Links
 **This Markdown:**
 ```
@@ -263,6 +266,7 @@ This is a new line in the third paragraph. Notice there's only one line break be
 **Will be converted to this:**
 
 [The text you want displayed to the user](http://microsoft.com)
+
 
 ### Images
 **This Markdown:**
@@ -276,6 +280,7 @@ Markdown for images look just like links but start with an exclamation mark.
 
 ![Image Alt Text which is important for accessibility](http://commonmark.org/help/images/favicon.png)
 
+
 ### Lists
 **This Markdown:**
 ```
@@ -283,7 +288,7 @@ This is a bulleted list:
 * Bullet 1
 * Bullet 2
   * Sub bullet
-    * Even further indented
+    * Indented even further
 * Bullet 3
 
 This is a numbered list:  
@@ -300,7 +305,7 @@ This is a bulleted list:
 * Bullet 1
 * Bullet 2
   * Sub bullet
-    * Even further indented
+    * Indented even further
 * Bullet 3
 
 This is a numbered list:  
@@ -311,9 +316,15 @@ This is a numbered list:
    * You can even mix and match numbers and bullets
 3. Item 3
 
+
 ### Tables
 **This Markdown:**
 ```
+| Column 1          | Column 2     | Column 3      |
+|:----------------- |:------------:| -------------:|
+| Left-aligned      | Centered     | Right-aligned |
+| *Most* Markdown   | `still`      | **Works**     |
+
 ```
 **Will be converted to this:**
 
