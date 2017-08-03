@@ -392,4 +392,9 @@ If Markdown just can't seem to do what you want, you can always put in HTML and 
 ```
 **Will be converted to this:**
 
+| Column 1          | Column 2     | Column 3      |
+|:----------------- |:------------:| -------------:|
+| Left-aligned      | Centered     | Right-aligned |
+| *Most* Markdown   | `still`      | **Works**     |
+| <ul><li>First bullet</li><li>Second Bullet</li></ul> | HTML | **Works** |
 
