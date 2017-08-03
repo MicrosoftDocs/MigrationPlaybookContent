@@ -336,11 +336,14 @@ This is a numbered list:
 ### Block quotes and code
 **This Markdown:**
 ```
-> A block quote
->> Nested block quote
+> A block quote that has
+>> A nested block quote
+> Inside it
 
 A single `word` of code
+
 `A whole line of code`
+
 ```
 A block of code
 that spans
@@ -349,11 +352,14 @@ multiple lines
 ```
 **Will be converted to this:**
 
-> A block quote
->> Nested block quote
+> A block quote that has
+>> A nested block quote
+> Inside it
 
 A single `word` of code
+
 `A whole line of code`
+
 ```
 A block of code
 that spans
