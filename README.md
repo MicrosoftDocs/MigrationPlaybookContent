@@ -340,13 +340,11 @@ This is a numbered list:
 >> A nested block quote
 >>
 > Inside it
-  
-  
+
 A single `word` of code
 
 `A whole line of code`
-  
-  
+
 ​​​​```
 A block of code
 that spans
@@ -361,13 +359,11 @@ multiple lines
 >> A nested block quote
 >>
 > Inside it
-<p></p>
-<p></p>
+
 A single `word` of code
 
 `A whole line of code`
-<p></p>
-<p></p>
+
 ```
 A block of code
 that spans
@@ -377,13 +373,22 @@ multiple lines
 ### Horizontal Rules
 **This Markdown:**
 ```
+---
 ```
 **Will be converted to this:**
 
+---
 
 ### Inline HTML
 **This Markdown:**
 ```
+If Markdown just can't seem to do what you want, you can always put in HTML and it should work just fine. For instance, putting a list inside a table won't work with just Markdown but does work when you put HTML inside the table.
+
+| Column 1          | Column 2     | Column 3      |
+|:----------------- |:------------:| -------------:|
+| Left-aligned      | Centered     | Right-aligned |
+| *Most* Markdown   | `still`      | **Works**     |
+| <ul><li>First bullet</li><li>Second Bullet</li></ul> | HTML | **Works** |
 ```
 **Will be converted to this:**
 
