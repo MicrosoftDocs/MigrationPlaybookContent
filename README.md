@@ -274,14 +274,42 @@ Markdown for images look just like links but start with an exclamation mark.
 
 Markdown for images look just like links but start with an exclamation mark.
 
-![Image Alt Text important to be descriptive here for HIPPA and other compliance](http://commonmark.org/help/images/favicon.png)
+![Image Alt Text which is important for accessibility](http://commonmark.org/help/images/favicon.png)
 
 ### Lists
 **This Markdown:**
 ```
+This is a bulleted list:  
+* Bullet 1
+* Bullet 2
+  * Sub bullet
+    * Even further indented
+* Bullet 3
+
+This is a numbered list:  
+1. Item 1
+2. Item 2
+   1. Sub Item 1
+   2. Pay attention to the alignment. Use spaces to line up the sub item with the text of the one above.
+   * You can even mix and match numbers and bullets
+3. Item 3
 ```
 **Will be converted to this:**
 
+This is a bulleted list:  
+* Bullet 1
+* Bullet 2
+  * Sub bullet
+    * Even further indented
+* Bullet 3
+
+This is a numbered list:  
+1. Item 1
+2. Item 2
+   1. Sub Item 1
+   2. Pay attention to the alignment. Use spaces to line up the sub item with the text of the one above.
+   * You can even mix and match numbers and bullets
+3. Item 3
 
 ### Tables
 **This Markdown:**
