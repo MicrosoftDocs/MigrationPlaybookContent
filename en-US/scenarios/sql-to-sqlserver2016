@@ -1,115 +1,124 @@
 {
-	"displayname" : "SQL Server to SQL Server 2016",
-	"emailmessage" : "Check out the migration process from SQL Server to SQL Server 2016 here:",
-	description: "Customers and partners have touted SQL Server 2016 as the best release. The SQL Server 2016 is the most secure, dependable, and integrated system in the industry.",
-	businesssection:
+	"displayname": "SQL Server to SQL Server 2016",
+	"emailmessage": "Check out the migration process from SQL Server to SQL Server 2016 here:",
+	"description": "Customers and partners have touted SQL Server 2016 as the best release. The SQL Server 2016 is the most secure, dependable, and integrated system in the industry.",
+	"businesssection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "Rationale",
-				actions: [ {
-						actiontype: "forwardlink",
-						filelocation: "tcocalculator"
+				"filelocation": "Rationale",
+				"actions":
+				[
+					{
+						"actiontype": "forwardlink",
+						"filelocation": "tcocalculator"
 					}
 				]
 			},
 			{
-				filelocation: "ProductLicensing",
-				actions: [ ]
+				"filelocation": "ProductLicensing",
+				"actions": [ ]
 			},
 			{
-				filelocation: "OnPremVsCloud",
-				actions: [ ]
+				"filelocation": "OnPremVsCloud",
+				"actions": [ ]
 			},
 			{
-				filelocation: "SqlUpgradePaths",
-				actions: [ ]
+				"filelocation": "SqlUpgradePaths",
+				"actions": [ ]
 			},
 		],
-		casestudies:
+		"casestudies":
 		[
 			{
-				filelocation: "Convergent"
+				"filelocation": "Convergent"
 			},
 			{
-				filelocation: "Derivco"
+				"filelocation": "Derivco"
 			},
 			{
-				filelocation: "SBI"
+				"filelocation": "SBI"
 			}
 		],
-		partners:
+		"partners":
 		[
 			{
-				filelocation: "Fujitsu"
+				"filelocation": "Fujitsu"
 			},
 			{
-				filelocation: "DSP"
+				"filelocation": "DSP"
 			}
 		]
 	},
-	technicalsection:
+	"technicalsection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "SqlOverview",
-				actions: [ ]
+				"filelocation": "SqlOverview",
+				"actions": [ ]
 			},
 			{
-				filelocation: "SqlDiscover",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "MAPToolkit"
+				"filelocation": "SqlDiscover",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "MAPToolkit"
 					}
 				]
 			},
 			{
-				filelocation: "SqlAssessment",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "DMADownload"
+				"filelocation": "SqlAssessment",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "DMADownload"
 					}
 				]
 			},
 			{
-				filelocation: "SqlMigration",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "DMADownload"
+				"filelocation": "SqlMigration",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "DMADownload"
 					}
 				]
 			},
 			{
-				filelocation: "SqlRemediateApps",
-				actions: [ ]
+				"filelocation": "SqlRemediateApps",
+				"actions": [ ]
 			},
 			{
-				filelocation: "SqlPerformTests",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "DEADownload"
+				"filelocation": "SqlPerformTests",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "DEADownload"
 					}
 				]
 			},
 			{
-				filelocation: "SqlOptimization",
-				actions: [ ]
+				"filelocation": "SqlOptimization",
+				"actions": [ ]
 			},
 			{
-				filelocation: "SqlDataSync",
-				actions: [ ]
+				"filelocation": "SqlDataSync",
+				"actions": [ ]
 			},
 			{
-				filelocation: "SqlRollback",
-				actions: [ ]
+				"filelocation": "SqlRollback",
+				"actions": [ ]
 			}
 		]
 	},
-	footer: 
+	"footer":
 	{
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
-
