@@ -345,11 +345,12 @@ A single `word` of code
 
 `A whole line of code`
 
-&#x60;&#x60;&#x60;
+``` `
   A block of code  
   that spans  
   multiple lines  
 &#x60;&#x60;&#x60;
+``` `
 ```
 
 **Will be converted to this:**
