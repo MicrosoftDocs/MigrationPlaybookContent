@@ -1,80 +1,71 @@
 /*
 
 DO NOT REMOVE OR EDIT THIS FILE.
-Instead, copy it and paste it to a new location, name it "scenario" and edit it from there.
+Instead, copy it and paste it to a new location, name it, and edit it from there.
 
-*/
-
-// Let this template be your guide and we'll all be fine.
-// Do NOT modify the names of the fields, only modify the values.
-// Values must be within "".
-// Values are on the right hand side of the ":".
-// All values except the last one has to end with a comma after the quotes.
-
-/*	"filelocation"
-		- The location of the resource file.
-		- The folder name of its type is assumed. So if it's a step do NOT include "step/" as part of the location.
-		- You may, however, put files in subfolders and those should be included.
-		- You should also not include the ".md" as part of the file.
-		Example (correct): A step file called assessment in the steps folder should just be: "assessment".
-		Example (correct): A step file called premigration in the subfolder oracle (in the steps folder) would be: "oracle/premigration".
-		Example (wrong): "actions/gethelp"
-	"actions"
-		- Generally small, follow-up items for steps. Because of this, and that they are unique for each step,
-		  they are a sub-field of steps. These generally take the form of websites or other online resources.
-		  But they are still contained within their own files within the "actions" folder so they need the same
-		  filelocation information as steps.
-		- "filelocation"
-			- This follows the exact same rules and guidelines as the filelocation for steps outlined above.
-	"footer"
-		- Not currently used but probability of use is high enough that this is left in.
 */
 // After pasting this to the new location, you may delete everything from this line and above
 
 {
-	businesssectionitems: 
-	[
-		{
-			filelocation: "licensing",
-			actions: [
-				{ filelocation: "tcocalculator" },
-				{ filelocation: "pricingcalculator" }
-			]
-		},
-		{
-			filelocation: "costbenefitanalysis",
-			actions: [ ]
-		}
-	],
-	technicalsectionitems: 
-	[
-		{
-			filelocation: "migration",
-			actions: [ ]
-		}
-	],
-	casestudies:
-	[
-		{
-			filelocation: "Sumitomo"
-		},
-		{
-			filelocation: "KDS"
-		},
-		{
-			filelocation: "PTC"
-		}
-	],
-	partners:
-	[
-		{
-			filelocation: "Accenture"
-		},
-		{
-			filelocation: "Partner2"
-		}
-	],
-	footer: 
+	"displayname": "SQL Server to SQL Server 2016",
+	"emailmessage": "Check out the migration process from SQL Server to SQL Server 2016 here:",
+	"description": "Customers and partners have touted SQL Server 2016 as the best release. The SQL Server 2016 is the most secure, dependable, and integrated system in the industry.",
+	"businesssection": 
+	{
+		"items":
+		[
+			{
+				"filelocation": "licensing",
+				"actions":
+				[
+					{
+						"actiontype": "forwardlink",
+						"filelocation": "tcocalculator"
+					},
+					{
+						"actiontype": "download",
+						"filelocation": "MAPToolkit"
+					}
+				]
+			},
+			{
+				"filelocation": "costbenefitanalysis",
+				"actions": [ ]
+			}
+		],
+		"casestudies":
+		[
+			{
+				"filelocation": "Convergent"
+			},
+			{
+				"filelocation": "Derivco"
+			},
+			{
+				"filelocation": "SBI"
+			}
+		],
+		"partners":
+		[
+			{
+				"filelocation": "Fujitsu"
+			},
+			{
+				"filelocation": "DSP"
+			}
+		]
+	},
+	"technicalsection":
+	{
+		"items":
+		[
+			{
+				"filelocation": "migration",
+				"actions": [ ]
+			}
+		]
+	},
+	"footer": 
 	{
 		// empty for now but will probably contain lists of download links etc.
 	}
