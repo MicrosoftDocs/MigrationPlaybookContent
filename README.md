@@ -338,22 +338,24 @@ This is a numbered list:
 ```
 > A block quote that has
 >> A nested block quote
+>>
 > Inside it
 
 A single `word` of code
 
 `A whole line of code`
 
-```
+\`\`\`
 A block of code
 that spans
 multiple lines
-```
+\`\`\`
 ```
 **Will be converted to this:**
 
 > A block quote that has
 >> A nested block quote
+>>
 > Inside it
 
 A single `word` of code
