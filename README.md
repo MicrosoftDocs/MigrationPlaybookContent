@@ -195,16 +195,16 @@ We won't dwell too long here but just know JSON is pretty finicky and there's li
 Markdown is a little more forgiving but it still has some rules. Moreover, there are several different "flavors" of Markdown. Migration Playbook's handles Markdown that follows the [CommonMark specification](http://commonmark.org/). Having said all that, if you follow the following examples you should be abl;e to do almost all of what you'd want with no issues.
 
 ### Paragraphs
-**This:**
+**This Markdown:**
 ```
 This is a paragraph
 
 This is a separate paragraph. Notice that there is an empty line (two line breaks) in between the paragraph above and this one.
 
-This is a third paragraph.
-This is a new line in the third paragraph. Notice there's only one line break between the two.
+This is a third paragraph.<space><space>
+This is a new line in the third paragraph. Notice there are two spaces after the above line and a single line break.
 ```
-**Results in this:**
+**Will be converted to this:**
 
 This is a paragraph
 
@@ -213,15 +213,94 @@ This is a separate paragraph. Notice that there is an empty line (two line break
 This is a third paragraph.  
 This is a new line in the third paragraph. Notice there's only one line break between the two.
 
-| This Markdown            | Will be converted to this   |
-|:------------------------ | ---------------------------:|
-| \*Italics*               | *Italics*                   |
-| \*\*Bold\*\*             | **Bold**                    |
-| \*\*\*Bold Italics\*\*\* | ***Bold Italics***          |
-| # Heading 1              | <h1>Heading 1</h1>          |
-| ## Heading 2             | <h2>Heading 2</h2>          |
-| ### Heading 3            | <h3>Heading 3</h3>          |
-| #### Heading 4           | <h4>Heading 4</h4>          |
-| ##### Heading 5          | <h5>Heading 5</h5>          |
-| ###### Heading 6         | <h6>Heading 6</h6>          |
-| 
+### Headings
+**This Markdown:**
+```
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+```
+**Will be converted to this:**
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+### Emphasis
+**This Markdown:**
+```
+*Italics*
+**Bold**
+***Bold Italics***
+```
+**Will be converted to this:**
+
+*Italics*  
+**Bold**  
+***Bold Italics***
+
+### Links
+**This Markdown:**
+```
+```
+**Will be converted to this:**
+
+
+### Images
+**This Markdown:**
+```
+```
+**Will be converted to this:**
+
+
+### Lists
+**This Markdown:**
+```
+```
+**Will be converted to this:**
+
+
+### Tables
+**This Markdown:**
+```
+```
+**Will be converted to this:**
+
+
+### Block quotes
+**This Markdown:**
+```
+```
+**Will be converted to this:**
+
+
+### Horizontal Rules
+**This Markdown:**
+```
+```
+**Will be converted to this:**
+
+
+### Inline HTML
+**This Markdown:**
+```
+```
+**Will be converted to this:**
+
+
