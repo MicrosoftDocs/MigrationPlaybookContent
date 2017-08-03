@@ -393,6 +393,8 @@ If Markdown just can't seem to do what you want, you can always put in HTML and 
 ```
 **Will be converted to this:**
 
+If Markdown just can't seem to do what you want, you can always put in HTML and it should work just fine. For instance, putting a list inside a table won't work with just Markdown but does work when you put HTML inside the table.
+
 | Column 1          | Column 2     | Column 3      |
 |:----------------- |:------------:| -------------:|
 | Left-aligned      | Centered     | Right-aligned |
