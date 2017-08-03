@@ -340,16 +340,17 @@ This is a numbered list:
 >> A nested block quote
 >>
 > Inside it
-
+  
+  
 A single `word` of code
 
 `A whole line of code`
-
-
+  
+  
 ​​​​```
-    A block of code
-    that spans
-    multiple lines
+A block of code
+that spans
+multiple lines
 ​​​​```
 
 ```
@@ -360,11 +361,13 @@ A single `word` of code
 >> A nested block quote
 >>
 > Inside it
-
+  
+  
 A single `word` of code
 
 `A whole line of code`
-
+  
+  
 ```
 A block of code
 that spans
