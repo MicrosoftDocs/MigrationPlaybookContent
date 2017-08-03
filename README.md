@@ -258,16 +258,23 @@ This is a new line in the third paragraph. Notice there's only one line break be
 ### Links
 **This Markdown:**
 ```
+[The text you want displayed to the user](http://microsoft.com)
 ```
 **Will be converted to this:**
 
+[The text you want displayed to the user](http://microsoft.com)
 
 ### Images
 **This Markdown:**
 ```
+Markdown for images look just like links but start with an exclamation mark.
+![Image Alt Text important to be descriptive here for HIPPA and other compliance](http://commonmark.org/help/images/favicon.png)
 ```
 **Will be converted to this:**
 
+Markdown for images look just like links but start with an exclamation mark.
+
+![Image Alt Text important to be descriptive here for HIPPA and other compliance](http://commonmark.org/help/images/favicon.png)
 
 ### Lists
 **This Markdown:**
