@@ -185,7 +185,8 @@ An explanation of each of the properties and their expected values are as follow
 We won't dwell too long here but just know JSON is pretty finicky and there's little to no wiggle room. So it will be the best of all ideas if you stick to the template and the following rules:
   * Do NOT modify the names of the fields, only modify the values.
   * Values must be within quotes such as "xyz".
-  * Values ore those on the right hand side of the colon (:).
+  * Values ore those on the right hand side of the colon like so:
+    * "propertyName": "value"
   * Each line except the last line of any section must end with a comma (,)
     * A section will be within {} OR []. That doesn't mean these symbols are interchangeable.
       * A {} section is for a single entity such as a single question, item in a scenario, or an item's action.
