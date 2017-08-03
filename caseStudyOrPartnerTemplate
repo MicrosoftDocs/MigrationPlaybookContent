@@ -1,0 +1,7 @@
+{
+	"title": "The name that is displayed to the user",
+	"text": "Some descriptive text of the case study/partner",
+	"url": "http://urltocasestudyorpartner",
+	"logoUrl": "https://urltocompanylogo",
+	"logoAltText": "The Alt Text for the logo (usually the company's name)"
+}
