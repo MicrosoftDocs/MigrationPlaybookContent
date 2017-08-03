@@ -199,5 +199,5 @@ Markdown is a little more forgiving but it still has some rules. Moreover, there
 | \*Italics*               | *Italics*                   |
 | \*\*Bold\*\*             | **Bold**                    |
 | \*\*\*Bold Italics\*\*\* | ***Bold Italics***          |
-| \# Heading 1             | # Heading 1                 |
-| \# Heading 2             | # Heading 2                 |
+| \# Heading 1             | <h1>Heading 1</h1>          |
+| \# Heading 2             | <h2>Heading 2</h2>          |
