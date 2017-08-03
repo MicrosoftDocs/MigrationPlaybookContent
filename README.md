@@ -9,6 +9,7 @@ This is the content repository for Microsoft's Data Migration Playbook which is 
 5. [Partners & Case Studies](#partners--case-studies)
 6. [JSON](#json)
 7. [Markdown](#markdown)
+8. [Microsoft Open Source Code of Conduct](#microsoft-open-source-code-of-conduct)
 
 
 ## Folder Structure Overview
@@ -403,5 +404,5 @@ If Markdown just can't seem to do what you want, you can always put in HTML and 
 | Also notice | that the pipes delineating the columns don't have to line up | <hr /><p>More HTML just to prove the point</p> |
 
 
-### Microsoft Open Source Code of Conduct
+## Microsoft Open Source Code of Conduct
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
