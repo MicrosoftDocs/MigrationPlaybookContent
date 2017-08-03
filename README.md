@@ -361,13 +361,13 @@ multiple lines
 >> A nested block quote
 >>
 > Inside it
-  
-  
+<p></p>
+<p></p>
 A single `word` of code
 
 `A whole line of code`
-  
-  
+<p></p>
+<p></p>
 ```
 A block of code
 that spans
