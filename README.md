@@ -205,11 +205,12 @@ This is a third paragraph.
 This is a new line in the third paragraph. Notice there's only one line break between the two.
 ```
 **Results in this:**
+
 This is a paragraph
 
 This is a separate paragraph. Notice that there is an empty line (two line breaks) in between the paragraph above and this one.
 
-This is a third paragraph.
+This is a third paragraph.  
 This is a new line in the third paragraph. Notice there's only one line break between the two.
 
 | This Markdown            | Will be converted to this   |
