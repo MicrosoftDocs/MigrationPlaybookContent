@@ -328,13 +328,37 @@ This is a numbered list:
 ```
 **Will be converted to this:**
 
+| Column 1          | Column 2     | Column 3      |
+|:----------------- |:------------:| -------------:|
+| Left-aligned      | Centered     | Right-aligned |
+| *Most* Markdown   | `still`      | **Works**     |
 
-### Block quotes
+### Block quotes and code
 **This Markdown:**
+```
+> A block quote
+>> Nested block quote
+
+A single `word` of code
+`A whole line of code`
+```
+A block of code
+that spans
+multiple lines
 ```
 ```
 **Will be converted to this:**
 
+> A block quote
+>> Nested block quote
+
+A single `word` of code
+`A whole line of code`
+```
+A block of code
+that spans
+multiple lines
+```
 
 ### Horizontal Rules
 **This Markdown:**
