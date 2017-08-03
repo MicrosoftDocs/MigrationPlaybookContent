@@ -181,8 +181,23 @@ An explanation of each of the properties and their expected values are as follow
 
 
 ## JSON
-Some text
+We won't dwell too long here but just know JSON is pretty finicky and there's little to no wiggle room. So it will be the best of all ideas if you stick to the template and the following rules:
+  * Do NOT modify the names of the fields, only modify the values.
+  * Values must be within quotes such as "xyz".
+  * Values ore those on the right hand side of the colon (:).
+  * Each line except the last line of any section must end with a comma (,)
+    * A section will be within {} OR []. That doesn't mean these symbols are interchangeable.
+      * A {} section is for a single entity such as a single question, item in a scenario, or an item's action.
+      * A [] section is for a collection of entities. An example of this is questions. Each single question is within a {} but **all** the questions are within [] (separated by commas)
 
 
 ## Markdown
-Some text
+Markdown is a little more forgiving but it still has some rules. Moreover, there are several different "flavors" of Markdown. Migration Playbook's handles Markdown that follows the [CommonMark specification](http://commonmark.org/). Having said all that, if you follow the following examples you should get almost all of what you'd want to do with no issues.
+
+| This Markdown            | Will be converted to this   |
+|:------------------------ | ---------------------------:|
+| \*Italics*               | *Italics*                   |
+| \*\*Bold\*\*             | **Bold**                    |
+| \*\*\*Bold Italics\*\*\* | ***Bold Italics***          |
+| \# Heading 1             | # Heading 1                 |
+| \# Heading 2             | # Heading 2                 |
