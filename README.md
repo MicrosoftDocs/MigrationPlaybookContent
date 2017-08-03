@@ -344,14 +344,13 @@ This is a numbered list:
 A single `word` of code
 
 `A whole line of code`
-
-``` `
-  A block of code  
-  that spans  
-  multiple lines  
-&#x60;&#x60;&#x60;
-``` `
 ```
+
+<code>
+  A block of code
+  that spans
+  multiple lines
+</code>
 
 **Will be converted to this:**
 
