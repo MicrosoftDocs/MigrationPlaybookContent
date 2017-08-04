@@ -1,7 +1,7 @@
 {
-	title: "Floatel International",
-	text: "Maritime Firm Improves Insight and Efficiency with Microsoft Solution",
-	url: "https://customers.microsoft.com/en-us/story/maritime-firm-improves-insight-and-efficiency-with-mic",
-	logoUrl: "https://mpbdevcontent.azureedge.net/Images/FloatelLogo.png",
-	logoAltText: "Floatel"
+	"title": "Floatel International",
+	"text": "Maritime Firm Improves Insight and Efficiency with Microsoft Solution",
+	"url": "https://customers.microsoft.com/en-us/story/maritime-firm-improves-insight-and-efficiency-with-mic",
+	"logoUrl": "https://mpbdevcontent.azureedge.net/Images/FloatelLogo.png",
+	"logoAltText": "Floatel"
 }

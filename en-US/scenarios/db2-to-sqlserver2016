@@ -1,91 +1,92 @@
 {
-	"displayname" : "DB2 to SQL Server 2016",
-	"emailmessage" : "Check out the migration process from DB2 to SQL Server 2016 here:",
-	description:"Transferring from IBM's DB2 to Azure's SQL Server 2016 is easier than ever due to it has the SQL system's best-in-class security and connectivity features.",
-	businesssection:
+	"displayname": "DB2 to SQL Server 2016",
+	"emailmessage": "Check out the migration process from DB2 to SQL Server 2016 here:",
+	"description": "Transferring from IBM's DB2 to Azure's SQL Server 2016 is easier than ever due to it has the SQL system's best-in-class security and connectivity features.",
+	"businesssection":
 	{
-		items: 
+		"items":
 		[
-		      {
-			  filelocation: "Rationale",
-			  actions: [ {
-			      actiontype: "forwardlink",
-			      filelocation: "tcocalculator"
-			    }
-			  ]
-		      }
-		],
-		casestudies:
-		[
-			//{
-			//	filelocation: "PACTGroup"
-			//},
-			//{
-			//	filelocation: "KDS"
-			//},
-			//{
-			//	filelocation: "PTC"
-			//}
-		],
-		partners:
-		[
-		]
-	},
-	technicalsection:
-	{
-		items: 
-		[
-		      {
-				filelocation: "Overview",
-				actions: [ ]
-		      },
-		      {
-				filelocation: "DB2Discover",
-				actions: [ {
-				    actiontype: "download",
-				    filelocation: "MAPToolkit"
-					}
-				]	
-		      },
-		      {
-				filelocation: "DB2Assessment",
-				actions: [ {
-					actiontype: "download",
-					filelocation: "SSMAForDB2Download"
+			{
+				"filelocation": "Rationale",
+				"actions":
+				[
+					{
+						"actiontype": "forwardlink",
+						"filelocation": "tcocalculator"
 					}
 				]
-		      },
-		      {
-				filelocation: "DB2Migration",
-				actions: [ {
-				    actiontype: "download",
-				    filelocation: "SSMAForDB2Download"
-				    }
-				] 
-		      },
-		      {
-				filelocation: "RemediateApps",
-				actions: [ ]
-		      },
-		      {
-				filelocation: "PerformTests",
-				actions: [ ]
-		      },
-		      {
-				filelocation: "Optimization",
-				actions: [ ]  
-		      },
-		      {
-				filelocation: "DataSync",
-				actions: [ ]
-		      },
-		      {
-				filelocation: "Cutover",
-				actions: [ ]
-		      }
+			}
+		],
+		"casestudies":
+		[
+		
+		],
+		"partners":
+		[
+		
 		]
 	},
-	footer: 
+	"technicalsection":
+	{
+		"items":
+		[
+			{
+				"filelocation": "Overview",
+				"actions": [ ]
+			},
+			{
+				"filelocation": "DB2Discover",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "MAPToolkit"
+					}
+				]	
+			},
+			{
+				"filelocation": "DB2Assessment",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForDB2Download"
+					}
+				]
+			},
+			{
+				"filelocation": "DB2Migration",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForDB2Download"
+					}
+				]
+			},
+			{
+				"filelocation": "RemediateApps",
+				"actions": [ ]
+			},
+			{
+				"filelocation": "PerformTests",
+				"actions": [ ]
+			},
+			{
+				"filelocation": "Optimization",
+				"actions": [ ]
+			},
+			{
+				"filelocation": "DataSync",
+				"actions": [ ]
+			},
+			{
+				"filelocation": "Cutover",
+				"actions": [ ]
+			}
+		]
+	},
+	"footer": 
 	{
 		// empty for now but will probably contain lists of download links etc.
 	}

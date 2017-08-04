@@ -1,80 +1,86 @@
 {
-	"displayname" : "Sybase to Azure SQL Database",
-	"emailmessage" : "Check out the migration process from Sybase to Azure SQL Database here:",
-	description : "Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from Sybase simple and reliable.",
-	businesssection:
+	"displayname": "Sybase to Azure SQL Database",
+	"emailmessage": "Check out the migration process from Sybase to Azure SQL Database here:",
+	"description": "Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from Sybase simple and reliable.",
+	"businesssection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "Rationale",
-				actions: [ ]
+				"filelocation": "Rationale",
+				"actions": [ ]
 			}
 		],
-		casestudies: [ ],
-		partners: [ ]
+		"casestudies":
+		[
+		
+		],
+		"partners":
+		[
+		
+		]
 	},
-	technicalsection:
+	"technicalsection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "Overview",
-				actions: [ ]
+				"filelocation": "Overview",
+				"actions": [ ]
 			},
 			{
-				filelocation: "SybaseDiscover",
-				actions:
+				"filelocation": "SybaseDiscover",
+				"actions":
 				[
 					{
-						actiontype: "download",
-						filelocation: "MAPToolkit"
+						"actiontype": "download",
+						"filelocation": "MAPToolkit"
 					}
 				]
 			},
 			{
-				filelocation: "SybaseAssessment",
-				actions:
+				"filelocation": "SybaseAssessment",
+				"actions":
 				[
 					{
-						actiontype: "download",
-						filelocation: "SSMAForSybaseDownload"
+						"actiontype": "download",
+						"filelocation": "SSMAForSybaseDownload"
 					}
 				]   
 			},
 			{
-				filelocation: "SybaseMigration",
-				actions:
+				"filelocation": "SybaseMigration",
+				"actions":
 				[
 					{
-						actiontype: "download",
-						filelocation: "SSMAForSybaseDownload"
+						"actiontype": "download",
+						"filelocation": "SSMAForSybaseDownload"
 					}
 				] 
 			},
 			{
-				filelocation: "RemediateApps",
-				actions: [ ]
+				"filelocation": "RemediateApps",
+				"actions": [ ]
 			},
 			{
-				filelocation: "PerformTests",
-				actions: [ ]
+				"filelocation": "PerformTests",
+				"actions": [ ]
 			},
 			{
-				filelocation: "Optimization",
-				actions: [ ]  
+				"filelocation": "Optimization",
+				"actions": [ ]
 			},
 			{
-				filelocation: "DataSync",
-				actions: [ ]
+				"filelocation": "DataSync",
+				"actions": [ ]
 			},
 			{
-				filelocation: "Cutover",
-				actions: [ ]
+				"filelocation": "Cutover",
+				"actions": [ ]
 			}
 		]
 	},
-	footer: 
+	"footer":
 	{
 		// empty for now but will probably contain lists of download links etc.
 	}
