@@ -13,6 +13,8 @@ This is the content repository for Microsoft's Data Migration Playbook which is 
 
 
 ## Folder Structure Overview
+**NOTE:** When making changes, make sure you are working against the "Dev" branch. Any changes directly made to either the "PreProd" or "Prod" branches will not be recognized.
+
 All the files are organized in a structure that must be adhered to. It's not overly complicated and within the structure there is some freedom. With the exception of step files, everything is in JSON format. There is a section covering some [basic rules of JSON](#json). Step files take up the bulk of the actual content and are in Markdown format. We've created a [cheat sheet](#markdown) to help you. The rationale for making all these discrete files in their own folders is to make them reusable for different scenarios.
 
 ### en-US
