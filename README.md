@@ -47,7 +47,7 @@ The top level of the repository also contains the following files:
 ```
 
 ### Contents of the en-US folder
-Within the `en-US` folder, there are two files, `<readme>` and `<SiteConfigurl>`, as well as several subfolders for specific types of content files. 
+Within the `en-US` folder, there are two files, `readme` and `siteConfig`, as well as several subfolders for specific types of content files. 
 
 #### SiteConfig
 Along with various subfolders, the `en-US` folder contans a `siteConfig` file in JSON format.  The file has three main sections:
