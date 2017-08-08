@@ -56,7 +56,7 @@ Along with various subfolders, the `en-US` folder contans a `siteConfig` file in
 * [scenarioMap](#scenarioMap)
 
 ##### "questions"
-This section contains the questions presented to users, together with possible answers. Currently, there are only two questions - `source` and `target`. When a user selects a specific source and target, the selection maps to a specific `scenario`. Generally, you will only edit in this section to add an option to `source` and/or `target`. Simply add a data source enclosed in double quotation marks to the `options` list, making sure that each option except the last one is followed by a comma. For example:
+This section contains the questions presented to users, together with possible answers. Currently, there are only two questions - `source` and `target`. When a user selects a specific source and target, the selection maps to a specific `scenario`. Generally, you will only edit this section to add an option to `source` and/or `target`. Simply add a data source enclosed in double quotation marks to the `options` list, making sure that each option except the last one is followed by a comma. For example:
 ```
 ...
 "options":[
