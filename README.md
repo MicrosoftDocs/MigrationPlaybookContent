@@ -14,9 +14,9 @@ The content repository for Microsoft's Migration Guide is hosted at https://data
 **Note:** When you are ready to make changes, be sure you are working against the "Dev" branch. Any changes made directly to either the "PreProd" or "Prod" branches will not be recognized.
 
 ## Structural overview of the GitHub repository
-The files and folders within the GitHub repository are organized in a specific structure, which must be maintained. The structre is not overly complicated and allows for a degree of flexibility. In general, files are separated into discrete folders, which makes them resuable for different scenarios.
+The files and folders within the GitHub repository are organized in a specific structure, which must be maintained. The structure is not overly complicated and allows for a degree of flexibility. In general, files are separated into discrete folders, which makes them resuable for different scenarios.
 
-All files except those associated with "steps" are in JSON format. Step files, which make up the bulk of the actual content of the Migration Guide, are in Markdown format. Additional information about basic rules of [JSON](#json), step files, and Markdown format (see this [cheat sheet](#markdown)) are provided later in this document.
+All files except those associated with "steps" are in JSON format. Step files, which make up the bulk of the actual content of the Migration Guide, are in Markdown format. Additional information about basic rules of [JSON](#json), [step files](#steps), and Markdown format (see this [cheat sheet](#markdown)) are provided later in this document.
 
 ### Top-level folders and files
 The top level of the repository contains an `en-US` folder, which includes files for the default language (United States English). All content is first being delivered in English, and any future translations will be based on the content in the `en-US` folder.
