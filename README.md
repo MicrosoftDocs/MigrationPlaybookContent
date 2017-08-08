@@ -80,7 +80,7 @@ An explanation of each of the properties and its expected values are as follows:
   * options
     * The list of options of the question as displayed to the user.
   * required
-    * Whether the response to a question in required or optional.
+    * Whether the response to a question is required or optional.
     * Accepts "true" or "false".
     * Currently, only the two questions marked as required are `source` and `target`; optional questions are
       placeholders for future features.
