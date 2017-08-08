@@ -187,7 +187,7 @@ An explanation of each of the properties and its expected values follows:
 * url
   * The URL to the content of the partner/case study.
 * logoUrl
-  * The company's logo. The logo be resized to approximately 320px wide by 191px high.
+  * The company's logo. The logo will be resized to approximately 320px wide by 191px high.
 * logoAltText
   * The alt text displayed to the user if the image is unavailable; also used with screen readers.
 
