@@ -1,5 +1,5 @@
 # Migration Guide - Contributor Guide
-The content repository for Microsoft's Migration Guide is hosted at https://datamigration.microsoft.com. This document serves as a guide for future contributors to help them better understand files, their structure, how to edit them, and how create new ones.
+The content repository for Microsoft's Migration Guide is hosted at https://datamigration.microsoft.com. This document serves as a guide for future contributors to help them better understand files, their structure, how to edit them, and how to create new ones.
 
 1. [Folder Structure](#folder-structure-overview)
 2. [SiteConfig](#siteconfig)
