@@ -307,7 +307,7 @@ This is a numbered list:
 1. Item 1
 2. Item 2
    1. Sub Item 1
-   2. Pay attention to the alignment. Use spaces to line up the      sub item with the text of the one above.
+   2. Pay attention to the alignment. Use spaces to line up the sub item with the text of the one above.
    * You can even mix and match numbers and bullets
 3. Item 3
 ```
