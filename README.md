@@ -204,7 +204,7 @@ The detail here will not be exhaustive, but remember that JSON is pretty finicky
       * Use [] brackets for a collection of entities. An example of this is questions. Each single question is within a {} but **all** the questions are within [] (separated by commas).
 
 ## Markdown format
-Markdown formatting is a little more forgiving that JSON, but there are still some rules. In addition, there are several different "flavors" of Markdown. The Migration Guide handles Markdown formatting that follows the [CommonMark specification](http://commonmark.org/). That said, the following examples illustrate almost all of what you'd want to accomplish while avoiding potential issues.
+Markdown formatting is a little more forgiving than JSON, but there are still some rules. In addition, there are several different "flavors" of Markdown. The Migration Guide handles Markdown formatting that follows the [CommonMark specification](http://commonmark.org/). That said, the following examples illustrate almost all of what you'd want to accomplish while avoiding potential issues.
 
 ### Paragraphs
 **The following Markdown:**
