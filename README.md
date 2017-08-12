@@ -162,7 +162,7 @@ An explanation of each of the properties and its expected values follows:
 ### Steps
 *Steps* provide the "real" content that makes up the Migration Guide. Step files, which are in [Markdown](http://commonmark.org/) format, reside in their own `steps` folder. A step describes an individual concept or unit of work during the migration process. To ensure that step content is relatively easy for the user to navigate, it is recommended to minimize step content without unnecessarily splitting related work. To help you make sense to Markdown, we've created a cheat sheet [below](#markdown).
 
-#### **IMPORTANT!**
+#### IMPORTANT!
 The first line of any step file must be the title you want displayed to the user in the Migration Guide's navigation bar. It must be enclosed in an html comment. For example:
 
 `<!-- Assessment -->`
