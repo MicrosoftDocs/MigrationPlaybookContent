@@ -1,102 +1,109 @@
 {
-	"displayname" : "Access to Azure SQL Database",
-	"emailmessage" : "Check out the migration process from Access to Azure SQL Database here:",
-	description:"The Azure SQL Database is capable of handling mission-critical workloads predictably and efficiently, aiding the transition process from other databases, like Access.",
-	businesssection:
+	"displayname": "Access to Azure SQL Database",
+	"emailmessage": "Check out the migration process from Access to Azure SQL Database here:",
+	"description": "The Azure SQL Database is capable of handling mission-critical workloads predictably and efficiently, aiding the transition process from other databases, like Access.",
+	"businesssection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "AzureRationale",
-				actions: [ 
+				"filelocation": "AzureRationale",
+				"actions":
+				[ 
 					{
-						actiontype: "download",
-						filelocation: "pricingcalculator"
+						"actiontype": "download",
+						"filelocation": "pricingcalculator"
 					},
 					{
-						actiontype: "download",
-						filelocation: "AzureTCO"
+						"actiontype": "download",
+						"filelocation": "AzureTCO"
 					}
 				]
 			}
 		],
-		casestudies:
+		"casestudies":
 		[
 			{
-				filelocation: "Sumitomo"
+				"filelocation": "Sumitomo"
 			},
 			{
-				filelocation: "KDS"
+				"filelocation": "KDS"
 			},
 			{
-				filelocation: "PTC"
+				"filelocation": "PTC"
 			}
 		],
-		partners:
+		"partners":
 		[
 			{
-				filelocation: "Accenture"
+				"filelocation": "Accenture"
 			},
 			{
-				filelocation: "Fujitsu"
+				"filelocation": "Fujitsu"
 			}
 		]
 	},
-	technicalsection:
+	"technicalsection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "Overview",
-				actions: [ ]
+				"filelocation": "Overview",
+				"actions": [ ]
 			},
 			{
-				filelocation: "AccessAzureDiscover",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "MAPToolkit"
+				"filelocation": "AccessAzureDiscover",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "MAPToolkit"
 					}
 				]
 			},
 			{
-				filelocation: "AccessAzureAssessment",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "SSMAForAccessDownload"
+				"filelocation": "AccessAzureAssessment",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForAccessDownload"
 					}
 				]
 			},
 			{
-				filelocation: "AccessAzureMigration",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "SSMAForAccessDownload"
+				"filelocation": "AccessAzureMigration",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForAccessDownload"
 					}
 				] 
 			},
 			{
-				filelocation: "RemediateApps",
-				actions: [ ]
+				"filelocation": "RemediateApps",
+				"actions": [ ]
 			},
 			{
-				filelocation: "PerformTests",
-				actions: [ ]
+				"filelocation": "PerformTests",
+				"actions": [ ]
 			},
 			{
-				filelocation: "Optimization",
-				actions: [ ]  
+				"filelocation": "Optimization",
+				"actions": [ ]
 			},
 			{
-				filelocation: "DataSync",
-				actions: [ ]
+				"filelocation": "DataSync",
+				"actions": [ ]
 			},
 			{
-				filelocation: "Cutover",
-				actions: [ ]
+				"filelocation": "Cutover",
+				"actions": [ ]
 			}
 		]
 	},
-	footer: 
+	"footer":
 	{
 		// empty for now but will probably contain lists of download links etc.
 	}

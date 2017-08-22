@@ -1,0 +1,49 @@
+/*
+
+DO NOT REMOVE OR EDIT THIS FILE.
+Edit the "questions" file instead.
+
+*/
+// In the real "questions" file, you may delete everything from this line and above
+
+{
+	"questions":
+	[
+		{
+			"id": "source",
+			"text": "Where is your data stored today?",
+			"options":
+			[
+				"SQL Server",
+				"Oracle"
+			],
+			"required": "true"
+		},
+		{
+			"id": "target",
+			"text": "Where do you want to move your data to?",
+			"options":
+			[
+				"SQL Server 2016",
+				"Azure SQL Database"
+			],
+			"required": "true"
+		}
+	],
+	"casestudies":
+	[
+		{
+			filelocation: "CaseStudy1"
+		},
+		{
+			filelocation: "CaseStudy2"
+		}
+	],
+	"scenarioMap":
+	{
+		"source0_target0" : "sql-to-sqlserver2016",
+		"source0_target1" : "sql-to-azuresql",
+		"source1_target0" : "oracle-to-sqlserver2016",
+		"source1_target1" : "oracle-to-azuresql"
+	}
+}

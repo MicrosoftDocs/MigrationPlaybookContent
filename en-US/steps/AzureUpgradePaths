@@ -10,12 +10,8 @@ The following targets of Azure are included:
 * Azure SQL Database
 
 The following data migration options are discussed:
-*	Backup and restore
 *	Transactional replication
-*	Always On Availability Group
 *	Data Migration toolset [Data Migration Service (DMS) and Data Migration Assistant (DMA)]
-*	Database mirroring
-*	Log shipping
 *	Bulk load
 
 

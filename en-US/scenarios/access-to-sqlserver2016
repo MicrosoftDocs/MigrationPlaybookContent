@@ -1,101 +1,109 @@
 {
-	"displayname" : "Access to SQL Server 2016",
-	"emailmessage" : "Check out the migration process from Access to SQL Server 2016 here:",
-	description:"Migrating from Access to Azure's SQL Server could not be simpler due to the SQL server's top tier performance, interconnectivity, consistency, and value.",
-	businesssection:
+	"displayname": "Access to SQL Server 2016",
+	"emailmessage": "Check out the migration process from Access to SQL Server 2016 here:",
+	"description": "Migrating from Access to Azure's SQL Server could not be simpler due to the SQL server's top tier performance, interconnectivity, consistency, and value.",
+	"businesssection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "Rationale",
-				actions: [ {
-						actiontype: "forwardlink",
-						filelocation: "tcocalculator"
+				"filelocation": "Rationale",
+				"actions":
+				[
+					{
+						"actiontype": "forwardlink",
+						"filelocation": "tcocalculator"
 					}
 				]
 			},
 			{
-				filelocation: "ProductLicensing",
-				actions: [ ]
+				"filelocation": "ProductLicensing",
+				"actions": [ ]
 			}
 		],
-		casestudies:
+		"casestudies":
 		[
 			{
-				filelocation: "PACTGroup"
+				"filelocation": "PACTGroup"
 			},
 			{
-				filelocation: "KDS"
+				"filelocation": "KDS"
 			},
 			{
-				filelocation: "PTC"
+				"filelocation": "PTC"
 			}
 		],
-		partners:
+		"partners":
 		[
 			{
-				filelocation: "Capax"
+				"filelocation": "Capax"
 			},
 			{
-				filelocation: "Fujitsu"
+				"filelocation": "Fujitsu"
 			}
 		]
 	},
-	technicalsection:
+	"technicalsection":
 	{
-		items: 
+		"items":
 		[
 			{
-				filelocation: "Overview",
-				actions: [ ]
+				"filelocation": "Overview",
+				"actions": [ ]
 			},
 			{
-				filelocation: "AccessDiscover",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "MAPToolkit"
+				"filelocation": "AccessDiscover",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "MAPToolkit"
 					}
 				]
 			},
 			{
-				filelocation: "AccessAssessment",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "SSMAForAccessDownload"
+				"filelocation": "AccessAssessment",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForAccessDownload"
 					}
 				]
 			},
 			{
-				filelocation: "AccessMigration",
-				actions: [ {
-						actiontype: "download",
-						filelocation: "SSMAForAccessDownload"
+				"filelocation": "AccessMigration",
+				"actions":
+				[
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForAccessDownload"
 					}
 				] 
 			},
 			{
-				filelocation: "RemediateApps",
-				actions: [ ]
+				"filelocation": "RemediateApps",
+				"actions": [ ]
 			},
 			{
-				filelocation: "PerformTests",
-				actions: [ ]
+				"filelocation": "PerformTests",
+				"actions": [ ]
 			},
 			{
-				filelocation: "Optimization",
-				actions: [ ]  
+				"filelocation": "Optimization",
+				"actions": [ ]
 			},
 			{
-				filelocation: "DataSync",
-				actions: [ ]
+				"filelocation": "DataSync",
+				"actions": [ ]
 			},
 			{
-				filelocation: "Cutover",
-				actions: [ ]
+				"filelocation": "Cutover",
+				"actions": [ ]
 			}
 		]
 	},
-	footer: 
+	"footer":
 	{
 		// empty for now but will probably contain lists of download links etc.
 	}
