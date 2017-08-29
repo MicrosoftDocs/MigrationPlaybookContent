@@ -65,6 +65,26 @@
 					{
 						"actiontype": "download",
 						"filelocation": "AttunityReplicate"
+					},
+					{
+						"actiontype": "download",
+						"filelocation": "Ispirer"
+					},
+					{
+						"actiontype": "download",
+						"filelocation": "Morphis"
+					},
+					{
+						"actiontype": "download",
+						"filelocation": "SurPaas"
+					},
+					{
+						"actiontype": "download",
+						"filelocation": "Striim"
+					},
+					{
+						"actiontype": "download",
+						"filelocation": "Datometry"
 					}
 				]
 			},
