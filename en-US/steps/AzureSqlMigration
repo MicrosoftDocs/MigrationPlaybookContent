@@ -19,6 +19,6 @@ the service will migrate their database to Azure SQL Database or SQL Server in A
 
 Note: For more details on Azure Database Migration Service, see the following resources:
 
-* Interested in participating in DMS Private Preview? [Sign up here.](aka.ms/sqldatabase-migrationpreview)
+* Interested in participating in DMS Private Preview? [Sign up here.](http://aka.ms/sqldatabase-migrationpreview)
 * [SQL Server Blog: Get to cloud faster with a new database migration service private preview](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/25/get-to-cloud-faster-with-a-new-database-migration-service-private-preview/)
 * [Demo: Get to the cloud faster with Azure SQLDB Managed Instance and Database Migration Service](https://channel9.msdn.com/events/Build/2017/P4008)
