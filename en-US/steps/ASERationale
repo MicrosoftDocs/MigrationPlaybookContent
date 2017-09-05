@@ -1,0 +1,40 @@
+<!--Rationale for Migrating-->
+
+Customers and partners alike have touted SQL Server 2016 as the best release ever. For clients now using older versions of the Sybase Adaptive Server Enterprise (ASE) or SAP ASE, there is no better time to migrate to the industry leading data platform. Consider the following points.
+
+If **migrating from SAP NetWeaver to S/4 HANA** is a concern:
+
+You face a difficult decision on what to do with your SAP NetWeaver solutions that are running on ASE. If you are running SAP NetWeaver solutions using a SAP ASE backend database, SAP provides extensive resources and a partner ecosystem to help them move to S/4HANA. SAP plans to make this a bigger push as SAP NetWeaver end of support comes up in 2025. However, if you are running on an older version of SAP ASE and are facing a software upgrade between now and the time you migrate to S/4HANA, you might want to consider upgrading instead to SQL Server as a safe harbor with greater functionality out of the box than SAP ASE. 
+
+If **high availability** is a concern:
+
+SQL Server Always On availability groups can have up to eight readable secondary replicas. Each of these secondary replicas can have their own replicas as well. When daisy chained together, these readable replicas can create massive scale-out for analytics workloads. This scale-out scenario enables you to replicate around the globe, keeping read replicas close to your Business Analytics users. It’s of particularly big interest to users with large data warehouse implementations. And, it is also easy to set up. SAP ASE replication only has one secondary replica and it is not available for read-only workloads.
+
+If **disaster recovery** is a concern:
+
+SQL Server supports a variety of solutions for backing up your databases off-premises using Microsoft Azure storage. You can configure backups for automatic backups based on database usage patterns or use your own automation methods to backup full, differential, and log backups directly to encrypted Azure storage. 
+
+If **security** is a concern:
+
+Over the last five years, SQL Server has had less total NIST vulnerabilities over all major database products including SAP ASE and SAP HANA as of August 2017. SQL Server Enterprise Edition includes the following security features without having to purchase any additional options: row-level security, always encrypted for application transparent column encryption, dynamic data masking (not available with SAP ASE), fine grained auditing, transparent database encryption, extensible key management, user-defined roles, contained databases, encryption, and more.
+
+If **migration cost** is a concern:
+
+Microsoft provides the free SQL Server Migration Assistant for SAP ASE to help you migrate your ASE databases to SQL Server. Since SQL Server and ASE share similar roots with Transact-SQL, any manual migration steps are easier to handle. If you have applications using PowerBuilder, often the only change required with to change the connection from SAP ASE to SQL Server. You only need to deal with SQL syntax that used older non-ANSI statements.
+
+If having **in-database Advanced Analytics** is a concern:
+
+Many customers are exploring going beyond BI into predictive analytics where they want to proactively pave their business’ future with data rather than react to data. With SQL Server you can now accomplish this with built-in in-database advanced analytics. Again, the key here is in-database, because when we talk to customers trying to implement advanced analytics the number one challenge is moving the data out of your database to do perform open source R models. With SQL Server you can create and run R and Python models directly in the database, combining the power of open source R and Python with SQL Server in-memory technology for incredibly fast reads and writes. SAP ASE has no plans in their product roadmap to integrate R or Python into the database engine.
+
+If having a **consistent experience from on-premises to cloud** is a concern:
+
+SQL Server delivers these capabilities with a consistent experience both on-premises and in the cloud, and with common development and management tools and common T-SQL. Customers decide what is best for each application or workload, and they can move from on-premises to the cloud without having to rewrite an application, learn new development tools, a new development language, or new management tools. Only Microsoft can offer this consistent experience across identity, virtualization, management, and dev-ops. We’ve got all the tools to ensure that we deliver a great experience no matter where you choose to deploy! For SAP ASE, hybrid cloud experiences are only on their product roadmap.
+
+If having **in-memory across workloads** is a concern:
+
+SQL Server optimized in-memory technology increases performance across all workloads by using an in-memory OLTP within all editions. This provides up to 30x transactional performance over disk based solutions. In-memory columnstore enables over 100x faster queries for data warehouse and BI workloads. With SQL Server, customers can combine in-memory technologies to deliver super-fast reads on top of super-fast writes, which enables real-time operational analytics without having to rely on different database engines like SAP ASE and SAP IQ.
+
+If **costs** are a concern:
+
+SQL Server delivers in-memory performance, high availability, disaster recovery and security to help you meet your organizations compliance, high availability, and performance service level agreements. With SQL Server you are investing on a platform built for the future with advanced analytics, business intelligence for desktop-web-mobile, integration services, and analysis services all built-into the product, with no need for any other investment.
+
