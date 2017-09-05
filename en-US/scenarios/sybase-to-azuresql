@@ -17,7 +17,9 @@
 		],
 		"partners":
 		[
-		
+			{
+                                "filelocation": "DBBest"
+                        }
 		]
 	},
 	"technicalsection":
