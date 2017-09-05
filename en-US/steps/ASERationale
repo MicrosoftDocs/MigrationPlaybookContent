@@ -14,7 +14,7 @@ If **disaster recovery** is a concern:
 
 SQL Server supports a variety of solutions for backing up your databases off-premises using Microsoft Azure storage. You can configure backups for automatic backups based on database usage patterns or use your own automation methods to backup full, differential, and log backups directly to encrypted Azure storage. 
 
-If **security ** is a concern:
+If **security** is a concern:
 
 Over the last five years, SQL Server has had less total NIST vulnerabilities over all major database products including SAP ASE and SAP HANA as of August 2017. SQL Server Enterprise Edition includes the following security features without having to purchase any additional options: row-level security, always encrypted for application transparent column encryption, dynamic data masking (not available with SAP ASE), fine grained auditing, transparent database encryption, extensible key management, user-defined roles, contained databases, encryption, and more.
 
