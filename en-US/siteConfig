@@ -10,7 +10,7 @@
 				"Oracle",
 				"DB2",
 				"MySQL",
-				"Sybase",
+				"SAP ASE",
 				"Access"
 			],
 			"required": "true"
