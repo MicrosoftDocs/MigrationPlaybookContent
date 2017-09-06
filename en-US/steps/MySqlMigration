@@ -33,3 +33,4 @@ With Attunity Replicate, you can do the following:
 1.	Convert the source MySQL database to SQL Server database with tools like SSMA or any other third party tool depending on your preferences and/or the supported endpoints of these tools.
 2.	For those who would need to keep replicating data from your source database to target database for a while, after above step, you would use Attunity Replicate i.e. near zero downtime migration, related to amount of time you need to prevent write to your source database, drain the source/replicate to target, point the applications from source database to target database.
 
+Download link to [Attunity Replicate For Microsoft Migration](https://www.attunity.com/products/replicate/attunity-replicate-for-microsoft-migration) offering.
