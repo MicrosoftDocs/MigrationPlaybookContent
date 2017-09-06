@@ -61,6 +61,18 @@
 			"filelocation": "HollandAmerica"
 		}
 	],
+	"partners":
+	[
+		{
+			"filelocation": "Accenture"
+		},
+		{
+			"filelocation": "Capax"
+		},
+		{
+			"filelocation": "Fujitsu"
+		}
+	],
 	"scenarioMap":
 	{
 		"source0_target0" : "sql-to-sqlserver2016",
