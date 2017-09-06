@@ -30,6 +30,6 @@ Attunity Replicate at best propagates the table creation script. It will not pro
 and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
 
 With Attunity Replicate, you can do the following:
-1.	Convert the source Oracle database to Azure SQL Database with tools like SSMA and Azure Database Migration Service or any other third party tool depending on your preferences and/or the supported endpoints of these tools.
-2.	For those who would need to keep replicating data from your source Oracle database to Azure SQL Database target after #1 for a while, after above step, you would use Attunity Replicate: aka near zero downtime migration, related to amount of time you need to prevent write to your Oracle database, drain the source/replicate to target, point the applications from the source database to the target database.
+1.	Convert the source MySQL database to SQL Server database with tools like SSMA or any other third party tool depending on your preferences and/or the supported endpoints of these tools.
+2.	For those who would need to keep replicating data from your source database to target database for a while, after above step, you would use Attunity Replicate i.e. near zero downtime migration, related to amount of time you need to prevent write to your source database, drain the source/replicate to target, point the applications from source database to target database.
 
