@@ -20,3 +20,15 @@ _After the migration is complete you will be able to view the migration report._
 
 * [Migrating Sybase ASE Databases to SQL Server - Azure SQL DB (SybaseToSql)](https://docs.microsoft.com/en-us/sql/ssma/sybase/migrating-sybase-ase-databases-to-sql-server-azure-sql-db-sybasetosql)
 * [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
+
+### Near zero downtime migrations with Attunity Replicate!
+
+Microsoft has partnered with Attunity around specific migration scenarios (source/target pairs). Attunity Replicate supports a very large set of sources and targets. The SKU of Attunity Replicate that we refer to in the context of this partnership is known as Attunity Replicate For Microsoft Migration (this is an Attunity product and not a Microsoft product) and enables only the scenarios for which we are partnering for now. 
+
+Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets. In this context, 
+Attunity Replicate at best propagates the table creation script. It will not propagate any other artifacts (SP, triggers, functions, ….) 
+and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
+
+With Attunity Replicate, you can do the following:
+1.	Convert the source Oracle database to Azure SQL Database with tools like SSMA and Azure Database Migration Service or any other third party tool depending on your preferences and/or the supported endpoints of these tools.
+2.	For those who would need to keep replicating data from your source Oracle database to Azure SQL Database target after #1 for a while, after above step, you would use Attunity Replicate: aka near zero downtime migration, related to amount of time you need to prevent write to your Oracle database, drain the source/replicate to target, point the applications from the source database to the target database.
