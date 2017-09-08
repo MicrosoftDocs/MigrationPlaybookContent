@@ -70,14 +70,14 @@
 			"filelocation": "Striim"
 		},
 		{
+			"filelocation": "Isprier"
+		},
+		{
 			"filelocation": "Datometry"
 		},
 		{
-			"filelocation": "Striim"
-		},
-		{
-			"filelocation": "Striim"
-		},
+			"filelocation": "Morphis"
+		}
 	],
 	"scenarioMap":
 	{
