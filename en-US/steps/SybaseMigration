@@ -30,7 +30,7 @@ for each table, Attunity Replicate propagates its scehma creation script and its
 and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
 
 With Attunity Replicate, you can do the following:
-1.	**Convert the source Oracle database** (schema and data) to SQL Server database with tools like [SQL Server Migration Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54258) or [Azure Database Migration Service](http://sqldatabase-migrationpreview.azurewebsites.net/) or any other third party tool.
+1.	**Convert the source Sybase database** (schema and data) to SQL Server database with tools like [SQL Server Migration Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54258) or any other third party tool.
 2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target SQL Server databases.
 
 Download link to [Attunity Replicate For Microsoft Migrations](https://www.attunity.com/products/replicate/attunity-replicate-for-microsoft-migration) offering.
