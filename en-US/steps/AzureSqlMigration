@@ -12,7 +12,7 @@ _This workflow will migrate the following components: database schema, data and 
 
 2.For data migration, use Azure DMS to create a new Migration project and follow the wizard to execute data migration.
 
-_Azure Database Migration Service (DMS) designed to streamline the process of migrating on premises databases to Azure. 
+_Azure Database Migration Service (DMS) designed to streamline the process of migrating on premises databases to Azure._
 
 Using DMS will simplify the migration of existing on-premises SQL Server, Oracle, and MySQL databases to Azure SQL Database or Microsoft SQL Server in an Azure virtual machine. The automated workflow, with assessment reporting, guides the user through the changes that are required prior to performing the actual migration. When the modifications are in place and the customer is prepared, 
 the service will migrate their database to Azure SQL Database or SQL Server in Azure._

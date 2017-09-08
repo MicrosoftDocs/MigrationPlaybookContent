@@ -61,6 +61,24 @@
 			"filelocation": "HollandAmerica"
 		}
 	],
+	"partners":
+	[
+		{
+			"filelocation": "Attunity"
+		},
+		{
+			"filelocation": "Striim"
+		},
+		{
+			"filelocation": "Ispirer"
+		},
+		{
+			"filelocation": "Datometry"
+		},
+		{
+			"filelocation": "Morphis"
+		}
+	],
 	"scenarioMap":
 	{
 		"source0_target0" : "sql-to-sqlserver2016",
