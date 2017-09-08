@@ -64,14 +64,20 @@
 	"partners":
 	[
 		{
-			"filelocation": "Accenture"
+			"filelocation": "Attunity"
 		},
 		{
-			"filelocation": "Capax"
+			"filelocation": "Striim"
 		},
 		{
-			"filelocation": "Fujitsu"
-		}
+			"filelocation": "Datometry"
+		},
+		{
+			"filelocation": "Striim"
+		},
+		{
+			"filelocation": "Striim"
+		},
 	],
 	"scenarioMap":
 	{
