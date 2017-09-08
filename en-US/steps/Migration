@@ -30,14 +30,14 @@ _After the migration is complete you will be able to view the “Data Migration 
 
 ### Near zero downtime migrations with Attunity Replicate!
 
-Microsoft has partnered with Attunity around specific migration scenarios (source/target pairs). Attunity Replicate supports a very large set of sources and targets. The SKU of Attunity Replicate that we refer to in the context of this partnership is known as Attunity Replicate For Microsoft Migration (this is an Attunity product and not a Microsoft product) and enables only the scenarios for which we are partnering for now. 
+Microsoft has partnered with Attunity around specific migration scenarios (source/target pairs). Attunity Replicate supports a very large set of sources and targets. The SKU of Attunity Replicate that we refer to in the context of this partnership is known as Attunity Replicate For Microsoft Migrations (this is an Attunity product and not a Microsoft product) and enables only the scenarios for which we are partnering for now. 
 
 Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets. In this context, 
 Attunity Replicate propagates the table creation script. It will not propagate any other artifacts (SP, triggers, functions, ….) 
 and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
 
 With Attunity Replicate, you can do the following:
-1.	Convert the source Oracle database to SQL Server database with tools like SSMA and Azure Database Migration Service or any other third party tool depending on your preferences and/or the supported endpoints of these tools.
+1.	Convert the source Oracle database to SQL Server database with tools like [SSMA](https://www.microsoft.com/en-us/download/details.aspx?id=54258) and [Azure Database Migration Service](http://sqldatabase-migrationpreview.azurewebsites.net/) or any other third party tool depending on your preferences and/or the supported endpoints of these tools.
 2.	For those who would need to keep replicating data from your source database to target database target for a while, after above step, you would use Attunity Replicate i.e. near zero downtime migration, related to amount of time you need to prevent write to your source database, drain the source/replicate to target, point the applications from source database to target database.
 
-Download link to [Attunity Replicate For Microsoft Migration](https://www.attunity.com/products/replicate/attunity-replicate-for-microsoft-migration) offering.
+Download link to [Attunity Replicate For Microsoft Migrations](https://www.attunity.com/products/replicate/attunity-replicate-for-microsoft-migration) offering.
