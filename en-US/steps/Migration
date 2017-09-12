@@ -33,7 +33,7 @@ To use SSMA for Oracle to publish the database schema and migrate the data, perf
   
     d. Validate the migration by reviewing the data and schema on the SQL Server instance by using SQL Server Management Studio (SSMS).
 
-    ![Image Alt Text Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/migratedatacomplete.png)
+    ![Image Alt Text Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/migrationcomplete.png)
 
 **Important**: SSMA does not support migration of all Oracle features. For associated workarounds, see the following resource:
 
