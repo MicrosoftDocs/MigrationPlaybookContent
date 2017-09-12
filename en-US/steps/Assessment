@@ -33,7 +33,10 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
    ![Image Alt Text Assessment Report](https://mpbdevcontent.azureedge.net/Images/assessmentreport.png)
    
    f.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file 
-   from ..\Users\<username>\Documents\SSMAProjects\MyOracleMigration\report\report_2016_11_12T02_47_55\,
+   from 
+   
+   _..\Users\<username>\Documents\SSMAProjects\MyOracleMigration\report\report_2016_11_12T02_47_55\_
+   
    and open it in Excel to get an inventory of oracle objects and the effort required to perform schema conversions.
    
 3. **Perform schema conversion**.
