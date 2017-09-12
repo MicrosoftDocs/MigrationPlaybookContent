@@ -19,11 +19,19 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
 
    ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/newproject.png)
 
+   c. Connect to the Oracle server by providing the connection details in the "Connect to Oracle" dialog.
+   d.	Create the conversion report by selecting the Oracle schema in the "Oracle Metadata Explorer" by choosing "Create Report" from the right-click menu options or the menu bar on the top.
+   e.	This will generate an HTML report with conversion statistics and error/ warnings, if any. Analyze this report to understand conversion issues and its cause.
+   f.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file from <Drive>:\Users\<username>\Documents\SSMAProjects\MyOracleMigration\report\report_2016_11_12T02_47_55\report.xml and open it in Excel to get an inventory of oracle objects and the effort required to perform schema conversions.
+   
+3. Perform schema conversion.
 
+   a. Before you perform schema conversion validate the default datatype mappings or change them based on requirements. You could do so either by navigating to the "Tools" menu and choosing "Project Settings" or you can change type mapping for each table by selecting the table in the "Oracle Metadata Explorer".
+   b.	Dynamic or ad hoc queries can be added to the  "Statements" node by selecting that node and choosing "Add Statement" from the right-click menu options.
+   c.	For converting and moving the schema to SQL Server, connect to the SQL server instance by providing the connection details in the "Connect to SQL Server" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
+   d.	Convert the schema by choosing "Convert Schema" from the right-click menu options or the menu bar on the top.
+   e.	After the schema has converted compare and review the structure of the schema to identify potential problems.
 
-3.Perform schema conversion.
-
-_With the schema conversion is complete, you are ready to move on to the Migration phase._
 
 **Note**: For complete step-by-step guidance on installing and using SSMA for Oracle, see the following resources:
 
