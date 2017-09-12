@@ -10,13 +10,13 @@ By using SQL Server Migration Assistant (SSMA) for Oracle, you can review databa
 
 To use SSMA for Oracle to create an assessment, perform the following steps.
 
-1.Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54258), and then install it.
+1. Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54258), and then install it.
 
-2.Assess the source database and discover conversion rate and effort to resolve issues.
+2. Assess the source database and discover conversion rate and effort to resolve issues.
 
-* Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target. 
+ a. Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target. 
   * Selecting the migration target is important to accurately assess the conversion rate and effort.
-* Click "OK".
+ b. Click "OK".
 
 
 
