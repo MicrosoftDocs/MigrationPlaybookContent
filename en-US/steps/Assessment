@@ -17,8 +17,7 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
    a. Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target. _Selecting the migration target is important to accurately assess the conversion rate and effort._
    b. Click "OK".
 
-
-
+   ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/newproject.png)
 
 
 
