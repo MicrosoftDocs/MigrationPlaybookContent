@@ -12,11 +12,18 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
 
 1.Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54258), and then install it.
 
-_SSMA is now ready for use._
-
 2.Assess the source database and discover conversion rate and effort to resolve issues.
 
-_This will generate an HTML report with conversion statistics and error/ warnings. Be sure to analyze this report to understand any conversion issues and their cause. Then address the issues before continuing to the next step._
+* Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target. 
+
+  * Selecting the migration target is important to accurately assess the conversion rate and effort.
+
+* Click "OK".
+
+
+
+
+
 
 3.Perform schema conversion.
 
