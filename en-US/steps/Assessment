@@ -14,9 +14,7 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
 
 2. Assess the source database and discover conversion rate and effort to resolve issues.
 
-   a. Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target. 
-     * Selecting the migration target is important to accurately assess the conversion rate and effort.
-  
+   a. Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target. _Selecting the migration target is important to accurately assess the conversion rate and effort._
    b. Click "OK".
 
 
