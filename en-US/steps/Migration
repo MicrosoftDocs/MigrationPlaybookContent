@@ -8,7 +8,7 @@ After you have completed assessing your databases and addressing any discrepanci
 
 To use SSMA for Oracle to publish the database schema and migrate the data, perform the following steps.
 
-1. Publish the schema to SQL Server.
+1. **Publish the schema to SQL Server**.
 
   a.	After schema conversion you can save this project locally for an offline schema remediation exercise. You can do so by choosing "Save Project" from the "File" menu. This gives you an opportunity to evaluate the source and target schemas offline and perform remediation before you can publish the schema to SQL Server.
 
@@ -19,7 +19,7 @@ To use SSMA for Oracle to publish the database schema and migrate the data, perf
   c. This action will publish the Oracle schema to the SQL Server instance.
 
 
-2. Migrate data to SQL Server.
+2. **Migrate data to SQL Server**.
 
   a.	After publishing the schema to the SQL Server instance, select the Oracle schema from the "Oracle Metadata Explorer” and choose "Migrate Data" from the right-click menu options or the menu bar on the top.
   
