@@ -8,13 +8,32 @@ After you have completed assessing your databases and addressing any discrepanci
 
 To use SSMA for Oracle to publish the database schema and migrate the data, perform the following steps.
 
-1.Publish the schema to SQL Server.
+1. **Publish the schema to SQL Server**.
 
-_This action will publish the Oracle schema to the SQL Server instance._
+    a. After schema conversion you can save this project locally for an offline schema remediation exercise. You can do so by choosing "Save Project" from the "File" menu. This gives you an opportunity to evaluate the source and target schemas offline and perform remediation before you can publish the schema to SQL Server.
 
-2.Migrate data to SQL Server.
+    b. To Publish the schema, select the database from the "Databases" node in the "SQL Server Metadata Explorer" and choose "Synchronize with Database" from the right-click menu options
+  
+    ![Image Alt Text Synchronize with Database](https://mpbdevcontent.azureedge.net/Images/publishschema.png)
+  
+    c. This action will publish the Oracle schema to the SQL Server instance.
 
-_After the migration is complete you will be able to view the “Data Migration report”._
+
+2. **Migrate data to SQL Server**.
+
+    a.	After publishing the schema to the SQL Server instance, select the Oracle schema from the "Oracle Metadata Explorer” and choose "Migrate Data" from the right-click menu options or the menu bar on the top.
+  
+    b.	At this step you will be required to provide connection details for Oracle and SQL Server in their respective connection dialogs to migrate the data.
+  
+    ![Image Alt Text Migrate Data](https://mpbdevcontent.azureedge.net/Images/migratedata.png)
+  
+    c. After the migration is complete you will be able to view the "Data Migration report".
+  
+    ![Image Alt Text Data Migration Report](https://mpbdevcontent.azureedge.net/Images/migrationreport.png)
+  
+    d. Validate the migration by reviewing the data and schema on the SQL Server instance by using SQL Server Management Studio (SSMS).
+
+    ![Image Alt Text Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/migrationcomplete.png)
 
 **Important**: SSMA does not support migration of all Oracle features. For associated workarounds, see the following resource:
 
