@@ -13,6 +13,10 @@
 					{
 						"actiontype": "forwardlink",
 						"filelocation": "tcocalculator"
+					},
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForDB2Download"
 					}
 				]
 			}
@@ -32,7 +36,10 @@
 		[
 			{
 				"filelocation": "Overview",
-				"actions": [ ]
+				"actions": [{
+						"actiontype": "forwardlink",
+						"filelocation": "tcocalculator"
+					} ]
 			},
 			{
 				"filelocation": "DB2Discover",
