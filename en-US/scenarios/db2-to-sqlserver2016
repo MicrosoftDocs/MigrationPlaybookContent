@@ -30,7 +30,7 @@
 		
 		]
 	},
-	"technicalsection":
+	"premigration":
 	{
 		"items":
 		[
@@ -60,7 +60,10 @@
 						"filelocation": "SSMAForDB2Download"
 					}
 				]
+			}
+			]
 			},
+"migration":{"items":[
 			{
 				"filelocation": "DB2Migration",
 				"actions":
@@ -70,7 +73,8 @@
 						"filelocation": "SSMAForDB2Download"
 					}
 				]
-			},
+			}]},
+"postmigration":{"items":[
 			{
 				"filelocation": "RemediateApps",
 				"actions": [ ]
@@ -95,6 +99,6 @@
 	},
 	"footer": 
 	{
-		// empty for now but will probably contain lists of download links etc.
+	"currentlyEmpty":"for now, but we might find something to put in it"
 	}
 }
