@@ -31,10 +31,6 @@
 		"items":
 		[
 			{
-				"filelocation": "Overview",
-				"actions": [ ]
-			},
-			{
 				"filelocation": "Discover",
 				"actions":
 				[
