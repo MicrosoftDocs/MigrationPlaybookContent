@@ -2,14 +2,11 @@
 	"displayname": "DB2 to SQL Server 2016",
 	"emailmessage": "Check out the migration process from DB2 to SQL Server 2016 here:",
 	"description": "Transferring from IBM's DB2 to Azure's SQL Server 2016 is easier than ever due to it has the SQL system's best-in-class security and connectivity features.",
-	"businesssection":
-	{
-		"items":
-		[
+	"businesssection": {
+		"items": [
 			{
 				"filelocation": "Rationale",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "forwardlink",
 						"filelocation": "tcocalculator"
@@ -21,84 +18,82 @@
 				]
 			}
 		],
-		"casestudies":
-		[
-		
+		"casestudies": [
+
 		],
-		"partners":
-		[
-		
+		"partners": [
+
 		]
 	},
-	"premigration":
-	{
-		"items":
-		[
+	"premigration": {
+		"items": [
 			{
 				"filelocation": "Overview",
-				"actions": [{
+				"actions": [
+					{
 						"actiontype": "forwardlink",
 						"filelocation": "tcocalculator"
-					} ]
+					}
+				]
 			},
 			{
 				"filelocation": "DB2Discover",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "MAPToolkit"
 					}
-				]	
+				]
 			},
 			{
 				"filelocation": "DB2Assessment",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForDB2Download"
 					}
 				]
-			}
-			]
-			},
-"migration":{"items":[
-			{
-				"filelocation": "DB2Migration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForDB2Download"
-					}
-				]
-			}]},
-"postmigration":{"items":[
-			{
-				"filelocation": "RemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": [ ]
 			}
 		]
 	},
-	"footer": 
-	{
-	"currentlyEmpty":"for now, but we might find something to put in it"
+	"migration": {
+		"items": [
+			{
+				"filelocation": "DB2Migration",
+				"actions": [
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForDB2Download"
+					}
+				]
+			}
+		]
+	},
+	"postmigration": {
+		"items": [
+			{
+				"filelocation": "RemediateApps",
+				"actions": []
+			},
+			{
+				"filelocation": "PerformTests",
+				"actions": []
+			},
+			{
+				"filelocation": "Optimization",
+				"actions": []
+			},
+			{
+				"filelocation": "DataSync",
+				"actions": []
+			},
+			{
+				"filelocation": "Cutover",
+				"actions": []
+			}
+		]
+	},
+	"footer": {
+		"currentlyEmpty": "for now, but we might find something to put in it"
 	}
 }

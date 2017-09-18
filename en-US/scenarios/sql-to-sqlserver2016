@@ -2,14 +2,11 @@
 	"displayname": "SQL Server to SQL Server 2016",
 	"emailmessage": "Check out the migration process from SQL Server to SQL Server 2016 here:",
 	"description": "Customers and partners have touted SQL Server 2016 as the best release. The SQL Server 2016 is the most secure, dependable, and integrated system in the industry.",
-	"businesssection":
-	{
-		"items":
-		[
+	"businesssection": {
+		"items": [
 			{
 				"filelocation": "Rationale",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "forwardlink",
 						"filelocation": "tcocalculator"
@@ -18,19 +15,18 @@
 			},
 			{
 				"filelocation": "ProductLicensing",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "OnPremVsCloud",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "SqlUpgradePaths",
-				"actions": [ ]
-			},
+				"actions": []
+			}
 		],
-		"casestudies":
-		[
+		"casestudies": [
 			{
 				"filelocation": "Convergent"
 			},
@@ -41,8 +37,7 @@
 				"filelocation": "SBI"
 			}
 		],
-		"partners":
-		[
+		"partners": [
 			{
 				"filelocation": "Fujitsu"
 			},
@@ -51,18 +46,15 @@
 			}
 		]
 	},
-	"technicalsection":
-	{
-		"items":
-		[
+	"premigration": {
+		"items": [
 			{
 				"filelocation": "SqlOverview",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "SqlDiscover",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "MAPToolkit"
@@ -71,32 +63,37 @@
 			},
 			{
 				"filelocation": "SqlAssessment",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "DMADownload"
 					}
 				]
-			},
+			}
+		]
+	},
+	"migration": {
+		"items": [
 			{
 				"filelocation": "SqlMigration",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "DMADownload"
 					}
 				]
-			},
+			}
+		]
+	},
+	"postmigration": {
+		"items": [
 			{
 				"filelocation": "SqlRemediateApps",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "SqlPerformTests",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "DEADownload"
@@ -105,20 +102,19 @@
 			},
 			{
 				"filelocation": "SqlOptimization",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "SqlDataSync",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "SqlRollback",
-				"actions": [ ]
+				"actions": []
 			}
 		]
 	},
-	"footer":
-	{
+	"footer": {
 		// empty for now but will probably contain lists of download links etc.
 	}
 }

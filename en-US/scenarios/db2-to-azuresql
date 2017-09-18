@@ -2,36 +2,29 @@
 	"displayname": "DB2 to Azure SQL Database",
 	"emailmessage": "Check out the migration process from DB2 to Azure SQL Database here:",
 	"description": "Azure's SQL Database system boasts unparalleled interconnectivity, scalability, and utilization. Learn more about our migration process from DB2 here.",
-	"businesssection":
-	{
-		"items":
-		[
-		      {
-			"filelocation": "AzureRationale",
-			"actions": [ ]
-		      }
+	"businesssection": {
+		"items": [
+			{
+				"filelocation": "AzureRationale",
+				"actions": []
+			}
 		],
-		"casestudies":
-		[
+		"casestudies": [
 
 		],
-		"partners":
-		[
+		"partners": [
 
 		]
 	},
-	"technicalsection":
-	{
-		"items":
-		[
+	"premigration": {
+		"items": [
 			{
 				"filelocation": "Overview",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "DB2Discover",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "MAPToolkit"
@@ -40,50 +33,53 @@
 			},
 			{
 				"filelocation": "DB2AzureAssessment",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForDB2Download"
 					}
 				]
-			},
+			}
+		]
+	},
+	"migration": {
+		"items": [
 			{
 				"filelocation": "DB2AzureMigration",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForDB2Download"
 					}
-				] 
-			},
-			{
-				"filelocation": "RemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": [ ]
+				]
 			}
 		]
 	},
-	"footer":
-	{
+	"postmigration": {
+		"items": [
+			{
+				"filelocation": "RemediateApps",
+				"actions": []
+			},
+			{
+				"filelocation": "PerformTests",
+				"actions": []
+			},
+			{
+				"filelocation": "Optimization",
+				"actions": []
+			},
+			{
+				"filelocation": "DataSync",
+				"actions": []
+			},
+			{
+				"filelocation": "Cutover",
+				"actions": []
+			}
+		]
+	},
+	"footer": {
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
-
-

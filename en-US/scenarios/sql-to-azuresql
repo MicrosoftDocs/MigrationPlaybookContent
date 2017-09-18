@@ -2,21 +2,18 @@
 	"displayname": "SQL Server to Azure SQL Database",
 	"emailmessage": "Check out the migration process from SQL Server to Azure SQL Database here:",
 	"description": "Azure SQL Database delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
-	"businesssection":
-	{
-		"items":
-		[
+	"businesssection": {
+		"items": [
 			{
 				"filelocation": "AzureRationale",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "AzureUpgradePaths",
-				"actions": [ ]
+				"actions": []
 			}
 		],
-		"casestudies":
-		[
+		"casestudies": [
 			{
 				"filelocation": "Sumitomo"
 			},
@@ -27,8 +24,7 @@
 				"filelocation": "PTC"
 			}
 		],
-		"partners":
-		[
+		"partners": [
 			{
 				"filelocation": "Accenture"
 			},
@@ -37,18 +33,15 @@
 			}
 		]
 	},
-	"technicalsection":
-	{
-		"items":
-		[
+	"premigration": {
+		"items": [
 			{
 				"filelocation": "AzureSqlOverview",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "SqlDiscover",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "MAPToolkit"
@@ -57,48 +50,53 @@
 			},
 			{
 				"filelocation": "SqlAssessment",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "DMADownload"
 					}
 				]
-			},
-			{
-				"filelocation": "AzureSqlMigration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DMADownload"
-					}
-				]
-			},
-			{
-				"filelocation": "SqlRemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},	
-			{
-				"filelocation": "SqlOptimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlDataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlRollback",
-				"actions": [ ]
 			}
 		]
 	},
-	"footer":
-	{
+	"migration": {
+		"items": [
+			{
+				"filelocation": "AzureSqlMigration",
+				"actions": [
+					{
+						"actiontype": "download",
+						"filelocation": "DMADownload"
+					}
+				]
+			}
+		]
+	},
+	"postmigration": {
+		"items": [
+			{
+				"filelocation": "SqlRemediateApps",
+				"actions": []
+			},
+			{
+				"filelocation": "PerformTests",
+				"actions": []
+			},
+			{
+				"filelocation": "SqlOptimization",
+				"actions": []
+			},
+			{
+				"filelocation": "SqlDataSync",
+				"actions": []
+			},
+			{
+				"filelocation": "SqlRollback",
+				"actions": []
+			}
+		]
+	},
+	"footer": {
 		// empty for now but will probably contain lists of download links etc.
 	}
 }

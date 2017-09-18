@@ -2,36 +2,29 @@
 	"displayname": "MySQL to Azure SQL Database",
 	"emailmessage": "Check out the migration process from MySQL to Azure SQL Database here:",
 	"description": "Migrating from MySQL to the Azure SQL Database, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
-	"businesssection":
-	{
-		"items":
-		[
+	"businesssection": {
+		"items": [
 			{
 				"filelocation": "AzureRationale",
-				"actions": [ ]
+				"actions": []
 			}
 		],
-		"casestudies":
-		[
+		"casestudies": [
 
 		],
-		"partners":
-		[
+		"partners": [
 
 		]
 	},
-	"technicalsection":
-	{
-		"items":
-		[
+	"premigration": {
+		"items": [
 			{
 				"filelocation": "Overview",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "MySqlDiscover",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "MAPToolkit"
@@ -40,48 +33,53 @@
 			},
 			{
 				"filelocation": "MySqlAzureAssessment",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForMySqlDownload"
 					}
 				]
-			},
-			{
-				"filelocation": "MySqlAzureMigration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForMySqlDownload"
-					}
-				]
-			},
-			{
-				"filelocation": "RemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": [ ]
 			}
 		]
 	},
-	"footer":
-	{
+	"migration": {
+		"items": [
+			{
+				"filelocation": "MySqlAzureMigration",
+				"actions": [
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForMySqlDownload"
+					}
+				]
+			}
+		]
+	},
+	"postmigration": {
+		"items": [
+			{
+				"filelocation": "RemediateApps",
+				"actions": []
+			},
+			{
+				"filelocation": "PerformTests",
+				"actions": []
+			},
+			{
+				"filelocation": "Optimization",
+				"actions": []
+			},
+			{
+				"filelocation": "DataSync",
+				"actions": []
+			},
+			{
+				"filelocation": "Cutover",
+				"actions": []
+			}
+		]
+	},
+	"footer": {
 		// empty for now but will probably contain lists of download links etc.
 	}
 }

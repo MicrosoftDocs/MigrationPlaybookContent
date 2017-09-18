@@ -2,38 +2,31 @@
 	"displayname": "SAP ASE to Azure SQL Database",
 	"emailmessage": "Check out the migration process from SAP ASE to Azure SQL Database here:",
 	"description": "Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from SAP ASE simple and reliable.",
-	"businesssection":
-	{
-		"items":
-		[
+	"businesssection": {
+		"items": [
 			{
 				"filelocation": "ASERationale",
-				"actions": [ ]
+				"actions": []
 			}
 		],
-		"casestudies":
-		[
-		
+		"casestudies": [
+
 		],
-		"partners":
-		[
+		"partners": [
 			{
-                                "filelocation": "DBBest"
-                        }
+				"filelocation": "DBBest"
+			}
 		]
 	},
-	"technicalsection":
-	{
-		"items":
-		[
+	"premigration": {
+		"items": [
 			{
 				"filelocation": "Overview",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "SybaseDiscover",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "MAPToolkit"
@@ -42,48 +35,53 @@
 			},
 			{
 				"filelocation": "SybaseAssessment",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForSybaseDownload"
 					}
-				]   
-			},
-			{
-				"filelocation": "SybaseMigration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForSybaseDownload"
-					}
-				] 
-			},
-			{
-				"filelocation": "RemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": [ ]
+				]
 			}
 		]
 	},
-	"footer":
-	{
+	"migration": {
+		"items": [
+			{
+				"filelocation": "SybaseMigration",
+				"actions": [
+					{
+						"actiontype": "download",
+						"filelocation": "SSMAForSybaseDownload"
+					}
+				]
+			}
+		]
+	},
+	"postmigration": {
+		"items": [
+			{
+				"filelocation": "RemediateApps",
+				"actions": []
+			},
+			{
+				"filelocation": "PerformTests",
+				"actions": []
+			},
+			{
+				"filelocation": "Optimization",
+				"actions": []
+			},
+			{
+				"filelocation": "DataSync",
+				"actions": []
+			},
+			{
+				"filelocation": "Cutover",
+				"actions": []
+			}
+		]
+	},
+	"footer": {
 		// empty for now but will probably contain lists of download links etc.
 	}
 }

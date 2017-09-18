@@ -2,14 +2,11 @@
 	"displayname": "Access to Azure SQL Database",
 	"emailmessage": "Check out the migration process from Access to Azure SQL Database here:",
 	"description": "The Azure SQL Database is capable of handling mission-critical workloads predictably and efficiently, aiding the transition process from other databases, like Access.",
-	"businesssection":
-	{
-		"items":
-		[
+	"businesssection": {
+		"items": [
 			{
 				"filelocation": "AzureRationale",
-				"actions":
-				[ 
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "pricingcalculator"
@@ -21,8 +18,7 @@
 				]
 			}
 		],
-		"casestudies":
-		[
+		"casestudies": [
 			{
 				"filelocation": "Sumitomo"
 			},
@@ -33,8 +29,7 @@
 				"filelocation": "PTC"
 			}
 		],
-		"partners":
-		[
+		"partners": [
 			{
 				"filelocation": "Accenture"
 			},
@@ -43,18 +38,15 @@
 			}
 		]
 	},
-	"technicalsection":
-	{
-		"items":
-		[
+	"premigration": {
+		"items": [
 			{
 				"filelocation": "Overview",
-				"actions": [ ]
+				"actions": []
 			},
 			{
 				"filelocation": "AccessAzureDiscover",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "MAPToolkit"
@@ -63,48 +55,53 @@
 			},
 			{
 				"filelocation": "AccessAzureAssessment",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForAccessDownload"
 					}
 				]
-			},
+			}
+		]
+	},
+	"migration": {
+		"items": [
 			{
 				"filelocation": "AccessAzureMigration",
-				"actions":
-				[
+				"actions": [
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForAccessDownload"
 					}
-				] 
-			},
-			{
-				"filelocation": "RemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": [ ]
+				]
 			}
 		]
 	},
-	"footer":
-	{
+	"postmigration": {
+		"items": [
+			{
+				"filelocation": "RemediateApps",
+				"actions": []
+			},
+			{
+				"filelocation": "PerformTests",
+				"actions": []
+			},
+			{
+				"filelocation": "Optimization",
+				"actions": []
+			},
+			{
+				"filelocation": "DataSync",
+				"actions": []
+			},
+			{
+				"filelocation": "Cutover",
+				"actions": []
+			}
+		]
+	},
+	"footer": {
 		// empty for now but will probably contain lists of download links etc.
 	}
 }
