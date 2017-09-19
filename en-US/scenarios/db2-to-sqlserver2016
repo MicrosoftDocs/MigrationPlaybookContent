@@ -15,10 +15,6 @@
 						"filelocation": "tcocalculator"
 					}
 				]
-			},
-			{
-				"filelocation": "Overview",
-				"actions": [ ]
 			}
 		],
 		"casestudies":
@@ -34,6 +30,10 @@
 	{
 		"items":
 		[
+			{
+				"filelocation": "Overview",
+				"actions": [ ]
+			},
 			{
 				"filelocation": "DB2Discover",
 				"actions":
