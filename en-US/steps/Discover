@@ -12,7 +12,7 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
 
 1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and install it.
 
-2. **Run MAP tool**
+2. **Run MAP tool**.
     a. Open MAP tool
     
     b. Create inventory database which will be used to save inventory data and collected statistics inside it when working with the MAP tool, by default SQL express is installed by default when installing MAP tool , SQL express is used to host the inventory database.
@@ -29,8 +29,7 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     g. Select all the SQL servers to participate in the analysis
     
-    
-    ### Report generation and Data collection
+ 3. **Report generation and Data collection**.
     
     
     
