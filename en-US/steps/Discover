@@ -12,6 +12,26 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
 
 1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and install it.
 
-2. **Run the MAP tool**
+2. **Run MAP tool**
+    a. Open MAP tool
+    
+    b. Create inventory database which will be used to save inventory data and collected statistics inside it when working with the MAP tool, by default SQL express is installed by default when installing MAP tool , SQL express is used to host the inventory database.
+    
+    c. After creating the database, the MAP console launches giving the option to select your Inventory scenario , since MAP tool can be used to target different scenarios like SQL database consolidation, VM migration, windows upgrade, lync readiness check, etc.
+    
+    d. he MAP tool will launch the home screen (Inventory and assessment) page, for most scenarios you need to run the first two steps as preparation steps before performing any assessment , these steps are: Perform an inventory; Collect performance data.
+    
+    e. To do so, follow the steps which will guide you through this.
+        * Click on Perform an inventory
+        * Determine the discovery method
+        
+    f. Select an account that have administrative permission on the targeted servers, you can add more than one account , and the MAP tool will try to login to servers using all the accounts sequentially until it succeed to login
+    
+    g. Select all the SQL servers to participate in the analysis
+    
+    
+    ### Report generation and Data collection
+    
+    
+    
 
-_After the MAP tool has finish running, you will be able to get a detailed Oracle schema report and estimates of the complexity of migration._
