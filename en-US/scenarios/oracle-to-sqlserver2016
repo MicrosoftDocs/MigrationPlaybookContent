@@ -6,12 +6,7 @@
 		"items": [
 			{
 				"filelocation": "Rationale",
-				"actions": [
-					{
-						"actiontype": "forwardlink",
-						"filelocation": "tcocalculator"
-					}
-				]
+				"actions": []
 			},
 			{
 				"filelocation": "Overview",
@@ -29,21 +24,11 @@
 		"items": [
 			{
 				"filelocation": "Discover",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
+				"actions": []
 			},
 			{
 				"filelocation": "Assessment",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForOracleDownload"
-					}
-				]
+				"actions": []
 			}
 		]
 	},
@@ -51,12 +36,7 @@
 		"items": [
 			{
 				"filelocation": "Migration",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForOracleDownload"
-					}
-				]
+				"actions": []
 			}
 		]
 	},
