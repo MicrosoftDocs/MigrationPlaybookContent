@@ -30,4 +30,6 @@ If **costs** are a concern:
 
 SQL Server 2016 delivers 11.7X better TCO than a comparable Oracle solution. And these are annualized cost savings! More importantly, with Oracle, it is not what you are paying for now, but what you will pay in the future. Taking advantage of additional capabilities increases your cost of operations. With SQL Server 2016, developments in in-memory, advanced analytics, and mobile BI are all built-into the product, with no need for any additional investment.
 
-The Total Cost of Ownership (TCO) analysis tool can help to determine the real difference in cost between a current Oracle solution and SQL Server 2016. The TCO Calculator provides a custom report showing the specific cost savings and benefits a customer can anticipate by migrating from Oracle to SQL Server. You can download the TCO Calculator [here](http://sqltcocalculator.azurewebsites.net/#!/).
+The Total Cost of Ownership (TCO) analysis tool can help to determine the real difference in cost between a current Oracle solution and SQL Server 2016. The TCO Calculator provides a custom report showing the specific cost savings and benefits a customer can anticipate by migrating from Oracle to SQL Server. 
+
+Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to run a cost analysis on your migrations.
