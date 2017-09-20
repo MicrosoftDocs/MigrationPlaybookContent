@@ -20,15 +20,6 @@
 			"name": "Pre-Migration ",
 			"items": [
 				{
-					"filelocation": "MySqlDiscover",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "MAPToolkit"
-						}
-					]
-				},
-				{
 					"filelocation": "MySqlAzureAssessment",
 					"actions": [
 						{
