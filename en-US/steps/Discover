@@ -28,7 +28,7 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     d. Next step is to collect data from the database created. Click on “Collect inventory data”
     
-    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/mapcollectinventorydata.png)
+    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/maporacleoverview.png)
     
     e. On the "Inventory and Assessment Wizard", choose Oracle. Click "Next"
     
@@ -44,7 +44,7 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     h. After setting the order of the credentials, you need to specify the credentials for each computer you want to discover.
     
-    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder.png)
+    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder2.png)
     
     i. You can mention unique credentials for every computer/machine or can choose to use all computer credentials list. Click "Save" and "Next"
     
