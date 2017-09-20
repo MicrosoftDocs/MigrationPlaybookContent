@@ -7,6 +7,10 @@
 			{
 				"filelocation": "AzureRationale",
 				"actions": []
+			},
+			{
+				"filelocation": "Overview",
+				"actions": []
 			}
 		],
 		"casestudies": [
@@ -18,10 +22,6 @@
 	},
 	"premigration": {
 		"items": [
-			{
-				"filelocation": "Overview",
-				"actions": []
-			},
 			{
 				"filelocation": "Discover",
 				"actions": [
