@@ -2,77 +2,80 @@
 	"displayname": "SAP ASE to Azure SQL Database",
 	"emailmessage": "Check out the migration process from SAP ASE to Azure SQL Database here:",
 	"description": "Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from SAP ASE simple and reliable.",
-	"businesssection": {
-		"items": [
-			{
-				"filelocation": "ASERationale",
-				"actions": []
-			},
-			{
-				"filelocation": "Overview",
-				"actions": []
-			}
-		],
-		"casestudies": [
+	"steps": [
+		{
+			"name": "Migration Planning",
+			"items": [
+				{
+					"filelocation": "ASERationale",
+					"actions": []
+				},
+				{
+					"filelocation": "Overview",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "SybaseAssessment",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForSybaseDownload"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [
+				{
+					"filelocation": "SybaseMigration",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForSybaseDownload"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Post-Migration",
+			"items": [
+				{
+					"filelocation": "RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "Optimization",
+					"actions": []
+				},
+				{
+					"filelocation": "DataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "Cutover",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
 
-		],
-		"partners": [
-			{
-				"filelocation": "DBBest"
-			}
-		]
-	},
-	"premigration": {
-		"items": [
-			{
-				"filelocation": "SybaseAssessment",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForSybaseDownload"
-					}
-				]
-			}
-		]
-	},
-	"migration": {
-		"items": [
-			{
-				"filelocation": "SybaseMigration",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForSybaseDownload"
-					}
-				]
-			}
-		]
-	},
-	"postmigration": {
-		"items": [
-			{
-				"filelocation": "RemediateApps",
-				"actions": []
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": []
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": []
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": []
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": []
-			}
-		]
-	},
-	"footer": {
-		// empty for now but will probably contain lists of download links etc.
-	}
+	],
+	"partners": [
+		{
+			"filelocation": "DBBest"
+		}
+	]
 }

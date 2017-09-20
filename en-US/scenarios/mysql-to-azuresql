@@ -17,7 +17,7 @@
 			]
 		},
 		{
-			"name": "Pre-Migration ",
+			"name": "Pre-Migration",
 			"items": [
 				{
 					"filelocation": "MySqlAzureAssessment",
@@ -31,7 +31,7 @@
 			]
 		},
 		{
-			"name": "Migration ",
+			"name": "Migration",
 			"items": [
 				{
 					"filelocation": "MySqlAzureMigration",

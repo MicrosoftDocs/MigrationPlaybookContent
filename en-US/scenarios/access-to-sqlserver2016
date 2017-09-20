@@ -2,96 +2,108 @@
 	"displayname": "Access to SQL Server 2016",
 	"emailmessage": "Check out the migration process from Access to SQL Server 2016 here:",
 	"description": "Migrating from Access to Azure's SQL Server could not be simpler due to the SQL server's top tier performance, interconnectivity, consistency, and value.",
-	"businesssection": {
-		"items": [
-			{
-				"filelocation": "Rationale",
-				"actions": [
-					{
-						"actiontype": "forwardlink",
-						"filelocation": "tcocalculator"
-					},
-					{
-						"filelocation": "Overview",
-						"actions": []
-					}
-				]
-			},
-			{
-				"filelocation": "ProductLicensing",
-				"actions": []
-			}
-		],
-		"casestudies": [
-			{
-				"filelocation": "PACTGroup"
-			},
-			{
-				"filelocation": "KDS"
-			},
-			{
-				"filelocation": "PTC"
-			}
-		],
-		"partners": [
-			{
-				"filelocation": "Capax"
-			},
-			{
-				"filelocation": "Fujitsu"
-			}
-		]
-	},
-	"premigration": {
-		"items": [
-			{
-				"filelocation": "AccessAssessment",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForAccessDownload"
-					}
-				]
-			}
-		]
-	},
-	"migration": {
-		"items": [
-			{
-				"filelocation": "AccessMigration",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForAccessDownload"
-					}
-				]
-			}
-		]
-	},
-	"postmigration": {
-		"items": [
-			{
-				"filelocation": "RemediateApps",
-				"actions": []
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": []
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": []
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": []
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": []
-			}
-		]
-	},
+	"steps": [
+		{
+			"name": "Migration Planning",
+
+			"items": [
+				{
+					"filelocation": "Rationale",
+					"actions": [
+						{
+							"actiontype": "forwardlink",
+							"filelocation": "tcocalculator"
+						},
+						{
+							"filelocation": "Overview",
+							"actions": []
+						}
+					]
+				},
+				{
+					"filelocation": "ProductLicensing",
+					"actions": []
+				}
+			]
+
+		},
+
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "AccessAssessment",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForAccessDownload"
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"name": "Migration",
+
+			"items": [
+				{
+					"filelocation": "AccessMigration",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForAccessDownload"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Post-Migration",
+
+			"items": [
+				{
+					"filelocation": "RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "Optimization",
+					"actions": []
+				},
+				{
+					"filelocation": "DataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "Cutover",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+		{
+			"filelocation": "PACTGroup"
+		},
+		{
+			"filelocation": "KDS"
+		},
+		{
+			"filelocation": "PTC"
+		}
+	],
+	"partners": [
+		{
+			"filelocation": "Capax"
+		},
+		{
+			"filelocation": "Fujitsu"
+		}
+	],
 	"footer": {
 		// empty for now but will probably contain lists of download links etc.
 	}
