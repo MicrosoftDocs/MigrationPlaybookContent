@@ -41,12 +41,7 @@
 				},
 				{
 					"filelocation": "DB2Assessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -56,12 +51,7 @@
 			"items": [
 				{
 					"filelocation": "DB2Migration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						}
-					]
+					"actions":[]
 				}
 			]
 		},
