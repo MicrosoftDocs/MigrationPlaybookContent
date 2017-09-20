@@ -7,6 +7,10 @@
 			{
 				"filelocation": "ASERationale",
 				"actions": []
+			},
+			{
+				"filelocation": "Overview",
+				"actions": []
 			}
 		],
 		"casestudies": [
@@ -20,10 +24,6 @@
 	},
 	"premigration": {
 		"items": [
-			{
-				"filelocation": "Overview",
-				"actions": []
-			},
 			{
 				"filelocation": "SybaseDiscover",
 				"actions": [
