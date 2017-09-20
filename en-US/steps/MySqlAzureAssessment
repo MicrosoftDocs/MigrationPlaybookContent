@@ -1,6 +1,5 @@
 <!-- Assess & Convert -->
 
-### Overview
 
 By using SQL Server Migration Assistant (SSMA) for MySQL, you can review database objects and data, assess databases for migration, migrate database objects to Azure SQL Database, and then migrate data to Azure SQL Database.
 
