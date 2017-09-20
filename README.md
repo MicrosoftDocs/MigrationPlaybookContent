@@ -129,7 +129,8 @@ An explanation of each of the properties and its expected values follows:
   * description
     * Used in the scenario page's <meta content=""> tag, description text is useful for Search Engine Optimization.
   * steps
-    * A collection of sections of `items`, or "steps," explaining the business justification for migrating to Microsoft SQL technologies. The `item` format is explained [below](#items).
+    * A collection of objects containing names and lists of `items`, or "steps," explaining how to proceed with migrating to Microsoft SQL technologies. The `item` format is explained [below](#items). 
+    * As a matter of convention, there are 4 steps; "Migration Planning", "Pre-Migration", "Migration", and "Post-Migration". While you can change these names, you are advised to do so with caution.
     * The format of "step" files are explained in their own section [below](#steps)
   * Partners and for Case Studies.
       * These are collections of entities that point to related Partners or Case Studies.
