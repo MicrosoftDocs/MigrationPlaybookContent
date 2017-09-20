@@ -21,21 +21,11 @@
 			"items": [
 				{
 					"filelocation": "MySqlDiscover",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "MAPToolkit"
-						}
-					]
+					"actions": []
 				},
 				{
 					"filelocation": "MySqlAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForMySqlDownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -44,12 +34,7 @@
 			"items": [
 				{
 					"filelocation": "MySqlMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForMySqlDownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
