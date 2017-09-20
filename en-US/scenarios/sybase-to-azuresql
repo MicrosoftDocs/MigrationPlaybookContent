@@ -25,15 +25,6 @@
 	"premigration": {
 		"items": [
 			{
-				"filelocation": "SybaseDiscover",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
 				"filelocation": "SybaseAssessment",
 				"actions": [
 					{
