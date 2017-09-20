@@ -71,7 +71,9 @@
 		}
 	],
 	"casestudies": [
-
+			{
+				"filelocation": "Sumitomo"
+			}
 	],
 	"partners": [
 
