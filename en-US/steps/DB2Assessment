@@ -8,7 +8,7 @@ To use SSMA for DB2 to create an assessment, perform the following steps.
 
    a.	Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target.
 
-   b.   Select Azure SQL from the “Migrate To” options
+   b.   Select SQL Server from the “Migrate To” options
     
    c. Click "OK".
 
