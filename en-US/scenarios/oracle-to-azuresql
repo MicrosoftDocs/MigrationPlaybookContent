@@ -23,15 +23,6 @@
 	"premigration": {
 		"items": [
 			{
-				"filelocation": "Discover",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
 				"filelocation": "OracleAzureAssessment",
 				"actions": [
 					{
