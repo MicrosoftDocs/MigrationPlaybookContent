@@ -41,7 +41,7 @@ To use SSMA for DB2 to create an assessment, perform the following steps.
    
    b.	Dynamic or ad hoc queries can be added to the "Statements" node by selecting that node and choosing "Add Statement" from the right-click menu options.
    
-   c.	For converting and moving the schema to Azure SQL Database, connect to the SQL instance by providing the connection details in the "Connect to Azure SQL" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
+   c.	For converting and moving the schema to SQL Server Database, connect to the SQL instance by providing the connection details in the "Connect to SQL Server" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
    
    ![Connect to SQL](https://mpbdevcontent.azureedge.net/Images/connecttosql.png)
    
