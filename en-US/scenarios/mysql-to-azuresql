@@ -45,7 +45,7 @@
 			]
 		},
 		{
-			"name": "Pre-Migration",
+			"name": "Post-Migration",
 			"items": [
 				{
 					"filelocation": "RemediateApps",
