@@ -45,15 +45,6 @@
 	"premigration": {
 		"items": [
 			{
-				"filelocation": "AccessAzureDiscover",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
 				"filelocation": "AccessAzureAssessment",
 				"actions": [
 					{
