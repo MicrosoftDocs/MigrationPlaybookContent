@@ -12,11 +12,11 @@ To use SSMA for DB2 to create an assessment, perform the following steps.
     
    c. Click "OK".
 
-   ![New Project](https://mpbdevcontent.azureedge.net/Images/newproject.png)
+   ![New Project](https://mpbdevcontent.azureedge.net/Images/ssmadb2newproject.png)
 
    d. Connect to the DB2 server by providing the connection details in the "Connect to DB2" dialog.
    
-   ![Connect to DB2](https://mpbdevcontent.azureedge.net/Images/connecttooracle.png)
+   ![Connect to DB2](https://mpbdevcontent.azureedge.net/Images/ssmadb2connect.png)
    
    e.	Create the conversion report by selecting the DB2 schema in the "DB2 Metadata Explorer" by choosing "Create Report" from the right-click menu options or the menu bar on the top.
    
