@@ -10,27 +10,67 @@ toolkit to securely assess your environment for your migration.
 
 To use MAP Toolkit to perform an inventory scan, perform the following steps.
 
-1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and install it.
+1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and then install it.
 
 2. **Run MAP tool**.
 
-    a. Open MAP tool
+    a. Open MAP tool and select Database on the left pane. You will be on the following screen:
     
-    b. Create inventory database which will be used to save inventory data and collected statistics inside it when working with the MAP tool, by default SQL express is installed by default when installing MAP tool , SQL express is used to host the inventory database.
+    ![MAP Overview](https://mpbdevcontent.azureedge.net/Images/mapoverview.png)
     
-    c. After creating the database, the MAP console launches giving the option to select your Inventory scenario , since MAP tool can be used to target different scenarios like SQL database consolidation, VM migration, windows upgrade, lync readiness check, etc.
+    b. Click on Create/Select database
     
-    d. he MAP tool will launch the home screen (Inventory and assessment) page, for most scenarios you need to run the first two steps as preparation steps before performing any assessment , these steps are: Perform an inventory; Collect performance data.
+    ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/mapselectdb.png)
+     
+    c. Enter the name of a database, a brief description, and click “OK”.
     
-    e. To do so, follow the steps which will guide you through this.
-        * Click on Perform an inventory
-        * Determine the discovery method
-        
-    f. Select an account that have administrative permission on the targeted servers, you can add more than one account , and the MAP tool will try to login to servers using all the accounts sequentially until it succeed to login
+    ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/mapselectdboverview.png)
     
-    g. Select all the SQL servers to participate in the analysis
+    d. Next step is to collect data from the database created. Click on “Collect inventory data”
+    
+    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/mapcollectinventorydata.png)
+    
+    e. On the "Inventory and Assessment Wizard", choose SQL Server and SQL Server with Database Details. Click "Next"
+    
+    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/mapinventirywizard.png)
+    
+    f. Select a best method option to search computers on which Microsoft Products are hosted.
+    
+    ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/mapdiscoverymethods.png)
+    
+    g. Enter credentianls or "Create new" credentials for the systems you want to explore. Click "Next"
+    
+    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycreds.png)
+    
+    h. After setting the order of the credentials, you need to specify the credentials for each computer you want to discover.
+    
+    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder.png)
+    
+    i. You can mention unique credentials for every computer/machine or can choose to use all computer credentials list. Click "Save" and "Next"
+    
+    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsindividual.png)
+    
+    j. Verify your selection summary and click "Finish"
+    
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdiscoverysummary.png)
+    
+    k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report
+    
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdatacollectionsummary.png)
+    
+    l. After you click on “Close” you will be taken back to the Main window of the tool. You will see a summary of the Database Discovery done so far.
     
  3. **Report generation and Data collection**.
+    
+    a. On top right corner of the tool you will have “Options” page and here you can generate report about the SQL Server Assessment and the Database Details.
+    
+    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreport.png)
+    
+    b. Click on both (one by one) and it will generate report. This will take couple of seconds to few minutes depending upon the size of the inventory done from the discovery.
+    
+    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreportdone.png)
+    
+     
     
     
     
