@@ -40,15 +40,6 @@
 	"premigration": {
 		"items": [
 			{
-				"filelocation": "SqlDiscover",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
 				"filelocation": "SqlAssessment",
 				"actions": [
 					{
