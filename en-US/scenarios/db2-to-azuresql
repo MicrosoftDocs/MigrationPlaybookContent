@@ -23,15 +23,6 @@
 	"premigration": {
 		"items": [
 			{
-				"filelocation": "DB2Discover",
-				"actions": [
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
 				"filelocation": "DB2AzureAssessment",
 				"actions": [
 					{
