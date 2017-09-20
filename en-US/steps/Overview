@@ -1,7 +1,7 @@
 <!--Process Overview-->
 Migrations should be approached with the same rigor and processes as a full software or hardware project – a  solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
 
-![Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess.png)
+![Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationLifecycle.png)
 
 Each phase in the data migration process is briefly described in the following table:
 
