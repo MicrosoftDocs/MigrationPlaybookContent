@@ -14,6 +14,10 @@
 					{
 						"actiontype": "download",
 						"filelocation": "AzureTCO"
+					},
+					{
+						"filelocation": "Overview",
+						"actions": []
 					}
 				]
 			}
@@ -40,10 +44,6 @@
 	},
 	"premigration": {
 		"items": [
-			{
-				"filelocation": "Overview",
-				"actions": []
-			},
 			{
 				"filelocation": "AccessAzureDiscover",
 				"actions": [
