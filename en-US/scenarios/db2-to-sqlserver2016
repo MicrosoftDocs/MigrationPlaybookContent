@@ -14,7 +14,16 @@
 					{
 						"actiontype": "download",
 						"filelocation": "SSMAForDB2Download"
-					}
+					},
+					{
+						"filelocation": "Overview",
+						"actions": [
+						{
+							"actiontype": "forwardlink",
+							"filelocation": "tcocalculator"
+						}
+						]
+					},
 				]
 			}
 		],
@@ -27,15 +36,6 @@
 	},
 	"premigration": {
 		"items": [
-			{
-				"filelocation": "Overview",
-				"actions": [
-					{
-						"actiontype": "forwardlink",
-						"filelocation": "tcocalculator"
-					}
-				]
-			},
 			{
 				"filelocation": "DB2Discover",
 				"actions": [
