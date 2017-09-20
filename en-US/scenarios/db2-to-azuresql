@@ -23,12 +23,7 @@
 			"items": [
 				{
 					"filelocation": "DB2AzureAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -39,12 +34,7 @@
 			"items": [
 				{
 					"filelocation": "DB2AzureMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
