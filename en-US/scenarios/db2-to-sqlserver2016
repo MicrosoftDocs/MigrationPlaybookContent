@@ -8,25 +8,7 @@
 			"items": [
 				{
 					"filelocation": "Rationale",
-					"actions": [
-						{
-							"actiontype": "forwardlink",
-							"filelocation": "tcocalculator"
-						},
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						},
-						{
-							"filelocation": "Overview",
-							"actions": [
-								{
-									"actiontype": "forwardlink",
-									"filelocation": "tcocalculator"
-								}
-							]
-						}
-					]
+					"actions": []
 				}
 			]
 
@@ -36,13 +18,12 @@
 			"name": "Pre-Migration",
 			"items": [
 				{
+					"filelocation": "DB2Discover",
+					"actions": []
+				},
+				{
 					"filelocation": "DB2Assessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -52,12 +33,7 @@
 			"items": [
 				{
 					"filelocation": "DB2Migration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						}
-					]
+					"actions":[]
 				}
 			]
 		},
