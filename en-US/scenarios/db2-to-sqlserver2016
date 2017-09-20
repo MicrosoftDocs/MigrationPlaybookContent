@@ -8,25 +8,7 @@
 			"items": [
 				{
 					"filelocation": "Rationale",
-					"actions": [
-						{
-							"actiontype": "forwardlink",
-							"filelocation": "tcocalculator"
-						},
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForDB2Download"
-						},
-						{
-							"filelocation": "Overview",
-							"actions": [
-								{
-									"actiontype": "forwardlink",
-									"filelocation": "tcocalculator"
-								}
-							]
-						}
-					]
+					"actions": []
 				}
 			]
 
