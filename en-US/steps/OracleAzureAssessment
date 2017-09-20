@@ -1,10 +1,6 @@
 <!-- Assess & Convert -->
 
-### Overview
-
 By using SQL Server Migration Assistant (SSMA) for Oracle, you can review database objects and data, assess databases for migration, and then migrate schema to Azure SQL Database.
-
-**Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for Oracle (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql).
 
 ### Process
 
