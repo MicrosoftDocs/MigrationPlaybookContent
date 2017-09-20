@@ -11,6 +11,10 @@
 			{
 				"filelocation": "AzureUpgradePaths",
 				"actions": []
+			},
+			{
+				"filelocation": "AzureSqlOverview",
+				"actions": []
 			}
 		],
 		"casestudies": [
@@ -35,10 +39,6 @@
 	},
 	"premigration": {
 		"items": [
-			{
-				"filelocation": "AzureSqlOverview",
-				"actions": []
-			},
 			{
 				"filelocation": "SqlDiscover",
 				"actions": [
