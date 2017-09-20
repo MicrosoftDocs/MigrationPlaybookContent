@@ -128,19 +128,14 @@ An explanation of each of the properties and its expected values follows:
     * The body of the message accompanying a scenario that is emailed.
   * description
     * Used in the scenario page's <meta content=""> tag, description text is useful for Search Engine Optimization.
-  * businesssection
-    * A collection of `items`, or "steps," explaining the business justification for migrating to Microsoft SQL technologies. The `item` format is explained [below](#items).
+  * steps
+    * A collection of sections of `items`, or "steps," explaining the business justification for migrating to Microsoft SQL technologies. The `item` format is explained [below](#items).
     * The format of "step" files are explained in their own section [below](#steps)
-    * In addition to `items`, the business section contains a sections for related Partners and for Case Studies.
+  * Partners and for Case Studies.
       * These are collections of entities that point to related Partners or Case Studies.
       * Partners and Case Studies can be empty, but you must include the `[ ]` to explicitly indicate an empty array.
       * The only property is filelocation, which represents the location of the file in relation to either the `partners` or `caseStudies` folders. Do ***not*** include `partners`/`caseStudies` or any folder above it in this path.
       * The format of partner and case study files are explained in their own section [below](#partners--case-studies).
-  * technicalsection
-    * A collection of `items` or "steps" that explain the step-by-step process for migrating.
-  * footer
-    * This section is not in use, but it acts as a placeholder for a future feature.
-
 ### Items
 *Items* are subsections in the Business and Technical sections. Essentially, items refer to a file containing a "step" in the process of migrating. Each `item` can optionally contain one or more `actions`, which are links either to online resources, downloadable tools, or documents.
 
