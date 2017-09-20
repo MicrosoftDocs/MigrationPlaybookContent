@@ -10,6 +10,10 @@
 					{
 						"actiontype": "forwardlink",
 						"filelocation": "tcocalculator"
+					},
+					{
+						"filelocation": "Overview",
+						"actions": []
 					}
 				]
 			},
@@ -40,10 +44,6 @@
 	},
 	"premigration": {
 		"items": [
-			{
-				"filelocation": "Overview",
-				"actions": []
-			},
 			{
 				"filelocation": "AccessDiscover",
 				"actions": [
