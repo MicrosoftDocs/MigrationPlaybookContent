@@ -36,6 +36,10 @@
 			"name": "Pre-Migration",
 			"items": [
 				{
+					"filelocation": "DB2Discover",
+					"actions": []
+				},
+				{
 					"filelocation": "DB2Assessment",
 					"actions": [
 						{
