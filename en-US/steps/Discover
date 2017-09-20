@@ -63,9 +63,7 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
  3. **Report generation and Data collection**.
     
     a. On top right corner of the tool you will have “Options” page and here you can generate report about the Oracle Assessment and the Database Details.
-    
-    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreport.png)
-    
+       
     b. Click on both (one by one) and it will generate report. This will take couple of seconds to few minutes depending upon the size of the inventory done from the discovery.
     
     ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreportdone.png)
