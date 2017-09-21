@@ -17,10 +17,21 @@ To use DMA to create an assessment, perform the following steps.
     
     b. Select the target SQL Server version that you plan to migrate to, and need to run assessment against
     
-    c. Choose one or both from the following assessment report types - Compatibility Issues; New features’ recommendation
+    c. Choose one or both from the following assessment report types - Compatibility Issues; New features’ recommendation. Click "Next"
     
-    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)    
-   
+    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)   
+    
+    d. Click on "Add Sources" to open the connection fly-out
+        
+        i. Enter SQL server instance name, choose Authentication type and set the correct connection properties
+        
+        ii. Click "Connect"
+        
+        iii. Select the databases you want to assess and click "Add"
+        
+        iv. Click "Next"
+        
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
     
     
 
