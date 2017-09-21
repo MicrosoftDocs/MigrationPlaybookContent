@@ -30,6 +30,18 @@ To use DEA for database migration testing, perform the following steps.
     d. "Start" to begin replay of your capture.
     
  4. **Create New Analysis Report**
+ 
+    a. Go to "Analysis Reports" on the left navigation. 
+    
+    b. Connect to the SQL Server where you will store your report databases. You will see the list of all reports in the server.
+    
+    c. Click on "New Report".
+    
+    d. Provide necessary inputs to generate report - Reprot name, traces from source and target SQL Server instances.
+    
+ 5. **Review Analysis Report**
+ 
+    a. On the first page of your report, you will see the version and build information for the target servers on which the experiment was run. . Threshold allows you to adjust the sensitivity or tolerance of your A/B Test analysis. By default, it is set at 5%; any improvement in performance that is >= 5% is categorized as ‘Improved’.  The dropdown allows you to evaluate the report with different performance thresholds.
 
 
 
