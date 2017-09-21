@@ -1,0 +1,46 @@
+<!-- Assess -->
+
+When the data sources have been identified, each of them needs to be scanned to identify gaps between source and target. This includes identifying compatibility issues, breaking changes and behavior changes between the two versions. As an example, for upgrading from SQL Server 2008 to the latest SQL Server, we need to identify all the breaking changes or unsupported syntax such as non-ANSI style joins that will likely block migrations.
+By using Data Migration Assistant (DMA) to assess the database, you can identify potential upgrade blockers, and resolve any issues.
+
+### Process
+
+To use DMA to create an assessment, perform the following steps.
+
+1. **Download [DMA](https://www.microsoft.com/en-us/download/details.aspx?id=53595)**, and then install it.
+
+2. Create a **New Assessment** project
+
+    a. Click on the New icon and select “Assessment” project type. Select "SQL Server" as source and " Azure SQL Database" as target types. Click "Create"
+    
+    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
+     
+    c. Choose one or both from the following assessment report types - Compatibility Issues; Feature Parity. Click "Next"
+    
+    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmareportoptions.png)   
+    
+    d. Click on "Add Sources" to open the connection fly-out
+        
+        *Enter Azure SQL instance name, choose Authentication type and set the correct connection properties    
+        *Click "Connect"
+        *Select the databases you want to assess and click "Add"    
+        *Click "Next"
+        
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
+    
+    e. Now wait for the assessment results. Assessment duration depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
+    
+    f. Select the database that has completed assessment. Switch between "Compatibility issues" and "Feature recommendations" using the switcher
+       
+    g. Compatibility Issues can be reviewed by analyzing the impacted object and its details for every issue identified under “Migration Blockers”, “Behavior changes” and “Deprecated features
+    
+    ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmacompatissues.png)  
+    
+    h. Similarly, you can review feature parity which covers "Unspported" or "Partially Supported" features in Azure SQL Database
+    
+    ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmafeatureparity.png)  
+    
+3. **Review Assessment Results**
+
+    a. Once all databases completed assessments, click on "Export report" to export the results to either JSON or CSV file for analyzing the data at your own convenience
+
