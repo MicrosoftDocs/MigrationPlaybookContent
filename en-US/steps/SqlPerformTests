@@ -56,8 +56,14 @@ To use DEA for database migration testing, perform the following steps.
        
     ![Analysis Threshold](https://mpbdevcontent.azureedge.net/Images/deathreshold.jpg)
     
-     
+    b. Click on the individual slices of the pir chart to view drilldown on performance metrics.
     
-
-
-
+    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/deachart.png)
+    
+    c. On the drilldown page for a performance change category, you will see a list of queries in that category. 
+    
+    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/deaerrorqueries.png)
+    
+    d. Click on individual query to get a performance summary statistics, error information, and query plan information.
+    
+    ![Summary Statistics](https://mpbdevcontent.azureedge.net/Images/deasummarystats.png)   
