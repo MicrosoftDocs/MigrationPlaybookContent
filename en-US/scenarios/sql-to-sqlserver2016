@@ -35,21 +35,11 @@
 			"items": [
 				{
 					"filelocation": "SqlDiscover",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "MAPToolkit"
-						}
-					]
+					"actions": []
 				},
 				{
 					"filelocation": "SqlAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "DMADownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -59,12 +49,7 @@
 			"items": [
 				{
 					"filelocation": "SqlMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "DMADownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -78,12 +63,7 @@
 				},
 				{
 					"filelocation": "SqlPerformTests",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "DEADownload"
-						}
-					]
+					"actions": []
 				},
 				{
 					"filelocation": "SqlOptimization",
@@ -114,9 +94,6 @@
 	"partners": [
 		{
 			"filelocation": "Fujitsu"
-		},
-		{
-			"filelocation": "DSP"
 		}
 	]
 }
