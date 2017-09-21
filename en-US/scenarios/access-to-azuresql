@@ -33,12 +33,7 @@
 			"items": [
 				{
 					"filelocation": "AccessAzureAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForAccessDownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -48,12 +43,7 @@
 			"items": [
 				{
 					"filelocation": "AccessAzureMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForAccessDownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
