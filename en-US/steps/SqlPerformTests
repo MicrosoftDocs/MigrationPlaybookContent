@@ -13,14 +13,23 @@ To use DEA for database migration testing, perform the following steps.
 
     a. Go to "All Captures" by clicking on the camera icon on the left navigation
     
-    b. Provide necessary inputs to begin capture - trace name, duration, SQL Server instance name, database name, share location to store source trace file on SQL Server machine
+    b. To start a new capture, click on "New Capture" 
     
-    c. "Start" to begin trace capture
+    c. Provide necessary inputs to begin capture - trace name, duration, SQL Server instance name, database name, share location to store source trace file on SQL Server machine
+    
+    d. "Start" to begin trace capture
 
 3. **Run a trace replay**
+    
+    a. Go to "All Replays" by clicking on the play icon on the left navigation
+    
+    b. To start a new replay, click on “New Replay”
+    
+    c. Provide necessary inputs for replay - Replay name, Controller machine name, Path to source trace file on controller, SQL Server instance name, Path to store target trace file on SQL Server machine
+    
+    d. "Start" to begin replay of your capture
+    
+ 4. **Create New Analysis Report**
 
 
 
-4.Create new analysis report.
-
-_This workflow will give the ability to generate new reports which provide insight into how workload performance changes across versions of SQL._
