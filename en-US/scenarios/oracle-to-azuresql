@@ -4,7 +4,7 @@
 	"description": "The Azure SQL Database is the industry leading data platform, boasting many unmatched benefits. There is no better time than now to make the transition from Oracle.",
 	"steps": [
 		{
-			"name": "Migration Planning",
+			"name": "Why migrate?",
 			"items": [
 				{
 					"filelocation": "AzureRationale",
