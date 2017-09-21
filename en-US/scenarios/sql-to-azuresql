@@ -44,33 +44,15 @@
 			},
 			{
 				"filelocation": "SqlDiscover",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
+				"actions": [ ]
 			},
 			{
 				"filelocation": "SqlAssessment",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DMADownload"
-					}
-				]
+				"actions": [ ]
 			},
 			{
 				"filelocation": "AzureSqlMigration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DMADownload"
-					}
-				]
+				"actions": [ ]		
 			},
 			{
 				"filelocation": "SqlRemediateApps",
