@@ -24,7 +24,7 @@
 			"name": "Pre-Migration",
 			"items": [
 				{
-					"filelocation": "SqlAssessment",
+					"filelocation": "AzureSqlAssessment",
 					"actions": []
 				}
 			]
