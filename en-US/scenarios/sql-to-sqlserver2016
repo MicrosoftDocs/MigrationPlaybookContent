@@ -9,12 +9,7 @@
 			"items": [
 				{
 					"filelocation": "Rationale",
-					"actions": [
-						{
-							"actiontype": "forwardlink",
-							"filelocation": "tcocalculator"
-						}
-					]
+					"actions": []
 				},
 				{
 					"filelocation": "SqlOverview",
