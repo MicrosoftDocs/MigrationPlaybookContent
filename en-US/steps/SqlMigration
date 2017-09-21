@@ -1,6 +1,5 @@
 <!--Migrate-->
 
-### Overview
 
 After assessing your databases, the next step is to execute the migration process for the schema and database. DMA is the correct tool to use for this process.
 
@@ -8,6 +7,6 @@ After assessing your databases, the next step is to execute the migration proces
 
 To use DMA to create a migration project, perform the following steps.
 
-1.Create a new project and use the DMA Migration workflow and follow the wizard to kick off migration.
+1. Create a **New Migration** project
 
-This workflow will migrate the following components: database schema, data and users, server roles, and SQL/Windows logins.
+2. 
