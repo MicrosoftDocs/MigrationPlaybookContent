@@ -11,10 +11,6 @@
 					"filelocation": "Rationale",
 					"actions": [
 						{
-							"actiontype": "forwardlink",
-							"filelocation": "tcocalculator"
-						},
-						{
 							"filelocation": "Overview",
 							"actions": []
 						}
@@ -33,12 +29,7 @@
 			"items": [
 				{
 					"filelocation": "AccessAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForAccessDownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
