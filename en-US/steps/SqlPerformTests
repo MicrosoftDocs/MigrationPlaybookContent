@@ -3,7 +3,7 @@
 Once the data is migrated to target, perform tests against the databases to understand that the applications are expected to perform well against the after the migration.
 For this, use Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server. 
 
-### Process
+### Steps
 
 To use DEA for database migration testing, perform the following steps.
 
