@@ -4,7 +4,7 @@
 	"description": "Azure's SQL Database system boasts unparalleled interconnectivity, scalability, and utilization. Learn more about our migration process from DB2 here.",
 	"steps": [
 		{
-			"name": "Migration Planning",
+			"name": "Why migrate?",
 			"items": [
 				{
 					"filelocation": "AzureRationale",
