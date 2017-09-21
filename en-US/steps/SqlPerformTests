@@ -51,8 +51,12 @@ To use DEA for database migration testing, perform the following steps.
     
  5. **Review Analysis Report**
  
-    a. On the first page of your report, you will see the version and build information for the target servers on which the experiment was run. . Threshold allows you to adjust the sensitivity or tolerance of your A/B Test analysis. By default, it is set at 5%; any improvement in performance that is >= 5% is categorized as ‘Improved’.  The dropdown allows you to evaluate the report with different performance thresholds.
+    a. On the first page of your report, you will see the version and build information for the target servers on which the experiment was run. Threshold allows you to adjust the sensitivity or tolerance of your A/B Test analysis. 
+       Note: By default, it is set at 5%; any improvement in performance that is >= 5% is categorized as ‘Improved’.  The dropdown allows you to evaluate the report with different performance thresholds.
+       
+    ![Analysis Threshold](https://mpbdevcontent.azureedge.net/Images/deathreshold.png)
     
+     
     
 
 
