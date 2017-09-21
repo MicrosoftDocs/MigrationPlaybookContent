@@ -19,7 +19,7 @@ To use DMA to create an assessment, perform the following steps.
     
     c. Choose one or both from the following assessment report types - Compatibility Issues; New features’ recommendation. Click "Next"
     
-    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)   
+    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)   
     
     d. Click on "Add Sources" to open the connection fly-out
         
@@ -28,7 +28,7 @@ To use DMA to create an assessment, perform the following steps.
         *Select the databases you want to assess and click "Add"    
         *Click "Next"
         
-    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)   
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
     
     e. Now wait for the assessment results. Assessment duration depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
     
