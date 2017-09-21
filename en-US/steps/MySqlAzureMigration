@@ -2,7 +2,7 @@
 
 After you have completed assessing your databases and addressing any discrepancies, the next step is to execute the migration process. Migration involves two steps – publishing the schema and migrating the data. SSMA for MySQL is the correct tool to use for this process.
 
-### Process
+### Steps
 
 To use SSMA for MySQL to publish the database schema and migrate the data, perform the following steps.
 
@@ -32,4 +32,3 @@ To use SSMA for MySQL to publish the database schema and migrate the data, perfo
     d. Validate the migration by reviewing the data and schema on the Azure SQL Database instance by using SQL Server Management Studio (SSMS).
 
     ![Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/migrationcomplete.png)
-
