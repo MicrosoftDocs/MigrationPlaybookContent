@@ -9,4 +9,8 @@ To use DMA to create a migration project, perform the following steps.
 
 1. Create a **New Migration** project
 
-2. 
+  a. 
+
+  ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
+    
+  b. Select the target SQL Server version that you plan to migrate to, and need to run assessment against
