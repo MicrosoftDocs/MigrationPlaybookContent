@@ -1,6 +1,5 @@
 <!--Migrate-->
 
-
 After assessing your databases, the next step is to execute the migration process for the schema and database. DMA is the correct tool to use for this process.
 
 ### Process
@@ -15,6 +14,31 @@ To use DMA to create a migration project, perform the following steps.
     
   b. Provide source and target SQL server conenction details. Click "Next"
   
-  ![Source & Target details](https://mpbdevcontent.azureedge.net/Images/dmamigrateadddb.png)    
+  ![Source & Target details](https://mpbdevcontent.azureedge.net/Images/dmasourcetarget.png)    
+  
+  c. Select databases from the source to migrate. Specify the “Shared location accessible by source and target SQL servers for backup operation”. 
+      Note: Make sure that the service account running source SQL Server instance has write privileges on the shared location and target SQL Server service account have read privileges on the shared location.
+  
+  ![Select databases to migrate](https://mpbdevcontent.azureedge.net/Images/dmamigrateadddb.png) 
+  
+  d. Click "Next"
+  
+  e. Select logins that you want to migrate
+  
+  ![Migration Logins](https://mpbdevcontent.azureedge.net/Images/dmaselectlogins.png) 
+  
+  f. Click "Start Migration"
+  
+  g. Now, monitor the progress of migration in the View Results screen
+  
+  ![Migration View Results](https://mpbdevcontent.azureedge.net/Images/dmamigrateresults.png) 
+  
+2. **Review Migration Results**
+
+  a. Click on “Export report” to save the migration results to a csv or json format
+  
+  b. Review the saved file for details about data and logins migration and verify
+  
+  
   
   
