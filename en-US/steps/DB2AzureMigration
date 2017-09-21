@@ -2,7 +2,7 @@
 
 After you have completed assessing your databases and addressing any discrepancies, the next step is to execute the migration process. Migration involves two steps – publishing the schema and migrating the data. SSMA for DB2 is the correct tool to use for this process.
 
-### Process
+### Steps
 
 To use SSMA for DB2 to publish the database schema and migrate the data, perform the following steps.
 
@@ -15,7 +15,6 @@ To use SSMA for DB2 to publish the database schema and migrate the data, perform
     ![Synchronize with Database](https://mpbdevcontent.azureedge.net/Images/publishschema.png)
   
     c. This action will publish the DB2 schema to the Azure SQL Database instance.
-
 
 2. **Migrate data to Azure SQL Database **.
 
