@@ -4,7 +4,7 @@
 	"description": "Transferring from IBM's DB2 to Azure's SQL Server 2016 is easier than ever due to it has the SQL system's best-in-class security and connectivity features.",
 	"steps": [
 		{
-			"name": "Migration Planning",
+			"name": "Why migrate?",
 			"items": [
 				{
 					"filelocation": "Rationale",
