@@ -2,7 +2,7 @@
 
 After deploying your schema, the next step is to execute the data migration to Azure SQL Database. 
 
-### Process
+### Steps
 
 To use SSMA for Oracle to publish the database schema and migrate the data, perform the following steps.
 
