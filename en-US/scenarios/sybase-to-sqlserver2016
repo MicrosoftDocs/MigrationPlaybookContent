@@ -4,7 +4,7 @@
 	"description": "SQL Server 2016 has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
 	"steps": [
 		{
-			"name": "Migration Planning",
+			"name": "Why migrate?",
 			"items": [
 				{
 					"filelocation": "ASERationale",
