@@ -23,15 +23,15 @@ To use DMA to create an assessment, perform the following steps.
     
     d. Click on "Add Sources" to open the connection fly-out
         
-        i. Enter SQL server instance name, choose Authentication type and set the correct connection properties
+        * Enter SQL server instance name, choose Authentication type and set the correct connection properties
         
-        ii. Click "Connect"
+        * Click "Connect"
         
-        iii. Select the databases you want to assess and click "Add"
+        * Select the databases you want to assess and click "Add"
         
-        iv. Click "Next"
+        * Click "Next"
         
-    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.png)   
     
     e. Now wait for the assessment results. Assessment duration depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
     
