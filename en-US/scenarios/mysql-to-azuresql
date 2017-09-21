@@ -4,7 +4,7 @@
 	"description": "Migrating from MySQL to the Azure SQL Database, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
 	"steps": [
 		{
-			"name": "Migration Planning",
+			"name": "Why migrate?",
 			"items": [
 				{
 					"filelocation": "AzureRationale",
