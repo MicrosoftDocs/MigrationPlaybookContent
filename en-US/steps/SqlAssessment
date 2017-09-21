@@ -7,7 +7,7 @@ By using Data Migration Assistant (DMA) to assess the database, you can identify
 
 To use DMA to create an assessment, perform the following steps.
 
-1. **Download DMA** from [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595), and then install it.
+1. **Download [DMA](https://www.microsoft.com/en-us/download/details.aspx?id=53595)**, and then install it.
 
 2. Create a **new Assessment** project
 
@@ -23,15 +23,15 @@ To use DMA to create an assessment, perform the following steps.
     
     d. Click on "Add Sources" to open the connection fly-out
         
-        * Enter SQL server instance name, choose Authentication type and set the correct connection properties
+        *Enter SQL server instance name, choose Authentication type and set the correct connection properties
+       
+        *Click "Connect"
         
-        * Click "Connect"
+        *Select the databases you want to assess and click "Add"
         
-        * Select the databases you want to assess and click "Add"
+        *Click "Next"
         
-        * Click "Next"
-        
-    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.png)   
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
     
     e. Now wait for the assessment results. Assessment duration depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
     
