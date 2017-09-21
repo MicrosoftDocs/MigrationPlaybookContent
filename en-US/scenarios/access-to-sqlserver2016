@@ -49,12 +49,7 @@
 			"items": [
 				{
 					"filelocation": "AccessMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForAccessDownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -97,9 +92,6 @@
 		}
 	],
 	"partners": [
-		{
-			"filelocation": "Capax"
-		},
 		{
 			"filelocation": "Fujitsu"
 		}
