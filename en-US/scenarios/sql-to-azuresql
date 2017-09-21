@@ -25,12 +25,7 @@
 			"items": [
 				{
 					"filelocation": "SqlAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "DMADownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -40,12 +35,7 @@
 			"items": [
 				{
 					"filelocation": "AzureSqlMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "DMADownload"
-						}
-					]
+					"actions": []
 				}
 			]
 		},
@@ -88,9 +78,6 @@
 		}
 	],
 	"partners": [
-		{
-			"filelocation": "Accenture"
-		},
 		{
 			"filelocation": "Fujitsu"
 		}
