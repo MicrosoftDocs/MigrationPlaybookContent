@@ -1,31 +1,56 @@
 <!-- Assess & Convert -->
 
-### Overview
-
-By using SQL Server Migration Assistant (SSMA) for DB2, you can review database objects and data, assess databases for migration, migrate DB2 database objects to Azure SQL Database, and then migrate data to Azure SQL Database.
-
-**Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/sql-server-migration-assistant-for-db2-db2tosql).
-
-### Process
-
-
 To use SSMA for DB2 to create an assessment, perform the following steps.
 
-1.Download SSMA from the Microsoft Download Center [here]( https://www.microsoft.com/en-us/download/details.aspx?id=54254), and then install it.
+### Steps
 
-_SSMA is now ready for use._
+1. **Download SSMA for DB2** [here]( https://www.microsoft.com/en-us/download/details.aspx?id=54254), and then install it.
 
-2.Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for DB2 Assessments, see the article [Assessing DB2 Schemas for Conversion (DB2ToSQL)](https://docs.microsoft.com/en-us/sql/ssma/db2/assessing-db2-schemas-for-conversion-db2tosql).
+2. **Assess the source database** and discover conversion rate and effort to resolve issues.
 
-_This will generate an Assessment Report which shows the results of the conversion of database objects to Transact-SQL syntax, and can also help you estimate the complexity and cost of your migration projects._
+   a.	Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target.
 
-3.Converting DB2 Schemas. For more information about SSMA for DB2 Conversion, see the article [Converting DB2 Schemas (DB2ToSQL)](https://docs.microsoft.com/en-us/sql/ssma/db2/converting-db2-schemas-db2tosql).
+   b.   Select Azure SQL from the “Migrate To” options
+    
+   c. Click "OK".
 
-_When the schema conversion is complete, you are ready to move on to the Migration phase._
+   ![New Project](https://mpbdevcontent.azureedge.net/Images/ssmadb2newproject.png)
 
-**Note**: For complete step-by-step guidance on installing and using SSMA for DB2, see the following resources:
+   d. Connect to the DB2 server by providing the connection details in the "Connect to DB2" dialog.
+   
+   ![Connect to DB2](https://mpbdevcontent.azureedge.net/Images/ssmadb2connect.png)
+   
+   e.	Create the conversion report by selecting the DB2 schema in the "DB2 Metadata Explorer" by choosing "Create Report" from the right-click menu options or the menu bar on the top.
+   
+   ![Create Report](https://mpbdevcontent.azureedge.net/Images/createreport.png)
+   
+   f.	This will generate an HTML report with conversion statistics and error/ warnings, if any. Analyze this report to understand conversion issues and its cause.
+   
+   ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/assessmentreport.png)
+   
+   g.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file 
+   from 
+   
+   <drive:>\Users\<username>\Documents\SSMAProjects\MyDB2Migration\report\report_2016_11_12T02_47_55\
+   
+   and open it in Excel to get an inventory of DB2 objects and the effort required to perform schema conversions.
+   
+3. **Perform schema conversion**.
 
-* [Getting Started with SSMA for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/getting-started-with-ssma-for-db2-db2tosql)
-* [Installing SSMA for DB2 (DB2ToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/db2/installing-ssma-for-db2-client-db2tosql)
-* [Installing SSMA Components on SQL Server (DB2ToSQL)](https://docs.microsoft.com/en-us/sql/ssma/db2/installing-ssma-components-on-sql-server-db2tosql)
-* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
+   a. Before you perform schema conversion validate the default datatype mappings or change them based on requirements. You could do so either by navigating to the "Tools" menu and choosing "Project Settings" or you can change type mapping for each table by selecting the table in the "DB2 Metadata Explorer".
+   
+   ![Type Mappings](https://mpbdevcontent.azureedge.net/Images/typemappings.png)
+   
+   b.	Dynamic or ad hoc queries can be added to the "Statements" node by selecting that node and choosing "Add Statement" from the right-click menu options.
+   
+   c.	For converting and moving the schema to Azure SQL Database, connect to the SQL instance by providing the connection details in the "Connect to Azure SQL" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
+   
+   ![Connect to SQL](https://mpbdevcontent.azureedge.net/Images/connecttosql.png)
+   
+   d.	Convert the schema by choosing "Convert Schema" from the right-click menu options or the menu bar on the top.
+   
+   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschema.png)
+   
+   e.	After the schema has converted compare and review the structure of the schema to identify potential problems.
+   
+   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschemacomplete.png)

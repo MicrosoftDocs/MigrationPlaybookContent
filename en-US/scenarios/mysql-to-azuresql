@@ -2,86 +2,80 @@
 	"displayname": "MySQL to Azure SQL Database",
 	"emailmessage": "Check out the migration process from MySQL to Azure SQL Database here:",
 	"description": "Migrating from MySQL to the Azure SQL Database, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
-	"businesssection":
-	{
-		"items":
-		[
+	"steps": [
+		{
+			"name": "Why migrate?",
+			"items": [
+				{
+					"filelocation": "AzureRationale",
+					"actions": []
+				},
+				{
+					"filelocation": "Overview",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "MySqlAzureAssessment",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForMySqlDownload"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [
+				{
+					"filelocation": "MySqlAzureMigration",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForMySqlDownload"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Post-Migration",
+			"items": [
+				{
+					"filelocation": "RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "Optimization",
+					"actions": []
+				},
+				{
+					"filelocation": "DataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "Cutover",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
 			{
-				"filelocation": "AzureRationale",
-				"actions": [ ]
+				"filelocation": "Sumitomo"
 			}
-		],
-		"casestudies":
-		[
+	],
+	"partners": [
 
-		],
-		"partners":
-		[
-
-		]
-	},
-	"technicalsection":
-	{
-		"items":
-		[
-			{
-				"filelocation": "Overview",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "MySqlDiscover",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
-				"filelocation": "MySqlAzureAssessment",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForMySqlDownload"
-					}
-				]
-			},
-			{
-				"filelocation": "MySqlAzureMigration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "SSMAForMySqlDownload"
-					}
-				]
-			},
-			{
-				"filelocation": "RemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Optimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "DataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "Cutover",
-				"actions": [ ]
-			}
-		]
-	},
-	"footer":
-	{
-		// empty for now but will probably contain lists of download links etc.
-	}
+	]
 }

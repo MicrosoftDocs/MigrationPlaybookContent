@@ -1,19 +1,42 @@
 <!--Migrate-->
 
-### Overview
+After deploying your schema, the next step is to execute the data migration to Azure SQL Database. 
 
-After deploying your schema, the next step is to execute the data migration to Azure SQL Database. The recommended tool for data movement workflow is Azure Database Migration Service (DMS).
+### Steps
 
-### Process
+To use SSMA for Oracle to publish the database schema and migrate the data, perform the following steps.
 
-1.For data migration, use Azure DMS to create a new Migration project and follow the wizard to execute data migration.
+1. **Publish the schema to Azure SQL Database**.
 
-_Azure Database Migration Service (DMS) designed to streamline the process of migrating on premises databases to Azure. Using DMS will simplify the migration of existing on-premises SQL Server, Oracle, and MySQL databases to Azure SQL Database or Microsoft SQL Server in an Azure virtual machine. The automated workflow, with assessment reporting, guides the user through the changes that are required prior to performing the actual migration. When the modifications are in place and the customer is prepared, 
-the service will migrate their database to Azure SQL Database or SQL Server in Azure._
+    a. After schema conversion you can save this project locally for an offline schema remediation exercise. You can do so by choosing "Save Project" from the "File" menu. This gives you an opportunity to evaluate the source and target schemas offline and perform remediation before you can publish the schema to Azure SQL Database.
 
-Note: For more details on Azure DMS, see the following resources:
+    b. To Publish the schema, select the database from the "Databases" node in the "SQL Azure Metadata Explorer" and choose "Synchronize with Database" from the right-click menu options
+  
+    ![Image Alt Text Synchronize with Database](https://mpbdevcontent.azureedge.net/Images/publishschema.png)
+  
+    c. This action will publish the Oracle schema to the Azure SQL instance.
 
-* Interested in participating in Azure DMS Private Preview? [Sign up here.](aka.ms/sqldatabase-migrationpreview)
-* [Getting to cloud faster with Azure Database Migration Service](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/25/get-to-cloud-faster-with-a-new-database-migration-service-private-preview/)
-* [Demo: Migrating Oracle Databases to Azure SQL Database](https://channel9.msdn.com/events/Build/2017/P4182)
+2. **Migrate data to Azure SQL Database**.
+
+    a.	After publishing the schema to the Azure SQL instance, select the Oracle schema from the "Oracle Metadata Explorer” and choose "Migrate Data" from the right-click menu options or the menu bar on the top.
+  
+    b.	At this step you will be required to provide connection details for Oracle and Azure SQL in their respective connection dialogs to migrate the data.
+  
+    ![Image Alt Text Migrate Data](https://mpbdevcontent.azureedge.net/Images/migratedata.png)
+  
+    c. After the migration is complete you will be able to view the "Data Migration report".
+  
+    ![Image Alt Text Data Migration Report](https://mpbdevcontent.azureedge.net/Images/migrationreport.png)
+  
+    d. Validate the migration by reviewing the data and schema on the Azure SQL instance by using SQL Server Management Studio (SSMS).
+
+    ![Image Alt Text Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/migrationcomplete.png)
+
+SSMA is not the only option for migrating data, though. You could also use SQL Server Integration Services (SSIS).
+
+**Note**: For complete step-by-step guidance on publishing the schema and migrating the data, see the following resource:
+
+* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
+* [Getting Started with SQL Server Integration Services](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services)
+* [SQL Server Integration Services: SSIS for Azure and Hybrid Data Movement](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/SSIS%20Hybrid%20and%20Azure.docx)
 
