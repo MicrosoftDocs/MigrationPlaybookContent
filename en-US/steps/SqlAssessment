@@ -11,7 +11,7 @@ To use DMA to create an assessment, perform the following steps.
 
 2. Create a **new Assessment** project
 
-    a. Click on the New(+) icon and select “Assessment” project type. Select "SQL Server" as source and target types. Click "Create"
+    a. Click on the New icon and select “Assessment” project type. Select "SQL Server" as source and target types. Click "Create"
     
     ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
     
