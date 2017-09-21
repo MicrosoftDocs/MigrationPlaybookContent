@@ -39,7 +39,7 @@ To use DEA for database migration testing, perform the following steps.
  
     a. Go to "Analysis Reports" on the left navigation. 
     
-    ![New trace replay](https://mpbdevcontent.azureedge.net/Images/deanewanalyis.png)
+    ![New Analysis Report](https://mpbdevcontent.azureedge.net/Images/deanewanalysis.png)
     
     b. Connect to the SQL Server where you will store your report databases. You will see the list of all reports in the server.
     
