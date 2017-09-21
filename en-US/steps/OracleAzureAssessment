@@ -2,6 +2,8 @@
 
 To use SSMA for Oracle to create an assessment, perform the following steps.
 
+### Steps
+
 1. **Download SSMA** [here](https://www.microsoft.com/en-us/download/details.aspx?id=54258), and then install it.
 
 2. **Assess the source database** and discover conversion rate and effort to resolve issues.
