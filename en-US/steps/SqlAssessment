@@ -9,5 +9,8 @@ To use DMA to create an assessment, perform the following steps.
 
 1. **Download DMA** from [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595), and then install it.
 
-2. Create **Assessment workflow**
+2. Create a **new Assessment** project
+    a. Click on the New(+) icon and select “Assessment” project type. Select "SQL Server" as source and target types.
+    
+    
 
