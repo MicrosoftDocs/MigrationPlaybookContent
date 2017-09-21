@@ -10,7 +10,20 @@ To use DMA to create an assessment, perform the following steps.
 1. **Download DMA** from [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595), and then install it.
 
 2. Create a **new Assessment** project
-    a. Click on the New(+) icon and select “Assessment” project type. Select "SQL Server" as source and target types.
+
+    a. Click on the New(+) icon and select “Assessment” project type. Select "SQL Server" as source and target types. Click "Create"
+    
+    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
+    
+    b. Select the target SQL Server version that you plan to migrate to, and need to run assessment against
+    
+    c. Choose one or both from the following assessment report types - Compatibility Issues; New features’ recommendation
+    
+    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)    
+   
+    
+    
+
     
     
 
