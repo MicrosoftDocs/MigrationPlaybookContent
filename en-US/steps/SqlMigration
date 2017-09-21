@@ -2,7 +2,7 @@
 
 After assessing your databases, the next step is to execute the migration process for the schema and database. DMA is the correct tool to use for this process.
 
-### Process
+### Steps
 
 To use DMA to create a migration project, perform the following steps.
 
