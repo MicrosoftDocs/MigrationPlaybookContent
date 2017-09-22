@@ -10,6 +10,7 @@
 				"Oracle",
 				"DB2",
 				"MySQL",
+				"PostgreSQL
 				"SAP ASE",
 				"Access"
 			],
@@ -22,6 +23,8 @@
 			[
 				"SQL Server 2016",
 				"Azure SQL Database",
+				"Azure PostgreSQL",
+				"Azure MySQL",
 				"Help me decide"
 			],
 			"required": "true"
@@ -99,5 +102,9 @@
 		"source4_target1" : "sybase-to-azuresql",
 		"source5_target0" : "access-to-sqlserver2016",
 		"source5_target1" : "access-to-azuresql"
+		"source6_target0" : "oracle-to-azurepostgresql",
+		"source7_target0" : "postgresql-to-azurepostgresql",
+		"source8_target0" : "mysql-to-azuremysql"
+		
 	}
 }
