@@ -7,7 +7,7 @@
 			"name": "Attunity Migrations",
 			"items": [
 				{
-					"filelocation": "AzureMySQLMigration",
+					"filelocation": "PostgreSQlAzurePostgreSQLMigration",
 					"actions": []
 				}
 			]
