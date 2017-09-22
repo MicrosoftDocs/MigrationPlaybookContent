@@ -22,7 +22,6 @@
 			[
 				"SQL Server 2016",
 				"Azure SQL Database",
-				"Azure PostgreSQL",
 				"Help me decide"
 			],
 			"required": "true"
