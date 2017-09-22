@@ -23,6 +23,7 @@
 				"SQL Server 2016",
 				"Azure SQL Database",
 				"Azure MySQL",
+				"Azure PostgreSQL",
 				"Help me decide"
 			],
 			"required": "true"
@@ -92,6 +93,7 @@
 		"source0_target1" : "sql-to-azuresql",
 		"source1_target0" : "oracle-to-sqlserver2016",
 		"source1_target1" : "oracle-to-azuresql",
+		"source1_target3" " "oracle-to-azurepostgresql",
 		"source2_target0" : "db2-to-sqlserver2016",
 		"source2_target1" : "db2-to-azuresql",
 		"source3_target0" : "mysql-to-sqlserver2016",
