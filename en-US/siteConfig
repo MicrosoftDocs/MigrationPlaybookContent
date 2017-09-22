@@ -12,7 +12,6 @@
 				"SAP ASE",
 				"MySQL",
 				"Access",
-				"PostgreSQL"
 			],
 			"required": "true"
 		},
