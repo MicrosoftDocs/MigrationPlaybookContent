@@ -7,7 +7,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "OraclePostgreSQLMigration",
+					"filelocation": "OracleAzurePostgreSQLMigration",
 					"actions": []
 				}
 			]
