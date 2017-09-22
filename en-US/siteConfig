@@ -11,8 +11,7 @@
 				"DB2",
 				"MySQL",
 				"SAP ASE",
-				"Access",
-				"PostgreSQL"
+				"Access"
 			],
 			"required": "true"
 		},
