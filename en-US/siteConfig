@@ -100,7 +100,7 @@
 		"source3_target0" : "mysql-to-sqlserver2016",
 		"source3_target1" : "mysql-to-azuresql",
 		"source3_target2" : "mysql-to-azuremysql",
-		"source4_target3" : ""mysql-to-azuremysql",
+		"source4_target3" : "postgresql-to-azurepostgresql",
 		"source5_target0" : "sybase-to-sqlserver2016",
 		"source5_target1" : "sybase-to-azuresql",
 		"source6_target0" : "access-to-sqlserver2016",
