@@ -100,7 +100,6 @@
 		"source4_target0" : "sybase-to-sqlserver2016",
 		"source4_target1" : "sybase-to-azuresql",
 		"source5_target0" : "access-to-sqlserver2016",
-		"source5_target1" : "access-to-azuresql",
-		"source6_target2: : "postgresql-to-azurepostgresql"
+		"source5_target1" : "access-to-azuresql"
 	}
 }
