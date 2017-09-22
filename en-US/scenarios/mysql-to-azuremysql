@@ -1,10 +1,10 @@
 {
 	"displayname": "MySQL to Azure MySQL",
 	"emailmessage": "Check out the migration process from MySQL to Azure MySQL here:",
-	"description": "Migrating from MySQL to Azure MySQL, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
+	"description": "",
 	"steps": [
 		{
-			"name": "Migration",
+			"name": "Migration with Attunity",
 			"items": [
 				{
 					"filelocation": "AzureMySQLMigration",
