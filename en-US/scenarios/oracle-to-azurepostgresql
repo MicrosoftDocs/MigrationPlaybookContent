@@ -4,7 +4,7 @@
 	"description": "",
 	"steps": [
 		{
-			"name": "Migration",
+			"name": "Attunity Migrations",
 			"items": [
 				{
 					"filelocation": "OracleAzurePostgreSQLMigration",
