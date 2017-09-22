@@ -7,7 +7,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "MySqlAzureMigration",
+					"filelocation": "AzureMySQLMigration",
 					"actions": []
 				}
 			]
