@@ -1,0 +1,79 @@
+{
+	"displayname": "PostgreSQL to Azure PostgreSQL",
+	"emailmessage": "Check out the migration process from ostgreSQL to Azure PostgreSQL here:",
+	"description": "Migrating from ostgreSQL to Azure PostgreSQL, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
+	"steps": [
+		{
+			"name": "Why migrate?",
+			"items": [
+				{
+					"filelocation": "AzureRationale",
+					"actions": []
+				},
+				{
+					"filelocation": "Overview",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "MySqlAzureAssessment",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForMySqlDownload"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [
+				{
+					"filelocation": "MySqlAzureMigration",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForMySqlDownload"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Post-Migration",
+			"items": [
+				{
+					"filelocation": "RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "Optimization",
+					"actions": []
+				},
+				{
+					"filelocation": "DataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "Cutover",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+			
+	],
+	"partners": [
+
+	]
+}
