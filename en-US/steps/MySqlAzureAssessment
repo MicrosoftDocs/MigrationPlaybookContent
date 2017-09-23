@@ -1,30 +1,54 @@
 <!-- Assess & Convert -->
 
-### Overview
-
-By using SQL Server Migration Assistant (SSMA) for MySQL, you can review database objects and data, assess databases for migration, migrate database objects to Azure SQL Database, and then migrate data to Azure SQL Database.
-
-**Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for MySQL (MySQLToSQL)](https://docs.microsoft.com/en-us/sql/ssma/mysql/sql-server-migration-assistant-for-mysql-mysqltosql).
-
-### Process
+### Steps
 
 To use SSMA for MySQL to create an assessment, perform the following steps.
 
-1.Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54257), and then install it.
+1. **Download SSMA for MySQL** [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=54257), and then install it.
 
-_SSMA is now ready for use._
+2. **Assess the source database** and discover conversion rate and effort to resolve issues.
 
-2.Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for MySQL Assessments, see the article [Assessing MySQL Databases for Conversion (MySQLToSQL)](https://docs.microsoft.com/en-us/sql/ssma/mysql/assessing-mysql-databases-for-conversion-mysqltosql).
+   a.	Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target.
 
-_This will generate an HTassessment ML report with conversion statistics and error/ warnings. Be sure to analyze this report to understand any conversion issues and their cause. Then address the issues before continuing to the next step._
+   b.   Select SQL Azure from the “Migrate To” options
+    
+   c. Click "OK".
 
-3.Perform conversion. For more information about SSMA for MySQL Conversion, see the article [Converting MySQL Databases (MySQLToSQL)](https://docs.microsoft.com/en-us/sql/ssma/mysql/converting-mysql-databases-mysqltosql).
+   ![New Project](https://mpbdevcontent.azureedge.net/Images/ssmamysqlnewproject.png)
 
-_When the schema conversion is complete, you are ready to move on to the Migration phase._
+   d. Connect to the MySQL server by providing the connection details in the "Connect to MySQL" dialog.
 
-**Note**: For complete step-by-step guidance on installing and using SSMA for MySQL, see the following resources:
+   e. Create the conversion report by selecting the MySQL schema in the "MySQL Metadata Explorer" by choosing "Create Report" from the right-click menu options or the menu bar on the top.
+   
+   ![Create Report](https://mpbdevcontent.azureedge.net/Images/createreport.png)
+   
+   f.	This will generate an HTML report with conversion statistics and error/ warnings, if any. Analyze this report to understand conversion issues and its cause.
+   
+   ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/assessmentreport.png)
+   
+   g.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file 
+   from 
+   
+   <drive:>\Users\<username>\Documents\SSMAProjects\MySQLMigration\report\report_2016_11_12T02_47_55\
+   
+   and open it in Excel to get an inventory of MySQL objects and the effort required to perform schema conversions.
+   
+3. **Perform schema conversion**.
 
-* [Getting Started with SSMA for MySQL (MySQLToSQL)](https://docs.microsoft.com/en-us/sql/ssma/mysql/getting-started-with-ssma-for-mysql-mysqltosql)
-* [Installing SSMA for MySQL (MySqlToSql)](https://docs.microsoft.com/en-us/sql/ssma/mysql/installing-ssma-for-mysql-mysqltosql)
-* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
-
+   a. Before you perform schema conversion validate the default datatype mappings or change them based on requirements. You could do so either by navigating to the "Tools" menu and choosing "Project Settings" or you can change type mapping for each table by selecting the table in the "MySQL Metadata Explorer".
+   
+   ![Type Mappings](https://mpbdevcontent.azureedge.net/Images/typemappings.png)
+   
+   b.	Dynamic or ad hoc queries can be added to the "Statements" node by selecting that node and choosing "Add Statement" from the right-click menu options.
+   
+   c.	For converting and moving the schema to Azure SQL Database, connect to the Azure SQL instance by providing the connection details in the "Connect to Azure SQL Database" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
+   
+   ![Connect to SQL](https://mpbdevcontent.azureedge.net/Images/connecttosql.png)
+   
+   d.	Convert the schema by choosing "Convert Schema" from the right-click menu options or the menu bar on the top.
+   
+   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschema.png)
+   
+   e.	After the schema has converted compare and review the structure of the schema to identify potential problems.
+   
+   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschemacomplete.png)

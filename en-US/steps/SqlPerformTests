@@ -1,28 +1,69 @@
 <!--Perform Tests-->
 
-### Overview
-
 Once the data is migrated to target, perform tests against the databases to understand that the applications are expected to perform well against the after the migration.
 For this, use Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server. 
 
-Note: For more information about DEA, see the article [here](https://blogs.msdn.microsoft.com/datamigration/2016/10/24/database-experimentation-assistant-v1-0-preview/).
-
-### Process
+### Steps
 
 To use DEA for database migration testing, perform the following steps.
 
-1.Download DEA from the Microsoft Download Center here, and then install it.
+1. **Download the [DEA tool](https://www.microsoft.com/en-us/download/details.aspx?id=54090)**, and then install it.
 
-_DEA is now ready for use._
+2. **Run a trace capture**
 
-2.Run a trace capture using DEA.
+    a. Go to "All Captures" by clicking on the camera icon on the left navigation.
+    
+    ![New trace capture](https://mpbdevcontent.azureedge.net/Images/deanewcapture.png)
+    
+    b. To start a new capture, click on "New Capture".
+    
+    c. Provide necessary inputs to begin capture - trace name, duration, SQL Server instance name, database name, share location to store source trace file on SQL Server machine.
+    
+    ![Provide trace capture inputs](https://mpbdevcontent.azureedge.net/Images/deacaptureinputs.png)
+    
+    d. "Start" to begin trace capture.
 
-_This workflow will give the ability to automatically capture a production workload trace on source SQL Server with only a few inputs._
-
-3.Run a trace replay using DEA.
-
-_This workflow will give the ability to replay a source trace captured on a target SQL Server._
-
-4.Create new analysis report.
-
-_This workflow will give the ability to generate new reports which provide insight into how workload performance changes across versions of SQL._
+3. **Run a trace replay**
+    
+    a. Go to "All Replays" by clicking on the play icon on the left navigation.
+    
+    ![New trace replay](https://mpbdevcontent.azureedge.net/Images/deanewreplay.png)
+    
+    b. To start a new replay, click on “New Replay”.
+    
+    c. Provide necessary inputs for replay - Replay name, Controller machine name, Path to source trace file on controller, SQL Server instance name, Path to store target trace file on SQL Server machine.
+    
+    d. "Start" to begin replay of your capture.
+    
+ 4. **Create New Analysis Report**
+ 
+    a. Go to "Analysis Reports" on the left navigation. 
+    
+    ![New Analysis Report](https://mpbdevcontent.azureedge.net/Images/deanewanalysis.png)
+    
+    b. Connect to the SQL Server where you will store your report databases. You will see the list of all reports in the server.
+    
+    c. Click on "New Report".
+    
+    d. Provide necessary inputs to generate report - Reprot name, traces from source and target SQL Server instances.
+    
+    ![Provide report analysis inputs](https://mpbdevcontent.azureedge.net/Images/deaanalysisinput.png)
+    
+ 5. **Review Analysis Report**
+ 
+    a. On the first page of your report, you will see the version and build information for the target servers on which the experiment was run. Threshold allows you to adjust the sensitivity or tolerance of your A/B Test analysis. 
+       Note: By default, it is set at 5%; any improvement in performance that is >= 5% is categorized as ‘Improved’.  The dropdown allows you to evaluate the report with different performance thresholds.
+       
+    ![Analysis Threshold](https://mpbdevcontent.azureedge.net/Images/deathreshold.jpg)
+    
+    b. Click on the individual slices of the pir chart to view drilldown on performance metrics.
+    
+    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/deachart.png)
+    
+    c. On the drilldown page for a performance change category, you will see a list of queries in that category. 
+    
+    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/deaerrorqueries.png)
+    
+    d. Click on individual query to get a performance summary statistics, error information, and query plan information.
+    
+    ![Summary Statistics](https://mpbdevcontent.azureedge.net/Images/deasummarystats.png)   

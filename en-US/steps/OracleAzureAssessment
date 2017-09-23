@@ -1,34 +1,56 @@
 <!-- Assess & Convert -->
 
-### Overview
+To use SSMA for Oracle to create an assessment, perform the following steps.
 
-By using SQL Server Migration Assistant (SSMA) for Oracle, you can review database objects and data, assess databases for migration, and then migrate schema to Azure SQL Database.
+### Steps
 
-**Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for Oracle (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql).
+1. **Download SSMA** [here](https://www.microsoft.com/en-us/download/details.aspx?id=54258), and then install it.
 
-### Process
+2. **Assess the source database** and discover conversion rate and effort to resolve issues.
 
-To use SSMA for Oracle to create an assessment and schema deployment, perform the following steps.
+   a.	Click on the "File" menu and choose "New Project". Provide the project name, a location to save your project and the migration target.
 
-1.Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54258), and then install it.
+   b.   Select Azure SQL Database from the “Migrate To” options
+    
+   c. Click "OK".
 
-_SSMA is now ready for use._
+   ![New Project](https://mpbdevcontent.azureedge.net/Images/newproject.png)
 
-2.Assess the source database and discover conversion rate and effort to resolve issues.
+   d. Connect to the Oracle server by providing the connection details in the "Connect to Oracle" dialog.
+   
+   ![Connect to Oracle](https://mpbdevcontent.azureedge.net/Images/connecttooracle.png)
+   
+   e.	Create the conversion report by selecting the Oracle schema in the "Oracle Metadata Explorer" by choosing "Create Report" from the right-click menu options or the menu bar on the top.
+   
+   ![Create Report](https://mpbdevcontent.azureedge.net/Images/createreport.png)
+   
+   f.	This will generate an HTML report with conversion statistics and error/ warnings, if any. Analyze this report to understand conversion issues and its cause.
+   
+   ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/assessmentreport.png)
+   
+   g.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file 
+   from 
+   
+   <drive:>\Users\<username>\Documents\SSMAProjects\MyOracleMigration\report\report_2016_11_12T02_47_55\
+   
+   and open it in Excel to get an inventory of oracle objects and the effort required to perform schema conversions.
+   
+3. **Perform schema conversion**.
 
-_This will generate an HTML report with conversion statistics and error/ warnings. Be sure to analyze this report to understand any conversion issues and their cause. Then address the issues before continuing to the next step._
-
-3.Perform schema conversion.
-
-_With the schema conversion is complete, you are ready to move on to the Migration phase._
-
-4.Publish the schema to Azure SQL Database.
-
-_This action will publish the Oracle schema to the Azure SQL Database instance._
-
-
-**Note**: For complete step-by-step guidance on installing and using SSMA for Oracle, see the following resources:
-
-* [Installing SSMA for Oracle Client (OracleToSQL)](https://docs.microsoft.com/en-us/sql/ssma/oracle/installing-ssma-for-oracle-client-oracletosql)
-* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
-
+   a. Before you perform schema conversion validate the default datatype mappings or change them based on requirements. You could do so either by navigating to the "Tools" menu and choosing "Project Settings" or you can change type mapping for each table by selecting the table in the "Oracle Metadata Explorer".
+   
+   ![Image Alt Text Type Mappings](https://mpbdevcontent.azureedge.net/Images/typemappings.png)
+   
+   b.	Dynamic or ad hoc queries can be added to the "Statements" node by selecting that node and choosing "Add Statement" from the right-click menu options.
+   
+   c.	For converting and moving the schema to Azure SQL Database, connect to the SQL instance by providing the connection details in the "Connect to Azure SQL" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
+   
+   ![Image Alt Text Connect to SQL](https://mpbdevcontent.azureedge.net/Images/connecttosql.png)
+   
+   d.	Convert the schema by choosing "Convert Schema" from the right-click menu options or the menu bar on the top.
+   
+   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschema.png)
+   
+   e.	After the schema has converted compare and review the structure of the schema to identify potential problems.
+   
+   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschemacomplete.png)

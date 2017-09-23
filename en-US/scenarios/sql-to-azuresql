@@ -2,103 +2,74 @@
 	"displayname": "SQL Server to Azure SQL Database",
 	"emailmessage": "Check out the migration process from SQL Server to Azure SQL Database here:",
 	"description": "Azure SQL Database delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
-	"businesssection":
-	{
-		"items":
-		[
-			{
-				"filelocation": "AzureRationale",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "AzureUpgradePaths",
-				"actions": [ ]
-			}
-		],
-		"casestudies":
-		[
-			{
-				"filelocation": "Sumitomo"
-			},
-			{
-				"filelocation": "KDS"
-			},
-			{
-				"filelocation": "PTC"
-			}
-		],
-		"partners":
-		[
-			{
-				"filelocation": "Accenture"
-			},
-			{
-				"filelocation": "Fujitsu"
-			}
-		]
-	},
-	"technicalsection":
-	{
-		"items":
-		[
-			{
-				"filelocation": "AzureSqlOverview",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlDiscover",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
-				"filelocation": "SqlAssessment",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DMADownload"
-					}
-				]
-			},
-			{
-				"filelocation": "AzureSqlMigration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DMADownload"
-					}
-				]
-			},
-			{
-				"filelocation": "SqlRemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "PerformTests",
-				"actions": [ ]
-			},	
-			{
-				"filelocation": "SqlOptimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlDataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlRollback",
-				"actions": [ ]
-			}
-		]
-	},
-	"footer":
-	{
-		// empty for now but will probably contain lists of download links etc.
-	}
+	"steps": [
+		{
+			"name": "Why migrate?",
+			"items": [
+				{
+					"filelocation": "AzureRationale",
+					"actions": []
+				},
+				{
+					"filelocation": "AzureUpgradePaths",
+					"actions": []
+				},
+				{
+					"filelocation": "AzureSqlOverview",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "AzureSqlAssessment",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Migration",
+			"items": [
+				{
+					"filelocation": "AzureSqlMigration",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Post-Migration",
+			"items": [
+				{
+					"filelocation": "SqlRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlOptimization",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlDataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlRollback",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+		
+	],
+	"partners": [
+		
+	]
 }

@@ -1,0 +1,22 @@
+{
+	"displayname": "MySQL to Azure MySQL",
+	"emailmessage": "Check out the migration process from MySQL to Azure MySQL here:",
+	"description": "",
+	"steps": [
+		{
+			"name": "Attunity Migrations",
+			"items": [
+				{
+					"filelocation": "AzureMySQLMigration",
+					"actions": []
+				}
+			]
+		},
+	],
+	"casestudies": [
+			
+	],
+	"partners": [
+
+	]
+}
