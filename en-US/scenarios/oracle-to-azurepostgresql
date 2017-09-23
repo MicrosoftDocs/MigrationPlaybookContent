@@ -1,0 +1,22 @@
+{
+	"displayname": "Oracle to Azure PostgreSQL",
+	"emailmessage": "Check out the migration process from Oracle to Azure PostgreSQL here:",
+	"description": "",
+	"steps": [
+		{
+			"name": "Attunity Migrations",
+			"items": [
+				{
+					"filelocation": "OracleAzurePostgreSQLMigration",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+
+	],
+	"partners": [
+
+	]
+}

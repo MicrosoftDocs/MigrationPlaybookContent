@@ -1,4 +1,4 @@
-<!-- Sync Data -->
+<!-- Migration with Attunity-->
 
 ### Near zero downtime migrations with Attunity Replicate!
 
@@ -9,7 +9,7 @@ for each table, Attunity Replicate propagates its schema creation script and its
 and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
 
 Proposed sequence and usage of tools:
-1.	**Convert the source Oracle database** (schema and data) to SQL Server database with tools like [SQL Server Migration Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54258) or [Azure Database Migration Service](http://sqldatabase-migrationpreview.azurewebsites.net/) or any other third party tool.
-2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target SQL Server databases.
+1.	**Convert the source MySQL database** (schema and data) to Azure MySQL.
+2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target MySQL on Aure.
 
-Download link to [Attunity Replicate For Microsoft Migrations](https://www.attunity.com/products/replicate/attunity-replicate-for-microsoft-migration) offering.
+Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.

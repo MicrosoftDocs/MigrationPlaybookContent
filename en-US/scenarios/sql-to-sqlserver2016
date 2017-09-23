@@ -2,123 +2,98 @@
 	"displayname": "SQL Server to SQL Server 2016",
 	"emailmessage": "Check out the migration process from SQL Server to SQL Server 2016 here:",
 	"description": "Customers and partners have touted SQL Server 2016 as the best release. The SQL Server 2016 is the most secure, dependable, and integrated system in the industry.",
-	"businesssection":
-	{
-		"items":
-		[
-			{
-				"filelocation": "Rationale",
-				"actions":
-				[
-					{
-						"actiontype": "forwardlink",
-						"filelocation": "tcocalculator"
-					}
-				]
-			},
-			{
-				"filelocation": "ProductLicensing",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "OnPremVsCloud",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlUpgradePaths",
-				"actions": [ ]
-			},
-		],
-		"casestudies":
-		[
-			{
-				"filelocation": "Convergent"
-			},
-			{
-				"filelocation": "Derivco"
-			},
-			{
-				"filelocation": "SBI"
-			}
-		],
-		"partners":
-		[
-			{
-				"filelocation": "Fujitsu"
-			},
-			{
-				"filelocation": "DSP"
-			}
-		]
-	},
-	"technicalsection":
-	{
-		"items":
-		[
-			{
-				"filelocation": "SqlOverview",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlDiscover",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "MAPToolkit"
-					}
-				]
-			},
-			{
-				"filelocation": "SqlAssessment",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DMADownload"
-					}
-				]
-			},
-			{
-				"filelocation": "SqlMigration",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DMADownload"
-					}
-				]
-			},
-			{
-				"filelocation": "SqlRemediateApps",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlPerformTests",
-				"actions":
-				[
-					{
-						"actiontype": "download",
-						"filelocation": "DEADownload"
-					}
-				]
-			},
-			{
-				"filelocation": "SqlOptimization",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlDataSync",
-				"actions": [ ]
-			},
-			{
-				"filelocation": "SqlRollback",
-				"actions": [ ]
-			}
-		]
-	},
-	"footer":
-	{
-		// empty for now but will probably contain lists of download links etc.
-	}
+	"steps": [
+		{
+			"name": "Why migrate?",
+
+			"items": [
+				{
+					"filelocation": "Rationale",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlOverview",
+					"actions": []
+				},
+				{
+					"filelocation": "ProductLicensing",
+					"actions": []
+				},
+				{
+					"filelocation": "OnPremVsCloud",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlUpgradePaths",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "SqlDiscover",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlAssessment",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Migration",
+			"items": [
+				{
+					"filelocation": "SqlMigration",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Post-Migration",
+			"items": [
+				{
+					"filelocation": "SqlRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlPerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlOptimization",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlDataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlRollback",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+		{
+			"filelocation": "Convergent"
+		},
+		{
+			"filelocation": "Derivco"
+		},
+		{
+			"filelocation": "SBI"
+		}
+	],
+	"partners": [
+		{
+			"filelocation": "Fujitsu"
+		}
+	]
 }
