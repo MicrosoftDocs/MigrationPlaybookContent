@@ -4,7 +4,7 @@
 	"description": "",
 	"steps": [
 		{
-			"name": "Attunity Migrations",
+			"name": "Migrations",
 			"items": [
 				{
 					"filelocation": "AzureMySQLMigration",
