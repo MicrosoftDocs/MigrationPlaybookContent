@@ -19,11 +19,10 @@ To use DMA to create an assessment, perform the following steps.
     ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmareportoptions.png)   
     
     d. Click on "Add Sources" to open the connection fly-out
-        
-        *Enter Azure SQL instance name, choose Authentication type and set the correct connection properties    
-        *Click "Connect"
-        *Select the databases you want to assess and click "Add"    
-        *Click "Next"
+        - Enter Azure SQL instance name, choose Authentication type and set the correct connection properties    
+        - Click "Connect"
+        - Select the databases you want to assess and click "Add"    
+        - Click "Next"
         
     ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
     
