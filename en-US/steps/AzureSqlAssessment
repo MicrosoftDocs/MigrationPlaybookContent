@@ -30,7 +30,7 @@ To use DMA to create an assessment, perform the following steps.
     
     ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmacompatissues.png)  
     
-    g. Check "Feature Parity" radio button to review features "Unspported" or "Partially Supported" in Azure SQL Database
+    g. Check "SQL Server Feature Parity" radio button to review features "Unspported" or "Partially Supported" in Azure SQL Database
     
     ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmafeatureparity.png)  
     
