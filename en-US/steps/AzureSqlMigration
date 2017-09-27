@@ -4,17 +4,39 @@ After assessing your databases, the next step is to execute the migration proces
 
 ### Steps
 
-1. For schema migration, use DMA to create a new Migration project and follow the wizard to execute schema migration.
+To use DMA to create a migration project, perform the following steps.
 
-2. For data migration, use Azure DMS to create a new Migration project and follow the wizard to execute data migration.
+1. Create a **New Migration** project
 
-Azure Database Migration Service (DMS) designed to streamline the process of migrating on premises databases to Azure.
+    a. Click on the New icon and select “Migration” project type. Select "SQL Server" as source and "Azure SQL Database" as target type. 
+    
+    b. Choose the "Migration scope" as "Schema and Data". Click "Create"
 
-Using DMS will simplify the migration of existing on-premises SQL Server, Oracle, and MySQL databases to Azure SQL Database. The automated workflow, with assessment reporting, guides the user through the changes that are required prior to performing the actual migration. When the modifications are in place and the customer is prepared, 
-the service will migrate their database to Azure SQL Database.
+    ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
 
-Note: For more details on Azure Database Migration Service, see the following resources:
+    b. Provide source and target SQL server conenction details. Click "Next"
 
-* Interested in participating in DMS Private Preview? [Sign up here.](http://aka.ms/sqldatabase-migrationpreview)
-* [SQL Server Blog: Get to cloud faster with a new database migration service private preview](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/25/get-to-cloud-faster-with-a-new-database-migration-service-private-preview/)
-* [Demo: Get to the cloud faster with Azure SQLDB Managed Instance and Database Migration Service](https://channel9.msdn.com/events/Build/2017/P4008)
+    ![Source & Target details](https://mpbdevcontent.azureedge.net/Images/dmasourcetarget.png)    
+
+    c. Select databases from the source to migrate. Specify the “Shared location accessible by source and target SQL servers for backup operation”. 
+        Note: Make sure that the service account running source SQL Server instance has write privileges on the shared location and target SQL Server service account have read privileges on the shared location.
+
+    ![Select databases to migrate](https://mpbdevcontent.azureedge.net/Images/dmamigrateadddb.png) 
+
+    d. Click "Next"
+
+    e. Select logins that you want to migrate
+
+    ![Migration Logins](https://mpbdevcontent.azureedge.net/Images/dmaselectlogins.png) 
+
+    f. Click "Start Migration"
+
+    g. Now, monitor the progress of migration in the View Results screen
+
+    ![Migration View Results](https://mpbdevcontent.azureedge.net/Images/dmamigrateresults.png) 
+  
+2. **Review Migration Results**
+
+    a. Click on “Export report” to save the migration results to a csv or json format
+
+    b. Review the saved file for details about data and logins migration and verify
