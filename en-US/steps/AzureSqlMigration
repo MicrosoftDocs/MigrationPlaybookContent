@@ -22,11 +22,13 @@ To use DMA to create a migration project, perform the following steps.
     
     ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
     
-    e. Select database objects that needs to be migrated. Click "Generate SQL Script"
+    e. Select database schema objects from the source that you want migrated. Click "Generate SQL Script"
     
-    ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbselectobjects.png)    
+    ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbgeneratescript.png)    
     
-    f. 
+    f. Script is generated and they can be edited in the textarea before deployment. If no edits are required, click "Deploy Schema"
+    
+    ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dmaazuredbdeployschema.png)  
     
     
 2. **Review Migration Results**
