@@ -14,27 +14,21 @@ To use DMA to create a migration project, perform the following steps.
 
     ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
 
-    b. Provide source and target SQL server conenction details. Click "Next"
+   c. Provide source SQL server conenction details. Click "Connect". Select databases you want assessed. Click "Next"
 
-    ![Source & Target details](https://mpbdevcontent.azureedge.net/Images/dmasourcetarget.png)    
+    ![Source Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttosource.png)    
 
-    c. Select databases from the source to migrate. Specify the “Shared location accessible by source and target SQL servers for backup operation”. 
-        Note: Make sure that the service account running source SQL Server instance has write privileges on the shared location and target SQL Server service account have read privileges on the shared location.
-
-    ![Select databases to migrate](https://mpbdevcontent.azureedge.net/Images/dmamigrateadddb.png) 
-
-    d. Click "Next"
-
-    e. Select logins that you want to migrate
-
-    ![Migration Logins](https://mpbdevcontent.azureedge.net/Images/dmaselectlogins.png) 
-
-    f. Click "Start Migration"
-
-    g. Now, monitor the progress of migration in the View Results screen
-
-    ![Migration View Results](https://mpbdevcontent.azureedge.net/Images/dmamigrateresults.png) 
-  
+    d. Provide target Azure SQL Database conenction details. Click "Connect". Select a single database in Azure SQL Database target. Click "Next"
+    
+    ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
+    
+    e. Select database objects that needs to be migrated. Click "Generate SQL Script"
+    
+    ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbselectobjects.png)    
+    
+    f. 
+    
+    
 2. **Review Migration Results**
 
     a. Click on “Export report” to save the migration results to a csv or json format
