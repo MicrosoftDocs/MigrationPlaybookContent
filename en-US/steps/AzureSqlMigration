@@ -30,9 +30,17 @@ To use DMA to create a migration project, perform the following steps.
     
     ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dmaazuredbdeployschema.png)  
     
+    Note: Review the right pane for deployment status. Update the deployment script(s) for failures and attempt re-deploying schema.
     
-2. **Review Migration Results**
-
-    a. Click on “Export report” to save the migration results to a csv or json format
-
-    b. Review the saved file for details about data and logins migration and verify
+    g. Once schema deployment is successgul, click on "Migrate Data". Select tables containing data you want migrated
+    
+    ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbselecttables.png)  
+    
+    Note: For data migration, only one database can be moved at a given time. Repeat the steps above for subsequent database migration
+    
+    h. Click "Start data migration". 
+    
+    g. Review Migration Results when the process is completed
+    
+    ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbmigratedata.png)  
+    
