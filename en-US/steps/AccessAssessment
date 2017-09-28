@@ -8,9 +8,7 @@ By using SQL Server Migration Assistant (SSMA) for Access, you can review databa
 
 To use SSMA for Access to create an assessment, perform the following steps.
 
-1.Download SSMA from the Microsoft Download Center [here]( https://www.microsoft.com/en-us/download/details.aspx?id=54255), and then install it.
-
-_SSMA is now ready for use._
+1. **Download [SSMA](https://www.microsoft.com/en-us/download/details.aspx?id=54255)**, and then install it.
 
 2.Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for Access Assessments, see the article [Assessing Access Database Objects for Conversion (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/assessing-access-database-objects-for-conversion-accesstosql).
 
