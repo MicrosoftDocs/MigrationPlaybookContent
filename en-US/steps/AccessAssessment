@@ -35,16 +35,22 @@ To use SSMA for Access to create an assessment, perform the following steps.
 3. **Converting Access Database Objects**. 
 
     a. In Access Metadata Explorer, expand access-metabase, and then expand Databases
-    
+       
     b. To convert database(s), select the check box next to Databases
-    
+      
     c. To convert schemas, right-click Databases and select Convert Schema
+    
+    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/accesssamplereport.png)
 
     Note: You can also convert individual objects. To convert an object, regardless of which objects are selected, right-click the object and select Convert Schema. 
 
     d. When an object has been converted, it appears bold in Access Metadata Explorer. 
     
+    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/accesssamplereport.png)
+    
     e. To convert, load, and migrate schemas and data in one step, right-click Databases and select Convert, Load, and Migrate
+    
+    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/accesssamplereport.png)
 
 4. **Review results** in the Output pane and **any errors and warnings** in the Error List pane.
 
