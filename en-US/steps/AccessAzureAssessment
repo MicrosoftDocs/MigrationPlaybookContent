@@ -1,27 +1,59 @@
 <!-- Assess & Convert -->
 
-By using SQL Server Migration Assistant (SSMA) for Access, you can review database objects and data, assess databases for migration, migrate Access database objects to Azure SQL Database, and then migrate data to Azure SQL Database.
-
-**Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for Access (AccessToSQL)](https://docs.microsoft.com/en-us/sql/ssma/access/sql-server-migration-assistant-for-access-accesstosql).
+By using SQL Server Migration Assistant (SSMA) for Access, you can review database objects and data, assess databases for migration, migrate Access database objects to SQL Server, and then migrate data to SQL Server.
 
 ### Steps
 
 To use SSMA for Access to create an assessment, perform the following steps.
 
-1.Download SSMA from the Microsoft Download Center [here]( https://www.microsoft.com/en-us/download/details.aspx?id=54255), and then install it.
+1. **Download [SSMA](https://www.microsoft.com/en-us/download/details.aspx?id=54255)**, and then install it.
 
-_SSMA is now ready for use._
+2. **Assess the source database**.
 
-2.Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for Access Assessments, see the article [Assessing Access Database Objects for Conversion (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/assessing-access-database-objects-for-conversion-accesstosql).
+    a. Under File menu, click "New Project". Provide the details in the New Project dialog
+    
+    ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/accessnewproject.png)
+    
+    b. Click on "Add Databases" and select databases to be added to your new project
+    
+    ![Image Alt Text Add databases](https://mpbdevcontent.azureedge.net/Images/accessadddb.png)
+    
+    c. In Access Metadata Explorer, select the database(s) that you want to assess
+    
+    ![Image Alt Text Select databases](https://mpbdevcontent.azureedge.net/Images/accessselectdb.png)
+    
+    d. Right-click Databases, and select Create Report
+    
+     ![Image Alt Text Create Report](https://mpbdevcontent.azureedge.net/Images/accesscreatereport.png)
+    
+    e. A sample assessment report looks like the below:
+    
+    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/accesssamplereport.png)
 
-_This will generate an Assessment Report which shows the results of the conversion of database objects to Transact-SQL syntax, and can also help you estimate the complexity and cost of your migration projects._
+3. **Converting Access Database Objects**. 
 
-3.Converting Access Database Objects. For more information about SSMA for Access Conversion, see the article [Converting Access Database Objects (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/converting-access-database-objects-accesstosql).
+    a. Connect to SQL Azure target database
+    
+     ![Image Alt Text SQL Server conenction](https://mpbdevcontent.azureedge.net/Images/accessconnecttosqlazure.png)
+    
+    b. In Access Metadata Explorer, expand access-metabase, and then expand Databases
+       
+    c. To convert database(s), select the check box next to Databases
+      
+    d. To convert schemas, right-click Databases and select Convert Schema
+    
+    ![Image Alt Text SQL Server conenction](https://mpbdevcontent.azureedge.net/Images/accessconvertschema.png)
 
-_When the schema conversion is complete, you are ready to move on to the Migration phase._
+    Note: You can also convert individual objects. To convert an object, regardless of which objects are selected, right-click the object and select Convert Schema. 
 
-**Note**: For complete step-by-step guidance on installing and using SSMA for Access, see the following resources:
+    e. When an object has been converted, it appears bold in Access Metadata Explorer. 
+    
+    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/accessconvertcomplete.png)
+    
+    f. To convert, load, and migrate schemas and data in one step, right-click Databases and select Convert, Load, and Migrate
 
-* [Installing SSMA for Access (AccessToSQL)](https://docs.microsoft.com/en-us/sql/ssma/access/installing-sql-server-migration-assistant-for-access-accesstosql)
-* [Preparing Access Databases for Migration (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/preparing-access-databases-for-migration-accesstosql)
-* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
+4. **Review results** in the Output pane and **any errors and warnings** in the Error List pane.
+
+
+
+
