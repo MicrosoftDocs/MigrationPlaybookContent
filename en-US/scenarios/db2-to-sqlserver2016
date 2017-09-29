@@ -1,6 +1,6 @@
 {
-	"displayname": "DB2 to SQL Server 2016",
-	"emailmessage": "Check out the migration process from DB2 to SQL Server 2016 here:",
+	"displayname": "DB2 to SQL Server",
+	"emailmessage": "Check out the migration process from DB2 to SQL Server here:",
 	"description": "Transferring from IBM's DB2 to Azure's SQL Server 2016 is easier than ever due to it has the SQL system's best-in-class security and connectivity features.",
 	"steps": [
 		{

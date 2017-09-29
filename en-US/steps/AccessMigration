@@ -1,20 +1,18 @@
 <!--Migrate-->
 
-After you have completed assessing your databases and addressing any discrepancies, the next step is to execute the migration process. Migration involves two steps – publishing the schema and migrating the data. SSMA for Access is the correct tool to use for this process.
+After you have completed assessing your databases and addressing any discrepancies, the next step is to execute the migration process. 
+Migrating data is a bulk-load operation that moves rows of data into SQL Server or SQL Azure in transactions. The number of rows to be loaded into SQL Server or SQL Azure in each transaction is configured in the project settings.
 
 ### Steps
 
-To use SSMA for Access to publish the database schema and migrate the data, perform the following steps.
+To use SSMA for Access to migrate the data, perform the following steps.
 
-1.Setting migration options
+1. Make sure you have **loaded the Access database objects** into SQL Server
 
-_Review the project migration options in the Project Settings dialog._
+2. In Access Metadata Explorer, select the objects that contain the data that you want to migrate
+    
+    i. To migrate data for an entire database, select the check box next to the database name.
+    ii. To migrate data from individual tables, expand the database, expand Tables, and then select the check box next to the table. To omit data from individual tables, clear the check box.
+    
+3. Right-click Databases and then select Migrate Data.
 
-2.Migrating data to SQL Server.
-
-_After the migration is complete you will be able to view the migration report._
-
-**Note**: For complete step-by-step guidance on publishing the schema and migrating the data, see the following resource:
-
-* [Migrating Access Databases to SQL Server – Azure SQL DB (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/migrating-access-databases-to-sql-server-azure-sql-db-accesstosql)
-* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
