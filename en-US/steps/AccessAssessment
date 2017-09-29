@@ -10,7 +10,7 @@ To use SSMA for Access to create an assessment, perform the following steps.
 
 1. **Download [SSMA](https://www.microsoft.com/en-us/download/details.aspx?id=54255)**, and then install it.
 
-2. **Assess the source database** and discover conversion rate
+2. **Assess the source database** 
 
     a. Under File menu, click "New Project". Provide the details in the New Project dialog
     
