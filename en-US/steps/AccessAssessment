@@ -14,10 +14,18 @@ To use SSMA for Access to create an assessment, perform the following steps.
 
     a. Under File menu, click "New Project". Provide the details in the New Project dialog
     
+    ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/accessnewproject.png)
+    
     b. Click on "Add Databases" and select databases to be added to your new project
+    
+    ![Image Alt Text Add databases](https://mpbdevcontent.azureedge.net/Images/accessadddb.png)
     
     c. In Access Metadata Explorer, select the database(s) that you want to assess
     
+    ![Image Alt Text Select databases](https://mpbdevcontent.azureedge.net/Images/accesselectdb.png)
+    
     d. Right-click Databases, and select Create Report
+    
+     ![Image Alt Text Create Report](https://mpbdevcontent.azureedge.net/Images/accesscreatereport.png)
 
 3. **Converting Access Database Objects**. For more information about SSMA for Access Conversion, see the article [Converting Access Database Objects (AccessToSQL)]( https://docs.microsoft.com/en-us/sql/ssma/access/converting-access-database-objects-accesstosql).
