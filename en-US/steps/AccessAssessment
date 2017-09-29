@@ -22,7 +22,7 @@ To use SSMA for Access to create an assessment, perform the following steps.
     
     c. In Access Metadata Explorer, select the database(s) that you want to assess
     
-    ![Image Alt Text Select databases](https://mpbdevcontent.azureedge.net/Images/accesselectdb.png)
+    ![Image Alt Text Select databases](https://mpbdevcontent.azureedge.net/Images/accessselectdb.png)
     
     d. Right-click Databases, and select Create Report
     
