@@ -12,7 +12,7 @@ To use SSMA for Access to create an assessment, perform the following steps.
 
     a. Under File menu, click "New Project". Provide the details in the New Project dialog
     
-    ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/accessnewproject.png)
+    ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/accessnewprojectsqlazure.png)
     
     b. Click on "Add Databases" and select databases to be added to your new project
     
