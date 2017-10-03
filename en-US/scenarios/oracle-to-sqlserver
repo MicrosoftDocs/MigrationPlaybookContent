@@ -1,13 +1,13 @@
 {
-	"displayname": "SAP ASE to SQL Server 2016",
-	"emailmessage": "Check out the migration process from SAP ASE to SQL Server 2016 here:",
-	"description": "SQL Server 2016 has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
+	"displayname": "Oracle to SQL Server",
+	"emailmessage": "Check out the migration process from Oracle to SQL Server here:",
+	"description": "For clients currently using Oracle, there is no better time to migrate to SQL Server, the industry leading data platform for customers and partners alike.",
 	"steps": [
 		{
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "ASERationale",
+					"filelocation": "Rationale2017",
 					"actions": []
 				},
 				{
@@ -16,34 +16,31 @@
 				}
 			]
 		},
+
 		{
 			"name": "Pre-Migration",
 			"items": [
 				{
-					"filelocation": "SybaseAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForSybaseDownload"
-						}
-					]
+					"filelocation": "Discover",
+					"actions": []
+				},
+				{
+					"filelocation": "Assessment",
+					"actions": []
 				}
 			]
 		},
+
 		{
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "SybaseMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForSybaseDownload"
-						}
-					]
+					"filelocation": "Migration",
+					"actions": []
 				}
 			]
 		},
+
 		{
 			"name": "Post-Migration",
 			"items": [
@@ -71,11 +68,19 @@
 		}
 	],
 	"casestudies": [
-
+		{
+			"filelocation": "Sumitomo"
+		},
+		{
+			"filelocation": "KDS"
+		},
+		{
+			"filelocation": "PTC"
+		}
 	],
 	"partners": [
 		{
-			"filelocation": "DBBest"
+			"filelocation": "Fujitsu"
 		}
 	]
 }

@@ -32,7 +32,7 @@ Many customers are exploring going beyond BI into predictive analytics where the
 
 SQL Server delivers these capabilities with a consistent experience both on-premises and in the cloud, and with common development and management tools and common T-SQL. Customers decide what is best for each application or workload, and they can move from on-premises to the cloud without having to rewrite an application, learn new development tools, a new development language, or new management tools. Only Microsoft can offer this consistent experience across identity, virtualization, management, and dev-ops. We’ve got all the tools to ensure that we deliver a great experience no matter where you choose to deploy! For SAP ASE, hybrid cloud experiences are only on their product roadmap.
 
-**In-memory across workloads **
+**In-memory across workloads**
 
 SQL Server optimized in-memory technology increases performance across all workloads by using an in-memory OLTP within all editions. This provides up to 30x transactional performance over disk based solutions. In-memory columnstore enables over 100x faster queries for data warehouse and BI workloads. With SQL Server, customers can combine in-memory technologies to deliver super-fast reads on top of super-fast writes, which enables real-time operational analytics without having to rely on different database engines like SAP ASE and SAP IQ.
 

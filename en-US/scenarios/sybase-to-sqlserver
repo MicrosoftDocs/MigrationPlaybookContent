@@ -1,13 +1,13 @@
 {
-	"displayname": "Oracle to SQL Server",
-	"emailmessage": "Check out the migration process from Oracle to SQL Server here:",
-	"description": "For clients currently using Oracle, there is no better time to migrate to SQL Server, the industry leading data platform for customers and partners alike.",
+	"displayname": "SAP ASE to SQL Server",
+	"emailmessage": "Check out the migration process from SAP ASE to SQL Server here:",
+	"description": "SQL Server has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
 	"steps": [
 		{
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "Rationale",
+					"filelocation": "ASERationale",
 					"actions": []
 				},
 				{
@@ -16,31 +16,34 @@
 				}
 			]
 		},
-
 		{
 			"name": "Pre-Migration",
 			"items": [
 				{
-					"filelocation": "Discover",
-					"actions": []
-				},
-				{
-					"filelocation": "Assessment",
-					"actions": []
+					"filelocation": "SybaseAssessment",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForSybaseDownload"
+						}
+					]
 				}
 			]
 		},
-
 		{
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "Migration",
-					"actions": []
+					"filelocation": "SybaseMigration",
+					"actions": [
+						{
+							"actiontype": "download",
+							"filelocation": "SSMAForSybaseDownload"
+						}
+					]
 				}
 			]
 		},
-
 		{
 			"name": "Post-Migration",
 			"items": [
@@ -68,19 +71,11 @@
 		}
 	],
 	"casestudies": [
-		{
-			"filelocation": "Sumitomo"
-		},
-		{
-			"filelocation": "KDS"
-		},
-		{
-			"filelocation": "PTC"
-		}
+
 	],
 	"partners": [
 		{
-			"filelocation": "Fujitsu"
+			"filelocation": "DBBest"
 		}
 	]
 }
