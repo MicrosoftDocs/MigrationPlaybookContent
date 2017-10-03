@@ -21,9 +21,7 @@ published a new TPC-H 1TB world record with SQL Server 2017 running on Linux.
 **Total cost of ownership**
 
 SQL Server has a significantly lower total cost of ownership (TCO) than similar enterprise data solutions. In some cases, the TCO of 
-SQL Server 2016 was found to be as low as 1/12th the cost of comparable products/features.
-
-The TCO analysis tool can help to determine the real difference in cost between a current Oracle solution and SQL Server. 
+SQL Server 2016 was found to be as low as 1/12th the cost of comparable products/features. The TCO analysis tool can help to determine the real difference in cost between a current Oracle solution and SQL Server. 
 The TCO Calculator provides a custom report showing the specific cost savings and benefits a customer can anticipate by migrating 
 from Oracle to SQL Server. 
 
@@ -31,10 +29,31 @@ Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to 
 
 **The power of SQL Server now on Linux and containers**
 
-SQL Server 2017 offers the best performance and security features, and they’re now available on all supported platforms, 
+SQL Server 2017 offers the best performance and security features, and they are now available on all supported platforms, 
 including Windows, Linux, and containers. High-performance features bring record-breaking speed to data-driven applications. 
 These features include columnstore (which provides column-based data storage and processing to achieve up to 10 times the query 
-performance and data compression of row-based storage) and 
+performance and data compression of row-based storage) and in-memory OLTP (which brings transaction processing to memory-optimized 
+tables at more than 2.5 times the speed of disk-based tables). Security features like Auditing, Transparent Data Encryption, 
+Row-Level Security, Dynamic Data Masking and Always Encrypted provide server-side security measures that vastly simplify the process 
+for keeping data safe from unauthorized access, without the need to modify existing client applications. Auditing enables teams to 
+monitor access and track potentially suspicious activity. Transparent Data Encryption protects data at rest at a file level, 
+while Always Encrypted secures data in motion and at rest. With these capabilities available on all SQL Server editions, 
+organizations can choose their deployment environment by operational need, as opposed to desired features. 
+
+**Adaptive Query Processing feature family**
+
+New in SQL Server 2017, Adaptive Query Processing introduces new capabilities that allow the SQL Server query processor to modify 
+plan choices based on runtime characteristics. During query processing and optimization, the cardinality estimation (CE) 
+process is responsible for estimating the number of rows processed at each step in an execution plan. 
+Inaccurate estimates can cause slow query response time, excessive resource utilization (CPU, Memory, IO), and reduced throughput 
+and concurrency. To improve CE techniques, SQL Server 2017 introduces a new feature family: adaptive query processing (AQP). 
+AQP improves the handling of the more intractable CE issues. 
+
+**Automatic plan correction**
+
+New features in SQL Server 2017 detect plan choice regressions and give recommendations on how to fix the problem. 
+These automatic plan correction features help to maintain the performance of data queries, even when application changes occur. 
+
 
 **In-Memory OLTP enhancements in SQL Server 2017**
 
