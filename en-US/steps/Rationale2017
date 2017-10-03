@@ -61,7 +61,7 @@ understand its relationships and patterns. Querying data from a relational schem
 task. SQL Server 2017 introduces SQL Graph to make modeling and analyzing relationships easier by allowing users to handle the 
 relationships in a more flexible and agile way. 
 
-**Resumable Online Index Rebuild **
+**Resumable Online Index Rebuild**
 
 Planning, maintaining, and managing a large index online can be challenging. The bigger the index, the more difficult index maintenance 
 becomes. Reorganizing and rebuilding indexes can be especially cumbersome. Resumable Online Index Rebuild in SQL Server 2017 enables 
