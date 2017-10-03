@@ -10,7 +10,7 @@ Consider the detail in the following sections when evaluating the rationale for 
 **Security**
 
 According to the National Institute of Standards and Technology (NIST) public security board, SQL Server has the 
-**lowest number of reported security vulnerabilities** across the major database vendors (NSIT, 2016).
+lowest number of reported security vulnerabilities across the major database vendors (NSIT, 2016).
 
 **Performance**
 
@@ -28,3 +28,23 @@ The TCO Calculator provides a custom report showing the specific cost savings an
 from Oracle to SQL Server. 
 
 Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to run a cost analysis on your migrations.
+
+**The power of SQL Server now on Linux and containers**
+
+SQL Server 2017 offers the best performance and security features, and they’re now available on all supported platforms, 
+including Windows, Linux, and containers. High-performance features bring record-breaking speed to data-driven applications. 
+These features include columnstore (which provides column-based data storage and processing to achieve up to 10 times the query 
+performance and data compression of row-based storage) and 
+
+**In-Memory OLTP enhancements in SQL Server 2017**
+
+A feature since SQL Server 2014, In-memory technology for SQL Server dramatically improves the throughput and latency of SQL Server 
+OLTP capabilities. It is designed to meet the requirements of the most demanding transaction processing applications, and Microsoft 
+has worked closely with several companies to prove these gains. SQL Server 2017 adds features to improve the performance and 
+supportability of In-Memory OLTP workloads. In addition, many limitations on tables and stored procedures have been removed 
+to make it easier to migrate your applications and take advantage of the benefits of In-Memory OLTP. 
+
+
+
+
+
