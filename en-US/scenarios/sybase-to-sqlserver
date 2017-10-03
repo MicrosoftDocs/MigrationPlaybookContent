@@ -1,7 +1,7 @@
 {
-	"displayname": "SAP ASE to SQL Server 2016",
-	"emailmessage": "Check out the migration process from SAP ASE to SQL Server 2016 here:",
-	"description": "SQL Server 2016 has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
+	"displayname": "SAP ASE to SQL Server",
+	"emailmessage": "Check out the migration process from SAP ASE to SQL Server here:",
+	"description": "SQL Server has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
 	"steps": [
 		{
 			"name": "Why migrate?",
