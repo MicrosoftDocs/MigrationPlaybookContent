@@ -90,20 +90,20 @@
 	],
 	"scenarioMap":
 	{
-		"source0_target0" : "sql-to-sqlserver2016",
+		"source0_target0" : "sql-to-sqlserver",
 		"source0_target1" : "sql-to-azuresql",
-		"source1_target0" : "oracle-to-sqlserver2016",
+		"source1_target0" : "oracle-to-sqlserver",
 		"source1_target1" : "oracle-to-azuresql",
 		"source1_target3" : "oracle-to-azurepostgresql",
-		"source2_target0" : "db2-to-sqlserver2016",
+		"source2_target0" : "db2-to-sqlserver",
 		"source2_target1" : "db2-to-azuresql",
 		"source3_target0" : "mysql-to-sqlserver2016",
 		"source3_target1" : "mysql-to-azuresql",
 		"source3_target2" : "mysql-to-azuremysql",
 		"source4_target3" : "postgresql-to-azurepostgresql",
-		"source5_target0" : "sybase-to-sqlserver2016",
+		"source5_target0" : "sybase-to-sqlserver",
 		"source5_target1" : "sybase-to-azuresql",
-		"source6_target0" : "access-to-sqlserver2016",
+		"source6_target0" : "access-to-sqlserver",
 		"source6_target1" : "access-to-azuresql"
 	}
 }
