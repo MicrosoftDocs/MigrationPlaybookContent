@@ -56,3 +56,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 16. The above task would do a full load first, and then apply the changes from source to target for subsequent changes.
 17. Use Table Selection to specify the source tables to sync.
     ![Table selection](https://mpbdevcontent.azureedge.net/Images/attunitytableselection.png)
+18. Save and Click Run. 
+19. Use the Monitor tab on the top right to view the status of the deployed tasks.
+20. Once the tasks start running, Check the target database on Azure Postgtres to see if the configured table is created and all the rows copied.
+21. Make changes to the table on the source database (insert/delete/update) and run queries against the target table to see if those changes are reflected.
