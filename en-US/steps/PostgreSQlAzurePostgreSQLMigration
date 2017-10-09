@@ -48,7 +48,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
    
 	b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine
       
-	c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
+	c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround
       
     	* Copy OpenSSL executable from \\scratch2\scratch\Yuchuan\OpenSSL-Win64 to C:\ of Attunity machine
 	      
@@ -56,9 +56,9 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
           The root.crt is already in the folder: 
 	  OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt
    
-d. Copy root.crt to AppData folder for local user (_C:\Users\[localuser]\AppData\Roaming\postgresql_) and system profile (_C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql_).
+	d. Copy root.crt to AppData folder for local user (_C:\Users\[localuser]\AppData\Roaming\postgresql_) and system profile (_C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql_).
    
-e. In Attunity, setup target of PostgreSQL, and in Attunity Internal Parameter settings. Enter additionalConnectionProperties sslmode=verify-ca;pqopt=sslrootcert=[_Specify the certificate path on the Attunity Server_]
+	e. In Attunity, setup target of PostgreSQL, and in Attunity Internal Parameter settings. Enter additionalConnectionProperties sslmode=verify-ca;pqopt=sslrootcert=[_Specify the certificate path on the Attunity Server_]
    
 12. Once SSL is enable and root.crt is created, note the path.
 
