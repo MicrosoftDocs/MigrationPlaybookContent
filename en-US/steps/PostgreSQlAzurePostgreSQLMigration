@@ -21,8 +21,8 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 
 2. Provision an instance of Azure PostgreSQL.
 
-
 3. Load a database or use this [sample database](http://www.postgresqltutorial.com/load-postgresql-sample-database/).
+
 4. Refer to this [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-dump-and-restore) for backing up the database from on-premise instance 
    and restoring the backup to Azure Postgres instance.
    
@@ -45,17 +45,17 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
     
 11. Decode root certificate in Attunity machine SSL Connection for Azure Postgres.
    
-   a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
+      a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
    
-   b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine:
-      * If Attunity machine is Windows 10 with Anniversary Update or later, install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
-      * If Attunity machine is Windows Server 2016, follow [Windows Server Installation Guide](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server).
+      b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine:
+         _If Attunity machine is Windows 10 with Anniversary Update or later, install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)._
+         _If Attunity machine is Windows Server 2016, follow [Windows Server Installation Guide](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server)._
 
-   c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
+      c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
    
-   d. Copy root.crt to AppData folder for local user and system profile
+      d. Copy root.crt to AppData folder for local user and system profile
    
-   e. I Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings
+      e. In Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings
    
 12. Once SSL is enable and root.crt is created, note the path.
 
