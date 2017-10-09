@@ -13,3 +13,19 @@ Proposed sequence and usage of tools:
 2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target PostgreSQL on Aure.
 
 Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
+
+
+### Detailed Steps
+
+1. Install Postgres on Azure Virtual Machine
+2. Provision an instance of Azure PostgreSQL
+3. Load a database or use this [sample database](http://www.postgresqltutorial.com/load-postgresql-sample-database/)
+4. Refer to this [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-dump-and-restore) for backing up the database from on-premise instance 
+   and restoring the backup to Azure Postgres instance
+5. Setup Attunity using the Attunity Installation link above.
+6. Install [Postgres 64 bit ODBC driver](https://www.postgresql.org/ftp/odbc/versions/msi/) on the Replicate server machine
+7. Make sure that the PostgreSQL ODBC installation folder "bin" (e.g. "C:\Program Files\psqlODBC\0906\bin") is added to the system PATH environment variable 
+   Note: in some cases, the user PATH environment variable need to be set as well
+8. Add PostgreSQL bin installation folder (C:\Program Files\PostgreSQL\9.6\bin) to SYSTEM PATH (Settings-->System --> About --> System Info --> Advanced System Settings -->Environment Variables)
+9. Open Attunity Console from start menu and create a new "EndPoint Connection for Postgres On-Premise instance. Here's the screen capture of the settings for the test environment: 
+
