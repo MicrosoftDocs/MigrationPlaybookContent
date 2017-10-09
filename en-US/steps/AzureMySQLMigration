@@ -24,7 +24,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 
 4.	After setup, you should see Attunity Replicate Server and Attunity Replicate UI Server running in Windows Services.
 
-   ![Windows services logs](https://mpbdevcontent.azureedge.net/Images/windowsservices.png)
+   ![Windows services](https://mpbdevcontent.azureedge.net/Images/windowsservices.png)
 
 5.	Download [MySQL ODBC Connection]( https://dev.mysql.com/downloads/connector/odbc/) and install on this VM.
 
@@ -47,23 +47,30 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 3.	Select Manage Endpoint Connections on the top menu bar
    ![Manage endpoints](https://mpbdevcontent.azureedge.net/Images/attunitymanageendpoint.png)
  
-4.	Select + New Endpoint Connection on the top menu bar:
+4.	Select + New Endpoint Connection on the top menu bar
+   ![New connection endpoints](https://mpbdevcontent.azureedge.net/Images/attunitynewendpoint.png)
  
 5.	Setup the Source endpoint. Name the endpoint. This should be the source MySQL Server. Select Type= MySQL
 
-6.	Enter Server name, Port=3306, User name and Password. Remember to test connection to make sure connectivity is established. Save this endpoint. It should look like this:-
+6.	Enter Server name, Port=3306, User name and Password. Remember to test connection to make sure connectivity is established. Save this endpoint.
+   ![New connection endpoints parameters](https://mpbdevcontent.azureedge.net/Images/attunityendpointparam.png)
  
 7.	Setup Targets- select + New Endpoint Connection again. Name the source endpoint. Select Target, and select Type=MySQL. This should the Azure Database for MySQL server that you have configured in Azure.
 
-8.	Enter Server name, port:3306, user name and password. Browse to the database to the database that you want the data to migrate to. Please note: Attunity will not create the database for you in Azure MySQL. You have to create one. Remember to test connection to make sure connectivity is established. Save this endpoint.
+8.	Enter Server name, port:3306, user name and password. Browse to the database to the database that you want the data to migrate to. **Note:** Attunity will not create the database for you in Azure MySQL. You have to create one. Remember to test connection to make sure connectivity is established. Save this endpoint.
+   ![New connection endpoints parameters](https://mpbdevcontent.azureedge.net/Images/attunitytestconnection.png)
  
 9.	Navigate to Advanced tab in the target end points, increase Parallel load threads to 5. Default value is 1. Click Save.
+   ![New connection endpoints parameters](https://mpbdevcontent.azureedge.net/Images/attunityadvancedconnection.png)
  
-10.	In the task that you have created, drag the source end point, and target end point to the task diagram.
+10. In the task that you have created, drag the source end point, and target end point to the task diagram.
+   ![Drag & Drop](https://mpbdevcontent.azureedge.net/Images/attunitymysqldragdrop.png)
  
-11.	Navigate to Table Selection on the right hand panel:
+11. Navigate to Table Selection on the right hand panel.
+   ![Table selection](https://mpbdevcontent.azureedge.net/Images/attunitymysqltableselection.png)
  
-12.	Select the table schema, which is the database you want to replicate. Click Include, it will show you the table list:
+12. Select the table schema, which is the database you want to replicate. Click Include, it will show you the table list
+   ![Table list](https://mpbdevcontent.azureedge.net/Images/attunitytablelist.png)
  
 13.	Select tables that you want to replicate using the arrow button.
 
