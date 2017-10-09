@@ -57,10 +57,10 @@ e. In Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Par
 
 Below are some errors you might encounter with the initial task creation and their resolutions.
 
-1. RetCode: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if max_replication_slots > 0;
-Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)
+_RetCode: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if max_replication_slots > 0;
+Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
 
-_Resolution: Set max_replication_slots to greater than 0 in the Postgres source server configuration. 
+**Resolution**: Set max_replication_slots to greater than 0 in the Postgres source server configuration. 
 The max_replication_slots value should be set according to the number of tasks that you
 want to run. For example, to run 5 tasks you need to set a minimum of 5 slots. Slots open
 automatically as soon as a task starts and remain open, even when task is no longer running.
