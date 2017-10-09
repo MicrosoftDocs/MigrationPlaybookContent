@@ -24,6 +24,8 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 
 4.	After setup, you should see Attunity Replicate Server and Attunity Replicate UI Server running in Windows Services.
 
+   ![Windows services logs](https://mpbdevcontent.azureedge.net/Images/windowsservices.png)
+
 5.	Download [MySQL ODBC Connection]( https://dev.mysql.com/downloads/connector/odbc/) and install on this VM.
 
 ### Setting up the Source
@@ -71,5 +73,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 ### Monitor Attunity Replication task
 
 1. As soon as you start the replication task, you can see the progress and error from this pane.
+   ![Monitor tasks](https://mpbdevcontent.azureedge.net/Images/attunitymonitortasks.png)
 
 2. You can also view all the log files and also download them.
+   ![Download logs](https://mpbdevcontent.azureedge.net/Images/attunitymonitorlogs.png)
