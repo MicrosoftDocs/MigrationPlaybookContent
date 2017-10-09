@@ -59,16 +59,12 @@ c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the f
         The root.crt is already in the folder: 
 	OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt
    
-d. Copy root.crt to AppData folder for local user and system profile.
-         
-    i. Copy root.crt to C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql
-         
-    ii. Copy root.crt to C:\Users\[localuser]\AppData\Roaming\postgresql
+d. Copy root.crt to AppData folder for local user (C:\Users\[localuser]\AppData\Roaming\postgresql) and system profile (C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql).
    
 e. In Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings.
       
     i. Enter additionalConnectionProperties sslmode=verify-ca;pqopt=sslrootcert=
-       <<Specify the certificate path on the Attunity Server>>
+       [_Specify the certificate path on the Attunity Server_]
    
 12. Once SSL is enable and root.crt is created, note the path.
 
