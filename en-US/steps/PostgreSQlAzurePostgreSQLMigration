@@ -14,7 +14,6 @@ Proposed sequence and usage of tools:
 
 Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
 
-
 ### Setting up Attunity for PostgreSQL Replication
 
 1. Install Postgres on Azure Virtual Machine.
@@ -45,17 +44,17 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
     
 11. Decode root certificate in Attunity machine SSL Connection for Azure Postgres.
    
-a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
+	a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
    
-b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine
+	b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine
       
-c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
+	c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
       
-    i. Copy OpenSSL executable from \\scratch2\scratch\Yuchuan\OpenSSL-Win64 to C:\ of Attunity machine
+    	* Copy OpenSSL executable from \\scratch2\scratch\Yuchuan\OpenSSL-Win64 to C:\ of Attunity machine
 	      
-    ii. [Optional] You can decode BaltimoreCyberTrustRoot.cer again by running this command.
-        The root.crt is already in the folder: 
-	OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt
+	* [Optional] You can decode BaltimoreCyberTrustRoot.cer again by running this command.
+          The root.crt is already in the folder: 
+	  OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt
    
 d. Copy root.crt to AppData folder for local user (_C:\Users\[localuser]\AppData\Roaming\postgresql_) and system profile (_C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql_).
    
