@@ -1,0 +1,22 @@
+{
+	"displayname": "PostgreSQL to Azure PostgreSQL",
+	"emailmessage": "Check out the migration process from PostgreSQL to Azure PostgreSQL here:",
+	"description": "",
+	"steps": [
+		{
+			"name": "Attunity Replicate for Microsoft Migrations",
+			"items": [
+				{
+					"filelocation": "PostgreSQlAzurePostgreSQLMigration",
+					"actions": []
+				}
+			]
+		},
+	],
+	"casestudies": [
+			
+	],
+	"partners": [
+
+	]
+}

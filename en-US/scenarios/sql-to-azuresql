@@ -67,19 +67,9 @@
 		}
 	],
 	"casestudies": [
-		{
-			"filelocation": "Sumitomo"
-		},
-		{
-			"filelocation": "KDS"
-		},
-		{
-			"filelocation": "PTC"
-		}
+		
 	],
 	"partners": [
-		{
-			"filelocation": "Fujitsu"
-		}
+		
 	]
 }

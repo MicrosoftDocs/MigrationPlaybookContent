@@ -1,20 +1,46 @@
 <!--Migrate-->
 
-After assessing your databases, the next step is to execute the migration process for the schema and database. The two recommended tools are Data Migration Assistant (DMA) for schema migration and Azure Database Migration Service (DMS) for data migration.
+After assessing your databases, the next step is to execute the migration process for the schema and database. Data Migration Assistant (DMA) can be used acheive this.
 
 ### Steps
 
-1. For schema migration, use DMA to create a new Migration project and follow the wizard to execute schema migration.
+To use DMA to create a migration project, perform the following steps.
 
-2. For data migration, use Azure DMS to create a new Migration project and follow the wizard to execute data migration.
+1. Create a **New Migration** project
 
-Azure Database Migration Service (DMS) designed to streamline the process of migrating on premises databases to Azure.
+    a. Click on the New icon and select “Migration” project type. Select "SQL Server" as source and "Azure SQL Database" as target type. 
+    
+    b. Choose the "Migration scope" as "Schema and Data". Click "Create"
 
-Using DMS will simplify the migration of existing on-premises SQL Server, Oracle, and MySQL databases to Azure SQL Database. The automated workflow, with assessment reporting, guides the user through the changes that are required prior to performing the actual migration. When the modifications are in place and the customer is prepared, 
-the service will migrate their database to Azure SQL Database.
+    ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
 
-Note: For more details on Azure Database Migration Service, see the following resources:
+   c. Provide source SQL server conenction details. Click "Connect". Select databases you want assessed. Click "Next"
 
-* Interested in participating in DMS Private Preview? [Sign up here.](http://aka.ms/sqldatabase-migrationpreview)
-* [SQL Server Blog: Get to cloud faster with a new database migration service private preview](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/25/get-to-cloud-faster-with-a-new-database-migration-service-private-preview/)
-* [Demo: Get to the cloud faster with Azure SQLDB Managed Instance and Database Migration Service](https://channel9.msdn.com/events/Build/2017/P4008)
+    ![Source Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttosource.png)    
+
+    d. Provide target Azure SQL Database conenction details. Click "Connect". Select a single database in Azure SQL Database target. Click "Next"
+    
+    ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
+    
+    e. Select database schema objects from the source that you want migrated. Click "Generate SQL Script"
+    
+    ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbgeneratescript.png)    
+    
+    f. Script is generated and they can be edited in the textarea before deployment. If no edits are required, click "Deploy Schema"
+    
+    ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dmaazuredbdeployschema.png)  
+    
+    Note: Review the right pane for deployment status. Update the deployment script(s) for failures and attempt re-deploying schema.
+    
+    g. Once schema deployment is successful, click on "Migrate Data". Select tables containing data you want migrated
+    
+    ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbselecttables.png)  
+    
+    Note: For data migration, only one database can be moved at a given time. Repeat the steps above for subsequent database migration
+    
+    h. Click "Start data migration". 
+    
+    g. Review Migration Results when the process is completed
+    
+    ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbmigratedata.png)  
+    

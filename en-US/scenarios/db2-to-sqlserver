@@ -1,45 +1,45 @@
 {
-	"displayname": "MySQL to SQL Server 2016",
-	"emailmessage": "Check out the migration process from MySQL to SQL Server 2016 here:",
-	"description": "Azure SQL Server is the least vulnerable database in the industry, exhibiting solid, consistent performance. Learn about the benefits of moving from MySQL today.",
+	"displayname": "DB2 to SQL Server",
+	"emailmessage": "Check out the migration process from DB2 to SQL Server here:",
+	"description": "Transferring from IBM's DB2 to Azure's SQL Server 2016 is easier than ever due to it has the SQL system's best-in-class security and connectivity features.",
 	"steps": [
 		{
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "Rationale",
+					"filelocation": "Rationale2017",
+					"actions": []
+				}
+			]
+
+		},
+
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "DB2Discover",
 					"actions": []
 				},
 				{
-					"filelocation": "Overview",
+					"filelocation": "DB2Assessment",
 					"actions": []
 				}
 			]
 		},
+
 		{
-			"name": "Pre-Migration ",
+			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "MySqlDiscover",
-					"actions": []
-				},
-				{
-					"filelocation": "MySqlAssessment",
-					"actions": []
+					"filelocation": "DB2Migration",
+					"actions":[]
 				}
 			]
 		},
+
 		{
-			"name": "Migration ",
-			"items": [
-				{
-					"filelocation": "MySqlMigration",
-					"actions": []
-				}
-			]
-		},
-		{
-			"name": "Post-Migration ",
+			"name": "Post-Migration",
 			"items": [
 				{
 					"filelocation": "RemediateApps",
@@ -64,7 +64,6 @@
 			]
 		}
 	],
-
 	"casestudies": [
 
 	],
