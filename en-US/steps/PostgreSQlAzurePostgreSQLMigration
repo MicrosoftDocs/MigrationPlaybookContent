@@ -32,7 +32,20 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 10. For connecting the client/Attunity server machine to Azure Postgres, SSL connection need to be enabled in the client. 
     Follow the instructions in [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security)
     here to enable SSL connection.
-11. Follow this note for decoding root cert in Attunity machine SSL Connection for Azure Postgres
+11. Decode root certificate in Attunity machine SSL Connection for Azure Postgres.
+	 a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server
+    b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine:
+        * If Attunity machine is Windows 10 with Windows 10 Anniversary Update or later, install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
+        * If Attunity machine is Windows Server 2016, follow [Windows Server Installation Guide](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server).
+	 c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
+	     * Copy OpenSSL executable from \\scratch2\scratch\Yuchuan\OpenSSL-Win64 to C:\ of Attunity machine
+        * You can decode BaltimoreCyberTrustRoot.cer again by running this command. This step is optional. The root.crt is already in the folder
+	       OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt
+     d. Copy root.crt to AppData folder for local user and system profile
+        * Copy root.crt to C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql
+        * Copy root.crt to C:\Users\[localuser]\AppData\Roaming\postgresql
+	  e. In Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings
+        * Enter additionalConnectionProperties sslmode=verify-ca;pqopt=sslrootcert=<<Specify the certificate path on the Attunity Server>>
 12. Once SSL is enable and root.crt is created, note the path.
 13. Create a new "Target" Endpoint connection for Azure Postgres. Same as the On-Prem connection setting above, but need to add extra settings in the Advanced tab: Parameter name: 
     additionalConnectionProperties; Value: sslmode=verify-ca;pqopt=sslrootcert=C:\\SSLCert\\root.crt
