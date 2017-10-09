@@ -44,7 +44,6 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
  
 4.	Select + New Endpoint Connection on the top menu bar:
  
-
 5.	Setup the Source endpoint. Name the endpoint. This should be the source MySQL Server. Select Type= MySQL
 
 6.	Enter Server name, Port=3306, User name and Password. Remember to test connection to make sure connectivity is established. Save this endpoint. It should look like this:-
@@ -53,13 +52,13 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 
 8.	Enter Server name, port:3306, user name and password. Browse to the database to the database that you want the data to migrate to. Please note: Attunity will not create the database for you in Azure MySQL. You have to create one. Remember to test connection to make sure connectivity is established. Save this endpoint.
  
-9.	Navigate to Advanced tab in the target end points, increase Parallel load threads to 5. Default=1. Save.
+9.	Navigate to Advanced tab in the target end points, increase Parallel load threads to 5. Default value is 1. Click Save.
  
 10.	In the task that you have created, drag the source end point, and target end point to the task diagram.
  
-11.	Navigate to Table Selection on the right hand panel:-
+11.	Navigate to Table Selection on the right hand panel:
  
-12.	Select the table schema, which is the database you want to replicate. Click Include, it will show you the table list:-
+12.	Select the table schema, which is the database you want to replicate. Click Include, it will show you the table list:
  
 13.	Select tables that you want to replicate using the arrow button.
 
@@ -71,4 +70,6 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 
 ### Monitor Attunity Replication task
 
-1. As soon as you start the replication task, you can see the progress and error from this pane
+1. As soon as you start the replication task, you can see the progress and error from this pane.
+
+2. You can also view all the log files and also download them.
