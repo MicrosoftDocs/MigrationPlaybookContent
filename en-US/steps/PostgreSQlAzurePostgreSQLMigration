@@ -60,7 +60,8 @@ c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the f
     i. Copy OpenSSL executable from \\scratch2\scratch\Yuchuan\OpenSSL-Win64 to C:\ of Attunity machine
 	      
     ii. [Optional] You can decode BaltimoreCyberTrustRoot.cer again by running this command.
-        The root.crt is already in the folder: OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt
+        The root.crt is already in the folder: 
+	OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt
    
 d. Copy root.crt to AppData folder for local user and system profile.
          
