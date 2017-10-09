@@ -34,11 +34,17 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
     Follow the instructions in [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security)
     here to enable SSL connection.
 11. Decode root certificate in Attunity machine SSL Connection for Azure Postgres.
-a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
-b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine:
-c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
-d. Copy root.crt to AppData folder for local user and system profile
-e. In Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings
+   
+   a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
+   
+   b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine:
+   
+   c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
+   
+   d. Copy root.crt to AppData folder for local user and system profile
+   
+   e. I Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings
+   
 12. Once SSL is enable and root.crt is created, note the path.
 13. Create a new "Target" Endpoint connection for Azure Postgres. Same as the On-Prem connection setting above, but need to add extra settings in the Advanced tab: Parameter name: 
     additionalConnectionProperties; Value: sslmode=verify-ca;pqopt=sslrootcert=C:\\SSLCert\\root.crt
@@ -74,6 +80,6 @@ disable the timeout mechanism (optional), set this parameter to zero.
 To be more clear, set the parameters like this in postgresql.config(remember to remove the # (comment)). Do not use ">", postgres does not recognize this.
 wal_level = logical			# minimal, replica, or logical
 max_wal_senders = 3		# max number of walsender processes
-max_replication_slots = 1	# max number of replication slots_
+max_replication_slots = 1	# max number of replication slots
 
 
