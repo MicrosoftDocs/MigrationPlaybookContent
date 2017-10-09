@@ -83,7 +83,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 ### Monitor Attunity Replication task
 
 1. As soon as you start the replication task, you can see the progress and error from this pane.
-   ![Monitor tasks](https://mpbdevcontent.azureedge.net/Images/attunitymonitortasks.png)
+   ![Monitor tasks](https://mpbdevcontent.azureedge.net/Images/attunitymonitortask.png)
 
 2. You can also view all the log files and also download them.
    ![Download logs](https://mpbdevcontent.azureedge.net/Images/attunitymonitorlogs.png)
