@@ -15,17 +15,29 @@ Proposed sequence and usage of tools:
 Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
 
 
-### Detailed Steps
+### Steps - Attunity setup and usage
 
-1. Install Postgres on Azure Virtual Machine
-2. Provision an instance of Azure PostgreSQL
-3. Load a database or use this [sample database](http://www.postgresqltutorial.com/load-postgresql-sample-database/)
+1. Install Postgres on Azure Virtual Machine.
+2. Provision an instance of Azure PostgreSQL.
+3. Load a database or use this [sample database](http://www.postgresqltutorial.com/load-postgresql-sample-database/).
 4. Refer to this [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-dump-and-restore) for backing up the database from on-premise instance 
-   and restoring the backup to Azure Postgres instance
+   and restoring the backup to Azure Postgres instance.
 5. Setup Attunity using the Attunity Installation link above.
-6. Install [Postgres 64 bit ODBC driver](https://www.postgresql.org/ftp/odbc/versions/msi/) on the Replicate server machine
+6. Install [Postgres 64 bit ODBC driver](https://www.postgresql.org/ftp/odbc/versions/msi/) on the Replicate server machine.
 7. Make sure that the PostgreSQL ODBC installation folder "bin" (e.g. "C:\Program Files\psqlODBC\0906\bin") is added to the system PATH environment variable 
-   Note: in some cases, the user PATH environment variable need to be set as well
-8. Add PostgreSQL bin installation folder (C:\Program Files\PostgreSQL\9.6\bin) to SYSTEM PATH (Settings-->System --> About --> System Info --> Advanced System Settings -->Environment Variables)
-9. Open Attunity Console from start menu and create a new "EndPoint Connection for Postgres On-Premise instance. Here's the screen capture of the settings for the test environment: 
+   Note: in some cases, the user PATH environment variable need to be set as well.
+8. Add PostgreSQL bin installation folder (C:\Program Files\PostgreSQL\9.6\bin) to 
+   SYSTEM PATH (Settings-->System --> About --> System Info --> Advanced System Settings -->Environment Variables).
+9. Open Attunity Console from start menu and create a new "EndPoint Connection for Postgres On-Premise instance. 
+10. For connecting the client/Attunity server machine to Azure Postgres, SSL connection need to be enabled in the client. 
+    Follow the instructions in [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security)
+    here to enable SSL connection.
+11. Follow this note for decoding root cert in Attunity machine SSL Connection for Azure Postgres
+12. Once SSL is enable and root.crt is created, note the path.
+13. Create a new "Target" Endpoint connection for Azure Postgres. Same as the On-Prem connection setting above, but need to add extra settings in the Advanced tab: Parameter name: 
+    additionalConnectionProperties; Value: sslmode=verify-ca;pqopt=sslrootcert=C:\\SSLCert\\root.crt
+14. Once the source and target connections are created, proceed to creating a task for the Sync.
+15. Drag and drop to specify source and target for the task. 
+
+
 
