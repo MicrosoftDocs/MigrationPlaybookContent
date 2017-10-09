@@ -15,7 +15,7 @@ Proposed sequence and usage of tools:
 Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
 
 
-### Steps - Attunity setup and usage
+### Setting up Attunity for PostgreSQL Replication
 
 1. Install Postgres on Azure Virtual Machine.
 2. Provision an instance of Azure PostgreSQL.
