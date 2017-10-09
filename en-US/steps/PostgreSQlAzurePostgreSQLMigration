@@ -48,14 +48,27 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
       a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
    
       b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine:
+      
          _If Attunity machine is Windows 10 with Anniversary Update or later, install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)._
+         
          _If Attunity machine is Windows Server 2016, follow [Windows Server Installation Guide](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server)._
 
       c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
+      
+         _Copy OpenSSL executable from \\scratch2\scratch\Yuchuan\OpenSSL-Win64 to C:\ of Attunity machine_
+	      
+         _You can decode BaltimoreCyberTrustRoot.cer again by running this command. This step is optional. The root.crt is already in the folder
+	       	  OpenSSL>x509 -inform DER -in BaltimoreCyberTrustRoot.cer -text -out root.crt_
    
-      d. Copy root.crt to AppData folder for local user and system profile
+      d. Copy root.crt to AppData folder for local user and system profile.
+         
+         _Copy root.crt to C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql_
+         
+         _Copy root.crt to C:\Users\[localuser]\AppData\Roaming\postgresql_
    
-      e. In Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings
+      e. In Attunity, setup target of PostgreSQL (Orcas), and in Attunity Internal Parameter settings.
+      
+         _Enter additionalConnectionProperties sslmode=verify-ca;pqopt=sslrootcert=<<Specify the certificate path on the Attunity Server>>_
    
 12. Once SSL is enable and root.crt is created, note the path.
 
