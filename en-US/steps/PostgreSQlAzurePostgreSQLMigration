@@ -98,7 +98,6 @@ Below are some errors you might encounter with the initial task creation and the
 
 _**Error**: RetCode: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if max_replication_slots > 0;
 Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
-
 **Resolution**: Set max_replication_slots to greater than 0 in the Postgres source server configuration. 
 The max_replication_slots value should be set according to the number of tasks that you
 want to run. For example, to run 5 tasks you need to set a minimum of 5 slots. Slots open
@@ -118,11 +117,9 @@ max_replication_slots = 1	# max number of replication slots
 _**Error**: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if wal_level >= archive;
 Error while executing the query [1022502]  (ar_odbc_stmt.c:2367) and then SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: logical decoding requires wal_level >= logical;
 Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
-
 **Resolution**: Set wal_level to logical
 
 _**Error**: Could not connect to the server: FATAL:  no pg_hba.conf entry for replication connection from host "::1", user "postgres", SSL off [1020452]  (postgres_endpoint_wal_engine.c:1221)_
-
 **Resolution**: Enabled access configuration for “replication” database for postgres user in pg_hba.conf. 
 The IP address of the Attunity Replicate machine must be added to the pg_hba.conf configuration
 file.
@@ -132,9 +129,7 @@ host    replication     postgres        ::1/128                 md5
 
 _**Error**: SYS-E-HTTPFAIL, Cannot connect to ODBC provider Network error has occurred. 
 SYS,GENERAL_EXCEPTION,Cannot connect to ODBC provider Network error has occurred, RetCode: SQL_ERROR SqlState: 08001 NativeError: 101 Message: root certificate file "C:\windows\system32\config\systemprofile\AppData\Roaming/postgresql/root.crt" does not exist Either provide the file or change sslmode to disable server certificate verification. ODBC general error.)_
-
 **Resolution**: root.crt need to be copied over to this path on Windows 10 machines. C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql. This issue does not seem to occur in Windows Server 2016.
 
 _**Error**: SYS-E-HTTPFAIL, 'psql' is not recognized as an internal or external command, operable program or batch file. Endpoint initialization failed_
-
 **Resolution**: Make sure C:\Program Files\PostgreSQL\9.6\bin is added to SYSTEM path in env variable. Restart Attunity Replicate Server services in services.msc and retry.
