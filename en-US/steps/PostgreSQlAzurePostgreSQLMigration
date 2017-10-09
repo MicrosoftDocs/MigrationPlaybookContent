@@ -36,7 +36,6 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 11. Decode root certificate in Attunity machine SSL Connection for Azure Postgres.
 	a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
 	b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine:
-	
         * If Attunity machine is Windows 10 with Anniversary Update or later, install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
         * If Attunity machine is Windows Server 2016, follow [Windows Server Installation Guide](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server).
 	c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround:
@@ -57,7 +56,3 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 16. The above task would do a full load first, and then apply the changes from source to target for subsequent changes.
 17. Use Table Selection to specify the source tables to sync.
     ![Table selection](https://mpbdevcontent.azureedge.net/Images/attunitytableselection.png)
-
-
-
-
