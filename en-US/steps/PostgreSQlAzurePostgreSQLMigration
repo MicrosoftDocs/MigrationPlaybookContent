@@ -54,7 +54,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
      
 	c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround.
             
-	* Copy OpenSSL executable from [\\scratch2\scratch\Yuchuan\OpenSSL-Win64] to [C:] of Attunity machine.
+	* Copy OpenSSL executable from [scratch2\scratch\Yuchuan\OpenSSL-Win64] to [C:] of Attunity machine.
 	
 	* [Optional] You can decode BaltimoreCyberTrustRoot.cer again by running this command.
           The root.crt is already in the folder: 
