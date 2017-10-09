@@ -50,7 +50,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 	
 	* If Attunity machine is Windows 10 Anniversary Update or later, follow to install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
 
-	* If Attunity machine is Windows Server 2016, follow the [Windows Server Installation](this https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server)
+	* If Attunity machine is Windows Server 2016, follow the [Windows Server Installation](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server)
      
 	c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround.
             
