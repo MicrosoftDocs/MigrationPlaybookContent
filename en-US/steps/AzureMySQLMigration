@@ -33,6 +33,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 1.	For MySQL, Attunity is using import/export technology for initial load. It will export the data into .csv files and using SQL query to insert data into the target MySQL Server. Any changes happens in the source while the initial load is happening, Attunity uses MySQL binlog to identify the changes and replay the changes to target server (i.e. replication).
 
 2.	Enable binlog=row in AWS RDS using **parameter group** in RDS Dashboard.
+   ![RDS Dashboard](https://mpbdevcontent.azureedge.net/Images/sourcesetupparameters.png)
 
 3.	Reboot MySQL to take effect.
 
@@ -40,9 +41,11 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 
 1.	Use Attunity UI to setup replication (i.e. migration). Go to https://localhost/attunityreplicate, it should bring you to the homepage.
 
-2.	Select New Task, give it a name, choose the settings as shown below:
+2.	Select New Task, give it a name, choose the settings as shown below
+   ![New Task Creation](https://mpbdevcontent.azureedge.net/Images/attunitynewtask.png)
  
-3.	Select Manage Endpoint Connections on the top menu bar:
+3.	Select Manage Endpoint Connections on the top menu bar
+   ![Manage endpoints](https://mpbdevcontent.azureedge.net/Images/attunitymanageendpoint.png)
  
 4.	Select + New Endpoint Connection on the top menu bar:
  
