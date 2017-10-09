@@ -69,16 +69,16 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 11. Navigate to Table Selection on the right hand panel.
    ![Table selection](https://mpbdevcontent.azureedge.net/Images/attunitymysqltableselection.png)
  
-12. Select the table schema, which is the database you want to replicate. Click Include, it will show you the table list
+12. Select the table schema, which is the database you want to replicate. Click Include, it will show you the table list:
    ![Table list](https://mpbdevcontent.azureedge.net/Images/attunitytablelist.png)
  
-13.	Select tables that you want to replicate using the arrow button.
+13. Select tables that you want to replicate using the arrow button.
 
-14.	Press OK, Save the task.
+14. Press OK, Save the task.
 
-15.	At this point, all the information needed is setup in the task.
+15. At this point, all the information needed is setup in the task.
 
-16.	You can start to Run, or setup a time to Run the task.
+16. You can start to Run, or setup a time to Run the task.
 
 ### Monitor Attunity Replication task
 
