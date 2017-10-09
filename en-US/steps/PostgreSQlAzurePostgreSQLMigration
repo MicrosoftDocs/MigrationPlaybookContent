@@ -53,6 +53,10 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 14. Once the source and target connections are created, proceed to creating a task for the Sync.
 15. Drag and drop to specify source and target for the task. 
     ![Drag and drop](https://mpbdevcontent.azureedge.net/Images/attunitydragdrop.png)
+16. The above task would do a full load first, and then apply the changes from source to target for subsequent changes.
+17. Use Table Selection to specify the source tables to sync.
+    ![Table selection](https://mpbdevcontent.azureedge.net/Images/attunitytableselection.png)
+
 
 
 
