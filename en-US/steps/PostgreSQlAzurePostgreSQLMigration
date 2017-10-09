@@ -61,3 +61,28 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 19. Use the Monitor tab on the top right to view the status of the deployed tasks.
 20. Once the tasks start running, Check the target database on Azure Postgtres to see if the configured table is created and all the rows copied.
 21. Make changes to the table on the source database (insert/delete/update) and run queries against the target table to see if those changes are reflected.
+
+### Setup Errors and Resolutions
+
+Below are some errors you might encounter with the initial task creation and their resolutions.
+
+1. RetCode: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if max_replication_slots > 0;
+Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)
+
+_Resolution: Set max_replication_slots to greater than 0 in the Postgres source server configuration. 
+The max_replication_slots value should be set according to the number of tasks that you
+want to run. For example, to run 5 tasks you need to set a minimum of 5 slots. Slots open
+automatically as soon as a task starts and remain open, even when task is no longer running.
+Note that open slots need to be manually deleted.
+max_wal_senders >=1
+The max_wal_senders parameter sets the number of concurrent tasks that can run.
+The wal_sender_timeout parameter terminates replication connections that are inactive
+longer than the specified number of milliseconds. The default timeout is 60 seconds. To
+disable the timeout mechanism (optional), set this parameter to zero.
+
+To be more clear, set the parameters like this in postgresql.config(remember to remove the # (comment)). Do not use ">", postgres does not recognize this.
+wal_level = logical			# minimal, replica, or logical
+max_wal_senders = 3		# max number of walsender processes
+max_replication_slots = 1	# max number of replication slots_
+
+
