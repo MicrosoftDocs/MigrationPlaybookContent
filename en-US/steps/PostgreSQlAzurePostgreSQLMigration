@@ -46,7 +46,7 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
    
 	a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
    
-	b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine
+	b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine.
 	
 	* If Attunity machine is Windows 10 Anniversary Update or later, follow to install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
 
