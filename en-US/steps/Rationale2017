@@ -56,9 +56,10 @@ These automatic plan correction features help to maintain the performance of dat
 
 **SQL Graph**
 
-Customers need to do more than just manage large volumes of data. They also need to analyze their existing data more effectively to 
-understand its relationships and patterns. Querying data from a relational schema by using traditional SQL queries can be made easier. SQL Server 2017 introduces SQL Graph to make modeling and analyzing relationships easier by allowing users to handle the 
-relationships in a more flexible and agile way. 
+Customers need to do more than just manage large volumes of data. They also need to analyze their existing data more effectively 
+to understand its relationships and patterns. Querying data from a relational schema by using traditional SQL queries can be made easier.
+SQL Server 2017 introduces SQL Graph to make modeling and analyzing relationships easier by allowing users to 
+handle the relationships in a more flexible and agile way. 
 
 **Resumable Online Index Rebuild**
 
