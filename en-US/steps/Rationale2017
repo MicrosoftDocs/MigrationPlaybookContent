@@ -1,11 +1,11 @@
 <!--Rationale for Migrating-->
 
 Microsoft SQL Server 2017 powers your entire data estate by supporting structured and unstructured data sources. 
-It builds on the previous versions of SQL Server, which have been industry leading for four years in a row and a leader in TPC-E. 
-It scales to petabytes of data and allows processing of big data through Polybase using T-SQL over any data. 
-SQL Server has also been the least vulnerable database during the last seven years. 
+It builds on previous versions of SQL Server, which have been industry leading for four years in a row and and have held a leading spot in TPC-E benchmark testing. 
+SQL Server 2017 scales to accomodate petabytes of data and allows processing of big data through Polybase by using T-SQL over any data. 
+SQL Server has also been the least vulnerable database over the last seven years. 
 
-Consider the detail in the following sections when evaluating the rationale for migrating.
+When evaluating your rationale for migrating, consider the detail provided in the following sections.
 
 **Security**
 
@@ -14,52 +14,58 @@ lowest number of reported security vulnerabilities across the major database ven
 
 **Performance**
 
-SQL Server owns the top TPC-E performance benchmarks for transaction processing, the top TPC-H performance benchmarks for data 
-warehousing, and the top performance benchmarks with leading business applications. In April 2017, Hewlett Packard Enterprise
-published a new TPC-H 1TB world record with SQL Server 2017 running on Linux.
+SQL Server holds the top:
+- TPC-E performance benchmarks for transaction processing.
+- TPC-H performance benchmarks for data warehousing.
+- Performance benchmarks with leading business applications.
+
+In addition, in April 2017 Hewlett Packard Enterprise published a new TPC-H 1TB world record with SQL Server 2017 running on Linux.
 
 **Total cost of ownership**
 
 SQL Server has a significantly lower total cost of ownership (TCO) than similar enterprise data solutions. In some cases, the TCO of 
-SQL Server 2016 was found to be as low as 1/12th the cost of comparable products/features. The TCO analysis tool can help to determine the real difference in cost between a current Oracle solution and SQL Server. 
-The TCO Calculator provides a custom report showing the specific cost savings and benefits a customer can anticipate by migrating 
-from Oracle to SQL Server. 
+SQL Server 2016 has been found to cost a mere 1/12th of comparable products/features. The TCO Calculator can help to determine the real difference in cost between a current Oracle solution and SQL Server. 
+The tool also provides a custom report showing the specific cost savings and benefits that a customer can anticipate by migrating 
+from Oracle to SQL Server.
 
-Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to run a cost analysis on your migrations.
+Note: Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to run a cost analysis on your migrations.
 
-**The power of SQL Server now on Linux and containers**
+**The power of SQL Server now on Linux and Container Instances**
 
 SQL Server 2017 offers the best performance and security features, and they are now available on all supported platforms, 
-including Windows, Linux, and containers. High-performance features bring record-breaking speed to data-driven applications. 
-These features include columnstore (which provides column-based data storage and processing to achieve up to 10 times the query 
-performance and data compression of row-based storage) and in-memory OLTP (which brings transaction processing to memory-optimized 
-tables at more than 2.5 times the speed of disk-based tables). Security features like Auditing, Transparent Data Encryption, 
-Row-Level Security, Dynamic Data Masking and Always Encrypted provide server-side security measures that vastly simplify the process 
-for keeping data safe from unauthorized access, without the need to modify existing client applications. Auditing enables teams to 
-monitor access and track potentially suspicious activity. Transparent Data Encryption protects data at rest at a file level, 
-while Always Encrypted secures data in motion and at rest. With these capabilities available on all SQL Server editions, 
-organizations can choose their deployment environment by operational need, as opposed to desired features. 
+including Windows, Linux, and Azure Container Instances. High-performance features bring record-breaking speed to data-driven applications. 
+These features include:
+- Columnstore, which provides column-based data storage and processing to achieve up to 10 times the query 
+performance and data compression of row-based storage.
+- In-memory OLTP, which brings transaction processing to memory-optimized tables at more than 2.5 times the speed of disk-based tables.
+
+Security features provide server-side security measures that vastly simplify the process of keeping data safe from unauthorized access without the need to modify existing client applications. These features include:
+- Auditing, which enables teams to monitor access and track potentially suspicious activity.
+- Transparent Data Encryption, which protects data at rest at a file level.
+- Row-Level Security, which enables developers to implement fine-grained access control over rows in a database table.
+- Dynamic Data Masking, which enables customers to designate how much of the sensitive data to reveal with minimal impact on the application layer.
+- Always Encrypted, which secures data in motion and at rest.
+
+With these capabilities available on all editions of SQL Server, organizations can choose their deployment environment by operational need rather than desired features. 
 
 **Adaptive Query Processing feature family**
 
-New in SQL Server 2017, Adaptive Query Processing introduces new capabilities that allow the SQL Server query processor to modify 
+New in SQL Server 2017, Adaptive Query Processing introduces additional capabilities that allow the SQL Server query processor to modify 
 plan choices based on runtime characteristics. During query processing and optimization, the cardinality estimation (CE) 
 process is responsible for estimating the number of rows processed at each step in an execution plan. 
 Inaccurate estimates can cause slow query response time, excessive resource utilization (CPU, Memory, IO), and reduced throughput 
 and concurrency. To improve CE techniques, SQL Server 2017 introduces a new feature family: adaptive query processing (AQP). 
-AQP improves the handling of the more intractable CE issues. 
+AQP improves handling of the more intractable CE issues. 
 
 **Automatic plan correction**
 
-New features in SQL Server 2017 detect plan choice regressions and give recommendations on how to fix the problem. 
+SQL Server 2017 also includes new features designed to detect plan choice regressions and provide recommendations on how to fix problems. 
 These automatic plan correction features help to maintain the performance of data queries, even when application changes occur. 
 
 **SQL Graph**
 
-Customers need to do more than just manage large volumes of data. They also need to analyze their existing data more effectively 
-to understand its relationships and patterns. Querying data from a relational schema by using traditional SQL queries can be made easier.
-SQL Server 2017 introduces SQL Graph to make modeling and analyzing relationships easier by allowing users to 
-handle the relationships in a more flexible and agile way. 
+Customers want more than the ability to manage large volumes of data; they also need to analyze existing data more effectively to understand its relationships and patterns. Querying data from a relational schema by using traditional SQL queries can be a complex task.
+SQL Server 2017 introduces SQL Graph to make modeling and analyzing relationships easier by allowing users to handle relationships in a more flexible and agile way. 
 
 **Resumable Online Index Rebuild**
 
@@ -73,8 +79,7 @@ require significant log space, which allows you to perform log truncation while 
 
 **In-Memory OLTP enhancements in SQL Server 2017**
 
-A feature since SQL Server 2014, In-memory technology for SQL Server dramatically improves the throughput and latency of SQL Server 
-OLTP capabilities. It is designed to meet the requirements of the most demanding transaction processing applications, and Microsoft 
+First appearing as a feature in SQL Server 2014, in-memory technology for SQL Server dramatically improves the throughput and latency of SQL Server 
+OLTP capabilities. This functionality is designed to meet the requirements of the most demanding transaction processing applications, and Microsoft 
 has worked closely with several companies to prove these gains. SQL Server 2017 adds features to improve the performance and 
-supportability of In-Memory OLTP workloads. In addition, many limitations on tables and stored procedures have been removed 
-to make it easier to migrate your applications and take advantage of the benefits of In-Memory OLTP. 
+supportability of In-Memory OLTP workloads. In addition, we have removed many limitations on tables and stored procedures to make it easier to migrate applications and take advantage of the benefits of In-Memory OLTP.
