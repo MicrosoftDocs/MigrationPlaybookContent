@@ -19,6 +19,4 @@ Each phase in the data migration process is briefly described in the following t
 
 For more detail on a specific phase, see the Pre-Migration, Migration, and Post-Migration steps.
 
-For comprehensive details on upgrading SQL Server, see the topic [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server) 
-
 If you require assistance with your migration, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.
