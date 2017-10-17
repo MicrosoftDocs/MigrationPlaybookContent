@@ -12,7 +12,7 @@
 				"MySQL",
 				"PostgreSQL",
 				"SAP ASE",
-				"Access"
+				"Access",
 			],
 			"required": "true"
 		},
