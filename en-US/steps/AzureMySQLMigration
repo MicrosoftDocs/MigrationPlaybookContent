@@ -13,3 +13,77 @@ Proposed sequence and usage of tools:
 2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target MySQL on Aure.
 
 Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
+
+### Setting up Attunity for MySQL Replication
+
+1.	Setup a Windows Virtual Machine in Azure with the minimum of 4 vCPUs, 28GB of RAM. DS12_V2 Standard SKU from Azure Windows Server 2016 should work. Setup the VM in the same region as the target Azure MySQL. Attunity works on Linux as well.
+
+2.	Download [Attunity](http://discover.attunity.com/download-replicate-microsoft-lp6657.html). Make sure to select at least one Database Migration Scenario and at least one Data Warehouse Migration Scenarios.
+
+3.	Install Attunity through its install wizard
+
+4.	After setup, you should see Attunity Replicate Server and Attunity Replicate UI Server running in Windows Services.
+
+   ![Windows services](https://mpbdevcontent.azureedge.net/Images/windowsservices.png)
+
+5.	Download [MySQL ODBC Connection]( https://dev.mysql.com/downloads/connector/odbc/) and install on this VM.
+
+### Setting up the Source
+
+1.	For MySQL, Attunity is using import/export technology for initial load. It will export the data into .csv files and using SQL query to insert data into the target MySQL Server. Any changes happens in the source while the initial load is happening, Attunity uses MySQL binlog to identify the changes and replay the changes to target server (i.e. replication).
+
+2.	Enable binlog=row in AWS RDS using **parameter group** in RDS Dashboard.
+   ![RDS Dashboard](https://mpbdevcontent.azureedge.net/Images/sourcesetupparameters.png)
+
+3.	Reboot MySQL to take effect.
+
+### Setting up Attunity Replication task
+
+1.	Use Attunity UI to setup replication (i.e. migration). Go to https://localhost/attunityreplicate, it should bring you to the homepage.
+
+2.	Select New Task, give it a name, choose the settings as shown below
+   ![New Task Creation](https://mpbdevcontent.azureedge.net/Images/attunitynewtask.png)
+ 
+3.	Select Manage Endpoint Connections on the top menu bar
+   ![Manage endpoints](https://mpbdevcontent.azureedge.net/Images/attunitymanageendpoint.png)
+ 
+4.	Select + New Endpoint Connection on the top menu bar
+   ![New connection endpoints](https://mpbdevcontent.azureedge.net/Images/attunitynewendpoint.png)
+ 
+5.	Setup the Source endpoint. Name the endpoint. This should be the source MySQL Server. Select Type= MySQL
+
+6.	Enter Server name, Port=3306, User name and Password. Remember to test connection to make sure connectivity is established. Save this endpoint.
+   ![New connection endpoints parameters](https://mpbdevcontent.azureedge.net/Images/attunityendpointparam.png)
+ 
+7.	Setup Targets- select + New Endpoint Connection again. Name the source endpoint. Select Target, and select Type=MySQL. This should the Azure Database for MySQL server that you have configured in Azure.
+
+8.	Enter Server name, port:3306, user name and password. Browse to the database to the database that you want the data to migrate to. **Note:** Attunity will not create the database for you in Azure MySQL. You have to create one. Remember to test connection to make sure connectivity is established. Save this endpoint.
+   ![New connection endpoints parameters](https://mpbdevcontent.azureedge.net/Images/attunitytestconnection.png)
+ 
+9.	Navigate to Advanced tab in the target end points, increase Parallel load threads to 5. Default value is 1. Click Save.
+   ![New connection endpoints parameters](https://mpbdevcontent.azureedge.net/Images/attunityadvancedconnection.png)
+ 
+10. In the task that you have created, drag the source end point, and target end point to the task diagram.
+   ![Drag & Drop](https://mpbdevcontent.azureedge.net/Images/attunitymysqldragdrop.png)
+ 
+11. Navigate to Table Selection on the right hand panel.
+   ![Table selection](https://mpbdevcontent.azureedge.net/Images/attunitymysqltableselection.png)
+ 
+12. Select the table schema, which is the database you want to replicate. Click Include, it will show you the table list:
+   ![Table list](https://mpbdevcontent.azureedge.net/Images/attunitytablelist.png)
+ 
+13. Select tables that you want to replicate using the arrow button.
+
+14. Press OK, Save the task.
+
+15. At this point, all the information needed is setup in the task.
+
+16. You can start to Run, or setup a time to Run the task.
+
+### Monitor Attunity Replication task
+
+1. As soon as you start the replication task, you can see the progress and error from this pane.
+   ![Monitor tasks](https://mpbdevcontent.azureedge.net/Images/attunitymonitortask.png)
+
+2. You can also view all the log files and also download them.
+   ![Download logs](https://mpbdevcontent.azureedge.net/Images/attunitymonitorlogs.png)
