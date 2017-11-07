@@ -4,10 +4,10 @@
 	"description": "No SQL Database",
 	"steps": [
 		{
-			"name": "Migration",
+			"name": "Cosmos DB Migration Options",
 			"items": [
 				{
-					"filelocation": "AccessAzureMigration",
+					"filelocation": "MongoCosmosMigration",
 					"actions": []
 				}
 			]
