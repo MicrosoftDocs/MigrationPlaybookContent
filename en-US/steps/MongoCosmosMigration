@@ -1,8 +1,10 @@
-<!--Migrate-->
+<!--Migration Tools-->
 
-There are three options available for migrating from MongoDB to Azure Cosmos DB.
+There are three options available to lift and shift your Mongo DB to Azure Cosmos DB.
 
-•	One option is to use mongoimport, which is a utility supplied as part of MongoDB distribution that is able to import data from JSON or CSV files to the MongoDB. 
-•	Another option is mongorestore, which is also part of MongoDB distribution and is used to restore MongoDB dump files (snapshots) into MongoDB. 
-•	The other option is the Azure Cosmos DB Data Migration tool, just make sure to set the source to MongoDB.
+* Option #1: One option is to use mongoimport, which is a utility supplied as part of MongoDB distribution that is able to import data from JSON or CSV files to the MongoDB. 
+
+*	Option #2: Another option is mongorestore, which is also part of MongoDB distribution and is used to restore MongoDB dump files (snapshots) into MongoDB. 
+
+*	Option #3: The other option is the Azure Cosmos DB Data Migration tool, just make sure to set the source to MongoDB.
 
