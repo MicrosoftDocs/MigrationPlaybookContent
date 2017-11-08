@@ -26,7 +26,6 @@
 				"Azure SQL Database",
 				"Azure MySQL",
 				"Azure PostgreSQL",
-				"Azure Cosmos DB",
 				"Help me decide"
 			],
 			"required": "true"
