@@ -1,6 +1,6 @@
 <!--Migration Tools-->
 
-There are three options available to lift and shift your Mongo DB to Azure Cosmos DB.
+There are three options available to lift and shift your MongoDB to Azure Cosmos DB.
 
 **Option #1: Import data to the API for MongoDB by using mongoimport** 
 
