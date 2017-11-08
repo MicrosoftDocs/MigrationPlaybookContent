@@ -4,7 +4,7 @@
 	"description": "No SQL Database",
 	"steps": [
 		{
-			"name": "Azure Cosmos Database migrations",
+			"name": "Migration options",
 			"items": [
 				{
 					"filelocation": "MongoCosmosMigration",
