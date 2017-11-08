@@ -4,13 +4,13 @@
 	"description": "No SQL Database",
 	"steps": [
 	 {
-		  	"name": "Azure Cosmos Database migrations",
+		  	"name": "Migration options to Azure Cosmos DB",
 			  "items": [
 				 {
 				      "filelocation": "AzureTableCosmosMigration",
 					    "actions": []
 				},
-     	],
+     			],
 		},
 	],
   
