@@ -1,4 +1,4 @@
-<!--Migration Tools-->
+<!--Migrating from MongoDB-->
 
 There are three options available to lift and shift your MongoDB to Azure Cosmos DB.
 
