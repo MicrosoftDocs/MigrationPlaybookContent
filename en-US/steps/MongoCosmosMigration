@@ -11,5 +11,7 @@ to you Azure Cosmos DB account, use the following [template](https://docs.micros
 
 This is also part of MongoDB distribution and is used to restore MongoDB dump files (snapshots) into MongoDB. Use the following [template](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-migrate#import-data-to-the-api-for-mongodb-by-using-mongorestore) to execute the import.
 
-**Option #3**: The other option is the Azure Cosmos DB Data Migration tool, just make sure to set the source to MongoDB.
+**Option #3: Azure Cosmos DB Data Migration Tool**
 
+The other option is the Azure Cosmos DB Data Migration tool, which is an open source solution that imports data to Azure Cosmos DB from a variety of sources, including: MongoDB, JSON files, SQL Server, etc. 
+Follow these [instructions](https://docs.microsoft.com/en-us/azure/cosmos-db/import-data) on how to download and use the tool.
