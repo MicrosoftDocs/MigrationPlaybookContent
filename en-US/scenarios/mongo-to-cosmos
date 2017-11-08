@@ -4,10 +4,17 @@
 	"description": "No SQL Database",
 	"steps": [
 		{
-			"name": "Cosmos DB Migration Options",
+			"name": "Lif and shift MongoDB",
 			"items": [
 				{
 					"filelocation": "MongoCosmosMigration",
+					"actions": []
+				}
+			],
+			"name": "Migrating from Azure Table storage",
+			"items": [
+				{
+					"filelocation": "AzureTableCosmosMigration",
 					"actions": []
 				}
 			]
