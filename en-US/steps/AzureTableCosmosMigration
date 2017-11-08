@@ -2,7 +2,13 @@
 
 There are two options available for migrating from Azure Table Storage to Azure Cosmos DB Table API. 
 
-**One option is to use AZCopy** 
+**Option #1: Move data using AZCopy** 
 
-**The other option is the Azure Cosmos DB Data Migration tool, just make sure to set the source to Azure Table Storage.**
+One option is to use [AzCopy]{https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) to transfer data from
+Azure Table Storage to Azure Cosmos Database. 
 
+**Option #2: Azure Cosmos DB Data Migration Tool**
+
+The other option is the Azure Cosmos DB Data Migration tool, just make sure to set the source to Azure Table Storage.**
+
+Note: If you are migrating from a data source that is not listed here to Azure Cosmos DB, please send an email to **AskCosmosDB@microsoft.com** and the product team will help you with migration.
