@@ -10,10 +10,6 @@
 					"filelocation": "MongoCosmosMigration",
 					"actions": []
 				},
-				{
-					"filelocation": "AzureTableCosmosMigration",
-					"actions": []
-				},
 			],
 		},
 	],
