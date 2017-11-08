@@ -107,6 +107,6 @@
 		"source5_target1" : "sybase-to-azuresql",
 		"source6_target0" : "access-to-sqlserver",
 		"source6_target1" : "access-to-azuresql",
-		"source7_target1" : "mongo-to-cosmos"
+		"source7_target4" : "mongo-to-cosmos"
 	}
 }
