@@ -1,5 +1,5 @@
 {
-	"displayname": "Moving to Azure Cosmos Database",
+	"displayname": "Moving to Azure Cosmos DB",
 	"emailmessage": "Check out what it takes to migrate MongoDB and Azure Table Storage to Azure Cosmos Database:",
 	"description": "No SQL Database",
 	"steps": [
