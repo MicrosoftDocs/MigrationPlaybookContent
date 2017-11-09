@@ -13,6 +13,8 @@
 				"PostgreSQL",
 				"SAP ASE",
 				"Access",
+				"MongoDB",
+				"Azure Table Storage"
 			],
 			"required": "true"
 		},
@@ -25,7 +27,7 @@
 				"Azure SQL Database",
 				"Azure MySQL",
 				"Azure PostgreSQL",
-				"Help me decide"
+				"Azure Cosmos DB"
 			],
 			"required": "true"
 		},
@@ -104,6 +106,8 @@
 		"source5_target0" : "sybase-to-sqlserver",
 		"source5_target1" : "sybase-to-azuresql",
 		"source6_target0" : "access-to-sqlserver",
-		"source6_target1" : "access-to-azuresql"
+		"source6_target1" : "access-to-azuresql",
+		"source7_target4" : "mongo-to-cosmos",
+		"source8_target4" : "azuretable-to-cosmos"
 	}
 }
