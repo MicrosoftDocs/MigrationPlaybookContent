@@ -1,1 +1,46 @@
 <!--Migrate Data-->
+
+When your schema has been successfully migrated to the target, the next step is to execute the data movement. Azure Database Migration 
+Service (DMS) can be used to acheive this.
+
+### Steps
+
+To use DMA to create a migration project, perform the following steps.
+
+1. Create a **New Migration** project
+
+    a. Click on the New icon and select “Migration” project type. Select "SQL Server" as source and "Azure SQL Database" as target type. 
+    
+    b. Choose the "Migration scope" as "Schema only". Click "Create"
+
+    ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
+
+   c. Provide source SQL server conenction details. Click "Connect". Select databases you want assessed. Click "Next"
+
+    ![Source Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttosource.png)    
+
+    d. Provide target Azure SQL Database conenction details. Click "Connect". Select a single database in Azure SQL Database target. Click "Next"
+    
+    ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
+    
+    e. Select database schema objects from the source that you want migrated. Click "Generate SQL Script"
+    
+    ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbgeneratescript.png)    
+    
+    f. Script is generated and they can be edited in the textarea before deployment. If no edits are required, click "Deploy Schema"
+    
+    ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dmaazuredbdeployschema.png)  
+    
+    Note: Review the right pane for deployment status. Update the deployment script(s) for failures and attempt re-deploying schema.
+    
+    g. Once schema deployment is successful, click on "Migrate Data". Select tables containing data you want migrated
+    
+    ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbselecttables.png)  
+    
+    Note: For data migration, only one database can be moved at a given time. Repeat the steps above for subsequent database migration
+    
+    h. Click "Start data migration". 
+    
+    g. Review Migration Results when the process is completed
+    
+    ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbmigratedata.png)  
