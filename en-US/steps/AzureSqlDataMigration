@@ -31,6 +31,17 @@ To use DMS to run a migration project, perform the following steps.
     
 3. Specify **source details**
 
+    a. On the Source details screen, specify the connection details for the source SQL Server 2016 Express edition.
+    
+    ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep1.png)    
+    
+    b. Select Save, and then select the AdventureWorks2012 database for migration. 
+    
+    ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep2.png)    
+    
+4. Specify **target details**
+    
+
 
 
 
