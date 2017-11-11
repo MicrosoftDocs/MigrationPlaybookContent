@@ -35,11 +35,24 @@ To use DMS to run a migration project, perform the following steps.
     
     ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep1.png)    
     
-    b. Select Save, and then select the AdventureWorks2012 database for migration. 
+    b. Select "Save", and then select the AdventureWorks2012 database for migration. 
     
     ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep2.png)    
     
 4. Specify **target details**
+
+    a. Select "Save", and then on the Target details screen, specify the connection details for the target, which is the pre-provisioned Azure SQL Database to which the AdventureWorks2012 schema was deployed by using Data Migration Assistant.
+    
+    ![Specify target details](https://mpbdevcontent.azureedge.net/Images/DMSTargetStep1.png) 
+    
+    b. Select "Save" to save the project.
+    
+    c. On the Migration summary screen, review and verify the details associated with the migration project, and then select "Save".
+    
+    ![Migration sumamry](https://mpbdevcontent.azureedge.net/Images/DMSSummaryStep.png) 
+    
+
+    
     
 
 
