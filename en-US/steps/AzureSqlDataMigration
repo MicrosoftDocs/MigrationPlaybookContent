@@ -63,7 +63,9 @@ To use DMS to run a migration project, perform the following steps.
     
     e. On the Migration summary screen, in the Activity name text box, specify a name for the migration activity. On this screen, you can also expand the Validation Option screen, which you can use to specify to validate the migrated database for:
         *Schema
+        
         *Data Consistency
+        
         *Query Correctness and Performance
         
     f. Select "Save", review the summary to ensure that the source and target details match what you previously specified.
