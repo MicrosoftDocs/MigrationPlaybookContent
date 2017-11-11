@@ -21,8 +21,6 @@ To use DMS to run a migration project, perform the following steps.
     
 2. Create a **migration project**
 
-    After the service is created, you are redirected to the service page, which you can use to create a migration project.
-
     a.	Select + New Migration Project.
     
     b.	On the New migration project screen, specify a name for the project, in the Source server type text box, select SQL Server, and then in the Target server type text box, select Azure SQL Database
