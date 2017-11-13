@@ -1,0 +1,104 @@
+<!--Migrate Data-->
+
+When your schema has been successfully migrated to the target, the next step is to execute the data movement. Azure Database Migration 
+Service (DMS) can be used to acheive this.
+
+### Steps
+
+To use DMS to run a migration project, perform the following steps.
+
+1. Create an instance of **Azure Database Migration Service**
+
+    a. Log in to the Azure portal, select New, and then search for Azure Database Migration Service.
+    
+    b. On the Azure data migration service (preview) screen, select Create.
+
+    ![New Service Creation](https://mpbdevcontent.azureedge.net/Images/DMSAzurePortal.png)    
+
+    c. Specify a name for the service, the subscription, a virtual network, and the pricing tier. 
+    For more information on costs and pricing tiers, see the [pricing](https://aka.ms/dms-pricing) page.
+
+    d. Select "Create" to create the service.
+    
+2. Create a **migration project**
+
+    a.	Select + New Migration Project.
+    
+    b.	On the New migration project screen, specify a name for the project, in the Source server type text box, select SQL Server, and then in the Target server type text box, select Azure SQL Database
+    
+    c.	Select "Create" to create the project.
+    
+3. Specify **source details**
+
+    a. On the Source details screen, specify the connection details for the source SQL Server 2016 Express edition.
+    
+    ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep1.png)    
+    
+    b. Select "Save", and then select the AdventureWorks2012 database for migration. 
+    
+    ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep2.png)    
+    
+4. Specify **target details**
+
+    a. Select "Save", and then on the Target details screen, specify the connection details for the target, which is the pre-provisioned Azure SQL Database to which the AdventureWorks2012 schema was deployed by using Data Migration Assistant.
+    
+    ![Specify target details](https://mpbdevcontent.azureedge.net/Images/DMSTargetStep1.png) 
+    
+    b. Select "Save" to save the project.
+    
+    c. On the Migration summary screen, review and verify the details associated with the migration project, and then select "Save".
+    
+    ![Migration sumamry](https://mpbdevcontent.azureedge.net/Images/DMSSummaryStep.png) 
+    
+5. **Run the migration** activity
+
+    a. Select the recently saved project, select "+ New Activity", and then select "Run Data Migration".
+    
+    ![Run Migration](https://mpbdevcontent.azureedge.net/Images/DMSRunMigration.png) 
+    
+    b.	When prompted, enter the credentials for the source and the target servers, and then select "Save".
+    
+    c. On the "Map to target databases" screen, map the source and the target database for migration. If the target database contains the same database name as the source database, Azure DMS selects the target database by default.
+    
+    ![Map target databases](https://mpbdevcontent.azureedge.net/Images/DMSMapTargetDB.png) 
+    
+    d. Select "Save", on the "Select tables" screen, expand the table listing and review the list of affected fields.
+    
+    ![Select target tables](https://mpbdevcontent.azureedge.net/Images/DMSTargetSelectTables.png) 
+    
+    e. On the Migration summary screen, in the Activity name text box, specify a name for the migration activity. On this screen, you can also expand the Validation Option screen, which you can use to specify to validate the migrated database for:
+        *Schema
+        
+        *Data Consistency
+        
+        *Query Correctness and Performance
+        
+    f. Select "Save", review the summary to ensure that the source and target details match what you previously specified.
+    
+    ![Target summary](https://mpbdevcontent.azureedge.net/Images/DMSTargetSummary.png) 
+    
+    g. Select "Run migration" to start the migration activity.
+    
+6. **Monitor the migration** 
+
+    a. Select the migration activity to review the status of the activity.
+    
+    b. Click on "Download Report" to view a detailed report on your migration run.   
+    
+    ![Download Report](https://mpbdevcontent.azureedge.net/Images/DMSDownloadReport.png) 
+    
+    c. Verify the target Azure SQL Database after the migration is complete.
+    
+    
+
+
+    
+
+    
+    
+
+
+
+
+    
+   
