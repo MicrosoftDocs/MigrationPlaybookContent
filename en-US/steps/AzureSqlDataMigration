@@ -15,7 +15,8 @@ To use DMS to run a migration project, perform the following steps.
 
     ![New Service Creation](https://mpbdevcontent.azureedge.net/Images/DMSAzurePortal.png)    
 
-    c. Specify a name for the service, the subscription, a virtual network, and the pricing tier. For more information on costs and pricing tiers, see the pricing page.
+    c. Specify a name for the service, the subscription, a virtual network, and the pricing tier. 
+    For more information on costs and pricing tiers, see the [pricing](https://aka.ms/dms-pricing) page.
 
     d. Select "Create" to create the service.
     
