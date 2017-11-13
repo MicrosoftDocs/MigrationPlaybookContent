@@ -1,6 +1,6 @@
-<!--Migrate-->
+<!--Migrate Schema-->
 
-After assessing your databases, the next step is to execute the migration process for the schema and database. Data Migration Assistant (DMA) can be used acheive this.
+After assessing your databases, the next step is to execute the migration process for the schema. Data Migration Assistant (DMA) can be used to acheive this.
 
 ### Steps
 
@@ -10,7 +10,7 @@ To use DMA to create a migration project, perform the following steps.
 
     a. Click on the New icon and select “Migration” project type. Select "SQL Server" as source and "Azure SQL Database" as target type. 
     
-    b. Choose the "Migration scope" as "Schema and Data". Click "Create"
+    b. Choose the "Migration scope" as "Schema only". Click "Create"
 
     ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
 
