@@ -54,11 +54,17 @@ To use DMS to run a migration project, perform the following steps.
 
     a. Select the recently saved project, select "+ New Activity", and then select "Run Data Migration".
     
+    ![Run Migration](https://mpbdevcontent.azureedge.net/Images/DMSRunMigration.png) 
+    
     b.	When prompted, enter the credentials for the source and the target servers, and then select "Save".
     
     c. On the "Map to target databases" screen, map the source and the target database for migration. If the target database contains the same database name as the source database, Azure DMS selects the target database by default.
     
+    ![Map target databases](https://mpbdevcontent.azureedge.net/Images/DMSMapTargetDB.png) 
+    
     d. Select "Save", on the "Select tables" screen, expand the table listing and review the list of affected fields.
+    
+    ![Select target tables](https://mpbdevcontent.azureedge.net/Images/DMSTargetSelectTables.png) 
     
     e. On the Migration summary screen, in the Activity name text box, specify a name for the migration activity. On this screen, you can also expand the Validation Option screen, which you can use to specify to validate the migrated database for:
         *Schema
@@ -69,7 +75,19 @@ To use DMS to run a migration project, perform the following steps.
         
     f. Select "Save", review the summary to ensure that the source and target details match what you previously specified.
     
+    ![Target summary](https://mpbdevcontent.azureedge.net/Images/DMSTargetSummary.png) 
+    
     g. Select "Run migration" to start the migration activity.
+    
+6. **Monitor the migration** 
+
+    a. Select the migration activity to review the status of the activity.
+    
+    b. Click on "Download Report" to view a detailed report on your migration run.   
+    
+    ![Download Report](https://mpbdevcontent.azureedge.net/Images/DMSDownloadReport.png) 
+    
+    c. Verify the target Azure SQL Database after the migration is complete.
     
     
 
