@@ -5,6 +5,9 @@ This section describes all supported scenarios and options for an upgrade from o
 * SQL Server 2008 and SQL Server 2008 R2
 * SQL Server 2012
 * SQL Server 2014
+* SQL Server 2016
+* SQL Server 2017 on Linux
+* SQL Server 2017 on Windows
 
 The following targets of Azure are included:
 * Azure SQL Database
@@ -33,3 +36,12 @@ The following data migration options are discussed:
 *	Migration Tools: Migration is supported by DMS and DMA.
 *	Bulk load: Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database.
 
+### From SQL Server 2016
+*	Transactional replication: Transactional replication from SQL Server 2016 to Azure SQL Database is supported.
+*	Migration Tools: Migration is supported by DMS and DMA.
+*	Bulk load: Tables can be bulk copied out from SQL Server 2016 and then bulk copied into Azure SQL Database.
+
+### From SQL Server 2017
+*	Transactional replication: Transactional replication from SQL Server 2017 to Azure SQL Database is supported.
+*	Migration Tools: Migration is supported by DMS and DMA.
+*	Bulk load: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database.
