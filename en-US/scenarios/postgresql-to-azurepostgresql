@@ -14,7 +14,9 @@
 		},
 	],
 	"casestudies": [
-			
+		{
+			"filelocation": "Fracttal"
+		}	
 	],
 	"partners": [
 
