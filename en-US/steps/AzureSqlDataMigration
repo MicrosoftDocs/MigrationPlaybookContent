@@ -7,7 +7,23 @@ Service (DMS) can be used to acheive this.
 
 To use DMS to run a migration project, perform the following steps.
 
-1. Create an instance of **Azure Database Migration Service**
+1. Register the **Microsoft.DataMigration resource provider**
+    
+    Note: if you haven't already registered the resource provider, perform the following steps:
+    
+    a. Log in to the Azure portal, select All services, and then select Subscriptions.
+    
+    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/DMSportalselectsubscription.png)  
+    
+    b. Select the subscription in which you want to create the instance of the Azure Database Migration Service, and then select Resource providers.
+    
+    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/DMSportalselectresourceprovider.png)  
+    
+    c. Search for migration, and then to the right of Microsoft.DataMigration, select Register.
+    
+    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/DMSportalregisterresourceprovider.png)  
+
+2. Create an instance of **Azure Database Migration Service**
 
     a. Log in to the Azure portal, select New, and then search for Azure Database Migration Service.
     
@@ -20,7 +36,7 @@ To use DMS to run a migration project, perform the following steps.
 
     d. Select "Create" to create the service.
     
-2. Create a **migration project**
+3. Create a **migration project**
 
     a.	Select + New Migration Project.
     
@@ -28,7 +44,7 @@ To use DMS to run a migration project, perform the following steps.
     
     c.	Select "Create" to create the project.
     
-3. Specify **source details**
+4. Specify **source details**
 
     a. On the Source details screen, specify the connection details for the source SQL Server 2016 Express edition.
     
@@ -38,7 +54,7 @@ To use DMS to run a migration project, perform the following steps.
     
     ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep2.png)    
     
-4. Specify **target details**
+5. Specify **target details**
 
     a. Select "Save", and then on the Target details screen, specify the connection details for the target, which is the pre-provisioned Azure SQL Database to which the AdventureWorks2012 schema was deployed by using Data Migration Assistant.
     
@@ -50,7 +66,7 @@ To use DMS to run a migration project, perform the following steps.
     
     ![Migration sumamry](https://mpbdevcontent.azureedge.net/Images/DMSSummaryStep.png) 
     
-5. **Run the migration** activity
+6. **Run the migration** activity
 
     a. Select the recently saved project, select "+ New Activity", and then select "Run Data Migration".
     
@@ -79,7 +95,7 @@ To use DMS to run a migration project, perform the following steps.
     
     g. Select "Run migration" to start the migration activity.
     
-6. **Monitor the migration** 
+7. **Monitor the migration** 
 
     a. Select the migration activity to review the status of the activity.
     
