@@ -1,5 +1,5 @@
 {
-	"displayname": "Oracle to Azure PostgreSQL",
+	"displayname": "Migrate Oracle to Azure PostgreSQL",
 	"emailmessage": "Check out the migration process from Oracle to Azure PostgreSQL here:",
 	"description": "",
 	"steps": [

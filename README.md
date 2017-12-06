@@ -112,7 +112,7 @@ Consider the following emaple:
 
 Based on the current `siteConfig` file, a user selecting the first option for source (since Javascript has zero-based indexes this maps to 0) and the first option for target would be directed (mapped) to the file named "sql-to-sqlserver2016."
 
-##Other Migration Guide components
+## Other Migration Guide components
 Other components of the Migration Guide include scenarios, items, steps, actions, partners, and case studies. Each component is explained in further detail in the following sections.
 
 ### Scenarios

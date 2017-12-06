@@ -1,7 +1,7 @@
 <!--Rationale for Migrating-->
 
 Microsoft SQL Server 2017 powers your entire data estate by supporting structured and unstructured data sources. 
-It builds on previous versions of SQL Server, which have been industry leading for four years in a row and and have held a leading spot in TPC-E benchmark testing. 
+It builds on previous versions of SQL Server, which have been industry leading for four years in a row and have held a leading spot in TPC-E benchmark testing. 
 SQL Server 2017 scales to accomodate petabytes of data and allows processing of big data through Polybase by using T-SQL over any data. 
 SQL Server has also been the least vulnerable database over the last seven years. 
 
