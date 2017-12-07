@@ -8,9 +8,9 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
 
 1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and then install it.
 
-2. **Run the MAP tool**.
+2. **Run the MAP Toolkit**.
 
-    a. Open the MAP tool, and then on the left pane, select **Database**.
+    a. Open the MAP Toolkit, and then on the left pane, select **Database**.
     
     You will be on the following screen:
     
@@ -20,11 +20,11 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/mapselectdb.png)
      
-    c. Enter the name of a database, a brief description, and then select **OK**.
+    c. Ensure that **Create an inventory database** is seleted, enter the name of a database, a brief description, and then select **OK**.
     
     ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/mapselectdboverview.png)
     
-    The next step is to collect data from the database created
+    The next step is to collect data from the database created.
 
     d. Select **Collect inventory data**.
     
@@ -34,7 +34,7 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/mapinventorywizard.png)
     
-    f. Select the best method option to search computers on which Microsoft Products are hosted.
+    f. Select the best method option to search the computers on which Microsoft Products are hosted, and then select **Next**.
     
     ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/mapdiscoverymethods.png)
     
@@ -42,27 +42,31 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycreds.png)
     
-    After setting the order of the credentials, you need to specify the credentials for each computer that you want to discover.
+    h. Set the order of the credentials.
     
+    You can use unique credentials for each computer/machine or you can choose to use the **All Computer Credentials** list.
+           
     ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder.png)
     
-    You can use unique credentials for each computer/machine or you can choose to use the all computer credentials list.
+    i. After setting the order of the credentials, select **Next**.
+
+    Now, you need to specify the credentials for each computer that you want to discover.
     
-    h. After setting up the credentials, select **Save**, and then select **Next**.
+    j. After setting up the credentials, select **Save**, and then select **Next**.
     
     ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsindividual.png)
     
-    j. Verify your selection summary, and then select **Finish**.
+    k. Verify your selection summary, and then select **Finish**.
     
     ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdiscoverysummary.png)
     
-    k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
+    l. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
     
     ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdatacollectionsummary.png)
     
-    l. Select **Close**.
+    m. Select **Close**.
     
-    The Main window of the tool appears, showing a summary of the Database Discovery comlpeted so far.
+    The Main window of the tool appears, showing a summary of the Database Discovery completed so far.
     
  3. **Report generation and Data collection**.
     
