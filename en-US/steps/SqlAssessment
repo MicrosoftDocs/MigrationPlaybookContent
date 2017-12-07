@@ -14,32 +14,30 @@ To use DMA to create an assessment, perform the following steps.
     
     ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
     
-    b. Select the target SQL Server version that you plan to migrate to and against which you need to run an assessment.
-
-    c. Select one or both of the assessment report types (**Compatibility Issues** and **New features’ recommendation**), and then select *Next**.
+    b. Select the target SQL Server version that you plan to migrate to and against which you need to run an assessment, select one or both of the assessment report types (**Compatibility Issues** and **New features’ recommendation**), and then select **Next**.
     
     ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)   
     
-    d. Select **Add Sources** to open the connection fly-out.
+    c. Select **Add Sources** to open the connection fly-out.
         
-        *Enter the SQL server instance name, select the Authentication type, and then set the correct connection properties.    
-        *Select **Connect**.
-        *Select the databases you that want to assess, and then select **Add**.
-        *Select **Next**.
+        - Enter the SQL server instance name, select the Authentication type, and then set the correct connection properties.    
+        - Select **Connect**.
+        - Select the databases you that want to assess, and then select **Add**.
+        - Select **Next**.
         
     ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
     
-    e. Now wait for the assessment results; the duration of the assessment depends on the number of databases added and the schema size of each database.
+    d. Now wait for the assessment results; the duration of the assessment depends on the number of databases added and the schema size of each database.
     
     Results will be displayed per database as soon as they are available.
     
-    f. Select the database that has completed assessment, and then switch between **Compatibility issues** and **Feature recommendations** by using the switcher.
+    e. Select the database that has completed assessment, and then switch between **Compatibility issues** and **Feature recommendations** by using the switcher.
     
     ![Assessment results](https://mpbdevcontent.azureedge.net/Images/dmaassessmentresults.bmp)  
     
-    g. Compatibility Issues can be reviewed by analyzing the impacted object and its details for every issue identified under **Breaking changes**, **Behavior changes**, and **Deprecated features**.
+    Review the compatibility issues by analyzing the impacted object and its details for every issue identified under **Breaking changes**, **Behavior changes**, and **Deprecated features**.
     
-    h. Similarly, you can review features’ recommendation across the **Performance**, **Storage**, and **Security** areas.
+    Review features’ recommendation across the **Performance**, **Storage**, and **Security** areas.
     
     Feature recommendations cover a variety of features such as In-Memory OLTP and Columnstore, Stretch Database, Always Encrypted (AE), Dynamic Data Masking (DDM), and Transparent Data Encryption (TDE). 
     
