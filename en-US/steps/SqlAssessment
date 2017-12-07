@@ -18,7 +18,7 @@ To use DMA to create an assessment, perform the following steps.
     
     ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)   
     
-    C. Select **Add Sources** to open the connection fly-out.
+    c. Select **Add Sources** to open the connection fly-out.
         
         - Enter the SQL server instance name, select the Authentication type, and then set the correct connection properties.    
         - Select **Connect**.
