@@ -35,9 +35,9 @@ To use DEA for database migration testing, perform the following steps.
     
     d. Select **Start** to begin replay of your capture.
     
- 4. **Create New Analysis Report**
+ 4. **Create a new Analysis Report**
  
-    a. On the left navigation tree, select **Analysis Reports**. 
+    a. On the left navigation tree, select the checklist icon to go to **Analysis Reports**. 
     
     ![New Analysis Report](https://mpbdevcontent.azureedge.net/Images/deanewanalysis.png)
     
@@ -47,11 +47,11 @@ To use DEA for database migration testing, perform the following steps.
     
     c. Select **New Report**.
     
-    d. To configure the report, specify the report name, andd traces from the source and target SQL Server instances.
+    d. To configure the report, specify the report name, and specify paths to the traces fon the source and target SQL Server instances.
     
     ![Provide report analysis inputs](https://mpbdevcontent.azureedge.net/Images/deaanalysisinput.png)
     
- 5. **Review Analysis Report**
+ 5. **Review an analysis report**
  
     a. On the first page of the report, the version and build information for the target servers on which the experiment was run displays.
     
