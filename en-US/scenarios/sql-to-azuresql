@@ -11,13 +11,13 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AzureUpgradePaths",
+					"filelocation": "AzureSqlOverview",
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlOverview",
+					"filelocation": "AzureUpgradePaths",
 					"actions": []
-				}
+				}				
 			]
 		},
 		{
