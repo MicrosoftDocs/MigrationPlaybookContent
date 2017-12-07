@@ -3,7 +3,7 @@ Migrations should be approached with the same rigor and processes as a full soft
 
 ![Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationLifecycle.png)
 
-Each phase in the data migration process is briefly described in the following table:
+Each phase in the migration process is briefly described in the following table:
 
 |**Phase** |**Description** |
 |:---------|:---------------|

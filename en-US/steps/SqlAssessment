@@ -1,6 +1,6 @@
 <!-- Assess -->
 
-When the data sources have been identified, the next step is to assess on-premises SQL Server instance(s) migrating to Azure SQL database(s) to understand the gaps between the source and target instances. By using Data Migration Assistant (DMA), you can assess your source database before upgrading your SQL Server instance.
+After identifying the data sources, the next step is to assess the on-premises SQL Server instance(s) migrating to Azure SQL database(s) so that you understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before upgrading your SQL Server instance.
 
 ### Steps
 
@@ -8,38 +8,42 @@ To use DMA to create an assessment, perform the following steps.
 
 1. **Download [DMA](https://www.microsoft.com/en-us/download/details.aspx?id=53595)**, and then install it.
 
-2. Create a **New Assessment** project
+2. Create a **New Assessment** project.
 
-    a. Click on the New icon and select “Assessment” project type. Select "SQL Server" as source and target types. Click "Create"
+    a. Select the New icon, select the **Assessment** project type, select **SQL Server** as the source and target types, and then select **Create**.
     
     ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
     
-    b. Select the target SQL Server version that you plan to migrate to, and need to run assessment against
-    
-    c. Choose one or both from the following assessment report types - Compatibility Issues; New features’ recommendation. Click "Next"
+    b. Select the target SQL Server version that you plan to migrate to and against which you need to run an assessment.
+
+    c. Select one or both of the assessment report types (**Compatibility Issues** and **New features’ recommendation**), and then select *Next**.
     
     ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)   
     
-    d. Click on "Add Sources" to open the connection fly-out
+    d. Select **Add Sources** to open the connection fly-out.
         
-        *Enter SQL server instance name, choose Authentication type and set the correct connection properties    
-        *Click "Connect"
-        *Select the databases you want to assess and click "Add"    
-        *Click "Next"
+        *Enter the SQL server instance name, select the Authentication type, and then set the correct connection properties.    
+        *Select **Connect**.
+        *Select the databases you that want to assess, and then select **Add**.
+        *Select **Next**.
         
     ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
     
-    e. Now wait for the assessment results. Assessment duration depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
+    e. Now wait for the assessment results; the duration of the assessment depends on the number of databases added and the schema size of each database.
     
-    f. Select the database that has completed assessment. Switch between "Compatibility issues" and "Feature recommendations" using the switcher
+    Results will be displayed per database as soon as they are available.
+    
+    f. Select the database that has completed assessment, and then switch between **Compatibility issues** and **Feature recommendations** by using the switcher.
     
     ![Assessment results](https://mpbdevcontent.azureedge.net/Images/dmaassessmentresults.bmp)  
     
-    g. Compatibility Issues can be reviewed by analyzing the impacted object and its details for every issue identified under “Breaking changes”, “Behavior changes” and “Deprecated features
+    g. Compatibility Issues can be reviewed by analyzing the impacted object and its details for every issue identified under **Breaking changes**, **Behavior changes**, and **Deprecated features**.
     
-    h. Similarly, you can review features’ recommendation across “Performance”, “Storage” and “Security” areas. Feature recommendations cover a variety of features such as In-Memory OLTP and Columnstore, Stretch Database, Always Encrypted (AE), Dynamic Data Masking (DDM), and Transparent Data Encryption (TDE) 
+    h. Similarly, you can review features’ recommendation across the **Performance**, **Storage**, and **Security** areas.
+    
+    Feature recommendations cover a variety of features such as In-Memory OLTP and Columnstore, Stretch Database, Always Encrypted (AE), Dynamic Data Masking (DDM), and Transparent Data Encryption (TDE). 
     
 3. **Review Assessment Results**
 
-    a. Once all databases completed assessments, click on "Export report" to export the results to either JSON or CSV file for analyzing the data at your own convenience
+    a. After all databases assessments are complete, select **Export report** to export the results to either a JSON or CSV file for analyzing the data at your own convenience.
 

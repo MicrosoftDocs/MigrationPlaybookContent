@@ -1,7 +1,7 @@
 <!--Perform Tests-->
 
-Once the data is migrated to target, perform tests against the databases to understand that the applications are expected to perform well against the after the migration.
-For this, use Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server. 
+After the data is migrated to target, perform tests against the databases to verify that the applications perform well against the after the migration.
+Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server. 
 
 ### Steps
 
@@ -11,59 +11,64 @@ To use DEA for database migration testing, perform the following steps.
 
 2. **Run a trace capture**
 
-    a. Go to "All Captures" by clicking on the camera icon on the left navigation.
+    a. On the left navigation tree, select the camera icon the go to **All Captures**.
     
     ![New trace capture](https://mpbdevcontent.azureedge.net/Images/deanewcapture.png)
     
-    b. To start a new capture, click on "New Capture".
+    b. To start a new capture, select **New Capture**.
     
-    c. Provide necessary inputs to begin capture - trace name, duration, SQL Server instance name, database name, share location to store source trace file on SQL Server machine.
+    c. To configure the capture, speficy the trace name, duration, SQL Server instance name, database name, and the share location for storing the trace file on the computer running SQL Server.
     
     ![Provide trace capture inputs](https://mpbdevcontent.azureedge.net/Images/deacaptureinputs.png)
     
-    d. "Start" to begin trace capture.
+    d. Select **Start** to begin trace capture.
 
 3. **Run a trace replay**
     
-    a. Go to "All Replays" by clicking on the play icon on the left navigation.
+    a. On the left navigation tree, select the play icon the go to **All Replays**.
     
     ![New trace replay](https://mpbdevcontent.azureedge.net/Images/deanewreplay.png)
     
-    b. To start a new replay, click on “New Replay”.
+    b. To start a new replay, select **New Replay**.
     
-    c. Provide necessary inputs for replay - Replay name, Controller machine name, Path to source trace file on controller, SQL Server instance name, Path to store target trace file on SQL Server machine.
+    c. To configure the replay, specify the replay name, controller machine name, path to source trace file on controller, SQL Server instance name, and the pathfor storing the target trace file on the computer running SQL Server.
     
-    d. "Start" to begin replay of your capture.
+    d. Select **Start** to begin replay of your capture.
     
  4. **Create New Analysis Report**
  
-    a. Go to "Analysis Reports" on the left navigation. 
+    a. On the left navigation tree, select **Analysis Reports**. 
     
     ![New Analysis Report](https://mpbdevcontent.azureedge.net/Images/deanewanalysis.png)
     
-    b. Connect to the SQL Server where you will store your report databases. You will see the list of all reports in the server.
+    b. Connect to the SQL Server on which you will store your report databases.
     
-    c. Click on "New Report".
+    You will see the list of all reports in the server.
     
-    d. Provide necessary inputs to generate report - Reprot name, traces from source and target SQL Server instances.
+    c. Select **New Report**.
+    
+    d. To configure the report, specify the report name, andd traces from the source and target SQL Server instances.
     
     ![Provide report analysis inputs](https://mpbdevcontent.azureedge.net/Images/deaanalysisinput.png)
     
  5. **Review Analysis Report**
  
-    a. On the first page of your report, you will see the version and build information for the target servers on which the experiment was run. Threshold allows you to adjust the sensitivity or tolerance of your A/B Test analysis. 
-       Note: By default, it is set at 5%; any improvement in performance that is >= 5% is categorized as ‘Improved’.  The dropdown allows you to evaluate the report with different performance thresholds.
+    a. On the first page of the report, the version and build information for the target servers on which the experiment was run displays.
+    
+    Threshold allows you to adjust the sensitivity or tolerance of your A/B Test analysis. 
+    
+    Note: By default, threshold is set to 5%; any performance improvement that is >= 5% is categorized as ‘Improved’. The drop-down selector allows you to evaluate the report using different performance thresholds.
        
     ![Analysis Threshold](https://mpbdevcontent.azureedge.net/Images/deathreshold.jpg)
     
-    b. Click on the individual slices of the pir chart to view drilldown on performance metrics.
+    b. Select the individual slices of the pie chart to view drill-down metrics on performance.
     
     ![Drill down report](https://mpbdevcontent.azureedge.net/Images/deachart.png)
     
-    c. On the drilldown page for a performance change category, you will see a list of queries in that category. 
+    On the drill-down page for a performance change category, you will see a list of queries in that category. 
     
     ![Drill down report](https://mpbdevcontent.azureedge.net/Images/deaerrorqueries.png)
     
-    d. Click on individual query to get a performance summary statistics, error information, and query plan information.
+    c. Select an individual query to get performance summary statistics, error information, and query plan information.
     
     ![Summary Statistics](https://mpbdevcontent.azureedge.net/Images/deasummarystats.png)   
