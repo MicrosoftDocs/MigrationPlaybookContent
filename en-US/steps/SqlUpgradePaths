@@ -1,6 +1,8 @@
 <!--Supported Upgrade Technologies -->
 
-This section describes all supported scenarios and options for an upgrade from and older version of SQL Server to a newer version of SQL Server, current as of October 2017. The following SQL Server sources are included:
+This section describes all supported scenarios and options for an upgrade from and older version of SQL Server to a newer version of SQL Server, current as of October 2017.
+
+The following SQL Server sources are included:
 * SQL Server 2005
 * SQL Server 2008 and SQL Server 2008 R2
 * SQL Server 2012
