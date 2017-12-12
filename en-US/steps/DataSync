@@ -1,15 +1,15 @@
 <!-- Sync Data -->
 
-### Near zero downtime migrations with Attunity Replicate!
+You can migrate your existing Oracle database to Microsoft SQL Server by using Attunity Replicate for Microsoft Migrations, a co-sponsored, joint offering from Attunity and Microsoft that is provided to Microsoft customers free of charge. Attunity Replicate for Microsoft Migrations also enables minimum downtime in database migration, and the source database continues to be operational during the migration process.
 
-Microsoft has partnered with Attunity around specific migration scenarios (source/target pairs). Attunity Replicate supports a very large set of sources and targets. The edition of Attunity Replicate that we refer to in the context of this partnership is known as Attunity Replicate For Microsoft Migrations (this is an Attunity product and not a Microsoft product) and enables only the scenarios for which we are partnering for now. 
+Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets, propagating the schema creation script and data associated with each database table. Attunity Replicate will not propagate any other artifacts (such as SP, triggers, functions, etc.) or convert, for example, PL/SQL code hosted in such artifacts, to T-SQL.
 
-Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets. In this context, 
-for each table, Attunity Replicate propagates its schema creation script and its data. It will not propagate any other artifacts (SP, triggers, functions, ….) 
-and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
+**Note**: While Attunity Replicate supports a broad set of migration scenarios, Attunity Replicate for Microsoft Migrations is focused on support for a specific a subset of source/target pairs.
 
-Proposed sequence and usage of tools:
-1.	**Convert the source Oracle database** (schema and data) to SQL Server database with tools like [SQL Server Migration Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54258) or [Azure Database Migration Service](http://sqldatabase-migrationpreview.azurewebsites.net/) or any other third party tool.
-2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target SQL Server databases.
+An overview of the process for performing a migration includes:
+1.	**Converting the source Oracle database** (schema and data) to a Microsoft SQL Server database by using tools such as the [SQL Server Migration Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54258), the [Azure Database Migration Service](http://sqldatabase-migrationpreview.azurewebsites.net/), or any other third-party tool.
+2.	**Continuously replicating data changes from the source database to the target database** by using Attunity Replicate for Microsoft Migrations. This will minimize the time that the source database will need to be set to read-only while you prepare to switch your applications to the target SQL Server database.
 
-Download link to [Attunity Replicate For Microsoft Migrations](https://www.attunity.com/products/replicate/attunity-replicate-for-microsoft-migration) offering.
+For more information about the Attunity Replicate for Microsoft Migrations offering, view the following resources:
+- The Attunity Replicate for Microsoft Migrations [web page](https://aka.ms/attunity-replicate).
+- [Download](http://discover.attunity.com/download-replicate-microsoft-lp6657.html) the Attunity Replicate for Microsoft Migrations offering.
