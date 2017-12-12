@@ -1,6 +1,6 @@
 <!-- Assess -->
 
-When the data sources have been identified, the next step is to assess on-premises SQL Server instance(s) migrating to Azure SQL database(s) to understand the gaps between the source and target instances. By using Data Migration Assistant (DMA), you can assess your source database before migrating to Azure SQL Database target.
+When the data sources have been identified, the next step is to assess on-premises SQL Server instance(s) migrating to Azure SQL database(s) to understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before migrating to Azure SQL Database.
 
 ### Steps
 
@@ -8,33 +8,34 @@ To use DMA to create an assessment, perform the following steps.
 
 1. **Download [DMA](https://www.microsoft.com/en-us/download/details.aspx?id=53595)**, and then install it.
 
-2. Create a **New Assessment** project
+2. Create a **New Assessment** project.
 
-    a. Click on the New icon and select “Assessment” project type. Select "SQL Server" as source and "Azure SQL Database" as target types. Click "Create"
+    a. Select the New icon, select the **Assessment** project type, specify a project name, select **SQL Server** as the source and **Azure SQL Database** as the target, and then select **Create**.
     
-    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
+    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject_Azure_SQL_DB.png)    
      
-    c. Choose one or both from the following assessment report types - Compatibility Issues; Feature Parity. Click "Next"
+    b. Select one or both of the assessment report types (**Check database compatibility** and **Check feature parity**), and then select **Next**.
     
-    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmareportoptions.png)   
+    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmareportoptions_Azure_SQL_DB.png)   
     
-    d. Click on "Add Sources" to open the connection fly-out
+    c. In the **Connect to a server** fly-out, specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**. 
     
-    e. Provide the Azure SQL instance name to connect to and select databases you want to assess
-                
-    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
+    ![Connect to source](https://mpbdevcontent.azureedge.net/Images/dmaconnecttosource_Azure_SQL_DB.png)
+     
+    d. In the **Add sources** fly-out, select the database(s) that you want to assess.           
     
-    Note: Now wait for the assessment results. Assessment duration depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb_Azure_SQL_DB.png)   
+        
+    Now wait for the assessment results; the duration of the assessment depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
          
-    f. Check "Compatibility Issues" radio button to review incompatible objects categorized under “Migration Blockers”, “Behavior changes” and “Deprecated features
+    e. Select the **Compatibility Issues** radio button to review incompatible objects categorized under **Migration Blockers**, **Behavior changes**, and **Deprecated features**.
     
     ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmacompatissues.png)  
     
-    g. Check "SQL Server Feature Parity" radio button to review features "Unspported" or "Partially Supported" in Azure SQL Database
+    f. Select the **SQL Server Feature Parity** radio button to review the **Unspported** or **Partially Supported** features in Azure SQL Database.
     
     ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmafeatureparity.png)  
     
 3. **Review Assessment Results**
 
-    a. Once all databases completed assessments, click on "Export report" to export the results to either JSON or CSV file for analyzing the data at your own convenience
-
+    a. After all databases assessments are complete, select **Export report** to export the results to either JSON or CSV file for analyzing the data at your own convenience
