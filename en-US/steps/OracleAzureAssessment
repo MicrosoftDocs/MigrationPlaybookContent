@@ -1,5 +1,9 @@
 <!-- Assess & Convert -->
 
+After identifying the data sources, the next step is to assess the Oracle instance(s) migrating to Azure SQL Database database(s) so that you understand the gaps between the two.
+
+By using the SQL Server Migration Assistant (SSMA) for Oracle, you can review database objects and data, assess databases for migration, migrate database objects to SQL Server, and then migrate data to SQL Server. 
+
 To use SSMA for Oracle to create an assessment, perform the following steps.
 
 ### Steps

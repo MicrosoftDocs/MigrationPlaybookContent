@@ -1,14 +1,14 @@
 <!--Rationale for Migrating-->
 
-SQL Database is a relational database service in the Microsoft Cloud based on the market-leading Microsoft SQL Server engine that is capable of handling mission-critical workloads. SQL Database delivers predictable performance at multiple service levels, dynamic scalability with no downtime, built-in business continuity, and data protection — all with near-zero administration.
+Azure SQL Database is a relational database service hosted in the Microsoft Cloud that is based on the market-leading Microsoft SQL Server engine. Azure SQL Database is capable of handling mission-critical workloads and delivers predictable performance at multiple service levels, dynamic scalability with no downtime, built-in business continuity, and data protection — all with near-zero administration.
 
-These capabilities allow you to focus on rapid app development and accelerating your time-to-market, rather than allocating precious time and resources to managing virtual machines and infrastructure. Because SQL Database is based on the [SQL Server](https://msdn.microsoft.com/library/bb545450.aspx) engine, SQL Database supports existing SQL Server tools, libraries, and APIs. This makes it is easy for you to develop new solutions, to move your existing SQL Server solutions, and to extend your existing SQL Server solutions to the Microsoft Cloud without having to learn new skills.
+These capabilities allow you to focus on rapid app development and accelerating your time-to-market, rather than allocating precious time and resources to managing virtual machines and infrastructure. Based on the [SQL Server](https://msdn.microsoft.com/library/bb545450.aspx) engine, Azure SQL Database supports existing SQL Server tools, libraries, and APIs. This makes it is easy for you to develop new solutions, to move your existing SQL Server solutions, and to extend your existing SQL Server solutions to the Microsoft Cloud without having to learn new skills.
 
 Consider the detail in the following sections when evaluating the rationale for migrating.
 
 **Performance and scale without downtime**
 
-The SQL Database service offers three [service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers) (Basic, Standard, Premium, and Premium RS), and each tier provides different levels of performance and capabilities to support lightweight to heavyweight database workloads. You can change tiers manually or programmatically at any time to meet the needs of your solution, and you can do this without downtime to your app or to your customers. Dynamic scalability enables your database to transparently respond to rapidly changing resource requirements and lets you pay for the resources you need when you need them.
+The Azure SQL Database service offers three [service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers) (Basic, Standard, Premium, and Premium RS), and each tier provides different levels of performance and capabilities to support lightweight to heavyweight database workloads. You can change tiers manually or programmatically at any time to meet the needs of your solution, and you can do this without downtime to your app or to your customers. Dynamic scalability enables your database to transparently respond to rapidly changing resource requirements and lets you pay for the resources you need when you need them.
 
 **Use elastic pools to maximize resource utilization**
 
@@ -24,7 +24,7 @@ You use the [built-in performance monitoring](https://docs.microsoft.com/en-us/a
 
 **Keeping your app and business running**
 
-Azure's industry leading 99.99% availability service level agreement ([SLA](http://azure.microsoft.com/support/legal/sla/)), powered by a global network of Microsoft-managed datacenters, helps keep your app running 24/7. Every SQL database takes advantage of built-in security, fault tolerance, and [data protection](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automated-backups) that customers would otherwise have to buy or design, build, and manage. With SQL Database, each service tier offers a comprehensive set of business continuity features and options that you can use to get up and running and stay that way.
+Azure's industry leading 99.99% availability service level agreement ([SLA](http://azure.microsoft.com/support/legal/sla/)), powered by a global network of Microsoft-managed datacenters, helps keep your app running 24/7. Every Azure SQL database takes advantage of built-in security, fault tolerance, and [data protection](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automated-backups) that customers would otherwise have to buy or design, build, and manage. With SQL Database, each service tier offers a comprehensive set of business continuity features and options that you can use to get up and running and stay that way.
 
 For example, you can:
 
@@ -36,4 +36,4 @@ For example, you can:
 
 **Securing your data**
 
-SQL Server has a tradition of data security that SQL Database upholds with features that limit access, protect data, and help you monitor activity. See [Securing your SQL database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview) for a quick rundown of security options available in SQL Database. The article [Security Center for SQL Server Database Engine and SQL Database](https://msdn.microsoft.com/library/bb510589) provides a more comprehensive view of security features, and you can visit the [Azure Trust Center](https://azure.microsoft.com/support/trust-center/security/) for information about Azure's platform security.
+SQL Server has a tradition of data security that Azure SQL Database upholds with features that limit access, protect data, and help you monitor activity. See [Securing your SQL database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview) for a quick rundown of security options available in SQL Database. The article [Security Center for SQL Server Database Engine and SQL Database](https://msdn.microsoft.com/library/bb510589) provides a more comprehensive view of security features, and you can visit the [Azure Trust Center](https://azure.microsoft.com/support/trust-center/security/) for information about Azure's platform security.
