@@ -5,63 +5,73 @@ The goal of the Discover phase is to identify existing data sources and details 
 
 ### Steps
 
-To use MAP Toolkit to perform an inventory scan, perform the following steps.
+To use the MAP Toolkit to perform an inventory scan, perform the following steps.
 
 1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and then install it.
 
-2. **Run MAP tool**.
+2. **Run the MAP toolkit**.
 
-    a. Open MAP tool and select Database on the left pane. You will be on the following screen:
+    a. Open the MAP toolkit, and then on the left pane, select **Database**.
+    
+    You will be on the following screen:
     
     ![MAP Overview](https://mpbdevcontent.azureedge.net/Images/mapoverview.png)
     
-    b. Click on Create/Select database
+    b. Select **Create/Select database**.
     
     ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/mapselectdb.png)
      
-    c. Enter the name of a database, a brief description, and click “OK”.
+    c. Ensure that **Create an inventory database** is selected, enter a name for the database, a brief description, and then select **OK**.
     
     ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/mapselectdboverview.png)
     
-    d. Next step is to collect data from the database created. Click on “Collect inventory data”
+    The next step is to collect data from the database created.
+    
+    d. Select **Collect inventory data**.
     
     ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/maporacleoverview.png)
     
-    e. On the "Inventory and Assessment Wizard", choose Oracle. Click "Next"
+    e. In the Inventory and Assessment Wizard, select **Oracle**, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/mapinventirywizard.png)
+    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/mapinventorywizard.png)
     
-    f. Select a best method option to search computers on which Microsoft Products are hosted.
+    f. Select the best method option to search the computers on which Microsoft Products are hosted, and then select **Next**.
     
     ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/mapdiscoverymethods.png)
     
-    g. Enter credentianls or "Create new" credentials for the systems you want to explore. Click "Next"
+    g. Enter credentianls or create new credentials for the systems that you want to explore, and then select **Next**.
     
     ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycreds.png)
     
-    h. After setting the order of the credentials, you need to specify the credentials for each computer you want to discover.
+    h. Set the order of the credentials.
     
     ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder2.png)
     
-    i. You can mention unique credentials for every computer/machine or can choose to use all computer credentials list. Click "Save" and "Next"
+    Now, you need to specify the credentials for each computer you want to discover. You can use unique credentials for every computer/machine, or you can choose to use the **All Computer Credentials** list.
+    
+    i. After setting up the credentials, select **Save**, and then select **Next**.
     
     ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsindividual.png)
     
-    j. Verify your selection summary and click "Finish"
+    j. Verify your selection summary, and then select **Finish**.
     
     ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdiscoverysummary.png)
     
-    k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report
+    k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
     
     ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdatacollectionsummary.png)
     
-    l. After you click on “Close” you will be taken back to the Main window of the tool. You will see a summary of the Database Discovery done so far.
+    l. Select **Close**.
     
- 3. **Report generation and Data collection**.
+    The Main window of the tool appears, showing a summary of the Database Discovery completed so far.
     
-    a. On top right corner of the tool you will have “Options” page and here you can generate report about the Oracle Assessment and the Database Details.
+ 3. **Report generation and data collection**.
+    
+    On top right corner of the tool, an **Options** page appears, which you can use to generate a report about the Oracle Assessment and the Database Details.
        
-    b. Click on both (one by one) and it will generate report. This will take couple of seconds to few minutes depending upon the size of the inventory done from the discovery.
+    a. Select both options (one by one) to generate the report.
+    
+    This will take a couple of seconds to a few minutes depending upon the size of the inventory comlpeted during discovery.
     
     ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreportdone.png)
    

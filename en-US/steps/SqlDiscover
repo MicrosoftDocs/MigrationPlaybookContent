@@ -2,7 +2,7 @@
 
 The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s SQL instances together with the version and features in use.
 
-To use MAP Toolkit to perform an inventory scan, perform the following steps.
+To use the MAP Toolkit to perform an inventory scan, perform the following steps.
 
 ### Steps
 
@@ -20,7 +20,7 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/mapselectdb.png)
      
-    c. Ensure that **Create an inventory database** is seleted, enter the name of a database, a brief description, and then select **OK**.
+    c. Ensure that **Create an inventory database** is selected, enter a name for the database, a brief description, and then select **OK**.
     
     ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/mapselectdboverview.png)
     
@@ -38,37 +38,33 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/mapdiscoverymethods.png)
     
-    g. Enter credentianls or create new credentials for the systems that you want to explore, and then select **Next**.
+    g. Enter credentials or create new credentials for the systems that you want to explore, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycreds.png)
+   ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycreds.png)
     
-    h. Set the order of the credentials.
-    
-    You can use unique credentials for each computer/machine or you can choose to use the **All Computer Credentials** list.
-           
+    h. Set the order of the credentials, and then select **Next**.
+               
     ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder.png)
     
-    i. After setting the order of the credentials, select **Next**.
-
-    Now, you need to specify the credentials for each computer that you want to discover.
+    Now, you need to specify the credentials for each computer that you want to discover. You can use unique credentials for each computer/machine, or you can choose to use the **All Computer Credentials** list.
     
-    j. After setting up the credentials, select **Save**, and then select **Next**.
+    i. After setting up the credentials, select **Save**, and then select **Next**.
     
     ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsindividual.png)
     
-    k. Verify your selection summary, and then select **Finish**.
+    j. Verify your selection summary, and then select **Finish**.
     
     ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdiscoverysummary.png)
     
-    l. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
+    k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
     
     ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdatacollectionsummary.png)
     
-    m. Select **Close**.
+    l. Select **Close**.
     
     The Main window of the tool appears, showing a summary of the Database Discovery completed so far.
     
- 3. **Report generation and Data collection**.
+ 3. **Report generation and data collection**.
     
     On the top-right corner of the tool, an **Options** page appears, which you can use to generate report about the SQL Server Assessment and the Database Details.
     
@@ -76,6 +72,6 @@ To use MAP Toolkit to perform an inventory scan, perform the following steps.
     
     a. Select both options (one by one) to generate the report.
     
-    This will take couple of seconds to few minutes depending on the size of the inventory completed during discovery.
+    This will take a couple of seconds to a few minutes depending on the size of the inventory completed during discovery.
     
     ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreportdone.png)
