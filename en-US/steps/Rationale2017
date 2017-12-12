@@ -28,7 +28,7 @@ SQL Server has been found to cost a mere 1/12th of comparable products/features.
 The tool also provides a custom report showing the specific cost savings and benefits that a customer can anticipate by migrating 
 from Oracle to SQL Server.
 
-Note: Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to run a cost analysis on your migrations.
+**Note**: Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to run a cost analysis on your migrations.
 
 **The power of SQL Server now on Linux and Container Instances**
 
