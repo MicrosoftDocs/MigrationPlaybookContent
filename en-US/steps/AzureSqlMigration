@@ -8,39 +8,37 @@ To use DMA to create a migration project, perform the following steps.
 
 1. Create a **New Migration** project
 
-    a. Click on the New icon and select “Migration” project type. Select "SQL Server" as source and "Azure SQL Database" as target type. 
-    
-    b. Choose the "Migration scope" as "Schema only". Click "Create"
+   a. Click on the New (+) icon, select the **Migration** project type, select **SQL Server** as the source and **Azure SQL Database** as the target, select **Schema only** as the Migration scope, and then select **Create**.
 
-    ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
+   ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
 
-   c. Provide source SQL server conenction details. Click "Connect". Select databases you want assessed. Click "Next"
+   b. Provide source SQL server conenction details, select **Connect**, select the database(s) that you want to assess, and then selct **Next**.
 
-    ![Source Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttosource.png)    
+   ![Source Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttosource.png)    
 
-    d. Provide target Azure SQL Database conenction details. Click "Connect". Select a single database in Azure SQL Database target. Click "Next"
+   c. Provide target Azure SQL Database conenction details. Click "Connect". Select a single database in Azure SQL Database target. Click "Next"
     
-    ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
+   ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
     
-    e. Select database schema objects from the source that you want migrated. Click "Generate SQL Script"
+   d. Select database schema objects from the source that you want migrated. Click "Generate SQL Script"
     
-    ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbgeneratescript.png)    
+   ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbgeneratescript.png)    
     
-    f. Script is generated and they can be edited in the textarea before deployment. If no edits are required, click "Deploy Schema"
+   e. Script is generated and they can be edited in the textarea before deployment. If no edits are required, click "Deploy Schema"
     
-    ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dmaazuredbdeployschema.png)  
+   ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dmaazuredbdeployschema.png)  
     
-    Note: Review the right pane for deployment status. Update the deployment script(s) for failures and attempt re-deploying schema.
+   **Note**: Review the right pane for deployment status. Update the deployment script(s) for failures and attempt re-deploying schema.
     
-    g. Once schema deployment is successful, click on "Migrate Data". Select tables containing data you want migrated
+   f. After schema deployment is successful, select **Migrate Data". Select tables containing data you want migrated
     
-    ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbselecttables.png)  
+   ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbselecttables.png)  
     
-    Note: For data migration, only one database can be moved at a given time. Repeat the steps above for subsequent database migration
+   **Note**: For data migration, only one database can be moved at a given time. Repeat the steps above for subsequent database migration
     
-    h. Click "Start data migration". 
+   g. Select **Start data migration**. 
     
-    g. Review Migration Results when the process is completed
+   h. Review Migration Results when the process is complete.
     
     ![Data Migration](https://mpbdevcontent.azureedge.net/Images/dmaazuredbmigratedata.png)  
     
