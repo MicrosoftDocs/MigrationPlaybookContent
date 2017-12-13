@@ -34,7 +34,7 @@ To use DMA to create an assessment, perform the following steps.
     
     g. Review the compatibility issues by analyzing the impacted object and its details for every issue identified under **Breaking changes**, **Behavior changes**, and **Deprecated features**.
     
-    h. Review features’ recommendation across the **Performance**, **Storage**, and **Security** areas.
+    h. Review feature recommendations across the **Performance**, **Storage**, and **Security** areas.
     
     Feature recommendations cover a variety of features such as In-Memory OLTP and Columnstore, Stretch Database, Always Encrypted (AE), Dynamic Data Masking (DDM), and Transparent Data Encryption (TDE). 
     
