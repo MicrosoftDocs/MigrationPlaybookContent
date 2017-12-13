@@ -8,7 +8,7 @@ Consider the detail in the following sections when evaluating the rationale for 
 
 **Performance and scale without downtime**
 
-The Azure SQL Database service offers three [service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers) (Basic, Standard, Premium, and Premium RS), and each tier provides different levels of performance and capabilities to support lightweight to heavyweight database workloads. You can change tiers manually or programmatically at any time to meet the needs of your solution, and you can do this without downtime to your app or to your customers. Dynamic scalability enables your database to transparently respond to rapidly changing resource requirements and lets you pay for the resources you need when you need them.
+The Azure SQL Database service offers multiple [service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers) (Basic, Standard, Premium, and Premium RS), and each tier provides different levels of performance and capabilities to support lightweight to heavyweight database workloads. You can change tiers manually or programmatically at any time to meet the needs of your solution, and you can do this without downtime to your app or to your customers. Dynamic scalability enables your database to transparently respond to rapidly changing resource requirements and lets you pay for the resources you need when you need them.
 
 **Use elastic pools to maximize resource utilization**
 
