@@ -1,6 +1,6 @@
 <!--Supported Upgrade Technologies -->
 
-This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of June 2017.
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of December 2017.
 
 The following SQL Server sources are included:
 * SQL Server 2005
