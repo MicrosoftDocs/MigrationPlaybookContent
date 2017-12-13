@@ -22,17 +22,19 @@ To use DMA to create an assessment, perform the following steps.
     
     ![Connect to source](https://mpbdevcontent.azureedge.net/Images/dmaconnecttosource_Azure_SQL_DB.png)
      
-    d. In the **Add sources** fly-out, select the database(s) that you want to assess.           
+    d. In the **Add sources** fly-out, select the database(s) that you want to assess, and then select **Add**.           
     
     ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb_Azure_SQL_DB.png)   
         
+    e. Select **Start Assessment**.
+    
     Now wait for the assessment results; the duration of the assessment depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
          
-    e. Select the **Compatibility issues** radio button to review incompatible objects categorized under **Migration blockers**, **Behavior changes**, and **Deprecated features**.
+    f. Select the database that has completed assessment, and then select **Compatibility issues** to review incompatible objects categorized under **Migration blockers**, **Behavior changes**, and **Deprecated features**.
     
     ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmacompatissues.png)  
     
-    f. Select the **SQL Server Feature Parity** radio button to review the **Unspported features** or **Partially supported features** in Azure SQL Database.
+    g. Select the **SQL Server Feature Parity** to review the **Unspported features** or **Partially supported features** in Azure SQL Database.
     
     ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmafeatureparity.png)  
     
