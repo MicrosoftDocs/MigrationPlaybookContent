@@ -26,9 +26,9 @@ To use Azure DMS to run a migration project, perform the following steps.
 
     a. Log in to the Azure portal, select **New**, and then search for Azure Database Migration Service.
     
-    b. On the **Azure data migration service (preview)** screen, select **Create**.
-
     ![New Service Creation](https://mpbdevcontent.azureedge.net/Images/DMSAzurePortal.png)    
+
+    b. On the **Azure data migration service (preview)** screen, select **Create**.
 
     c. Specify a name for the service, the subscription, a virtual network, and the pricing tier.
 
