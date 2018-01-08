@@ -84,9 +84,9 @@ To use Azure DMS to run a migration project, perform the following steps.
     
     On this screen, you can also expand the **Validation Option** screen, which you can use to specify the type of validations you want to perform on your migrated database:
         
-        - Schema: DMS validates if the schema on your source and target match. If there is a schema mismatch, the migration report will provide details on which tables/objects have the mismatch.
-        - Data Consistency: DMS verifies consistency between source and target data tables by comparing checksum values. If there is a data mismatch, the migration report will provide details on which tables/objects have the mismatch.
-        - Query Correctness and Performance: DMS collects most frequently run ‘SELECT’ queries from your source and run them on your target. We consider this as a good sample of your workload to validate correctness (query pass rate) and performance (execution time). You can see which queries were run and how they performed in the migration report.
+    **Schema:** DMS validates if the schema on your source and target match. If there is a schema mismatch, the migration report will provide details on which tables/objects have the mismatch.
+    **Data Consistency:** DMS verifies consistency between source and target data tables by comparing checksum values. If there is a data mismatch, the migration report will provide details on which tables/objects have the mismatch.
+    **Query Correctness and Performance:** DMS collects most frequently run ‘SELECT’ queries from your source and run them on your target. We consider this as a good sample of your workload to validate correctness (query pass rate) and performance (execution time). You can see which queries were run and how they performed in the migration report.
         
     f. Select **Save**, and then review the summary to ensure that the source and target details match what you previously specified.
     
