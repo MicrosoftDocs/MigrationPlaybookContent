@@ -88,6 +88,9 @@
 		},
 		{
 			"filelocation": "Informatica"
+		},
+		{
+			"filelocation": "QuerySurge"
 		}
 	],
 	"scenarioMap":
