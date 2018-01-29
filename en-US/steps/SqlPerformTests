@@ -1,7 +1,9 @@
 <!--Perform Tests-->
 
 After the data is migrated to target, perform tests against the databases to verify that the applications perform well against the after the migration.
-Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server. 
+Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server.
+
+**Note**: For assistance with developing and running post-migration validation tests, also consider the Data Quality Solution available from [QuerySurge](http://www.querysurge.com/company/partners/microsoft). 
 
 ### Steps
 
