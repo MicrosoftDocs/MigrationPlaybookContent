@@ -69,6 +69,8 @@
 
 	],
 	"partners": [
-
+		{
+			"filelocation": "QuerySurge"
+		}
 	]
 }
