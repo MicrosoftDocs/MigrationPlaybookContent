@@ -85,6 +85,9 @@
 	"partners": [
 		{
 			"filelocation": "Fujitsu"
+		},
+		{
+			"filelocation": "QuerySurge"
 		}
 	],
 	"footer": {
