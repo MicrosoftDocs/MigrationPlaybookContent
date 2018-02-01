@@ -1,3 +1,6 @@
 <!-- Why Upgrade? -->
 
-If you are upgrading relational databases from an on-premises SQL implementation, check out the available upgrade options on the [Microsoft platform](https://docs.microsoft.com/sql/database-engine/install-windows/are-you-upgrading-from-sql-server-2005).
+If you are upgrading:
+
+- Relational databases from an on-premises SQL implementation, check out the available upgrade options on the [Microsoft platform](https://docs.microsoft.com/sql/database-engine/install-windows/are-you-upgrading-from-sql-server-2005).
+- SQL Server instances running on Windows Server 2008/2008 R2/2012 clusters, see the article [here](https://docs.microsoft.com/en-us/sql/sql-server/failover-clusters/windows/upgrade-sql-server-failover-cluster-instance-2008-2012).
