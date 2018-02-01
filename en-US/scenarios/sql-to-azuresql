@@ -15,6 +15,10 @@
 					"actions": []
 				},
 				{
+					"filelocation": "OnPremVsCloud",
+					"actions": []
+				},
+				{
 					"filelocation": "AzureUpgradePaths",
 					"actions": []
 				}				
