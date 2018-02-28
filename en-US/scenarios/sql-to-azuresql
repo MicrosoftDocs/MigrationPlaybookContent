@@ -1,6 +1,6 @@
 {
 	"displayname": "Migrate SQL Server to Azure SQL Database",
-	"emailmessage": "Check out the migration process from SQL Server to Azure SQL Database here:",
+	"emailmessage": "Check out the process for migrating from SQL Server to Azure SQL Database here:",
 	"description": "Azure SQL Database delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
 	"steps": [
 		{

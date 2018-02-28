@@ -1,6 +1,6 @@
 {
 	"displayname": "Migrate SAP ASE to Azure SQL Database",
-	"emailmessage": "Check out the migration process from SAP ASE to Azure SQL Database here:",
+	"emailmessage": "Check out the process for migrating from SAP ASE to Azure SQL Database here:",
 	"description": "Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from SAP ASE simple and reliable.",
 	"steps": [
 		{
