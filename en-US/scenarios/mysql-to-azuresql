@@ -1,6 +1,6 @@
 {
 	"displayname": "Migrate MySQL to Azure SQL Database",
-	"emailmessage": "Check out the migration process from MySQL to Azure SQL Database here:",
+	"emailmessage": "Check out the process for migrating from MySQL to Azure SQL Database here:",
 	"description": "Migrating from MySQL to the Azure SQL Database, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
 	"steps": [
 		{
