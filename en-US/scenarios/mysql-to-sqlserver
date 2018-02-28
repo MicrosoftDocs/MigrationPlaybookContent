@@ -1,6 +1,6 @@
 {
 	"displayname": "Migrate MySQL to SQL Server",
-	"emailmessage": "Check out the migration process from MySQL to SQL Server here:",
+	"emailmessage": "Check out the process for migrating from MySQL to SQL Server here:",
 	"description": "Azure SQL Server is the least vulnerable database in the industry, exhibiting solid, consistent performance. Learn about the benefits of moving from MySQL today.",
 	"steps": [
 		{

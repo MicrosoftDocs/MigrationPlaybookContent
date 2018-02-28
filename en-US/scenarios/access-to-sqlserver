@@ -1,6 +1,6 @@
 {
 	"displayname": "Migrate Access to SQL Server",
-	"emailmessage": "Check out the migration process from Access to SQL Server here:",
+	"emailmessage": "Check out the process for migrating from Access to SQL Server here:",
 	"description": "Migrating from Access to Azure's SQL Server could not be simpler due to the SQL server's top tier performance, interconnectivity, consistency, and value.",
 	"steps": [
 		{
