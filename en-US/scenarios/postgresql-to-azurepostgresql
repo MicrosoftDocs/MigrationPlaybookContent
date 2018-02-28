@@ -1,6 +1,6 @@
 {
 	"displayname": "Migrate PostgreSQL to Azure PostgreSQL",
-	"emailmessage": "Check out the migration process from PostgreSQL to Azure PostgreSQL here:",
+	"emailmessage": "Check out the process for migrating from PostgreSQL to Azure PostgreSQL here:",
 	"description": "",
 	"steps": [
 		{
