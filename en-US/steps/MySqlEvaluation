@@ -1,0 +1,5 @@
+<!-- Evaluation -->
+
+Migrating from an on-premises instance of MySQL or a MySQL instance hosted in a virtual machine to Azure Database for MySQL is considered a homogeneous migration. Azure Database for MySQL automatically manages patching for minor version updates. Azure Database for MySQL supports versions 5.6.3.5 and 5.7.1.8 using the InnoDB engine, so if you are running a supported version in on-premises MySQL, the database will be fully compatible, and the migration will be relatively straightforward.
+
+If you have MyISAM tables, convert them to InnoDB before you migrate them to Azure Database for MySQL. For more information, see the MySQL article ![Converting Tables from MyISAM to InnoDB](![Migrate Data](https://dev.mysql.com/doc/refman/5.6/en/converting-tables-to-innodb.html).
