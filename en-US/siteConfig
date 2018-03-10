@@ -102,7 +102,7 @@
 		"source1_target3" : "oracle-to-azurepostgresql",
 		"source2_target0" : "db2-to-sqlserver",
 		"source2_target1" : "db2-to-azuresql",
-		"source3_target0" : "mysql-to-sqlserver2016",
+		"source3_target0" : "mysql-to-sqlserver",
 		"source3_target1" : "mysql-to-azuresql",
 		"source3_target2" : "mysql-to-azuremysql",
 		"source4_target3" : "postgresql-to-azurepostgresql",
