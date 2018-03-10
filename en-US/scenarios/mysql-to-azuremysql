@@ -1,6 +1,6 @@
 {
 	"displayname": "Migrate MySQL to Azure MySQL",
-	"emailmessage": "Check out the process for migrating from MySQL to Azure MySQL here:",
+	"emailmessage": "Check out the process for migrating from MySQL to Azure Database for MySQL here:",
 	"description": "",
 	"steps": [
 		{
