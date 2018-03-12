@@ -7,7 +7,7 @@
 			"name": "Pre-Migration",
 			"items": [
 				{
-					"filelocation": "MySQLEvaluation",
+					"filelocation": "MySqlEvaluation",
 					"actions": []
 				}
 			]
