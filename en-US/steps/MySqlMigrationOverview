@@ -2,6 +2,6 @@
 
 The first step in migrating from an on-premises instance of MySQL or a MySQL instance hosted in a virtual machine is to migrate the **schema** to Azure Database for MySQL.
 
-For MySQL, the easiest way to accomplish this task is to use ![MySQL Workbench](https://www.mysql.com/products/workbench/) configured to migrate only the schema. While MySQL Workbench can also migrate data, it does not support minimal downtime migrations. As a result, this tool works well for migrating relatively small databases when minimal downtime is not required.
+For MySQL, the easiest way to accomplish this task is to use [MySQL Workbench](https://www.mysql.com/products/workbench/) configured to migrate only the schema. While MySQL Workbench can also migrate data, it does not support minimal downtime migrations. As a result, this tool works well for migrating relatively small databases when minimal downtime is not required.
 
 For large databases that need to be online all the time, we recommend using Attunity Replicate for Microsoft Migrations to enable continuous syncing of data to the target database. Additional detail about using Attunity Replication for Microsoft Migrations appears in the following sections.

@@ -13,7 +13,7 @@ To use MySQL Workbench to migrate the database schema, perform the following ste
  
 3.	Select the database schema(s) that you want to migrate:
 
- ![Image Alt Text MySQL Select Schema](https://mpbdevcontent.azureedge.net/Images/3-mysql_select_schema.png)
+ ![Image Alt Text MySQL Select Schema](https://mpbdevcontent.azureedge.net/Images/3_mysql_select_schema.png)
  
 4.	Select all the tables, views, and routines that are appropriate for migration, and then select **Next**.
 
