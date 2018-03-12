@@ -3,7 +3,8 @@
 ### Steps
 
 To use MySQL Workbench to migrate the database schema, perform the following steps:
-1.	Download MySQL Workbench from ![here](https://www.mysql.com/products/workbench/), and then install it.
+1.	Download MySQL Workbench from [here](https://www.mysql.com/products/workbench/), and then install it.
+
 2.	Start MySQL Workbench, and then enter the source MySQL instance and the target Azure Database for MySQL environment.
  
  ![Image Alt Text MySQL RDBMS Sources](https://mpbdevcontent.azureedge.net/Images/1-mysql_RDBMS_Sources.png)
@@ -12,14 +13,14 @@ To use MySQL Workbench to migrate the database schema, perform the following ste
  
 3.	Select the database schema(s) that you want to migrate:
 
-![Image Alt Text MySQL Select Schema](https://mpbdevcontent.azureedge.net/Images/3-mysql_select_schema.png)
+ ![Image Alt Text MySQL Select Schema](https://mpbdevcontent.azureedge.net/Images/3-mysql_select_schema.png)
  
 4.	Select all the tables, views, and routines that are appropriate for migration, and then select **Next**.
 
-![Image Alt Text MySQL Select Objects](https://mpbdevcontent.azureedge.net/Images/4-mysql_select_objects.png)
+ ![Image Alt Text MySQL Select Objects](https://mpbdevcontent.azureedge.net/Images/4-mysql_select_objects.png)
 
 5.	Evaluate the schema script and manually edit it, if necessary, and then select **Next** to execute the schema creation script.
  
-![Image Alt Text MySQL Run Schema Creation](https://mpbdevcontent.azureedge.net/Images/5-mysql_run-schema_creation.png)
+ ![Image Alt Text MySQL Run Schema Creation](https://mpbdevcontent.azureedge.net/Images/5-mysql_run_schema_creation.png)
 
 6.	Evaluate the result of schema deployment in the next screen, and then close the migration wizard in MySQL.
