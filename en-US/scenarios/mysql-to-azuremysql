@@ -1,13 +1,13 @@
 {
 	"displayname": "Migrate MySQL to Azure Database for MySQL",
 	"emailmessage": "Check out the process for migrating from MySQL to Azure Database for MySQL here:",
-	"description": "Azure Database for MySQL is a fully managed database as a service offering capable of handing mission-critical workloads with predictable performance and dynamic scalability.",
+	"description": "Azure Database for MySQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
 	"steps": [
 		{
 			"name": "Pre-Migration",
 			"items": [
 				{
-					"filelocation": "MySQLEvaluation",
+					"filelocation": "MySqlEvaluation",
 					"actions": []
 				}
 			]
@@ -16,15 +16,15 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "MySQLMigrationOverview",
+					"filelocation": "MySqlMigrationOverview",
 					"actions": []
 				},
 				{
-					"filelocation": "MySQLSchemaMigration",
+					"filelocation": "MySqlSchemaMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "MySQLDataMigration",
+					"filelocation": "MySqlDataMigration",
 					"actions": []
 				}
 			]
@@ -33,23 +33,23 @@
 			"name": "Post-Migration",
 			"items": [
 				{
-					"filelocation": " SqlRemediateApps",
+					"filelocation": "SqlRemediateApps",
 					"actions": []
 				},
 				{
-					"filelocation": " PerformTests",
+					"filelocation": "PerformTests",
 					"actions": []
 				},
 				{
-					"filelocation": "MySQLOptimization",
+					"filelocation": "MySqlOptimization",
 					"actions": []
 				},
 				{
-					"filelocation": " SqlDataSync",
+					"filelocation": "SqlDataSync",
 					"actions": []
 				},
 				{
-					"filelocation": " SqlRollback",
+					"filelocation": "SqlRollback",
 					"actions": []
 				}
 			]
