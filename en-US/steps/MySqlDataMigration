@@ -37,10 +37,10 @@ Before beginning the process of migrating from MySQL to Azure Database for MySQL
 
 ##### Minimum hardware requirements
 
-    - Processor - Quad Core 
-    - Memory - 8GB 
-    - Disk - 320GB 7200RPM 
-    - Network - 1GB
+- Processor - Quad Core 
+- Memory - 8GB 
+- Disk - 320GB 7200RPM 
+- Network - 1GB
 
 #### On the computer running MySQL
 
