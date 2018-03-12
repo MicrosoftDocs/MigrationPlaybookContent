@@ -21,18 +21,18 @@ Before beginning the process of migrating from MySQL to Azure Database for MySQL
 
 ##### Software requirements
     •	Any of the following Windows Systems:
-        - Windows 7 (64-bit)
-        - Windows Server 2008 R2 (64-bit)
-        - Windows Server 2012 (64-bit)
-        - Windows Server 2012 R2 (64-bit)
+        •	Windows 7 (64-bit)
+        •	Windows Server 2008 R2 (64-bit)
+        •	Windows Server 2012 (64-bit)
+        •	Windows Server 2012 R2 (64-bit)
     •	.NET Framework 4.5.2 or later version.
     •	Visual C++ Redistributable for Visual Studio 2015.
     **Note**: The Attunity Replicate for Microsoft Migrations installation process prompts you to install this if the correct version is not already installed.
     •	The [MySQL Connector/ODBC](https://dev.mysql.com/downloads/connector/odbc/).
     •	Any of the following browsers:
-        - Microsoft Internet Explorer version 11 or later
-        - Google Chrome
-        - Mozilla Firefox
+        •	Microsoft Internet Explorer version 11 or later
+        •	Google Chrome
+        •	Mozilla Firefox
 
 ##### Minimum hardware requirements
     •	Processor - Quad Core 
@@ -45,8 +45,8 @@ Before beginning the process of migrating from MySQL to Azure Database for MySQL
 **Steps**
 
 1.	Update the my.ini file to enable binlog in MySQL:
-    a.	Find my.ini file in command prompt: cd %PROGRAMDATA%\MySQL\MySQL Server 5.7\
-    b.	Update #Binary Logging to point of the location of the binlog
+    a. Find my.ini file in command prompt: cd %PROGRAMDATA%\MySQL\MySQL Server 5.7\
+    b. Update #Binary Logging to point of the location of the binlog
         # Binary Logging
         log-bin=D:\MySql_Logs\BinLog
 2.	Save the my.ini file, and then restart the server.
@@ -81,11 +81,11 @@ Now, let’s set up the source endpoint.
 8.	Specify a name for the source connection, and then for **Type**, select **MySQL**.
 
 9.	Enter the following additional detail about the source connection:
-        •	**Server name**: [ServerName]
-        •	**Port**: 3306
-        •	**User name**: [UserName]
-        •	**Password**: [Password]
-        •	**Database name**: Type the database name or browse to the database.
+    •	**Server name**: [ServerName]
+    •	**Port**: 3306
+    •	**User name**: [UserName]
+    •	**Password**: [Password]
+    •	**Database name**: Type the database name or browse to the database.
 
 10.	Select **Test Connection** to ensure that connectivity is successfully established.
  
@@ -94,14 +94,14 @@ Now, let’s set up the source endpoint.
 Next, let’s set up the target endpoint.
 
 11.	To set up the target database in the Attunity console, add a New Endpoint connection with the following detail:
-        •	**Name**: Name the target database
-        •	**Role**: Target
-        •	**Type**: Microsoft Azure Database for MySQL
-        •	**Server**: [ServerName]
-        •	**Port**: 3306
-        •	**User name**: [UserName]
-        •	**Password**: [Password]
-        •	**Database name**: Type the database name or browse to the database.
+    •	**Name**: Name the target database
+    •	**Role**: Target
+    •	**Type**: Microsoft Azure Database for MySQL
+    •	**Server**: [ServerName]
+    •	**Port**: 3306
+    •	**User name**: [UserName]
+    •	**Password**: [Password]
+    •	**Database name**: Type the database name or browse to the database.
 
 12.	On the **Advanced** tab, increase the **Parallel load threads** value to 5 (the default value is 1).
  
