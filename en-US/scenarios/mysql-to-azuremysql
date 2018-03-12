@@ -1,22 +1,79 @@
 {
-	"displayname": "Migrate MySQL to Azure MySQL",
+	"displayname": "Migrate MySQL to Azure Database for MySQL",
 	"emailmessage": "Check out the process for migrating from MySQL to Azure Database for MySQL here:",
-	"description": "",
+	"description": "Azure Database for MySQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
 	"steps": [
 		{
-			"name": "Attunity Replicate for Microsoft Migrations",
+			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "AzureMySQLMigration",
+					"filelocation": "MySqlRationale",
+					"actions": []
+				},
+				{
+					"filelocation": "Overview",
 					"actions": []
 				}
 			]
 		},
+		{
+			"name": "Pre-Migration",
+			"items": [
+				{
+					"filelocation": "MySqlEvaluation",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [
+				{
+					"filelocation": "MySqlMigrationOverview",
+					"actions": []
+				},
+				{
+					"filelocation": "MySqlSchemaMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "MySqlDataMigration",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Post-Migration",
+			"items": [
+				{
+					"filelocation": "SqlRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "MySqlOptimization",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlDataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlRollback",
+					"actions": []
+				}
+			]
+		}
 	],
 	"casestudies": [
 			
 	],
 	"partners": [
-
+		{
+			"filelocation": "QuerySurge"
+		}
 	]
 }

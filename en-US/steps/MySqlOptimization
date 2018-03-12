@@ -1,0 +1,5 @@
+<!-- Optimize -->
+
+The post migration phase is crucial for reconciling any issues with data accuracy and completeness, as well as for uncovering potential performance issues with the workload.
+
+**Note**: For additional detail managing and configuring Azure Database for MySQL, refer to the tutorial [How do I configure Azure Database for MySQL](https://docs.microsoft.com/en-us/azure/mysql/howto-server-parameters).
