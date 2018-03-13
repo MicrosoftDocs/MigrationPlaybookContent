@@ -1,13 +1,13 @@
 {
-	"displayname": "Migrate MySQL to Azure Database for MySQL",
-	"emailmessage": "Check out the process for migrating from MySQL to Azure Database for MySQL here:",
-	"description": "Azure Database for MySQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
+	"displayname": "Migrate PostgreSQL to Azure Database for PostgreSQL",
+	"emailmessage": "Check out the process for migrating from PostgreSQL to Azure Database for PostgreSQL here:",
+	"description": "Azure Database for PostgreSQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
 	"steps": [
 		{
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "MySqlRationale",
+					"filelocation": "PostgreSqlRationale",
 					"actions": []
 				},
 				{
@@ -20,7 +20,7 @@
 			"name": "Pre-Migration",
 			"items": [
 				{
-					"filelocation": "MySqlEvaluation",
+					"filelocation": "PostgreSqlEvaluation",
 					"actions": []
 				}
 			]
@@ -29,11 +29,11 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "MySqlSchemaMigration",
+					"filelocation": "PostgreSqlSchemaMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlDataMigration",
+					"filelocation": "PostgreSqlDataMigration",
 					"actions": []
 				}
 			]
@@ -50,7 +50,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlOptimization",
+					"filelocation": "PostgreSqlOptimization",
 					"actions": []
 				},
 				{
