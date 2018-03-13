@@ -29,10 +29,6 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "MySqlMigrationOverview",
-					"actions": []
-				},
-				{
 					"filelocation": "MySqlSchemaMigration",
 					"actions": []
 				},
