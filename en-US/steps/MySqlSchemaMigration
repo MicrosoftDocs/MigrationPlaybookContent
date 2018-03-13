@@ -1,4 +1,4 @@
-<!-- Migrate Schema -->
+<!--Migrate Schema-->
 
 The first step in migrating from an on-premises instance of MySQL or a MySQL instance hosted in a virtual machine is to migrate the **schema** to Azure Database for MySQL.
 
