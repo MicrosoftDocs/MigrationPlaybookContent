@@ -5,25 +5,19 @@ Azure Database for MySQL is a relational database service based on the open sour
 When evaluating your rationale for migrating, consider the detail provided in the following sections.
 
 **Native MySQL that’s fully managed**
-
-Combine MySQL Community edition with the benefits of a fully managed service provider, and free developers from the complexity of infrastructure and database management so they can focus on building exceptional apps.
+ - Combine MySQL Community edition with the benefits of a fully managed service provider, and free developers from the complexity of infrastructure and database management so they can focus on building exceptional apps.
 
 **Languages and frameworks of your choice**
-
-Azure Database for MySQL enables popular open source frameworks and languages, and it features tight integration with Azure Web Apps. Popular content management apps, such as WordPress and Drupal, deliver a fully integrated experience supporting your application development needs.
+ - Azure Database for MySQL enables popular open source frameworks and languages, and it features tight integration with Azure Web Apps. Popular content management apps, such as WordPress and Drupal, deliver a fully integrated experience supporting your application development needs.
 
 **Built-in high availability**
-
-Trust Azure to keep enterprise apps up and running. Built to deliver high availability, Azure Database for MySQL requires no extra configuration, replication, or cost to ensure that your apps run when you need them to.
+ - Trust Azure to keep enterprise apps up and running. Built to deliver high availability, Azure Database for MySQL requires no extra configuration, replication, or cost to ensure that your apps run when you need them to.
 
 **Scale within seconds**
-
-Provision in minutes, and flexibly scale compute or storage independently within seconds.
+ - Provision in minutes, and flexibly scale compute or storage independently within seconds.
 
 **Simple and Flexible pricing**
-
-Everything you need is included with simple, flexible pricing. Azure Database for MySQL provides capabilities you want—like automatic database patching, automatic backups, built-in monitoring, security, and more—at no extra cost.
+ - Everything you need is included with simple, flexible pricing. Azure Database for MySQL provides capabilities you want—like automatic database patching, automatic backups, built-in monitoring, security, and more—at no extra cost.
 
 **Unparalleled security and reach**
-
-Run your apps on world-class infrastructure and the world's most trusted cloud. As a fully integrated service, Azure Database for MySQL plugs you into the Microsoft global network of datacenters, unparalleled security, and round-the-clock monitoring.
+ - Run your apps on world-class infrastructure and the world's most trusted cloud. As a fully integrated service, Azure Database for MySQL plugs you into the Microsoft global network of datacenters, unparalleled security, and round-the-clock monitoring.
