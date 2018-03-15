@@ -1,0 +1,23 @@
+<!--Rationale for Migrating-->
+
+Azure Database for PostgreSQL is a relational database service based on the open source PostgreSQL Server engine. It is a fully managed database as a service offering capable of handling mission-critical workload with predictable performance and dynamic scalability. Develop applications with Azure Database for PostgreSQL leveraging the open source tools and platform of your choice. 
+
+When evaluating your rationale for migrating, consider the detail provided in the following sections.
+
+**Community PostgreSQL that’s fully managed**
+ - Free yourself from the complexity of infrastructure and database management by combining the PostgreSQL community edition with the benefits of a fully managed service. With Azure Database for PostgreSQL, you’ll get back to building your apps.
+
+**Languages and frameworks of your choice**
+ - Use popular open source frameworks and languages—including C#, C++, Java, Python, Node, and PHP—to deliver a fully integrated experience that supports your application development needs.
+
+**Built-in high availability**
+ - Trust Azure to keep enterprise apps up and running. Built to deliver high availability, Azure Database for PostgreSQL requires no extra configuration, replication, or cost to ensure that your apps run when you need them to.
+
+**Scale within seconds**
+- Provision in minutes, and flexibly scale compute or storage independently within seconds.
+
+**Unparalleled security and reach**
+ - Fully integrate into the Azure ecosystem to take advantage of a global network of Microsoft datacenters, industry-leading security, and round-the-clock monitoring.
+
+**Simple and Flexible pricing**
+ - Get everything you need with simple, flexible pricing—including capabilities such as automatic database patching, automatic backups, built-in monitoring, and security at no extra cost.
