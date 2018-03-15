@@ -1,0 +1,195 @@
+
+
+After the schema(s) is deployed, the next step is to migrate the data.
+
+There are two ways to migrate a PostgreSQL database to Azure Database for PostgreSQL.
+
+**For relatively small (<150GB for example) databases that allow for downtime during migration**, you can use the pg_dump and pg_restore commands. For additional detail, see the aticle [Dump and restore](https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-dump-and-restore) in the Azure Database for PostgreSQL documentation.
+
+**For relatively large databases that can’t afford downtime during migration**, you can use Attunity Replicate for Microsoft Migrations, a co-sponsored, joint offering from Attunity and Microsoft that is provided to Microsoft customers at no additional cost. Attunity Replicate for Microsoft Migrations enables minimum downtime during database migration, so that source database continues to be operational and any data changes are replicated to the target database.
+
+Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets, propagating the schema creation script and data associated with each database table. Attunity Replicate will not propagate any other artifacts (such as SP, triggers, functions, etc.) or convert, for example, PL/SQL code hosted in such artifacts, to T-SQL.
+
+**Note**: While Attunity Replicate supports a broad set of migration scenarios, Attunity Replicate for Microsoft Migrations is focused on support for a specific subset of source/target pairs.
+
+**Important**: Using Attunity Replicate for Microsoft Migrations to pump data out of a database hosted on Rackspace (IaaS) is supported if the version of the source endpoint and the target are among those that are supported by Attunity Replicate.
+
+An overview of the process for performing a minimal downtime migration includes setting up the initial load and continuous data sync from the source database to the target database by using Attunity Replicate for Microsoft Migrations. This minimizes the time that the source database must be set as read-only as you prepare to switch your applications to the target PostgreSQL database on Azure.
+
+### Prerequisites
+
+Prior to beginning the process of migrating from PostgreSQL to Azure Database for PostgreSQL, set up an [Azure Database for PostgreSQL server](https://docs.microsoft.com/en-us/azure/postgresql/quickstart-create-server-database-portal) with firewall rules to allow access to the database it contains.
+
+**Note**: If SSL is enabled in Azure Database for PostgreSQL, you must download and decode the root certificate on the computer running Attunity Replicate for Microsoft Migrations to allow for client communication. For additional detail, refer to the information below about setting up the target database.
+
+#### On the computer running Attunity Replicate for Microsoft Migrations
+
+##### Software requirements
+- Any of the following Windows Systems:
+    - Windows 7 (64-bit)
+    - Windows Server 2008 R2 (64-bit)
+    - Windows Server 2012 (64-bit)
+    - Windows Server 2012 R2 (64-bit)
+- .NET Framework 4.5.2 or later version.
+- Visual C++ Redistributable for Visual Studio 2015.
+    **Note**: The Attunity Replicate for Microsoft Migrations installation process prompts you to install this if the correct version is not already installed.
+- PostgreSQLODBC Driver psqlodbc_09_03_0300-x64-1 or later version.
+    **Note**: You also need to add the PostgreSQLODBC bin installation folder (e.g. "C:\Program Files\psqlODBC\0906\bin") to the SYSTEM and USER path in Environment Variables.
+    (**Settings** > **System** > **About** > **System Info** > **Advanced System Settings** > **Environment Variables**).
+- Any of the following browsers:
+    - Microsoft Internet Explorer version 11 or later
+    - Google Chrome
+    - Mozilla Firefox
+
+##### Minimum hardware requirements
+- Processor - Quad Core 
+- Memory - 8GB 
+- Disk - 320GB 7200RPM 
+- Network - 1GB
+
+#### On the computer running PostgreSQL
+- In the pg_hba.conf configuration file, include the IP address of the computer running Attunity Replicate for Microsoft Migrations.
+- In the postgresql.conf configuration file, include the following parameters and values:
+    - **wal_level** = logical
+    - **max_replication_slots** = [number of slots (tasks)]
+    - **max_wal_senders** = [number of concurrent tasks] – Specifies the number of concurrent tasks that can run.
+    
+    The **max_replication_slots** parameter specifies the number of slots (one per task) that are required to accommodate all the tasks that need to be run. The max_wal_senders parameter specifies the number of concurrent tasks that can run.
+
+    If for example you want to run a total of 50 tasks with 5 tasks running simultaneously to perform a migration from the PostgreSQL to Azure Database for PostgreSQL, the parameters in the postgresql.conf file should have the following values:
+    - **wal_level** = logical
+    - **max_replication_slots** = 50
+    - **max_wal_senders** = 5
+
+    **Note**: A slot opens automatically as soon as a task starts, and the slot remains open even after the associated task has completed – open slots need to be deleted manually. For more information, see Error #6 in the Common Errors section later in this document.
+
+### Setting up Attunity Migration tasks
+
+**Steps**
+
+To set up Attunity Migration tasks, perform the following steps:
+1.	Download and install the [Attunity Replicate for Microsoft Migrations](http://discover.attunity.com/download-replicate-microsoft-lp6657.html) offering.
+
+2.	Upon successful set up, you should see the **Attunity Replicate MSM Server** and **Attunity Replicate MSM UI Server** services running in Windows Services.
+ 
+![Image Alt Text Windows Services](https://mpbdevcontent.azureedge.net/Images/1-postgresql_windows_services.png)
+
+3.	On the **Star** menu, expand **Attunity Replicate for Microsoft Migrations**, and then select **Attunity Replicate for Microsoft Migrations Console**.
+
+4.	On the menu bar, select **New Task**.
+ 
+![Image Alt Text Attunity New Task](https://mpbdevcontent.azureedge.net/Images/2-postgresql_attunity_new_task.png)
+
+5.	In the **New Text** dialog box, specify a name and description for the task.
+
+6.	By default, the **Full Load** and **Apply Changes** task options are selected. If you only want to perform one option or the other, deselect the appropriate task option, and then select OK.
+
+Now, let’s set up the source endpoint.
+
+7.	On the menu bar, select **Manage Endpoint Connections**, and then select **New Endpoint Connection**.
+ 
+![Image Alt Text Attunity New Endpoint Connection](https://mpbdevcontent.azureedge.net/Images/3-postgresql_attunity_new_endpoint.png)
+
+8.	Specify a name for the source connection, and then for **Type**, select **PostgreSQL**.
+
+9.	Enter the following additional detail about the source connection:
+
+- **Server name**: [ServerName]
+- **Port**: 5432
+- **User name**: [UserName]
+- **Password**: [Password]
+- **Database name**: Type the database name or browse to the database.
+
+10.	Select **Test Connection** to ensure that connectivity is successfully established.
+ 
+![Image Alt Text Attunity Test Connection](https://mpbdevcontent.azureedge.net/Images/4-postgresql_attunity_new_test_endpoint.png)
+
+11.	Next, set up the target endpoint.
+    **Note**: If SSL is enabled in Azure Database for PostgreSQL, you must download and decode the root certificate on the computer running Attunity Replicate for Microsoft Migrations to allow for client communication. For more detail, see the article [Applications that require certificate verification for SSL connection]()https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security.
+    - On the computer running Attunity Replicate for Microsoft Migrations, download the [certificate file](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt) needed to communicate over SSL with your Azure Database for PostgreSQL server.
+        To decode the certificate file, you need to install OpenSSL on the computer running Attunity Replicate for Microsoft Migrations.
+    - On the computer running Attunity Replicate for Microsoft Migrations, install OpenSSL, which you will use to decode the certificate file.
+        - For computers running Windows 10 Anniversary Update or later, you need to [install Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
+        - For computers running Windows Server 2016, you need to [enable the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server).
+    - To decode the certificate file, refer to the article [Configure SSL connectivity in Azure Database for PostgreSQL, and use the steps listed in the article [Applications that require certificate verification for SSL connectivity](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security#applications-that-require-certificate-verification-for-ssl-connectivity).
+    - After the root certificate is decoded and the root.crt file is created, note the path to the file so that you can copy it to the AppData folder for the local user (C:\Users\[localuser]\AppData\Roaming\postgresql) and system profile (C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql).
+
+12.	To set up the target database in the Attunity console, add a New Endpoint connection with the following detail:
+- **Name**: Name the target database
+- **Role**: Target
+- **Type**: Microsoft Azure Database for PostgreSQL
+- **Server**: [ServerName]
+- **Port**: 5432
+- **User name**: [UserName]
+- **Password**: [Password]
+- **Database name**: Type the database name or browse to the database.
+
+13.	On the **Advanced** tab, select **Internal Parameters**, and then add a parameter named **additionalConnectionProperties** with the value: **sslmode=verify-ca;pqopt=sslrootcert=C:\\SSLCert\\root.crt**.
+ 
+![Image Alt Text Attunity Advanced Tab](https://mpbdevcontent.azureedge.net/Images/5-postgresql_advanced_tab.png)
+
+After you have created the source and target connections, you need to create a task for the sync.
+
+14.	Drag and drop to specify the source and target for the task.
+ 
+![Image Alt Text Specify source and target](https://mpbdevcontent.azureedge.net/Images/6-postgresql_specify_target.png)
+
+In the above example, the source and target databases are apparent, and the icons in the center of the line indicate that the task will do a full load first, and then apply the changes from source to target for subsequent changes.
+
+15.	Select **Table Selection**, and then specify the source tables to sync.
+ 
+![Image Alt Text Table Selection](https://mpbdevcontent.azureedge.net/Images/7-postgresql_table_selection.png)
+
+16.	Save the task, and then select **Run**.
+
+17.	At the top-right, on the **Monitor** tab, view the status of the deployed task.
+ 
+![Image Alt Text Monitor tab](https://mpbdevcontent.azureedge.net/Images/8-postgresql_monitor_tab.png)
+
+18.	After tasks start running, check the target database on Azure Database for PostgreSQL to verify that the configured table is created and that all the rows are copied.
+
+### Most commonly encountered setup errors and their resolution
+
+Below are some errors that you might encounter with the initial task creation and their resolution:
+- **Error #1**: RetCode: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if max_replication_slots > 0;
+    Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
+
+    **Resolution: In the PostgreSQL source server configuration file, set the max_replication_slots parameter to a value greater than ‘0’.
+    To be more specific, set the parameters in postgresql.config (remember to remove the # (comment)). Do not use ">", postgres does not recognize this.
+    - wal_level = logical		# minimal, replica, or logical
+    - max_replication_slots = 1	# maximum number of replication slots
+    - max_wal_senders = 3		# maximum number of concurrent tasks that can run
+
+- **Error #2**: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if wal_level >= archive;
+    Error while executing the query [1022502]  (ar_odbc_stmt.c:2367) and then SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: logical decoding requires wal_level >= logical;
+    Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
+    **Resolution**: In the PostgreSQL source server configuration file, set the value of the wal_level parameter to ‘logical’.
+
+- **Error #3**: Could not connect to the server: FATAL:  no pg_hba.conf entry for replication connection from host "::1", user "postgres", SSL off [1020452]  (postgres_endpoint_wal_engine.c:1221)_
+    **Resolution**: Enable access configuration for “replication” database for PostgreSQL user in pg_hba.conf. 
+    The IP address of the computer running Attunity Replicate for Microsoft Migrations must be added to the pg_hba.conf configuration file, for example:
+    host    replication     postgres        127.0.0.1/32            md5
+    host    replication     postgres        1/128                 md5
+
+- **Error #4**: SYS-E-HTTPFAIL, Cannot connect to ODBC provider Network error has occurred. 
+    SYS,GENERAL_EXCEPTION,Cannot connect to ODBC provider Network error has occurred, RetCode: SQL_ERROR SqlState: 08001 NativeError: 101 Message: root certificate file "C:\windows\system32\config\systemprofile\AppData\Roaming/postgresql/root.crt" does not exist Either provide the file or change sslmode to disable server certificate verification. ODBC general error.)
+    **Resolution**: The root.crt file needs to be copied to the following path on computers running Windows 10: C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql.
+    This issue does not seem to occur in Windows Server 2016.
+
+- **Error #5**: SYS-E-HTTPFAIL, 'psql' is not recognized as an internal or external command, operable program or batch file. Endpoint initialization failed_
+    **Resolution**: Ensure that C:\Program Files\PostgreSQL\9.6\bin is added to SYSTEM path in env variable. Restart the Attunity Replicate Server services in services.msc and then retry.
+
+- **Error #6**: SYS-E-HTTPFAIL, insufficient replication_slots
+    **Resolution**: Run this command in psql or pg_admin:
+    SELECT * FROM pg_replication_slots
+    You will see the replication slots that Attunity opened. For example, these are the nine slots that are opened using Attunity in the screenshot below:
+ 
+    ![Image Alt Text Attunity Replication Slots](https://mpbdevcontent.azureedge.net/Images/9-postgresql_replication_slots.png)
+
+    To delete slot that is inactive, make sure to select row with active Boolean that is set to false.
+
+    Command to delete inactive slot:
+    
+    select pg_drop_replication_slot('<Slot_name>');
+    
+    e.g., select pg_drop_replication_slot(‘json_test_00141976_ad157b59_9b92_438d_9b10_f24987902d7e’)
