@@ -1,74 +1,83 @@
 {
-	"questions":
-	[
-		{
-			"id": "source",
-			"text": "Where is your data stored today?",
-			"options":
-			[
-				"SQL Server",
-				"MySQL",
-				"PostgreSQL",				
-				"Oracle",
-				"DB2",
-				"SAP ASE",
-				"Access",
-				"MongoDB",
-				"Azure Table Storage"
-			],
-			"required": "true"
-		},
-		{
-			"id": "target",
-			"text": "Where do you want to move your data?",
-			"options":
-			[
-				"SQL Server",
-				"Azure SQL Database",
-				"Azure SQL Database MI",
-				"SQL Server on Azure VMs",
-				"SQL Data Warehouse",
-				"Azure DB for MySQL",
-				"Azure DB for PostgreSQL",
-				"Azure Cosmos DB"
-			],
-			"required": "true"
-		},
-		{
-			"id": "goal",
-			"text": "What's the business goal?",
-			"options":
-			[
-				"Data modernization",
-				"Reducing cost",
-				"Migrate to Cloud",
-				"All of the above"
-			],
-			"required": "false"
-		},
-		{
-			"id": "partner",
-			"text": "Do you require Partner support to assist with the migrations?",
-			"options":
-			[
-				"Yes",
-				"No"
-			],
-			"required": "false"
-		}
-	],
-	"caseStudies":
-	[
-		{
-			"filelocation": "Floatel"
-		},
-		{
-			"filelocation": "Infosys"
-		},
-		{
-			"filelocation": "HollandAmerica"
-		}
-	],
+  "menu": {
+    "SQL Server": {
+      "logo": "sql-server.png",
+      "pages": {
+        "Azure SQL": "sql-to-azuresql",
+        "SQL Server": "sql-to-sqlserver",
+		"Azure SQL Database MI": "sql-to-azuresqldbmi",
+		"SQL Server on Azure VMs":"sql-to-sqlvm",
+		"SQL Data Warehouse": "sql-to-sqldw"
+      }
+    },
+    "Oracle": {
+      "logo": "oracle.png",
+      "pages": {
+        "Azure SQL": "oracle-to-azuresql",
+        "SQL Server": "oracle-to-sqlserver",
+        "Azure PostgreSQL": "oracle-to-azurepostgresql",
+		"SQL Data Warehouse" : "oracle-to-sqldw"
+      }
+    },
+    "DB2": {
+      "logo": "DB2.png",
+      "pages": {
+        "Azure SQL": "db2-to-azuresql",
+        "SQL Server": "db2-to-sqlserver"
+      }
+    },
+    "MySQL": {
+      "logo": "MySQL.png",
+      "pages": {
+        "Azure SQL": "mysql-to-azuresql",
+        "SQL Server": "mysql-to-sqlserver",
+        "Azure MySQL": "mysql-to-azuremysql"
+      }
+    },
+    "PostgreSQL": {
+      "logo": "PostgreSQL.png",
+      "pages": {
+        "Azure PostgreSQL": "postgresql-to-azurepostgresql"
+      }
+    },
+    "Mongo": {
+      "logo": "MongoDB.png",
+      "pages": {
+        "Cosmos": "mongo-to-cosmos"
+      }
+    },
+    "Access": {
+      "logo": "Access.png",
+      "pages": {
+        "Azure SQL": "accesst-to-azuresql",
+        "SQL Server": "access-to-sqlserver"
+      }
+    },
+    "SAP ASE": {
+      "logo": "SAP-ASE.png",
+      "pages": {
+        "Azure SQL": "sybase-to-azuresql",
+        "SQL Server": "sybase-to-sqlserver"
+      }
+    },
+    "Azure Table Storage": {
+      "logo": "Azure-Table-Storage.png",
+      "pages": {
+        "Cosmos": "azuretable-to-cosmos"
+      }
+    }
+  },
+  "caseStudies": [
+    {
+      "filelocation": "Floatel"
+    },
+    {
+      "filelocation": "Infosys"
+    },
+    {
+      "filelocation": "HollandAmerica"
+    }
+  ],
 	"partners":
 	[
 		{
@@ -102,28 +111,4 @@
 			"filelocation": "Cloudamize"
 		}
 	],
-	"scenarioMap":
-	{
-		"source0_target0" : "sql-to-sqlserver",
-		"source0_target1" : "sql-to-azuresqldb",
-		"source0_target2" : "sql-to-azuresqldbmi",
-		"source0_target3" : "sql-to-sqlvm",
-		"source0_target4" : "sql-to-sqldw",
-		"source1_target0" : "mysql-to-sqlserver",
-		"source1_target1" : "mysql-to-azuresqldb",
-		"source1_target5" : "mysql-to-azuremysql",
-		"source2_target6" : "postgresql-to-azurepostgresql",		
-		"source3_target0" : "oracle-to-sqlserver",
-		"source3_target1" : "oracle-to-azuresqldb",
-		"source3_target6" : "oracle-to-azurepostgresql",
-		"source3_target4" : "oracle-to-sqldw",
-		"source4_target0" : "db2-to-sqlserver",
-		"source4_target1" : "db2-to-azuresqldb",
-		"source5_target0" : "sybase-to-sqlserver",
-		"source5_target1" : "sybase-to-azuresqldb",
-		"source6_target0" : "access-to-sqlserver",
-		"source6_target1" : "access-to-azuresqldb",
-		"source7_target7" : "mongo-to-cosmos",
-		"source8_target7" : "azuretable-to-cosmos"
-	}
 }
