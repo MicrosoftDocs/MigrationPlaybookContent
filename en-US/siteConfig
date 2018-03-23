@@ -1,6 +1,7 @@
 {
-  "menu": {
-    "SQL Server": {
+  "menu": [
+    {
+      "title": "SQL Server",
       "logo": "sql-server.png",
       "pages": {
         "Azure SQL": "sql-to-azuresql",
@@ -10,7 +11,8 @@
 		"SQL Data Warehouse": "sql-to-sqldw"
       }
     },
-    "Oracle": {
+    {
+      "title": "Oracle",
       "logo": "oracle.png",
       "pages": {
         "Azure SQL": "oracle-to-azuresql",
@@ -19,14 +21,17 @@
 		"SQL Data Warehouse" : "oracle-to-sqldw"
       }
     },
-    "DB2": {
+    {
+      "title": "DB2",
       "logo": "DB2.png",
       "pages": {
         "Azure SQL": "db2-to-azuresql",
         "SQL Server": "db2-to-sqlserver"
       }
     },
-    "MySQL": {
+    {
+      "title": "MySQL",
+
       "logo": "MySQL.png",
       "pages": {
         "Azure SQL": "mysql-to-azuresql",
@@ -34,39 +39,49 @@
         "Azure MySQL": "mysql-to-azuremysql"
       }
     },
-    "PostgreSQL": {
+    {
+      "title": "PostgreSQL",
+
       "logo": "PostgreSQL.png",
       "pages": {
         "Azure PostgreSQL": "postgresql-to-azurepostgresql"
       }
     },
-    "Mongo": {
+    {
+      "title": "Mongo",
+
       "logo": "MongoDB.png",
       "pages": {
         "Cosmos": "mongo-to-cosmos"
       }
     },
-    "Access": {
+    {
+      "title": "Access",
+
       "logo": "Access.png",
       "pages": {
         "Azure SQL": "accesst-to-azuresql",
         "SQL Server": "access-to-sqlserver"
       }
     },
-    "SAP ASE": {
+    {
+      "title": "SAP ASE",
+
       "logo": "SAP-ASE.png",
       "pages": {
         "Azure SQL": "sybase-to-azuresql",
         "SQL Server": "sybase-to-sqlserver"
       }
     },
-    "Azure Table Storage": {
+    {
+      "title": "Azure Table Storage",
+
       "logo": "Azure-Table-Storage.png",
       "pages": {
         "Cosmos": "azuretable-to-cosmos"
       }
     }
-  },
+  ],
   "caseStudies": [
     {
       "filelocation": "Floatel"
