@@ -2,7 +2,7 @@
   "menu": [
     {
       "title": "SQL Server",
-      "logo": "sql-server.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
       "pages": {
         "Azure SQL": "sql-to-azuresql",
         "SQL Server": "sql-to-sqlserver",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Oracle",
-      "logo": "oracle.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
       "pages": {
         "Azure SQL": "oracle-to-azuresql",
         "SQL Server": "oracle-to-sqlserver",
@@ -23,7 +23,7 @@
     },
     {
       "title": "DB2",
-      "logo": "DB2.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
       "pages": {
         "Azure SQL": "db2-to-azuresql",
         "SQL Server": "db2-to-sqlserver"
@@ -31,8 +31,7 @@
     },
     {
       "title": "MySQL",
-
-      "logo": "MySQL.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
       "pages": {
         "Azure SQL": "mysql-to-azuresql",
         "SQL Server": "mysql-to-sqlserver",
@@ -42,23 +41,21 @@
     {
       "title": "PostgreSQL",
 
-      "logo": "PostgreSQL.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
       "pages": {
         "Azure PostgreSQL": "postgresql-to-azurepostgresql"
       }
     },
     {
       "title": "Mongo",
-
-      "logo": "MongoDB.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
       "pages": {
         "Cosmos": "mongo-to-cosmos"
       }
     },
     {
       "title": "Access",
-
-      "logo": "Access.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
       "pages": {
         "Azure SQL": "accesst-to-azuresql",
         "SQL Server": "access-to-sqlserver"
@@ -66,8 +63,7 @@
     },
     {
       "title": "SAP ASE",
-
-      "logo": "SAP-ASE.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
       "pages": {
         "Azure SQL": "sybase-to-azuresql",
         "SQL Server": "sybase-to-sqlserver"
@@ -75,8 +71,7 @@
     },
     {
       "title": "Azure Table Storage",
-
-      "logo": "Azure-Table-Storage.png",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
       "pages": {
         "Cosmos": "azuretable-to-cosmos"
       }
