@@ -13,3 +13,5 @@ Proposed sequence and usage of tools:
 2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target PostgreSQL on Aure.
 
 Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
+
+**Important**: Using Attunity Replicate for Microsoft Migrations to pump data out of a database hosted on Rackspace (IaaS) is supported if the version of the source endpoint and the target are among those that are supported by Attunity Replicate.

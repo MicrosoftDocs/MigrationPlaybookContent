@@ -14,6 +14,8 @@ Proposed sequence and usage of tools:
 
 Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
 
+**Important**: Using Attunity Replicate for Microsoft Migrations to pump data out of a database hosted on Rackspace (IaaS) is supported if the version of the source endpoint and the target are among those that are supported by Attunity Replicate.
+
 ### Setting up Attunity for MySQL Replication
 
 1.	Setup a Windows Virtual Machine in Azure with the minimum of 4 vCPUs, 28GB of RAM. DS12_V2 Standard SKU from Azure Windows Server 2016 should work. Setup the VM in the same region as the target Azure MySQL. Attunity works on Linux as well.
