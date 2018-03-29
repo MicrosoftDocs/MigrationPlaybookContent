@@ -77,6 +77,26 @@
       }
     }
   ],
+{
+	"commonChoices": {
+		{
+			"text": "SQL Server &rarr; Azure SQL Database",
+			"link": "sqlserver/azuresql"
+		},
+		 {
+			"text": "SQL Server &rarr; SQL Server",
+			"link": "sqlserver/sqlserver"
+		},
+		 {
+			"text": "Oracle &rarr; SQL Server",
+			"link": "oracle/sqlserver"
+		},
+		{
+			"text": "DB2 &rarr; Azure SQL Database",
+			"link": "db2/azuresql"
+		}
+	}
+},
   "caseStudies": [
     {
       "filelocation": "Floatel"
