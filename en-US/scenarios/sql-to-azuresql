@@ -25,10 +25,18 @@
 			]
 		},
 		{
-			"name": "Pre-Migration",
+			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "AzureSqlDiscover",
+					"actions": []
+				},
+				{
 					"filelocation": "AzureSqlAssessment",
+					"actions": []
+				},
+				{
+					"filelocation": "NoConvert",
 					"actions": []
 				}
 			]
@@ -44,12 +52,20 @@
 				{
 					"filelocation": "AzureSqlDataMigration",
 					"actions": []
+				},
+				{
+					"filelocation": "NoDataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "NoCutover",
+					"actions": []
 				}
 			]
 		},
 
 		{
-			"name": "Post-Migration",
+			"name": "Post-migration",
 			"items": [
 				{
 					"filelocation": "SqlRemediateApps",
@@ -61,14 +77,6 @@
 				},
 				{
 					"filelocation": "SqlOptimization",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlRollback",
 					"actions": []
 				}
 			]
