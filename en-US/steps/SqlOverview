@@ -7,7 +7,7 @@ Migrations should be approached with the same rigor and processes as a full soft
 Each phase in the database migration process is briefly described in the following table:
 
 |**Stage** |**Phase** |**Description** |
-|:-------------|:------------------------------|:---------------|
+|:---------|:---------|:---------------|
 |Pre-migration | Discover | Inventory database assets, and application stack discovery. |
 |Pre-migration | Assess | Assess workloads and fix recommendations. |
 |Pre-migration | Convert* | For heterogeneous migrations, convert the source schema to work in the target environment. |
