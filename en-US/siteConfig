@@ -20,7 +20,7 @@
 		},
 		{
 			"id": "target",
-			"text": "Where do you want to move your data to?",
+			"text": "Where do you want to move your data?",
 			"options":
 			[
 				"SQL Server",
