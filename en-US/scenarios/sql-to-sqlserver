@@ -40,7 +40,11 @@
 				{
 					"filelocation": "SqlAssessment",
 					"actions": []
-				}
+				},
+				{
+					"filelocation": "NoConvert",
+					"actions": []
+				},
 			]
 		},
 
@@ -49,6 +53,14 @@
 			"items": [
 				{
 					"filelocation": "SqlMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "NoDataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "NoCutover",
 					"actions": []
 				}
 			]
@@ -67,14 +79,6 @@
 				},
 				{
 					"filelocation": "SqlOptimization",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlRollback",
 					"actions": []
 				}
 			]
