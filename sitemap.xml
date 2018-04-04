@@ -11,6 +11,9 @@
     <loc>https://datamigration.microsoft.com/scenario/sql-to-azuresql</loc>
   </url>
   <url>
+    <loc>https://datamigration.microsoft.com/scenario/sql-to-azuresqlmi</loc>
+  </url>
+  <url>
     <loc>https://datamigration.microsoft.com/scenario/oracle-to-sqlserver2016</loc>
   </url>
   <url>
