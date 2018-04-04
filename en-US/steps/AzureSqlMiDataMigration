@@ -123,4 +123,4 @@ To migrate your source SQL Server on-premises database to Azure SQL Database Man
     ![Target summary](https://mpbdevcontent.azureedge.net/Images/mi15-dms-monitor-migration.png) 
     
     b. After the migration completes, werify the target database(s) on the target Azure SQL Database Managed Instance.
-    
+
