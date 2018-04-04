@@ -1,25 +1,26 @@
+## Migration process overview
 
-## Migration Lifecyle
+Migrations should be approached with the same rigor and processes as a full software or hardware project – a  solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
 
-Migrations should be approached with the same rigor and processes as a full software or hardware project – a solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
+![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess_New.png)
 
-![SQL Migration Process](/assets/images/20180117-MigrationProcessGraphic.png)
+Each phase in the database migration process is briefly described in the following table:
 
-Each phase in the migration process is briefly described in the following table:
+|**Stage** |**Phase** |**Description** |
+|:---------|:---------|:---------------|
+|Pre-migration | Discover | Inventory database assets, and application stack discovery. |
+|Pre-migration | Assess | Assess workloads and fix recommendations. |
+|Pre-migration | Convert* | For heterogeneous migrations, convert the source schema to work in the target environment. |
+|Migration | Migrate schema, data, and objects | Migrate the source schema, and then migrate the source data to the target. |
+|Migration | Sync data* | For minimal downtime migrations, sync your target schema and data with the source. |
+|Migration | Cutover* | For minimal downtime migrations, cut over from the source to the target environment. |
+|Post-migration | Remediate applications | Iteratively make any necessary changes to your applications. |
+|Post-migration | Perform Tests | Iteratively run functional and performance tests. |
+|Post-migration | Optimize | Based on the tests you performed, address any performance issues, and then retest to confirm the performance improvements. |
 
-|**Phase** |**Description** |
-|:---------|:---------------|
-|Discover | Database asset inventory and application stack discovery. |
-|Assess | Workload assessment and recommended fixes. |
-|Convert | Conversion of source schema to work in the target environment. |
-|Migrate  | Migration of data to the target environment. |
-|Remediate Applications | Iterative updates to applications to accommodate necessary changes. |
-|Perform Tests | Iterative testing to confirm functionality and performance. |
-|Optimize | After data and schema migration, testing the target environment to identify potential performance issues. |
-|Sync Data | Post migration data sync and schema sync. |
-|Cutover | Post migration rollback strategy planning. |
+*Relevant only for selected migration scenarios.
 
-For more detail on a specific phase, see the Pre-Migration, Migration, and Post-Migration steps.
+For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
 
 For comprehensive details on upgrading SQL Server, see the topic [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server).
 
