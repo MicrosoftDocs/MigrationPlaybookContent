@@ -1,4 +1,4 @@
-<!--Migrate Schema-->
+<!--Migrate schema-->
 
 The first step for migrating from on-premises Postgres or PostgreSQL hosted in a virtual machine is to migrate the schema to Azure Database for PostgreSQL.
 

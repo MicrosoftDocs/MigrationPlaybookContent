@@ -1,4 +1,4 @@
-<!--Sync Data-->
+<!--Data sync-->
 
 You can migrate your existing MySQL database to Microsoft SQL Server by using Attunity Replicate for Microsoft Migrations, a co-sponsored, joint offering from Attunity and Microsoft that is provided to Microsoft customers free of charge. Attunity Replicate for Microsoft Migrations also enables minimum downtime in database migration, and the source database continues to be operational during the migration process.
 
