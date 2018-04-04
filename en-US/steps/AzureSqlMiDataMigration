@@ -124,16 +124,3 @@ To migrate your source SQL Server on-premises database to Azure SQL Database Man
     
     b. After the migration completes, werify the target database(s) on the target Azure SQL Database Managed Instance.
     
-    
-
-
-    
-
-    
-    
-
-
-
-
-    
-   
