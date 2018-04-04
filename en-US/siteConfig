@@ -56,7 +56,7 @@
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
       "pages": {
-        "Azure SQL": "/scenario/accesst-to-azuresql",
+        "Azure SQL": "/scenario/access-to-azuresql",
         "SQL Server": "/scenario/access-to-sqlserver"
       }
     },
