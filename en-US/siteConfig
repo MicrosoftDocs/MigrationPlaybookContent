@@ -27,7 +27,8 @@
 				"Azure SQL Database",
 				"Azure MySQL",
 				"Azure PostgreSQL",
-				"Azure Cosmos DB"
+				"Azure Cosmos DB",
+				"Azure SQL Database MI"
 			],
 			"required": "true"
 		},
@@ -97,6 +98,7 @@
 	{
 		"source0_target0" : "sql-to-sqlserver",
 		"source0_target1" : "sql-to-azuresql",
+		"source0_target5" : "sql-to-azuresqlmi",
 		"source1_target0" : "oracle-to-sqlserver",
 		"source1_target1" : "oracle-to-azuresql",
 		"source1_target3" : "oracle-to-azurepostgresql",
