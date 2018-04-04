@@ -4,94 +4,94 @@
       "title": "SQL Server",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
       "pages": {
-        "Azure SQL": "sql-to-azuresql",
-        "SQL Server": "sql-to-sqlserver",
-		"Azure SQL Database MI": "sql-to-azuresqldbmi",
-		"SQL Server on Azure VMs":"sql-to-sqlvm",
-		"SQL Data Warehouse": "sql-to-sqldw"
+        "Azure SQL": "/scenario/sql-to-azuresql",
+        "SQL Server": "/scenario/sql-to-sqlserver",
+		"Azure SQL Database MI": "/scenario/sql-to-azuresqldbmi",
+		"SQL Server on Azure VMs":"/scenario/sql-to-sqlvm",
+		"SQL Data Warehouse": "/scenario/sql-to-sqldw"
       }
     },
     {
       "title": "Oracle",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
       "pages": {
-        "Azure SQL": "oracle-to-azuresql",
-        "SQL Server": "oracle-to-sqlserver",
-        "Azure PostgreSQL": "oracle-to-azurepostgresql",
-		"SQL Data Warehouse" : "oracle-to-sqldw"
+        "Azure SQL": "/scenario/oracle-to-azuresql",
+        "SQL Server": "/scenario/oracle-to-sqlserver",
+        "Azure PostgreSQL": "/scenario/oracle-to-azurepostgresql",
+		"SQL Data Warehouse" : "/scenario/oracle-to-sqldw"
       }
     },
     {
       "title": "DB2",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
       "pages": {
-        "Azure SQL": "db2-to-azuresql",
-        "SQL Server": "db2-to-sqlserver"
+        "Azure SQL": "/scenario/db2-to-azuresql",
+        "SQL Server": "/scenario/db2-to-sqlserver"
       }
     },
     {
       "title": "MySQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
       "pages": {
-        "Azure SQL": "mysql-to-azuresql",
-        "SQL Server": "mysql-to-sqlserver",
-        "Azure MySQL": "mysql-to-azuremysql"
+        "Azure SQL": "/scenario/mysql-to-azuresql",
+        "SQL Server": "/scenario/mysql-to-sqlserver",
+        "Azure MySQL": "/scenario/mysql-to-azuremysql"
       }
     },
     {
       "title": "PostgreSQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
       "pages": {
-        "Azure PostgreSQL": "postgresql-to-azurepostgresql"
+        "Azure PostgreSQL": "/scenario/postgresql-to-azurepostgresql"
       }
     },
     {
       "title": "Mongo",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
       "pages": {
-        "Cosmos": "mongo-to-cosmos"
+        "Cosmos": "/scenario/mongo-to-cosmos"
       }
     },
     {
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
       "pages": {
-        "Azure SQL": "accesst-to-azuresql",
-        "SQL Server": "access-to-sqlserver"
+        "Azure SQL": "/scenario/accesst-to-azuresql",
+        "SQL Server": "/scenario/access-to-sqlserver"
       }
     },
     {
       "title": "SAP ASE",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
       "pages": {
-        "Azure SQL": "sybase-to-azuresql",
-        "SQL Server": "sybase-to-sqlserver"
+        "Azure SQL": "/scenario/sybase-to-azuresql",
+        "SQL Server": "/scenario/sybase-to-sqlserver"
       }
     },
     {
       "title": "Azure Table Storage",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
       "pages": {
-        "Cosmos": "azuretable-to-cosmos"
+        "Cosmos": "/scenario/azuretable-to-cosmos"
       }
     }
   ],
   "commonChoices": [
     {
       "text": "SQL Server &rarr; Azure SQL Database",
-      "link": "sqlserver/azuresql"
+      "link": "/scenario/sqlserver/azuresql"
     },
     {
       "text": "SQL Server &rarr; SQL Server",
-      "link": "sqlserver/sqlserver"
+      "link": "/scenario/sqlserver/sqlserver"
     },
     {
       "text": "Oracle &rarr; SQL Server",
-      "link": "oracle/sqlserver"
+      "link": "/scenario/oracle/sqlserver"
     },
     {
       "text": "DB2 &rarr; Azure SQL Database",
-      "link": "db2/azuresql"
+      "link": "/scenario/db2/azuresql"
     }
   ],
   "caseStudies": [
