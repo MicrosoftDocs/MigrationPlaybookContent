@@ -7,7 +7,7 @@
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "ASERationale",
+					"filelocation": "Sql2017Rationale",
 					"actions": []
 				},
 				{
