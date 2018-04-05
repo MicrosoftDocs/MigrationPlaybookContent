@@ -5,10 +5,11 @@
 	"steps": [
 		{
 			"name": "Why migrate?",
+			
 			"items": [
 				{
 					"filelocation": "AzureSqlDbRationale",
-					"actions": [
+					"actions": []
 				},		
 				{
 					"filelocation": "DbMigrationProcessOverview",
