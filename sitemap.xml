@@ -5,7 +5,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://datamigration.microsoft.com/scenario/sql-to-sqlserver2016</loc>
+    <loc>https://datamigration.microsoft.com/scenario/sql-to-sqlserver</loc>
   </url>
   <url>
     <loc>https://datamigration.microsoft.com/scenario/sql-to-azuresql</loc>
@@ -14,33 +14,48 @@
     <loc>https://datamigration.microsoft.com/scenario/sql-to-azuresqlmi</loc>
   </url>
   <url>
-    <loc>https://datamigration.microsoft.com/scenario/oracle-to-sqlserver2016</loc>
+    <loc>https://datamigration.microsoft.com/scenario/oracle-to-sqlserver</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/oracle-to-azurepostgresql</loc>
   </url>
   <url>
     <loc>https://datamigration.microsoft.com/scenario/oracle-to-azuresql</loc>
   </url>
   <url>
-    <loc>https://datamigration.microsoft.com/scenario/db2-to-sqlserver2016</loc>
+    <loc>https://datamigration.microsoft.com/scenario/db2-to-sqlserver</loc>
   </url>
   <url>
     <loc>https://datamigration.microsoft.com/scenario/db2-to-azuresql</loc>
   </url>
   <url>
-    <loc>https://datamigration.microsoft.com/scenario/mysql-to-sqlserver2016</loc>
+    <loc>https://datamigration.microsoft.com/scenario/mysql-to-sqlserver</loc>
   </url>
   <url>
     <loc>https://datamigration.microsoft.com/scenario/mysql-to-azuresql</loc>
   </url>
   <url>
-    <loc>https://datamigration.microsoft.com/scenario/sybase-to-sqlserver2016</loc>
+    <loc>https://datamigration.microsoft.com/scenario/mysql-to-azuremysql</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/postgresql-to-azurepostgresql</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/sybase-to-sqlserver</loc>
   </url>
   <url>
     <loc>https://datamigration.microsoft.com/scenario/sybase-to-azuresql</loc>
   </url>
   <url>
-    <loc>https://datamigration.microsoft.com/scenario/access-to-sqlserver2016</loc>
+    <loc>https://datamigration.microsoft.com/scenario/access-to-sqlserver</loc>
   </url>
   <url>
     <loc>https://datamigration.microsoft.com/scenario/access-to-azuresql</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/azuretable-to-cosmos</loc>
+  </url>
+  <url>
+    <loc>https://datamigration.microsoft.com/scenario/mongo-to-cosmos</loc>
   </url>
 </urlset>
