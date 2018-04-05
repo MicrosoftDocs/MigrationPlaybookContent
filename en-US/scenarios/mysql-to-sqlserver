@@ -11,7 +11,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "Overview",
+					"filelocation": "DbMigrationProcessOverview",
 					"actions": []
 				}
 			]
