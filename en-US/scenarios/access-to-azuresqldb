@@ -9,7 +9,12 @@
 				{
 					"filelocation": "AzureSqlDbRationale",
 					"actions": [
-						{
+				},		
+				{
+					"filelocation": "DbMigrationProcessOverview",
+					"actions": []
+				},
+				{
 							"actiontype": "download",
 							"filelocation": "pricingcalculator"
 						},
@@ -17,10 +22,6 @@
 							"actiontype": "download",
 							"filelocation": "AzureTCO"
 						},
-						{
-							"filelocation": "DbMigrationProcessOverview",
-							"actions": []
-						}
 					]
 				}
 			]
