@@ -9,6 +9,10 @@
 				{
 					"filelocation": "Sql2017Rationale",
 					"actions": []
+				},
+				{
+					"filelocation": "DbMigrationToSqlProcessOverview",
+					"actions": []
 				}
 			]
 
