@@ -23,10 +23,10 @@ There are several benefits associated with migrating your database to Azure SQL 
 
 **Security and compliance**
 
-* Isolated environment (VNet integration, single-tenant service, dedicated compute and storage
+* Isolated environment (VNet integration, single-tenant service, dedicated compute and storage)
 * Encryption of the data in transit
 * Azure AD authentication, single sign-on support
-* Adheres to compliance standards same as Azure SQL database
+* Adheres to compliance standards same as Azure SQL Database
 * SQL auditing
 * Threat detection
 
@@ -34,4 +34,4 @@ There are several benefits associated with migrating your database to Azure SQL 
 
 * Azure Resource Manager API for automating service provisioning and scaling
 * Azure portal functionality for manual service provisioning and scaling
-* Data Migration Service
+* Azyre Database Migration Service

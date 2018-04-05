@@ -46,7 +46,7 @@ To migrate your source SQL Server on-premises database to Azure SQL Database Man
 
     ![New DMS service creation](https://mpbdevcontent.azureedge.net/Images/mi5-dms-create.png)
     
-    c. On the **Database Migration Service** screen, specify a name for the service, the subscription, the resouce group, a virtual network, and the pricing tier.
+    c. On the **Database Migration Service** screen, specify a name for the service, the subscription, the resource group, a virtual network, and the pricing tier.
 
     For more information on costs and pricing tiers, see the [pricing](https://aka.ms/dms-pricing) page. *The Azure Database Migration Service is currently in preview, and you will not be charged.*
 
@@ -102,7 +102,7 @@ To migrate your source SQL Server on-premises database to Azure SQL Database Man
 
         - **User name**. The windows user name that the Azure Database Migration Service can impersonate and upload the backup files to Azure storage container for restore operation. 
 
-        - *Password**. Password for the above user.
+        - **Password**. Password for the above user.
 
         - **Storage SAS URI**. SAS URI that provides the Azure Database Migration Service with access to your storage account container to which the service uploads the back-up files and that is used for migrating databases to Azure SQL Database Managed Instance. [Learn how to get the SAS URI for blob container](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-blobs#get-the-sas-for-a-blob-container).
 
@@ -122,5 +122,5 @@ To migrate your source SQL Server on-premises database to Azure SQL Database Man
 
     ![Target summary](https://mpbdevcontent.azureedge.net/Images/mi15-dms-monitor-migration.png) 
     
-    b. After the migration completes, werify the target database(s) on the target Azure SQL Database Managed Instance.
+    b. After the migration completes, verify the target database(s) on the target Azure SQL Database Managed Instance.
 
