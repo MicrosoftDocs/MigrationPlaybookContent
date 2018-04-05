@@ -12,7 +12,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DbMigrationProcessOverview",
+					"filelocation": "DbMigrationToSqlProcessOverview",
 					"actions": []
 				},
 				{
