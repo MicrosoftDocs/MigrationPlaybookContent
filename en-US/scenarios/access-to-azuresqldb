@@ -5,34 +5,17 @@
 	"steps": [
 		{
 			"name": "Why migrate?",
-			
-			
+						
 			"items": [
 				{
-					"actions": []
-				},		
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				},
-					"actions": []
-				},		
-				{
-					"filelocation": "DbMigrationProcessOverview",
+					"filelocation": "AsureSqlDbRationale",
 					"actions": []
 				},
 				{
-							"actiontype": "download",
-							"filelocation": "pricingcalculator"
-						},
-						{
-							"actiontype": "download",
-							"filelocation": "AzureTCO"
-						},
-					]
+					"filelocation": "DbMigrationProcessOverview",
+					"actions": []
 				}
 			]
-
 		},
 
 		{
