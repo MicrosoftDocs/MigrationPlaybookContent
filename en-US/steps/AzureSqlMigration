@@ -1,4 +1,4 @@
-<!--Migrate Schema-->
+<!--Migrate schema-->
 
 After assessing your databases, the next step is to execute the schema migration process by using the Data Migration Assistant (DMA).
 

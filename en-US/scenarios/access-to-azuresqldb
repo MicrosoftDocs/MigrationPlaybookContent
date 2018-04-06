@@ -5,28 +5,19 @@
 	"steps": [
 		{
 			"name": "Why migrate?",
+						
 			"items": [
 				{
-					"filelocation": "AzureRationale",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "pricingcalculator"
-						},
-						{
-							"actiontype": "download",
-							"filelocation": "AzureTCO"
-						},
-						{
-							"filelocation": "Overview",
-							"actions": []
-						}
-					]
+					"filelocation": "AzureSqlDbRationale",
+					"actions": []
+				},
+				{
+					"filelocation": "DbMigrationProcessOverview",
+					"actions": []
 				}
 			]
-
 		},
-
+	
 		{
 			"name": "Pre-Migration",
 

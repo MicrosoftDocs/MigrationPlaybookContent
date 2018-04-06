@@ -1,4 +1,4 @@
-<!--Assess & Convert-->
+<!--Assess and Convert-->
 
 ### Overview
 
@@ -6,7 +6,7 @@ By using SQL Server Migration Assistant (SSMA) for SAP Adaptive Server Enterpris
 
 **Note**: For more information about SSMA, see the article [SQL Server Migration Assistant for Sybase (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/sql-server-migration-assistant-for-sybase-sybasetosql).
 
-### Process
+### Steps
 
 To use SSMA for SAP ASE to create an assessment, perform the following steps.
 

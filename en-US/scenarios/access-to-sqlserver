@@ -1,27 +1,25 @@
 {
 	"displayname": "Migrate Access to SQL Server",
 	"emailmessage": "Check out the process for migrating from Access to SQL Server here:",
-	"description": "Migrating from Access to Azure's SQL Server could not be simpler due to the SQL server's top tier performance, interconnectivity, consistency, and value.",
+	"description": "Migrating from Access to SQL Server could not be simpler because of  SQL Server's top tier performance, interconnectivity, consistency, and value.",
 	"steps": [
 		{
 			"name": "Why migrate?",
 
 			"items": [
 				{
-					"filelocation": "Rationale2017",
-					"actions": [
-						{
-							"filelocation": "Overview",
-							"actions": []
-						}
-					]
+					"filelocation": "Sql2017Rationale",
+					"actions": []
+				},
+				{
+					"filelocation": "DbMigrationProcessOverview",
+					"actions": []
 				},
 				{
 					"filelocation": "ProductLicensing",
 					"actions": []
 				}
 			]
-
 		},
 
 		{

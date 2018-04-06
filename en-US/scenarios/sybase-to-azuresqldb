@@ -7,11 +7,11 @@
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "ASERationale",
+					"filelocation": "AzureSqlDbRationale",
 					"actions": []
 				},
 				{
-					"filelocation": "Overview",
+					"filelocation": "DbMigrationProcessOverview",
 					"actions": []
 				}
 			]

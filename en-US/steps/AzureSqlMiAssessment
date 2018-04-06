@@ -1,0 +1,5 @@
+<!-- Assess -->
+
+When the data sources have been identified, the next step is to assess any on-premises SQL Server instance(s) that is migrating to Azure SQL Database Managed Instance to understand any gaps between the source and target instances.
+
+**Note**: Data Migration Assistant (DMA) support for migrations to Azure SQL Database Managed Instance is planned for availability during the summer of 2018.

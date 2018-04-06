@@ -5,13 +5,14 @@
 	"steps": [
 		{
 			"name": "Why migrate?",
+			
 			"items": [
 				{
 					"filelocation": "MySqlRationale",
 					"actions": []
 				},
 				{
-					"filelocation": "Overview",
+					"filelocation": "DbMigrationProcessOverview",
 					"actions": []
 				}
 			]
