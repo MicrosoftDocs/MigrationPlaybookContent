@@ -1,4 +1,4 @@
-<!--Migrate Data-->
+<!--Migrate data-->
 
 After the schema(s) is deployed, the next step is to migrate the data. There are two ways to migrate a MySQL database to Azure Database for MySQL.
 

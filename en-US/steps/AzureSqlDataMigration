@@ -1,4 +1,4 @@
-<!--Migrate Data-->
+<!--Migrate data-->
 
 When your schema has been successfully migrated to the target, the next step is to execute the data movement by using the Azure Database Migration Service (Azure DMS).
 

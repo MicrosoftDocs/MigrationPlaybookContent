@@ -1,4 +1,4 @@
-<!--Perform Tests-->
+<!--Perform tests-->
 
 After the data is migrated to target, perform tests against the databases to verify that the applications perform well against the after the migration.
 Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server.

@@ -8,11 +8,11 @@
 
 			"items": [
 				{
-					"filelocation": "Rationale2017",
+					"filelocation": "Sql2017Rationale",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlOverview",
+					"filelocation": "DbMigrationSqlToSqlProcessOverview",
 					"actions": []
 				},
 				{

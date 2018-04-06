@@ -1,9 +1,11 @@
-<!--Rationale for Migrating-->
+<!--Rationale for migrating-->
 
 Microsoft SQL Server 2017 powers your entire data estate by supporting structured and unstructured data sources. 
 It builds on previous versions of SQL Server, which have been industry leading for four years in a row and have held a leading spot in TPC-E benchmark testing. 
 SQL Server 2017 scales to accommodate petabytes of data and allows processing of big data through Polybase by using T-SQL over any data. 
 SQL Server has also been the least vulnerable database over the last seven years. 
+
+**Note**: Microsoft is currently running an offer for customers who want to migrate their Oracle, IBM Db2, Sybase, or Netezza databases over to Microsoft SQL Server 2017. This offer provides free licenses, subsidized migration support services, hands-on labs, and instructor-led demos. Note that a Software Assurance subscription required, and some restrictions may apply. The offer of free training and subsidized deployment services is available while supplies last or until June 30, 2018.  For more information about this offer, see this [web page](https://www.microsoft.com/en-us/sql-server/sql-license-migration).
 
 When evaluating your rationale for migrating, consider the detail provided in the following sections.
 

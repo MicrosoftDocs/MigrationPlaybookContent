@@ -7,11 +7,11 @@
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "Rationale2017",
+					"filelocation": "Sql2017Rationale",
 					"actions": []
 				},
 				{
-					"filelocation": "Overview",
+					"filelocation": "DbMigrationProcessOverview",
 					"actions": []
 				}
 			]

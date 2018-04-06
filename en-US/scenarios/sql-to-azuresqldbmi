@@ -1,17 +1,17 @@
 {
-	"displayname": "Migrate SQL Server to Azure SQL Database",
-	"emailmessage": "Check out the process for migrating from SQL Server to Azure SQL Database here:",
-	"description": "Azure SQL Database delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
+	"displayname": "Migrate SQL Server to Azure SQL Database Managed Instance",
+	"emailmessage": "Check out the process for migrating from SQL Server to Azure SQL Database Managed Instance here:",
+	"description": "Azure SQL Database Managed Instance delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
 	"steps": [
 		{
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "AzureRationale",
+					"filelocation": "AzureSqlDbMiRationale",
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlOverview",
+					"filelocation": "DbMigrationProcessOverview",
 					"actions": []
 				},
 				{
@@ -19,7 +19,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AzureUpgradePaths",
+					"filelocation": "AzureSqlMiUpgradePaths",
 					"actions": []
 				}				
 			]
@@ -32,7 +32,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlAssessment",
+					"filelocation": "AzureSqlMiAssessment",
 					"actions": []
 				},
 				{
@@ -46,11 +46,11 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "AzureSqlMigration",
+					"filelocation": "AzureSqlMiSchemaMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlDataMigration",
+					"filelocation": "AzureSqlMiDataMigration",
 					"actions": []
 				},
 				{
@@ -78,7 +78,7 @@
 				{
 					"filelocation": "SqlOptimization",
 					"actions": []
-				}
+				},
 			]
 		}
 	],
