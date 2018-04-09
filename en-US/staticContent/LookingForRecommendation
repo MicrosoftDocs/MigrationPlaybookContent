@@ -1,0 +1,14 @@
+# Find the product you need
+
+Looking for a recommendation about the best target destination for your data?  Consider the options provided in the following table:
+
+| **If YOU'RE LOOKING FOR...** | **THEN USE…** |
+| --- | --- |
+| A fully managed relational database that provisions quickly, scales on the fly, and includes built-in intelligence and security… | [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/) |
+| A fully managed service that provides out-of-the-box support for most SQL Server features and accompanying tools and services as well as native virtual network (VNET) support for an isolated, highly-secure environment to run your applications… | [Azure SQL Managed Instance](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/Microsoft.SQLManagedInstance) |
+| A fully managed service that makes it easy to reduce your capital investments and optimize operational expenses by migrating your on-premises SQL Server to the cloud. | [SQL Server on Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/sql-server/) |
+| A fully managed service that allows independent scaling of compute and storage, while pausing and resuming your data warehouse within minutes through a massively parallel processing architecture... | [SQL Data Warehouse](https://azure.microsoft.com/en-us/services/sql-data-warehouse/?v=17.44) |
+| A fully managed, scalable MySQL relational database with high availability and security built in at no extra cost… | [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/) |
+| A fully managed, scalable PostgreSQL relational database with high availability and security built in at no extra cost… | [Azure Database for PostgreSQL](https://azure.microsoft.com/en-us/services/postgresql/) |
+| A globally distributed multi-model database, with support for NoSQL choices, with industry-leading performance and SLAs… | [Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) |
+| Help with migrating your databases to the cloud with no application code changes… | [Azure Database Migration Service](http://sqldatabase-migrationpreview.azurewebsites.net/) |
