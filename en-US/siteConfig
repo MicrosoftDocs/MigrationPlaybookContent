@@ -79,19 +79,19 @@
   "commonChoices": [
     {
       "text": "SQL Server &rarr; Azure SQL Database",
-      "link": "/scenario/sqlserver/azuresql"
+      "link": "/scenario/sqlserver-to-azuresql"
     },
     {
       "text": "SQL Server &rarr; SQL Server",
-      "link": "/scenario/sqlserver/sqlserver"
+      "link": "/scenario/sqlserver-to-sqlserver"
     },
     {
       "text": "Oracle &rarr; SQL Server",
-      "link": "/scenario/oracle/sqlserver"
+      "link": "/scenario/oracle-to-sqlserver"
     },
     {
       "text": "DB2 &rarr; Azure SQL Database",
-      "link": "/scenario/db2/azuresql"
+      "link": "/scenario/db2-to-azuresql"
     }
   ],
   "caseStudies": [
