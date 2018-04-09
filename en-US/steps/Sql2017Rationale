@@ -9,7 +9,7 @@ SQL Server has also been the least vulnerable database over the last seven years
 
 When evaluating your rationale for migrating, consider the detail provided in the following sections.
 
-## Security
+# Security
 **Security**
 
 According to the National Institute of Standards and Technology (NIST) public security board, SQL Server has the 
