@@ -105,7 +105,7 @@ Now, let’s set up the source endpoint.
 ![Image Alt Text Attunity Test Connection](https://mpbdevcontent.azureedge.net/Images/4-postgresql_attunity_new_test_endpoint.png)
 
 11.	Next, set up the target endpoint.
-    **Note**: If SSL is enabled in Azure Database for PostgreSQL, you must download and decode the root certificate on the computer running Attunity Replicate for Microsoft Migrations to allow for client communication. For more detail, see the article [Applications that require certificate verification for SSL connection]()https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security.
+    **Note**: If SSL is enabled in Azure Database for PostgreSQL, you must download and decode the root certificate on the computer running Attunity Replicate for Microsoft Migrations to allow for client communication. For more detail, see the article [Applications that require certificate verification for SSL connection](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security).
     - On the computer running Attunity Replicate for Microsoft Migrations, download the [certificate file](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt) needed to communicate over SSL with your Azure Database for PostgreSQL server.
         To decode the certificate file, you need to install OpenSSL on the computer running Attunity Replicate for Microsoft Migrations.
     - On the computer running Attunity Replicate for Microsoft Migrations, install OpenSSL, which you will use to decode the certificate file.
@@ -154,7 +154,7 @@ Below are some errors that you might encounter with the initial task creation an
 - **Error #1**: RetCode: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if max_replication_slots > 0;
     Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
 
-    **Resolution: In the PostgreSQL source server configuration file, set the max_replication_slots parameter to a value greater than ‘0’.
+    **Resolution**: In the PostgreSQL source server configuration file, set the max_replication_slots parameter to a value greater than ‘0’.
     To be more specific, set the parameters in postgresql.config (remember to remove the # (comment)). Do not use ">", postgres does not recognize this.
     - wal_level = logical		# minimal, replica, or logical
     - max_replication_slots = 1	# maximum number of replication slots
@@ -163,9 +163,11 @@ Below are some errors that you might encounter with the initial task creation an
 - **Error #2**: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if wal_level >= archive;
     Error while executing the query [1022502]  (ar_odbc_stmt.c:2367) and then SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: logical decoding requires wal_level >= logical;
     Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
+
     **Resolution**: In the PostgreSQL source server configuration file, set the value of the wal_level parameter to ‘logical’.
 
 - **Error #3**: Could not connect to the server: FATAL:  no pg_hba.conf entry for replication connection from host "::1", user "postgres", SSL off [1020452]  (postgres_endpoint_wal_engine.c:1221)_
+    
     **Resolution**: Enable access configuration for “replication” database for PostgreSQL user in pg_hba.conf. 
     The IP address of the computer running Attunity Replicate for Microsoft Migrations must be added to the pg_hba.conf configuration file, for example:
     host    replication     postgres        127.0.0.1/32            md5
@@ -173,13 +175,16 @@ Below are some errors that you might encounter with the initial task creation an
 
 - **Error #4**: SYS-E-HTTPFAIL, Cannot connect to ODBC provider Network error has occurred. 
     SYS,GENERAL_EXCEPTION,Cannot connect to ODBC provider Network error has occurred, RetCode: SQL_ERROR SqlState: 08001 NativeError: 101 Message: root certificate file "C:\windows\system32\config\systemprofile\AppData\Roaming/postgresql/root.crt" does not exist Either provide the file or change sslmode to disable server certificate verification. ODBC general error.)
+    
     **Resolution**: The root.crt file needs to be copied to the following path on computers running Windows 10: C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql.
     This issue does not seem to occur in Windows Server 2016.
 
 - **Error #5**: SYS-E-HTTPFAIL, 'psql' is not recognized as an internal or external command, operable program or batch file. Endpoint initialization failed_
+    
     **Resolution**: Ensure that C:\Program Files\PostgreSQL\9.6\bin is added to SYSTEM path in env variable. Restart the Attunity Replicate Server services in services.msc and then retry.
 
 - **Error #6**: SYS-E-HTTPFAIL, insufficient replication_slots
+    
     **Resolution**: Run this command in psql or pg_admin:
     SELECT * FROM pg_replication_slots
     You will see the replication slots that Attunity opened. For example, these are the nine slots that are opened using Attunity in the screenshot below:
