@@ -2,11 +2,11 @@
 
 The first step for migrating from on-premises Postgres or PostgreSQL hosted in a virtual machine is to migrate the schema to Azure Database for PostgreSQL.
 
-The easiest way to migrate the schema alone is to use the pg_dump -n option. For additional detail on using pg_dump, see the {Postgres documentation](https://www.postgresql.org/docs/9.6/static/app-pgdump.html).
+The easiest way to migrate the schema alone is to use the pg_dump -n option. For additional detail on using pg_dump, see the [Postgres documentation](https://www.postgresql.org/docs/9.6/static/app-pgdump.html).
 
     pg_dump -o -h hostname -U db_username -d db_name -n schema_name > your_schema.dump
 
-For example, to dump a schema named as Public in dvdrental database:
+For example, to dump a schema named Public in the dvdrental database:
 
     pg_dump -o -h localhost -U postgres -d dvdrental -n public > dvdrentalSchema.dump
 
@@ -18,7 +18,7 @@ To restore the schema dump file:
 
     pg_restore -h hostname -U db_username -d db_name --schema=”someschema” “your_schema.dump”
 
-For example, to restore the dvdrentalSchema.dump file for example:-
+For example, to restore the dvdrentalSchema.dump file:
 
     psql -h mypgserver-20170401.postgres.database.azure.com  -U postgres -d dvdrental < dvdrentalSchema.dump
 
@@ -26,4 +26,4 @@ For example, to restore the dvdrentalSchema.dump file for example:-
 
     pg_restore -h mypgserver-20170401.postgres.database.azure.com  -U postgres -d dvdrental –schema=”public” “dvdrentalSchema.dump”
 
-At this point, you should have successfully dumped and restored schema of a database from on-premise PostgreSQL to a database in Azure Database for PostgreSQL.
+At this point, you should have successfully dumped and restored the database schema from on-premise PostgreSQL to a database in Azure Database for PostgreSQL.
