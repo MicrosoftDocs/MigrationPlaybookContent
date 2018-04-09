@@ -26,4 +26,4 @@ For example, to restore the dvdrentalSchema.dump file:
 
     pg_restore -h mypgserver-20170401.postgres.database.azure.com  -U postgres -d dvdrental –schema=”public” “dvdrentalSchema.dump”
 
-At this point, you should have successfully dumped and restored the database schema from on-premise PostgreSQL to a database in Azure Database for PostgreSQL.
+At this point, you should have successfully dumped and restored the database schema from on-premises PostgreSQL to a database in Azure Database for PostgreSQL.
