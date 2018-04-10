@@ -6,18 +6,56 @@ Migrations should be approached with the same rigor and processes as a full soft
 
 Each phase in the database migration process is briefly described in the following table:
 
-|**Stage** |**Phase** |**Description** |
-|:---------|:---------|:---------------|
-|Pre-migration | Discover | Inventory database assets, and application stack discovery. |
-|Pre-migration | Assess | Assess workloads and fix recommendations. |
-|Pre-migration | Convert* | For heterogeneous migrations, convert the source schema to work in the target environment. |
-|Migration | Migrate schema, data, and objects | Migrate the source schema, and then migrate the source data to the target. |
-|Migration | Sync data* | For minimal downtime migrations, sync your target schema and data with the source. |
-|Migration | Cutover* | For minimal downtime migrations, cut over from the source to the target environment. |
-|Post-migration | Remediate applications | Iteratively make any necessary changes to your applications. |
-|Post-migration | Perform Tests | Iteratively run functional and performance tests. |
-|Post-migration | Optimize | Based on the tests you performed, address any performance issues, and then retest to confirm the performance improvements. |
-
+<table id='overview'>
+  <thead>
+    <tr>
+      <th class="x-hidden-focus"><strong>Stage</strong></th>
+      <th><strong>Phase</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3" class="premigration">Pre-migration</td>
+      <td>Discover</td>
+      <td>Inventory database assets, and application stack discovery.</td>
+    </tr>
+    <tr>
+      <td>Assess</td>
+      <td>Assess workloads and fix recommendations.</td>
+    </tr>
+    <tr>
+      <td>Convert*</td>
+      <td>For heterogeneous migrations, convert the source schema to work in the target environment.</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="migration">Migration</td>
+      <td>Migrate schema, data, and objects</td>
+      <td>Migrate the source schema, and then migrate the source data to the target.</td>
+    </tr>
+    <tr>
+      <td class="x-hidden-focus">Sync data*</td>
+      <td>For minimal downtime migrations, sync your target schema and data with the source.</td>
+    </tr>
+    <tr>
+      <td>Cutover*</td>
+      <td>For minimal downtime migrations, cut over from the source to the target environment.</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="postmigration">Post-migration</td>
+      <td>Remediate applications</td>
+      <td>Iteratively make any necessary changes to your applications.</td>
+    </tr>
+    <tr>
+      <td>Perform Tests</td>
+      <td>Iteratively run functional and performance tests.</td>
+    </tr>
+    <tr>
+      <td>Optimize</td>
+      <td>Based on the tests you performed, address any performance issues, and then retest to confirm the performance improvements.</td>
+    </tr>
+  </tbody>
+</table>
 *Relevant only for selected migration scenarios.
 
 For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
