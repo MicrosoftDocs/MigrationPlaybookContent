@@ -31,7 +31,7 @@
 		},
 
 		{
-			"name": "Pre-Migration",
+			"name": "Pre-migration",
 			"items": [
 				{
 					"filelocation": "SqlDiscover",
@@ -67,7 +67,7 @@
 		},
 
 		{
-			"name": "Post-Migration",
+			"name": "Post-migration",
 			"items": [
 				{
 					"filelocation": "SqlRemediateApps",

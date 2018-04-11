@@ -17,7 +17,7 @@
 			]
 		},
 		{
-			"name": "Pre-Migration ",
+			"name": "Pre-migration ",
 			"items": [
 				{
 					"filelocation": "MySqlDiscover",
@@ -39,7 +39,7 @@
 			]
 		},
 		{
-			"name": "Post-Migration ",
+			"name": "Post-migration ",
 			"items": [
 				{
 					"filelocation": "RemediateApps",
