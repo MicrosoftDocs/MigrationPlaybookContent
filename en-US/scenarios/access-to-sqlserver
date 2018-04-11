@@ -23,7 +23,7 @@
 		},
 
 		{
-			"name": "Pre-Migration",
+			"name": "Pre-migration",
 			"items": [
 				{
 					"filelocation": "AccessAssessment",
@@ -43,7 +43,7 @@
 			]
 		},
 		{
-			"name": "Post-Migration",
+			"name": "Post-migration",
 
 			"items": [
 				{
