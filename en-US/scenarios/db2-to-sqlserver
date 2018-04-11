@@ -19,7 +19,7 @@
 		},
 
 		{
-			"name": "Pre-Migration",
+			"name": "Pre-migration",
 			"items": [
 				{
 					"filelocation": "DB2Discover",
@@ -43,7 +43,7 @@
 		},
 
 		{
-			"name": "Post-Migration",
+			"name": "Post-migration",
 			"items": [
 				{
 					"filelocation": "RemediateApps",
