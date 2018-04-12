@@ -28,6 +28,10 @@
 			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "SqlToAzureSqlDbPrereqs",
+					"actions": []
+				},
+				{
 					"filelocation": "AzureSqlDiscover",
 					"actions": []
 				},
