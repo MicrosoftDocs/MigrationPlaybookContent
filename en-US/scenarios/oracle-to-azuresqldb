@@ -44,7 +44,7 @@
 					]
 				},
 				{
-					"filelocation": "DataSync",
+					"filelocation": "OracleDataSync",
 					"actions": []
 				},
 				{
