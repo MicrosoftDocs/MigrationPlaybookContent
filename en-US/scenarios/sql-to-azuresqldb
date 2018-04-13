@@ -50,7 +50,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "AzureSqlMigration",
+					"filelocation": "AzureSqlSchemaMigration",
 					"actions": []
 				},
 				{
