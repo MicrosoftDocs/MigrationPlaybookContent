@@ -41,6 +41,14 @@
 							"filelocation": "SSMAForMySqlDownload"
 						}
 					]
+				},
+				{
+					"filelocation": "MySqlDataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "Cutover",
+					"actions": []
 				}
 			]
 		},
@@ -57,14 +65,6 @@
 				},
 				{
 					"filelocation": "SqlDbOptimization",
-					"actions": []
-				},
-				{
-					"filelocation": "MySqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
 					"actions": []
 				}
 			]

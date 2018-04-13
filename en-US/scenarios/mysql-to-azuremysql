@@ -36,6 +36,14 @@
 				{
 					"filelocation": "MySqlDataMigration",
 					"actions": []
+				},
+				{
+					"filelocation": "SqlDataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlRollback",
+					"actions": []
 				}
 			]
 		},
@@ -52,14 +60,6 @@
 				},
 				{
 					"filelocation": "MySqlOptimization",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlRollback",
 					"actions": []
 				}
 			]
