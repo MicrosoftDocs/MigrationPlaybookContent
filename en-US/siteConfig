@@ -92,6 +92,8 @@
 		},
 		{
 			"filelocation": "QuerySurge"
+		},
+		{	"filelocation": "Movere"
 		}
 	],
 	"scenarioMap":
