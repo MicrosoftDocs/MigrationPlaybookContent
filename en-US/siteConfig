@@ -93,7 +93,8 @@
 		{
 			"filelocation": "QuerySurge"
 		},
-		{	"filelocation": "Movere"
+		{	
+			"filelocation": "Movere"
 		}
 	],
 	"scenarioMap":
