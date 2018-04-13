@@ -42,6 +42,14 @@
 							"filelocation": "SSMADownload"
 						}
 					]
+				},
+				{
+					"filelocation": "DataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "Cutover",
+					"actions": []
 				}
 			]
 		},
@@ -59,14 +67,6 @@
 				},
 				{
 					"filelocation": "SqlDbOptimization",
-					"actions": []
-				},
-				{
-					"filelocation": "DataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
 					"actions": []
 				}
 			]
