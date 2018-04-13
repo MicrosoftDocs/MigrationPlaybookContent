@@ -1,4 +1,4 @@
-<!--Migrate-->
+<!--Migrate schema and data-->
 
 After assessing your databases, the next step is to begin the process of migrating the schema and database by using DMA.
 
