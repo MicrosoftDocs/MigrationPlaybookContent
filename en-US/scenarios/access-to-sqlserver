@@ -39,6 +39,14 @@
 				{
 					"filelocation": "AccessMigration",
 					"actions": []
+				},
+				{
+					"filelocation": "DataSync",
+					"actions": []
+				},
+				{
+					"filelocation": "Cutover",
+					"actions": []
 				}
 			]
 		},
@@ -56,14 +64,6 @@
 				},
 				{
 					"filelocation": "SqlOptimization",
-					"actions": []
-				},
-				{
-					"filelocation": "DataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
 					"actions": []
 				}
 			]
