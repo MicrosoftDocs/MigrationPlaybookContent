@@ -41,7 +41,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AccessDataSync",
+					"filelocation": "AccessDataSyncSql",
 					"actions": []
 				},
 				{

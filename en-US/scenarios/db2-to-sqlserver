@@ -40,7 +40,7 @@
 					"actions":[]
 				},
 				{
-					"filelocation": "DB2DataSync",
+					"filelocation": "DB2DataSyncSql",
 					"actions": []
 				},
 				{

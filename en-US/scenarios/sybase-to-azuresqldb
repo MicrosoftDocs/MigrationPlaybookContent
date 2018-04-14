@@ -43,7 +43,7 @@
 					]
 				},
 				{
-					"filelocation": "SybaseDataSync",
+					"filelocation": "SybaseDataSyncSqlDb",
 					"actions": []
 				},
 				{

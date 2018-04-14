@@ -1,6 +1,6 @@
 <!--Data sync-->
 
-You can migrate your existing Sybase database to Microsoft SQL Server by using Attunity Replicate for Microsoft Migrations, a co-sponsored, joint offering from Attunity and Microsoft that is provided to Microsoft customers free of charge. Attunity Replicate for Microsoft Migrations also enables minimum downtime in database migration, and the source database continues to be operational during the migration process.
+You can migrate your existing SAP ASEe database to Microsoft SQL Server by using Attunity Replicate for Microsoft Migrations, a co-sponsored, joint offering from Attunity and Microsoft that is provided to Microsoft customers free of charge. Attunity Replicate for Microsoft Migrations also enables minimum downtime in database migration, and the source database continues to be operational during the migration process.
 
 Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets, propagating the schema creation script and data associated with each database table. Attunity Replicate will not propagate any other artifacts (such as SP, triggers, functions, etc.) or convert, for example, PL/SQL code hosted in such artifacts, to T-SQL.
 
