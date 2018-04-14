@@ -43,7 +43,7 @@
 					]
 				},
 				{
-					"filelocation": "MySqlDataSync",
+					"filelocation": "MySqlDataSyncSqlDb",
 					"actions": []
 				},
 				{
