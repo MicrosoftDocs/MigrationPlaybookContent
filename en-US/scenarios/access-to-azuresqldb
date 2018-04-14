@@ -37,7 +37,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AccessDataSync",
+					"filelocation": "AccessDataSyncSqlDb",
 					"actions": []
 				},
 				{
