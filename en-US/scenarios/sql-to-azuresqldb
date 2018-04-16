@@ -50,6 +50,10 @@
 			"name": "Migration",
 			"items": [
 				{
+					"filelocation": "SqlToAzureSqlDb-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "AzureSqlSchemaMigration",
 					"actions": []
 				},
@@ -71,6 +75,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "SqlToAzureSqlDb-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "SqlRemediateApps",
 					"actions": []
