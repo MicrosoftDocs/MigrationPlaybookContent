@@ -28,7 +28,7 @@
 			"name": "Pre-migration",
 			"items": [
 				{
-					"filelocation": "SqlToAzureSqlDbPrereqs",
+					"filelocation": "SqlToAzureSqlDb-Pre-Mig",
 					"actions": []
 				},
 				{
