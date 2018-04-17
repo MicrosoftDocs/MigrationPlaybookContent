@@ -1,4 +1,4 @@
-<!--Migrate schema and data-->
+<!--Migrate schema & data-->
 
 There are two ways to migrate a PostgreSQL database to Azure Database for PostgreSQL.
 
