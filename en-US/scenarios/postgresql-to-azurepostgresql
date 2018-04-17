@@ -29,11 +29,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "PostgreSqlSchemaMigration",
-					"actions": []
-				},
-				{
-					"filelocation": "PostgreSqlDataMigration",
+					"filelocation": "PostgreSqlSchemaDataMigration",
 					"actions": []
 				},
 				{
