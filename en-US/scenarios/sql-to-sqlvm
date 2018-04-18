@@ -1,30 +1,18 @@
 {
-	"displayname": "Migrate SQL Server to SQL Server",
-	"emailmessage": "Check out the process for migrating from SQL Server to SQL Server here:",
-	"description": "Customers and partners have touted SQL Server 2017 as the best release. SQL Server 2017 is the most secure, dependable, and integrated system in the industry.",
+	"displayname": "Migrate SQL Server to SQL Server on Azure Virtual Machines",
+	"emailmessage": "Check out the process for migrating from SQL Server to SQL Server on Azure Virtual Machines here:",
+	"description": "Ready to walk away from datacenter management of your SQL Server apps? Spin up a virtual machine, back up your SQL Server instance, and restore it into Azure. It’s that easy to reduce your capital investments and optimize operational expenses by migrating your on-premises SQL Server to the cloud.",
 	"steps": [
 		{
 			"name": "Why migrate?",
 
 			"items": [
 				{
-					"filelocation": "Sql2017Rationale",
+					"filelocation": "SqlVmRationale",
 					"actions": []
 				},
 				{
 					"filelocation": "DbMigrationSqlToSqlProcessOverview",
-					"actions": []
-				},
-				{
-					"filelocation": "ProductLicensing",
-					"actions": []
-				},
-				{
-					"filelocation": "OnPremVsCloud",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlUpgradePaths",
 					"actions": []
 				}
 			]
@@ -52,7 +40,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "SqlMigration",
+					"filelocation": "SqlVmMigration",
 					"actions": []
 				},
 				{
@@ -85,15 +73,7 @@
 		}
 	],
 	"casestudies": [
-		{
-			"filelocation": "Convergent"
-		},
-		{
-			"filelocation": "Derivco"
-		},
-		{
-			"filelocation": "SBI"
-		}
+		
 	],
 	"partners": [
 		{
