@@ -1,0 +1,77 @@
+<!--Discover-->
+
+The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s SQL instances together with the version and features in use.
+
+To use the MAP Toolkit to perform an inventory scan, perform the following steps.
+
+### Steps
+
+1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and then install it.
+
+2. **Run the MAP Toolkit**.
+
+    a. Open the MAP Toolkit, and then on the left pane, select **Database**.
+    
+    You will be on the following screen:
+    
+    ![MAP Overview](https://mpbdevcontent.azureedge.net/Images/mapoverview.png)
+    
+    b. Select **Create/Select database**.
+    
+    ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/mapselectdb.png)
+     
+    c. Ensure that **Create an inventory database** is selected, enter a name for the database, a brief description, and then select **OK**.
+    
+    ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/mapselectdboverview.png)
+    
+    The next step is to collect data from the database created.
+
+    d. Select **Collect inventory data**.
+    
+    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/mapcollectinventorydata.png)
+    
+    e. In the Inventory and Assessment Wizard, select **SQL Server** and **SQL Server with Database Details**, and then select **Next**.
+    
+    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/mapinventorywizard.png)
+    
+    f. Select the best method option to search the computers on which Microsoft Products are hosted, and then select **Next**.
+    
+    ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/mapdiscoverymethods.png)
+    
+    g. Enter credentials or create new credentials for the systems that you want to explore, and then select **Next**.
+    
+   ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycreds.png)
+    
+    h. Set the order of the credentials, and then select **Next**.
+               
+    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder.png)
+    
+    Now, you need to specify the credentials for each computer that you want to discover. You can use unique credentials for each computer/machine, or you can choose to use the **All Computer Credentials** list.
+    
+    i. After setting up the credentials, select **Save**, and then select **Next**.
+    
+    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsindividual.png)
+    
+    j. Verify your selection summary, and then select **Finish**.
+    
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdiscoverysummary.png)
+    
+    k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
+    
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdatacollectionsummary.png)
+    
+    l. Select **Close**.
+    
+    The Main window of the tool appears, showing a summary of the Database Discovery completed so far.
+    
+ 3. **Report generation and data collection**.
+    
+    On the top-right corner of the tool, an **Options** page appears, which you can use to generate report about the SQL Server Assessment and the Database Details.
+    
+    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreport.png)
+    
+    a. Select both options (one by one) to generate the report.
+    
+    This will take a couple of seconds to a few minutes depending on the size of the inventory completed during discovery.
+    
+    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreportdone.png)

@@ -12,7 +12,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DbMigrationSqlToSqlProcessOverview",
+					"filelocation": "DbMigrationProcessOverview",
 					"actions": []
 				}
 			]
@@ -22,11 +22,11 @@
 			"name": "Pre-migration",
 			"items": [
 				{
-					"filelocation": "SqlDiscover",
+					"filelocation": "SqlVmDiscover",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlAssessment",
+					"filelocation": "SqlVmAssessment",
 					"actions": []
 				},
 				{
@@ -58,15 +58,15 @@
 			"name": "Post-migration",
 			"items": [
 				{
-					"filelocation": "SqlRemediateApps",
+					"filelocation": "SqlVmRemediateApps",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlPerformTests",
+					"filelocation": "SqlVmPerformTests",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlOptimization",
+					"filelocation": "SqlVmOptimization",
 					"actions": []
 				}
 			]
