@@ -23,11 +23,12 @@ A couple of key points to consider when reviewing the migration methods to deter
 
 If it is not possible to use the above methods, migrate your database manually. Using this method, you will generally start with a database backup followed by a copy of the database backup into Azure and then perform a database restore. You can also copy the database files themselves into Azure and then attach them.
 
-**Note**: When upgrading from older versions of SQL Server to SQL Server 2014 or SQL Server 2016, we recommend that you address all dependencies on features that are not supported by the later version of SQL Server as part of the migration project. For more information on the supported editions and scenarios, see [Upgrade to SQL Server](https://msdn.microsoft.com/library/bb677622.aspx).
+**Note**: When upgrading from older versions of SQL Server to SQL Server 2014 or SQL Server 2016, we recommend that you address all dependencies on features that are not supported by the later version of SQL Server as part of the migration project. For more information on the supported editions and scenarios, see [Upgrade SQL Server](https://msdn.microsoft.com/library/bb677622.aspx).
 
 The following sections discuss the various migration methods and considerations for using each.
 
 #### Back up and restore
+
 This is a simple and well-tested technique for moving databases across machines supports SQL Server 2005 or later for both the source and target environments. Note that the source backup size constraint is defined in the article [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/).
 
 To use this method, back up your database with compression, copy the backup to the VM, and then restore the database. If your backup file is larger than 1 TB, you must stripe it because the maximum size of a VM disk is 1 TB. Use the following general steps to migrate a user database using this manual method:
@@ -46,7 +47,7 @@ To use this method, instead of backing up to a local file, you can back up to UR
 
 #### Detach and attach from URL
 
-Consider using the method when you plan to [store SQL Server data files using the Azure Blob storage service](https://msdn.microsoft.com/library/dn385720.aspx) and then attach them to SQL Server running in an Azure VM, particularly if you have very large databases. This method supports SQL Server 2005 or later as a source and SQL Server 2014 or later as a target. Note that the source backup size constraint is defined in the article [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/).
+Consider using the method when you plan to store [SQL Server data files using the Azure Blob storage service](https://msdn.microsoft.com/library/dn385720.aspx) and then attach them to SQL Server running in an Azure VM, particularly if you have very large databases. This method supports SQL Server 2005 or later as a source and SQL Server 2014 or later as a target. Note that the source backup size constraint is defined in the article [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/).
 
 To use this method, detach your database and log files and transfer them to [Azure Blob storage](https://msdn.microsoft.com/library/dn385720.aspx). Then attach the database from the URL on your Azure VM. Use this method if you want the physical database files to reside in Blob storage. This might be useful for very large databases.
 
