@@ -83,8 +83,8 @@ Use to minimize downtime when you do not have an AlwaysOn on-premises deployment
 
 ### Next Steps
 
-For more information about running SQL Server on Azure Virtual Machines, see the article [SQL Server on Azure Virtual Machines overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview).
+For more information about running SQL Server on Azure Virtual Machines, see the article [What is SQL Server on Azure Virtual Machines?](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview).
 
-**Tip**: If you have questions about SQL Server virtual machines, see the [Frequently Asked Questions](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq).
+**Tip**: If you have questions about SQL Server virtual machines, see the [Frequently asked questions](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq).
 
 For instructions on creating an Azure SQL Server Virtual Machine from a captured image, see [Tips & Tricks on ‘cloning’ Azure SQL virtual machines from captured images](https://blogs.msdn.microsoft.com/psssql/2016/07/06/tips-tricks-on-cloning-azure-sql-virtual-machines-from-captured-images/) on the CSS SQL Server Engineers blog.
