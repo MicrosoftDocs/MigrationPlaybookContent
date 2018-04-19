@@ -26,4 +26,6 @@ If it is not possible to use the above methods, migrate your database manually. 
 
 **Note**: When upgrading from older versions of SQL Server to SQL Server 2014 or SQL Server 2016, we recommend that you address all dependencies on features that are not supported by the later version of SQL Server as part of the migration project. For more information on the supported editions and scenarios, see [Upgrade SQL Server](https://msdn.microsoft.com/library/bb677622.aspx).
 
-The following section provides details about using DMA to migrate the schema and data to an Azure VM. For additional information about the other options for migrating from SQL Server on-premises to SQL Server on Azure VMs, see the article [Migrate a SQL Server database to SQL Server in an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-migrate-sql).
+The following section provides details about using DMA to migrate the schema and data to an Azure VM.
+
+For additional information about the other options for migrating from SQL Server on-premises to SQL Server on Azure VMs, see the article [Migrate a SQL Server database to SQL Server in an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-migrate-sql).
