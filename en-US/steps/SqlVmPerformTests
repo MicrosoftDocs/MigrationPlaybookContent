@@ -1,17 +1,15 @@
 <!--Perform tests-->
 
 After the data is migrated to target, perform tests against the databases to verify that the applications perform well against the after the migration.
-Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server.
+Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server on Azure VM environment.
 
-**Note**: For assistance with developing and running post-migration validation tests, also consider the Data Quality Solution available from [QuerySurge](http://www.querysurge.com/company/partners/microsoft). 
+**Note**: For assistance with developing and running post-migration validation tests, also consider using the Data Quality Solution available from [QuerySurge](http://www.querysurge.com/company/partners/microsoft). 
 
 ### Steps
 
 To use DEA for database migration testing, perform the following steps.
 
-1. **Download the [DEA tool](https://www.microsoft.com/en-us/download/details.aspx?id=54090)**, and then install it.
-
-2. **Run a trace capture**
+1. Run a trace capture.
 
     a. On the left navigation tree, select the camera icon the go to **All Captures**.
     
@@ -25,7 +23,7 @@ To use DEA for database migration testing, perform the following steps.
     
     d. Select **Start** to begin trace capture.
 
-3. **Run a trace replay**
+2. Run a trace replay.
     
     a. On the left navigation tree, select the play icon the go to **All Replays**.
     
@@ -37,7 +35,7 @@ To use DEA for database migration testing, perform the following steps.
     
     d. Select **Start** to begin replay of your capture.
     
- 4. **Create a new Analysis Report**
+3. Create an analysis report.
  
     a. On the left navigation tree, select the checklist icon to go to **Analysis Reports**. 
     
@@ -53,7 +51,7 @@ To use DEA for database migration testing, perform the following steps.
     
     ![Provide report analysis inputs](https://mpbdevcontent.azureedge.net/Images/deaanalysisinput.png)
     
- 5. **Review an analysis report**
+4. Review the analysis report.
  
     a. On the first page of the report, the version and build information for the target servers on which the experiment was run displays.
     
