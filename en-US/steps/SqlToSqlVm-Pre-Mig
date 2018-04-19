@@ -17,8 +17,6 @@ SQL Server on Azure VMs supports migration of the following versions of SQL Serv
 
 Before beginning your migration project, it is important to address the associated prerequisites.
 
-If your source database is running SQL Server on-premises, the following prerequisites apply:
-
 * Download and install the latest version of the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883).
 * Download and install the [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
 * Create an instance of SQL Server on Azure VMs by following the detail in the article [How to provision a Windows SQL Server virtual machine in the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision).

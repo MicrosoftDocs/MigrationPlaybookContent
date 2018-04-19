@@ -6,9 +6,7 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
 
 ### Steps
 
-1. **Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883)**, and then install it.
-
-2. **Run the MAP Toolkit**.
+1. **Run the MAP Toolkit**.
 
     a. Open the MAP Toolkit, and then on the left pane, select **Database**.
     
@@ -64,7 +62,7 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
     
     The Main window of the tool appears, showing a summary of the Database Discovery completed so far.
     
- 3. **Report generation and data collection**.
+ 2. **Generate a report**.
     
     On the top-right corner of the tool, an **Options** page appears, which you can use to generate report about the SQL Server Assessment and the Database Details.
     
