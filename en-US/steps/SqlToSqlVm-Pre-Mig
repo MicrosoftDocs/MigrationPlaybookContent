@@ -1,40 +1,25 @@
 <!--Pre-migration overview-->
 
-As you prepare for migrating your SQL Server database to Azure SQL Database, be sure to consider the versions of SQL Server that are supported and to address any prerequisites to help ensure a successful migration.
+As you prepare for migrating your SQL Server database to SQL Server on Azure VMs, be sure to consider the versions of SQL Server that are supported and to address any prerequisites to help ensure a successful migration.
 
 ### Supported versions
 
-Azure SQL Database supports migration of the following versions of SQL Server:
+SQL Server on Azure VMs supports migration of the following versions of SQL Server:
 
 * SQL Server 2005
 * SQL Server 2008 and SQL Server 2008 R2
-* SQL Server 2012
+* SQL Server 2012 and SQL Server 2012 SP1 CU2
 * SQL Server 2014
 * SQL Server 2016
 * SQL Server 2017
-
-You can migrate SQL Server running on-premises or on:
-
-* SQL Server on Virtual Machines
-* Amazon Web Services (AWS) EC2
-* Compute Engine (GCP), and
-* AWS RDS
 
 ### Prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites.
 
-If your source database is running SQL Server on-premises or on SQL Server on Virtual Machines, the following prerequisites apply:
+If your source database is running SQL Server on-premises, the following prerequisites apply:
 
+* Download and install the latest version of the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883).
 * Download and install the [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
-* Enable the TCP/IP protocol, which is disabled by default during SQL Server Express installation, by following the instructions in the article [Enable or Disable a Server Network Protocol](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol#SSMSProcedure).
-* Create an instance of Azure SQL Database instance by following the detail in the article [Create an Azure SQL database in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal).
-* Create a VNET for the Azure Database Migration Service by using the Azure Resource Manager deployment model, which provides site-to-site connectivity to your on-premises source servers by using either [ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) or [VPN](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways).
-* Ensure that your Azure Virtual Network (VNET) Network Security Group rules do not block the following communication ports 443, 53, 9354, 445, 12000. For more detail on Azure VNET NSG traffic filtering, see the article [Filter network traffic with network security groups](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-nsg).
-* Configure your [Windows Firewall for database engine access](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access).
-* Open your Windows firewall to allow the Azure Database Migration Service to access the source SQL Server, which by default is TCP port 1433.
-* If you are running multiple named SQL Server instances using dynamic ports, you may wish to enable the SQL Browser Service and allow access to UDP port 1434 through your firewalls so that the Azure Database Migration Service can connect to a named instance on your source server.
-* When using a firewall appliance in front of your source database(s), you may need to add firewall rules to allow the Azure Database Migration Service to access the source database(s) for migration.
-* Create a server-level [firewall rule](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure) for the Azure SQL Database server to allow the Azure Database Migration Service access to the target databases. Provide the subnet range of the VNET used for the Azure Database Migration Service.
-* Ensure that the credentials used to connect to source SQL Server instance have [CONTROL SERVER](https://docs.microsoft.com/sql/t-sql/statements/grant-server-permissions-transact-sql) permissions.
-* Ensure that the credentials used to connect to target Azure SQL Database instance have CONTROL DATABASE permission on the target Azure SQL databases.
+* Create an instance of SQL Server on Azure VMs by following the detail in the article [How to provision a Windows SQL Server virtual machine in the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision).
+
