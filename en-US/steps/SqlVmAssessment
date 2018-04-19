@@ -1,16 +1,14 @@
 <!--Assess-->
 
-After identifying the data sources, the next step is to assess the on-premises SQL Server instance(s) migrating to a specific version of SQL Server on Azure VMs so that you understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before migrating  your SQL Server instance.
+After identifying the data sources, the next step is to assess the on-premises SQL Server instance(s) migrating to a specific version of SQL Server on Azure VMs so that you understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before migrating your SQL Server instance.
 
 ### Steps
 
 To use DMA to create an assessment, perform the following steps.
 
-1. **Download [DMA](https://www.microsoft.com/en-us/download/details.aspx?id=53595)**, and then install it.
+1. Create a new assessment project.
 
-2. Create a **New Assessment** project.
-
-    a. Select the New (+) icon, select the **Assessment** project type, specify a project name, select **SQL Server** as the source and target, and then select **Create**.
+    a. Launch DMA, select the New (+) icon, select the **Assessment** project type, specify a project name, select **SQL Server** as the source and target, and then select **Create**.
     
     ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
     
@@ -38,7 +36,7 @@ To use DMA to create an assessment, perform the following steps.
     
     Feature recommendations cover a variety of features such as In-Memory OLTP and Columnstore, Stretch Database, Always Encrypted (AE), Dynamic Data Masking (DDM), and Transparent Data Encryption (TDE). 
     
-3. **Review Assessment Results**
+2. Review the assessment results.
 
     a. After all database assessments are complete, select **Export report** to export the results to either a JSON or CSV file for analyzing the data at your own convenience.
 
