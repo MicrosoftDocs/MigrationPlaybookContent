@@ -4,8 +4,6 @@ After you have the necessary prerequisites in place and have completed the tasks
 
 There are several methods for migrating a SQL Server database to an instance of SQL Server on Azure Virtual Machines (Azure VMs).
 
-**Important**: Before beginning any migration to SQL Server on Azure VMs, be sure to create a target instance by following the steps in the article [How to provision a Windows SQL Server virtual machine in the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision).
-
 ### Overview of migration methods
 
 The list below identifies the primary methods for migrating from SQL Server to SQL Server on Azure VMs.
