@@ -1,0 +1,42 @@
+<!--Assess-->
+
+After identifying the data sources, the next step is to assess the on-premises SQL Server instance(s) migrating to a specific version of SQL Server on Azure VMs so that you understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before migrating your SQL Server instance.
+
+### Steps
+
+To use DMA to create an assessment, perform the following steps.
+
+1. Create a new assessment project.
+
+    a. Launch DMA, select the New (+) icon, select the **Assessment** project type, specify a project name, select **SQL Server** as the source and target, and then select **Create**.
+    
+    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject.bmp)    
+    
+    b. Select the target SQL Server version that you plan to migrate to and against which you need to run an assessment, select one or both of the assessment report types (**Compatibility Issues** and **New features’ recommendation**), and then select **Next**.
+    
+    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmaassessment.bmp)   
+    
+    c. In the **Connect to a server** fly-out, specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**.
+    
+    d. In the **Add Sources** fly-out, select the database(s) you that want to assess, and then select **Add**.
+            
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb.bmp)   
+    
+    e. Select **Start Assessment**.
+    
+    Now wait for the assessment results; the duration of the assessment depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
+    
+    f. Select the database that has completed assessment, and then switch between **Compatibility issues** and **Feature recommendations** by using the switcher.
+    
+    ![Assessment results](https://mpbdevcontent.azureedge.net/Images/dmaassessmentresults.bmp)  
+    
+    g. Review the compatibility issues by analyzing the impacted object and its details for every issue identified under **Breaking changes**, **Behavior changes**, and **Deprecated features**.
+    
+    h. Review feature recommendations across the **Performance**, **Storage**, and **Security** areas.
+    
+    Feature recommendations cover a variety of features such as In-Memory OLTP and Columnstore, Stretch Database, Always Encrypted (AE), Dynamic Data Masking (DDM), and Transparent Data Encryption (TDE). 
+    
+2. Review the assessment results.
+
+    a. After all database assessments are complete, select **Export report** to export the results to either a JSON or CSV file for analyzing the data at your own convenience.
+

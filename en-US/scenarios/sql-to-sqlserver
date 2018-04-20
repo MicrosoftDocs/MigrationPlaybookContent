@@ -1,7 +1,7 @@
 {
 	"displayname": "Migrate SQL Server to SQL Server",
 	"emailmessage": "Check out the process for migrating from SQL Server to SQL Server here:",
-	"description": "Customers and partners have touted SQL Server 2016 as the best release. The SQL Server 2016 is the most secure, dependable, and integrated system in the industry.",
+	"description": "Customers and partners have touted SQL Server 2017 as the best release. SQL Server 2017 is the most secure, dependable, and integrated system in the industry.",
 	"steps": [
 		{
 			"name": "Why migrate?",

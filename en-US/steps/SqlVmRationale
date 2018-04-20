@@ -1,0 +1,43 @@
+<!--Rationale for migrating-->
+
+Deploying SQL Server on Azure Virtual Machines (Azure VMs) combines the industry-leading performance and security, built-in artificial intelligence, and end-to-end mobile business intelligence of SQL Server, with the flexibility, security, and hybrid connectivity of Azure. This enables you to maintain flexibility and control over the database and operating system, whether Windows or Linux, while enabling full compatibility for lift and shift, dev/test, and hybrid business continuity.
+When evaluating your rationale for migrating, consider the detail provided in the following sections.
+
+**Industry-leading database**
+
+Leverage the industry leading SQL Server on Azure VMs for all your workloads with the flexibility of pay-as-you go pricing for new workloads and bring-your-own licensing for existing workloads.
+
+* A leader in the Gartner MQ for ODBMS for 5 years running.
+* The least vulnerable database over the last 8 years (NIST).
+* Gain transformational insights without moving your data by using in-database analytics running machine learning algorithms in R and Python
+* Azure Hybrid Benefit (“AHB”) for Windows Server licensing: with this benefit, Windows Server customers with Software Assurance (“SA”) can save on the operating system costs of SQL Server in an Azure VM.
+* AHB for SQL Server licensing: move SQL Server cores from on-premises to the cloud with SA.
+* Security: [Azure has more certifications, e.g. FedRAMP, FERPA, SOC1-3, than any other cloud provider](https://azure.microsoft.com/en-us/overview/trusted-cloud/).
+
+**Full compatibility for easy move to the cloud**
+
+Benefit from the fastest, most friction-free path for rehosting on-premises production and dev/test workloads from on-premises to the cloud.
+
+* Microsoft offers greater consistency across on-premises, IaaS, and PaaS than any database vendor, with a common code base for all Microsoft SQL products.
+* Full SQL Server feature compatibility with your on-premises SQL Server implementation when you move to Azure SQL VMs.
+* Move to the cloud by using intuitive tooling such as the Azure Database Migration Assistant or Azure Site Recovery.
+* Choice of SQL Server version: 2008 R2, 2012, 2014, 2016, 2017 in your choice of available operating systems (OSs).
+* Extend your current application development infrastructure to Azure to reduce overhead and speed time to market.
+
+**Maintain full flexibility and control**
+
+Full flexibility to select, configure, and manage your OS and database version, with full support from Microsoft and OS vendors
+
+* Ease of maintenance including auto patching, the ability to set a cloud backup policy, and Advanced Analytics using the UI in Azure.
+* Control of OS or SQL Server with widest range of options for underlying hardware.
+* Optimized images maintained and supported by the SQL Server Engineering include the latest updates and database-optimized VM images with relatively higher storage to compute ratios than typical Azure VMs.
+* Integrated support with all OS vendors, including co-located Red Hat engineers.
+* Widest range of Editions: use any edition of SQL Server, including Developer Edition.
+
+**Easily enable hybrid business continuity**
+
+Enable hybrid business continuity by leveraging the cloud for backup and disaster recovery of on-premises databases.
+
+* Leverage the power of private and public clouds with the same images, both Windows and Linux, available on Azure and Azure Stack.
+* Easily configure back up to Azure storage using SQL Server Management Studio (SSMS), with fast recovery via point-in-time restore to Azure VMs.
+* Create hybrid, geo-redundant business continuity and low downtime migrations using an AlwaysOn availability group with nodes across on-premises and Azure for disaster recovery or data migration (for SQL Server 2014, 2016, and 2017).

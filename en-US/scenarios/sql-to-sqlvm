@@ -1,0 +1,94 @@
+{
+	"displayname": "Migrate SQL Server to SQL Server on Azure Virtual Machines",
+	"emailmessage": "Check out the process for migrating from SQL Server to SQL Server on Azure Virtual Machines here:",
+	"description": "Ready to walk away from datacenter management of your SQL Server apps? Spin up a virtual machine, back up your SQL Server instance, and restore it into Azure. It’s that easy to reduce your capital investments and optimize operational expenses by migrating your on-premises SQL Server to the cloud.",
+	"steps": [
+		{
+			"name": "Why migrate?",
+
+			"items": [
+				{
+					"filelocation": "SqlVmRationale",
+					"actions": []
+				},
+				{
+					"filelocation": "DbMigrationProcessOverview",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Pre-migration",
+			"items": [
+				{
+					"filelocation": "SqlToSqlVm-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlVmDiscover",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlVmAssessment",
+					"actions": []
+				},
+				{
+					"filelocation": "NoConvert",
+					"actions": []
+				},
+			]
+		},
+
+		{
+			"name": "Migration",
+			"items": [
+				{
+					"filelocation": "SqlToSqlVm-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlVmMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "NoDataSyncOrCutover",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Post-migration",
+			"items": [
+				{
+					"filelocation": "SqlToSqlVm-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlVmRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlVmPerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlVmOptimization",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+		
+	],
+	"partners": [
+		{
+			"filelocation": "Fujitsu"
+		},
+		{
+			"filelocation": "QuerySurge"
+		}
+	]
+}
