@@ -10,13 +10,13 @@ Leverage the industry leading SQL Server on Azure VMs for all your workloads wit
 * A leader in the Gartner MQ for ODBMS for 5 years running.
 * The least vulnerable database over the last 8 years (NIST).
 * Gain transformational insights without moving your data by using in-database analytics running machine learning algorithms in R and Python
-* Azure Hybrid Benefit (“AHB”) for Windows Server licensing: with this benefit, SQL Server VM is cheaper on Azure for WS customers with Software Assurance (“SA”). 
+* Azure Hybrid Benefit (“AHB”) for Windows Server licensing: with this benefit, Windows Server customers with Software Assurance (“SA”) can save on the operating system costs of SQL Server in an Azure VM.
 * AHB for SQL Server licensing: move SQL Server cores from on-premises to the cloud with SA.
-* Security: Azure has more certifications, e.g. FedRAMP, FERPA, SOC1-3, than any other cloud provider. In addition, the Azure Trust Center provides companies with information to safeguard customer data in the cloud and offers support for companies that are bound by extensive regulations regarding the use, transmission, and storage of customer data, and enabling compliance with the General Data Protection Regulation (GDPR).
+* Security: [Azure has more certifications, e.g. FedRAMP, FERPA, SOC1-3, than any other cloud provider](https://azure.microsoft.com/en-us/overview/trusted-cloud/).
 
-**Full compatibility for easy lift and shift**
+**Full compatibility for easy move to the cloud**
 
-Benefit from the fastest, most friction-free path for moving on-premises workloads for production and dev/test to the cloud.
+Benefit from the fastest, most friction-free path for rehosting on-premises production and dev/test workloads from on-premises to the cloud.
 
 * Microsoft offers greater consistency across on-premises, IaaS, and PaaS than any database vendor, with a common code base for all Microsoft SQL products.
 * Full SQL Server feature compatibility with your on-premises SQL Server implementation when you move to Azure SQL VMs.
