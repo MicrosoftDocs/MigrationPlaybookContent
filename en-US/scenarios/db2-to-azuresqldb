@@ -37,7 +37,7 @@
 
 			"items": [
 				{
-					"filelocation": "DB2ToSqlDb-Mig",
+					"filelocation": "Db2ToSqlDb-Mig",
 					"actions": []
 				},
 				{
