@@ -62,11 +62,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "NoDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "NoCutover",
+					"filelocation": "NoDataSyncOrCutover",
 					"actions": []
 				}
 			]
