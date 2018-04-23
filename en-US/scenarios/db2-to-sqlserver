@@ -22,6 +22,10 @@
 			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "Db2ToSql-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "DB2Discover",
 					"actions": []
 				},
@@ -35,6 +39,10 @@
 		{
 			"name": "Migration",
 			"items": [
+				{
+					"filelocation": "Db2ToSql-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "DB2Migration",
 					"actions":[]
@@ -53,6 +61,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "Db2ToSql-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []

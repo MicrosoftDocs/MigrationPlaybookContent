@@ -23,6 +23,10 @@
 
 			"items": [
 				{
+					"filelocation": "AccessToSqlDb-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "AccessAzureAssessment",
 					"actions": []
 				}
@@ -32,6 +36,10 @@
 		{
 			"name": "Migration",
 			"items": [
+				{
+					"filelocation": "AccessToSqlDb-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "AccessAzureMigration",
 					"actions": []
@@ -49,6 +57,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "AccessToSqlDb-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []

@@ -22,6 +22,10 @@
 
 			"items": [
 				{
+					"filelocation": "Db2ToSqlDb-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "DB2AzureAssessment",
 					"actions": []
 				}
@@ -32,6 +36,10 @@
 			"name": "Migration",
 
 			"items": [
+				{
+					"filelocation": "Db2ToSqlDb-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "DB2AzureMigration",
 					"actions": []
@@ -50,6 +58,10 @@
 			"name": "Post-migration",
 
 			"items": [
+				{
+					"filelocation": "Db2ToSqlDb-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []

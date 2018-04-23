@@ -21,6 +21,10 @@
 			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "OracleToSql-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "Discover",
 					"actions": []
 				},
@@ -34,6 +38,10 @@
 		{
 			"name": "Migration",
 			"items": [
+				{
+					"filelocation": "OracleToSql-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "Migration",
 					"actions": []
@@ -52,6 +60,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "OracleToSql-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []
