@@ -15,13 +15,13 @@
 
 	 	{
 		  	"name": "Migration options to Azure Cosmos DB",
-			  "items": [
-				 {
-				      "filelocation": "AzureTableCosmosMigration",
-					    "actions": []
-				},
-     			],
-		},
+			"items": [
+				{
+				    "filelocation": "AzureTableCosmosMigration",
+					"actions": []
+				}
+     		]
+		}
 	],
 	"casestudies": [
 		

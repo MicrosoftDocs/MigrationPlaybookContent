@@ -19,9 +19,9 @@
 				{
 					"filelocation": "MongoCosmosMigration",
 					"actions": []
-				},
-			],
-		},
+				}
+			]
+		}
 	],
 	"casestudies": [
 		
