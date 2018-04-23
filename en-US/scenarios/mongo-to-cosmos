@@ -5,6 +5,7 @@
 	"steps": [
 		{
 			"name": "Why migrate?",
+			
 			"items": [
 				{
 					"filelocation": "CosmosDdDbRationale",
