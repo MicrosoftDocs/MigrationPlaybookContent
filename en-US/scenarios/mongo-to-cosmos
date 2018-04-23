@@ -4,6 +4,15 @@
 	"description": "No SQL Database",
 	"steps": [
 		{
+			"name": "Why migrate?",
+			"items": [
+				{
+					"filelocation": "CosmosDdDbRationale",
+					"actions": []
+				}
+			]
+		},
+		{
 			"name": "Migration options to Azure Cosmos DB",
 			"items": [
 				{
@@ -13,6 +22,7 @@
 			],
 		},
 	],
+	
 	"casestudies": [
 		
 	],
