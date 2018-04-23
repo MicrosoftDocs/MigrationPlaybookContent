@@ -12,6 +12,7 @@
 				}
 			]
 		},
+
 	 	{
 		  	"name": "Migration options to Azure Cosmos DB",
 			  "items": [
@@ -22,7 +23,6 @@
      			],
 		},
 	],
-  
 	"casestudies": [
 		
 	],
