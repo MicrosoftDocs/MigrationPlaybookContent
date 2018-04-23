@@ -17,16 +17,16 @@
 				{
 					"filelocation": "OnPremVsCloud",
 					"actions": []
-				},
-				{
-					"filelocation": "AzureSqlMiUpgradePaths",
-					"actions": []
-				}				
+				}
 			]
 		},
 		{
 			"name": "Pre-migration",
 			"items": [
+				{
+					"filelocation": "SqlToSqlDbMi-Pre-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "AzureSqlDiscover",
 					"actions": []
@@ -46,6 +46,10 @@
 			"name": "Migration",
 			"items": [
 				{
+					"filelocation": "SqlToSqlDbMi-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "AzureSqlMiSchemaMigration",
 					"actions": []
 				},
@@ -64,6 +68,9 @@
 			"name": "Post-migration",
 			"items": [
 				{
+					"filelocation": "SqlToSqlDb-Post-Mig",
+					"actions": []
+				},{
 					"filelocation": "SqlRemediateApps",
 					"actions": []
 				},
