@@ -24,7 +24,7 @@
 			"name": "Pre-migration",
 			"items": [
 				{
-					"filelocation": "SqlToAzureSqlDb-Pre-Mig",
+					"filelocation": "SqlToSqlDb-Pre-Mig",
 					"actions": []
 				},
 				{
@@ -46,7 +46,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "SqlToAzureSqlDb-Mig",
+					"filelocation": "SqlToSqlDb-Mig",
 					"actions": []
 				},
 				{
@@ -68,7 +68,7 @@
 			"name": "Post-migration",
 			"items": [
 				{
-					"filelocation": "SqlToAzureSqlDb-Post-Mig",
+					"filelocation": "SqlToSqlDb-Post-Mig",
 					"actions": []
 				},
 				{
