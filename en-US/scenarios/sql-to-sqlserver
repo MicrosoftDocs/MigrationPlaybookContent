@@ -22,10 +22,6 @@
 				{
 					"filelocation": "OnPremVsCloud",
 					"actions": []
-				},
-				{
-					"filelocation": "SqlUpgradePaths",
-					"actions": []
 				}
 			]
 		},
@@ -33,6 +29,10 @@
 		{
 			"name": "Pre-migration",
 			"items": [
+				{
+					"filelocation": "SqlToSql-Pre-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "SqlDiscover",
 					"actions": []
@@ -52,6 +52,10 @@
 			"name": "Migration",
 			"items": [
 				{
+					"filelocation": "SqlToSql-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "SqlMigration",
 					"actions": []
 				},
@@ -65,6 +69,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "SqlToSql-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "SqlRemediateApps",
 					"actions": []
