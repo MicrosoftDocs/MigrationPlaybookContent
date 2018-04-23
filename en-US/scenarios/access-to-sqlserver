@@ -26,6 +26,10 @@
 			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "AccessToSql-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "AccessAssessment",
 					"actions": []
 				}
@@ -36,6 +40,10 @@
 			"name": "Migration",
 
 			"items": [
+				{
+					"filelocation": "AccessToSql-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "AccessMigration",
 					"actions": []
@@ -54,6 +62,10 @@
 			"name": "Post-migration",
 
 			"items": [
+				{
+					"filelocation": "AccessToSql-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []
