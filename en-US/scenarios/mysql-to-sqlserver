@@ -20,6 +20,10 @@
 			"name": "Pre-migration ",
 			"items": [
 				{
+					"filelocation": "MySqlToSql-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "MySqlDiscover",
 					"actions": []
 				},
@@ -32,6 +36,10 @@
 		{
 			"name": "Migration ",
 			"items": [
+				{
+					"filelocation": "MySqlToSql-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "MySqlMigration",
 					"actions": []
@@ -49,6 +57,10 @@
 		{
 			"name": "Post-migration ",
 			"items": [
+				{
+					"filelocation": "MySqlToSql-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []
