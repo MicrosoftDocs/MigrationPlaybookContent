@@ -20,6 +20,10 @@
 			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "MySqlToSqlDb-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "MySqlAzureAssessment",
 					"actions": [
 						{
@@ -33,6 +37,10 @@
 		{
 			"name": "Migration",
 			"items": [
+				{
+					"filelocation": "MySqlToSqlDb-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "MySqlAzureMigration",
 					"actions": [
@@ -55,6 +63,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "MySqlToSql-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []
