@@ -20,6 +20,10 @@
 			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "SapAseToSql-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "SybaseAssessment",
 					"actions": [
 						{
@@ -33,6 +37,10 @@
 		{
 			"name": "Migration",
 			"items": [
+				{
+					"filelocation": "SapAseToSql-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "SybaseMigration",
 					"actions": [
@@ -55,6 +63,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "SapAseToSql-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "RemediateApps",
 					"actions": []
