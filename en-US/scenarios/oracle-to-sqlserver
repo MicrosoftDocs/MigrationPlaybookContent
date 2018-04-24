@@ -39,7 +39,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "OracleToSql-Mig",
+					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
@@ -61,7 +61,7 @@
 			"name": "Post-migration",
 			"items": [
 				{
-					"filelocation": "OracleToSql-Post-Mig",
+					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
 				{

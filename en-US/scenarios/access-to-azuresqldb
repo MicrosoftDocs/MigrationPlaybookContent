@@ -37,7 +37,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "AccessToSqlDb-Mig",
+					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
@@ -58,7 +58,7 @@
 			"name": "Post-migration",
 			"items": [
 				{
-					"filelocation": "AccessToSqlDb-Post-Mig",
+					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
 				{

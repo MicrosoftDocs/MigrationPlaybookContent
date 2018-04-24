@@ -37,7 +37,7 @@
 
 			"items": [
 				{
-					"filelocation": "Db2ToSqlDb-Mig",
+					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
@@ -59,7 +59,7 @@
 
 			"items": [
 				{
-					"filelocation": "Db2ToSqlDb-Post-Mig",
+					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
 				{

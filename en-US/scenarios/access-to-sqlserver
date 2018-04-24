@@ -41,7 +41,7 @@
 
 			"items": [
 				{
-					"filelocation": "AccessToSql-Mig",
+					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
@@ -63,7 +63,7 @@
 
 			"items": [
 				{
-					"filelocation": "AccessToSql-Post-Mig",
+					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
 				{
