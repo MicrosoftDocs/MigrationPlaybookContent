@@ -37,7 +37,7 @@
 			"name": "Migration ",
 			"items": [
 				{
-					"filelocation": "MySqlToSql-Mig",
+					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
@@ -58,7 +58,7 @@
 			"name": "Post-migration ",
 			"items": [
 				{
-					"filelocation": "MySqlToSql-Post-Mig",
+					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
 				{
