@@ -22,7 +22,8 @@
 				{
 					"filelocation": "PostgresToAzurePostgres-Pre-Mig",
 					"actions": []
-				},{
+				},
+				{
 					"filelocation": "PostgreSqlEvaluation",
 					"actions": []
 				}
