@@ -44,7 +44,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "Template-Mig",
+					"filelocation": "SqlToSqlVm-Mig",
 					"actions": []
 				},
 				{
