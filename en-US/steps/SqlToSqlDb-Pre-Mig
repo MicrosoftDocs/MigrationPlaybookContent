@@ -2,6 +2,8 @@
 
 As you prepare for migrating your SQL Server database to Azure SQL Database, be sure to consider the versions of SQL Server that are supported and to address any prerequisites to help ensure a successful migration.
 
+**Important**: Also be sure to check out the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp) for additional information and recommendations.
+
 ### Supported versions
 
 This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of April 2018.

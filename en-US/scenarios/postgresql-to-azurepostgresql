@@ -20,6 +20,10 @@
 			"name": "Pre-migration",
 			"items": [
 				{
+					"filelocation": "PostgresToAzurePostgres-Pre-Mig",
+					"actions": []
+				},
+				{
 					"filelocation": "PostgreSqlEvaluation",
 					"actions": []
 				}
@@ -28,6 +32,10 @@
 		{
 			"name": "Migration",
 			"items": [
+				{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "PostgreSqlSchemaDataMigration",
 					"actions": []
@@ -45,6 +53,10 @@
 		{
 			"name": "Post-migration",
 			"items": [
+				{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
 				{
 					"filelocation": "SqlRemediateApps",
 					"actions": []

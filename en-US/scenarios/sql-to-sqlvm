@@ -62,7 +62,7 @@
 			"name": "Post-migration",
 			"items": [
 				{
-					"filelocation": "SqlToSqlVm-Post-Mig",
+					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
 				{
