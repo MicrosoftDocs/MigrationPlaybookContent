@@ -40,7 +40,7 @@
 			"name": "Migration",
 			"items": [
 				{
-					"filelocation": "Db2ToSql-Mig",
+					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
@@ -62,7 +62,7 @@
 			"name": "Post-migration",
 			"items": [
 				{
-					"filelocation": "Db2ToSql-Post-Mig",
+					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
 				{
