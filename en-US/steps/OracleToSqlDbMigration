@@ -1,4 +1,4 @@
-<!--Migrate-->
+<!--Migrate schema and data-->
 
 After deploying your schema, the next step is to execute the data migration to Azure SQL Database. 
 
