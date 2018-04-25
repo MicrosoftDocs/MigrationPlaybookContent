@@ -34,11 +34,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlDiscover",
+					"filelocation": "SqlToSqlDiscover",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlAssessment",
+					"filelocation": "SqlToSqlAssessment",
 					"actions": []
 				},
 				{
@@ -56,7 +56,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlMigration",
+					"filelocation": "SqlToSqlMigration",
 					"actions": []
 				},
 				{
