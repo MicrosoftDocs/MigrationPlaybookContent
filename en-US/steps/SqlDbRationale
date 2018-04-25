@@ -37,3 +37,7 @@ For example, you can:
 **Securing your data**
 
 SQL Server has a tradition of data security that Azure SQL Database upholds with features that limit access, protect data, and help you monitor activity. See [Securing your SQL database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview) for a quick rundown of security options available in SQL Database. The article [Security Center for SQL Server Database Engine and SQL Database](https://msdn.microsoft.com/library/bb510589) provides a more comprehensive view of security features, and you can visit the [Azure Trust Center](https://azure.microsoft.com/support/trust-center/security/) for information about Azure's platform security.
+
+### Additional resources
+
+* For more information about service tiers in Azure SQL Database, see the article [What are Azure SQL Database service tiers?](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers).
