@@ -38,11 +38,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlSchemaMigration",
+					"filelocation": "MySqlToAzureMySqlSchemaMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlDataMigration",
+					"filelocation": "MySqlToAzureMySqlDataMigration",
 					"actions": []
 				},
 				{
