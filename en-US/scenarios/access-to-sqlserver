@@ -30,7 +30,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AccessAssessment",
+					"filelocation": "AccessToSqlAssessment",
 					"actions": []
 				}
 			]
@@ -45,11 +45,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AccessMigration",
+					"filelocation": "AccessToSqlMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "AccessDataSyncSql",
+					"filelocation": "AccessToSqlDataSync",
 					"actions": []
 				},
 				{

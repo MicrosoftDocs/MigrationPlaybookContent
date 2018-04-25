@@ -7,7 +7,7 @@
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "AzureSqlDbRationale",
+					"filelocation": "SqlDbRationale",
 					"actions": []
 				},
 				{
@@ -26,7 +26,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DB2AzureAssessment",
+					"filelocation": "DB2ToSqlDbAssessment",
 					"actions": []
 				}
 			]
@@ -41,11 +41,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DB2AzureMigration",
+					"filelocation": "DB2ToSqlDbMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "DB2DataSyncSqlDb",
+					"filelocation": "DB2ToSqlDbDataSync",
 					"actions": []
 				},
 				{

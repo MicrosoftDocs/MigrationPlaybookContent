@@ -1,7 +1,7 @@
 {
 	"displayname": "Migrate DB2 to SQL Server",
 	"emailmessage": "Check out the process for migrating from DB2 to SQL Server here:",
-	"description": "Transferring from IBM's DB2 to Azure's SQL Server 2016 is easier than ever due to it has the SQL system's best-in-class security and connectivity features.",
+	"description": "Transferring from IBM's DB2 to SQL Server is easier than ever with the SQL system's best-in-class security and connectivity features.",
 	"steps": [
 		{
 			"name": "Why migrate?",
@@ -26,11 +26,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DB2Discover",
+					"filelocation": "DB2ToSqlDiscover",
 					"actions": []
 				},
 				{
-					"filelocation": "DB2Assessment",
+					"filelocation": "DB2ToSqlAssessment",
 					"actions": []
 				}
 			]
@@ -44,11 +44,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DB2Migration",
+					"filelocation": "DB2ToSqlMigration",
 					"actions":[]
 				},
 				{
-					"filelocation": "DB2DataSyncSql",
+					"filelocation": "DB2ToSqlDataSync",
 					"actions": []
 				},
 				{

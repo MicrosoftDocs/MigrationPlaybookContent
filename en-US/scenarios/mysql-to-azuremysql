@@ -8,7 +8,7 @@
 			
 			"items": [
 				{
-					"filelocation": "MySqlRationale",
+					"filelocation": "AzureMySqlRationale",
 					"actions": []
 				},
 				{
@@ -25,7 +25,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlEvaluation",
+					"filelocation": "MySqlToAzureMySqlEvaluation",
 					"actions": []
 				}
 			]
@@ -38,19 +38,19 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlSchemaMigration",
+					"filelocation": "MySqlToAzureMySqlSchemaMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlDataMigration",
+					"filelocation": "MySqlToAzureMySqlDataMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlDataSync",
+					"filelocation": "MySqlToAzureMySqlDataSync",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlRollback",
+					"filelocation": "MySqlToAzureMySqlRollback",
 					"actions": []
 				}
 			]
@@ -71,7 +71,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlOptimization",
+					"filelocation": "AzureMySqlOptimization",
 					"actions": []
 				}
 			]
