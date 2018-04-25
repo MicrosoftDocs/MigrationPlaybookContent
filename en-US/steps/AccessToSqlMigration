@@ -7,7 +7,7 @@ Migrating data is a bulk-load operation that moves rows of data into SQL Server 
 
 To use SSMA for Access to migrate the data, perform the following steps.
 
-1. Make sure you have **loaded the Access database objects** into SQL Server
+1. Make sure you have **loaded the Access database objects** into SQL Server.
 
 2. In Access Metadata Explorer, select the objects that contain the data that you want to migrate
     
