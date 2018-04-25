@@ -1,6 +1,6 @@
-<!--Migrate data-->
+<!--Migrate schema and data-->
 
-When your schema has been successfully migrated to the target, the next step is to execute the data movement by using the Azure Database Migration Service (Azure DMS).
+After assessing your databases, the next step is to execute the schema migration process. With the Azure Database Migration Service, schema migration takes place as part of the broader migration process.
  
 ### Steps
 
