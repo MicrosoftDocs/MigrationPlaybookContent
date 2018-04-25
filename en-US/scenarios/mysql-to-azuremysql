@@ -46,11 +46,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlDataSync",
+					"filelocation": "MySqlToAzureMySqlDataSync",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlRollback",
+					"filelocation": "MySqlToAzureMySqlRollback",
 					"actions": []
 				}
 			]

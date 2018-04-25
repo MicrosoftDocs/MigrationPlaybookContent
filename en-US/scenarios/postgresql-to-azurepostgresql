@@ -41,11 +41,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlDataSync",
+					"filelocation": "PostgreSqlToAzurePostgreSqlDataSync",
 					"actions": []
 				},
 				{
-					"filelocation": "SqlRollback",
+					"filelocation": "PostgreSqlToAzurePostgreSqlRollback",
 					"actions": []
 				}
 			]

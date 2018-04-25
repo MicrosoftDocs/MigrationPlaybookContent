@@ -25,11 +25,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "Discover",
+					"filelocation": "OracleToSqlDiscover",
 					"actions": []
 				},
 				{
-					"filelocation": "Assessment",
+					"filelocation": "OracleToSqlAssessment",
 					"actions": []
 				}
 			]
