@@ -26,7 +26,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "Db2ToSqlDbAssessment",
+					"filelocation": "DB2ToSqlDbAssessment",
 					"actions": []
 				}
 			]
@@ -41,11 +41,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "Db2ToSqlDbMigration",
+					"filelocation": "DB2ToSqlDbMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "Db2ToSqlDbDataSync",
+					"filelocation": "DB2ToSqlDbDataSync",
 					"actions": []
 				},
 				{
