@@ -24,7 +24,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SybaseAssessment",
+					"filelocation": "SapAseToSqlDbAssessment",
 					"actions": [
 						{
 							"actiontype": "download",
@@ -42,7 +42,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SybaseMigration",
+					"filelocation": "SapAseToSqlDbMigration",
 					"actions": [
 						{
 							"actiontype": "download",
@@ -51,7 +51,7 @@
 					]
 				},
 				{
-					"filelocation": "SybaseDataSyncSqlDb",
+					"filelocation": "SapAseToSqlDbDataSync",
 					"actions": []
 				},
 				{
