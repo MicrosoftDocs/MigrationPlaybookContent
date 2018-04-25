@@ -1,5 +1,5 @@
 {
-	"displayname": "Migrate DB2 to Azure SQL Database",
+	"displayname": "Migrate DB2 to Azure SQL Database UPDATE",
 	"emailmessage": "Check out the process for migrating from DB2 to Azure SQL Database here:",
 	"description": "Azure's SQL Database system boasts unparalleled interconnectivity, scalability, and utilization. Learn more about our migration process from DB2 here.",
 	"steps": [
