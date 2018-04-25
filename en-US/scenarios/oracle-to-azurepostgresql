@@ -7,7 +7,7 @@
 			"name": "Attunity Replicate for Microsoft Migrations",
 			"items": [
 				{
-					"filelocation": "OracleAzurePostgreSQLMigration",
+					"filelocation": "OracleToAzurePostgreSqlMigration",
 					"actions": []
 				}
 			]

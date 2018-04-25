@@ -8,7 +8,7 @@
 						
 			"items": [
 				{
-					"filelocation": "AzureSqlDbRationale",
+					"filelocation": "SqlDbRationale",
 					"actions": []
 				},
 				{
@@ -27,7 +27,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AccessAzureAssessment",
+					"filelocation": "AccessToSqlDbAssessment",
 					"actions": []
 				}
 			]
@@ -41,11 +41,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AccessAzureMigration",
+					"filelocation": "AccessToSqlDbMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "AccessDataSyncSqlDb",
+					"filelocation": "AccessToSqlDbDataSync",
 					"actions": []
 				},
 				{

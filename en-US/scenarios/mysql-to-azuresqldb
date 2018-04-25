@@ -7,7 +7,7 @@
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "AzureSqlDbRationale",
+					"filelocation": "SqlDbRationale",
 					"actions": []
 				},
 				{
@@ -24,7 +24,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlAzureAssessment",
+					"filelocation": "MySqlToSqlDbAssessment",
 					"actions": [
 						{
 							"actiontype": "download",
@@ -42,7 +42,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlAzureMigration",
+					"filelocation": "MySqlToSqlDbMigration",
 					"actions": [
 						{
 							"actiontype": "download",
@@ -51,7 +51,7 @@
 					]
 				},
 				{
-					"filelocation": "MySqlDataSyncSqlDb",
+					"filelocation": "MySqlToSqlDbDataSync",
 					"actions": []
 				},
 				{
