@@ -37,7 +37,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "PostgreSqlToAzurePostgreSQLSchemaDataMigration",
+					"filelocation": "PostgreSqlToAzurePostgreSqlSchemaDataMigration",
 					"actions": []
 				},
 				{
