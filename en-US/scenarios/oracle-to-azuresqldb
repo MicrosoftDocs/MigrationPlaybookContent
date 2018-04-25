@@ -25,7 +25,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "OracleAzureAssessment",
+					"filelocation": "OracleToSqlDbAssessment",
 					"actions": [
 						{
 							"actiontype": "download",
@@ -43,7 +43,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "OracleAzureMigration",
+					"filelocation": "OracleToSqlDbMigration",
 					"actions": [
 						{
 							"actiontype": "download",
@@ -52,7 +52,7 @@
 					]
 				},
 				{
-					"filelocation": "OracleDataSyncSqlDb",
+					"filelocation": "OracleToSqlDbDataSync",
 					"actions": []
 				},
 				{

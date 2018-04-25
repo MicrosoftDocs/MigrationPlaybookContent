@@ -43,11 +43,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "Migration",
+					"filelocation": "OracleToSqlMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "OracleDataSyncSql",
+					"filelocation": "OracleToSqlDataSync",
 					"actions": []
 				},
 				{
