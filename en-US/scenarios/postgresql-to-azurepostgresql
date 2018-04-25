@@ -7,7 +7,7 @@
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "PostgreSqlRationale",
+					"filelocation": "AzurePostgreSqlRationale",
 					"actions": []
 				},
 				{
@@ -20,11 +20,11 @@
 			"name": "Pre-migration",
 			"items": [
 				{
-					"filelocation": "PostgresToAzurePostgres-Pre-Mig",
+					"filelocation": "PostgreSqlToAzurePostgreSql-Pre-Mig",
 					"actions": []
 				},
 				{
-					"filelocation": "PostgreSqlEvaluation",
+					"filelocation": "PostgreSqlToAzurePostgreSqlEvaluation",
 					"actions": []
 				}
 			]
@@ -37,7 +37,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "PostgreSqlSchemaDataMigration",
+					"filelocation": "PostgreSqlToAzurePostgreSQLSchemaDataMigration",
 					"actions": []
 				},
 				{
@@ -66,7 +66,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "PostgreSqlOptimization",
+					"filelocation": "AzurePostgreSqlOptimization",
 					"actions": []
 				}
 			]
