@@ -26,11 +26,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DB2Discover",
+					"filelocation": "DB2ToSqlDiscover",
 					"actions": []
 				},
 				{
-					"filelocation": "DB2Assessment",
+					"filelocation": "DB2ToSqlAssessment",
 					"actions": []
 				}
 			]
@@ -44,11 +44,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "DB2Migration",
+					"filelocation": "DB2ToSqlMigration",
 					"actions":[]
 				},
 				{
-					"filelocation": "DB2DataSyncSql",
+					"filelocation": "DB2ToSqlDataSync",
 					"actions": []
 				},
 				{

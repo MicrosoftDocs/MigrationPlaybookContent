@@ -1,4 +1,4 @@
-<!--Migrate-->
+<!--Migrate schema and data-->
 
 After you have completed assessing your databases and addressing any discrepancies, the next step is to execute the migration process. Migration involves two steps – publishing the schema and migrating the data. SSMA for DB2 is the correct tool to use for this process.
 
