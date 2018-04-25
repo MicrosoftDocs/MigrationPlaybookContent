@@ -1,0 +1,3 @@
+<!--Discover-->
+
+The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s SQL Server instances together with the version and features in use.

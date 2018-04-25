@@ -7,7 +7,7 @@
 			"name": "Why migrate?",
 			"items": [
 				{
-					"filelocation": "AzureSqlDbMiRationale",
+					"filelocation": "SqlDbMiRationale",
 					"actions": []
 				},
 				{
@@ -28,11 +28,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlDiscover",
+					"filelocation": "SqlDbMiDiscover",
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlMiAssessment",
+					"filelocation": "SqlDbMiAssessment",
 					"actions": []
 				},
 				{
@@ -50,11 +50,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlMiSchemaMigration",
+					"filelocation": "SqlDbMiSchemaMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "AzureSqlMiDataMigration",
+					"filelocation": "SqlDbMiDataMigration",
 					"actions": []
 				},
 				{
