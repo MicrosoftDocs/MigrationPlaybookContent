@@ -50,11 +50,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlToSqlDbMiSchemaMigration",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlToSqlDbMiDataMigration",
+					"filelocation": "SqlToSqlDbMiSchemaDataMigration",
 					"actions": []
 				},
 				{
