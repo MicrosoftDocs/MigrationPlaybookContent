@@ -14,29 +14,56 @@
     {
       "title": "Oracle",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
-      "pages": {
-        "Azure SQL": "/scenario/oracle-to-azuresql",
-        "SQL Server": "/scenario/oracle-to-sqlserver",
-        "Azure PostgreSQL": "/scenario/oracle-to-azurepostgresql",
-		"SQL Data Warehouse" : "/scenario/oracle-to-sqldw"
-      }
+      "pages": [
+        {
+          "name": "Azure SQL",
+          "URL": "/scenario/oracle-to-azuresql"
+        },
+        {
+          "name": "SQL Server",
+          "URL": "/scenario/oracle-to-sqlserver"
+        },
+        {
+          "name": "Azure PostgreSQL",
+          "URL": "/scenario/oracle-to-azurepostgresql"
+        },
+		{
+		  "name":	"SQL Data Warehouse",
+		  "URL": "/scenario/oracle-to-sqldw"
+		}
+      ]
     },
     {
       "title": "DB2",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
-      "pages": {
-        "Azure SQL": "/scenario/db2-to-azuresql",
-        "SQL Server": "/scenario/db2-to-sqlserver"
-      }
+      "pages": [
+        {
+          "name": "Azure SQL",
+          "URL": "/scenario/db2-to-azuresql"
+        },
+        {
+          "name": "SQL Server",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
     },
     {
       "title": "MySQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
-      "pages": {
-        "Azure SQL": "/scenario/mysql-to-azuresql",
-        "SQL Server": "/scenario/mysql-to-sqlserver",
-        "Azure MySQL": "/scenario/mysql-to-azuremysql"
-      }
+      "pages": [
+        {
+          "name": "Azure SQL",
+          "URL": "/scenario/mysql-to-azuresql"
+        },
+        {
+          "name": "SQL Server",
+          "URL": "/scenario/mysql-to-sqlserver"
+        },
+        {
+          "name": "Azure MySQL",
+          "URL": "/scenario/mysql-to-azuremysql"
+        }
+      ]
     },
     {
       "title": "PostgreSQL",
