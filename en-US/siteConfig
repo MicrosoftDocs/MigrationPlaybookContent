@@ -68,39 +68,60 @@
     {
       "title": "PostgreSQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
-      "pages": {
-        "Azure PostgreSQL": "/scenario/postgresql-to-azurepostgresql"
-      }
+      "pages": [
+        {
+          "name": "Azure PostgreSQL",
+          "URL": "/scenario/postgresql-to-azurepostgresql"
+        }
+      ]
     },
     {
       "title": "Mongo",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
-      "pages": {
-        "Cosmos": "/scenario/mongo-to-cosmos"
-      }
+      "pages": [
+        {
+          "name": "Cosmos",
+          "URL": "/scenario/mongo-to-cosmos"
+        }
+      ]
     },
     {
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
-      "pages": {
-        "Azure SQL": "/scenario/access-to-azuresql",
-        "SQL Server": "/scenario/access-to-sqlserver"
-      }
+      "pages": [
+        {
+          "name": "Azure SQL",
+          "URL": "/scenario/access-to-azuresql"
+        },
+        {
+          "name": "SQL Server",
+          "URL": "/scenario/access-to-sqlserver"
+        }
+      ]
     },
     {
       "title": "SAP ASE",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
-      "pages": {
-        "Azure SQL": "/scenario/sybase-to-azuresql",
-        "SQL Server": "/scenario/sybase-to-sqlserver"
-      }
+      "pages": [
+        {
+          "name": "Azure SQL",
+          "URL": "/scenario/sybase-to-azuresql"
+        },
+        {
+          "name": "SQL Server",
+          "URL": "/scenario/sybase-to-sqlserver"
+        }
+      ]
     },
     {
       "title": "Azure Table Storage",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
-      "pages": {
-        "Cosmos": "/scenario/azuretable-to-cosmos"
-      }
+      "pages": [
+        {
+          "name": "Cosmos",
+          "URL": "/scenario/azuretable-to-cosmos"
+        }
+      ]
     }
   ],
   "commonChoices": [
