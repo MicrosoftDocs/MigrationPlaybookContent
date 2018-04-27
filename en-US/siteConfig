@@ -3,13 +3,17 @@
     {
       "title": "SQL Server",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
-      "pages": {
-        "Azure SQL": "/scenario/sql-to-azuresql",
-        "SQL Server": "/scenario/sql-to-sqlserver",
-		"Azure SQL Database MI": "/scenario/sql-to-azuresqldbmi",
-		"SQL Server on Azure VMs":"/scenario/sql-to-sqlvm",
-		"SQL Data Warehouse": "/scenario/sql-to-sqldw"
-      }
+      "pages": [{
+       "name": "Azure SQL", "URL": "/scenario/sql-to-azuresql"},
+{"name":        "SQL Server", "URL": "/scenario/sql-to-sqlserver"
+      },
+	 {
+       "name": "Azure SQL Database MI", "URL": "/scenario/sql-to-azuresqldbmi"},
+	{
+       "name":	"SQL Server on Azure VMs", "URL":"/scenario/sql-to-sqlvm"},
+	{
+       "name":	"SQL Data Warehouse", "URL": "/scenario/sql-to-sqldw"}
+	  ]
     },
     {
       "title": "Oracle",
@@ -131,7 +135,7 @@
     },
     {
       "text": "SQL Server &rarr; SQL Server",
-      "link": "/scenario/sqlserver-to-sqlserver"
+      "link": "/scenario/sql-to-sqlserver"
     },
     {
       "text": "Oracle &rarr; SQL Server",
