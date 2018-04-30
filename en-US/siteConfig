@@ -25,10 +25,10 @@
 			[
 				"SQL Server",
 				"Azure SQL Database",
-				"Azure SQL Database MI",
+				"Azure SQL Database Managed Instance",
 				"SQL Server on Azure VMs",
-				"Azure MySQL",
-				"Azure PostgreSQL",
+				"Azure Database for MySQL",
+				"Azure Database for PostgreSQL",
 				"Azure Cosmos DB"
 			],
 			"required": "true"
