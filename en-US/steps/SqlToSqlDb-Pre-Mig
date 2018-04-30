@@ -58,6 +58,10 @@ The following data migration options are discussed:
 *	Transactional replication: Transactional replication from SQL Server 2017 to Azure SQL Database is supported.
 *	Bulk load: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database.
 
+### Additional resources
+
+ * [SQL migration using Azure Data Migration Service (DMS)](https://www.microsoft.com/handsonlabs/SelfPacedLabs/?storyGuid=3b671509-c3cd-4495-8e8f-354acfa09587) hands-on lab.
+
 ### Prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites.
