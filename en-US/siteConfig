@@ -25,7 +25,7 @@
 			[
 				"SQL Server",
 				"Azure SQL Database",
-				"Azure SQL DB Managed Instance",
+				"Azure SQL Database MI",
 				"SQL Server on Azure VMs",
 				"Azure Database for MySQL",
 				"Azure Database for PostgreSQL",
