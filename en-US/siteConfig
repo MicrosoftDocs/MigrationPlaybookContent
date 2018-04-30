@@ -27,8 +27,8 @@
 				"Azure SQL Database",
 				"Azure SQL Database MI",
 				"SQL Server on Azure VMs",
-				"Azure Database for MySQL",
-				"Azure Database for PostgreSQL",
+				"Azure DB for MySQL",
+				"Azure DB for PostgreSQL",
 				"Azure Cosmos DB"
 			],
 			"required": "true"
