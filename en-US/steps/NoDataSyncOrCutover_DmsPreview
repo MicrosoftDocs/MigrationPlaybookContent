@@ -2,4 +2,6 @@
 
 For minimal-downtime migrations, the source you are migrating continues to change after the one-time migration occurs, and it will drift from the target in terms of data and schema. During this phase, you need to ensure that all changes in the source are captured and applied to the target in near real time. After you verify that all changes in source have been applied to the target, you can cutover from the source to the target environment.
 
-Support for minimal-downtime migrations is not yet available for this scenario, so the Data sync and Cutover phases are not currently applicable.
+The Azure Database Migration Service does not yet support minimal-downtime migrations for this scenario, so the Data sync and Cutover phases are not currently applicable.
+
+Note: If you would like to participate in the Private Preview of minimal-downtime functionality for MySQL to Azure Database for MySQL, you can submit a nomination [here](https://aka.ms/dms-preview).
