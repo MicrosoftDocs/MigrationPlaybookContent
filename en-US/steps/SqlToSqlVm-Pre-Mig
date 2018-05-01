@@ -15,10 +15,6 @@ SQL Server on Azure VMs supports migration of the following versions of SQL Serv
 * SQL Server 2016
 * SQL Server 2017
 
-### Additional resources
-
-* [Choosing your database migration path to Azure](https://azure.microsoft.com/mediahandler/files/resourcefiles/choosing-your-database-migration-path-to-azure/Choosing_your_database_migration_path_to_Azure.pdf) white paper.
-
 ### Prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites.
