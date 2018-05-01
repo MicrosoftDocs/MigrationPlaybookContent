@@ -51,6 +51,10 @@ The following data migration options are discussed:
 *	Transactional replication: Transactional replication from SQL Server 2017 to Azure SQL Database Managed Instance is supported.
 *	Bulk load: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database Managed Instance.
 
+### Additional resources
+
+* [Choosing your database migration path to Azure](https://azure.microsoft.com/mediahandler/files/resourcefiles/choosing-your-database-migration-path-to-azure/Choosing_your_database_migration_path_to_Azure.pdf) white paper.
+
 ### Prerequisites
 
 * Create a VNET for the Azure Database Migration Service by using the Azure Resource Manager deployment model, which provides site-to-site connectivity to your on-premises source servers by using either [ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) or [VPN](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways). You can learn more in the article [Network topologies for Azure SQL DB Managed Instance migrations using the Azure Database Migration Service](https://docs.microsoft.com/en-us/azure/dms/resource-network-topologies).
