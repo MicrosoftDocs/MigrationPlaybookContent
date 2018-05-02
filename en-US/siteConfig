@@ -116,7 +116,7 @@
 		"source3_target0" : "oracle-to-sqlserver",
 		"source3_target1" : "oracle-to-azuresqldb",
 		"source3_target6" : "oracle-to-azurepostgresql",
-		"source3_target4" : "oracle-to-sqldw"
+		"source3_target4" : "oracle-to-sqldw",
 		"source4_target0" : "db2-to-sqlserver",
 		"source4_target1" : "db2-to-azuresqldb",
 		"source5_target0" : "sybase-to-sqlserver",
