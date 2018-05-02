@@ -31,4 +31,6 @@ Performing a successful migration required you to migrate your table schemas, co
 
 ### Additional resources
 
-The CAT (Customer Advisory Team) also has some great SQL Data Warehouse guidance, which they publish through blogs. Be sure to take a look at their article, [Migrating data to Azure SQL Data Warehouse in practice]( https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/), for additional guidance on migration.
+The CAT (Customer Advisory Team) has some great SQL Data Warehouse guidance published as blog postings. Be sure to take a look at their article, [Migrating data to Azure SQL Data Warehouse in practice]( https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/), for additional guidance on migration.
+
+Also be sure to check out the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp) for additional information and recommendations.
