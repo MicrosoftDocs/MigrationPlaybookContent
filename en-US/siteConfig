@@ -108,7 +108,7 @@
 		"source0_target1" : "sql-to-azuresqldb",
 		"source0_target2" : "sql-to-azuresqldbmi",
 		"source0_target3" : "sql-to-sqlvm",
-		"source0_target4" : "sql-to-sqldwq",
+		"source0_target4" : "sql-to-sqldw",
 		"source1_target0" : "mysql-to-sqlserver",
 		"source1_target1" : "mysql-to-azuresqldb",
 		"source1_target5" : "mysql-to-azuremysql",
