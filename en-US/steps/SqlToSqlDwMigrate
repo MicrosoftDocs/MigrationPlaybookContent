@@ -1,0 +1,17 @@
+<!--Migrate using Attunity Replicate for Microsoft Migrations-->
+
+### Near zero downtime migrations with Attunity Replicate!
+
+Microsoft has partnered with Attunity around specific migration scenarios (source/target pairs). Attunity Replicate supports a very large set of sources and targets. The edition of Attunity Replicate that we refer to in the context of this partnership is known as Attunity Replicate For Microsoft Migrations (this is an Attunity product and not a Microsoft product) and enables only the scenarios for which we are partnering for now. 
+
+Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets. In this context, 
+for each table, Attunity Replicate propagates its schema creation script and its data. It will not propagate any other artifacts (SP, triggers, functions, ….) 
+and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
+
+Proposed sequence and usage of tools:
+1.	**Convert the source Oracle database** (schema and data) to Azure PostgreSQL.
+2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target PostgreSQL on Aure.
+
+Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
+
+**Important**: Using Attunity Replicate for Microsoft Migrations to pump data out of a database hosted on Rackspace (IaaS) is supported if the version of the source endpoint and the target are among those that are supported by Attunity Replicate.
