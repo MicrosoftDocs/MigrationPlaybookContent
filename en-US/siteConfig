@@ -27,6 +27,7 @@
 				"Azure SQL Database",
 				"Azure SQL Database MI",
 				"SQL Server on Azure VMs",
+				"SQL Data Warehouse",
 				"Azure DB for MySQL",
 				"Azure DB for PostgreSQL",
 				"Azure Cosmos DB"
@@ -107,20 +108,22 @@
 		"source0_target1" : "sql-to-azuresqldb",
 		"source0_target2" : "sql-to-azuresqldbmi",
 		"source0_target3" : "sql-to-sqlvm",
+		"source0_target4" : "sql-to-sqldw",
 		"source1_target0" : "mysql-to-sqlserver",
 		"source1_target1" : "mysql-to-azuresqldb",
-		"source1_target4" : "mysql-to-azuremysql",
-		"source2_target5" : "postgresql-to-azurepostgresql",		
+		"source1_target5" : "mysql-to-azuremysql",
+		"source2_target6" : "postgresql-to-azurepostgresql",		
 		"source3_target0" : "oracle-to-sqlserver",
 		"source3_target1" : "oracle-to-azuresqldb",
-		"source3_target5" : "oracle-to-azurepostgresql",
+		"source3_target6" : "oracle-to-azurepostgresql",
+		"source3_target4" : "oracle-to-sqldw",
 		"source4_target0" : "db2-to-sqlserver",
 		"source4_target1" : "db2-to-azuresqldb",
 		"source5_target0" : "sybase-to-sqlserver",
 		"source5_target1" : "sybase-to-azuresqldb",
 		"source6_target0" : "access-to-sqlserver",
 		"source6_target1" : "access-to-azuresqldb",
-		"source7_target6" : "mongo-to-cosmos",
-		"source8_target6" : "azuretable-to-cosmos"
+		"source7_target7" : "mongo-to-cosmos",
+		"source8_target7" : "azuretable-to-cosmos"
 	}
 }
