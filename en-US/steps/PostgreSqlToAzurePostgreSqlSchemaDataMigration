@@ -42,4 +42,4 @@ You can also edit the dump file to include the **set synchronous_commit = off;**
 
 For minimal downtime migrations, you can sign up to particiapte in the Azure Database Migration Service Private preview.
 
-**Note**: If you are interested in participating in a Private Preview of minimal-downtime functionality for PostgreSQL to Azure Database for PostgreSQL migrations, submit a nomination here.
+**Note**: If you are interested in participating in a Private preview of minimal-downtime functionality for PostgreSQL to Azure Database for PostgreSQL migrations, submit a nomination [here](https://aka.ms/dms-preview).
