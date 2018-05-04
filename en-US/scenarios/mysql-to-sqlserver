@@ -45,11 +45,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlToSqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
+					"filelocation": "MySqlToSqlDataSyncAndCutover",
 					"actions": []
 				}
 			]
