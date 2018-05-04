@@ -42,7 +42,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlToAzureMySqlMigrateDataSyncAndCutover_DmsPreview",
+					"filelocation": "MySqlToAzureMySqlDataSyncAndCutover_DmsPreview",
 					"actions": []
 				}
 			]
