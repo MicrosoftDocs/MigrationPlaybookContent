@@ -46,11 +46,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlToAzureMySqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "MySqlToAzureMySqlRollback",
+					"filelocation": "MySqlToAzureMySqlDataSyncAndCutover_DmsPreview",
 					"actions": []
 				}
 			]
