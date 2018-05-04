@@ -41,11 +41,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "PostgreSqlToAzurePostgreSqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "PostgreSqlToAzurePostgreSqlRollback",
+					"filelocation": "PostgreSqlToAzurePostgreSqlDataSyncAndCutover_DmsPreview",
 					"actions": []
 				}
 			]
