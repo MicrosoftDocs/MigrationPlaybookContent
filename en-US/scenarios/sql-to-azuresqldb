@@ -58,7 +58,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlToSqlDbSyncAndCutover_DmsPreview",
+					"filelocation": "SqlToSqlDbDataSyncAndCutover_DmsPreview",
 					"actions": []
 				}
 			]
