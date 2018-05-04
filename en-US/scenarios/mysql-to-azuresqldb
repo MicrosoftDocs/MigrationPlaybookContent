@@ -51,7 +51,7 @@
 					]
 				},
 				{
-					"filelocation": "MySqlToSqlDbDataSyncAndCutover",
+					"filelocation": "MySqlToSqlDbDataSyncAndCutover_DmsPreview",
 					"actions": []
 				}
 			]
