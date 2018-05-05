@@ -54,7 +54,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "NoDataSyncOrCutover",
+					"filelocation": "SqlToSqlDbMiDataSyncAndCutover_DmsPreview",
 					"actions": []
 				}
 			]
