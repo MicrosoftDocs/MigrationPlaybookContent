@@ -45,11 +45,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "AccessToSqlDbDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
+					"filelocation": "AccessToSqlDbDataSyncAndCutover",
 					"actions": []
 				}
 			]

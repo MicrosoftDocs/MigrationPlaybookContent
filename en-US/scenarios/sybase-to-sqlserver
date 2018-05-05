@@ -51,11 +51,7 @@
 					]
 				},
 				{
-					"filelocation": "SapAseToSqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
+					"filelocation": "SapAseToSqlDataSyncAndCutover",
 					"actions": []
 				}
 			]

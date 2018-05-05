@@ -48,11 +48,7 @@
 					"actions":[]
 				},
 				{
-					"filelocation": "DB2ToSqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
+					"filelocation": "DB2ToSqlDataSyncAndCutover",
 					"actions": []
 				}
 			]
