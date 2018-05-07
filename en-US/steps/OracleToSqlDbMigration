@@ -40,3 +40,4 @@ SSMA is not the only option for migrating data, though. You could also use SQL S
 * [Getting Started with SQL Server Integration Services](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services)
 * [SQL Server Integration Services: SSIS for Azure and Hybrid Data Movement](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/SSIS%20Hybrid%20and%20Azure.docx)
 
+**Note**: If you are interested in participating in a Private preview of a one-time migration for Oracle to Azure SQL Database (or to Azure SQL Database Managed Instance) using the Azure Database Migration Service, submit a nomination [here](https://aka.ms/dms-preview).

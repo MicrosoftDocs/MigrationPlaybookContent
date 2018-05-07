@@ -47,11 +47,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "OracleToSqlDataSync",
-					"actions": []
-				},
-				{
-					"filelocation": "Cutover",
+					"filelocation": "OracleToSqlDataSyncAndCutover",
 					"actions": []
 				}
 			]

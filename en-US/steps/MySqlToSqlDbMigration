@@ -32,3 +32,5 @@ To use SSMA for MySQL to publish the database schema and migrate the data, perfo
     d. Validate the migration by reviewing the data and schema on the Azure SQL Database instance by using SQL Server Management Studio (SSMS).
 
     ![Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/migrationcomplete.png)
+
+**Note**: If you are interested in participating in a Private preview of a one-time migration for MySQL to Azure SQL Database using the Azure Database Migration Service, submit a nomination [here](https://aka.ms/dms-preview).

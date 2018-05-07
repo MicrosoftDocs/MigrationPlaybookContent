@@ -36,4 +36,4 @@ To use DMA to create a migration project, perform the following steps.
 
     b. Review the saved file for details about data and logins migration and verify successful completion of the process.
 
-    
+**Note**: If you are interested in participating in a Private preview of a one-time migration for SQL Server to Azure SQL Database using the Azure Database Migration Service, submit a nomination [here](https://aka.ms/dms-preview).

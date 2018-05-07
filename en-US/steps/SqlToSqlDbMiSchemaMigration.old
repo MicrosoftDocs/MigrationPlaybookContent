@@ -1,3 +1,0 @@
-<!--Migrate schema-->
-
-After assessing your databases, the next step is to execute the schema migration process. With the Azure Database Migration Service, schema migration takes place as part of the broader migration process.
