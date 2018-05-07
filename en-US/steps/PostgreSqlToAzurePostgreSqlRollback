@@ -1,3 +1,0 @@
-<!--Cutover-->
-
-Be sure to prepare a rollback plan should issues be encountered post migration, and ensure that the plan accounts for eventually deprecating the source.
