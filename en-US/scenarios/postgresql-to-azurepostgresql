@@ -73,6 +73,9 @@
 	],
 	"partners": [
 		{
+			"filelocation": "DataSunrise"
+		},
+		{
 			"filelocation": "QuerySurge"
 		}
 	]
