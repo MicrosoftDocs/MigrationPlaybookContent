@@ -86,6 +86,9 @@
 	],
 	"partners": [
 		{
+			"filelocation": "DBBest"
+		},
+		{
 			"filelocation": "QuerySurge"
 		}
 		
