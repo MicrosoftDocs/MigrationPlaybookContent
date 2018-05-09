@@ -2,6 +2,7 @@
 
 Looking for a recommendation about the best target destination for your data?  Consider the options provided in the following table:
 
+{#fenced-id .fenced-class}
 | **IF YOU'RE LOOKING FOR...** | **THEN USE...** |
 |:--- |:--- |
 | A fully managed relational database that provisions quickly, scales on the fly, and includes built-in intelligence and security... | [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/) |
