@@ -56,7 +56,7 @@ Each phase in the database migration process is briefly described in the followi
     </tr>
   </tbody>
 </table>
-<span class='highlight">*</span>Relevant only for selected migration scenarios.
+<span class="highlight">*</span>Relevant only for selected migration scenarios.
 
 For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
 
