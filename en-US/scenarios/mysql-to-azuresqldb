@@ -2,53 +2,35 @@
 	"displayname": "Migrate MySQL to Azure SQL Database",
 	"emailmessage": "Check out the process for migrating from MySQL to Azure SQL Database here:",
 	"description": "Migrating from MySQL to the Azure SQL Database, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-			"items": [
-				{
-					"filelocation": "SqlDbRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
+	"rationale": "SqlDbRationale",
+	"overview": "DbMigrationProcessOverview",
+	"steps": [{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "MySqlToSqlDb-Pre-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "MySqlToSqlDbAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForMySqlDownload"
-						}
-					]
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMAForMySqlDownload"
+					}]
 				}
 			]
 		},
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "MySqlToSqlDbMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForMySqlDownload"
-						}
-					]
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMAForMySqlDownload"
+					}]
 				},
 				{
 					"filelocation": "MySqlToSqlDbDataSyncAndCutover_DmsPreview",
@@ -58,8 +40,7 @@
 		},
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -78,20 +59,17 @@
 			]
 		}
 	],
-	"casestudies": [
-			{
-				"filelocation": "Sumitomo"
-			}
-	],
-	"partners": [
-			{
-				"filelocation": "DBBest"
-			},
-			{
-				"filelocation": "DataSunrise"
-			},
-			{
-				"filelocation": "QuerySurge"
-			}
+	"casestudies": [{
+		"filelocation": "Sumitomo"
+	}],
+	"partners": [{
+			"filelocation": "DBBest"
+		},
+		{
+			"filelocation": "DataSunrise"
+		},
+		{
+			"filelocation": "QuerySurge"
+		}
 	]
 }

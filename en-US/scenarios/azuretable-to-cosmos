@@ -2,32 +2,20 @@
 	"displayname": "Move to Azure Cosmos DB",
 	"emailmessage": "Check out the process for migrating from Azure Table Storage to Azure Cosmos Database:",
 	"description": "No SQL Database",
-	"steps": [
-		{
-			"name": "Why migrate?",
+	"rationale": "AzureRationale",
+	"overview": "Overview",
+	"steps": [{
+		"name": "Migration options to Azure Cosmos DB",
+		"items": [{
+			"filelocation": "AzureTableCosmosMigration",
+			"actions": []
+		}]
+	}],
 
-			"items": [
-				{
-					"filelocation": "CosmosDbRationale",
-					"actions": []
-				}
-			]
-		},
-
-	 	{
-		  	"name": "Migration options to Azure Cosmos DB",
-			"items": [
-				{
-				    "filelocation": "AzureTableCosmosMigration",
-					"actions": []
-				}
-     		]
-		}
-	],
 	"casestudies": [
-		
+
 	],
 	"partners": [
-		
+
 	]
 }

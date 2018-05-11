@@ -2,25 +2,11 @@
 	"displayname": "Migrate MySQL to Azure Database for MySQL",
 	"emailmessage": "Check out the process for migrating from MySQL to Azure Database for MySQL here:",
 	"description": "Azure Database for MySQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-			
-			"items": [
-				{
-					"filelocation": "AzureMySqlRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
+	"rationale": "AzureMySqlRationale",
+	"overview": "DbMigrationProcessOverview",
+	"steps": [{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "MySqlToAzureMySql-Pre-Mig",
 					"actions": []
 				},
@@ -32,8 +18,7 @@
 		},
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
@@ -53,8 +38,7 @@
 		},
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -74,10 +58,9 @@
 		}
 	],
 	"casestudies": [
-			
+
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "DataSunrise"
 		},
 		{

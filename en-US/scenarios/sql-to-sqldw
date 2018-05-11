@@ -2,11 +2,11 @@
 	"displayname": "Migrate SQL Server to SQL Data Warehouse",
 	"emailmessage": "Check out the process for migrating from SQL Server to SQL Data Warehouse here:",
 	"description": "",
-	"steps": [
-		{
+	"rationale": "SqlDwRationale",
+	"overview": "DbMigrationProcessOverview",
+	"steps": [{
 			"name": "Why migrate?",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "SqlDwRationale",
 					"actions": []
 				},
@@ -16,22 +16,18 @@
 				}
 			]
 		},
-				{
+		{
 			"name": "Migration ",
-			"items": [
-				{
-					"filelocation": "SqlToSqlDwMigrate",
-					"actions": []
-				}
-			]
-		}		
+			"items": [{
+				"filelocation": "SqlToSqlDwMigrate",
+				"actions": []
+			}]
+		}
 	],
 	"casestudies": [
 
 	],
-	"partners": [
-		{
-			"filelocation": "DataSunrise"
-		}
-	]
+	"partners": [{
+		"filelocation": "DataSunrise"
+	}]
 }

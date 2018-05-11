@@ -2,54 +2,36 @@
 	"displayname": "Migrate Oracle to Azure SQL Database",
 	"emailmessage": "Check out the process for migrating from Oracle to Azure SQL Database here:",
 	"description": "Azure SQL Database is the industry leading data platform, boasting many unmatched benefits. There is no better time than now to make the transition from Oracle.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-			"items": [
-				{
-					"filelocation": "SqlDbRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
+	"rationale": "SqlDbRationale",
+	"overview": "DbMigrationProcessOverview",
+	"steps": [{
 			"name": "Pre-migration",
 
-			"items": [
-				{
+			"items": [{
 					"filelocation": "OracleToSqlDb-Pre-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "OracleToSqlDbAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMADownload"
-						}
-					]
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMADownload"
+					}]
 				}
 			]
 		},
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "OracleToSqlDbMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMADownload"
-						}
-					]
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMADownload"
+					}]
 				},
 				{
 					"filelocation": "OracleToSqlDbDataSyncAndCutover",
@@ -60,8 +42,7 @@
 		{
 			"name": "Post-migration",
 
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -83,15 +64,14 @@
 	"casestudies": [
 
 	],
-	"partners": [
-			{
-				"filelocation": "DBBest"
-			},
-			{
-				"filelocation": "DataSunrise"
-			},
-			{
-				"filelocation": "QuerySurge"
-			}
+	"partners": [{
+			"filelocation": "DBBest"
+		},
+		{
+			"filelocation": "DataSunrise"
+		},
+		{
+			"filelocation": "QuerySurge"
+		}
 	]
 }

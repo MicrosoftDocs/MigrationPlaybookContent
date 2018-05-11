@@ -2,6 +2,8 @@
 	"displayname": "Move to Azure Cosmos DB",
 	"emailmessage": "Check out the process for migrating from MongoDB to Azure Cosmos Database:",
 	"description": "No SQL Database",
+	"rationale": "CosmosDbRationale",
+	"overview": "Overview",
 	"steps": [
 		{
 			"name": "Why migrate?",

@@ -2,11 +2,11 @@
 	"displayname": "Migrate DB2 to SQL Server",
 	"emailmessage": "Check out the process for migrating from DB2 to SQL Server here:",
 	"description": "Transferring from IBM's DB2 to SQL Server is easier than ever with the SQL system's best-in-class security and connectivity features.",
-	"steps": [
-				{
+	"rationale": "Sql2017Rationale",
+	"overview": "DbMigrationProcessOverview",
+	"steps": [{
 			"name": "Pre-Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Db2ToSql-Pre-Mig",
 					"actions": []
 				},
@@ -23,14 +23,13 @@
 
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "DB2ToSqlMigration",
-					"actions":[]
+					"actions": []
 				},
 				{
 					"filelocation": "DB2ToSqlDataSyncAndCutover",
@@ -41,8 +40,7 @@
 
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -64,9 +62,7 @@
 	"casestudies": [
 
 	],
-	"partners": [
-		{
-			"filelocation": "QuerySurge"
-		}
-	]
+	"partners": [{
+		"filelocation": "QuerySurge"
+	}]
 }

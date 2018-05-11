@@ -2,24 +2,11 @@
 	"displayname": "Migrate MySQL to SQL Server",
 	"emailmessage": "Check out the process for migrating from MySQL to SQL Server here:",
 	"description": "SQL Server is the least vulnerable database in the industry, exhibiting solid, consistent performance. Learn about the benefits of moving from MySQL today.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-			"items": [
-				{
-					"filelocation": "Sql2017Rationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
+	"rationale": "Sql2017Rationale",
+	"overview": "DbMigrationProcessOverview",
+	"steps": [{
 			"name": "Pre-migration ",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "MySqlToSql-Pre-Mig",
 					"actions": []
 				},
@@ -35,8 +22,7 @@
 		},
 		{
 			"name": "Migration ",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
@@ -52,8 +38,7 @@
 		},
 		{
 			"name": "Post-migration ",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -76,10 +61,9 @@
 	"casestudies": [
 
 	],
-	"partners": [
-			{
-				"filelocation": "QuerySurge"
-			}
+	"partners": [{
+			"filelocation": "QuerySurge"
+		}
 
 	]
 }
