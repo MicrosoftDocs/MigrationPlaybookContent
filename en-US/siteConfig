@@ -3,7 +3,7 @@
       "title": "SQL Server",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
       "pages": [{
-          "name": "Azure SQL",
+          "name": "Azure SQL Database",
           "URL": "/scenario/sql-to-azuresqldb"
         },
         {
@@ -28,7 +28,7 @@
       "title": "Oracle",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
       "pages": [{
-          "name": "Azure SQL",
+          "name": "Azure SQL Database",
           "URL": "/scenario/oracle-to-azuresqldb"
         },
         {
@@ -36,7 +36,7 @@
           "URL": "/scenario/oracle-to-sqlserver"
         },
         {
-          "name": "Azure PostgreSQL",
+          "name": "Azure DB for PostgreSQL",
           "URL": "/scenario/oracle-to-azurepostgresql"
         },
         {
@@ -49,7 +49,7 @@
       "title": "DB2",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
       "pages": [{
-          "name": "Azure SQL",
+          "name": "Azure SQL Database",
           "URL": "/scenario/db2-to-azuresqldb"
         },
         {
@@ -62,7 +62,7 @@
       "title": "MySQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
       "pages": [{
-          "name": "Azure SQL",
+          "name": "Azure SQL Database",
           "URL": "/scenario/mysql-to-azuresqldb"
         },
         {
@@ -70,7 +70,7 @@
           "URL": "/scenario/mysql-to-sqlserver"
         },
         {
-          "name": "Azure MySQL",
+          "name": "Azure DB for MySQL",
           "URL": "/scenario/mysql-to-azuremysql"
         }
       ]
@@ -79,7 +79,7 @@
       "title": "PostgreSQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
       "pages": [{
-        "name": "Azure PostgreSQL",
+        "name": "Azure DB for PostgreSQL",
         "URL": "/scenario/postgresql-to-azurepostgresql"
       }]
     },
@@ -87,7 +87,7 @@
       "title": "Mongo",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
       "pages": [{
-        "name": "Cosmos",
+        "name": "Azure Cosmos DB",
         "URL": "/scenario/mongo-to-cosmos"
       }]
     },
@@ -95,7 +95,7 @@
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
       "pages": [{
-          "name": "Azure SQL",
+          "name": "Azure SQL Database",
           "URL": "/scenario/access-to-azuresqldb"
         },
         {
@@ -108,7 +108,7 @@
       "title": "SAP ASE",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
       "pages": [{
-          "name": "Azure SQL",
+          "name": "Azure SQL Database",
           "URL": "/scenario/sybase-to-azuresqldb"
         },
         {
@@ -121,7 +121,7 @@
       "title": "Azure Table Storage",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
       "pages": [{
-        "name": "Cosmos",
+        "name": "Azure Cosmos DB",
         "URL": "/scenario/azuretable-to-cosmos"
       }]
     }
