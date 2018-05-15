@@ -62,7 +62,7 @@
       "title": "MySQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
       "pages": [{
-          "name": "Azure SQL",
+          "name": "Azure SQL Database",
           "URL": "/scenario/mysql-to-azuresqldb"
         },
         {
