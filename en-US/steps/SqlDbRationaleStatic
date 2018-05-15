@@ -1,4 +1,4 @@
-<!--Rationale for migrating-->
+## Rationale for migrating
 
 Azure SQL Database is a relational database service hosted in the Microsoft Cloud that is based on the market-leading Microsoft SQL Server engine. Azure SQL Database is capable of handling mission-critical workloads and delivers predictable performance at multiple service levels, dynamic scalability with no downtime, built-in business continuity, and data protection — all with near-zero administration.
 

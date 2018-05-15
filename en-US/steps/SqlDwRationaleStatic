@@ -1,6 +1,8 @@
-<!--Rationale for migrating-->
+## Rationale for migrating
 
-Deploying SQL Server on Azure Virtual Machines (Azure VMs) combines the industry-leading performance and security, built-in artificial intelligence, and end-to-end mobile business intelligence of SQL Server, with the flexibility, security, and hybrid connectivity of Azure. This enables you to maintain flexibility and control over the database and operating system, whether Windows or Linux, while enabling full compatibility for lift and shift, dev/test, and hybrid business continuity.
+Quickly implement a high-performance, globally available, and secure cloud data warehouse. Azure SQL Data Warehouse lets you independently scale compute and storage, while pausing and resuming your data warehouse within minutes through a massively parallel processing architecture designed for the cloud. Seamlessly create your hub for analytics along with native connectivity with data integration and visualization services, all while using your existing SQL and BI skills.
+SQL Data Warehouse offers guaranteed [99.9 percent availability](https://azure.microsoft.com/en-us/support/legal/sla/sql-data-warehouse/), [regulatory compliance](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings), built-in [advanced security features](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-overview-manage-security), and [data sovereignty across more than 30 regions](https://azure.microsoft.com/en-us/regions/services/) so you can build a data warehouse that meets your business needs. SQL Data Warehouse adapts to your workload using intelligent caching to accelerate data access and query performance to handle the most demanding data warehousing workloads.
+
 When evaluating your rationale for migrating, consider the detail provided in the following sections.
 
 **Industry-leading database**

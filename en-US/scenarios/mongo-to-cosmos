@@ -2,34 +2,19 @@
 	"displayname": "Move to Azure Cosmos DB",
 	"emailmessage": "Check out the process for migrating from MongoDB to Azure Cosmos Database:",
 	"description": "No SQL Database",
-	"rationale": "CosmosDbRationale",
-	"overview": "Overview",
-	"steps": [
-		{
-			"name": "Why migrate?",
-
-			"items": [
-				{
-					"filelocation": "CosmosDbRationale",
-					"actions": []
-				}
-			]
-		},
-
-		{
-			"name": "Migration options to Azure Cosmos DB",
-			"items": [
-				{
-					"filelocation": "MongoCosmosMigration",
-					"actions": []
-				}
-			]
-		}
-	],
+	"rationale": "CosmosDbRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+		"name": "Migration options to Azure Cosmos DB",
+		"items": [{
+			"filelocation": "MongoCosmosMigration",
+			"actions": []
+		}]
+	}],
 	"casestudies": [
-		
+
 	],
 	"partners": [
-		
+
 	]
 }

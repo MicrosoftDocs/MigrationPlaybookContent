@@ -2,8 +2,8 @@
 	"displayname": "Migrate SAP ASE to SQL Server",
 	"emailmessage": "Check out the process for migrating from SAP ASE to SQL Server here:",
 	"description": "SQL Server has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
-	"rationale": "Sql2017Rationale",
-	"overview": "DbMigrationProcessOverview",
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
 			"name": "Pre-migration",
 			"items": [{

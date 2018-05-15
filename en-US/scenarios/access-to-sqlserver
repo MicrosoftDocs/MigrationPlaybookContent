@@ -2,8 +2,8 @@
 	"displayname": "Migrate Access to SQL Server",
 	"emailmessage": "Check out the process for migrating from Access to SQL Server here:",
 	"description": "Migrating from Access to SQL Server could not be simpler because of SQL Server's top tier performance, interconnectivity, consistency, and value.",
-	"rationale": "Sql2017Rationale",
-	"overview": "DbMigrationProcessOverview",
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
 			"name": "Pre-migration",
 			"items": [{
