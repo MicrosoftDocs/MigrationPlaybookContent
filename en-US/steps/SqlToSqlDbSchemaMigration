@@ -16,7 +16,7 @@ To use DMA to create a migration project, perform the following steps.
 
    ![Source Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttosource.png)    
 
-   c. Provide target Azure SQL Database conenction details, select **Connect**, select a specific database in the Azure SQL Database target, and then select **Next**.
+   c. Provide target Azure SQL Database connection details, select **Connect**, select a specific database in the Azure SQL Database target, and then select **Next**.
     
    ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
     
