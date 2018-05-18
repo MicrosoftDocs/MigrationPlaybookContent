@@ -1,4 +1,7 @@
-## Migration process overview Migrations should be approached with the same rigor and processes as a full software or hardware project – a solid methodology is required for success. When planning a database migration project, we recommend that you consider the process shown in the following graphic: ![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess_New.png) Each phase in the database migration process is briefly described in the following table:
+## Migration process overview
+
+Migrations should be approached with the same rigor and processes as a full software or hardware project – a solid methodology is required for success. When planning a database migration project, we recommend that you consider the process shown in the following graphic: ![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess_New.png) Each phase in the database migration process is briefly described in the following table:
+
 <table id='overview' class='overview'>
   <thead>
     <tr>
