@@ -4,22 +4,27 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
       "pages": [{
           "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
           "URL": "/scenario/sql-to-azuresqldb"
         },
         {
           "name": "SQL Server",
+          "longname": "SQL Server",
           "URL": "/scenario/sql-to-sqlserver"
         },
         {
           "name": "Azure SQL Database MI",
+          "longname": "Azure SQL Database Managed Instance",
           "URL": "/scenario/sql-to-azuresqldbmi"
         },
         {
           "name": "SQL Server on Azure VMs",
+          "longname": "SQL Server on Azure VMs",
           "URL": "/scenario/sql-to-sqlvm"
         },
         {
           "name": "SQL Data Warehouse",
+          "longname": "Azure Data Warehouse",
           "URL": "/scenario/sql-to-sqldw"
         }
       ]
@@ -29,18 +34,22 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
       "pages": [{
           "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
           "URL": "/scenario/oracle-to-azuresqldb"
         },
         {
           "name": "SQL Server",
-          "URL": "/scenario/oracle-to-sqlserver"
+           "longname": "SQL Server",
+           "URL": "/scenario/oracle-to-sqlserver"
         },
         {
           "name": "Azure DB for PostgreSQL",
+          "longname": "Azure Database for PostgreSQL",
           "URL": "/scenario/oracle-to-azurepostgresql"
         },
         {
           "name": "SQL Data Warehouse",
+          "longname": "SQL Data Warehouse",
           "URL": "/scenario/oracle-to-sqldw"
         }
       ]
@@ -50,10 +59,12 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
       "pages": [{
           "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
           "URL": "/scenario/db2-to-azuresqldb"
         },
         {
           "name": "SQL Server",
+          "longname": "SQL Server",
           "URL": "/scenario/db2-to-sqlserver"
         }
       ]
@@ -63,14 +74,17 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
       "pages": [{
           "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
           "URL": "/scenario/mysql-to-azuresqldb"
         },
         {
           "name": "SQL Server",
+          "longname": "SQL Server",
           "URL": "/scenario/mysql-to-sqlserver"
         },
         {
           "name": "Azure DB for MySQL",
+          "longname": "Azure Database for MySQL",
           "URL": "/scenario/mysql-to-azuremysql"
         }
       ]
@@ -80,6 +94,7 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
       "pages": [{
         "name": "Azure DB for PostgreSQL",
+        "longname": "Azure Database for PostgreSQL",
         "URL": "/scenario/postgresql-to-azurepostgresql"
       }]
     },
@@ -88,6 +103,7 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
       "pages": [{
         "name": "Azure Cosmos DB",
+        "longname": "Azure Cosmo DB"
         "URL": "/scenario/mongo-to-cosmos"
       }]
     },
@@ -96,10 +112,12 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
       "pages": [{
           "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
           "URL": "/scenario/access-to-azuresqldb"
         },
         {
           "name": "SQL Server",
+          "longname": "SQL Server",
           "URL": "/scenario/access-to-sqlserver"
         }
       ]
@@ -109,10 +127,12 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
       "pages": [{
           "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
           "URL": "/scenario/sybase-to-azuresqldb"
-        },
+        }
         {
           "name": "SQL Server",
+          "longname": "SQL Server",
           "URL": "/scenario/sybase-to-sqlserver"
         }
       ]
@@ -122,6 +142,7 @@
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
       "pages": [{
         "name": "Azure Cosmos DB",
+        "longname": "Azure Cosmos DB",
         "URL": "/scenario/azuretable-to-cosmos"
       }]
     }
