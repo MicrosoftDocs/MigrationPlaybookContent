@@ -1,8 +1,10 @@
 {
-  "menu": [{
+  "menu": [
+    {
       "title": "SQL Server",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
-      "pages": [{
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/sql-to-azuresqldb"
@@ -32,15 +34,16 @@
     {
       "title": "Oracle",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
-      "pages": [{
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/oracle-to-azuresqldb"
         },
         {
           "name": "SQL Server",
-           "longname": "SQL Server",
-           "URL": "/scenario/oracle-to-sqlserver"
+          "longname": "SQL Server",
+          "URL": "/scenario/oracle-to-sqlserver"
         },
         {
           "name": "Azure DB for PostgreSQL",
@@ -57,7 +60,8 @@
     {
       "title": "DB2",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
-      "pages": [{
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/db2-to-azuresqldb"
@@ -72,7 +76,8 @@
     {
       "title": "MySQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
-      "pages": [{
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/mysql-to-azuresqldb"
@@ -92,25 +97,30 @@
     {
       "title": "PostgreSQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
-      "pages": [{
-        "name": "Azure DB for PostgreSQL",
-        "longname": "Azure Database for PostgreSQL",
-        "URL": "/scenario/postgresql-to-azurepostgresql"
-      }]
+      "pages": [
+        {
+          "name": "Azure DB for PostgreSQL",
+          "longname": "Azure Database for PostgreSQL",
+          "URL": "/scenario/postgresql-to-azurepostgresql"
+        }
+      ]
     },
     {
       "title": "Mongo",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
-      "pages": [{
-        "name": "Azure Cosmos DB",
-        "longname": "Azure Cosmo DB"
-        "URL": "/scenario/mongo-to-cosmos"
-      }]
+      "pages": [
+        {
+          "name": "Azure Cosmos DB",
+          "longname": "Azure Cosmo DB",
+          "URL": "/scenario/mongo-to-cosmos"
+        }
+      ]
     },
     {
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
-      "pages": [{
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/access-to-azuresqldb"
@@ -125,11 +135,12 @@
     {
       "title": "SAP ASE",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
-      "pages": [{
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/sybase-to-azuresqldb"
-        }
+        },
         {
           "name": "SQL Server",
           "longname": "SQL Server",
@@ -140,14 +151,17 @@
     {
       "title": "Azure Table Storage",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
-      "pages": [{
-        "name": "Azure Cosmos DB",
-        "longname": "Azure Cosmos DB",
-        "URL": "/scenario/azuretable-to-cosmos"
-      }]
+      "pages": [
+        {
+          "name": "Azure Cosmos DB",
+          "longname": "Azure Cosmos DB",
+          "URL": "/scenario/azuretable-to-cosmos"
+        }
+      ]
     }
   ],
-  "commonChoices": [{
+  "commonChoices": [
+    {
       "text": "SQL Server &rarr; Azure SQL Database",
       "link": "/scenario/sql-to-azuresqldb"
     },
@@ -164,7 +178,8 @@
       "link": "/scenario/db2-to-azuresqldb"
     }
   ],
-  "caseStudies": [{
+  "caseStudies": [
+    {
       "filelocation": "Floatel"
     },
     {
@@ -174,7 +189,8 @@
       "filelocation": "HollandAmerica"
     }
   ],
-  "partners": [{
+  "partners": [
+    {
       "filelocation": "Attunity"
     },
     {
