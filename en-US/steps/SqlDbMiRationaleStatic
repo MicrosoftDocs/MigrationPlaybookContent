@@ -4,7 +4,7 @@ Azure SQL Database Managed Instance (preview) is a new capability of Azure SQL D
 
 There are several benefits associated with migrating your database to Azure SQL Database Managed Instance.
 
-**PaaS benefits**
+### PaaS benefits
 
 * No hardware purchasing and management
 * No management overhead for managing underlying infrastructure
@@ -12,7 +12,7 @@ There are several benefits associated with migrating your database to Azure SQL 
 * Automated patching and version upgrade
 * Integration with other PaaS data services
 
-**Business continuity**
+### Business continuity
 
 * 99.99% uptime SLA
 * Built in high availability
@@ -21,7 +21,7 @@ There are several benefits associated with migrating your database to Azure SQL 
 * User-initiated backups
 * Point in time database restore capability
 
-**Security and compliance**
+### Security and compliance
 
 * Isolated environment (VNet integration, single-tenant service, dedicated compute and storage)
 * Encryption of the data in transit
@@ -30,7 +30,7 @@ There are several benefits associated with migrating your database to Azure SQL 
 * SQL auditing
 * Threat detection
 
-**Management**
+### Management
 
 * Azure Resource Manager API for automating service provisioning and scaling
 * Azure portal functionality for manual service provisioning and scaling
