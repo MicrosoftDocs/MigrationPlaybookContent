@@ -1,3 +1,4 @@
+
 <!--Assess and Convert-->
 
 ### Overview
@@ -10,17 +11,17 @@ By using SQL Server Migration Assistant (SSMA) for Sybase, you can review databa
 
 To use SSMA for Sybase to create an assessment, perform the following steps.
 
-1.Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54256), and then install it.
+1. Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54256), and then install it.
 
-_SSMA is now ready for use._
+    _SSMA is now ready for use._
 
-2.Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for Sybase Assessments, see the article [Assessing Sybase ASE Database Objects for Conversion (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/assessing-sybase-ase-database-objects-for-conversion-sybasetosql).
+2. Assess the source database and discover conversion rate and effort to resolve issues. For more information about SSMA for Sybase Assessments, see the article [Assessing Sybase ASE Database Objects for Conversion (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/assessing-sybase-ase-database-objects-for-conversion-sybasetosql).
 
-_This will generate an Assessment Report which shows the results of the conversion of database objects to Transact-SQL syntax, and can also help you estimate the complexity and cost of your migration projects._
+    _This will generate an Assessment Report which shows the results of the conversion of database objects to Transact-SQL syntax, and can also help you estimate the complexity and cost of your migration projects._
 
-3.Converting Sybase Schemas. For more information about SSMA for Sybase Conversion, see the article [Converting Sybase ASE Database Objects (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/converting-sybase-ase-database-objects-sybasetosql).
+3. Converting Sybase Schemas. For more information about SSMA for Sybase Conversion, see the article [Converting Sybase ASE Database Objects (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/converting-sybase-ase-database-objects-sybasetosql).
 
-_When the schema conversion is complete, you are ready to move on to the Migration phase._
+    _When the schema conversion is complete, you are ready to move on to the Migration phase._
 
 **Note**: For complete step-by-step guidance on installing and using SSMA for Sybase, see the following resources:
 
