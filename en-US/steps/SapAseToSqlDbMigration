@@ -8,13 +8,13 @@ After you have completed assessing your databases and addressing any discrepanci
 
 To use SSMA for Sybase to publish the database schema and migrate the data, perform the following steps.
 
-1.Setting migration options
+1. Setting migration options
 
-_Review the project migration otpions in the Project Settings dialog._
+    _Review the project migration otpions in the Project Settings dialog._
 
-2.Migrate data to SQL Server.
+2. Migrate data to SQL Server.
 
-_After the migration is complete you will be able to view the migration report._
+    _After the migration is complete you will be able to view the migration report._
 
 **Note**: For complete step-by-step guidance on publishing the schema and migrating the data, see the following resource:
 
