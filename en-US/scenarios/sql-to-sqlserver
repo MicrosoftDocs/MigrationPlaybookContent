@@ -1,6 +1,6 @@
 {
-	"displayname": "Migrate SQL Server to SQL Server",
-	"emailmessage": "Check out the process for migrating from SQL Server to SQL Server here:",
+	"displayname": "Upgrade SQL Server to SQL Server",
+	"emailmessage": "Check out the process for upgrading from SQL Server to a newer version of SQL Server here:",
 	"description": "Customers and partners have touted SQL Server 2017 as the best release. SQL Server 2017 is the most secure, dependable, and integrated system in the industry.",
 	"steps": [
 		{
