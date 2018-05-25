@@ -10,8 +10,8 @@
           "URL": "/scenario/sql-to-azuresqldb"
         },
         {
-          "name": "SQL Server (Upgrade)",
-          "longname": "SQL Server On-Premises",
+          "name": "SQL Server (upgrade)",
+          "longname": "SQL Server (on-premises)",
           "URL": "/scenario/sql-to-sqlserver"
         },
         {
