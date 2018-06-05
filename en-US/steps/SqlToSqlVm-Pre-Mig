@@ -15,6 +15,9 @@ SQL Server on Azure VMs supports migration of the following versions of SQL Serv
 * SQL Server 2016
 * SQL Server 2017
 
+### Additional resources
+Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator (Preview)](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
+
 ### Prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites.
@@ -23,4 +26,3 @@ Before beginning your migration project, it is important to address the associat
 * Download and install the latest version of the [Database Experimentation Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54090).
 * Download and install the [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
 * Create an instance of SQL Server on Azure VMs by following the detail in the article [How to provision a Windows SQL Server virtual machine in the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision).
-
