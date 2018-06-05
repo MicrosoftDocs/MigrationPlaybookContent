@@ -16,6 +16,7 @@ SQL Server on Azure VMs supports migration of the following versions of SQL Serv
 * SQL Server 2017
 
 ### Additional resources
+
 Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator (Preview)](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
 
 ### Prerequisites
