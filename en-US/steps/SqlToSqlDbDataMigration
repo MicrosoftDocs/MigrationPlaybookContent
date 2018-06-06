@@ -12,61 +12,95 @@ To use Azure DMS to run a migration project, perform the following steps.
     
     a. Log in to the Azure portal, select **All services**, and then select **Subscriptions**.
     
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/DMSportalselectsubscription.png)  
+    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/portal-select-subscription1.png)  
     
     b. Select the subscription in which you want to create the instance of the Azure DMS, and then select **Resource providers**.
     
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/DMSportalselectresourceprovider.png)  
+    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/portal-select-resource-provider.png)  
     
     c. Search for migration, and then to the right of **Microsoft.DataMigration**, select **Register**.
     
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/DMSportalregisterresourceprovider.png)  
+    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/portal-register-resource-provider.png)  
 
-2. Create an instance of **Azure DMS**
+2. Create an instance of **Azure DMS**.
 
-    a. Log in to the Azure portal, select **New**, and then search for Azure Database Migration Service.
+    a. In the Azure portal, select + **Create a resource**, search for Azure Database Migration Service, and then select **Azure Database Migration Service** from the drop-down list.
     
-    ![New Service Creation](https://mpbdevcontent.azureedge.net/Images/DMSAzurePortal.png)    
+    ![Azure portal](https://mpbdevcontent.azureedge.net/Images/portal-marketplace.png)    
 
-    b. On the **Azure data migration service (preview)** screen, select **Create**.
+    b. On the **Azure data migration service** screen, select **Create**.
 
-    c. Specify a name for the service, the subscription, a virtual network, and the pricing tier.
+    ![New Service Creation](https://mpbdevcontent.azureedge.net/Images/dms-create1.png)
 
-    For more information on costs and pricing tiers, see the [pricing](https://aka.ms/dms-pricing) page.
+    c. On the **Create Migration Service** screen, specify a name for the service, the subscription, and a new or existing resource group.
 
-    d. Select **Create** to create an instance of the service.
+    d. Select an existing virtual network (VNET) or create a new one.
+
+    The VNET provides the Azure Database Migration Service with access to the source SQL Server and the target Azure SQL Database instance.    
     
-3. Create a **migration project**
+    e. Select a pricing tier.
 
-    a.	Select **+ New Migration Project**, specify a name for the project, select **SQL Server** as the source and **Azure SQL Database** as the target, and then select **Create**.to create the project.   
+    For more information on costs and pricing tiers, see the [pricing page](https://aka.ms/dms-pricing).
 
-4. Specify **source details**
+    If you need help in choosing the right Azure Database Migration Service tier, refer to the recommendations in the posting [here](https://go.microsoft.com/fwlink/?linkid=861067).   
 
-    a. On the **Source details** screen, specify the connection details for the source SQL Server 2016 Express edition.
+    ![DMS Settings](https://mpbdevcontent.azureedge.net/Images/dms-settings1.png)
+
+     f. Select **Create** to create an instance of the service.
     
-    ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSoureStep1.png)    
+3. Create a **migration project**.
+
+    a. In the Azure portal, select **All services**, search for Azure Database Migration Service, and then select **Azure Database Migration Services**.
+
+    ![DMS Search](https://mpbdevcontent.azureedge.net/Images/dms-search.png)
+
+    b. On the **Azure Database Migration Services** screen, search for the name of the Azure Database Migration Service instance that you created, and then select the instance.	
+
+    ![DMS Instance Search](https://mpbdevcontent.azureedge.net/Images/dms-instance-search.png)
+
+    c. Select + **New Migration Project**.
+     
+    d. On the **New migration project** screen, specify a name for the project, in the **Source server type** text box, select **SQL Server**, and then in the **Target server type** text box, select **Azure SQL Database**.
+     
+    ![DMS Create Project](https://mpbdevcontent.azureedge.net/Images/dms-create-project1.png)   
+
+    e. Select **Create** to create the project.   
+
+4. Specify **source details**.
+
+    a. On the **Source details** screen, specify the connection details for the source SQL Server instance.
+
+    b. If you have not installed a trusted certificate on your source server, select the **Trust server certificate** check box.
+
+    When a trusted certificate is not installed, SQL Server generates a self-signed certificate when the instance is started. This certificate is used to encrypt the credentials for client connections.
+
+    **Caution**: SL connections that are encyopted using a self-signed certificate do not provide strong security. They are susceptible to man-in-the-middle attacks. You shoudl not rely on SSL using self-signed certificates in a production environment or on servers that are connected to the internet.
+        
+    ![DMS source details](https://mpbdevcontent.azureedge.net/Images/dms-source-details1.png)    
     
     b. Select **Save**, and then select the database for migration. 
     
-    ![Specify source details](https://mpbdevcontent.azureedge.net/Images/DMSSourceStep2.png)    
+    ![Select source database](https://mpbdevcontent.azureedge.net/Images/dms-select-source-db1.png)    
     
-5. Specify **target details**
+5. Specify **target details**.
 
-    a. Select **Save**, and then on the **Target details** screen, specify the connection details for the target, which is the Azure SQL Database to which you deployed the source database schema by using the Data Migration Assistant.
+    a. Select **Save**, and then on the **Target details** screen, specify the connection details for the target Azure SQL Database server to which you deployed the source database schema by using the Data Migration Assistant.
     
-    ![Specify target details](https://mpbdevcontent.azureedge.net/Images/DMSTargetStep1.png) 
+    ![Select target database](https://mpbdevcontent.azureedge.net/Images/dms-select-target1.png) 
     
     b. Select **Save** to save the project.
     
-    c. On the **Migration summary** screen, review and verify the details associated with the migration project, and then select **Save**.
+    c. On the **Project summary** screen, review and verify the details associated with the migration project.
     
-    ![Migration sumamry](https://mpbdevcontent.azureedge.net/Images/DMSSummaryStep.png) 
-    
-6. **Run the migration** activity
+    ![DMS migration sumamry](https://mpbdevcontent.azureedge.net/Images/dms-summary1.png) 
 
-    a. Select the recently saved project, select **+ New Activity**, and then select **Run Data Migration**.
+    d. Select **Save**.
     
-    ![Run Migration](https://mpbdevcontent.azureedge.net/Images/DMSRunMigration.png) 
+6. **Run the migration** activity.
+
+    a. Select the recently saved project, select + **New Activity**, and then select **Run migration**.
+    
+    ![Run migration](https://mpbdevcontent.azureedge.net/Images/dms-new-activity1.png) 
     
     b.	When prompted, enter the credentials for the source and the target servers, and then select **Save**.
     
@@ -74,37 +108,43 @@ To use Azure DMS to run a migration project, perform the following steps.
     
     If the target database contains the same database name as the source database, Azure DMS selects the target database by default.
     
-    ![Map target databases](https://mpbdevcontent.azureedge.net/Images/DMSMapTargetDB.png) 
+    ![Map target databases](https://mpbdevcontent.azureedge.net/Images/dms-map-targets-activity1.png) 
     
-    d. Select **Save**, on the **Select tables** screen, expand the table listing, and then review the list of affected fields.
-    
-    ![Select target tables](https://mpbdevcontent.azureedge.net/Images/DMSTargetSelectTables.png) 
-    
-    e. On the **Migration summary** screen, in the **Activity name** text box, specify a name for the migration activity.
-    
-    On this screen, you can also expand the **Validation Option** screen, which you can use to specify the type of validations you want to perform on your migrated database:
-        
-      **Schema:** DMS validates if the schema on your source and target match. If there is a schema mismatch, the migration report will provide details on which tables/objects have the mismatch.
-    
-      **Data Consistency:** DMS verifies consistency between source and target data tables by comparing checksum values. If there is a data mismatch, the migration report will provide details on which tables/objects have the mismatch.
-    
-      **Query Correctness and Performance:** DMS collects most frequently run ‘SELECT’ queries from your source and run them on your target. We consider this as a good sample of your workload to validate correctness (query pass rate) and performance (execution time). You can see which queries were run and how they performed in the migration report.
-        
-    f. Select **Save**, and then review the summary to ensure that the source and target details match what you previously specified.
-    
-    ![Target summary](https://mpbdevcontent.azureedge.net/Images/DMSTargetSummary.png) 
-    
-    g. Select **Run migration** to start the migration activity.
-    
-7. **Monitor the migration** 
+    d. Select **Save**.
+     
+    e. On the **Select tables** screen, expand the table listing, and then review the list of affected fields.
 
-    a. Select the migration activity to review the status of the activity.
+    Note that the Azure Database Migration Service auto selects all the empty source tables that exist on the target Azure SQL Database instance. If you want to re-migrate tables that already include data, you need to explicitly select the tables on this blade.
     
-    b. Select **Download Report** to view a detailed report of your migration run.   
+    ![DMS configure setting activity](https://mpbdevcontent.azureedge.net/Images/dms-configure-setting-activity1.png) 
     
-    ![Download Report](https://mpbdevcontent.azureedge.net/Images/DMSDownloadReport.png) 
+    f. Select **Save**,
+     
+    g. On the **Migration summary** screen, in the **Activity name** text box, specify a name for the migration activity.
     
-    c. Verify the target Azure SQL Database after the migration is complete.
+    f. Expand the **Validation Option** section to display the **Choose validation option** screen, specific whether to validate the migrated databases for **Schema comparison**, **Data consistency**, and **Query correctness**.
+
+    ![DMS configuration](https://mpbdevcontent.azureedge.net/Images/dms-configuration1.png)
+
+    g. Select **Save**, review the summary to ensure that the source and target details match what you previously specified.
+
+    ![DMS run migration](https://mpbdevcontent.azureedge.net/Images/dms-run-migration1.png) 
+
+    h. Select **Run migration**.
+
+    The migration activity window appears, and the **Status** of the activity is **Pending**.
+
+    ![DMS activity status](https://mpbdevcontent.azureedge.net/Images/dms-activity-status1.png) 
+    
+7. **Monitor the migration**.
+
+    a. On the migration activity screen, select **Refresh** to update the display until the **Status** of the migration shows as **Completed**.
+
+    ![Activity Status Completed](https://mpbdevcontent.azureedge.net/Images/dms-completed-activity1.png)
+
+    b. After the migration completes, select **Download report** to get a report listing the details associated with the migration process.   
+    
+    c. Verify the target database(s) on the target Azure SQL Database server.
     
     
 
