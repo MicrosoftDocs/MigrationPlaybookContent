@@ -34,4 +34,4 @@ There are several benefits associated with migrating your database to Azure SQL 
 
 * Azure Resource Manager API for automating service provisioning and scaling
 * Azure portal functionality for manual service provisioning and scaling
-* Azyre Database Migration Service
+* Azure Database Migration Service
