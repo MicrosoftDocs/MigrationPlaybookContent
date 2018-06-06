@@ -1,34 +1,43 @@
 <!--Migrate schema-->
 
-After assessing your databases, the next step is to execute the schema migration process by using the Data Migration Assistant (DMA).
+AAfter you are comfortable with the assessment and satisfied that the selected database is a viable candidate for migration to Azure SQL Database, use the Data Migration Assistant to migrate the schema to Azure SQL Database.
+
+> [!NOTE]
+> Before you create a migration project in Data Migration Assistant, be sure that you have already provisioned an Azure SQL database as mentioned in the prerequisites.
 
 ### Steps
 
 To use DMA to create a migration project, perform the following steps.
 
-1. Create a **New Migration** project
+1.	In the Data Migration Assistant, select the New (+) icon, and then under **Project type**, select **Migration**.
+2.	Specify a project name, in the **Source server type** text box, select **SQL Server**, and then in the **Target server type** text box, select **Azure SQL Database**.
+3.	Under **Migration Scope**, select **Schema only**.
 
-   a. Click on the New (+) icon, select the **Migration** project type, select **SQL Server** as the source and **Azure SQL Database** as the target, select **Schema only** as the Migration scope, and then select **Create**.
+    After performing the previous steps, the Data Migration Assistant interface should appear as shown in the following graphic:
+    
+    ![Create Data Migration Assistant Project](https://mpbdevcontent.azureedge.net/Images/dma-create-project.png)
 
-   ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
+4.	Select **Create** to create the project.
+5.	In the Data Migration Assistant, specify the source connection details for your SQL Server, select **Connect**, and then select the source database.
 
-   b. Provide source SQL server conenction details, select **Connect**, select the database(s) that you want to assess, and then select **Next**.
+    ![Data Migration Assistant Source Connection Details](https://mpbdevcontent.azureedge.net/Images/dma-source-connect.png)
 
-   ![Source Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttosource.png)    
+6.	Select **Next**, under **Connect to target server**, specify the target connection details for the Azure SQL database, select **Connect**, and then select the database you had pre-provisioned in Azure SQL database.
 
-   c. Provide target Azure SQL Database connection details, select **Connect**, select a specific database in the Azure SQL Database target, and then select **Next**.
-    
-   ![Target Server details](https://mpbdevcontent.azureedge.net/Images/dmaazuredbconnecttotarget.png)    
-    
-   d. Select the source database schema objects that you want to migrate, and then select **Generate SQL Script**.
-    
-   ![Select Database Objects](https://mpbdevcontent.azureedge.net/Images/dmaazuredbgeneratescript.png)    
-    
-   The scripts are generated and can be edited in the text area before deployment.
-   
-   e. When required edits, if any, are complete, select **Deploy schema**.
-    
-   ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dmaazuredbdeployschema.png)  
-    
-   **Note**: Review the right pane for the deployment status. If necessary, update the deployment script(s) for failures and attempt re-deploying the schema.
-    
+    ![Data Migration Assistant Target Connection Details](https://mpbdevcontent.azureedge.net/Images/dma-target-connect.png)
+
+7.	Select **Next** to advance to the **Select objects** screen, on which you can specify the schema objects in the source database that need to be deployed to Azure SQL Database.
+
+    By default, all objects are selected.
+
+    ![Generate SQL Scripts](https://mpbdevcontent.azureedge.net/Images/dma-assessment-source.png)
+
+8.	Select **Generate SQL script** to create the SQL scripts, and then review the scripts for any errors.
+
+    ![Schema Script](https://mpbdevcontent.azureedge.net/Images/dma-schema-script.png)
+
+9.	Select **Deploy schema** to deploy the schema to Azure SQL Database, and then after the schema is deployed, check the target server for any anomalies.
+
+    ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dma-schema-deploy.png)
+
+       **Note**: Review the right pane for the deployment status. If necessary, update the deployment script(s) for failures and attempt re-deploying the schema.
