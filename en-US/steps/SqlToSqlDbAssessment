@@ -30,7 +30,6 @@ To use DMA to create an assessment, perform the following steps.
     For Azure SQL Database, the assessments identify feature parity issues and migration blocking issues.
 
     - The **SQL Server feature parity** category provides a comprehensive set of recommendations, alternative approaches available in Azure, and mitigating steps to help you plan the effort into your migration projects.
-
     - The **Compatibility issues** category identifies partially supported or unsupported features that reflect compatibility issues that might block migrating on-premises SQL Server database(s) to Azure SQL Database. Recommendations are also provided to help you address those issues.
 
 6. Review the assessment results for migration blocking issues and feature parity issues by selecting the specific options.    
