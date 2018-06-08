@@ -7,11 +7,11 @@
 	"steps": [{
 			"name": "Why migrate?",
 			"items": [{
-					"filelocation": "SqlDwRationale",
+					"filelocation": "SqlDwRationaleStatic",
 					"actions": []
 				},
 				{
-					"filelocation": "DbMigrationProcessOverview",
+					"filelocation": "DbMigrationProcessOverviewStatic",
 					"actions": []
 				}
 			]
