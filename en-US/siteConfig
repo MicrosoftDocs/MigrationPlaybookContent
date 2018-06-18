@@ -178,6 +178,24 @@
       "link": "/scenario/db2-to-azuresqldb"
     }
   ],
+  "otherTools": [
+    {
+      "text": "SQL Server Migration Assistant (SSMA)",
+      "link": "https://docs.microsoft.com/sql/ssma/sql-server-migration-assistant"
+    },
+    {
+      "text": "Database Experimentation Assistant (DEA)",
+      "link": "https://blogs.msdn.microsoft.com/datamigration/tag/dea/"
+    },
+    {
+      "text": "Data Migration Assistant (DMA)",
+      "link": "https://docs.microsoft.com/sql/dma/dma-overview"
+    },
+    {
+      "text": "Azure Database Migration Server (DMS)",
+      "link": "https://docs.microsoft.com/azure/dms/dms-overview"
+    }
+  ],
   "caseStudies": [
     {
       "filelocation": "Floatel"
