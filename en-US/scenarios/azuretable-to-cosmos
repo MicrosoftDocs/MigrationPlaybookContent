@@ -30,6 +30,8 @@
 		}
 	],
 	"partners": [
-		
+		{
+			"filelocation": "Infosys"
+		}
 	]
 }

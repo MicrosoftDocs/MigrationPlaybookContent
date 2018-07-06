@@ -32,6 +32,9 @@
 	"partners": [
 		{
 			"filelocation": "DataSunrise"
+		},
+		{
+			"filelocation": "Infosys"
 		}
 	]
 }
