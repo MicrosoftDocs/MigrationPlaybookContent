@@ -94,7 +94,10 @@
 				"filelocation": "QuerySurge"
 			},
 			{
-			"filelocation": "Satalyst"
+				"filelocation": "Satalyst"
+			},
+			{
+				"filelocation": "Infosys"
 			}
 	]
 }
