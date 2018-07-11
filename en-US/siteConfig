@@ -53,7 +53,7 @@
     }
   ],
   "otherTools": [
-        {
+    {
       "text": "Azure Database Migration Service (DMS)",
       "url": "https://docs.microsoft.com/azure/dms/dms-overview"
     },
@@ -68,8 +68,7 @@
     {
       "text": "Database Experimentation Assistant (DEA)",
       "url": "https://blogs.msdn.microsoft.com/datamigration/tag/dea/"
-    },
-    
+    }
   ],
   "caseStudies": [
     {
