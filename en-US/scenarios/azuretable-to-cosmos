@@ -25,9 +25,13 @@
 		}
 	],
 	"casestudies": [
-		
+		{
+			"filelocation": "Vipps"
+		}
 	],
 	"partners": [
-		
+		{
+			"filelocation": "Infosys"
+		}
 	]
 }

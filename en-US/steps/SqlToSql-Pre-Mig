@@ -118,6 +118,10 @@ The following data migration options are discussed:
 *	Log shipping: Log shipping is supported if primary is running SQL Server 2014 and secondary is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes primary, SQL Server 2014 instance becomes secondary and will NOT receive changes from primary.
 *	Bulk load: Tables can be bulk copied from SQL Server 2014 to SQL Server 2016.
 
+### Additional resources
+
+Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator (Preview)](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
+
 ### Prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites.

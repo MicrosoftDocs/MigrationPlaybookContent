@@ -82,6 +82,9 @@
 	"partners": [
 		{
 			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
 		}
 	]
 }
