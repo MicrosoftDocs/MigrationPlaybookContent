@@ -1,138 +1,148 @@
 {
-	"questions":
-	[
-		{
-			"id": "source",
-			"text": "Where is your data stored today?",
-			"options":
-			[
-				"SQL Server",
-				"MySQL",
-				"PostgreSQL",				
-				"Oracle",
-				"DB2",
-				"SAP ASE",
-				"Access",
-				"MongoDB",
-				"Azure Table Storage"
-			],
-			"required": "true"
-		},
-		{
-			"id": "target",
-			"text": "Where do you want to move your data?",
-			"options":
-			[
-				"SQL Server",
-				"Azure SQL Database",
-				"Azure SQL Database MI",
-				"SQL Server on Azure VMs",
-				"SQL Data Warehouse",
-				"Azure DB for MySQL",
-				"Azure DB for PostgreSQL",
-				"Azure Cosmos DB"
-			],
-			"required": "true"
-		},
-		{
-			"id": "goal",
-			"text": "What's the business goal?",
-			"options":
-			[
-				"Data modernization",
-				"Reducing cost",
-				"Migrate to Cloud",
-				"All of the above"
-			],
-			"required": "false"
-		},
-		{
-			"id": "partner",
-			"text": "Do you require Partner support to assist with the migrations?",
-			"options":
-			[
-				"Yes",
-				"No"
-			],
-			"required": "false"
-		}
-	],
-	"caseStudies":
-	[
-		{
-			"filelocation": "Floatel"
-		},
-		{
-			"filelocation": "Infosys"
-		},
-		{
-			"filelocation": "HollandAmerica"
-		},
-		{
-			"filelocation": "Geekwire"
-		},
-		{
-			"filelocation": "Fotable"
-		},
-		{
-			"filelocation": "Vipps"
-		}
-	],
-	"partners":
-	[
-		{
-			"filelocation": "Attunity"
-		},
-		{
-			"filelocation": "Striim"
-		},
-		{
-			"filelocation": "Ispirer"
-		},
-		{
-			"filelocation": "Datometry"
-		},
-		{
-			"filelocation": "Morphis"
-		},
-		{
-			"filelocation": "Corent"
-		},
-		{
-			"filelocation": "Informatica"
-		},
-		{
-			"filelocation": "QuerySurge"
-		},
-		{	
-			"filelocation": "Movere"
-		},
-		{	
-			"filelocation": "Cloudamize"
-		}
-	],
-	"scenarioMap":
-	{
-		"source0_target0" : "sql-to-sqlserver",
-		"source0_target1" : "sql-to-azuresqldb",
-		"source0_target2" : "sql-to-azuresqldbmi",
-		"source0_target3" : "sql-to-sqlvm",
-		"source0_target4" : "sql-to-sqldw",
-		"source1_target0" : "mysql-to-sqlserver",
-		"source1_target1" : "mysql-to-azuresqldb",
-		"source1_target5" : "mysql-to-azuremysql",
-		"source2_target6" : "postgresql-to-azurepostgresql",		
-		"source3_target0" : "oracle-to-sqlserver",
-		"source3_target1" : "oracle-to-azuresqldb",
-		"source3_target6" : "oracle-to-azurepostgresql",
-		"source3_target4" : "oracle-to-sqldw",
-		"source4_target0" : "db2-to-sqlserver",
-		"source4_target1" : "db2-to-azuresqldb",
-		"source5_target0" : "sybase-to-sqlserver",
-		"source5_target1" : "sybase-to-azuresqldb",
-		"source6_target0" : "access-to-sqlserver",
-		"source6_target1" : "access-to-azuresqldb",
-		"source7_target7" : "mongo-to-cosmos",
-		"source8_target7" : "azuretable-to-cosmos"
-	}
+  "questions": [
+    {
+      "id": "source",
+      "text": "Where is your data stored today?",
+      "options": [
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL",
+        "Oracle",
+        "DB2",
+        "SAP ASE",
+        "Access",
+        "MongoDB",
+        "Azure Table Storage"
+      ],
+      "required": "true"
+    },
+    {
+      "id": "target",
+      "text": "Where do you want to move your data?",
+      "options": [
+        "SQL Server",
+        "Azure SQL Database",
+        "Azure SQL Database MI",
+        "SQL Server on Azure VMs",
+        "SQL Data Warehouse",
+        "Azure DB for MySQL",
+        "Azure DB for PostgreSQL",
+        "Azure Cosmos DB"
+      ],
+      "required": "true"
+    },
+    {
+      "id": "goal",
+      "text": "What's the business goal?",
+      "options": [
+        "Data modernization",
+        "Reducing cost",
+        "Migrate to Cloud",
+        "All of the above"
+      ],
+      "required": "false"
+    },
+    {
+      "id": "partner",
+      "text": "Do you require Partner support to assist with the migrations?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "required": "false"
+    }
+  ],
+  "otherTools": [
+    {
+      "text": "Azure Database Migration Service (DMS)",
+      "url": "https://aka.ms/dms"
+    },
+    {
+      "text": "Data Migration Assistant (DMA)",
+      "url": "https://aka.ms/dma"
+    },
+    {
+      "text": "SQL Server Migration Assistant (SSMA)",
+      "url": "https://aka.ms/ssma"
+    },
+    {
+      "text": "Database Experimentation Assistant (DEA)",
+      "url": "https://aka.ms/dea-tool"
+    }
+  ],
+  "caseStudies": [
+    {
+      "filelocation": "Floatel"
+    },
+    {
+      "filelocation": "Infosys"
+    },
+    {
+      "filelocation": "HollandAmerica"
+    },
+    {
+      "filelocation": "Geekwire"
+    },
+    {
+      "filelocation": "Fotable"
+    },
+    {
+      "filelocation": "Vipps"
+    }
+  ],
+  "partners": [
+    {
+      "filelocation": "Attunity"
+    },
+    {
+      "filelocation": "Striim"
+    },
+    {
+      "filelocation": "Ispirer"
+    },
+    {
+      "filelocation": "Datometry"
+    },
+    {
+      "filelocation": "Morphis"
+    },
+    {
+      "filelocation": "Corent"
+    },
+    {
+      "filelocation": "Informatica"
+    },
+    {
+      "filelocation": "QuerySurge"
+    },
+    {
+      "filelocation": "Movere"
+    },
+    {
+      "filelocation": "Cloudamize"
+    }
+  ],
+  "scenarioMap": {
+    "source0_target0": "sql-to-sqlserver",
+    "source0_target1": "sql-to-azuresqldb",
+    "source0_target2": "sql-to-azuresqldbmi",
+    "source0_target3": "sql-to-sqlvm",
+    "source0_target4": "sql-to-sqldw",
+    "source1_target0": "mysql-to-sqlserver",
+    "source1_target1": "mysql-to-azuresqldb",
+    "source1_target5": "mysql-to-azuremysql",
+    "source2_target6": "postgresql-to-azurepostgresql",
+    "source3_target0": "oracle-to-sqlserver",
+    "source3_target1": "oracle-to-azuresqldb",
+    "source3_target6": "oracle-to-azurepostgresql",
+    "source3_target4": "oracle-to-sqldw",
+    "source4_target0": "db2-to-sqlserver",
+    "source4_target1": "db2-to-azuresqldb",
+    "source5_target0": "sybase-to-sqlserver",
+    "source5_target1": "sybase-to-azuresqldb",
+    "source6_target0": "access-to-sqlserver",
+    "source6_target1": "access-to-azuresqldb",
+    "source7_target7": "mongo-to-cosmos",
+    "source8_target7": "azuretable-to-cosmos"
+  }
 }
