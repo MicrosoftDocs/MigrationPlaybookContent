@@ -55,19 +55,19 @@
   "otherTools": [
     {
       "text": "Azure Database Migration Service (DMS)",
-      "url": "https:/aka.ms/dms"
+      "url": "https://aka.ms/dms"
     },
     {
       "text": "Data Migration Assistant (DMA)",
-      "url": "https:/aka.ms/dma"
+      "url": "https://aka.ms/dma"
     },
     {
       "text": "SQL Server Migration Assistant (SSMA)",
-      "url": "https:/aka.ms/ssma"
+      "url": "https://aka.ms/ssma"
     },
     {
       "text": "Database Experimentation Assistant (DEA)",
-      "url": "https:/aka.ms/dea-tool"
+      "url": "https://aka.ms/dea-tool"
     }
   ],
   "caseStudies": [
