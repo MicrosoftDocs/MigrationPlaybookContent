@@ -41,7 +41,6 @@
 		},
 		{
 			"name": "Post-migration",
-
 			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
@@ -72,6 +71,9 @@
 		},
 		{
 			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
 		}
 	]
 }

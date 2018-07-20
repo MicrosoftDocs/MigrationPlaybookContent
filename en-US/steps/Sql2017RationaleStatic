@@ -39,17 +39,17 @@ SQL Server 2017 offers the best performance and security features, and they are 
 including Windows, Linux, and Azure Container Instances. High-performance features bring record-breaking speed to data-driven applications.
 These features include:
 
-* Columnstore, which provides column-based data storage and processing to achieve up to 10 times the query
+- Columnstore, which provides column-based data storage and processing to achieve up to 10 times the query
   performance and data compression of row-based storage.
-* In-memory OLTP, which brings transaction processing to memory-optimized tables at more than 2.5 times the speed of disk-based tables.
+- In-memory OLTP, which brings transaction processing to memory-optimized tables at more than 2.5 times the speed of disk-based tables.
 
 Security features provide server-side security measures that vastly simplify the process of keeping data safe from unauthorized access without the need to modify existing client applications. These features include:
 
-* Auditing, which enables teams to monitor access and track potentially suspicious activity.
-* Transparent Data Encryption, which protects data at rest at a file level.
-* Row-Level Security, which enables developers to implement fine-grained access control over rows in a database table.
-* Dynamic Data Masking, which enables customers to designate how much of the sensitive data to reveal with minimal impact on the application layer.
-* Always Encrypted, which secures data in motion and at rest.
+- Auditing, which enables teams to monitor access and track potentially suspicious activity.
+- Transparent Data Encryption, which protects data at rest at a file level.
+- Row-Level Security, which enables developers to implement fine-grained access control over rows in a database table.
+- Dynamic Data Masking, which enables customers to designate how much of the sensitive data to reveal with minimal impact on the application layer.
+- Always Encrypted, which secures data in motion and at rest.
 
 With these capabilities available on all editions of SQL Server, organizations can choose their deployment environment by operational need rather than desired features.
 

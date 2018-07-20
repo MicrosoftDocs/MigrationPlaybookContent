@@ -1,70 +1,68 @@
 {
-  "displayname": "Migrate DB2 to SQL Server",
-  "emailmessage": "Check out the process for migrating from DB2 to SQL Server here:",
-  "description": "Transferring from IBM's DB2 to SQL Server is easier than ever with the SQL system's best-in-class security and connectivity features.",
-  "rationale": "Sql2017RationaleStatic",
-  "overview": "DbMigrationProcessOverviewStatic",
-  "steps": [
-    {
-      "name": "Pre-Migration",
-      "items": [
-        {
-          "filelocation": "Db2ToSql-Pre-Mig",
-          "actions": []
-        },
-        {
-          "filelocation": "DB2ToSqlDiscover",
-          "actions": []
-        },
-        {
-          "filelocation": "DB2ToSqlAssessment",
-          "actions": []
-        }
-      ]
-    },
-    {
-      "name": "Migration",
-      "items": [
-        {
-          "filelocation": "Template-Mig",
-          "actions": []
-        },
-        {
-          "filelocation": "DB2ToSqlMigration",
-          "actions": []
-        },
-        {
-          "filelocation": "Db2ToSqlDataSyncAndCutover",
-          "actions": []
-        }
-      ]
-    },
-    {
-      "name": "Post-migration",
-      "items": [
-        {
-          "filelocation": "Template-Post-Mig",
-          "actions": []
-        },
-        {
-          "filelocation": "RemediateApps",
-          "actions": []
-        },
-        {
-          "filelocation": "PerformTests",
-          "actions": []
-        },
-        {
-          "filelocation": "SqlOptimization",
-          "actions": []
-        }
-      ]
-    }
-  ],
-  "casestudies": [],
-  "partners": [
-    {
-      "filelocation": "QuerySurge"
-    }
-  ]
+	"displayname": "Migrate DB2 to SQL Server",
+	"emailmessage": "Check out the process for migrating from DB2 to SQL Server here:",
+	"description": "Transferring from IBM's DB2 to SQL Server is easier than ever with the SQL system's best-in-class security and connectivity features.",
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Pre-Migration",
+			"items": [{
+					"filelocation": "Db2ToSql-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "DB2ToSqlDiscover",
+					"actions": []
+				},
+				{
+					"filelocation": "DB2ToSqlAssessment",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "DB2ToSqlMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "Db2ToSqlDataSyncAndCutover",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlOptimization",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [],
+	"partners": [{
+			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
+		}
+	]
 }

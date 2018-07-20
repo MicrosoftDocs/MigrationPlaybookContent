@@ -12,10 +12,11 @@
 		}]
 	}],
 
-	"casestudies": [
 
-	],
-	"partners": [
-
-	]
+	"casestudies": [{
+		"filelocation": "Vipps"
+	}],
+	"partners": [{
+		"filelocation": "Infosys"
+	}]
 }

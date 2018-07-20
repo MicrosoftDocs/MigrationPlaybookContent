@@ -6,38 +6,32 @@ When the data sources have been identified, the next step is to assess on-premis
 
 To use DMA to create an assessment, perform the following steps.
 
-1. **Download [DMA](https://www.microsoft.com/en-us/download/details.aspx?id=53595)**, and then install it.
+1. In DMA, select the New (+) icon, select the **Assessment** project type.
+    
+2. Specify a project name, in the **Source server type** text box, select **SQL Server**, in the **Target server type** text box, select **Azure SQL Database**, and then select **Create** to create the project.
+    
+    When you are assessing the source SQL Server database migrating to Azure SQL Database, you can choose one or both of the following assessment report types:    
 
-2. Create a **New Assessment** project.
+    - Check database compatibility
+    - Check feature parity
 
-    a. Select the New (+) icon, select the **Assessment** project type, specify a project name, select **SQL Server** as the source and **Azure SQL Database** as the target, and then select **Create**.
+    Both report types are selected by default.
     
-    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/dmanewproject_Azure_SQL_DB.png)    
-     
-    b. Select one or both of the assessment report types (**Check database compatibility** and **Check feature parity**), and then select **Next**.
+3. In the Database Migration Assistant, on the **Options** screen, select **Next**.
     
-    ![Report Types](https://mpbdevcontent.azureedge.net/Images/dmareportoptions_Azure_SQL_DB.png)   
+4. On the **Select sources** screen, in the **Connect to a server** dialog box , specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**. 
     
-    c. In the **Connect to a server** fly-out, specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**. 
-    
-    ![Connect to source](https://mpbdevcontent.azureedge.net/Images/dmaconnecttosource_Azure_SQL_DB.png)
-     
-    d. In the **Add sources** fly-out, select the database(s) that you want to assess, and then select **Add**.           
-    
-    ![Add databases](https://mpbdevcontent.azureedge.net/Images/dmaadddb_Azure_SQL_DB.png)   
-        
-    e. Select **Start Assessment**.
-    
-    Now wait for the assessment results; the duration of the assessment depends on the number of databases added and the schema size of each database. Results will be displayed per database as soon as they are available.
-         
-    f. Select the database that has completed assessment, and then select **Compatibility issues** to review incompatible objects categorized under **Migration blockers**, **Behavior changes**, and **Deprecated features**.
-    
-    ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmacompatissues.png)  
-    
-    g. Select **SQL Server feature parity** to review the **Unspported features** or **Partially supported features** in Azure SQL Database.
-    
-    ![Assessment Compatibility Issues](https://mpbdevcontent.azureedge.net/Images/dmafeatureparity.png)  
-    
-3. **Review Assessment Results**
+5. In the **Add sources** dialog box, select the database(s) that you want to assess, select **Add**, and then select **Start Assessment**.
 
-    a. After all database assessments are complete, select **Export report** to export the results to either JSON or CSV file for analyzing the data at your own convenience.
+    When the assessment is complete, the results display as shown in the following graphic:
+
+    ![Assess data migration](https://mpbdevcontent.azureedge.net/Images/dma-assessments.png)
+
+    For Azure SQL Database, the assessments identify feature parity issues and migration blocking issues.
+
+    - The **SQL Server feature parity** category provides a comprehensive set of recommendations, alternative approaches available in Azure, and mitigating steps to help you plan the effort into your migration projects.
+    - The **Compatibility issues** category identifies partially supported or unsupported features that reflect compatibility issues that might block migrating on-premises SQL Server database(s) to Azure SQL Database. Recommendations are also provided to help you address those issues.
+
+6. Review the assessment results for migration blocking issues and feature parity issues by selecting the specific options.    
+    
+    You can also select **Export report** to export the results to either JSON or CSV file for analyzing the data at your own convenience.

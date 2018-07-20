@@ -27,7 +27,7 @@
 	"casestudies": [
 
 	],
-	"partners": [
-
-	]
+	"partners": [{
+		"filelocation": "Infosys"
+	}]
 }

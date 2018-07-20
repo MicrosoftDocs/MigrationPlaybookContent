@@ -61,6 +61,21 @@
 		},
 		{
 			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Satalyst"
+		},
+		{
+			"filelocation": "SNP_Tech"
+		},
+		{
+			"filelocation": "Pragmatic_Works"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "credativ"
 		}
 	]
 }

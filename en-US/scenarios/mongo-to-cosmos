@@ -1,7 +1,7 @@
 {
 	"displayname": "Move to Azure Cosmos DB",
 	"emailmessage": "Check out the process for migrating from MongoDB to Azure Cosmos Database:",
-	"description": "No SQL Database",
+	"description": "NoSQL Database",
 	"rationale": "CosmosDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
@@ -11,10 +11,10 @@
 			"actions": []
 		}]
 	}],
-	"casestudies": [
-
-	],
-	"partners": [
-
-	]
+	"casestudies": [{
+		"filelocation": "Vipps"
+	}],
+	"partners": [{
+		"filelocation": "Infosys"
+	}]
 }

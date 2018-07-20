@@ -59,12 +59,17 @@
 			]
 		}
 	],
-	"casestudies": [],
+	"casestudies": [
+
+	],
 	"partners": [{
 			"filelocation": "DBBest"
 		},
 		{
 			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
 		}
 	]
 }

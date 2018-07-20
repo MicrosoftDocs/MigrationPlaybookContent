@@ -16,7 +16,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Migration",
 			"items": [{
@@ -65,6 +64,9 @@
 		},
 		{
 			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
 		}
 	]
 }

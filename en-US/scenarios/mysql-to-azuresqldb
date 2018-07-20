@@ -70,6 +70,12 @@
 		},
 		{
 			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Satalyst"
+		},
+		{
+			"filelocation": "Infosys"
 		}
 	]
 }
