@@ -2,11 +2,9 @@
 	"displayname": "Migrate PostgreSQL to Azure Database for PostgreSQL",
 	"emailmessage": "Check out the process for migrating from PostgreSQL to Azure Database for PostgreSQL here:",
 	"description": "Azure Database for PostgreSQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
-	"steps": [
-		{
+	"steps": [{
 			"name": "Why migrate?",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "AzurePostgreSqlRationale",
 					"actions": []
 				},
@@ -18,8 +16,7 @@
 		},
 		{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "PostgreSqlToAzurePostgreSql-Pre-Mig",
 					"actions": []
 				},
@@ -31,8 +28,7 @@
 		},
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
@@ -48,8 +44,7 @@
 		},
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -69,10 +64,9 @@
 		}
 	],
 	"casestudies": [
-			
+
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "DataSunrise"
 		},
 		{
@@ -95,4 +89,3 @@
 		}
 	]
 }
-

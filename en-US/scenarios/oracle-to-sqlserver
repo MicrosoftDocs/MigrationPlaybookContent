@@ -2,11 +2,9 @@
 	"displayname": "Migrate Oracle to SQL Server",
 	"emailmessage": "Check out the process for migrating from Oracle to SQL Server here:",
 	"description": "For clients currently using Oracle, there is no better time to migrate to SQL Server, the industry leading data platform for customers and partners alike.",
-	"steps": [
-		{
+	"steps": [{
 			"name": "Why migrate?",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Sql2017Rationale",
 					"actions": []
 				},
@@ -19,8 +17,7 @@
 
 		{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "OracleToSql-Pre-Mig",
 					"actions": []
 				},
@@ -37,8 +34,7 @@
 
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
@@ -55,8 +51,7 @@
 
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -75,8 +70,7 @@
 			]
 		}
 	],
-	"casestudies": [
-		{
+	"casestudies": [{
 			"filelocation": "Sumitomo"
 		},
 		{
@@ -86,8 +80,7 @@
 			"filelocation": "PTC"
 		}
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "Fujitsu"
 		},
 		{

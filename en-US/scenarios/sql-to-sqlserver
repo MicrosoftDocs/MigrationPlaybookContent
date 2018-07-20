@@ -2,12 +2,10 @@
 	"displayname": "Upgrade SQL Server to SQL Server",
 	"emailmessage": "Check out the process for upgrading from SQL Server to a newer version of SQL Server here:",
 	"description": "Customers and partners have touted SQL Server 2017 as the best release. SQL Server 2017 is the most secure, dependable, and integrated system in the industry.",
-	"steps": [
-		{
+	"steps": [{
 			"name": "Why migrate?",
 
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Sql2017Rationale",
 					"actions": []
 				},
@@ -28,8 +26,7 @@
 
 		{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "SqlToSql-Pre-Mig",
 					"actions": []
 				},
@@ -44,14 +41,13 @@
 				{
 					"filelocation": "NoConvert",
 					"actions": []
-				},
+				}
 			]
 		},
 
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
@@ -68,8 +64,7 @@
 
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -88,8 +83,7 @@
 			]
 		}
 	],
-	"casestudies": [
-		{
+	"casestudies": [{
 			"filelocation": "Convergent"
 		},
 		{
@@ -99,8 +93,7 @@
 			"filelocation": "SBI"
 		}
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "Fujitsu"
 		},
 		{
