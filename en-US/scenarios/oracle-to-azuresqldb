@@ -2,20 +2,11 @@
 	"displayname": "Migrate Oracle to Azure SQL Database",
 	"emailmessage": "Check out the process for migrating from Oracle to Azure SQL Database here:",
 	"description": "Azure SQL Database is the industry leading data platform, boasting many unmatched benefits. There is no better time than now to make the transition from Oracle.",
+	"rationale": "SqlDbRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Why migrate?",
-			"items": [{
-					"filelocation": "SqlDbRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
 			"name": "Pre-migration",
+
 			"items": [{
 					"filelocation": "OracleToSqlDb-Pre-Mig",
 					"actions": []

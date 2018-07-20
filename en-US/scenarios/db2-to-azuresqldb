@@ -2,19 +2,9 @@
 	"displayname": "Migrate DB2 to Azure SQL Database",
 	"emailmessage": "Check out the process for migrating from DB2 to Azure SQL Database here:",
 	"description": "Azure's SQL Database system boasts unparalleled interconnectivity, scalability, and utilization. Learn more about our migration process from DB2 here.",
+	"rationale": "SqlDbRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Why migrate?",
-			"items": [{
-					"filelocation": "SqlDbRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "Db2ToSqlDb-Pre-Mig",

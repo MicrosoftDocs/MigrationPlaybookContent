@@ -2,14 +2,16 @@
 	"displayname": "Migrate Oracle to SQL Data Warehouse",
 	"emailmessage": "Check out the process for migrating from Oracle to SQL Data Warehouse here:",
 	"description": "",
+	"rationale": "SqlDwRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
 			"name": "Why migrate?",
 			"items": [{
-					"filelocation": "SqlDwRationale",
+					"filelocation": "SqlDwRationaleStatic",
 					"actions": []
 				},
 				{
-					"filelocation": "DbMigrationProcessOverview",
+					"filelocation": "DbMigrationProcessOverviewStatic",
 					"actions": []
 				}
 			]

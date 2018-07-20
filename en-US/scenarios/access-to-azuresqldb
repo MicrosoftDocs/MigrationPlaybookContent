@@ -2,23 +2,10 @@
 	"displayname": "Migrate Access to Azure SQL Database",
 	"emailmessage": "Check out the process for migrating from Access to Azure SQL Database here:",
 	"description": "The Azure SQL Database is capable of handling mission-critical workloads predictably and efficiently, aiding the transition process from other databases, like Access.",
+	"rationale": "SqlDbRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Why migrate?",
-
-			"items": [{
-					"filelocation": "SqlDbRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-
-		{
 			"name": "Pre-migration",
-
 			"items": [{
 					"filelocation": "AccessToSqlDb-Pre-Mig",
 					"actions": []
@@ -29,7 +16,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Migration",
 			"items": [{

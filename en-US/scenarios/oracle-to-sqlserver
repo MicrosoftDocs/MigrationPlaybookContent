@@ -2,20 +2,9 @@
 	"displayname": "Migrate Oracle to SQL Server",
 	"emailmessage": "Check out the process for migrating from Oracle to SQL Server here:",
 	"description": "For clients currently using Oracle, there is no better time to migrate to SQL Server, the industry leading data platform for customers and partners alike.",
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Why migrate?",
-			"items": [{
-					"filelocation": "Sql2017Rationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-
-		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "OracleToSql-Pre-Mig",

@@ -2,6 +2,8 @@
 	"displayname": "Migrate Oracle to Azure PostgreSQL",
 	"emailmessage": "Check out the process for migrating from Oracle to Azure PostgreSQL here:",
 	"description": "",
+	"rationale": "AzurePostgreSqlRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
 		"name": "Attunity Replicate for Microsoft Migrations",
 		"items": [{

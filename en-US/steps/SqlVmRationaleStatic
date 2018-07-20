@@ -1,9 +1,9 @@
-<!--Rationale for migrating-->
+## Rationale for migrating
 
 Deploying SQL Server on Azure Virtual Machines (Azure VMs) combines the industry-leading performance and security, built-in artificial intelligence, and end-to-end mobile business intelligence of SQL Server, with the flexibility, security, and hybrid connectivity of Azure. This enables you to maintain flexibility and control over the database and operating system, whether Windows or Linux, while enabling full compatibility for lift and shift, dev/test, and hybrid business continuity.
 When evaluating your rationale for migrating, consider the detail provided in the following sections.
 
-**Industry-leading database**
+### Industry-leading database
 
 Leverage the industry leading SQL Server on Azure VMs for all your workloads with the flexibility of pay-as-you go pricing for new workloads and bring-your-own licensing for existing workloads.
 
@@ -14,7 +14,7 @@ Leverage the industry leading SQL Server on Azure VMs for all your workloads wit
 * AHB for SQL Server licensing: move SQL Server cores from on-premises to the cloud with SA.
 * Security: [Azure has more certifications, e.g. FedRAMP, FERPA, SOC1-3, than any other cloud provider](https://azure.microsoft.com/en-us/overview/trusted-cloud/).
 
-**Full compatibility for easy move to the cloud**
+### Full compatibility for easy move to the cloud
 
 Benefit from the fastest, most friction-free path for rehosting on-premises production and dev/test workloads from on-premises to the cloud.
 
@@ -24,7 +24,7 @@ Benefit from the fastest, most friction-free path for rehosting on-premises prod
 * Choice of SQL Server version: 2008 R2, 2012, 2014, 2016, 2017 in your choice of available operating systems (OSs).
 * Extend your current application development infrastructure to Azure to reduce overhead and speed time to market.
 
-**Maintain full flexibility and control**
+### Maintain full flexibility and control
 
 Full flexibility to select, configure, and manage your OS and database version, with full support from Microsoft and OS vendors
 
@@ -34,7 +34,7 @@ Full flexibility to select, configure, and manage your OS and database version, 
 * Integrated support with all OS vendors, including co-located Red Hat engineers.
 * Widest range of Editions: use any edition of SQL Server, including Developer Edition.
 
-**Easily enable hybrid business continuity**
+### Easily enable hybrid business continuity
 
 Enable hybrid business continuity by leveraging the cloud for backup and disaster recovery of on-premises databases.
 
