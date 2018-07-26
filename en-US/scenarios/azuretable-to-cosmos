@@ -18,5 +18,8 @@
 	}],
 	"partners": [{
 		"filelocation": "Infosys"
+	},
+	{
+		"filelocation": "rhipe"
 	}]
 }

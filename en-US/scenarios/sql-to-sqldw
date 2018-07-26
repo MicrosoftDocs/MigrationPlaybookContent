@@ -32,6 +32,9 @@
 		},
 		{
 			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "rhipe"
 		}
 	]
 }
