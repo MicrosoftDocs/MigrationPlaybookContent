@@ -5,18 +5,6 @@
 	"rationale": "Sql2017RationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Why migrate?",
-			"items": [{
-					"filelocation": "Sql2017Rationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
 			"name": "Pre-migration ",
 			"items": [{
 					"filelocation": "MySqlToSql-Pre-Mig",
