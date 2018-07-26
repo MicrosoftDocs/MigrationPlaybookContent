@@ -76,6 +76,9 @@
 		},
 		{
 			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "rhipe"
 		}
 	]
 }
