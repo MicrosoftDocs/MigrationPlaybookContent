@@ -25,7 +25,7 @@ Each phase in the database migration process is briefly described in the followi
       <td>Assess workloads and fix recommendations.</td>
     </tr>
     <tr>
-      <td>Convert<span class="highlight">*</span></td>
+      <td>Convert<span class="highlight" aria-describedby="migration-footnote">*</span></td>
       <td>For heterogeneous migrations, convert the source schema to work in the target environment.</td>
     </tr>
     <tr>
@@ -34,11 +34,11 @@ Each phase in the database migration process is briefly described in the followi
       <td>Migrate the source schema, and then migrate the source data to the target.</td>
     </tr>
     <tr>
-      <td class="x-hidden-focus">Sync data<span class="highlight">*</span></td>
+      <td class="x-hidden-focus">Sync data<span class="highlight" aria-describedby="migration-footnote">*</span></td>
       <td>For minimal downtime migrations, sync your target schema and data with the source.</td>
     </tr>
     <tr>
-      <td>Cutover<span class="highlight">*</span></td>
+      <td>Cutover<span class="highlight" aria-describedby="migration-footnote">*</span></td>
       <td>For minimal downtime migrations, cut over from the source to the target environment.</td>
     </tr>
     <tr>
@@ -56,8 +56,9 @@ Each phase in the database migration process is briefly described in the followi
     </tr>
   </tbody>
 </table>
-<span class="highlight">*</span>Relevant only for selected migration scenarios.
-
+<span id="migration-footnote">
+  <span class="highlight">*</span>Relevant only for selected migration scenarios.
+</span>
 For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
 
 For comprehensive details on upgrading SQL Server, see the topic [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server).
