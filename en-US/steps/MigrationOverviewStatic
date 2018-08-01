@@ -7,6 +7,7 @@ Migrations should be approached with the same rigor and processes as a full soft
 Each phase in the database migration process is briefly described in the following table:
 
 <table id='overview' class='overview'>
+  <caption>Overview of Database Migration by Phase</caption>
   <thead>
     <tr>
       <th class="x-hidden-focus"><strong>Stage</strong></th>
