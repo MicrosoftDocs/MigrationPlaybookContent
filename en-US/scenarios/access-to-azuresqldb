@@ -80,6 +80,9 @@
 		},
 		{
 			"filelocation": "rhipe"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		}
 	]
 }
