@@ -29,5 +29,9 @@
 	],
 	"partners": [{
 		"filelocation": "Infosys"
-	}]
+		},
+		{
+			"filelocation": "NayaTech"
+		}
+	]
 }
