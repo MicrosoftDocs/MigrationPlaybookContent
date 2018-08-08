@@ -8,7 +8,7 @@ By using the SQL Server Migration Assistant (SSMA) for Oracle, you can review da
 
 To use SSMA for Oracle to create an assessment, perform the following steps.
 
-1. **Download [SSMA(https://www.microsoft.com/en-us/download/details.aspx?id=54258)**, and then install it.
+1. **Download [SSMA](https://www.microsoft.com/en-us/download/details.aspx?id=54258)**, and then install it.
 
 2. Create a new **Assessment project** to discover the conversion rate and effort to resolve any issues.
 
@@ -38,7 +38,7 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
    
    f. From the example above locate the report.xml file from 
    
-   <drive:>\Users\<username>\Documents\SSMAProjects\MyOracleMigration\report\report_2016_11_12T02_47_55\
+   *drive:*\Users\<username>\Documents\SSMAProjects\MyOracleMigration\report\report_2016_11_12T02_47_55\
    
    and then open it in Excel to get an inventory of Oracle objects and the effort required to perform schema conversions.
    
