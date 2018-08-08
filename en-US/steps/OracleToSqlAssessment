@@ -36,7 +36,7 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
    
    You can also access this report from the SSMA projects folder as selected in the first screen.
    
-   f. From the example above locate the report.xml file from 
+   f. From the example above locate the report.xml file from: 
    
    *drive:*\Users\<username>\Documents\SSMAProjects\MyOracleMigration\report\report_2016_11_12T02_47_55\
    
