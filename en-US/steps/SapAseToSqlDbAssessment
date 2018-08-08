@@ -11,7 +11,7 @@ By using SQL Server Migration Assistant (SSMA) for Sybase, you can review databa
 
 To use SSMA for Sybase to create an assessment, perform the following steps.
 
-1. Download SSMA from the Microsoft Download Center [here](https://www.microsoft.com/en-us/download/details.aspx?id=54256), and then install it.
+1. Download **[SSMA for Sybase](https://www.microsoft.com/en-us/download/details.aspx?id=54256)**, and then install it.
 
     _SSMA is now ready for use._
 
@@ -25,6 +25,6 @@ To use SSMA for Sybase to create an assessment, perform the following steps.
 
 **Note**: For complete step-by-step guidance on installing and using SSMA for Sybase, see the following resources:
 
-* [Installing SSMA for Sybase Client (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/installing-ssma-for-sybase-client-sybasetosql)
-* [Installing SSMA Components on SQL Server (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/installing-ssma-components-on-sql-server-sybasetosql)
-* [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/)
+* The article [Installing SSMA for Sybase Client (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/installing-ssma-for-sybase-client-sybasetosql).
+* The article [Installing SSMA Components on SQL Server (SybaseToSQL)](https://docs.microsoft.com/en-us/sql/ssma/sybase/installing-ssma-components-on-sql-server-sybasetosql).
+* The blog posting [SQL Server Migration Assistant: How to assess and migrate data from non-Microsoft data platforms to SQL Server](https://blogs.msdn.microsoft.com/datamigration/2016/11/16/sql-server-migration-assistant-how-to-assess-and-migrate-databases-from-non-microsoft-data-platforms-to-sql-server/).

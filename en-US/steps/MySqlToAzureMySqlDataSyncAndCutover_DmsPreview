@@ -4,4 +4,4 @@ With minimal-downtime migrations, the source you are migrating continues to chan
 
 The Azure Database Migration Service does not yet support minimal-downtime migrations for this scenario, so the **Data sync** and **Cutover** phases are not currently applicable.
 
-**Note**: If you are interested in participating in a Private preview of minimal-downtime functionality for MySQL to Azure Database for MySQL migrations, submit a nomination [here](https://aka.ms/dms-preview).
+**Note**: If you are interested in participating in a Private preview of minimal-downtime functionality for MySQL to Azure Database for MySQL migrations, submit a nomination on teh Azure Database Migration Service [preview page](https://aka.ms/dms-preview).
