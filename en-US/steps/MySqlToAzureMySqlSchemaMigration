@@ -9,7 +9,7 @@ For large databases that need to be online all the time, we recommend using Attu
 **Steps**
 
 To use MySQL Workbench to migrate the database schema, perform the following steps:
-1.	Download MySQL Workbench from [here](https://www.mysql.com/products/workbench/), and then install it.
+1.	Download [MySQL Workbench](https://www.mysql.com/products/workbench/), and then install it.
 
 2.	Start MySQL Workbench, and then enter the source MySQL instance and the target Azure Database for MySQL environment.
  

@@ -24,12 +24,12 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 
 3. Load a database or use this [sample database](http://www.postgresqltutorial.com/load-postgresql-sample-database/).
 
-4. Refer to this [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-dump-and-restore) for backing up the database from on-premise instance 
+4. Refer to the article [Migrate your PostgreSQL database using dump and restore](https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-dump-and-restore) for information about backing up the database from on-premise instance 
    and restoring the backup to Azure Postgres instance.
    
 5. Setup Attunity using the Attunity Installation link above.
 
-6. Install [Postgres 64 bit ODBC driver](https://www.postgresql.org/ftp/odbc/versions/msi/) on the Replicate server machine.
+6. Install the [Postgres 64 bit ODBC driver](https://www.postgresql.org/ftp/odbc/versions/msi/) on the Replicate server machine.
 
 7. Make sure that the PostgreSQL ODBC installation folder "bin" (e.g. "C:\Program Files\psqlODBC\0906\bin") is added to the system PATH environment variable 
    Note: in some cases, the user PATH environment variable need to be set as well.
@@ -41,22 +41,21 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
    ![Attunity console](https://mpbdevcontent.azureedge.net/Images/attunityconsole.png)
    
 10. For connecting the client/Attunity server machine to Azure Postgres, SSL connection need to be enabled in the client. 
-    Follow the instructions in [Azure documentation](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security)
-    here to enable SSL connection.
+    Follow the instructions in the article [Configure SSL connectivity in Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) to enable SSL connection.
     
 11. Decode root certificate in Attunity machine SSL Connection for Azure Postgres.
    
 	a. [SSL certificate for Postgres](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) need to be installed on the Attunity Server.
    
-	b. To run OpenSSL to decode the root certificate downloaded in [here](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine.
+	b. To run OpenSSL to decode the [root certificate](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt), check OS system on the Attunity Machine.
 	
-	* If Attunity machine is Windows 10 Anniversary Update or later, follow to install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
+	* If the computer running Attunity is Windows 10 Anniversary Update or later, follow to install [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
 
-	* If Attunity machine is Windows Server 2016, follow the [Windows Server Installation](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server)
+	* If the computer running Attunity is Windows Server 2016, follow the [Windows Server Installation](https://msdn.microsoft.com/en-us/commandline/wsl/install-on-server)
      
-	c. If Attunity machine is neither Windows 10 or Windows Server 2016, apply the following workaround.
+	c. If the computer running Attunity is neither Windows 10 or Windows Server 2016, apply the following workaround.
             
-	* Copy OpenSSL executable from [scratch2\scratch\Yuchuan\OpenSSL-Win64] to [C:] of Attunity machine.
+	* Copy OpenSSL executable from [scratch2\scratch\Yuchuan\OpenSSL-Win64] to [C:] of computer running Attunity.
 	
 	* [Optional] You can decode BaltimoreCyberTrustRoot.cer again by running this command.
           The root.crt is already in the folder: 
@@ -64,14 +63,14 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
    
 	d. Copy root.crt to AppData folder for local user (_C:\Users\[localuser]\AppData\Roaming\postgresql_) and system profile (_C:\Windows\System32\config\systemprofile\AppData\Roaming\postgresql_).
    
-	e. In Attunity, setup target of PostgreSQL, and in Attunity Internal Parameter settings. Enter additionalConnectionProperties sslmode=verify-ca;pqopt=sslrootcert=[_Specify the certificate path on the Attunity Server_].
+	e. In Attunity, set up the target of PostgreSQL, and in Attunity Internal Parameter settings, enter additionalConnectionProperties sslmode=verify-ca;pqopt=sslrootcert=[_Specify the certificate path on the Attunity Server_].
    
-12. Once SSL is enabled and root.crt is created, note the path.
+12. After SSL is enabled and the root.crt is created, note the path.
 
 13. Create a new "Target" Endpoint connection for Azure Postgres. Same as the On-Prem connection setting above, but need to add extra settings in the Advanced tab: Parameter name: 
     additionalConnectionProperties; Value: sslmode=verify-ca;pqopt=sslrootcert=C:\\SSLCert\\root.crt
 
-14. Once the source and target connections are created, proceed to creating a task for the Sync.
+14. After the source and target connections are created, proceed to creating a task for the Sync.
 
 15. Drag and drop to specify source and target for the task. 
     ![Drag and drop](https://mpbdevcontent.azureedge.net/Images/attunitydragdrop.png)
@@ -81,17 +80,17 @@ Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/at
 17. Use Table Selection to specify the source tables to sync.
     ![Table selection](https://mpbdevcontent.azureedge.net/Images/attunitytableselection.png)
 
-18. Save and Click Run. 
+18. Save and click Run. 
 
 19. Use the Monitor tab on the top right to view the status of the deployed tasks.
 
-20. Once the tasks start running, Check the target database on Azure Postgtres to see if the configured table is created and all the rows copied.
+20. After the tasks start running, Check the target database on Azure Postgtres to see if the configured table is created and all the rows copied.
 
 21. Make changes to the table on the source database (insert/delete/update) and run queries against the target table to see if those changes are reflected.
 
-### Setup Errors and Resolutions
+### Set up Errors and Resolutions
 
-Below are some errors you might encounter with the initial task creation and their resolutions.
+Below are some errors that you might encounter with the initial task creation, together with their resolutions.
 
 _**Error # 1**: RetCode: SQL_ERROR  SqlState: 55000 NativeError: 1 Message: ERROR: replication slots can only be used if max_replication_slots > 0;
 Error while executing the query [1022502]  (ar_odbc_stmt.c:2367)_
