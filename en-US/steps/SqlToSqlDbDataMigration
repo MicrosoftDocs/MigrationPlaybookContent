@@ -145,5 +145,4 @@ To use Azure DMS to run a migration project, perform the following steps.
     b. After the migration completes, select **Download report** to get a report listing the details associated with the migration process.   
     
     c. Verify the target database(s) on the target Azure SQL Database server.
-    
-    
+        
