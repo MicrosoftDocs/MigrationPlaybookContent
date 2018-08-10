@@ -20,7 +20,7 @@ To use Azure DMS to run a migration project, perform the following steps.
     
     c. Search for migration, and then to the right of **Microsoft.DataMigration**, select **Register**.
     
-    ![Register resopurce provider](https://mpbdevcontent.azureedge.net/Images/portal-register-resource-provider.png)  
+    ![Register resource provider](https://mpbdevcontent.azureedge.net/Images/portal-register-resource-provider.png)  
 
 2. Create an instance of **Azure DMS**.
 
