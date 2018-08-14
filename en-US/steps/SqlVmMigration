@@ -18,7 +18,7 @@ To use DMA to create a migration project, perform the following steps.
 
     c. Select databases from the source to migrate, and then specify the **Shared location accessible by source and target SQL servers for backup operation**. 
      
-    Note: Be sure that the service account running the source SQL Server instance has write privileges on the shared location and that the target SQL Server service account has read privileges on the shared location.
+    **Note**: Be sure that the service account running the source SQL Server instance has write privileges on the shared location and that the target SQL Server service account has read privileges on the shared location.
 
     ![Select databases to migrate](https://mpbdevcontent.azureedge.net/Images/dmamigrateadddb.png) 
 
@@ -36,4 +36,4 @@ To use DMA to create a migration project, perform the following steps.
 
     b. Review the saved file for details about data and logins migration and verify successful completion of the process.
 
-**Note**: If you are interested in participating in a Private preview of a one-time migration for SQL Server to Azure SQL Database using the Azure Database Migration Service, submit a nomination [here](https://aka.ms/dms-preview).
+**Note**: If you are interested in participating in a Private preview of a one-time migration for SQL Server to Azure SQL Database using the Azure Database Migration Service, submit a nomination on the Azure Database Migration Service [Preview page](https://aka.ms/dms-preview).

@@ -2,26 +2,11 @@
 	"displayname": "Migrate SQL Server to SQL Server on Azure Virtual Machines",
 	"emailmessage": "Check out the process for migrating from SQL Server to SQL Server on Azure Virtual Machines here:",
 	"description": "Ready to walk away from datacenter management of your SQL Server apps? Spin up a virtual machine, back up your SQL Server instance, and restore it into Azure. It’s that easy to reduce your capital investments and optimize operational expenses by migrating your on-premises SQL Server to the cloud.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-
-			"items": [
-				{
-					"filelocation": "SqlVmRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-
-		{
+	"rationale": "SqlVmRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "SqlToSqlVm-Pre-Mig",
 					"actions": []
 				},
@@ -36,14 +21,13 @@
 				{
 					"filelocation": "NoConvert",
 					"actions": []
-				},
+				}
 			]
 		},
 
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "SqlToSqlVm-Mig",
 					"actions": []
 				},
@@ -60,8 +44,7 @@
 
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -81,10 +64,9 @@
 		}
 	],
 	"casestudies": [
-		
+
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "Fujitsu"
 		},
 		{
@@ -95,6 +77,15 @@
 		},
 		{
 			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "rhipe"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		}
 	]
 }

@@ -25,10 +25,10 @@ After you make the decision to migrate an existing solution to SQL Data Warehous
 A primary goal of planning is to ensure that your data, table schemas, and code are compatible with SQL Data Warehouse. There are some compatibility differences between your current system and SQL Data Warehouse that you will need to work around. In addition, migrating large amounts of data to Azure takes time. Careful planning will speed up the process of getting your data to Azure.
 Another key goal of planning is to adjust your design to ensure that your solution takes full advantage of the high query performance that SQL Data Warehouse is designed to provide. Designing data warehouses for scale introduces unique design patterns, so traditional approaches aren't always the best. While some design adjustments can be made after migration, making changes earlier in the process will save you time later.
 Performing a successful migration required you to migrate your table schemas, code, and data. For more detailed guidance on these topics, see:
-* [Migrate your schemas](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
-* [Migrate your code](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
-* [Migrate your data](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-migrate-data).
+* The article [Migrate your schemas](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
+* The article [Migrate your code](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
+* The article [Migrate your data](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-migrate-data).
 
 ### Additional resources
 
-The CAT (Customer Advisory Team) also has some great SQL Data Warehouse guidance, which they publish through blogs. Be sure to take a look at their article, [Migrating data to Azure SQL Data Warehouse in practice]( https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/), for additional guidance on migration.
+The CAT (Customer Advisory Team) also has some great SQL Data Warehouse guidance, which they publish through blogs. Be sure to take a look at their blog posting, [Migrating data to Azure SQL Data Warehouse in practice](https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/), for additional guidance on migration.

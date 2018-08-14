@@ -2,53 +2,35 @@
 	"displayname": "Migrate SAP ASE to SQL Server",
 	"emailmessage": "Check out the process for migrating from SAP ASE to SQL Server here:",
 	"description": "SQL Server has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-			"items": [
-				{
-					"filelocation": "Sql2017Rationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-		},
-		{
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "SapAseToSql-Pre-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "SapAseToSqlAssessment",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForSybaseDownload"
-						}
-					]
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMAForSybaseDownload"
+					}]
 				}
 			]
 		},
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "SapAseToSqlMigration",
-					"actions": [
-						{
-							"actiontype": "download",
-							"filelocation": "SSMAForSybaseDownload"
-						}
-					]
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMAForSybaseDownload"
+					}]
 				},
 				{
 					"filelocation": "SapAseToSqlDataSyncAndCutover",
@@ -58,8 +40,7 @@
 		},
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -81,8 +62,7 @@
 	"casestudies": [
 
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "DBBest"
 		},
 		{
@@ -90,6 +70,9 @@
 		},
 		{
 			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		}
 	]
 }

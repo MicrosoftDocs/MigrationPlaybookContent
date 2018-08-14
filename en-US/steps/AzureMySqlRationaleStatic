@@ -1,4 +1,4 @@
-<!--Rationale for migrating-->
+## Rationale for migrating
 
 Azure Database for MySQL provides fully managed, enterprise-ready community MySQL database as a service for app development and deployment. Being MySQL community edition, this service allows you to easily lift and shift to the cloud, and use languages and frameworks for your choice. On top of that, you get built-in high availability and capability to scale in seconds, helping you easily adjust to changes in customer demands. Additionally, you benefit from the unparalleled security and compliance, including Azure IP advantage, as well as Azure’s industry leading reach with more datacenters than any other cloud provider. All this with a flexible pricing model so you can choose resources for your workload with no hidden cost. 
 

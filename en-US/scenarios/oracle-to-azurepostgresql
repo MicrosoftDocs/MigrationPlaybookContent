@@ -2,22 +2,19 @@
 	"displayname": "Migrate Oracle to Azure PostgreSQL",
 	"emailmessage": "Check out the process for migrating from Oracle to Azure PostgreSQL here:",
 	"description": "",
-	"steps": [
-		{
-			"name": "Attunity Replicate for Microsoft Migrations",
-			"items": [
-				{
-					"filelocation": "OracleToAzurePostgreSqlMigration",
-					"actions": []
-				}
-			]
-		}
-	],
+	"rationale": "AzurePostgreSqlRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+		"name": "Attunity Replicate for Microsoft Migrations",
+		"items": [{
+			"filelocation": "OracleToAzurePostgreSqlMigration",
+			"actions": []
+		}]
+	}],
 	"casestudies": [
 
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "DataSunrise"
 		},
 		{
@@ -37,7 +34,12 @@
 		},
 		{
 			"filelocation": "credativ"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		}
 	]
 }
-

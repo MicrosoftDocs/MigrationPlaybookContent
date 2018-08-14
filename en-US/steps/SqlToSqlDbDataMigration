@@ -2,7 +2,7 @@
 
 When your schema has been successfully migrated to the target, the next step is to execute the data movement by using the Azure Database Migration Service (Azure DMS).
 
-**Note**: You can also use the Data Migration Assistant (DMA) to migrate databases. However, when using DMA for data migration, you can only move one database at a time. For more information, see [Migrate on-premises SQL Server using Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-migrateonpremsql).
+**Note**: You can also use the Data Migration Assistant (DMA) to migrate databases. However, when using DMA for data migration, you can only move one database at a time. For more information, see the article [Migrate on-premises SQL Server using Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-migrateonpremsql).
  
 ### Steps
 
@@ -12,15 +12,15 @@ To use Azure DMS to run a migration project, perform the following steps.
     
     a. Log in to the Azure portal, select **All services**, and then select **Subscriptions**.
     
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/portal-select-subscription1.png)  
+    ![Subscriptions](https://mpbdevcontent.azureedge.net/Images/portal-select-subscription1.png)  
     
     b. Select the subscription in which you want to create the instance of the Azure DMS, and then select **Resource providers**.
     
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/portal-select-resource-provider.png)  
+    ![Resource providers](https://mpbdevcontent.azureedge.net/Images/portal-select-resource-provider.png)  
     
     c. Search for migration, and then to the right of **Microsoft.DataMigration**, select **Register**.
     
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/portal-register-resource-provider.png)  
+    ![Register resource provider](https://mpbdevcontent.azureedge.net/Images/portal-register-resource-provider.png)  
 
 2. Create an instance of **Azure DMS**.
 
@@ -40,9 +40,9 @@ To use Azure DMS to run a migration project, perform the following steps.
     
     e. Select a pricing tier.
 
-    For more information on costs and pricing tiers, see the [pricing page](https://aka.ms/dms-pricing).
+    For more information on costs and pricing tiers, see the Azure Database Migration Service [pricing page](https://aka.ms/dms-pricing).
 
-    If you need help in choosing the right Azure Database Migration Service tier, refer to the recommendations in the posting [here](https://go.microsoft.com/fwlink/?linkid=861067).   
+    If you need help in choosing the right Azure Database Migration Service tier, refer to the recommendations in the *Choosing an Azure Database Migration Service (Azure DMS) tier* [blog posting](https://go.microsoft.com/fwlink/?linkid=861067).   
 
     ![DMS Settings](https://mpbdevcontent.azureedge.net/Images/dms-settings1.png)
 
@@ -145,17 +145,4 @@ To use Azure DMS to run a migration project, perform the following steps.
     b. After the migration completes, select **Download report** to get a report listing the details associated with the migration process.   
     
     c. Verify the target database(s) on the target Azure SQL Database server.
-    
-    
-
-
-    
-
-    
-    
-
-
-
-
-    
-   
+        

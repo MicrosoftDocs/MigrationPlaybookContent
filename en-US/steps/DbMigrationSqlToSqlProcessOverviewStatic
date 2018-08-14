@@ -1,0 +1,66 @@
+## Migration process overview
+
+Migrations should be approached with the same rigor and processes as a full software or hardware project – a solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
+
+![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess_New.png)
+
+Each phase in the database migration process is briefly described in the following table:
+
+<table>
+  <thead>
+    <tr>
+      <th class="x-hidden-focus"><strong>Stage</strong></th>
+      <th><strong>Phase</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3" class="premigration">Pre-migration</td>
+      <td>Discover</td>
+      <td>Inventory database assets, and application stack discovery.</td>
+    </tr>
+    <tr>
+      <td>Assess</td>
+      <td>Assess workloads and fix recommendations.</td>
+    </tr>
+    <tr>
+      <td>Convert<span class="highlight">*</span></td>
+      <td>For heterogeneous migrations, convert the source schema to work in the target environment.</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="migration">Migration</td>
+      <td>Migrate schema, data, and objects</td>
+      <td>Migrate the source schema, and then migrate the source data to the target.</td>
+    </tr>
+    <tr>
+      <td class="x-hidden-focus">Sync data<span class="highlight">*</span></td>
+      <td>For minimal downtime migrations, sync your target schema and data with the source.</td>
+    </tr>
+    <tr>
+      <td>Cutover<span class="highlight">*</span></td>
+      <td>For minimal downtime migrations, cut over from the source to the target environment.</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="postmigration">Post-migration</td>
+      <td>Remediate applications</td>
+      <td>Iteratively make any necessary changes to your applications.</td>
+    </tr>
+    <tr>
+      <td>Perform Tests</td>
+      <td>Iteratively run functional and performance tests.</td>
+    </tr>
+    <tr>
+      <td>Optimize</td>
+      <td>Based on the tests you performed, address any performance issues, and then retest to confirm the performance improvements.</td>
+    </tr>
+  </tbody>
+</table>
+
+<span class="highlight">*</span>Relevant only for selected migration scenarios.
+
+For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
+
+For comprehensive details on upgrading SQL Server, see the topic [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server).
+
+If you require assistance with your migration, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.

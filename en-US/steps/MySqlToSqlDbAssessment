@@ -4,7 +4,7 @@
 
 To use SSMA for MySQL to create an assessment, perform the following steps.
 
-1. **Download SSMA for MySQL** [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=54257), and then install it.
+1. **Download [SSMA for MySQL](https://www.microsoft.com/en-us/download/confirmation.aspx?id=54257)**, and then install it.
 
 2. **Assess the source database** and discover conversion rate and effort to resolve issues.
 
@@ -27,9 +27,9 @@ To use SSMA for MySQL to create an assessment, perform the following steps.
    ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/assessmentreport.png)
    
    g.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file 
-   from 
+   from:
    
-   <drive:>\Users\<username>\Documents\SSMAProjects\MySQLMigration\report\report_2016_11_12T02_47_55\
+   *drive:*\Users\<username>\Documents\SSMAProjects\MySQLMigration\report\report_2016_11_12T02_47_55\
    
    and open it in Excel to get an inventory of MySQL objects and the effort required to perform schema conversions.
    

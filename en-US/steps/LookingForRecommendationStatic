@@ -1,0 +1,56 @@
+## Easily build applications for any scenario using a comprehensive and integrated data portfolio
+
+Microsoft offers a variety of database products and services that are built to address your specific business needs. In addition, we make it easy and cost-effective to migrate your existing databases to Azure by using the [Azure Database Migration Service](https://azure.microsoft.com/services/database-migration/).
+
+### Microsoft database services
+
+{.recommendation-table}
+| **IF YOU'RE LOOKING FOR...** | **THEN USE…** | **PRODUCT TYPE** |
+|:--- |:--- |:--- |
+| A fully managed relational database that provisions quickly, scales on the fly, and includes built-in intelligence and security… | [Azure SQL Database](https://azure.microsoft.com/services/sql-database/ "Opens the Azure SQL Database marketing page") | Relational database |
+| A fully managed service that provides out-of-the-box support for most SQL Server features and accompanying tools and services as well as native virtual network (VNET) support for an isolated, highly-secure environment to run your applications… | [Azure SQL Database Managed Instance](https://azuremarketplace.microsoft.com/marketplace/apps/Microsoft.SQLManagedInstance "Opens the Azure SQL Database Managed Instance marketplace page") | Relational database |
+| A fully managed service that makes it easy to reduce your capital investments and optimize operational expenses by migrating your on-premises SQL Server to the cloud… | [SQL Server on Virtual Machines](https://azure.microsoft.com/services/virtual-machines/sql-server/ "Opens the SQL Server on Azure VMs marketing page") | Relational database |
+| A fully managed service that allows independent scaling of compute and storage, while pausing and resuming your data warehouse within minutes through a massively parallel processing architecture... | [Azure SQL Data Warehouse](https://azure.microsoft.com/services/sql-data-warehouse/?v=17.44 "Opens the Azure SQL Data Warehouse marketing page") | Data warehouse |
+| A fully managed, scalable MySQL relational database with high availability and security built in at no extra cost… | [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/ "Opens the Azure Database for MySQL marketing page") | Relational database |
+| A fully managed, scalable PostgreSQL relational database with high availability and security built in at no extra cost… | [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/ "Opens the Azure Database for PostgreSQL marketing page") | Relational database |
+| A globally distributed multi-model database, with support for NoSQL choices, with industry-leading performance and SLAs… | [Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/ "Opens the Azure Cosmos DB marketing page") | NoSQL database |
+| An on-premises platform with breakthrough scalability, performance, and availability for mission-critical, intelligent applications and data warehouses... | [SQL Server 2017](https://www.microsoft.com/en-us/sql-server/sql-server-2017 "Opens the SQL Server 2017 marketing page") | Relational database |
+| Help with migrating your databases to the cloud with no application code changes… | [Azure Database Migration Service](https://azure.microsoft.com/services/database-migration/ "Opens the Azure Database Migration Service marketing page") | Database migration |
+
+### Azure database service details
+
+#### [Azure SQL Database](https://azure.microsoft.com/services/sql-database/ "Opens the Azure SQL Database marketing page")
+
+Built for developers, SQL Database is a relational database management system with enterprise-class availability, scalability, and security, and built-in intelligence capable of learning app patterns, that can be accessed from anywhere in the world.
+
+#### [Azure SQL Database Managed Instance](https://azuremarketplace.microsoft.com/marketplace/apps/Microsoft.SQLManagedInstance "Opens the Azure SQL Database Managed Instance marketplace page")
+
+With out-of-the-box support for most SQL Server features and accompanying tools and services, Managed Instance provides native virtual network (VNET) support for an isolated, highly-secure environment to run your applications. Combining the rich SQL Server programming surface area in the cloud with the operational and financial benefits of an intelligent, fully-managed database service, Managed Instance is the best PaaS destination for your SQL Server workloads.
+
+#### [SQL Server on Virtual Machines](https://azure.microsoft.com/services/virtual-machines/sql-server/ "Opens the SQL Server on Azure VMs marketing page")
+
+Set up and manage your SQL Server deployments in minutes, then scale up or down on the fly. SQL Server on Virtual Machines protects your entire data estate with the most secure database on the most compliant cloud so that you can get the most out of your on-premises investments while taking advantage of Azure's rich ecosystem.
+
+#### [Azure SQL Data Warehouse](https://azure.microsoft.com/services/sql-data-warehouse/?v=17.44 "Opens the Azure SQL Data Warehouse marketing page")
+
+Scale compute and storage independently with this SQL-based, fully managed, petabyte-scale cloud data warehouse that's highly elastic and enables you to set up in minutes and scale capacity in seconds.
+
+#### [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/ "Opens the Azure Database for MySQL marketing page")
+
+Quickly stand up a MySQL database and scale on the fly with this fully managed database service for app development and deployment that includes high-availability, security, and recovery at no extra cost.
+
+#### [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/ "Opens the Azure Database for PostgreSQL marketing page")
+
+Stand up a PostgreSQL database in minutes and scale on the fly—this fully managed database service for app development and deployment also gives you high-availability, security, and recovery at no extra cost.
+
+#### [Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/ "Opens the Azure Cosmos DB marketing page")
+
+With a guarantee of single-digit-millisecond latencies at the 99th percentile anywhere in the world, this multi-model database service offers turnkey global distribution across any number of Azure regions by transparently scaling and replicating your data to wherever your users are.
+
+#### [SQL Server 2017](https://www.microsoft.com/en-us/sql-server/sql-server-2017 "Opens the SQL Server 2017 marketing page")
+
+SQL Server consistently leads in the TPC-E OLTP workload, the TPC-H data warehousing workload, and real-world application performance benchmarks. Get record-breaking performance now on Windows and Linux.
+
+#### [Azure Database Migration Service](https://azure.microsoft.com/services/database-migration/ "Opens the Azure Database Migration Service marketing page")
+
+Reduce the complexity of your cloud migration by using a single comprehensive service instead of multiple tools. The Azure Database Migration Service (DMS) is designed to streamline the process of migrating on-premises databases to Azure. DMS will simplify the migration of existing on-premises SQL Server and Oracle databases to Azure SQL Database, Azure SQL Managed Instance or Microsoft SQL Server in an Azure virtual machine.

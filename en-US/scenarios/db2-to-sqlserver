@@ -2,26 +2,11 @@
 	"displayname": "Migrate DB2 to SQL Server",
 	"emailmessage": "Check out the process for migrating from DB2 to SQL Server here:",
 	"description": "Transferring from IBM's DB2 to SQL Server is easier than ever with the SQL system's best-in-class security and connectivity features.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-			"items": [
-				{
-					"filelocation": "Sql2017Rationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				}
-			]
-
-		},
-
-		{
-			"name": "Pre-migration",
-			"items": [
-				{
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Pre-Migration",
+			"items": [{
 					"filelocation": "Db2ToSql-Pre-Mig",
 					"actions": []
 				},
@@ -35,29 +20,25 @@
 				}
 			]
 		},
-
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
 				{
 					"filelocation": "DB2ToSqlMigration",
-					"actions":[]
+					"actions": []
 				},
 				{
-					"filelocation": "DB2ToSqlDataSyncAndCutover",
+					"filelocation": "Db2ToSqlDataSyncAndCutover",
 					"actions": []
 				}
 			]
 		},
-
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -76,15 +57,15 @@
 			]
 		}
 	],
-	"casestudies": [
-
-	],
-	"partners": [
-		{
+	"casestudies": [],
+	"partners": [{
 			"filelocation": "QuerySurge"
 		},
 		{
 			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		}
 	]
 }
