@@ -3,7 +3,7 @@
 After the data is migrated to target, perform tests against the databases to verify that the applications perform well against the after the migration.
 Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server on Azure VM environment.
 
-**Note**: For assistance with developing and running post-migration validation tests, also consider using the Data Quality Solution available from [QuerySurge](http://www.querysurge.com/company/partners/microsoft). 
+**Note**: For assistance with developing and running post-migration validation tests, also consider using the Data Quality Solution available from the partner [QuerySurge](http://www.querysurge.com/company/partners/microsoft). 
 
 ### Steps
 

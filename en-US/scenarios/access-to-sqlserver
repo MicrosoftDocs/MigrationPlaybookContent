@@ -2,30 +2,11 @@
 	"displayname": "Migrate Access to SQL Server",
 	"emailmessage": "Check out the process for migrating from Access to SQL Server here:",
 	"description": "Migrating from Access to SQL Server could not be simpler because of SQL Server's top tier performance, interconnectivity, consistency, and value.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-
-			"items": [
-				{
-					"filelocation": "Sql2017Rationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				},
-				{
-					"filelocation": "ProductLicensing",
-					"actions": []
-				}
-			]
-		},
-
-		{
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "AccessToSql-Pre-Mig",
 					"actions": []
 				},
@@ -38,9 +19,7 @@
 
 		{
 			"name": "Migration",
-
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
@@ -56,9 +35,7 @@
 		},
 		{
 			"name": "Post-migration",
-
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
 				},
@@ -77,8 +54,7 @@
 			]
 		}
 	],
-	"casestudies": [
-		{
+	"casestudies": [{
 			"filelocation": "PACTGroup"
 		},
 		{
@@ -88,8 +64,7 @@
 			"filelocation": "PTC"
 		}
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "Fujitsu"
 		},
 		{
@@ -97,9 +72,12 @@
 		},
 		{
 			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "rhipe"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		}
-	],
-	"footer": {
-		// empty for now but will probably contain lists of download links etc.
-	}
+	]
 }

@@ -1,12 +1,8 @@
-<!--Migration process overview-->
+## Migration process overview
 
-Migrations should be approached with the same rigor and processes as a full software or hardware project – a  solid methodology is required for success. When planning a database migration project, we recommend that you consider the process shown in the following graphic:
+Migrations should be approached with the same rigor and processes as a full software or hardware project – a solid methodology is required for success. When planning a database migration project, we recommend that you consider the process shown in the following graphic: ![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess_New.png) Each phase in the database migration process is briefly described in the following table:
 
-![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess_New.png)
-
-Each phase in the database migration process is briefly described in the following table:
-
-<table>
+<table id='overview' class='overview'>
   <thead>
     <tr>
       <th class="x-hidden-focus"><strong>Stage</strong></th>
@@ -25,7 +21,7 @@ Each phase in the database migration process is briefly described in the followi
       <td>Assess workloads and fix recommendations.</td>
     </tr>
     <tr>
-      <td>Convert*</td>
+      <td>Convert<span class="highlight">*</span></td>
       <td>For heterogeneous migrations, convert the source schema to work in the target environment.</td>
     </tr>
     <tr>
@@ -34,11 +30,11 @@ Each phase in the database migration process is briefly described in the followi
       <td>Migrate the source schema, and then migrate the source data to the target.</td>
     </tr>
     <tr>
-      <td class="x-hidden-focus">Sync data*</td>
+      <td class="x-hidden-focus">Sync data<span class="highlight">*</span></td>
       <td>For minimal downtime migrations, sync your target schema and data with the source.</td>
     </tr>
     <tr>
-      <td>Cutover*</td>
+      <td>Cutover<span class="highlight">*</span></td>
       <td>For minimal downtime migrations, cut over from the source to the target environment.</td>
     </tr>
     <tr>
@@ -54,11 +50,11 @@ Each phase in the database migration process is briefly described in the followi
       <td>Optimize</td>
       <td>Based on the tests you performed, address any performance issues, and then retest to confirm the performance improvements.</td>
     </tr>
-  </tbody>
+     </tbody>
 </table>
 
-*Relevant only for selected migration scenarios.
+<span class="highlight">*</span>Relevant only for selected migration scenarios.
 
 For more detail, see the information specific to your migration scenario.
 
-If you require assistance with your migration needs, see the list of recommended [partners](https://www.platformmodernization.org/).
+If you require assistance with your migration, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.

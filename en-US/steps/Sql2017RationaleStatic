@@ -1,0 +1,90 @@
+## Rationale for migrating
+
+Microsoft SQL Server 2017 powers your entire data estate by supporting structured and unstructured data sources.
+It builds on previous versions of SQL Server, which have been industry leading for four years in a row and have held a leading spot in TPC-E benchmark testing.
+SQL Server 2017 scales to accommodate petabytes of data and allows processing of big data through Polybase by using T-SQL over any data.
+SQL Server has also been the least vulnerable database over the last seven years.
+
+**Note**: Microsoft is currently running an offer for customers who want to migrate their Oracle, IBM Db2, Sybase, or Netezza databases over to Microsoft SQL Server 2017. This offer provides free licenses, subsidized migration support services, hands-on labs, and instructor-led demos. Note that a Software Assurance subscription required, and some restrictions may apply. The offer of free training and subsidized deployment services is available while supplies last or until June 30, 2018. For more information about this offer, see this [web page](https://www.microsoft.com/en-us/sql-server/sql-license-migration).
+
+When evaluating your rationale for migrating, consider the detail provided in the following sections.
+
+### Security
+
+According to the National Institute of Standards and Technology (NIST) public security board, SQL Server has the
+lowest number of reported security vulnerabilities across the major database vendors (NSIT, 2016).
+
+### Performance
+
+SQL Server holds the top:
+
+* TPC-E performance benchmarks for transaction processing.
+* TPC-H performance benchmarks for data warehousing.
+* Performance benchmarks with leading business applications.
+
+In addition, in April 2017 Hewlett Packard Enterprise published a new TPC-H 1TB world record with SQL Server 2017 running on Linux.
+
+### Total cost of ownership
+
+SQL Server has a significantly lower total cost of ownership (TCO) than similar enterprise data solutions. In some cases, the TCO of
+SQL Server has been found to cost a mere 1/12th of comparable products/features. The TCO Calculator can help to determine the real difference in cost between a current Oracle solution and SQL Server.
+The tool also provides a custom report showing the specific cost savings and benefits that a customer can anticipate by migrating
+from Oracle to SQL Server.
+
+**Note**: Download the [TCO Calculator](http://sqltcocalculator.azurewebsites.net/#!/) to run a cost analysis on your migrations.
+
+### The power of SQL Server now on Linux and Container Instances
+
+SQL Server 2017 offers the best performance and security features, and they are now available on all supported platforms,
+including Windows, Linux, and Azure Container Instances. High-performance features bring record-breaking speed to data-driven applications.
+These features include:
+
+- Columnstore, which provides column-based data storage and processing to achieve up to 10 times the query
+  performance and data compression of row-based storage.
+- In-memory OLTP, which brings transaction processing to memory-optimized tables at more than 2.5 times the speed of disk-based tables.
+
+Security features provide server-side security measures that vastly simplify the process of keeping data safe from unauthorized access without the need to modify existing client applications. These features include:
+
+- Auditing, which enables teams to monitor access and track potentially suspicious activity.
+- Transparent Data Encryption, which protects data at rest at a file level.
+- Row-Level Security, which enables developers to implement fine-grained access control over rows in a database table.
+- Dynamic Data Masking, which enables customers to designate how much of the sensitive data to reveal with minimal impact on the application layer.
+- Always Encrypted, which secures data in motion and at rest.
+
+With these capabilities available on all editions of SQL Server, organizations can choose their deployment environment by operational need rather than desired features.
+
+### Adaptive Query Processing feature family
+
+New in SQL Server 2017, Adaptive Query Processing introduces additional capabilities that allow the SQL Server query processor to modify
+plan choices based on runtime characteristics. During query processing and optimization, the cardinality estimation (CE)
+process is responsible for estimating the number of rows processed at each step in an execution plan.
+Inaccurate estimates can cause slow query response time, excessive resource utilization (CPU, Memory, IO), and reduced throughput
+and concurrency. To improve CE techniques, SQL Server 2017 introduces a new feature family: adaptive query processing (AQP).
+AQP improves handling of the more intractable CE issues.
+
+### Automatic plan correction
+
+SQL Server 2017 also includes new features designed to detect plan choice regressions and provide recommendations on how to fix problems.
+These automatic plan correction features help to maintain the performance of data queries, even when application changes occur.
+
+### SQL Graph
+
+Customers want more than the ability to manage large volumes of data; they also need to analyze existing data more effectively to understand its relationships and patterns. Querying data from a relational schema by using traditional SQL queries can be a complex task.
+SQL Server 2017 introduces SQL Graph to make modeling and analyzing relationships easier by allowing users to handle relationships in a more flexible and agile way.
+
+### Resumable Online Index Rebuild
+
+Planning, maintaining, and managing a large index online can be challenging. The bigger the index, the more difficult index maintenance
+becomes. Reorganizing and rebuilding indexes can be especially cumbersome. Resumable Online Index Rebuild in SQL Server 2017 enables
+continuation of an online index rebuild operation after a failure (such as a failover to a replica or insufficient disk space).
+Resumable Online Index Rebuild also enables pausing and later resuming an online index rebuild operation.
+For example, you might need to temporarily free up system resources to execute a high-priority task, or complete the index rebuild at
+another time if the available maintenance window is too short for a large table. Finally, Resumable Online Index Rebuild does not
+require significant log space, which allows you to perform log truncation while the resumable rebuild operation is running.
+
+### In-Memory OLTP enhancements in SQL Server 2017
+
+First appearing as a feature in SQL Server 2014, in-memory technology for SQL Server dramatically improves the throughput and latency of SQL Server
+OLTP capabilities. This functionality is designed to meet the requirements of the most demanding transaction processing applications, and Microsoft
+has worked closely with several companies to prove these gains. SQL Server 2017 adds features to improve the performance and
+supportability of In-Memory OLTP workloads. In addition, we have removed many limitations on tables and stored procedures to make it easier to migrate applications and take advantage of the benefits of In-Memory OLTP.

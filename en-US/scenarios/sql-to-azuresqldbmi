@@ -2,28 +2,11 @@
 	"displayname": "Migrate SQL Server to Azure SQL Database Managed Instance",
 	"emailmessage": "Check out the process for migrating from SQL Server to Azure SQL Database Managed Instance here:",
 	"description": "Azure SQL Database Managed Instance delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
-	"steps": [
-		{
-			"name": "Why migrate?",
-			"items": [
-				{
-					"filelocation": "SqlDbMiRationale",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverview",
-					"actions": []
-				},
-				{
-					"filelocation": "OnPremVsCloud",
-					"actions": []
-				}
-			]
-		},
-		{
+	"rationale": "SqlDbMiRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
 			"name": "Pre-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "SqlToSqlDbMi-Pre-Mig",
 					"actions": []
 				},
@@ -41,11 +24,9 @@
 				}
 			]
 		},
-
 		{
 			"name": "Migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
 				},
@@ -62,11 +43,10 @@
 
 		{
 			"name": "Post-migration",
-			"items": [
-				{
+			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
-				},{
+				}, {
 					"filelocation": "SqlRemediateApps",
 					"actions": []
 				},
@@ -77,15 +57,14 @@
 				{
 					"filelocation": "SqlOptimization",
 					"actions": []
-				},
+				}
 			]
 		}
 	],
 	"casestudies": [
-		
+
 	],
-	"partners": [
-		{
+	"partners": [{
 			"filelocation": "DBBest"
 		},
 		{
@@ -96,7 +75,16 @@
 		},
 		{
 			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "rhipe"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		}
-		
+
 	]
 }

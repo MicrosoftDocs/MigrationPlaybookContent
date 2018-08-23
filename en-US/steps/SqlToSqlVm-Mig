@@ -24,7 +24,7 @@ A couple of key points to consider when reviewing the migration methods to deter
 
 If it is not possible to use the above methods, migrate your database manually. Using this method, you will generally start with a database backup followed by a copy of the database backup into Azure and then perform a database restore. You can also copy the database files themselves into Azure and then attach them.
 
-**Note**: When upgrading from older versions of SQL Server to SQL Server 2014 or SQL Server 2016, we recommend that you address all dependencies on features that are not supported by the later version of SQL Server as part of the migration project. For more information on the supported editions and scenarios, see [Upgrade SQL Server](https://msdn.microsoft.com/library/bb677622.aspx).
+**Note**: When upgrading from older versions of SQL Server to SQL Server 2014 or SQL Server 2016, we recommend that you address all dependencies on features that are not supported by the later version of SQL Server as part of the migration project. For more information on the supported editions and scenarios, see the article [Upgrade SQL Server](https://msdn.microsoft.com/library/bb677622.aspx).
 
 The following section provides details about using DMA to migrate the schema and data to an Azure VM.
 
