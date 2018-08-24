@@ -15,6 +15,9 @@
 
 	],
 	"partners": [{
+			"filelocation": "Griddable"
+		},
+		{
 			"filelocation": "DataSunrise"
 		},
 		{
@@ -40,9 +43,6 @@
 		},
 		{
 			"filelocation": "ScalabilityExperts"
-		},
-		{
-			"filelocation": "Griddable"
 		}
 	]
 }
