@@ -18,4 +18,4 @@ Follow the instructions in the article [Azure Cosmos DB: Data migration tool](ht
 
 **Note**: If you are migrating to Azure Cosmos DB from a data source that is not listed here, please email [*AskCosmosDB@microsoft.com*](mailto:AskCosmosDB@microsoft.com) and the product team will help you with migration.
 
-**Important**: To sign up for a limited preview of Azure Database Migration Service (DMS) support for migrations of MongoDB databases to Azure Cosmos DB (MongoDB API), submit a nomination on the Azure DMS [preview site](https://aka.ms/dms-preview). Partner with the Microsoft engineering team to make migrations to Azure Cosmos DB seamless and friction-free.
+**Important**: To sign up for a limited preview of Azure Database Migration Service (DMS) support for migrating MongoDB databases to Azure Cosmos DB (MongoDB API), submit a nomination on the Azure DMS [preview site](https://aka.ms/dms-preview). Partner with the Microsoft engineering team to make migrations to Azure Cosmos DB seamless and friction-free.
