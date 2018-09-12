@@ -6,7 +6,7 @@ As you prepare for migrating your SQL Server database to Azure SQL Database, be 
 
 ### Supported versions
 
-This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of April 2018.
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of September 2018.
 
 The following SQL Server sources are included:
 * SQL Server 2005
@@ -20,7 +20,7 @@ You can migrate SQL Server running on-premises or on:
 
 * SQL Server on Virtual Machines
 * Amazon Web Services (AWS) EC2
-* Compute Engine (GCP), and
+* Compute Engine (GCP)
 * AWS RDS
 
 The following Azure target is included:
@@ -28,35 +28,35 @@ The following Azure target is included:
 
 The following data migration options are discussed:
 *	Transactional replication
-*	Data Migration toolset [Azure Database Migration Service (Azure DMS) and Data Migration Assistant (DMA)]
+*	Database migration toolset [Azure Database Migration Service (DMS) and Data Migration Assistant (DMA)]
 *	Bulk load
 
 #### From SQL Server 2005
-*	Migration Tools: Migration is supported by Azure DMS and DMA.
-*	Bulk load: Tables can be bulk copied out from SQL Server 2005 and then bulk copied into Azure SQL Database.
+*	**Migration tools**: Migration is supported by Azure DMS and DMA.
+*	**Bulk load**: Tables can be bulk copied out from SQL Server 2005 and then bulk copied into Azure SQL Database.
 
 #### From SQL Server 2008 or SQL Server 2008 R2
-*	Migration Tools: Migration is supported by Azure DMS and DMA.
-*	Bulk load: Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into Azure SQL Database.
+*	**Migration tools**: Migration is supported by Azure DMS and DMA.
+*	**Bulk load**: Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into Azure SQL Database.
 
 #### From SQL Server 2012
-*	Transactional replication: Transactional replication from SQL Server 2012 to Azure SQL Database is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.
-*	Migration Tools: Migration is supported by Azure DMS and DMA.
-*	Bulk load: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database.
+*	**Transactional replication**: Transactional replication from SQL Server 2012 to Azure SQL Database is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.
+*	**Migration tools**: Migration is supported by Azure DMS and DMA.
+*	**Bulk load**: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database.
 
 #### From SQL Server 2014
-*	Transactional replication: Transactional replication from SQL Server 2014 to Azure SQL Database is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.
-*	Migration Tools: Migration is supported by Azure DMS and DMA.
-*	Bulk load: Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database.
+*	**Transactional replication**: Transactional replication from SQL Server 2014 to Azure SQL Database is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.
+*	**Migration tools**: Migration is supported by Azure DMS and DMA.
+*	**Bulk load**: Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database.
 
 #### From SQL Server 2016
-*	Transactional replication: Transactional replication from SQL Server 2016 to Azure SQL Database is supported.
-*	Migration Tools: Migration is supported by Azure DMS and DMA.
-*	Bulk load: Tables can be bulk copied out from SQL Server 2016 and then bulk copied into Azure SQL Database.
+*	**Transactional replication**: Transactional replication from SQL Server 2016 to Azure SQL Database is supported.
+*	**Migration tools**: Migration is supported by Azure DMS and DMA.
+*	**Bulk load**: Tables can be bulk copied out from SQL Server 2016 and then bulk copied into Azure SQL Database.
 
 #### From SQL Server 2017
-*	Transactional replication: Transactional replication from SQL Server 2017 to Azure SQL Database is supported.
-*	Bulk load: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database.
+*	**Transactional replication**: Transactional replication from SQL Server 2017 to Azure SQL Database is supported.
+*	**Bulk load**: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database.
 
 ### Additional resources
 

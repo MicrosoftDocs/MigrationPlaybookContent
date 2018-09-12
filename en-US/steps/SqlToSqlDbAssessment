@@ -19,7 +19,7 @@ To use DMA to create an assessment, perform the following steps.
     
 3. In the Database Migration Assistant, on the **Options** screen, select **Next**.
     
-4. On the **Select sources** screen, in the **Connect to a server** dialog box , specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**. 
+4. On the **Select sources** screen, in the **Connect to a server** dialog box, specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**. 
     
 5. In the **Add sources** dialog box, select the database(s) that you want to assess, select **Add**, and then select **Start Assessment**.
 
