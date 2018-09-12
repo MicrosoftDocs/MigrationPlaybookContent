@@ -42,7 +42,7 @@ The following data migration options are discussed:
 #### From SQL Server 2012
 *	**Transactional replication**: Transactional replication from SQL Server 2012 to Azure SQL Database is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.
 *	**Migration tools**: Migration is supported by Azure DMS and DMA.
-*	Bulk load: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database.
+*	**Bulk load**: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database.
 
 #### From SQL Server 2014
 *	**Transactional replication**: Transactional replication from SQL Server 2014 to Azure SQL Database is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.
