@@ -1,6 +1,6 @@
 <!--Pre-migration overview-->
 
-As you prepare for upgrading your SQL Server database to a later version of SQL Server, be sure to consider the versions of SQL Server that are supported and to address any prerequisites to help ensure a successful migration.
+As you prepare for upgrading your SQL Server database to a later version of SQL Server, be sure to consider the versions of SQL Server that are supported and to address any prerequisites. This will help to ensure an efficient and successful migration.
 
 ### Supported upgrade technologies
 

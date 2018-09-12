@@ -5,7 +5,7 @@
 	"rationale": "AzurePostgreSqlRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Attunity Replicate for Microsoft Migrations",
+		"name": "Oracle migration solutions",
 		"items": [{
 			"filelocation": "OracleToAzurePostgreSqlMigration",
 			"actions": []
