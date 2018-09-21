@@ -1,6 +1,6 @@
 {
 	"title": "migVisor by Naya Tech",
-	"text": "Naya Tech's migVisor is a unique heterogenous database migration advisor, which accelerates migrations to Azure by analyzing source databases and providing recommendations on the ideal migration path.",
+	"text": "migVisor by Naya Tech is a heterogenous database migration advisor, which accelerates migrations to Azure by analyzing source databases and providing recommendations on the ideal migration path.",
 	"url": "http://www.migvisor.com",
 	"logoUrl": "https://mpbdevcontent.azureedge.net/Images/nayatech_migVisor_logo_small.png",
 	"logoAltText": "migVisor by Naya Tech"
