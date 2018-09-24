@@ -6,7 +6,7 @@ Migrations should be approached with the same rigor and processes as a full soft
 
 Each phase in the database migration process is briefly described in the following table:
 
-<table id='overview' class='overview'>
+<table id="overview" class="overview">
   <caption>Overview of Database Migration by Phase</caption>
   <thead>
     <tr>
@@ -60,8 +60,5 @@ Each phase in the database migration process is briefly described in the followi
 <span id="migration-footnote">
   <span class="highlight">*</span>Relevant only for selected migration scenarios.
 </span>
-For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
-
-For comprehensive details on upgrading SQL Server, see the topic [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server).
 
 If you require assistance with your migration, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.
