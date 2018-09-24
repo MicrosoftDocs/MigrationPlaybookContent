@@ -57,6 +57,6 @@ Migrations should be approached with the same rigor and processes as a full soft
   <span class="highlight">*</span>Relevant only for selected migration scenarios.
 </span>
 
-For more detail, see the information specific to your migration scenario.
+For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
 
 If you require assistance with your migration, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.
