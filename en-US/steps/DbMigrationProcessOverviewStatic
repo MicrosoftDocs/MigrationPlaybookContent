@@ -22,7 +22,7 @@ Migrations should be approached with the same rigor and processes as a full soft
       <td>Assess workloads and fix recommendations.</td>
     </tr>
     <tr>
-      <td>Convert <span class="highlight" aria-labelledby="migration-footnote"><span aria-hidden="true">*</span></span></td>
+      <td>Convert <span class="highlight" aria-labelledby="migration-footnote" aria-describedby="migration-footnote"><span aria-hidden="true">*</span></span></td>
       <td>For heterogeneous migrations, convert the source schema to work in the target environment.</td>
     </tr>
     <tr>
@@ -31,11 +31,11 @@ Migrations should be approached with the same rigor and processes as a full soft
       <td>Migrate the source schema, and then migrate the source data to the target.</td>
     </tr>
     <tr>
-      <td>Sync data <span class="highlight" aria-labelledby="migration-footnote"><span aria-hidden="true">*</span></span></td>
+      <td>Sync data <span class="highlight" aria-labelledby="migration-footnote" aria-describedby="migration-footnote"><span aria-hidden="true">*</span></span></td>
       <td>For minimal downtime migrations, sync your target schema and data with the source.</td>
     </tr>
     <tr>
-      <td>Cutover <span class="highlight" aria-labelledby="migration-footnote"><span aria-hidden="true">*</span></span></td>
+      <td>Cutover <span class="highlight" aria-labelledby="migration-footnote" aria-describedby="migration-footnote"><span aria-hidden="true">*</span></span></td>
       <td>For minimal downtime migrations, cut over from the source to the target environment.</td>
     </tr>
     <tr>
