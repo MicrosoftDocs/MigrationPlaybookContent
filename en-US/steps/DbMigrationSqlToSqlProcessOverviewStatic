@@ -56,10 +56,15 @@ Each phase in the database migration process is briefly described in the followi
       <td>Based on the tests you performed, address any performance issues, and then retest to confirm the performance improvements.</td>
     </tr>
   </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">
+        <span class="highlight">*</span>
+        <span id="migration-footnote">Phase relevant only for selected migration scenarios</span>.
+      </td>
+    </tr>
+  </tfoot>
 </table>
-<span id="migration-footnote">
-  <span class="highlight">*</span>Relevant only for selected migration scenarios.
-</span>
 
 For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
 
