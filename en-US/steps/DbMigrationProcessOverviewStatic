@@ -6,7 +6,7 @@ Migrations should be approached with the same rigor and processes as a full soft
   <caption class="sr-only">Overview of Database Migration by Phase</caption>
   <thead>
     <tr>
-      <th class="x-hidden-focus"><strong>Stage</strong></th>
+      <th><strong>Stage</strong></th>
       <th><strong>Phase</strong></th>
       <th><strong>Description</strong></th>
     </tr>

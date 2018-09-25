@@ -10,7 +10,7 @@ Each phase in the database migration process is briefly described in the followi
   <caption class="sr-only">Overview of Database Migration by Phase</caption>
   <thead>
     <tr>
-      <th class="x-hidden-focus"><strong>Stage</strong></th>
+      <th><strong>Stage</strong></th>
       <th><strong>Phase</strong></th>
       <th><strong>Description</strong></th>
     </tr>
