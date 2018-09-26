@@ -83,6 +83,9 @@
 		},
 		{
 			"filelocation": "Griddable"
+		},
+		{
+			"filelocation": "Quest"
 		}
 	]
 }
