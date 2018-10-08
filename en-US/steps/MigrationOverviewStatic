@@ -26,8 +26,8 @@ Each phase in the database migration process is briefly described in the followi
       <td>Assess workloads and fix recommendations.</td>
     </tr>
     <tr>
-      <td>Convert <span class="highlight" aria-labelledby="migration-footnote" aria-describedby="migration-footnote"><span aria-hidden="true">*</span></span></td>
-      <td>For heterogeneous migrations, convert the source schema to work in the target environment.</td>
+      <td>Convert</td>
+      <td>Convert the source schema to work in the target environment. This is only relevant for heterogeneous migrations.</td>
     </tr>
     <tr>
       <td rowspan="3" class="migration">Migration</td>
@@ -35,12 +35,12 @@ Each phase in the database migration process is briefly described in the followi
       <td>Migrate the source schema, and then migrate the source data to the target.</td>
     </tr>
     <tr>
-      <td>Sync data <span class="highlight" aria-labelledby="migration-footnote" aria-describedby="migration-footnote"><span aria-hidden="true">*</span></span></td>
-      <td>For minimal downtime migrations, sync your target schema and data with the source.</td>
+      <td>Sync data</td>
+      <td>Sync your target schema and data with the source. This is only relevant for minimal-downtime migrations.</td>
     </tr>
     <tr>
-      <td>Cutover <span class="highlight" aria-labelledby="migration-footnote" aria-describedby="migration-footnote"><span aria-hidden="true">*</span></span></td>
-      <td>For minimal downtime migrations, cut over from the source to the target environment.</td>
+      <td>Cutover</td>
+      <td>Cut over from the source to the target environment. This is only relevant for minimal-downtime migrations.</td>
     </tr>
     <tr>
       <td rowspan="3" class="postmigration">Post-migration</td>
@@ -56,14 +56,6 @@ Each phase in the database migration process is briefly described in the followi
       <td>Based on the tests you performed, address any performance issues, and then retest to confirm the performance improvements.</td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="3">
-        <span class="highlight">*</span>
-        <span id="migration-footnote">Phase relevant only for selected migration scenarios</span>.
-      </td>
-    </tr>
-  </tfoot>
 </table>
 
 If you require assistance with your migration, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.
