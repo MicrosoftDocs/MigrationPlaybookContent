@@ -1,17 +1,42 @@
-<!--Migrate using Attunity Replicate for Microsoft Migrations-->
+<!--Using ora2pg to migrate from Oracle to Azure Database for PostgreSQL-->
 
-### Near zero downtime migrations with Attunity Replicate!
+PostgreSQL is one of world’s most advanced open source databases. This article describes how to use the free ora2pg utility to migrate an Oracle database to PostgreSQL.
 
-Microsoft has partnered with Attunity around specific migration scenarios (source/target pairs). Attunity Replicate supports a very large set of sources and targets. The edition of Attunity Replicate that we refer to in the context of this partnership is known as Attunity Replicate For Microsoft Migrations (this is an Attunity product and not a Microsoft product) and enables only the scenarios for which we are partnering for now. 
+You can use ora2pg, a free tool, to migrate an Oracle or MySQL database to a PostgreSQL compatible schema. The utility connects your Oracle database, scans it automatically, and extracts its structure or data. Afterwards ora2pg generates SQL scripts that you can load into your PostgreSQL database.
 
-Attunity Replicate is a data replication tool that enables data sync between a variety of sources and targets. In this context, 
-for each table, Attunity Replicate propagates its schema creation script and its data. It will not propagate any other artifacts (SP, triggers, functions, ….) 
-and will not convert say PL/SQL code hosted in artifacts like functions/SP/triggers to T-SQL. 
+ora2pg can be used for tasks from reverse engineering an Oracle database, performing a huge enterprise database migration, or simply replicating some Oracle data into a PostgreSQL database. It’s easy to use and doesn't require any Oracle database knowledge other than the ability to provide the parameters needed to connect to the Oracle database.
 
-Proposed sequence and usage of tools:
-1.	**Convert the source Oracle database** (schema and data) to Azure PostgreSQL.
-2.	**Continuously replicate data changes from the source database to the target database** with _Attunity Replicate For Microsoft Migrations_. This will help you minimize the amount of time you will need to prevent writes on the source database while you prepare to switch your applications to the target PostgreSQL on Aure.
+### Prerequisites
+1. Before installing ora2pg, be sure to install the corresponding Oracle and PostgreSQL drivers.
 
-Download link to [Attunity Replicate For Microsoft Migrations](https://aka.ms/attunity-replicate) offering.
+2. Download the latest version of the [ora2pg tool](https://sourceforge.net/projects/ora2pg/), and then install it.
 
-**Important**: Using Attunity Replicate for Microsoft Migrations to pump data out of a database hosted on Rackspace (IaaS) is supported if the version of the source endpoint and the target are among those that are supported by Attunity Replicate.
+### Preparing for migration
+After completing the prerequisites, the first step to prepare for the migration is to configure the ora2pg.conf file, which is located at /etc/ora2pg/ora2pg.conf.
+
+Below are a few of the configuration parameters related to using Oracle as source. For this example, assume that we are exporting only the HR Schema.
+
+    ORACLE_DSN  dbi:Oracle:host=hostname;sid=DB_SID;port=1521
+    ORACLE_USER system
+    ORACLE_PWD  xxxxx
+    SCHEMA      HR
+    TYPE        TABLE VIEW
+    TYPE        TABLE PACKAGE COPY VIEW GRANT SEQUENCE TRIGGER FUNCTION PROCEDURE TABLESPACE TYPE PARTITION
+    OUTPUT      hr_schema.sql
+
+### Testing the connection
+After setting the Oracle database DSN, you can execute ora2pg to see if it works by using the following command:
+
+    ora2pg -t SHOW_VERSION -c config/ora2pg.conf
+
+ora2pg works by exporting to an output file that the utility uses to convert the schema and generate the insert statements for the data. The data is then imported to the target DB. With ora2pg, if you use the SCHEMA option, the utility will allow only one schema at a time. To use ora2pg to export all schemas, simple comment out the SCHEMA option. In our example, all non-Oracle users will be extracted.
+
+### Migrating to Azure Database for PostgreSQL
+
+After the export is done, to import it to the target database, use the following command:
+
+    Psql -h hostname -p 5432 -d databasename -U  username -W  -f ora2pg_output_filename
+
+### Troubleshooting tips
+
+If the **output.sql** file only includes the Pg transaction header and footer there are two possible reasons. If the Perl script ora2pg dumps an ORA-XXX error, then the DSN or log in information is wrong. Check the error and your settings, and then try again. If the Perl script doesn’t indicate any error and the output file is empty, then the user lacks the rights to extract data from the database. Try to connect to the Oracle database as super user or view the directive USER_GRANTS above and at next section, especially the SCHEMA directive.

@@ -5,7 +5,7 @@
 	"rationale": "AzurePostgreSqlRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Oracle migration solutions",
+		"name": "Migration options",
 		"items": [{
 			"filelocation": "OracleToAzurePostgreSqlMigration",
 			"actions": []
@@ -16,6 +16,9 @@
 	],
 	"partners": [{
 			"filelocation": "Griddable"
+		},
+		{
+			"filelocation": "Splendid_Data"
 		},
 		{
 			"filelocation": "DataSunrise"
