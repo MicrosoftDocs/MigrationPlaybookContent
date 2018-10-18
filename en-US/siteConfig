@@ -144,7 +144,8 @@
         "name": "Azure Cosmos DB",
         "longname": "Azure Cosmos DB",
         "URL": "/scenario/azuretable-to-cosmos"
-      },
+      }]
+    },
     {
       "title": "Cassandra",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Cassandra_270x160.png",
