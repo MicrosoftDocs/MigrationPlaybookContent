@@ -6,9 +6,7 @@ You can use ora2pg, a free tool, to migrate an Oracle or MySQL database to a Pos
 
 ora2pg can be used for tasks from reverse engineering an Oracle database, performing a huge enterprise database migration, or simply replicating some Oracle data into a PostgreSQL database. It’s easy to use and doesn't require any Oracle database knowledge other than the ability to provide the parameters needed to connect to the Oracle database.
 
-> [!NOTE] 
-> For more information about using the latest version of ora2pg, see the [ora2pg documentation](https://ora2pg.darold.net/documentation.html#Export-type).
-
+**Note**: For more information about using the latest version of ora2pg, see the [ora2pg documentation](https://ora2pg.darold.net/documentation.html#Export-type).
 
 ### Prerequisites
 1. Before installing ora2pg, be sure to install the corresponding Oracle and PostgreSQL drivers.
