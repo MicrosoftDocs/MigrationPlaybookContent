@@ -70,4 +70,4 @@ Moving data by using Spark jobs is the recommended option if you have data resid
 To learn more about the Azure Cosmos DB Cassandra API, view the following resources:
 - [Introduction to the Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-introduction)
 - [Apache Cassandra features supported by Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-support)
-- [Connect to Azure Cosmos DB Cassandra API from Spark] (https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-generic)
+- [Connect to Azure Cosmos DB Cassandra API from Spark](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-generic)
