@@ -145,6 +145,15 @@
         "longname": "Azure Cosmos DB",
         "URL": "/scenario/azuretable-to-cosmos"
       }]
+    },
+    {
+      "title": "Cassandra",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Cassandra_270x160.png",
+      "pages": [{
+        "name": "Azure Cosmos DB",
+        "longname": "Azure Cosmos DB",
+        "URL": "/scenario/cassandra-to-cosmos"
+      }]
     }
   ],
   "commonChoices": [{
@@ -242,12 +251,6 @@
     },
     {
       "filelocation": "Splendid_Data"
-    },
-    {
-      "filelocation": "DXC"
-    },
-    {
-      "filelocation": "Imanis"
     }
   ]
 }
