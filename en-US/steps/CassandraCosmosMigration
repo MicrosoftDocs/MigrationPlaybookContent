@@ -9,7 +9,7 @@ A high-level outline of the process includes:
     - The cqlsh COPY command
     - Spark
 
-### Plan for moving the data
+### Plan for moving data
 
 Before moving Cassandra data to Azure Cosmos DB, estimate the throughput needs of your workload. In general, it's best to start with the average throughput required by the CRUD operations, and then include the additional throughput that is required for the Extract Transform Load (ETL) or spiky operations.
 
