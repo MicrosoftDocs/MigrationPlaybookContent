@@ -5,19 +5,16 @@
 	"rationale": "CosmosDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Move Cassandra data to Azure Cosmos DB",
+		"name": "Move to Azure Cosmos DB",
 		"items": [{
 			"filelocation": "CassandraCosmosMigration",
 			"actions": []
 		}]
 	}],
-	"casestudies": [{
-		"filelocation": "Vipps"
-	}],
-	"partners": [{
-		"filelocation": "Infosys"
-	},
-	{
-		"filelocation": "DXC"
-	}]
+	"casestudies": [
+
+	],
+	"partners": [
+		
+	]
 }

@@ -38,7 +38,7 @@ After you identify the requirements of your existing workload, create an Azure C
 ### Prerequisites for moving data
 
 - **Create tables in Azure Cosmos DB Cassandra API account**: Before you start the migrating data, pre-create all your tables from the Azure portal or from cqlsh. If you are migrating to an Azure Cosmos DB account that has database level throughput, make sure to provide a partition key when creating the Azure Cosmos DB containers.
-- **Increase throughput*: The duration of your data migration depends on the amount of throughput you provisioned for the tables in Azure Cosmos DB. Increase the throughput for the duration of migration. With the higher throughput, you can avoid rate limiting and migrate in less time. After you've completed the migration, decrease the throughput to save costs. For more information about increasing throughput, see [set throughput](https://docs.microsoft.com/azure/cosmos-db/set-throughput) for Azure Cosmos DB containers. It’s also recommended to have Azure Cosmos DB account in the same region as your source database.
+- **Increase throughput**: The duration of your data migration depends on the amount of throughput you provisioned for the tables in Azure Cosmos DB. Increase the throughput for the duration of migration. With the higher throughput, you can avoid rate limiting and migrate in less time. After you've completed the migration, decrease the throughput to save costs. For more information about increasing throughput, see [set throughput](https://docs.microsoft.com/azure/cosmos-db/set-throughput) for Azure Cosmos DB containers. It’s also recommended to have Azure Cosmos DB account in the same region as your source database.
 - **Enable SSL**: Azure Cosmos DB has strict security requirements and standards. Be sure to enable SSL when you interact with your account. When you use CQL with SSH, you have an option to provide SSL information.
 
 ### Options for moving data
@@ -70,4 +70,4 @@ Moving data by using Spark jobs is the recommended option if you have data resid
 To learn more about the Azure Cosmos DB Cassandra API, view the following resources:
 - [Introduction to the Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-introduction)
 - [Apache Cassandra features supported by Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-support)
-- [Connect to Azure Cosmos DB Cassandra API from Spark] (https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-generic)
+- [Connect to Azure Cosmos DB Cassandra API from Spark](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-generic)
