@@ -6,6 +6,7 @@ Azure Cosmos DB was built from the ground up with global distribution and horizo
 When evaluating your rationale for migrating, consider the detail provided in the following sections.
 
 <br>
+<br>
 **Turnkey global distribution**
  - Easily build globally-distributed applications without the hassle of complex, multiple-datacenter configurations. Designed as a [globally distributed database system](https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally), Azure Cosmos DB automatically replicates your data to any number of regions of your choice, for fast, responsive access. Azure Cosmos DB supports transparent multi-homing and guarantees 99.999% high availability.
 
