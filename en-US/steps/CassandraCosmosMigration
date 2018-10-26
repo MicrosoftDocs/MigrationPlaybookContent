@@ -9,6 +9,16 @@ A high-level outline of the process includes:
     - The cqlsh COPY command
     - Spark
 
+Using Cassandra API for Azure Cosmos DB has several benefits, including:
+
+- **Global distribution and availability**: Azure Cosmos DB provides the ability to globally distribute data across all Azure regions and serve the data locally while ensuring low latency data access and high availability. Azure Cosmos DB provides 99.99% high availability within a region and 99.999% read and write availability across multiple regions.
+- **No operations management**: As a fully managed cloud service, Azure Cosmos DB Cassandra API removes the overhead of managing and monitoring a myriad of settings across OS, JVM, and yaml files and their interactions. 
+- **Performance management**: Azure Cosmos DB removes the overhead in managing scheduling compaction, managing tombstones, setting up bloom filters and replicas manually.
+- **Ability to use existing code and tools**: Azure Cosmos DB provides wire protocol level compatibility with existing Cassandra SDKs and tools. This compatibility ensures you can use your existing codebase with Azure Cosmos DB Cassandra API with trivial changes.
+- **Throughput and storage elasticity**: Azure Cosmos DB provides guaranteed throughput across all regions and can scale the provisioned throughput with Azure portal, PowerShell, or CLI operations. You can elastically scale storage and throughput for your tables as needed with predictable performance.
+- **Choice of consistency**: Azure Cosmos DB provides the choice of five well-defined consistency levels to achieve optimal tradeoffs between consistency and performance. 
+- **Enterprise grade**: Azure cosmos DB provides compliance certifications to ensure users can use the platform securely. Azure Cosmos DB also provides encryption at rest and in motion, IP firewall, and audit logs for control plane activities.
+
 ### Plan for moving data
 
 Before moving Cassandra data to Azure Cosmos DB, estimate the throughput needs of your workload. In general, it's best to start with the average throughput required by the CRUD operations, and then include the additional throughput that is required for the Extract Transform Load (ETL) or spiky operations.
@@ -43,7 +53,9 @@ After you identify the requirements of your existing workload, create an Azure C
 ### Prerequisites for moving data
 
 - **Create tables in Azure Cosmos DB Cassandra API account**: Before you start the migrating data, pre-create all your tables from the Azure portal or from cqlsh. If you are migrating to an Azure Cosmos DB account that has database level throughput, make sure to provide a partition key when creating the Azure Cosmos DB containers.
+
 - **Increase throughput**: The duration of your data migration depends on the amount of throughput you provisioned for the tables in Azure Cosmos DB. Increase the throughput for the duration of migration. With the higher throughput, you can avoid rate limiting and migrate in less time. After you've completed the migration, decrease the throughput to save costs. For more information about increasing throughput, see [set throughput](https://docs.microsoft.com/azure/cosmos-db/set-throughput) for Azure Cosmos DB containers. It’s also recommended to have Azure Cosmos DB account in the same region as your source database.
+
 - **Enable SSL**: Azure Cosmos DB has strict security requirements and standards. Be sure to enable SSL when you interact with your account. When you use CQL with SSH, you have an option to provide SSL information.
 
 ### Options for moving data
@@ -66,7 +78,9 @@ You can use the [CQL COPY command](http://cassandra.apache.org/doc/latest/tools/
 
 3.	Use the CQL COPY command to copy local data to the Cassandra API account.
 
+    ```
     COPY exampleks.tablename FROM filefolderx/*.csv
+    ```
 
 ### Move data using Spark
 
@@ -81,3 +95,7 @@ To learn more about the Azure Cosmos DB Cassandra API, view the following resour
 - [Introduction to the Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-introduction)
 - [Apache Cassandra features supported by Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-support)
 - [Connect to Azure Cosmos DB Cassandra API from Spark](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-generic)
+
+### Migration support
+
+The Cosmos DB Ninja and PM Teams are happy to assist customers with migrations. Please reach out to the product team directly at [askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com).
