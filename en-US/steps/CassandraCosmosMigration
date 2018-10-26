@@ -24,6 +24,7 @@ After you identify the requirements of your existing workload, create an Azure C
 - **Determine the RU charge for an operation**: You can determine the RUs by using the Azure Cosmos DB Cassandra API SDK of your choice. This example shows the .NET version of getting RU charges.
 
     var tableInsertStatement = table.Insert(sampleEntity);
+
     var insertResult = await tableInsertStatement.ExecuteAsync();
 
     foreach (string key in insertResult.Info.IncomingPayload)
@@ -31,7 +32,7 @@ After you identify the requirements of your existing workload, create an Azure C
             byte[] valueInBytes = customPayload[key];
             string value = Encoding.UTF8.GetString(valueInBytes);
             Console.WriteLine($"CustomPayload:  {key}: {value}");
-        }
+        }   
 
 - **Allocate the required throughput**: Azure Cosmos DB can automatically scale storage and throughput as your requirements grow. You can estimate your throughput needs by using the [Azure Cosmos DB request unit calculator](https://www.documentdb.com/capacityplanner).
 
@@ -51,8 +52,11 @@ You can move data from existing Cassandra workloads to Azure Cosmos DB by using 
 
 You can use the [CQL COPY command](http://cassandra.apache.org/doc/latest/tools/cqlsh.html#cqlsh) to copy local data to Azure Cosmos DB via the Cassandra API. To copy the data, perform the following steps:
 1.	Make a note of the connection string information associated with your Cassandra API account:
+
     a.	Sign in to the [Azure portal](https://portal.azure.com/), and then navigate to your Azure Cosmos DB account.
+
     b.	Open the **Connection String** pane, which contains all the information that you need to connect to your Cassandra API account using cqlsh.
+
 2.	Sign in to cqlsh using the connection information you gathered from the portal.
 3.	Use the CQL COPY command to copy local data to the Cassandra API account.
 
