@@ -23,19 +23,18 @@ To plan for the move, you need to:
 After you identify the requirements of your existing workload, create an Azure Cosmos DB account, database, and containers based on the gathered throughput requirements.
 - **Determine the RU charge for an operation**: You can determine the RUs by using the Azure Cosmos DB Cassandra API SDK of your choice. This example shows the .NET version of getting RU charges.
 
-    ```
-    var tableInsertStatement = table.Insert(sampleEntity);
+        ```
+        var tableInsertStatement = table.Insert(sampleEntity);
+        var insertResult = await tableInsertStatement.ExecuteAsync();
 
-    var insertResult = await tableInsertStatement.ExecuteAsync();
+        foreach (string key in insertResult.Info.IncomingPayload)
 
-    foreach (string key in insertResult.Info.IncomingPayload)
-
-        {
+            {
             byte[] valueInBytes = customPayload[key];
             string value = Encoding.UTF8.GetString(valueInBytes);
             Console.WriteLine($"CustomPayload:  {key}: {value}");  
-        }   
-    ```
+            }   
+        ```
 
 - **Allocate the required throughput**: Azure Cosmos DB can automatically scale storage and throughput as your requirements grow. You can estimate your throughput needs by using the [Azure Cosmos DB request unit calculator](https://www.documentdb.com/capacityplanner).
 
