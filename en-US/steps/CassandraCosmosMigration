@@ -11,13 +11,7 @@ A high-level outline of the process includes:
 
 Using Cassandra API for Azure Cosmos DB has several benefits, including:
 
-- **Global distribution and availability**: Azure Cosmos DB provides the ability to globally distribute data across all Azure regions and serve the data locally while ensuring low latency data access and high availability. Azure Cosmos DB provides 99.99% high availability within a region and 99.999% read and write availability across multiple regions.
 - **No operations management**: As a fully managed cloud service, Azure Cosmos DB Cassandra API removes the overhead of managing and monitoring a myriad of settings across OS, JVM, and yaml files and their interactions. 
-- **Performance management**: Azure Cosmos DB removes the overhead in managing scheduling compaction, managing tombstones, setting up bloom filters and replicas manually.
-- **Ability to use existing code and tools**: Azure Cosmos DB provides wire protocol level compatibility with existing Cassandra SDKs and tools. This compatibility ensures you can use your existing codebase with Azure Cosmos DB Cassandra API with trivial changes.
-- **Throughput and storage elasticity**: Azure Cosmos DB provides guaranteed throughput across all regions and can scale the provisioned throughput with Azure portal, PowerShell, or CLI operations. You can elastically scale storage and throughput for your tables as needed with predictable performance.
-- **Choice of consistency**: Azure Cosmos DB provides the choice of five well-defined consistency levels to achieve optimal tradeoffs between consistency and performance. 
-- **Enterprise grade**: Azure cosmos DB provides compliance certifications to ensure users can use the platform securely. Azure Cosmos DB also provides encryption at rest and in motion, IP firewall, and audit logs for control plane activities.
 
 ### Plan for moving data
 
