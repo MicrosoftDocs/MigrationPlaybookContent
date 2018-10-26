@@ -28,10 +28,15 @@ After you identify the requirements of your existing workload, create an Azure C
     var insertResult = await tableInsertStatement.ExecuteAsync();
 
     foreach (string key in insertResult.Info.IncomingPayload)
+
         {
+
             byte[] valueInBytes = customPayload[key];
+
             string value = Encoding.UTF8.GetString(valueInBytes);
+
             Console.WriteLine($"CustomPayload:  {key}: {value}");
+            
         }   
 
 - **Allocate the required throughput**: Azure Cosmos DB can automatically scale storage and throughput as your requirements grow. You can estimate your throughput needs by using the [Azure Cosmos DB request unit calculator](https://www.documentdb.com/capacityplanner).
