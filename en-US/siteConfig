@@ -114,6 +114,7 @@
         "name": "Azure Cosmos DB",
         "longname": "Azure Cosmos DB",
         "URL": "/scenario/cassandra-to-cosmos"
+      }]
     },
     {
       "title": "Access",
