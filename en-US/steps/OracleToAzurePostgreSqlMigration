@@ -45,4 +45,4 @@ If the **output.sql** file only includes the Pg transaction header and footer th
 
 ### Contact Support 
 
-If you need assistance with your migrations beyond the ora2pg tooling, contact the [@Ask Azure DB for PostgreSQL](mailto:AskAzureDBforPostgreSQL@service.microsoft.com) about other migration options. 
+If you need assistance with your migrations beyond the ora2pg tooling, contact the [@Ask Azure DB for PostgreSQL](mailto:AskAzureDBforPostgreSQL@service.microsoft.com) alias for information about other migration options. 
