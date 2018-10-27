@@ -42,3 +42,7 @@ After the export is done, to import it to the target database, use the following
 ### Troubleshooting tips
 
 If the **output.sql** file only includes the Pg transaction header and footer there are two possible reasons. If the Perl script ora2pg dumps an ORA-XXX error, then the DSN or log in information is wrong. Check the error and your settings, and then try again. If the Perl script doesn’t indicate any error and the output file is empty, then the user lacks the rights to extract data from the database. Try to connect to the Oracle database as super user or view the directive USER_GRANTS above and at next section, especially the SCHEMA directive.
+
+### Contact Support 
+
+If you need assistance with your migrations beyond the ora2pg tooling, contact the [Product Engineering Group](mailto:AskAzureDBforPostgreSQL@service.microsoft.com) about other migration options. 
