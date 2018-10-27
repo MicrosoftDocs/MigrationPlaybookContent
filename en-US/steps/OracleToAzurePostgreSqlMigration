@@ -25,12 +25,13 @@ Below are a few of the configuration parameters related to using Oracle as sourc
     TYPE        TABLE VIEW
     TYPE        TABLE PACKAGE COPY VIEW GRANT SEQUENCE TRIGGER FUNCTION PROCEDURE TABLESPACE TYPE PARTITION
     OUTPUT      hr_schema.sql
-
+    
 ### Testing the connection
 After setting the Oracle database DSN, you can execute ora2pg to see if it works by using the following command:
 
     ora2pg -t SHOW_VERSION -c config/ora2pg.conf
 
+   
 ora2pg works by exporting to an output file that the utility uses to convert the schema and generate the insert statements for the data. The data is then imported to the target DB. With ora2pg, if you use the SCHEMA option, the utility will allow only one schema at a time. To use ora2pg to export all schemas, simple comment out the SCHEMA option. In our example, all non-Oracle users will be extracted.
 
 ### Migrating to Azure Database for PostgreSQL
@@ -42,3 +43,7 @@ After the export is done, to import it to the target database, use the following
 ### Troubleshooting tips
 
 If the **output.sql** file only includes the Pg transaction header and footer there are two possible reasons. If the Perl script ora2pg dumps an ORA-XXX error, then the DSN or log in information is wrong. Check the error and your settings, and then try again. If the Perl script doesn’t indicate any error and the output file is empty, then the user lacks the rights to extract data from the database. Try to connect to the Oracle database as super user or view the directive USER_GRANTS above and at next section, especially the SCHEMA directive.
+
+### Contact support 
+
+If you need assistance with your migrations beyond the ora2pg tooling, contact the [@Ask Azure DB for PostgreSQL](mailto:AskAzureDBforPostgreSQL@service.microsoft.com) alias for information about other migration options. 
