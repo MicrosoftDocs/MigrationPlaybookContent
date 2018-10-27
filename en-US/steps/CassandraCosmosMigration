@@ -77,7 +77,7 @@ You can use the [CQL COPY command](http://cassandra.apache.org/doc/latest/tools/
 3.	Use the CQL COPY command to copy local data to the Cassandra API account.
 
         ```
-            COPY exampleks.tablename FROM filefolderx/*.csv
+        COPY exampleks.tablename FROM filefolderx/*.csv
         ```
 
 ### Move data using Spark
