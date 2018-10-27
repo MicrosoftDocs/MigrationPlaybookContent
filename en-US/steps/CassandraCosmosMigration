@@ -12,7 +12,9 @@ A high-level outline of the process includes:
 Using Cassandra API for Azure Cosmos DB has several benefits, including:
 
 - **No operations management**: As a fully managed cloud service, Azure Cosmos DB Cassandra API removes the overhead of managing and monitoring a myriad of settings across OS, JVM, and yaml files and their interactions. 
+
 - **Significant cost savings**: Customers on Cosmos DB Cassandra API can see major cost savings compared to customers using Cassandra on Iaas or On-Prem Cassandra. Customers using Cassandra on Iaas must pay for VM’s, bandwidth, and any applicable DSE licenses. Additionally, On-Prem Cassandra customers must manage their own data centers, servers, SSD storage, networking, and electricity costs. Cosmos DB customers have a simplified and smaller bill consisting of simply bandwidth, storage, and throughput.
+
 - ***Ability to use existing code and tools**: Azure Cosmos DB provides wire protocol level compatibility with existing Cassandra SDKs and tools. This compatibility ensures you can use your existing codebase with Azure Cosmos DB Cassandra API with trivial changes.
 
 ### Plan for moving data
