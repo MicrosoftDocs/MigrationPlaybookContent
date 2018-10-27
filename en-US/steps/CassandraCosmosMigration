@@ -76,9 +76,9 @@ You can use the [CQL COPY command](http://cassandra.apache.org/doc/latest/tools/
 
 3.	Use the CQL COPY command to copy local data to the Cassandra API account.
 
-        ```
-            COPY exampleks.tablename FROM filefolderx/*.csv
-        ```
+    ```
+        COPY exampleks.tablename FROM filefolderx/*.csv
+    ```
 
 ### Move data using Spark
 
@@ -96,4 +96,4 @@ To learn more about the Azure Cosmos DB Cassandra API, view the following resour
 
 ### Migration support
 
-The Cosmos DB Ninja and PM Teams are happy to assist customers with migrations. Please reach out to the product team directly at [askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com).
+The Cosmos DB Ninja and PM Teams are happy to assist customers with migrations. Please reach out to the product team directly at [@askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com).
