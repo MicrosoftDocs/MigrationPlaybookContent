@@ -108,6 +108,14 @@
       }]
     },
     {
+      "title": "Cassandra",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Cassandra_270x160.png",
+      "pages": [{
+        "name": "Azure Cosmos DB",
+        "longname": "Azure Cosmos DB",
+        "URL": "/scenario/cassandra-to-cosmos"
+    },
+    {
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
       "pages": [{
@@ -144,15 +152,6 @@
         "name": "Azure Cosmos DB",
         "longname": "Azure Cosmos DB",
         "URL": "/scenario/azuretable-to-cosmos"
-      }]
-    },
-    {
-      "title": "Cassandra",
-      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Cassandra_270x160.png",
-      "pages": [{
-        "name": "Azure Cosmos DB",
-        "longname": "Azure Cosmos DB",
-        "URL": "/scenario/cassandra-to-cosmos"
       }]
     }
   ],
