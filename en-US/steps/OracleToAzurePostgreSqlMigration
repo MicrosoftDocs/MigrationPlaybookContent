@@ -18,6 +18,7 @@ After completing the prerequisites, the first step to prepare for the migration 
 
 Below are a few of the configuration parameters related to using Oracle as source. For this example, assume that we are exporting only the HR Schema.
 
+    ```
     ORACLE_DSN  dbi:Oracle:host=hostname;sid=DB_SID;port=1521
     ORACLE_USER system
     ORACLE_PWD  xxxxx
@@ -25,6 +26,7 @@ Below are a few of the configuration parameters related to using Oracle as sourc
     TYPE        TABLE VIEW
     TYPE        TABLE PACKAGE COPY VIEW GRANT SEQUENCE TRIGGER FUNCTION PROCEDURE TABLESPACE TYPE PARTITION
     OUTPUT      hr_schema.sql
+    ```
 
 ### Testing the connection
 After setting the Oracle database DSN, you can execute ora2pg to see if it works by using the following command:
@@ -37,12 +39,14 @@ ora2pg works by exporting to an output file that the utility uses to convert the
 
 After the export is done, to import it to the target database, use the following command:
 
-    Psql -h hostname -p 5432 -d databasename -U  username -W  -f ora2pg_output_filename
+    ```
+        Psql -h hostname -p 5432 -d databasename -U  username -W  -f ora2pg_output_filename
+    ```
 
 ### Troubleshooting tips
 
 If the **output.sql** file only includes the Pg transaction header and footer there are two possible reasons. If the Perl script ora2pg dumps an ORA-XXX error, then the DSN or log in information is wrong. Check the error and your settings, and then try again. If the Perl script doesn’t indicate any error and the output file is empty, then the user lacks the rights to extract data from the database. Try to connect to the Oracle database as super user or view the directive USER_GRANTS above and at next section, especially the SCHEMA directive.
 
-### Contact Support 
+### Contact support 
 
 If you need assistance with your migrations beyond the ora2pg tooling, contact the [@Ask Azure DB for PostgreSQL](mailto:AskAzureDBforPostgreSQL@service.microsoft.com) alias for information about other migration options. 
