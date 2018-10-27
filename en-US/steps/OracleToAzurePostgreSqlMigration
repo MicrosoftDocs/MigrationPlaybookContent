@@ -31,8 +31,10 @@ Below are a few of the configuration parameters related to using Oracle as sourc
 ### Testing the connection
 After setting the Oracle database DSN, you can execute ora2pg to see if it works by using the following command:
 
-    ora2pg -t SHOW_VERSION -c config/ora2pg.conf
-
+    ```
+        ora2pg -t SHOW_VERSION -c config/ora2pg.conf
+    ```
+   
 ora2pg works by exporting to an output file that the utility uses to convert the schema and generate the insert statements for the data. The data is then imported to the target DB. With ora2pg, if you use the SCHEMA option, the utility will allow only one schema at a time. To use ora2pg to export all schemas, simple comment out the SCHEMA option. In our example, all non-Oracle users will be extracted.
 
 ### Migrating to Azure Database for PostgreSQL
