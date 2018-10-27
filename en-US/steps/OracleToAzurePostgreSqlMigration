@@ -19,13 +19,13 @@ After completing the prerequisites, the first step to prepare for the migration 
 Below are a few of the configuration parameters related to using Oracle as source. For this example, assume that we are exporting only the HR Schema.
 
     ```
-    ORACLE_DSN  dbi:Oracle:host=hostname;sid=DB_SID;port=1521
-    ORACLE_USER system
-    ORACLE_PWD  xxxxx
-    SCHEMA      HR
-    TYPE        TABLE VIEW
-    TYPE        TABLE PACKAGE COPY VIEW GRANT SEQUENCE TRIGGER FUNCTION PROCEDURE TABLESPACE TYPE PARTITION
-    OUTPUT      hr_schema.sql
+        ORACLE_DSN  dbi:Oracle:host=hostname;sid=DB_SID;port=1521
+        ORACLE_USER system
+        ORACLE_PWD  xxxxx
+        SCHEMA      HR
+        TYPE        TABLE VIEW
+        TYPE        TABLE PACKAGE COPY VIEW GRANT SEQUENCE TRIGGER FUNCTION PROCEDURE TABLESPACE TYPE PARTITION
+        OUTPUT      hr_schema.sql
     ```
 
 ### Testing the connection
