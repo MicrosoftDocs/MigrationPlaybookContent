@@ -10,29 +10,30 @@ Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator (Previe
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
 
+<br>
 <table>
 <thead>
-<tr>
-<td width="150">
+<tr style="height: 18.2px;">
+<td style="height: 18.2px; width: 150px;" width="150">
 <p>Title/link</p>
 </td>
-<td width="405">
+<td style="height: 18.2px;" width="405">
 <p>Description</p>
 </td>
-<td width="116">
+<td style="height: 18.2px;" width="116">
 <p>Migration stage</p>
 </td>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td width="150">
+<tr style="height: 89px;">
+<td style="height: 89px;" width="150">
 <p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/Data%20Workload%20Assessment%20Model%20and%20Tool">Data Workload Assessment Model and Tool</a></p>
 </td>
-<td width="405">
+<td style="height: 89px;" width="405">
 <p>This tool provides suggested &ldquo;best fit&rdquo; target platforms, cloud readiness, and application/database remediation level for a given workload. It offers simple, one-click calculation and report generation that greatly helps to accelerate large estate assessments by providing and automated and uniform target platform decision process.</p>
 </td>
-<td width="116">
+<td style="height: 89px;" width="116">
 <p>Pre-migration</p>
 </td>
 </tr>
