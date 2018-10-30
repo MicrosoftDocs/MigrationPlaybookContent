@@ -5,3 +5,105 @@ As you prepare for migrating to the cloud, verify that your source environment i
 ### Additional resources
 
 Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator (Preview)](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
+
+### Migration learnings and best practices from real-world engagements
+
+For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
+
+<br>
+<table width="100%">
+<thead>
+<tr>
+<td width="18%">
+<p><strong>Title/link</strong></p>
+</td>
+<td width="59%">
+<p><strong>Description</strong></p>
+</td>
+<td width="21%">
+<p><strong>Migration phase</strong></p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/Data%20Workload%20Assessment%20Model%20and%20Tool">Data Workload Assessment Model and Tool</a></p>
+</td>
+<td width="59%">
+<p>This tool provides suggested &ldquo;best fit&rdquo; target platforms, cloud readiness, and application/database remediation level for a given workload. It offers simple, one-click calculation and report generation that greatly helps to accelerate large estate assessments by providing and automated and uniform target platform decision process.</p>
+</td>
+<td width="21%">
+<p>Pre-migration</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/Oracle%20Inventory%20Script%20Artifacts">Oracle Inventory Script Artifacts</a></p>
+</td>
+<td width="59%">
+<p>This asset includes a PL/SQL query that hits Oracle system tables and provides a count of objects by schema type, object type, and status. It also provides a rough estimate of &lsquo;Raw Data&rsquo; in each schema and the sizing of tables in each schema, with results stored in a CSV format.</p>
+</td>
+<td width="21%">
+<p>Pre-migration</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/SSMA%20Assessment%20Tool">SSMA Assessment Tool</a></p>
+</td>
+<td width="59%">
+<p>This set of resource uses a .csv file as entry (sources.csv in the project folders) to produce the xml files that are needed to run SSMA assessment in console mode. The source.csv is provided by the customer based on an inventory of existing Oracle instances. The output files are <strong>AssessmentReportGeneration_source_1.xml</strong>, <strong>ServersConnectionFile.xml</strong>, and <strong>VariableValueFile.xml</strong>.</p>
+</td>
+<td width="21%">
+<p>Pre-migration</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="http://download.microsoft.com/download/E/C/2/EC21740A-C04D-4344-BAB9-1E519FB0F463/Optimization%20Guide%20for%20Mainframe%20App%20and%20Data%20recompiled%20to%20.NET%20and%20SQL%20Server.docx">Optimization Guide for Mainframe App/Data recompiled to .NET &amp; SQL Server</a></p>
+</td>
+<td width="59%">
+<p>This guide offers optimization advice for executing point-lookups against SQL Server from .NET as efficiently as possible. Customers wishing to migrate from mainframe databases to SQL Server may desire to migrate existing mainframe-optimized design patterns, especially when using 3rd party tools (such as Raincode Compiler) to automatically migrate mainframe code (COBOL/JCL, etc.) to T-SQL and C# .NET.</p>
+</td>
+<td width="21%">
+<p>Migration</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="http://download.microsoft.com/download/8/D/B/8DBE04B2-9047-477D-B716-AB89BE97B70C/Oracle%20to%20SQL%20Server%20Migration%20Handbook.docx">Oracle to SQL Server Migration Handbook</a></p>
+</td>
+<td width="59%">
+<p>This document focuses on the tasks associated with migrating an Oracle database to the latest version of SQL Serverbase. If the migration requires changes to features/functionality, then the possible impact of each change on the applications that use the database must be considered carefully.</p>
+</td>
+<td width="21%">
+<p>Migration</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="http://download.microsoft.com/download/2/6/8/268507E5-0AD8-4AC1-B49B-D593D2442F5E/SSMA%20for%20Oracle%20common%20errors%20and%20how%20to%20fix%20it.docx">SSMA for Oracle Common Errors and how to fix them</a></p>
+</td>
+<td width="59%">
+<p>With Oracle, you can assign a non-scalar condition in the WHERE clause. However, SQL Server doesn&rsquo;t support this type of condition. As a result, SQL Server Migration Assistant (SSMA) for Oracle doesn&rsquo;t&nbsp;convert queries with a non-scalar condition in the WHERE clause, instead generating an error&nbsp;O2SS0001. This white paper provides more details on the issue and ways to resolve it.</p>
+</td>
+<td width="21%">
+<p>Migration</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="http://download.microsoft.com/download/7/A/4/7A461726-2669-4CBD-BD8F-30635A137D89/Azure%20VM%20-%20Oracle%2012c%20on%20Linux%20-%20Configuration%20Steps%20-%20working.docx">Setting up Oracle 12c Enterprise and Getting It Working by Using the Azure Marketplace Template</a></p>
+</td>
+<td width="59%">
+<p>This white paper provides a step-by-step walkthrough of setting up and implementing Oracle 12c Enterprise by using the Azure Marketplace Template.</p>
+</td>
+<td width="21%">
+<p>Post-migration</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Note**: These resources were developed as part of the Data Migration Jumpstart Program (DM Jumpstart), which is sponsored by the Azure Data Group engineering team. The core charter DM Jumpstart is to unblock and accelerate complex modernization and compete data platform migration opportunities to Microsoft’s Azure Data platform. If you think your organization would be interested in participating in the DM Jumpstart program, please contact your account team and ask that they submit a nomination.
