@@ -5,7 +5,7 @@
 	"rationale": "SqlDwRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Migration",
+			"name": "Process",
 			"items": [{
 				"filelocation": "OracleToSqlDwMigrate",
 				"actions": []
