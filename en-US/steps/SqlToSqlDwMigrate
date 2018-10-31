@@ -28,9 +28,9 @@ Another key goal of planning is to adjust your design to ensure that your soluti
 ### Perform the migration
 
 Performing a successful migration requires you to migrate your table schemas, code, and data. For more detailed guidance on these topics, see:
-* [Migrate your schemas](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
-* [Migrate your code](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
-* [Migrate your data](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-data).
+* The article [Migrate your schemas](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
+* The article [Migrate your code](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
+* The article [Migrate your data](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-data).
 
 ### Additional resources
 
