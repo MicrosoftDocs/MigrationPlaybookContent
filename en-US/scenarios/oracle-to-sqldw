@@ -5,18 +5,6 @@
 	"rationale": "SqlDwRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Why migrate?",
-			"items": [{
-					"filelocation": "SqlDwRationaleStatic",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverviewStatic",
-					"actions": []
-				}
-			]
-		},
-		{
 			"name": "Migration ",
 			"items": [{
 				"filelocation": "OracleToSqlDwMigrate",
