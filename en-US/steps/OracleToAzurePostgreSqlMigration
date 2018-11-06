@@ -58,9 +58,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p><strong>Description</strong></p>
 </td>
-<td width="21%">
-<p><strong>Migration phase</strong></p>
-</td>
 </tr>
 </thead>
 <tbody>
@@ -71,9 +68,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This asset includes a PL/SQL query that hits Oracle system tables and provides a count of objects by schema type, object type, and status. It also provides a rough estimate of &lsquo;Raw Data&rsquo; in each schema and the sizing of tables in each schema, with results stored in a CSV format.</p>
 </td>
-<td width="21%">
-<p>Pre-migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -81,9 +75,6 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>This set of resource uses a .csv file as entry (sources.csv in the project folders) to produce the xml files that are needed to run SSMA assessment in console mode. The source.csv is provided by the customer based on an inventory of existing Oracle instances. The output files are <strong>AssessmentReportGeneration_source_1.xml</strong>, <strong>ServersConnectionFile.xml</strong>, and <strong>VariableValueFile.xml</strong>.</p>
-</td>
-<td width="21%">
-<p>Pre-migration</p>
 </td>
 </tr>
 <tr>
@@ -93,9 +84,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>With Oracle, you can assign a non-scalar condition in the WHERE clause. However, SQL Server doesn&rsquo;t support this type of condition. As a result, SQL Server Migration Assistant (SSMA) for Oracle doesn&rsquo;t&nbsp;convert queries with a non-scalar condition in the WHERE clause, instead generating an error&nbsp;O2SS0001. This white paper provides more details on the issue and ways to resolve it.</p>
 </td>
-<td width="21%">
-<p>Migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -103,9 +91,6 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>This white paper provides a step-by-step walkthrough of setting up and implementing Oracle 12c Enterprise by using the Azure Marketplace Template.</p>
-</td>
-<td width="21%">
-<p>Post-migration</p>
 </td>
 </tr>
 </tbody>

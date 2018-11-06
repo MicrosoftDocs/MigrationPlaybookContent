@@ -20,9 +20,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p><strong>Description</strong></p>
 </td>
-<td width="21%">
-<p><strong>Migration phase</strong></p>
-</td>
 </tr>
 </thead>
 <tbody>
@@ -32,9 +29,6 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>This guide offers optimization advice for executing point-lookups against SQL Server from .NET as efficiently as possible. Customers wishing to migrate from mainframe databases to SQL Server may desire to migrate existing mainframe-optimized design patterns, especially when using 3rd party tools (such as Raincode Compiler) to automatically migrate mainframe code (COBOL/JCL etc) to T-SQL and C# .NET.</p>
-</td>
-<td width="21%">
-<p>Migration</p>
 </td>
 </tr>
 </tbody>
