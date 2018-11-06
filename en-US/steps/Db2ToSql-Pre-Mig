@@ -20,9 +20,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p><strong>Description</strong></p>
 </td>
-<td width="21%">
-<p><strong>Migration phase</strong></p>
-</td>
 </tr>
 </thead>
 <tbody>
@@ -33,9 +30,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This tool provides suggested &ldquo;best fit&rdquo; target platforms, cloud readiness, and application/database remediation level for a given workload. It offers simple, one-click calculation and report generation that greatly helps to accelerate large estate assessments by providing and automated and uniform target platform decision process.</p>
 </td>
-<td width="21%">
-<p>Pre-migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -44,9 +38,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>After running the SQL script on a database, you can export the results to a file on the file system. Several file formats are supported, including *.csv, so that you can capture the results in external tools such as spreadsheets. This method can be useful if you want to more easily share results information with team who do not have the workbench installed.</p>
 </td>
-<td width="21%">
-<p>Pre-migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -54,9 +45,6 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>This asset includes a SQL query that hits IBM DB2 LUW version 11.1 system tables and provides a count of objects by schema and object type, a rough estimate of &lsquo;Raw Data&rsquo; in each schema, and the sizing of tables in each schema, with results stored in a CSV format.</p>
-</td>
-<td width="21%">
-<p>Pre-migration</p>
 </td>
 </tr>
 </tbody>

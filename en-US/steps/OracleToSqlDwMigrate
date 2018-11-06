@@ -50,9 +50,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p><strong>Description</strong></p>
 </td>
-<td width="21%">
-<p><strong>Migration phase</strong></p>
-</td>
 </tr>
 </thead>
 <tbody>
@@ -63,9 +60,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This tool provides suggested &ldquo;best fit&rdquo; target platforms, cloud readiness, and application/database remediation level for a given workload. It offers simple, one-click calculation and report generation that greatly helps to accelerate large estate assessments by providing and automated and uniform target platform decision process.</p>
 </td>
-<td width="21%">
-<p>Pre-migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -74,9 +68,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This asset includes a PL/SQL query that hits Oracle system tables and provides a count of objects by schema type, object type, and status. It also provides a rough estimate of &lsquo;Raw Data&rsquo; in each schema and the sizing of tables in each schema, with results stored in a CSV format.</p>
 </td>
-<td width="21%">
-<p>Pre-migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -84,9 +75,6 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>This set of resource uses a .csv file as entry (sources.csv in the project folders) to produce the xml files that are needed to run SSMA assessment in console mode. The source.csv is provided by the customer based on an inventory of existing Oracle instances. The output files are <strong>AssessmentReportGeneration_source_1.xml</strong>, <strong>ServersConnectionFile.xml</strong>, and <strong>VariableValueFile.xml</strong>.</p>
-</td>
-<td width="21%">
-<p>Pre-migration</p>
 </td>
 </tr>
 <tr>
@@ -98,9 +86,6 @@ For additional assistance with completing this migration scenario, please see th
 <p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You need to guarantee the files being extracted are UTF-8/UTF-16 compatible (you can follow this white paper to achieve this)</p>
 <p>You need to guarantee NULL values are handled correctly &ndash; use empty string</p>
 </td>
-<td width="21%">
-<p>Migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -108,9 +93,6 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>One of the key tasks that an architect must perform execute is to get metrics about a new environment post-migration: collecting load times from on-premises to the cloud, collecting Polybase load times, etc. Of these tasks, one of the most important is to determine the storage size in SQL Data Warehouse compared to the customer's current platform.</p>
-</td>
-<td width="21%">
-<p>Migration</p>
 </td>
 </tr>
 <tr>
@@ -120,9 +102,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This white paper describes recommended data type mapping between Netezza and Azure SQL Data Warehouse.</p>
 </td>
-<td width="21%">
-<p>Migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -131,9 +110,6 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This blog is intended to provide insight on some of the data encoding issues that you may encounter while using Polybase to load data to SQL Data Warehouse. This article also provides some options that you can use to overcome such issues and load the data successfully.</p>
 </td>
-<td width="21%">
-<p>Migration</p>
-</td>
 </tr>
 <tr>
 <td width="18%">
@@ -141,9 +117,6 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>This white paper provides a step-by-step walkthrough of setting up and implementing Oracle 12c Enterprise by using the Azure Marketplace Template.</p>
-</td>
-<td width="21%">
-<p>Post-migration</p>
 </td>
 </tr>
 </tbody>
