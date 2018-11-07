@@ -63,6 +63,52 @@ The following data migration options are discussed:
 * [SQL migration using Azure Data Migration Service (DMS)](https://www.microsoft.com/handsonlabs/SelfPacedLabs/?storyGuid=3b671509-c3cd-4495-8e8f-354acfa09587) hands-on lab.
 * Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator (Preview)](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
 
+### Migration learnings and best practices from real-world engagements
+
+For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
+
+<br>
+<table width="100%">
+<thead>
+<tr>
+<td width="18%">
+<p><strong>Title/link</strong></p>
+</td>
+<td width="59%">
+<p><strong>Description</strong></p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/Data%20Workload%20Assessment%20Model%20and%20Tool">Data Workload Assessment Model and Tool</a></p>
+</td>
+<td width="59%">
+<p>This tool provides suggested &ldquo;best fit&rdquo; target platforms, cloud readiness, and application/database remediation level for a given workload. It offers simple, one-click calculation and report generation that greatly helps to accelerate large estate assessments by providing and automated and uniform target platform decision process.</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/Bulk%20Database%20Creation%20with%20PowerShell">Bulk Database Creation with PowerShell</a></p>
+</td>
+<td width="59%">
+<p>Three scripts that create a resource group (create_rg.ps1), SQL Server to host Azure SQL Databases (create_sqlserver.ps1), and Azure SQL Databases (create_sqldb.ps1). The scripts include loop capabilities, so you can iterate and create as many databases and SQL Servers as necessary.</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/Bulk%20Schema%20Deployment%20with%20MSSQL-Scripter%20&amp;%20PowerShell">Bulk Schema Deployment with MSSQL-Scripter &amp; PowerShell</a></p>
+</td>
+<td width="59%">
+<p>This asset creates a resource group, one or multiple SQL Servers to host one or multiple Azure SQL Databases, exports every schema from an on-premises SQL Server (or multiple SQL Servers (2005+) (or VM), and imports it to Azure SQL Database.&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Note**: These resources were developed as part of the Data Migration Jumpstart Program (DM Jumpstart), which is sponsored by the Azure Data Group engineering team. The core charter DM Jumpstart is to unblock and accelerate complex modernization and compete data platform migration opportunities to Microsoft’s Azure Data platform. If you think your organization would be interested in participating in the DM Jumpstart program, please contact your account team and ask that they submit a nomination.
+
 ### Prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites.
