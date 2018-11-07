@@ -5,19 +5,7 @@
 	"rationale": "SqlDwRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Why migrate?",
-			"items": [{
-					"filelocation": "SqlDwRationaleStatic",
-					"actions": []
-				},
-				{
-					"filelocation": "DbMigrationProcessOverviewStatic",
-					"actions": []
-				}
-			]
-		},
-		{
-			"name": "Migration ",
+			"name": "Process",
 			"items": [{
 				"filelocation": "SqlToSqlDwMigrate",
 				"actions": []
