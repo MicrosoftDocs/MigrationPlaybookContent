@@ -11,30 +11,30 @@
 
         **Sample insert:**
 
-        ```bash
-        db.coll.insert({ "playerId": "a067ff", "hashedid": "bb0091", "countryCode": "hk" })
-        ```
+            ```bash
+            db.coll.insert({ "playerId": "a067ff", "hashedid": "bb0091", "countryCode": "hk" })
+            ```
 
     c. Run command to get latest request statistics to obtain the number of Request Units (RU's) required for this write
 
         **Run command:**
 
-        ```bash
-        db.runCommand({getLastRequestStatistics: 1})
-        ```
+            ```bash
+            db.runCommand({getLastRequestStatistics: 1})
+            ```
 
         You'll receive a response such as the following:
 
-        ```bash
-        globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
-        {
-            "_t": "GetRequestStatisticsResponse",
-            "ok": 1,
-            "CommandName": "insert",
-            "RequestCharge": 10,
-            "RequestDurationInMilliSeconds": NumberLong(50)
-        }
-        ```
+            ```bash
+            globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
+            {
+                "_t": "GetRequestStatisticsResponse",
+                "ok": 1,
+                "CommandName": "insert",
+                "RequestCharge": 10,
+                "RequestDurationInMilliSeconds": NumberLong(50)
+            }
+            ```
 
     e. Take note of the request charge.
 
