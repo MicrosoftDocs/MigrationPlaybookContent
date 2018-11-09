@@ -40,15 +40,15 @@ Select the best consistency level to ensure well-reasoned trade-offs between con
 
 Until MongoDB 3.6, there was no concept of a session consistency. Therefore, if you set a MongoDB API account to use session consistency, the consistency is downgraded to eventual when using MongoDB APIs. Is this different now since Mongo has session consistency? 
 
-| Azure Cosmos DB Default Consistency Level | Azure Cosmos DB Mongo API (3.4) |
-| ----------------------------------------- | ------------------------------- |
-| Eventual                                  | Eventual                        |
-| Consistent Prefix                         | Eventual with consistent order  |
-| Session                                   | Eventual with consistent order  |
-| Bounded Staleness                         | Strong                          |
-| Strong                                    | Strong                          |
+    | Azure Cosmos DB Default Consistency Level | Azure Cosmos DB Mongo API (3.4) |
+    | ----------------------------------------- | ------------------------------- |
+    | Eventual                                  | Eventual                        |
+    | Consistent Prefix                         | Eventual with consistent order  |
+    | Session                                   | Eventual with consistent order  |
+    | Bounded Staleness                         | Strong                          |
+    | Strong                                    | Strong                          |
 
-**Optimize Indexing Policy:** 
+**Optimize Indexing Policy** 
 
 Cosmos DB indexes all fields by default. It does not expect or require any schema or creation of secondary indices.  
 
