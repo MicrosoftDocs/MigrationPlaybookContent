@@ -19,22 +19,22 @@
 
         **Run command:**
 
-            ```bash
-            db.runCommand({getLastRequestStatistics: 1})
-            ```
+        ```bash
+        db.runCommand({getLastRequestStatistics: 1})
+        ```
 
         You'll receive a response such as the following:
 
-            ```bash
-            globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
-            {
-                "_t": "GetRequestStatisticsResponse",
-                "ok": 1,
-                "CommandName": "insert",
-                "RequestCharge": 10,
-                "RequestDurationInMilliSeconds": NumberLong(50)
-            }
-            ```
+        ```bash
+        globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
+        {
+            "_t": "GetRequestStatisticsResponse",
+            "ok": 1,
+            "CommandName": "insert",
+            "RequestCharge": 10,
+            "RequestDurationInMilliSeconds": NumberLong(50)
+        }
+        ```
 
     e. Take note of the request charge.
 
@@ -42,20 +42,21 @@
 
     a. Enable verbose logging from the MongoDB Shell by using this command: 
 
-            ```bash
-            setVerboseShell(true)
-            ```
+        ```bash
+        setVerboseShell(true)
+        ```
+
     b. Run a simple query against the database: 
 
-            ```bash
-            db.coll.find().limit(1)
-            ```
+        ```bash
+        db.coll.find().limit(1)
+        ```
     
         You'll receive a response like the following:
  
-            ```bash
-            Fetched 1 record(s) in 100(ms)
-            ```
+        ```bash
+        Fetched 1 record(s) in 100(ms)
+        ```
 
 4. Remove the inserted document before the migration to ensure that there are no duplicate documents. You can remove documents by using this command:
 
@@ -75,7 +76,7 @@
 
     e.  For *numInsertionWorkers*, use this equation: 
 
-        ***numInsertionWorkers* =  (provisioned throughput \* latency in seconds) / (batch size * consumed RUs for a single write)*.**
+        *numInsertionWorkers* =  (provisioned throughput \* latency in seconds) / (batch size * consumed RUs for a single write)*.**
 
         **Example:**
 
