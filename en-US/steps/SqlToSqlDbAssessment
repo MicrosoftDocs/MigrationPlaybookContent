@@ -23,6 +23,8 @@ To use DMA to create an assessment, perform the following steps.
     
 5. In the **Add sources** dialog box, select the database(s) that you want to assess, select **Add**, and then select **Start Assessment**.
 
+    **Note**: If you use SSIS, DMA does not yet support the assessment of source SSISDB, but your SSIS projects/packages will be assessed/validated when they are redeployed to the destination SSISDB hosted by Azure SQL Database. For more information, see the **Migrate SSIS packages** section.
+    
     When the assessment is complete, the results display as shown in the following graphic:
 
     ![Assess data migration](https://mpbdevcontent.azureedge.net/Images/dma-assessments.png)

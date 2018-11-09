@@ -5,12 +5,32 @@
 	"rationale": "CosmosDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Migration options to Azure Cosmos DB",
-		"items": [{
-			"filelocation": "MongoCosmosMigration",
-			"actions": []
-		}]
-	}],
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "MongoToCosmos-Pre-Mig",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "MongoToCosmos-Mig",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "MongoToCosmos-Post-Mig",
+					"actions": []
+				}
+			]
+		}
+	],
 	"casestudies": [{
 		"filelocation": "Vipps"
 	}],

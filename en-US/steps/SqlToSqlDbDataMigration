@@ -78,7 +78,9 @@ To use Azure DMS to run a migration project, perform the following steps.
         
     ![DMS source details](https://mpbdevcontent.azureedge.net/Images/dms-source-details1.png)    
     
-    b. Select **Save**, and then select the database for migration. 
+    b. Select **Save**, and then select the database for migration.
+
+    **Note**: If you use SSIS, DMS does not yet support the migration of source SSISDB, but you can redeploy your SSIS projects/packages to the destination SSISDB hosted by Azure SQL Database. For more information, see the **Migrate SSIS packages** section. 
     
     ![Select source database](https://mpbdevcontent.azureedge.net/Images/dms-select-source-db1.png)    
     
