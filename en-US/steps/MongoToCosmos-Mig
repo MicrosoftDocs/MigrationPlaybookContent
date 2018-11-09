@@ -20,7 +20,7 @@
     **Run command:**
 
       ```bash
-            db.runCommand({getLastRequestStatistics: 1})
+      db.runCommand({getLastRequestStatistics: 1})
       ```
 
     You'll receive a response such as the following:
@@ -28,11 +28,11 @@
       ```bash
       globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
        {
-           "_t": "GetRequestStatisticsResponse",
-           "ok": 1,
-           "CommandName": "insert",
-           "RequestCharge": 10,
-           "RequestDurationInMilliSeconds": NumberLong(50)
+        "_t": "GetRequestStatisticsResponse",
+        "ok": 1,
+        "CommandName": "insert",
+        "RequestCharge": 10,
+        "RequestDurationInMilliSeconds": NumberLong(50)
         }
       ```
 
@@ -43,25 +43,25 @@
     a. Enable verbose logging from the MongoDB Shell by using this command: 
 
       ```bash
-        setVerboseShell(true)
+      setVerboseShell(true)
       ```
 
     b. Run a simple query against the database: 
 
       ```bash
-        db.coll.find().limit(1)
+      db.coll.find().limit(1)
       ```
     
     You'll receive a response like the following:
  
       ```bash
-        Fetched 1 record(s) in 100(ms)
+      Fetched 1 record(s) in 100(ms)
       ```
 
 4. Remove the inserted document before the migration to ensure that there are no duplicate documents. You can remove documents by using this command:
 
       ```bash
-        db.coll.remove({})
+      db.coll.remove({})
       ```
 
 5. Calculate the approximate *batchSize* and *numInsertionWorkers* values:
@@ -80,13 +80,13 @@
 
       **Example:**
 
-         | **Property**               | **Value** |
-         | -------------------------- | --------- |
-         | Latency                    | 0.1 s     |
-         | RUs provisioned            | 10000     |
-         | batchSize                  | 24        |
-         | RU charged for 1 doc write | 10 RUs    |
-         | numInsertionWorkers        | ?         |
+       | **Property**               | **Value** |
+       | -------------------------- | --------- |
+       | Latency                    | 0.1 s     |
+       | RUs provisioned            | 10000     |
+       | batchSize                  | 24        |
+       | RU charged for 1 doc write | 10 RUs    |
+       | numInsertionWorkers        | ?         |
 
         ​*numInsertionWorkers = (10000 RUs x 0.1 s) / (24 x 10 RUs) = 4.1666*
 
@@ -96,7 +96,7 @@
 
     b. In the **Subscriptions** pane, select your account name.
 
-    c. In the **Connection String** blade, click **Connection String**.
+    c. In the **Connection String** blade, select **Connection String**.
 
     The right pane contains all the information that you need to successfully connect to your account.
 
