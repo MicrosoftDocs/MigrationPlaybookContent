@@ -9,32 +9,32 @@
 
     b. Run a sample insert command by using one of **your** sample documents from the MongoDB Shell:
 
-        **Sample insert:**
+    **Sample insert:**
 
-            ```bash
-            db.coll.insert({ "playerId": "a067ff", "hashedid": "bb0091", "countryCode": "hk" })
-            ```
+      ```bash
+      db.coll.insert({ "playerId": "a067ff", "hashedid": "bb0091", "countryCode": "hk" })
+      ```
 
     c. Run command to get latest request statistics to obtain the number of Request Units (RU's) required for this write
 
-        **Run command:**
+    **Run command:**
 
-            ```bash
+      ```bash
             db.runCommand({getLastRequestStatistics: 1})
-            ```
+      ```
 
-        You'll receive a response such as the following:
+    You'll receive a response such as the following:
 
-            ```bash
-            globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
-            {
-                "_t": "GetRequestStatisticsResponse",
-                "ok": 1,
-                "CommandName": "insert",
-                "RequestCharge": 10,
-                "RequestDurationInMilliSeconds": NumberLong(50)
-            }
-            ```
+      ```bash
+      globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
+       {
+           "_t": "GetRequestStatisticsResponse",
+           "ok": 1,
+           "CommandName": "insert",
+           "RequestCharge": 10,
+           "RequestDurationInMilliSeconds": NumberLong(50)
+        }
+      ```
 
     e. Take note of the request charge.
 
@@ -42,27 +42,27 @@
 
     a. Enable verbose logging from the MongoDB Shell by using this command: 
 
-            ```bash
-            setVerboseShell(true)
-            ```
+      ```bash
+        setVerboseShell(true)
+      ```
 
     b. Run a simple query against the database: 
 
-            ```bash
-            db.coll.find().limit(1)
-            ```
+      ```bash
+        db.coll.find().limit(1)
+      ```
     
-        You'll receive a response like the following:
+    You'll receive a response like the following:
  
-            ```bash
-            Fetched 1 record(s) in 100(ms)
-            ```
+      ```bash
+        Fetched 1 record(s) in 100(ms)
+      ```
 
 4. Remove the inserted document before the migration to ensure that there are no duplicate documents. You can remove documents by using this command:
 
-        ```bash
+      ```bash
         db.coll.remove({})
-        ```
+      ```
 
 5. Calculate the approximate *batchSize* and *numInsertionWorkers* values:
 
@@ -76,19 +76,19 @@
 
     e.  For *numInsertionWorkers*, use this equation: 
 
-            *numInsertionWorkers* =  (provisioned throughput \* latency in seconds) / (batch size * consumed RUs for a single write)*.**
+       *numInsertionWorkers* =  (provisioned throughput \* latency in seconds) / (batch size * consumed RUs for a single write)*.**
 
-            **Example:**
+      **Example:**
 
-            | **Property**               | **Value** |
-            | -------------------------- | --------- |
-            | Latency                    | 0.1 s     |
-            | RUs provisioned            | 10000     |
-            | batchSize                  | 24        |
-            | RU charged for 1 doc write | 10 RUs    |
-            | numInsertionWorkers        | ?         |
+         | **Property**               | **Value** |
+         | -------------------------- | --------- |
+         | Latency                    | 0.1 s     |
+         | RUs provisioned            | 10000     |
+         | batchSize                  | 24        |
+         | RU charged for 1 doc write | 10 RUs    |
+         | numInsertionWorkers        | ?         |
 
-        ​     *numInsertionWorkers = (10000 RUs x 0.1 s) / (24 x 10 RUs) = 4.1666*
+        ​*numInsertionWorkers = (10000 RUs x 0.1 s) / (24 x 10 RUs) = 4.1666*
 
 6. Get your connection string.
 
@@ -98,37 +98,37 @@
 
     c. In the **Connection String** blade, click **Connection String**.
 
-        The right pane contains all the information that you need to successfully connect to your account.
+    The right pane contains all the information that you need to successfully connect to your account.
 
-        ![Cosmos DB selection string](https://mpbdevcontent.azureedge.net/Images/mongo-selection-string.png)
+     ![Cosmos DB selection string](https://mpbdevcontent.azureedge.net/Images/mongo-selection-string.png)
 
 7. **Option #1** - Import data using mongoimport.
 
     For each collection, export data from MongoDB to JSON by running mongoexport command:
 
-        ```bash
-        mongoexport --db <your_database> --collection <your_collection> --out <json_file>
-        ```
+      ```bash
+      mongoexport --db <your_database> --collection <your_collection> --out <json_file>
+      ```
 
     Run the **mongoimport** migration command for each collection (make sure all collections have the throughput set at or above the number of RUs used in previous calculations). 
 
-        ```bash
-        mongoimport.exe --host <your_hostname>:10255 -u <your_username> -p <your_password> --db <your_database> --collection <your_collection> --ssl --sslAllowInvalidCertificates --type json --file "C:\sample.json"
-        ```
+      ```bash
+     mongoimport.exe --host <your_hostname>:10255 -u <your_username> -p <your_password> --db <your_database> --collection <your_collection> --ssl --sslAllowInvalidCertificates --type json --file "C:\sample.json"
+      ```
 
     **Option #2** - Import data using mongorestore. 
 
     For each collection, export data from MongoDB to bson using **mongodump**.
 
-        ```shell
-        mongodump –-db <your_database> --collection <your_collection>
-        ```
+      ```shell
+      mongodump –-db <your_database> --collection <your_collection>
+      ```
 
     Run **mongorestore** migration command for each collection (make sure all collections have the throughput set at or above the number of RUs used in previous calculations):
 
-        ```shell
-        mongorestore.exe --host <your_hostname>:10255 -u <your_username> -p <your_password> --db <your_database> --collection <your_collection> --ssl --sslAllowInvalidCertificates <path_to_backup>
-        ```
+      ```shell
+      mongorestore.exe --host <your_hostname>:10255 -u <your_username> -p <your_password> --db <your_database> --collection <your_collection> --ssl --sslAllowInvalidCertificates <path_to_backup>
+      ```
 
 8. After completing migration, data should be populated in each collection. You can check through the Azure portal
 
