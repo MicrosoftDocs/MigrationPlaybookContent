@@ -1,5 +1,5 @@
 {
-	"displayname": "Move to Azure Cosmos DB",
+	"displayname": "Move MongoDB data to Azure Cosmos DB",
 	"emailmessage": "Check out the process for migrating from MongoDB to Azure Cosmos Database:",
 	"description": "NoSQL Database",
 	"rationale": "CosmosDbRationaleStatic",
