@@ -1,20 +1,20 @@
 {
-	"displayname": "Move to Azure Cosmos DB",
-	"emailmessage": "Check out the process for migrating from Cassandra to Azure Cosmos Database:",
+	"displayname": "Move Cassandra data to Azure Cosmos DB",
+	"emailmessage": "Check out the process for moving Cassandra data to Azure Cosmos DB:",
 	"description": "NoSQL Database",
 	"rationale": "CosmosDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Migration options to Azure Cosmos DB",
+		"name": "Move to Azure Cosmos DB",
 		"items": [{
 			"filelocation": "CassandraCosmosMigration",
 			"actions": []
 		}]
 	}],
-	"casestudies": [{
-		"filelocation": "Vipps"
-	}],
-	"partners": [{
-		"filelocation": "Infosys"
-	}]
+	"casestudies": [
+
+	],
+	"partners": [
+		
+	]
 }

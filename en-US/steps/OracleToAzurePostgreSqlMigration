@@ -6,6 +6,8 @@ You can use ora2pg, a free tool, to migrate an Oracle or MySQL database to a Pos
 
 ora2pg can be used for tasks from reverse engineering an Oracle database, performing a huge enterprise database migration, or simply replicating some Oracle data into a PostgreSQL database. It’s easy to use and doesn't require any Oracle database knowledge other than the ability to provide the parameters needed to connect to the Oracle database.
 
+**Note**: For more information about using the latest version of ora2pg, see the [ora2pg documentation](https://ora2pg.darold.net/documentation.html).
+
 ### Prerequisites
 1. Before installing ora2pg, be sure to install the corresponding Oracle and PostgreSQL drivers.
 
@@ -23,12 +25,13 @@ Below are a few of the configuration parameters related to using Oracle as sourc
     TYPE        TABLE VIEW
     TYPE        TABLE PACKAGE COPY VIEW GRANT SEQUENCE TRIGGER FUNCTION PROCEDURE TABLESPACE TYPE PARTITION
     OUTPUT      hr_schema.sql
-
+    
 ### Testing the connection
 After setting the Oracle database DSN, you can execute ora2pg to see if it works by using the following command:
 
     ora2pg -t SHOW_VERSION -c config/ora2pg.conf
 
+   
 ora2pg works by exporting to an output file that the utility uses to convert the schema and generate the insert statements for the data. The data is then imported to the target DB. With ora2pg, if you use the SCHEMA option, the utility will allow only one schema at a time. To use ora2pg to export all schemas, simple comment out the SCHEMA option. In our example, all non-Oracle users will be extracted.
 
 ### Migrating to Azure Database for PostgreSQL
@@ -40,3 +43,61 @@ After the export is done, to import it to the target database, use the following
 ### Troubleshooting tips
 
 If the **output.sql** file only includes the Pg transaction header and footer there are two possible reasons. If the Perl script ora2pg dumps an ORA-XXX error, then the DSN or log in information is wrong. Check the error and your settings, and then try again. If the Perl script doesn’t indicate any error and the output file is empty, then the user lacks the rights to extract data from the database. Try to connect to the Oracle database as super user or view the directive USER_GRANTS above and at next section, especially the SCHEMA directive.
+
+### Migration learnings and best practices from real-world engagements
+
+For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
+
+<br>
+<table width="100%">
+<thead>
+<tr>
+<td width="18%">
+<p><strong>Title/link</strong></p>
+</td>
+<td width="59%">
+<p><strong>Description</strong></p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/Oracle%20Inventory%20Script%20Artifacts">Oracle Inventory Script Artifacts</a></p>
+</td>
+<td width="59%">
+<p>This asset includes a PL/SQL query that hits Oracle system tables and provides a count of objects by schema type, object type, and status. It also provides a rough estimate of &lsquo;Raw Data&rsquo; in each schema and the sizing of tables in each schema, with results stored in a CSV format.</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/SSMA%20Assessment%20Tool">SSMA Assessment Tool</a></p>
+</td>
+<td width="59%">
+<p>This set of resource uses a .csv file as entry (sources.csv in the project folders) to produce the xml files that are needed to run SSMA assessment in console mode. The source.csv is provided by the customer based on an inventory of existing Oracle instances. The output files are <strong>AssessmentReportGeneration_source_1.xml</strong>, <strong>ServersConnectionFile.xml</strong>, and <strong>VariableValueFile.xml</strong>.</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="http://download.microsoft.com/download/2/6/8/268507E5-0AD8-4AC1-B49B-D593D2442F5E/SSMA%20for%20Oracle%20common%20errors%20and%20how%20to%20fix%20it.docx">SSMA for Oracle Common Errors and how to fix them</a></p>
+</td>
+<td width="59%">
+<p>With Oracle, you can assign a non-scalar condition in the WHERE clause. However, SQL Server doesn&rsquo;t support this type of condition. As a result, SQL Server Migration Assistant (SSMA) for Oracle doesn&rsquo;t&nbsp;convert queries with a non-scalar condition in the WHERE clause, instead generating an error&nbsp;O2SS0001. This white paper provides more details on the issue and ways to resolve it.</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="http://download.microsoft.com/download/7/A/4/7A461726-2669-4CBD-BD8F-30635A137D89/Azure%20VM%20-%20Oracle%2012c%20on%20Linux%20-%20Configuration%20Steps%20-%20working.docx">Setting up Oracle 12c Enterprise and Getting It Working by Using the Azure Marketplace Template</a></p>
+</td>
+<td width="59%">
+<p>This white paper provides a step-by-step walkthrough of setting up and implementing Oracle 12c Enterprise by using the Azure Marketplace Template.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Note**: These resources were developed as part of the Data Migration Jumpstart Program (DM Jumpstart), which is sponsored by the Azure Data Group engineering team. The core charter DM Jumpstart is to unblock and accelerate complex modernization and compete data platform migration opportunities to Microsoft’s Azure Data platform. If you think your organization would be interested in participating in the DM Jumpstart program, please contact your account team and ask that they submit a nomination.
+
+### Contact support 
+
+If you need assistance with your migrations beyond the ora2pg tooling, contact the [@Ask Azure DB for PostgreSQL](mailto:AskAzureDBforPostgreSQL@service.microsoft.com) alias for information about other migration options. 
