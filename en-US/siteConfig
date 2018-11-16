@@ -161,16 +161,20 @@
       "link": "/scenario/sql-to-azuresqldb"
     },
     {
-      "text": "SQL Server &rarr; SQL Server",
-      "link": "/scenario/sql-to-sqlserver"
+      "text": "SQL Server &rarr; Azure SQL Database Managed Instance",
+      "link": "/scenario/sql-to-azuresqldbmi"
     },
     {
       "text": "Oracle &rarr; SQL Server",
       "link": "/scenario/oracle-to-sqlserver"
     },
     {
-      "text": "DB2 &rarr; Azure SQL Database",
-      "link": "/scenario/db2-to-azuresqldb"
+      "text": "Oracle &rarr; Azure DB for PostgreSQL",
+      "link": "/scenario/oracle-to-azurepostgresql"
+    },
+    {
+      "text": "MongoDB &rarr; Azure Cosmos DB",
+      "link": "/scenario/mongo-to-cosmos"
     }
   ],
    "otherTools": [
