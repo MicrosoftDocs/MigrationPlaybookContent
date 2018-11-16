@@ -171,6 +171,10 @@
     {
       "text": "Oracle &rarr; Azure DB for PostgreSQL",
       "link": "/scenario/oracle-to-azurepostgresql"
+    },
+    {
+      "text": "MongoDB &rarr; Azure Cosmos DB",
+      "link": "/scenario/mongo-to-cosmos"
     }
   ],
    "otherTools": [
