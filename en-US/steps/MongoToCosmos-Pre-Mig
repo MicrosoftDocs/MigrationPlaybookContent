@@ -37,14 +37,12 @@ Please do not hesitate to reach out to [askcosmosdb@microsoft.com](mailto:askcos
 
     ![Create a Cosmos DB database](https://mpbdevcontent.azureedge.net/Images/mongo-create-db.png)
 
-3. Pre-create your collections through the Azure portal. It is strongly recommended that you create unlimited collections and specify a [shard key.](https://docs.microsoft.com/en-us/azure/cosmos-db/partition-data) These have a minimum throughput capacity of 1,000 RU’s. Creating a partition key/shard key, if applicable, should be done **prior** to the migration.
+3. Pre-create your collections through the Azure portal. It is strongly recommended that you create unlimited collections and specify a [shard key](https://docs.microsoft.com/en-us/azure/cosmos-db/partition-data). Setting the partition key/shard key, if applicable, must be done **prior** to the migration.
 
     ![Create a Cosmos DB collection](https://mpbdevcontent.azureedge.net/Images/mongo-create-collection.png)
 
-    Alternatively, you could create a fixed collection. You do not need to specify a partition key for fixed collection and the minimum throughput capacity is 400 RU’s. Fixed collections have a 10GB max size.
+    Alternatively, you could create a fixed collection. You do not need to specify a partition key for fixed collection. Fixed collections have a 10GB max size.
 
-4. If you did not choose to provision database-level throughput, you should specify the throughput for each collection. 
+    Collections can share the [throughput (RU/sec)](https://docs.microsoft.com/azure/cosmos-db/set-throughput) of a parent database if throughput has been defined at the database-level. You can also provision a dedicated amount of throughput (independent of the parent databases) at the collection-level. If throughput is not defined at a database-level, it must be defined at the collection level. Unlimited collections require a minimum of 1,000 RU/sec, while fixed collections have a minimum of 400 RU/sec.
 
-    ![Create a Cosmos DB collection - details](https://mpbdevcontent.azureedge.net/Images/mongo-create-collection2.png)
-
-5. The duration of the migration will depend on the amount of throughput you set for each collection or database. For large data migrations, you should temporarily increase the throughput across your collections and databases.
+4. The duration of the migration will depend on the amount of throughput you set for each collection or database. For large data migrations, you should temporarily increase the throughput across your collections and databases.
