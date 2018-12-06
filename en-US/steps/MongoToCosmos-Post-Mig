@@ -38,15 +38,7 @@ When you estimate the number of request units to provision, it's important to co
 
 Select the best consistency level to ensure well-reasoned trade-offs between consistency, availability, and latency. Consistency models like Strong require additional RU’s during reads. 
 
-Until MongoDB 3.6, there was no concept of a session consistency. Therefore, if you set a MongoDB API account to use session consistency, the consistency is downgraded to eventual when using MongoDB APIs. Is this different now since Mongo has session consistency? 
-
-    | Azure Cosmos DB Default Consistency Level | Azure Cosmos DB Mongo API (3.4) |
-    | ----------------------------------------- | ------------------------------- |
-    | Eventual                                  | Eventual                        |
-    | Consistent Prefix                         | Eventual with consistent order  |
-    | Session                                   | Eventual with consistent order  |
-    | Bounded Staleness                         | Strong                          |
-    | Strong                                    | Strong                          |
+For more information about tuning the consistency model, see the article [Consistency levels in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
 
 **Optimize Indexing Policy** 
 
