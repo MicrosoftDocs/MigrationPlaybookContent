@@ -38,7 +38,7 @@ When you estimate the number of request units to provision, it's important to co
 
 Select the best consistency level to ensure well-reasoned trade-offs between consistency, availability, and latency. Consistency models like Strong require additional RU’s during reads. 
 
-For more information about tuning the consistency model, see the article [Consistency levels in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
+For more information about tuning the consistency model, see the article [Consistency levels in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels).
 
 **Optimize Indexing Policy** 
 
