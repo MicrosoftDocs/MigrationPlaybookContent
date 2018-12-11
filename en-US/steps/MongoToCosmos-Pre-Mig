@@ -4,6 +4,10 @@ As you prepare for migrating to the cloud, verify that you are migrating from a 
 
 Please do not hesitate to reach out to [askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com) with questions.
 
+### Additional resources
+
+For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
+
 ### Preparation of target Cosmos DB account
 
 1. You must create relevant Cosmos DB resources before migrating any data. Create an Azure Cosmos DB account and select MongoDB as the API. Pre-create your databases through the Azure portal. 
