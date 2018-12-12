@@ -30,14 +30,15 @@ For a matrix of the Microsoft and third-party services and tools that are availa
 
 **Database-level throughput:** 
 
-- If throughput for the entire database will be over 10,000 RU’s, it can be shared among any unlimited collections within the database. This can provide significant savings.
+- If throughput for the entire database will at least 400 RU/sec, it can be shared among any unlimited collections within the database. This can provide significant savings.
 - If MongoDB collections were sharded, they can migrate to unlimited collections on Cosmos DB and be eligible for database-level throughput. If MongoDB collections are not sharded, it is easy to specify a partition key during the migration 
 
     *When is this best?* 
 
     - If you want to consider unplanned spikes in workloads by using pooled throughput at the database level 
 
-2. For customers that are migrating many collections within a database, it is strongly recommend to configure database-level throughput. You must make this choice when you create the database. The minimum database-level [throughput capacity](https://docs.microsoft.com/azure/cosmos-db/request-units) is 10,000 RU’s.
+2. For customers that are migrating many collections within a database, it is strongly recommend to configure database-level throughput. You must make this choice when you create the database. The minimum database-level [throughput capacity](https://docs.microsoft.com/azure/cosmos-db/request-units) is 400 RU/sec.
+Each collection sharing database-level throughput requires at least 100 RU/sec. For example, if you are migrating 10 collections, database-level throughput must be at least 1,000 RU.
 
     ![Create a Cosmos DB database](https://mpbdevcontent.azureedge.net/Images/mongo-create-db.png)
 
@@ -47,6 +48,7 @@ For a matrix of the Microsoft and third-party services and tools that are availa
 
     Alternatively, you could create a fixed collection. You do not need to specify a partition key for fixed collection. Fixed collections have a 10GB max size.
 
-    Collections can share the [throughput (RU/sec)](https://docs.microsoft.com/azure/cosmos-db/set-throughput) of a parent database if throughput has been defined at the database-level. You can also provision a dedicated amount of throughput (independent of the parent databases) at the collection-level. If throughput is not defined at a database-level, it must be defined at the collection level. Unlimited collections require a minimum of 1,000 RU/sec, while fixed collections have a minimum of 400 RU/sec.
+    Collections can share the [throughput (RU/sec)](https://docs.microsoft.com/azure/cosmos-db/set-throughput) of a parent database if throughput has been defined at the database-level. You can also provision a dedicated amount of throughput (independent of the parent database) at the collection-level. If throughput is not defined at a database-level, it must be defined at the collection level.
+    Both unlimited and fixed collections require a minimum of 400 RU/sec, when allocating dedicated throughput.
 
 4. The duration of the migration will depend on the amount of throughput you set for each collection or database. For large data migrations, you should temporarily increase the throughput across your collections and databases.
