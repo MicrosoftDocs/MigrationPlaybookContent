@@ -24,7 +24,6 @@ For example:
 **Note**: The detailed syntax for the pg_dump command is available [here](https://www.postgresql.org/docs/9.6/static/app-pgdump.html).
 
 #### For the restore
-
 Copy the backup files to an Azure blob/store and perform the restore from there, which should be a lot faster than performing the restore across the Internet. While this should occur by default, be sure to open the dump file and verify that the create index statements are after the insert of the data. If it is not the case, move the create index statements so that they appear after the insert of the data.
 
 Perform the restore using the **-Fc** and **-j #** switches to parallelize the restore. In this case, # represents the number of cores on the target server. You can also test running the command with # set to twice the number of cores of the target server to see if performance is further enhanced.
