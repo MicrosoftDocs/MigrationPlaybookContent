@@ -37,7 +37,3 @@ For example:
 You can also edit the dump file to include the **set synchronous_commit = off;** statement at the beginning and the **set synchronous_commit = on;** statement at the end of the file. If you do not include the statement to turn on synchronous commit at the end of the file and before the apps change the data, a subsequent loss of data may result.
 
 **Note**: The detailed syntax for the pg_restore command is available [here](https://www.postgresql.org/docs/9.6/static/app-pgrestore.html).
-
-### Minimal downtime migrations
-
-For minimal downtime migrations, see the detailed, step-by-step instructionns in the article [Migrate PostgreSQL to Azure Database for PostgreSQL online using DMS](https://datamigration.microsoft.com/scenario/postgresql-to-azurepostgresql).
