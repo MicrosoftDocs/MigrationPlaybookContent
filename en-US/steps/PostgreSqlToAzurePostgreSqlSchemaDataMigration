@@ -2,9 +2,9 @@
 
 There are two ways to migrate a PostgreSQL database to Azure Database for PostgreSQL.
 
-**For relatively large databases that can’t afford downtime during migration**, see the detailed, step-by-step instructionns in the article [Migrate PostgreSQL to Azure Database for PostgreSQL online using DMS](https://datamigration.microsoft.com/scenario/postgresql-to-azurepostgresql).
+- **For relatively large databases that can’t afford downtime during migration**, see the detailed, step-by-step instructionns in the article [Migrate PostgreSQL to Azure Database for PostgreSQL online using DMS](https://datamigration.microsoft.com/scenario/postgresql-to-azurepostgresql).
 
-**For relatively small (<150GB for example) databases that allow for downtime during migration**, you can use the pg_dump and pg_restore commands.
+- **For relatively small (<150GB for example) databases that allow for downtime during migration**, you can use the pg_dump and pg_restore commands.
 
 ### Dump and restore
 
