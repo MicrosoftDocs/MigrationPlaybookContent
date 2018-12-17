@@ -2,12 +2,11 @@
 
 There are two ways to migrate a PostgreSQL database to Azure Database for PostgreSQL.
 
-**For relatively large databases that can’t afford downtime during migration**, see the detailed, step-by-step instructionns in the article [Migrate PostgreSQL to Azure Database for PostgreSQL online using DMS](https://datamigration.microsoft.com/scenario/postgresql-to-azurepostgresql).
+- **For relatively large databases that can’t afford downtime during migration**, see the detailed, step-by-step instructionns in the article [Migrate PostgreSQL to Azure Database for PostgreSQL online using DMS](https://datamigration.microsoft.com/scenario/postgresql-to-azurepostgresql).
 
-**For relatively small (<150GB for example) databases that allow for downtime during migration**, you can use the pg_dump and pg_restore commands.
+- **For relatively small (<150GB for example) databases that allow for downtime during migration**, you can use the pg_dump and pg_restore commands.
 
 ### Dump and restore
-
 You can use [pg_dump](https://www.postgresql.org/docs/9.6/static/app-pgdump.html) to extract a PostgreSQL database into a dump file and [pg_restore](https://www.postgresql.org/docs/9.6/static/app-pgrestore.html) to restore the PostgreSQL database from an archive file created by pg_dump. For additional detail, see the article [Dump and restore](https://docs.microsoft.com/en-us/azure/postgresql/howto-migrate-using-dump-and-restore) in the Azure Database for PostgreSQL documentation.
 
 To optimize your backup and restore commands and minimize the time required to perform he migration from PostGreSQL to Azure Database for PostgreSQL, consider the following guidance.
@@ -17,7 +16,6 @@ To optimize your backup and restore commands and minimize the time required to p
 **Important**: Be sure to test and validate these commands on a validation system before you use them on a production system.
 
 #### For the backup
-
 Perform the backup using the **-Fc** switch so that you can perform the restore in parallel to speed up the process.
 
 For example:
