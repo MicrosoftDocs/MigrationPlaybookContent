@@ -27,7 +27,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "PostgreSqlToAzurePostgreSqlDataSyncAndCutover_DmsPreview",
+					"filelocation": "PostgreSqlToAzurePostgreSqlDataSyncAndCutover",
 					"actions": []
 				}
 			]
