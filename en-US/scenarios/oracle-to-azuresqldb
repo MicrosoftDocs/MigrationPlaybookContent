@@ -89,6 +89,9 @@
 		},
 		{
 			"filelocation": "DXC"
+		},
+		{
+			"filelocation": "Zen3"
 		}
 	]
 }
