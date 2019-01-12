@@ -79,7 +79,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="http://download.microsoft.com/download/2/6/8/268507E5-0AD8-4AC1-B49B-D593D2442F5E/SSMA%20for%20Oracle%20common%20errors%20and%20how%20to%20fix%20it.docx">SSMA for Oracle Common Errors and how to fix them</a></p>
+<p><a href="https://aka.ms/dmj-wp-ssma-oracle-errors">SSMA for Oracle Common Errors and how to fix them</a></p>
 </td>
 <td width="59%">
 <p>With Oracle, you can assign a non-scalar condition in the WHERE clause. However, SQL Server doesn&rsquo;t support this type of condition. As a result, SQL Server Migration Assistant (SSMA) for Oracle doesn&rsquo;t&nbsp;convert queries with a non-scalar condition in the WHERE clause, instead generating an error&nbsp;O2SS0001. This white paper provides more details on the issue and ways to resolve it.</p>
@@ -87,7 +87,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="http://download.microsoft.com/download/7/A/4/7A461726-2669-4CBD-BD8F-30635A137D89/Azure%20VM%20-%20Oracle%2012c%20on%20Linux%20-%20Configuration%20Steps%20-%20working.docx">Setting up Oracle 12c Enterprise and Getting It Working by Using the Azure Marketplace Template</a></p>
+<p><a href="https://aka.ms/dmj-wp-oracle12c-linux">Setting up Oracle 12c Enterprise and Getting It Working by Using the Azure Marketplace Template</a></p>
 </td>
 <td width="59%">
 <p>This white paper provides a step-by-step walkthrough of setting up and implementing Oracle 12c Enterprise by using the Azure Marketplace Template.</p>
