@@ -20,6 +20,9 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p><strong>Description</strong></p>
 </td>
+<td width="21%">
+<p><strong>Migration phase</strong></p>
+</td>
 </tr>
 </thead>
 <tbody>
@@ -30,6 +33,9 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This tool provides suggested &ldquo;best fit&rdquo; target platforms, cloud readiness, and application/database remediation level for a given workload. It offers simple, one-click calculation and report generation that greatly helps to accelerate large estate assessments by providing and automated and uniform target platform decision process.</p>
 </td>
+<td width="21%">
+<p>Pre-migration</p>
+</td>
 </tr>
 <tr>
 <td width="18%">
@@ -37,6 +43,9 @@ For additional assistance with completing this migration scenario, please see th
 </td>
 <td width="59%">
 <p>After running the SQL script on a database, you can export the results to a file on the file system. Several file formats are supported, including *.csv, so that you can capture the results in external tools such as spreadsheets. This method can be useful if you want to more easily share results information with team who do not have the workbench installed.</p>
+</td>
+<td width="21%">
+<p>Pre-migration</p>
 </td>
 </tr>
 <tr>
@@ -46,13 +55,30 @@ For additional assistance with completing this migration scenario, please see th
 <td width="59%">
 <p>This asset includes a SQL query that hits IBM DB2 LUW version 11.1 system tables and provides a count of objects by schema and object type, a rough estimate of &lsquo;Raw Data&rsquo; in each schema, and the sizing of tables in each schema, with results stored in a CSV format.</p>
 </td>
+<td width="21%">
+<p>Pre-migration</p>
+</td>
 </tr>
 <tr>
 <td width="18%">
-<p><a href="http://download.microsoft.com/download/E/C/2/EC21740A-C04D-4344-BAB9-1E519FB0F463/Optimization%20Guide%20for%20Mainframe%20App%20and%20Data%20recompiled%20to%20.NET%20and%20SQL%20Server.docx">Optimization Guide for Mainframe App/Data recompiled to .NET &amp; SQL Server</a></p>
+<p><a href="https://aka.ms/dmj-wp-mainframe-optimize">Optimization Guide for Mainframe App/Data recompiled to .NET &amp; SQL Server</a></p>
 </td>
 <td width="59%">
 <p>This guide offers optimization advice for executing point-lookups against SQL Server from .NET as efficiently as possible. Customers wishing to migrate from mainframe databases to SQL Server may desire to migrate existing mainframe-optimized design patterns, especially when using 3rd party tools (such as Raincode Compiler) to automatically migrate mainframe code (COBOL/JCL, etc.) to T-SQL and C# .NET.</p>
+</td>
+<td width="21%">
+<p>Migration</p>
+</td>
+</tr>
+<tr>
+<td width="18%">
+<p><a href="https://aka.ms/dmj-wp-db2-purescale">DB2 LUW Pure Scale on Azure - Setup Guide</a></p>
+</td>
+<td width="59%">
+<p>This guide serves as a starting point for a DM2 implementation plan. While business requirements will differ, the same basic pattern applies. This architectural pattern may also be used for OLAP applications on Azure.</p>
+</td>
+<td width="21%">
+<p>Migration</p>
 </td>
 </tr>
 </tbody>
