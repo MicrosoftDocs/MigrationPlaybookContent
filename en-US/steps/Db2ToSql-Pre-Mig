@@ -53,7 +53,7 @@ For additional assistance with completing this migration scenario, please see th
 <p><a href="https://aka.ms/dmj-wp-db2-purescale">DB2 LUW Pure Scale on Azure - Setup Guide</a></p>
 </td>
 <td width="59%">
-<p>This guide serves as a starting point for a DM2 implementation plan. While business requirements will differ, the same basic pattern applies. This architectural pattern may also be used for OLAP applications on Azure.</p>
+<p>This guide serves as a starting point for a DB2 implementation plan. While business requirements will differ, the same basic pattern applies. This architectural pattern may also be used for OLAP applications on Azure.</p>
 </td>
 </tr>
 </tbody>
