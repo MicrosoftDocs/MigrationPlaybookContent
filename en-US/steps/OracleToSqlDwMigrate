@@ -80,7 +80,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="http://download.microsoft.com/download/9/0/7/9076AB70-431D-4F2B-A70E-2837BEBD0BE8/Bug%20Free%20Polybase%20Load%20Method.docx">Bug Free Polybase Load Method</a></p>
+<p><a href="https://aka.ms/dmj-wp-polybase-load">Bug Free Polybase Load Method</a></p>
 </td>
 <td width="59%">
 <p>This guide covers an approach for a bug free Polybase Load using Azure Data Factory (ADF). The following caveats apply:</p>
@@ -92,7 +92,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="http://download.microsoft.com/download/5/0/2/502B793F-4079-40C8-A2B7-6F7BC7167784/Getting%20table%20sizes%20in%20SQL%20DW.docx">Getting table sizes in SQL DW</a></p>
+<p><a href="https://aka.ms/dmj-wp-tables-sqldw">Getting table sizes in SQL DW</a></p>
 </td>
 <td width="59%">
 <p>One of the key tasks that an architect must perform execute is to get metrics about a new environment post-migration: collecting load times from on-premises to the cloud, collecting Polybase load times, etc. Of these tasks, one of the most important is to determine the storage size in SQL Data Warehouse compared to the customer's current platform.</p>
@@ -100,7 +100,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="http://download.microsoft.com/download/A/1/E/A1E377CF-5D4A-4F70-9210-8F98F7BB9E11/Netezza%20to%20SQL%20DW%20Recommended%20Datatype%20Mapping.docx">Netezza to SQL DW Recommended Datatype Mapping</a></p>
+<p><a href="https://aka.ms/dmj-wp-netezza-mapping">Netezza to SQL DW Recommended Datatype Mapping</a></p>
 </td>
 <td width="59%">
 <p>This white paper describes recommended data type mapping between Netezza and Azure SQL Data Warehouse.</p>
@@ -116,7 +116,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="http://download.microsoft.com/download/7/A/4/7A461726-2669-4CBD-BD8F-30635A137D89/Azure%20VM%20-%20Oracle%2012c%20on%20Linux%20-%20Configuration%20Steps%20-%20working.docx">Setting up Oracle 12c Enterprise and Getting It Working by Using the Azure Marketplace Template</a></p>
+<p><a href="https://aka.ms/dmj-wp-oracle12c-linux">Setting up Oracle 12c Enterprise and Getting It Working by Using the Azure Marketplace Template</a></p>
 </td>
 <td width="59%">
 <p>This white paper provides a step-by-step walkthrough of setting up and implementing Oracle 12c Enterprise by using the Azure Marketplace Template.</p>
