@@ -19,7 +19,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "NoConvert",
+					"filelocation": "SqlToSqlNoConvert",
 					"actions": []
 				}
 			]
