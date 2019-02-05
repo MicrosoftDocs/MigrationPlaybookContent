@@ -40,8 +40,8 @@ Source database versions and supported options are shown in the following table:
 <p><strong>SQL Server 2005</strong></p>
 </td>
 <td width="486">
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2005 and then bulk copied into Azure SQL Database Managed Instance.</p>
+<p>-&nbsp;<strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>-&nbsp;<strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2005 and then bulk copied into Azure SQL Database Managed Instance.</p>
 </td>
 </tr>
 <tr>
@@ -49,8 +49,8 @@ Source database versions and supported options are shown in the following table:
 <p><strong>SQL Server 2008</strong> or<br /> <strong>SQL Server 2008 R2</strong></p>
 </td>
 <td width="486">
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into Azure SQL Database Managed Instance.</p>
+<p>-&nbsp;<strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>-&nbsp;<strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into Azure SQL Database Managed Instance.</p>
 </td>
 </tr>
 <tr>
@@ -58,9 +58,9 @@ Source database versions and supported options are shown in the following table:
 <p><strong>SQL Server 2012</strong></p>
 </td>
 <td width="486">
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Transactional replication</strong>: Transactional replication from SQL Server 2012 to Azure SQL Database Managed Instance is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database Managed Instance.</p>
+<p>-&nbsp;<strong>Transactional replication</strong>: Transactional replication from SQL Server 2012 to Azure SQL Database Managed Instance is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.</p>
+<p>-&nbsp;<strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>-&nbsp;<strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database Managed Instance.</p>
 </td>
 </tr>
 <tr>
@@ -68,9 +68,9 @@ Source database versions and supported options are shown in the following table:
 <p><strong>SQL Server 2014</strong></p>
 </td>
 <td width="486">
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Transactional replication</strong>: Transactional replication from SQL Server 2014 to Azure SQL Database Managed Instance is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database Managed Instance.</p>
+<p>-&nbsp;<strong>Transactional replication</strong>: Transactional replication from SQL Server 2014 to Azure SQL Database Managed Instance is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.</p>
+<p>-&nbsp;<strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>-&nbsp;<strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database Managed Instance.</p>
 </td>
 </tr>
 <tr>
@@ -78,9 +78,9 @@ Source database versions and supported options are shown in the following table:
 <p><strong>SQL Server 2016</strong></p>
 </td>
 <td width="486">
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Transactional replication</strong>: Transactional replication from SQL Server 2016 to Azure SQL Database Managed Instance is supported.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2016 and then bulk copied into Azure SQL Database Managed Instance.</p>
+<p>-&nbsp;<strong>Transactional replication</strong>: Transactional replication from SQL Server 2016 to Azure SQL Database Managed Instance is supported.</p>
+<p>-&nbsp;<strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>-&nbsp;<strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2016 and then bulk copied into Azure SQL Database Managed Instance.</p>
 </td>
 </tr>
 <tr>
@@ -88,9 +88,9 @@ Source database versions and supported options are shown in the following table:
 <p><strong>SQL Server 2017</strong></p>
 </td>
 <td width="486">
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Transactional replica</strong>tion: Transactional replication from SQL Server 2017 to Azure SQL Database Managed Instance is supported.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database Managed Instance.</p>
+<p>-&nbsp;<strong>Transactional replica</strong>tion: Transactional replication from SQL Server 2017 to Azure SQL Database Managed Instance is supported.</p>
+<p>-&nbsp;<strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>-&nbsp;<strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database Managed Instance.</p>
 </td>
 </tr>
 </tbody>
