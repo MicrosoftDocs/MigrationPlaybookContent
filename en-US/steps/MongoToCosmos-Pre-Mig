@@ -14,28 +14,13 @@ For a matrix of the Microsoft and third-party services and tools that are availa
 
     ![Create a Cosmos DB account](https://mpbdevcontent.azureedge.net/Images/mongo-create-cosmos-account.png)
 
-
 #### Request Units can be provisioned at two granularities 
- 
 
-**Collection-level throughput:** 
+- **Collection-level throughput:** Can be set for fixed collections or unlimited collections (with partitions). This is best for scenarios in which:
+    - If there are a small number of Azure Cosmos DB containers.
+    - If you want to get the guaranteed throughput on a given container backed by SLA.
 
-- Can be set for fixed collections or unlimited collections (with partitions) 
- 
-
-    *When is this best?* 
-
-    - If there are a small number of Azure Cosmos DB containers 
-    - If you want to get the guaranteed throughput on a given container backed by SLA 
-
-**Database-level throughput:** 
-
-- If throughput for the entire database will at least 400 RU/sec, it can be shared among any unlimited collections within the database. This can provide significant savings.
-- If MongoDB collections were sharded, they can migrate to unlimited collections on Cosmos DB and be eligible for database-level throughput. If MongoDB collections are not sharded, it is easy to specify a partition key during the migration 
-
-    *When is this best?* 
-
-    - If you want to consider unplanned spikes in workloads by using pooled throughput at the database level 
+- **Database-level throughput:** If throughput for the entire database will at least 400 RU/sec, it can be shared among any unlimited collections within the database, which can provide significant savings. Sharded MongoDB collections migrate to unlimited collections on Azure Cosmos DB and be eligible for database-level throughput. For MongoDB collections that are not sharded, it is easy to specify a partition key during the migration. This is best for scenarios in which you want to accommodate unplanned spikes in workloads by using pooled throughput at the database level.
 
 2. For customers that are migrating many collections within a database, it is strongly recommend to configure database-level throughput. You must make this choice when you create the database. The minimum database-level [throughput capacity](https://docs.microsoft.com/azure/cosmos-db/request-units) is 400 RU/sec.
 Each collection sharing database-level throughput requires at least 100 RU/sec. For example, if you are migrating 10 collections, database-level throughput must be at least 1,000 RU.
@@ -52,3 +37,14 @@ Each collection sharing database-level throughput requires at least 100 RU/sec. 
     Both unlimited and fixed collections require a minimum of 400 RU/sec, when allocating dedicated throughput.
 
 4. The duration of the migration will depend on the amount of throughput you set for each collection or database. For large data migrations, you should temporarily increase the throughput across your collections and databases.
+
+### Overview of prerequisites
+
+Before beginning your migration project, it is important to address the associated prerequisites. When moving data from MongoDB to Azure Cosmos DB, there are prerequisites associated with:
+
+* Creating an Azure Cosmos DB's API for MongoDB account. (completed in the previous section).
+* Creating an Azure Virtual Network (VNET) for the Azure Database Migration Service by using the Azure Resource Manager deployment model.
+* Ensuring that VNET Network Security Group rules don't block the necessary communication ports.
+* Opening your Windows firewall to allow Azure DMS to access the source MongoDB server.
+
+**Important**: For detail on the specific prerequisites associated with offline migrations of MongoDB data to Azure Cosmos DB, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#prerequisites).
