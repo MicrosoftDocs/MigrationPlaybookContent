@@ -19,7 +19,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "NoConvert",
+					"filelocation": "SqlToSqlDbMiNoConvert",
 					"actions": []
 				}
 			]

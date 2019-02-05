@@ -27,36 +27,85 @@ The following Azure target is included:
 * Azure SQL Database
 
 The following data migration options are discussed:
-*	Transactional replication
-*	Database migration toolset [Azure Database Migration Service (DMS) and Data Migration Assistant (DMA)]
-*	Bulk load
+* Transactional replication
+* Database migration toolset [Azure Database Migration Service (DMS) and Data Migration Assistant (DMA)]
+* Bulk load
 
-#### From SQL Server 2005
-*	**Migration tools**: Migration is supported by Azure DMS and DMA.
-*	**Bulk load**: Tables can be bulk copied out from SQL Server 2005 and then bulk copied into Azure SQL Database.
+Source database versions and supported options are shown in the following table:
 
-#### From SQL Server 2008 or SQL Server 2008 R2
-*	**Migration tools**: Migration is supported by Azure DMS and DMA.
-*	**Bulk load**: Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into Azure SQL Database.
+<br>
+<table>
+<tbody>
+<tr>
+<td width="144">
+<p><strong>Source database</strong></p>
+</td>
+<td width="528">
+<p><strong>Supported options</strong></p>
+</td>
+</tr>
+<tr>
+<td width="144">
+<p><strong>SQL Server 2005</strong></p>
+</td>
+<td width="528">
+<p>- <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>- <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2005 and then bulk copied into Azure SQL Database.</p>
+</td>
+</tr>
+<tr>
+<td width="144">
+<p><strong>SQL Server 2008</strong> or<strong><br /> SQL Server 2008 R2</strong></p>
+</td>
+<td width="528">
+<p>- <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>- <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into Azure SQL Database.</p>
+</td>
+</tr>
+<tr>
+<td width="144">
+<p><strong>SQL Server 2012</strong></p>
+</td>
+<td width="528">
+<p>- <strong>Transactional replication</strong>: Transactional replication from SQL Server 2012 to Azure SQL Database is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.</p>
+<p>- <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>- <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database.</p>
+</td>
+</tr>
+<tr>
+<td width="144">
+<p><strong>SQL Server 2014</strong></p>
+</td>
+<td width="528">
+<p>- <strong>Transactional replication</strong>: Transactional replication from SQL Server 2014 to Azure SQL Database is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.</p>
+<p>- <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>- <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database.</p>
+</td>
+</tr>
+<tr>
+<td width="144">
+<p><strong>SQL Server 2016</strong></p>
+</td>
+<td width="528">
+<p>- <strong>Transactional replication</strong>: Transactional replication from SQL Server 2016 to Azure SQL Database is supported.</p>
+<p>- <strong>Migration tools</strong>: Migration is supported by Azure DMS and DMA.</p>
+<p>- <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2016 and then bulk copied into Azure SQL Database.</p>
+</td>
+</tr>
+<tr>
+<td width="144">
+<p><strong>SQL Server 2017</strong></p>
+</td>
+<td width="528">
+<p>- <strong>Transactional replication</strong>: Transactional replication from SQL Server 2017 to Azure SQL Database is supported.</p>
+<p>- <strong>Bulk load</strong>: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-#### From SQL Server 2012
-*	**Transactional replication**: Transactional replication from SQL Server 2012 to Azure SQL Database is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.
-*	**Migration tools**: Migration is supported by Azure DMS and DMA.
-*	**Bulk load**: Tables can be bulk copied out from SQL Server 2012 and then bulk copied into Azure SQL Database.
-
-#### From SQL Server 2014
-*	**Transactional replication**: Transactional replication from SQL Server 2014 to Azure SQL Database is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.
-*	**Migration tools**: Migration is supported by Azure DMS and DMA.
-*	**Bulk load**: Tables can be bulk copied out from SQL Server 2014 and then bulk copied into Azure SQL Database.
-
-#### From SQL Server 2016
-*	**Transactional replication**: Transactional replication from SQL Server 2016 to Azure SQL Database is supported.
-*	**Migration tools**: Migration is supported by Azure DMS and DMA.
-*	**Bulk load**: Tables can be bulk copied out from SQL Server 2016 and then bulk copied into Azure SQL Database.
-
-#### From SQL Server 2017
-*	**Transactional replication**: Transactional replication from SQL Server 2017 to Azure SQL Database is supported.
-*	**Bulk load**: Tables can be bulk copied out from SQL Server 2017 and then bulk copied into Azure SQL Database.
+### Offline versus online migrations
+When you migrate SQL Server databases to Azure by using the Azure Database Migration Service, you can perform an offline or an online migration. With an *offline* migration, application downtime begins when the migration starts. For an *online* migration, downtime is limited to the time required to cut over to the new environment when the migration completes. It's recommended to test an offline migration to determine whether the downtime is acceptable; if not, perform an online migration.
 
 ### Additional resources
 
@@ -110,21 +159,25 @@ For additional assistance with completing this migration scenario, please see th
 
 **Note**: These resources were developed as part of the Data Migration Jumpstart Program (DM Jumpstart), which is sponsored by the Azure Data Group engineering team. The core charter DM Jumpstart is to unblock and accelerate complex modernization and compete data platform migration opportunities to Microsoft’s Azure Data platform. If you think your organization would be interested in participating in the DM Jumpstart program, please contact your account team and ask that they submit a nomination.
 
-### Prerequisites
+### Overview of prerequisites
 
-Before beginning your migration project, it is important to address the associated prerequisites.
+Before beginning your migration project, it is important to address the associated prerequisites. When upgrading from SQL Server on-premises or on SQL Server on Virtual Machines to Azure SQL Database, there are prerequisites associated with:
 
-If your source database is running SQL Server on-premises or on SQL Server on Virtual Machines, the following prerequisites apply:
+* Enabling the TCP/IP protocol.
+* Creating an instance of Azure SQL Database.
+* Downloading and installing the [Data Migration Assistant (DMA)](https://www.microsoft.com/download/details.aspx?id=53595).
+* Creating an Azure Virtual Network (VNET) for the Azure Database Migration Service.
+* Ensuring that your VNET Network Security Group rules don't block communication ports.
+* Configuring your Windows Firewall for database engine access.
+* Opening your Windows firewall to allow the Azure Database Migration Service to access the source SQL Server.
+* Creating a server-level [firewall rule](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure) for the Azure SQL Database server to allow the Azure Database Migration Service access to the target databases.
+* Ensuring that the credentials used to connect to source SQL Server instance have [CONTROL SERVER](https://docs.microsoft.com/sql/t-sql/statements/grant-server-permissions-transact-sql) permissions.
+* Ensuring that the credentials used to connect to target Azure SQL Database instance have CONTROL DATABASE permission on the target Azure SQL databases.
+* Taking Full database backups.
+* Enabling Change Data Capture (CDC) on the database and specific table(s) if any of the tables don't have a primary key.
+* Configuring the distributor role for source SQL Server.
+* Disabling database triggers on the target Azure SQL Database.
 
-* Enable the TCP/IP protocol, which is disabled by default during SQL Server Express installation, by following the instructions in the article [Enable or Disable a Server Network Protocol](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol#SSMSProcedure).
-* Create an instance of Azure SQL Database instance, which you do by following the detail in the article [Create an Azure SQL database in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal).
-* Download and install the [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
-* Create a VNET for the Azure Database Migration Service by using the Azure Resource Manager deployment model, which provides site-to-site connectivity to your on-premises source servers by using either ExpressRoute (see the article [ExpressRoute Overview](https://docs.microsoft.com/azure/expressroute/expressroute-introduction)) or VPN (see the article [What is VPN gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways)).
-* Ensure that your Azure Virtual Network (VNET) Network Security Group rules do not block the following communication ports 443, 53, 9354, 445, 12000. For more detail on Azure VNET NSG traffic filtering, see the article [Filter network traffic with network security groups](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-nsg).
-* Configure your Windows Firewall for database engine access by following the steps in the article [Configure a Windows Firewall for Database Engine Access](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access).
-* Open your Windows firewall to allow the Azure Database Migration Service to access the source SQL Server, which by default is TCP port 1433.
-* If you are running multiple named SQL Server instances using dynamic ports, you may wish to enable the SQL Browser Service and allow access to UDP port 1434 through your firewalls so that the Azure Database Migration Service can connect to a named instance on your source server.
-* When using a firewall appliance in front of your source database(s), you may need to add firewall rules to allow the Azure Database Migration Service to access the source database(s) for migration.
-* Create a server-level firewall rule using the steps in the article [Azure SQL Database and SQL Data Warehouse firewall rules](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure) for the Azure SQL Database server to allow the Azure Database Migration Service access to the target databases. Provide the subnet range of the VNET used for the Azure Database Migration Service.
-* Ensure that the credentials used to connect to source SQL Server instance have CONTROL SERVER permissions. See the article [GRANT Server Permissions (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/statements/grant-server-permissions-transact-sql) for more information.
-* Ensure that the credentials used to connect to target Azure SQL Database instance have CONTROL DATABASE permission on the target Azure SQL databases.
+**Important**: For detail on the specific prerequisites associated with:
+* Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#prerequisites).
+* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#prerequisites).
