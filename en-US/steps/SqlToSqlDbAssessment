@@ -18,6 +18,6 @@ An overview of the steps associated with using DMA to create an assessment follo
 
 5.	When the process is complete, review the assessment reports for migration blocking issues and feature parity issues by selecting the specific options.
 
-Important: For detail on the specific steps associated with:
+**Important**: For detail on the specific steps associated with:
 - Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#assess-your-on-premises-database).
 - Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#assess-your-on-premises-database).
