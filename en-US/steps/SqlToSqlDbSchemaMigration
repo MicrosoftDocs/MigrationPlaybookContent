@@ -2,7 +2,7 @@
 
 After you are comfortable with the assessment and satisfied that the selected database is a viable candidate for migration to Azure SQL Database, use the Data Migration Assistant (DMA) to migrate the schema to Azure SQL Database.
 
-**Note**: Before you create a migration project in DMA, be sure that you have already provisioned an Azure SQL database as mentioned in the prerequisites. If you use SSIS, DMA does not yet support the migration of source SSISDB, but you can redeploy your SSIS projects/packages to the destination SSISDB hosted by Azure SQL Database. For more information, see the **Migrate SSIS packages** section.
+**Note**: Before you create a migration project in DMA, be sure that you have already provisioned an Azure SQL database as mentioned in the prerequisites. If you use SSIS, DMA does not yet support the migration of source SSISDB, but you can redeploy your SSIS projects/packages to the destination SSISDB hosted by Azure SQL Database. For more information about migrating SSIS packages, see the article [Migrate SQL Server Integration Services packages to Azure](https://docs.microsoft.com/azure/dms/how-to-migrate-ssis-packages).
 
 ### Overview of schema migration steps
 
