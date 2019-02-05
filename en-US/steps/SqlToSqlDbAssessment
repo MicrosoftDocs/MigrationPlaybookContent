@@ -2,38 +2,22 @@
 
 When the data sources have been identified, the next step is to assess on-premises SQL Server instance(s) migrating to Azure SQL database(s) to understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before migrating to Azure SQL Database.
 
-### Steps
+### Overview of assessment steps
 
-To use DMA to create an assessment, perform the following steps.
+An overview of the steps associated with using DMA to create an assessment follows.
 
-1. In DMA, select the New (+) icon, select the **Assessment** project type.
-    
-2. Specify a project name, in the **Source server type** text box, select **SQL Server**, in the **Target server type** text box, select **Azure SQL Database**, and then select **Create** to create the project.
-    
-    When you are assessing the source SQL Server database migrating to Azure SQL Database, you can choose one or both of the following assessment report types:    
+1.	Open the Data Migration Assistant (DMA), and then begin creating a new assessment project.
 
-    - Check database compatibility
-    - Check feature parity
+2.	Specify a project name, select SQL Server as the source server type, and then select Azure SQL Database as the target server type.
 
-    Both report types are selected by default.
-    
-3. In the Database Migration Assistant, on the **Options** screen, select **Next**.
-    
-4. On the **Select sources** screen, in the **Connect to a server** dialog box, specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**. 
-    
-5. In the **Add sources** dialog box, select the database(s) that you want to assess, select **Add**, and then select **Start Assessment**.
+3.	Select the type(s) of assessment reports (database compatibility and feature parity) that you want to generate.
+    - The SQL Server feature parity category provides a comprehensive set of recommendations, alternative approaches available in Azure, and mitigating steps to help you plan the effort into your migration projects.
+    - The Compatibility issues category identifies partially supported or unsupported features that reflect compatibility issues that might block migrating on-premises SQL Server database(s) to Azure SQL Database. Recommendations are also provided to help you address those issues.
 
-    **Note**: If you use SSIS, DMA does not yet support the assessment of source SSISDB, but your SSIS projects/packages will be assessed/validated when they are redeployed to the destination SSISDB hosted by Azure SQL Database. For more information, see the **Migrate SSIS packages** section.
-    
-    When the assessment is complete, the results display as shown in the following graphic:
+4.	Specify the source connection details for your SQL Server, connect to the source database, and then start the assessment.
 
-    ![Assess data migration](https://mpbdevcontent.azureedge.net/Images/dma-assessments.png)
+5.	When the process is complete, review the assessment reports for migration blocking issues and feature parity issues by selecting the specific options.
 
-    For Azure SQL Database, the assessments identify feature parity issues and migration blocking issues.
-
-    - The **SQL Server feature parity** category provides a comprehensive set of recommendations, alternative approaches available in Azure, and mitigating steps to help you plan the effort into your migration projects.
-    - The **Compatibility issues** category identifies partially supported or unsupported features that reflect compatibility issues that might block migrating on-premises SQL Server database(s) to Azure SQL Database. Recommendations are also provided to help you address those issues.
-
-6. Review the assessment results for migration blocking issues and feature parity issues by selecting the specific options.    
-    
-    You can also select **Export report** to export the results to either JSON or CSV file for analyzing the data at your own convenience.
+**Important**: For detail on the specific steps associated with:
+- Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#assess-your-on-premises-database).
+- Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#assess-your-on-premises-database).

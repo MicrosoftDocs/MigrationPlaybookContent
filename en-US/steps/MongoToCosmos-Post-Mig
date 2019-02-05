@@ -48,13 +48,8 @@ However, there are trade-offs between storage, write, and query performance whic
 
 Customers can modify the indexing modes to better manage the amount of RU’s used in indexing data. Customers have the following options: 
 
-**Indexing Mode**: Consistent 
-
-- Indices for new writes will have the same consistency as the collection.
-
-**Indexing Mode**: Lazy
-
-- Indices for new writes will only have eventual consistency 
+- **Indexing Mode: Consistent**. Indices for new writes will have the same consistency as the collection.
+- **Indexing Mode: Lazy**. Indices for new writes will only have eventual consistency 
 
 **Distribute Data Globally** 
 
