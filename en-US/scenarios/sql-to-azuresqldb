@@ -67,8 +67,9 @@
 			]
 		}
 	],
-	"casestudies": [
-
+	"casestudies": [{
+      		"filelocation": "InnovativeSys"
+    	}
 	],
 	"partners": [{
 			"filelocation": "DBBest"
