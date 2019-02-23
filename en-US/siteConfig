@@ -196,6 +196,9 @@
     }
   ],
   "caseStudies": [{
+      "filelocation": "InnovativeSys"
+    },
+    {
       "filelocation": "Floatel"
     },
     {
