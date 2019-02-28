@@ -98,6 +98,9 @@
 		},
 		{
 			"filelocation": "DXC"
-		}
+		},
+	    {
+    		"filelocation": "Kangaroot"
+    	}
 	]
 }
