@@ -4,7 +4,7 @@ As you prepare for migrating your SQL Server database to Azure SQL Database Mana
 
 ### Supported versions
 
-This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database Managed Instance. This information is current as of April 2018.
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database Managed Instance. This information is current as of March 2019.
 
 The following SQL Server sources are included:
 * SQL Server 2005
