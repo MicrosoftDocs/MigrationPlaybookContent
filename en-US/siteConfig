@@ -115,7 +115,7 @@
         "longname": "Azure Cosmos DB",
         "URL": "/scenario/cassandra-to-cosmos"
       }]
-    },  
+    },
     {
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
@@ -154,7 +154,6 @@
         "longname": "Azure Cosmos DB",
         "URL": "/scenario/azuretable-to-cosmos"
       }]
-    }]
     }
   ],
   "commonChoices": [{
@@ -189,7 +188,7 @@
     },
     {
       "text": "Database Experimentation Assistant (DEA)",
-      "url": "https://aka.ms/dea-docs"
+      "url": "https://aka.ms/dea-tool"
     }
   ],
   "caseStudies": [{
