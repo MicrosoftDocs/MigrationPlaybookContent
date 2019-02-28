@@ -2,13 +2,13 @@
 
 PostgreSQL is one of world’s most advanced open source databases. This article describes how to use the free ora2pg utility to migrate an Oracle database to PostgreSQL.
 
+**Important**: To participate in a private preview of Azure Database Migration Service support for performing online migrations of Oracle to Azure Database for PostgreSQL, please submit a nomination via the [Azure DMS preview site](https://aka.ms/dms-preview). 
+
 You can use ora2pg, a free tool, to migrate an Oracle or MySQL database to a PostgreSQL compatible schema. The utility connects your Oracle database, scans it automatically, and extracts its structure or data. Afterwards ora2pg generates SQL scripts that you can load into your PostgreSQL database.
 
 ora2pg can be used for tasks from reverse engineering an Oracle database, performing a huge enterprise database migration, or simply replicating some Oracle data into a PostgreSQL database. It’s easy to use and doesn't require any Oracle database knowledge other than the ability to provide the parameters needed to connect to the Oracle database.
 
 **Note**: For more information about using the latest version of ora2pg, see the [ora2pg documentation](https://ora2pg.darold.net/documentation.html).
-
-**Important**: To participate in a private preview of Azure Database Migration Service support for performing online migrations of Oracle to Azure Database for PostgreSQL, please submit a nomination via the [Azure DMS preview site](https://aka.ms/dms-preview). 
 
 ### Prerequisites
 1. Before installing ora2pg, be sure to install the corresponding Oracle and PostgreSQL drivers.
