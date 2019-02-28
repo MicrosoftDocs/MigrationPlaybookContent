@@ -8,8 +8,13 @@
           "URL": "/scenario/sql-to-azuresqldb"
         },
         {
+          "name": "SQL Server (upgrade)",
+          "longname": "SQL Server (on-premises)",
+          "URL": "/scenario/sql-to-sqlserver"
+        },
+        {
           "name": "Azure SQL Database MI",
-          "longname": "Azure SQL Database managed instance",
+          "longname": "Azure SQL Database Managed Instance",
           "URL": "/scenario/sql-to-azuresqldbmi"
         },
         {
@@ -21,11 +26,6 @@
           "name": "SQL Data Warehouse",
           "longname": "Azure Data Warehouse",
           "URL": "/scenario/sql-to-sqldw"
-        },
-        {
-          "name": "SQL Server (upgrade)",
-          "longname": "SQL Server (on-premises)",
-          "URL": "/scenario/sql-to-sqlserver"
         }
       ]
     },
@@ -38,6 +38,11 @@
           "URL": "/scenario/oracle-to-azuresqldb"
         },
         {
+          "name": "SQL Server",
+          "longname": "SQL Server",
+          "URL": "/scenario/oracle-to-sqlserver"
+        },
+        {
           "name": "Azure DB for PostgreSQL",
           "longname": "Azure Database for PostgreSQL",
           "URL": "/scenario/oracle-to-azurepostgresql"
@@ -46,12 +51,7 @@
           "name": "SQL Data Warehouse",
           "longname": "SQL Data Warehouse",
           "URL": "/scenario/oracle-to-sqldw"
-        },
-        {
-          "name": "SQL Server",
-          "longname": "SQL Server",
-          "URL": "/scenario/oracle-to-sqlserver"
-        },
+        }
       ]
     },
     {
@@ -78,14 +78,14 @@
           "URL": "/scenario/mysql-to-azuresqldb"
         },
         {
-          "name": "Azure DB for MySQL",
-          "longname": "Azure Database for MySQL",
-          "URL": "/scenario/mysql-to-azuremysql"
-        }
-        {
           "name": "SQL Server",
           "longname": "SQL Server",
           "URL": "/scenario/mysql-to-sqlserver"
+        },
+        {
+          "name": "Azure DB for MySQL",
+          "longname": "Azure Database for MySQL",
+          "URL": "/scenario/mysql-to-azuremysql"
         }
       ]
     },
@@ -105,15 +105,6 @@
         "name": "Azure Cosmos DB",
         "longname": "Azure Cosmo DB",
         "URL": "/scenario/mongo-to-cosmos"
-      }]
-    },
-    {
-      "title": "Cassandra",
-      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Cassandra_270x160.png",
-      "pages": [{
-        "name": "Azure Cosmos DB",
-        "longname": "Azure Cosmos DB",
-        "URL": "/scenario/cassandra-to-cosmos"
       }]
     },
     {
@@ -161,20 +152,16 @@
       "link": "/scenario/sql-to-azuresqldb"
     },
     {
-      "text": "SQL Server &rarr; Azure SQL Database Managed Instance",
-      "link": "/scenario/sql-to-azuresqldbmi"
+      "text": "SQL Server &rarr; SQL Server",
+      "link": "/scenario/sql-to-sqlserver"
     },
     {
       "text": "Oracle &rarr; SQL Server",
       "link": "/scenario/oracle-to-sqlserver"
     },
     {
-      "text": "Oracle &rarr; Azure DB for PostgreSQL",
-      "link": "/scenario/oracle-to-azurepostgresql"
-    },
-    {
-      "text": "MongoDB &rarr; Azure Cosmos DB",
-      "link": "/scenario/mongo-to-cosmos"
+      "text": "DB2 &rarr; Azure SQL Database",
+      "link": "/scenario/db2-to-azuresqldb"
     }
   ],
    "otherTools": [
@@ -192,13 +179,10 @@
     },
     {
       "text": "Database Experimentation Assistant (DEA)",
-      "url": "https://aka.ms/dea-docs"
+      "url": "https://aka.ms/dea-tool"
     }
   ],
   "caseStudies": [{
-      "filelocation": "InnovativeSys"
-    },
-    {
       "filelocation": "Floatel"
     },
     {
@@ -239,6 +223,9 @@
       "filelocation": "Informatica"
     },
     {
+      "filelocation": "Griddable"
+    },
+    {
       "filelocation": "QuerySurge"
     },
     {
@@ -249,18 +236,6 @@
     },
     {
       "filelocation": "NayaTech"
-    },
-    {
-      "filelocation": "Quest"
-    },
-    {
-      "filelocation": "Splendid_Data"
-    },
-    {
-      "filelocation": "Zen3"
-    },
-    {
-      "filelocation": "Kangaroot"
     }
   ]
 }
