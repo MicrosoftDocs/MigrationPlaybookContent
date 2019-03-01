@@ -55,21 +55,21 @@ The following data migration options are discussed:
 When upgrading from SQL Server 2005, the following migration options are supported.
 
 <br>
-<table style="width: 797px;">
+<table style="width: 810.8px;">
 <tbody>
 <tr>
-<td style="width: 134px; vertical-align: middle;">
+<td style="width: 138px;">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td style="width: 653px; vertical-align: middle;">
+<td style="width: 663.8px;">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 134px;">
+<td style="width: 138px;">
 <p>&nbsp;SQL Server 2017</p>
 </td>
-<td style="width: 653px;">
+<td style="width: 663.8px;">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2017.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
@@ -78,10 +78,10 @@ When upgrading from SQL Server 2005, the following migration options are support
 </td>
 </tr>
 <tr>
-<td style="width: 134px;">
+<td style="width: 138px;">
 <p>&nbsp;SQL Server 2016</p>
 </td>
-<td style="width: 653px;">
+<td style="width: 663.8px;">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2016.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
@@ -90,10 +90,10 @@ When upgrading from SQL Server 2005, the following migration options are support
 </td>
 </tr>
 <tr>
-<td style="width: 134px;">
+<td style="width: 138px;">
 <p>&nbsp;SQL Server 2014</p>
 </td>
-<td style="width: 653px;">
+<td style="width: 663.8px;">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2014.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
