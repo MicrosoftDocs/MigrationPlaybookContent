@@ -46,24 +46,57 @@ The following data migration options are discussed:
 *	Log shipping
 *	Bulk load
 
-#### From SQL Server 2005
+#### Upgrading from SQL Server 2005
 
-##### To SQL Server 2017
-*	Backup and restore: Back up taken on SQL Server 2005 can be restored to SQL Server 2017.
-*	Migration tools: Migration supported through DMA.
-*	Bulk load: Tables can be bulk copied from SQL Server 2005 to SQL Server 2017.
+When upgrading from SQL Server 2005, the following migration options are supported.
 
-##### To SQL Server 2016 
-*	Backup and restore: Back up taken on SQL Server 2005 can be restored to SQL Server 2016.
-*	Migration tools: Migration supported through DMA.
-*	Bulk load: Tables can be bulk copied from SQL Server 2005 to SQL Server 2016.
-
-##### To SQL Server 2014
-*	Backup and restore: Back up taken on SQL Server 2005 can be restored to SQL Server 2014.
-*   Migration tools: Migration supported through DMA.
-*	Bulk load: Tables can be bulk copied from SQL Server 2005 to SQL Server 2014.
+<br>
+<table style="width: 724.8px;">
+<tbody>
+<tr>
+<td style="width: 108px;">
+<p><strong>Target version</strong></p>
+</td>
+<td style="width: 602.8px;">
+<p><strong>Database migration options</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 108px;">
+<p>SQL Server 2017</p>
+</td>
+<td style="width: 602.8px;">
+<p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2017.</p>
+<p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
+<p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2017.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 108px;">
+<p>SQL Server 2016</p>
+</td>
+<td style="width: 602.8px;">
+<p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2016.</p>
+<p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
+<p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2016.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 108px;">
+<p>SQL Server 2014</p>
+</td>
+<td style="width: 602.8px;">
+<p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2014.</p>
+<p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
+<p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2014.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 #### From SQL Server 2008 or SQL Server 2008 R2
+
+When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migration options are supported.
 
 ##### To SQL Server 2017
 *	Backup and restore: Back up taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2017.
@@ -87,7 +120,9 @@ The following data migration options are discussed:
 *	Log shipping: Log shipping is supported if primary is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and secondary is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes primary, SQL Server 2008 or SQL Server 2008 R2 instance becomes secondary and will NOT receive changes from primary.
 *	Bulk load: Tables can be bulk copied from SQL Server 2008 or SQL Server 2008 R2 to SQL Server 2014.
 
-#### From SQL Server 2012
+#### Upgrading from SQL Server 2012
+
+When upgrading from SQL Server 2012, the following migration options are supported.
 
 ##### To SQL Server 2017
 *	Backup and restore: Back up taken on SQL Server 2012 can be restored to SQL Server 2017.
@@ -116,7 +151,9 @@ The following data migration options are discussed:
 *	Log shipping: Log shipping is supported if primary is running SQL Server 2012 SP1 or later and secondary is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT receive changes from primary.
 *	Bulk load: Tables can be bulk copied from SQL Server 2012 to SQL Server 2014.
 
-#### From SQL Server 2014
+#### Upgrading from SQL Server 2014
+
+When upgrading from SQL Server 2014, the following migration options are supported.
 
 ##### To SQL Server 2017
 *	Backup and restore: Back up taken on SQL Server 2014 can be restored to SQL Server 2017.
@@ -135,6 +172,11 @@ The following data migration options are discussed:
 *	Database mirroring: Database mirroring is supported if principal is running SQL Server 2014 and mirror is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes principal, SQL Server 2014 instance becomes mirror and will NOT receive changes from principal.
 *	Log shipping: Log shipping is supported if primary is running SQL Server 2014 and secondary is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes primary, SQL Server 2014 instance becomes secondary and will NOT receive changes from primary.
 *	Bulk load: Tables can be bulk copied from SQL Server 2014 to SQL Server 2016.
+
+#### Upgrading from SQL Server 2016
+
+When upgrading from SQL Server 2016, the following migration options are supported.
+
 
 ### Migration learnings and best practices from real-world engagements
 
