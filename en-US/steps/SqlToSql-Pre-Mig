@@ -51,41 +51,41 @@ The following data migration options are discussed:
 When upgrading from SQL Server 2005, the following migration options are supported.
 
 <br>
-<table style="width: 724.8px;">
+<table style="width: 851.6px;">
 <tbody>
 <tr>
-<td style="width: 108px;">
+<td style="width: 155px;">
 <p><strong>Target version</strong></p>
 </td>
-<td style="width: 602.8px;">
+<td style="width: 686.6px;">
 <p><strong>Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 108px;">
+<td style="width: 155px;">
 <p>SQL Server 2017</p>
 </td>
-<td style="width: 602.8px;">
+<td style="width: 686.6px;">
 <p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2017.</p>
 <p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
 <p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2017.</p>
 </td>
 </tr>
 <tr>
-<td style="width: 108px;">
+<td style="width: 155px;">
 <p>SQL Server 2016</p>
 </td>
-<td style="width: 602.8px;">
+<td style="width: 686.6px;">
 <p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2016.</p>
 <p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
 <p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2016.</p>
 </td>
 </tr>
 <tr>
-<td style="width: 108px;">
+<td style="width: 155px;">
 <p>SQL Server 2014</p>
 </td>
-<td style="width: 602.8px;">
+<td style="width: 686.6px;">
 <p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2014.</p>
 <p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
 <p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2014.</p>
