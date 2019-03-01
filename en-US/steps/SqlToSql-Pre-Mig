@@ -21,17 +21,17 @@ Supported source and target versions are shown in the following table.
 </tr>
 <tr>
 <td width="336">
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2005</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2008 and SQL Server 2008 R2</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2012</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2014</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2016</p>
+<p>&nbsp;- SQL Server 2005</p>
+<p>&nbsp;- Server 2008 and SQL Server 2008 R2</p>
+<p>&nbsp;- SQL Server 2012</p>
+<p>&nbsp;- SQL Server 2014</p>
+<p>&nbsp;- SQL Server 2016</p>
 </td>
 <td width="336">
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2014</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2016</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2017 on Linux</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL Server 2017 on Windows</p>
+<p>&nbsp;- SQL Server 2014</p>
+<p>&nbsp;- SQL Server 2016</p>
+<p>&nbsp;- SQL Server 2017 on Linux</p>
+<p>&nbsp;- SQL Server 2017 on Windows</p>
 </td>
 </tr>
 </tbody>
