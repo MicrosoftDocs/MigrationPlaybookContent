@@ -54,21 +54,21 @@ The following data migration options are discussed:
 When upgrading from SQL Server 2005, the following migration options are supported.
 
 <br>
-<table style="width: 800px;">
+<table width="800px">
 <tbody>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2017</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2017.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
@@ -77,10 +77,10 @@ When upgrading from SQL Server 2005, the following migration options are support
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2016</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2016.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
@@ -89,10 +89,10 @@ When upgrading from SQL Server 2005, the following migration options are support
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2014</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2014.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
@@ -107,21 +107,21 @@ When upgrading from SQL Server 2005, the following migration options are support
 When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migration options are supported.
 
 <br>
-<table style="width: 800px;">
+<table width="800px">
 <tbody>
 <tr>
-<td style="width: 137px; vertical-align: middle;">
+<td width="137px">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td style="width: 663px; vertical-align: middle;">
+<td width="663px">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2017</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2017.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
@@ -132,10 +132,10 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2016</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2016.</li>
 <li><u>Migration tools</u>: Migration supported through DMA.</li>
@@ -146,10 +146,10 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2014</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2014.</li>
 <li><u>Transactional replication</u>: SQL Server replication from SQL Server 2008/2008R2 to SQL Server is supported. Replication upgrade options are outlined in detail in the blog&nbsp;<a href="https://blogs.msdn.microsoft.com/sql_server_team/upgrading-a-replication-topology-to-sql-server-2016/">here</a>.</li>
@@ -167,21 +167,21 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 When upgrading from SQL Server 2012, the following migration options are supported.
 
 <br>
-<table style="width: 800px;">
+<table width="800px">
 <tbody>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2017</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2012 can be restored to SQL Server 2017.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2012 to SQL Server 2017 is supported.</li>
@@ -194,10 +194,10 @@ When upgrading from SQL Server 2012, the following migration options are support
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2016</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2012 can be restored to SQL Server 2016.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2012 to SQL Server 2016 is supported.</li>
@@ -210,10 +210,10 @@ When upgrading from SQL Server 2012, the following migration options are support
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2014</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2012 can be restored to SQL Server 2014.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2012 to SQL Server 2014 is supported.</li>
@@ -232,21 +232,21 @@ When upgrading from SQL Server 2012, the following migration options are support
 When upgrading from SQL Server 2014, the following migration options are supported.
 
 <br>
-<table style="width: 800px;">
+<table width="800px">
 <tbody>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2017</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2014 can be restored to SQL Server 2017.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2014 to SQL Server 2017 is supported.</li>
@@ -259,10 +259,10 @@ When upgrading from SQL Server 2014, the following migration options are support
 </td>
 </tr>
 <tr>
-<td style="width: 137px;">
+<td width="137px">
 <p>&nbsp;SQL Server 2016</p>
 </td>
-<td style="width: 663px;">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2014 can be restored to SQL Server 2016.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2014 to SQL Server 2016 is supported.</li>
