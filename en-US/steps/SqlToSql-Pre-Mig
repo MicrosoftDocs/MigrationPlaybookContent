@@ -285,7 +285,7 @@ When upgrading from SQL Server 2016, the following migration options are support
 <tbody>
 <tr>
 <td width="137px">
-<p><strong>&nbsp;Target versions</strong></p>
+<p><strong>&nbsp;Target version</strong></p>
 </td>
 <td width="663px">
 <p><strong>&nbsp;Database migration options</strong></p>
@@ -349,9 +349,9 @@ For additional assistance with completing this migration scenario, please see th
 
 ### Prerequisites
 
-Before beginning your migration project, it is important to address the associated prerequisites.
+Before beginning your migration project, it is important to address the associated prerequisites. To prepare for the migration, download and install the:
 
-* Download and install the latest version of the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883).
-* Download and install the [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
-* Download and install the latest version of the [Database Experimentation Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54090).
+* Latest version of the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883).
+* [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
+* Latest version of the [Database Experimentation Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54090).
 
