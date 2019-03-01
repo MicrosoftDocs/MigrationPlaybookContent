@@ -38,7 +38,7 @@ To use DMA to create an assessment, perform the following steps.
     
     Feature recommendations cover a variety of features such as In-Memory OLTP and Columnstore, Stretch Database, Always Encrypted (AE), Dynamic Data Masking (DDM), and Transparent Data Encryption (TDE). 
     
-3. **Review Assessment Results**
+3. Review assessment results.
 
     a. After all database assessments are complete, select **Export report** to export the results to either a JSON or CSV file for analyzing the data at your own convenience.
 
