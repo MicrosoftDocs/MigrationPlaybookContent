@@ -285,7 +285,7 @@ When upgrading from SQL Server 2016, the following migration options are support
 <tbody>
 <tr>
 <td width="137px">
-<p><strong>&nbsp;Target versions</strong></p>
+<p><strong>&nbsp;Target version</strong></p>
 </td>
 <td width="663px">
 <p><strong>&nbsp;Database migration options</strong></p>
