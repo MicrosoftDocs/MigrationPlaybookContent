@@ -12,10 +12,10 @@ Supported source and target versions are shown in the following table.
 <table>
 <tbody>
 <tr>
-<td width="336">
+<td style="width: 336px; vertical-align: middle;" width="336">
 <p><strong>&nbsp;SQL Server source versions</strong></p>
 </td>
-<td width="336">
+<td style="width: 336px; vertical-align: middle;" width="336">
 <p><strong>&nbsp;SQL Server target versions</strong></p>
 </td>
 </tr>
@@ -58,10 +58,10 @@ When upgrading from SQL Server 2005, the following migration options are support
 <table style="width: 899px;">
 <tbody>
 <tr>
-<td style="width: 252px;">
+<td style="width: 252px; vertical-align: middle;">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td style="width: 635px;">
+<td style="width: 635px; vertical-align: middle;">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
@@ -109,18 +109,18 @@ When upgrading from SQL Server 2005, the following migration options are support
 When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migration options are supported.
 
 <br>
-<table style="width: 899px;">
+<table style="width: 899;">
 <tbody>
 <tr>
-<td style="width: 252px;">
+<td style="width: 262px; vertical-align: middle;">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td style="width: 635px;">
+<td style="width: 635px; vertical-align: middle;">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 252px;">
+<td style="width: 262px;">
 <p>&nbsp;SQL Server 2017</p>
 </td>
 <td style="width: 635px;">
@@ -148,7 +148,7 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 </td>
 </tr>
 <tr>
-<td style="width: 252px;">
+<td style="width: 262px;">
 <p>&nbsp;SQL Server 2014</p>
 </td>
 <td style="width: 635px;">
