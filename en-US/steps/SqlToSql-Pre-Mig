@@ -51,7 +51,6 @@ The following data migration options are discussed:
 *	Bulk load
 
 #### Upgrading from SQL Server 2005
-
 When upgrading from SQL Server 2005, the following migration options are supported.
 
 <br>
@@ -105,7 +104,6 @@ When upgrading from SQL Server 2005, the following migration options are support
 </table>
 
 #### From SQL Server 2008 or SQL Server 2008 R2
-
 When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migration options are supported.
 
 <br>
@@ -166,7 +164,6 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 </table>
 
 #### Upgrading from SQL Server 2012
-
 When upgrading from SQL Server 2012, the following migration options are supported.
 
 ##### To SQL Server 2017
