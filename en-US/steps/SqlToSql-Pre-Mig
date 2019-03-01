@@ -103,7 +103,7 @@ When upgrading from SQL Server 2005, the following migration options are support
 </tbody>
 </table>
 
-#### From SQL Server 2008 or SQL Server 2008 R2
+#### Upgrading from SQL Server 2008 or SQL Server 2008 R2
 When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migration options are supported.
 
 <br>
