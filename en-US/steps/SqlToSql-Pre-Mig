@@ -45,7 +45,7 @@ The following data migration options are discussed:
 *	Backup and restore
 *	Transactional replication
 *	Always On availability groups
-*	Data Migration tool set [Azure Database Migration Service (Azure DMS) and Data Migration Assistant (DMA)]
+*	Data Migration tool set (Azure Database Migration Service [Azure DMS] and Data Migration Assistant [DMA])
 *	Database mirroring
 *	Log shipping
 *	Bulk load
@@ -54,7 +54,7 @@ The following data migration options are discussed:
 When upgrading from SQL Server 2005, the following migration options are supported.
 
 <br>
-<table style="width: 810px;">
+<table style="width: 800px;">
 <tbody>
 <tr>
 <td style="width: 137px;">
@@ -107,7 +107,7 @@ When upgrading from SQL Server 2005, the following migration options are support
 When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migration options are supported.
 
 <br>
-<table style="width: 810px;">
+<table style="width: 800px;">
 <tbody>
 <tr>
 <td style="width: 137px; vertical-align: middle;">
@@ -167,7 +167,7 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 When upgrading from SQL Server 2012, the following migration options are supported.
 
 <br>
-<table style="width: 810px;">
+<table style="width: 800px;">
 <tbody>
 <tr>
 <td style="width: 137px;">
@@ -232,7 +232,7 @@ When upgrading from SQL Server 2012, the following migration options are support
 When upgrading from SQL Server 2014, the following migration options are supported.
 
 <br>
-<table style="width: 810px;">
+<table style="width: 800px;">
 <tbody>
 <tr>
 <td style="width: 137px;">
@@ -281,21 +281,21 @@ When upgrading from SQL Server 2014, the following migration options are support
 When upgrading from SQL Server 2016, the following migration options are supported.
 
 <br>
-<table width="810">
+<table width="800px">
 <tbody>
 <tr>
-<td width="137">
+<td width="137px">
 <p><strong>&nbsp;Target version</strong></p>
 </td>
-<td width="663">
+<td width="663px">
 <p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
-<td width="137">
+<td width="137px">
 <p>&nbsp;SQL Server 2017</p>
 </td>
-<td width="663">
+<td width="663px">
 <ul>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2016 can be restored to SQL Server 2017.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2016 to SQL Server 2017 is supported.</li>
