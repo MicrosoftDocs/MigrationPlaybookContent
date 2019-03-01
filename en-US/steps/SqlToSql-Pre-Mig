@@ -11,23 +11,23 @@ Supported source and target versions are shown in the following table.
 <br>
 <table>
 <tbody>
-<tr>
-<td width="336">
+<tr style="height: 17.2px;">
+<td style="height: 17.2px;" width="336">
 <p><strong>SQL Server source versions</strong></p>
 </td>
-<td width="336">
+<td style="height: 17.2px;" width="336">
 <p><strong>SQL Server target versions</strong></p>
 </td>
 </tr>
-<tr>
-<td width="336">
+<tr style="height: 133px;">
+<td style="height: 133px; width: 336px; vertical-align: top;" width="336">
 <p>&nbsp;* SQL Server 2005</p>
-<p>&nbsp;* Server 2008 and SQL Server 2008 R2</p>
+<p>&nbsp;* Server 2008, SQL Server 2008 R2</p>
 <p>&nbsp;* SQL Server 2012</p>
 <p>&nbsp;* SQL Server 2014</p>
 <p>&nbsp;* SQL Server 2016</p>
 </td>
-<td width="336">
+<td style="height: 133px; width: 336px; vertical-align: top;" width="336">
 <p>&nbsp;* SQL Server 2014</p>
 <p>&nbsp;* SQL Server 2016</p>
 <p>&nbsp;* SQL Server 2017 on Linux</p>
