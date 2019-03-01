@@ -11,27 +11,31 @@ Supported source and target versions are shown in the following table.
 <br>
 <table>
 <tbody>
-<tr style="height: 17.2px;">
-<td style="height: 17.2px;" width="336">
-<p><strong>SQL Server source versions</strong></p>
+<tr>
+<td width="336">
+<p><strong>&nbsp;SQL Server source versions</strong></p>
 </td>
-<td style="height: 17.2px;" width="336">
-<p><strong>SQL Server target versions</strong></p>
+<td width="336">
+<p><strong>&nbsp;SQL Server target versions</strong></p>
 </td>
 </tr>
-<tr style="height: 133px;">
-<td style="height: 133px; width: 336px; vertical-align: top;" width="336">
-<p>&nbsp;* SQL Server 2005</p>
-<p>&nbsp;* Server 2008, SQL Server 2008 R2</p>
-<p>&nbsp;* SQL Server 2012</p>
-<p>&nbsp;* SQL Server 2014</p>
-<p>&nbsp;* SQL Server 2016</p>
+<tr>
+<td style="width: 336px; vertical-align: top;" width="336">
+<ul>
+<li>SQL Server 2005</li>
+<li>SQL Server 2008, QL Server 2008 R2</li>
+<li>SQL Server 2012</li>
+<li>SQL Server 2014</li>
+<li>SQL Server 2016</li>
+</ul>
 </td>
-<td style="height: 133px; width: 336px; vertical-align: top;" width="336">
-<p>&nbsp;* SQL Server 2014</p>
-<p>&nbsp;* SQL Server 2016</p>
-<p>&nbsp;* SQL Server 2017 on Linux</p>
-<p>&nbsp;* SQL Server 2017 on Windows</p>
+<td style="width: 336px; vertical-align: top;" width="336">
+<ul>
+<li>SQL Server 2014</li>
+<li>SQL Server 2016</li>
+<li>SQL Server 2017 on Linux</li>
+<li>SQL Server 2017 on Windows</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -55,40 +59,46 @@ When upgrading from SQL Server 2005, the following migration options are support
 <tbody>
 <tr>
 <td style="width: 252px;">
-<p><strong>Target version</strong></p>
+<p><strong>&nbsp;Target version</strong></p>
 </td>
 <td style="width: 635px;">
-<p><strong>Database migration options</strong></p>
+<p><strong>&nbsp;Database migration options</strong></p>
 </td>
 </tr>
 <tr>
 <td style="width: 252px;">
-<p>SQL Server 2017</p>
+<p>&nbsp;SQL Server 2017</p>
 </td>
 <td style="width: 635px;">
-<p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2017.</p>
-<p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
-<p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2017.</p>
+<ul>
+<li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2017.</li>
+<li><u>Migration tools</u>: Migration supported through DMA.</li>
+<li><u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2017.</li>
+</ul>
 </td>
 </tr>
 <tr>
 <td style="width: 252px;">
-<p>SQL Server 2016</p>
+<p>&nbsp;SQL Server 2016</p>
 </td>
 <td style="width: 635px;">
-<p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2016.</p>
-<p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
-<p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2016.</p>
+<ul>
+<li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2016.</li>
+<li><u>Migration tools</u>: Migration supported through DMA.</li>
+<li><u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2016.</li>
+</ul>
 </td>
 </tr>
 <tr>
 <td style="width: 252px;">
-<p>SQL Server 2014</p>
+<p>&nbsp;SQL Server 2014</p>
 </td>
 <td style="width: 635px;">
-<p>&nbsp;*&nbsp;<u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2014.</p>
-<p>&nbsp;*&nbsp;<u>Migration tools</u>: Migration supported through DMA.</p>
-<p>&nbsp;*&nbsp;<u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2014.</p>
+<ul>
+<li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2014.</li>
+<li><u>Migration tools</u>: Migration supported through DMA.</li>
+<li><u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2014.</li>
+</ul>
 </td>
 </tr>
 </tbody>
