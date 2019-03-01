@@ -9,27 +9,27 @@ This section describes all supported scenarios and options for an upgrade from a
 Supported source and target versions are shown in the following table.
 
 <br>
-<table>
+<table style="width: 546.2px;">
 <tbody>
 <tr>
-<td style="width: 336px; vertical-align: middle;" width="336">
+<td style="width: 279px; vertical-align: middle;">
 <p><strong>&nbsp;SQL Server source versions</strong></p>
 </td>
-<td style="width: 336px; vertical-align: middle;" width="336">
+<td style="width: 262.2px; vertical-align: middle;">
 <p><strong>&nbsp;SQL Server target versions</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 336px; vertical-align: top;" width="336">
+<td style="width: 279px; vertical-align: top;">
 <ul>
 <li>SQL Server 2005</li>
-<li>SQL Server 2008, QL Server 2008 R2</li>
+<li>SQL Server 2008, SQL Server 2008 R2</li>
 <li>SQL Server 2012</li>
 <li>SQL Server 2014</li>
 <li>SQL Server 2016</li>
 </ul>
 </td>
-<td style="width: 336px; vertical-align: top;" width="336">
+<td style="width: 262.2px; vertical-align: top;">
 <ul>
 <li>SQL Server 2014</li>
 <li>SQL Server 2016</li>
