@@ -6,7 +6,7 @@ After identifying the data sources, the next step is to assess the on-premises S
 
 To use DMA to create an assessment, perform the following steps.
 
-1. **Download the [DMA tool](https://www.microsoft.com/en-us/download/details.aspx?id=53595)**, and then install it.
+1. Download the [DMA tool](https://www.microsoft.com/en-us/download/details.aspx?id=53595), and then install it.
 
 2. Create a **New Assessment** project.
 
