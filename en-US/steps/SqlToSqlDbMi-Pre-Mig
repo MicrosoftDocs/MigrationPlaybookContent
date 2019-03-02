@@ -1,10 +1,10 @@
 <!--Pre-migration overview-->
 
-As you prepare for migrating your SQL Server database to Azure SQL Database Managed Instance, be sure to consider the versions of SQL Server that are supported and to address any prerequisites. This will help to ensure an efficient and successful migration.
+As you prepare for migrating your SQL Server database to an Azure SQL Database managed instance, be sure to consider the versions of SQL Server that are supported and to address any prerequisites. This will help to ensure an efficient and successful migration.
 
 ### Supported versions
 
-This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database Managed Instance. This information is current as of March 2019.
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to an Azure SQL Database managed instance. This information is current as of March 2019.
 
 The following SQL Server sources are included:
 * SQL Server 2005
@@ -15,11 +15,11 @@ The following SQL Server sources are included:
 * SQL Server 2017
 
 The following Azure target is included:
-* Azure SQL Database Managed Instance
+* An Azure SQL Database managed instance
 
 The following data migration options are discussed:
 *	Transactional replication
-*	Database migration toolset [Azure Database Migration Service (Azure DMS)]
+*	Database migration tool set (Azure Database Migration Service [Azure DMS])
 *	Bulk load
 
 Source database versions and supported options are shown in the following table:
@@ -171,8 +171,8 @@ Before beginning your migration project, it is important to address the associat
 * Ensuring that your VNET Network Security Group rules don't block specific communication ports.
 * Configuring your Windows Firewall for source database engine access.
 * Opening your Windows Firewall to allow Azure DMS to access the source SQL Server.
-* Creating an Azure SQL Database Managed Instance.
-* Ensuring that the logins used to connect the source SQL Server and target Managed Instance are members of the sysadmin server role.
+* Creating an Azure SQL Database managed instance.
+* Ensuring that the logins used to connect the source SQL Server and target managed instance are members of the sysadmin server role.
 * Creating a network share that Azure DMS can use to back up the source database.
 * Ensuring that the service account running the source SQL Server instance has write privileges on the network share that you created and that the computer account for the source server has read/write access to the same share.
 * Making a note of a Windows user (and password) with full control privilege on the network share containing the backup of the source database.
