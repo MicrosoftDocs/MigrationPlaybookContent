@@ -13,7 +13,7 @@
           "URL": "/scenario/sql-to-sqlserver"
         },
         {
-          "name": "Azure SQL Database MI",
+          "name": "Azure SQL Database (MI)",
           "longname": "Azure SQL Database Managed Instance",
           "URL": "/scenario/sql-to-azuresqldbmi"
         },
