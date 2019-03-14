@@ -4,6 +4,10 @@ As you prepare for migrating to the cloud, verify that you are migrating from a 
 
 Please do not hesitate to reach out to [askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com) with questions.
 
+### Offline versus online migrations
+
+When you migrate MongoDB data to Azure by using the Azure Database Migration Service, you can perform an offline or an online migration. With an *offline* migration, application downtime begins when the migration starts. For an *online* migration, downtime is limited to the time required to cut over to the new environment when the migration completes. It's recommended to test an offline migration to determine whether the downtime is acceptable; if not, perform an online migration.
+
 ### Additional resources
 
 For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
@@ -40,11 +44,13 @@ Each collection sharing database-level throughput requires at least 100 RU/sec. 
 
 ### Overview of prerequisites
 
-Before beginning your migration project, it is important to address the associated prerequisites. When moving data from MongoDB to Azure Cosmos DB, there are prerequisites associated with:
+Before beginning your migration project, it is important to address the associated prerequisites. When moving data from MongoDB to Azure Cosmos DB, be sure to address the following prerequisites:
 
-* Creating an Azure Cosmos DB's API for MongoDB account. (completed in the previous section).
-* Creating an Azure Virtual Network (VNET) for the Azure Database Migration Service by using the Azure Resource Manager deployment model.
-* Ensuring that VNET Network Security Group rules don't block the necessary communication ports.
-* Opening your Windows firewall to allow Azure DMS to access the source MongoDB server.
+* Create an Azure Cosmos DB API for MongoDB account. (completed in the previous section).
+* Create an Azure Virtual Network (VNET) for the Azure Database Migration Service by using the Azure Resource Manager deployment model.
+* Ensure that VNET Network Security Group rules don't block the necessary communication ports.
+* Open your Windows firewall to allow Azure DMS to access the source MongoDB server.
 
-**Important**: For detail on the specific prerequisites associated with offline migrations of MongoDB data to Azure Cosmos DB, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#prerequisites).
+**Important**: For detail on the specific prerequisites associated with:
+* Online migrations, see the information [here](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online#prerequisites).
+* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#prerequisites).
