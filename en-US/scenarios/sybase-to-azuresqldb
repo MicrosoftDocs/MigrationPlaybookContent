@@ -58,9 +58,9 @@
 			]
 		}
 	],
-	"casestudies": [{
-		"filelocation": "WillisTowersWatson"
-	}],
+	"casestudies": [
+		
+	],
 	"partners": [{
 			"filelocation": "DBBest"
 		},
