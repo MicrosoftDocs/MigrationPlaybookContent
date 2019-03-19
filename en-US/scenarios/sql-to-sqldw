@@ -12,9 +12,9 @@
 			}]
 		}
 	],
-	"casestudies": [
-
-	],
+	"casestudies": [{
+		"filelocation": "WillisTowersWatson"
+	}],
 	"partners": [{
 			"filelocation": "DataSunrise"
 		},
