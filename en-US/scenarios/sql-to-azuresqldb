@@ -69,8 +69,10 @@
 	],
 	"casestudies": [{
       		"filelocation": "InnovativeSys"
-    	}
-	],
+    	},
+		{
+			"filelocation": "WillisTowersWatson"
+	}],
 	"partners": [{
 			"filelocation": "DBBest"
 		},
