@@ -52,6 +52,9 @@
 		},
 	    {
     		"filelocation": "Kangaroot"
-    	}
+    	},
+		{
+			"filelocation": "HVC"
+		}
 	]
 }
