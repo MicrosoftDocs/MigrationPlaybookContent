@@ -102,6 +102,9 @@
 		},
 		{
 			"filelocation": "Zen3"
+		},
+		{
+			"filelocation": "HVC"
 		}
 	]
 }
