@@ -97,6 +97,9 @@
 		},
 	    {
     		"filelocation": "Kangaroot"
+    	},
+	    {
+    		"filelocation": "HVR"
     	}
 	]
 }
