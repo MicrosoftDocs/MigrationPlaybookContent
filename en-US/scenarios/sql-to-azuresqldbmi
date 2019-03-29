@@ -1,7 +1,7 @@
 {
-	"displayname": "Migrate SQL Server to Azure SQL Database Managed Instance",
-	"emailmessage": "Check out the process for migrating from SQL Server to Azure SQL Database Managed Instance here:",
-	"description": "Azure SQL Database Managed Instance delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
+	"displayname": "Migrate SQL Server to an Azure SQL Database managed instance",
+	"emailmessage": "Check out the process for migrating from SQL Server to an Azure SQL Database managed instance here:",
+	"description": "An Azure SQL Database managed instance delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
 	"rationale": "SqlDbMiRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
@@ -19,7 +19,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "NoConvert",
+					"filelocation": "SqlToSqlDbMiNoConvert",
 					"actions": []
 				}
 			]
@@ -35,7 +35,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlToSqlDbMiDataSyncAndCutover_DmsPreview",
+					"filelocation": "SqlToSqlDbMiDataSyncAndCutover",
 					"actions": []
 				}
 			]
@@ -86,13 +86,13 @@
 			"filelocation": "ScalabilityExperts"
 		},
 		{
-			"filelocation": "Griddable"
-		},
-		{
 			"filelocation": "Quest"
 		},
 		{
 			"filelocation": "DXC"
+		},
+		{
+			"filelocation": "Zen3"
 		}
 
 	]

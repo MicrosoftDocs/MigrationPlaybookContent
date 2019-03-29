@@ -83,11 +83,13 @@
 			"filelocation": "Pactera"
 		},
 		{
-			"filelocation": "Griddable"
+			"filelocation": "DXC"
 		},
 		{
-			"filelocation": "DXC"
+			"filelocation": "Zen3"
+		},
+		{
+			"filelocation": "HVR"
 		}
-
 	]
 }

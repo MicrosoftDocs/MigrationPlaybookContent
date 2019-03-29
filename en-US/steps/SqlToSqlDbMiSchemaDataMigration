@@ -1,110 +1,23 @@
 <!--Migrate schema and data-->
 
 After assessing your databases, the next step is to execute the schema migration process. With the Azure Database Migration Service, schema migration takes place as part of the broader migration process.
- 
-### Steps
 
-To migrate your source SQL Server on-premises database to Azure SQL Database Managed Instance by using the Azure Database Migration Service, perform the following steps.
+**Important**: If you use SQL Server Integration Services (SSIS), DMS does not currently support migrating the catalog database for your SSIS projects/packages (SSISDB) from SQL Server to Azure SQL Database Managed Instance. However, you can provision SSIS in Azure Data Factory (ADF) and redeploy your SSIS projects/packages to the destination SSISDB hosted by Azure SQL Database Managed Instance. For more information about migrating SSIS packages, see the article [Migrate SQL Server Integration Services packages to Azure](https://docs.microsoft.com/azure/dms/how-to-migrate-ssis-packages).
 
-1. If you haven't already, register the **Microsoft.DataMigration resource provider**.
-    
-    a. Log in to the Azure portal, select **All services**, and then select **Subscriptions**.
-    
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/mi1-portal-select-subscription.png)  
-    
-    b. Select the subscription in which you want to create the instance of the Azure DMS, and then select **Resource providers**.
-    
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/mi2-portal-select-resource-provider.png)  
-    
-    c. Search for migration, and then to the right of **Microsoft.DataMigration**, select **Register**.
-    
-    ![RP Registration](https://mpbdevcontent.azureedge.net/Images/mi3-portal-register-resource-provider.png)  
+### Overview of schema and data migration steps
 
-2. Create an instance of the Azure Database Migration Service.
+An overview of the steps associated with using Azure DMS to migrate the schema and data follows.
 
-    a. In the Azure portal, select **+ Create a resource**, search for **Azure Database Migration Service**, and then select **Azure Database Migration Service** from the drop-down list.
-    
-    ![Azure portal](https://mpbdevcontent.azureedge.net/Images/mi4-portal-marketplace.png)    
+1.	Register the Microsoft.DataMigration resource provider.
+2.	Create an Azure Database Migration Service instance.
+3.	Create a migration project.
+4.	Specify source details.
+5.	Specify target details.
+6.	Select source databases.
+7.	Configure migration settings.
+8.	Review the migration summary.
+9.	Run and monitor the migration.
 
-    b. On the **Azure Data Migration Service (preview)** screen, select **Create**.
-
-    ![New DMS service creation](https://mpbdevcontent.azureedge.net/Images/mi5-dms-create.png)
-    
-    c. On the **Database Migration Service** screen, specify a name for the service, the subscription, the resource group, a virtual network, and the pricing tier.
-
-    For more information on costs and pricing tiers, see the [pricing](https://aka.ms/dms-pricing) page. *The Azure Database Migration Service is currently in preview, and you will not be charged.*
-
-    ![New DMS instance creation](https://mpbdevcontent.azureedge.net/Images/mi6-dms-create-service.png)
-
-    d. Select **Create** to create an instance of the service.
- 
-3. Create a **migration project**.
-
-    a. Select **+ New Migration Project**, specify a name for the project, select **SQL Server** as the source and **Azure SQL Database Managed Instance** as the target.
-    
-    ![New DMS migration project](https://mpbdevcontent.azureedge.net/Images/mi7-dms-create-project.png)
-
-    b. Select **Create** to create the project.
-
-4. Specify **source details**.
-
-    a. On the **Source details** screen, specify the connection details for the source SQL Server 2016 Express edition.
-    
-    ![Specify source details](https://mpbdevcontent.azureedge.net/Images/mi8-dms-source-details.png)    
-    
-    b. Select **Save**, and then select the database for migration. 
-    
-    ![Specify database to migrate](https://mpbdevcontent.azureedge.net/Images/mi9-dms-source-database.png)    
-    
-5. Specify **target details**.
-
-    a. Select **Save**, and then on the **Target details** screen, specify the connection details for the target, which is the Azure SQL Database Managed Instance to which the source database will be migrated.  
-
-    ![Specify target details](https://mpbdevcontent.azureedge.net/Images/mi10-dms-target-details.png) 
-    
-    b. Select **Save** to save the project.
-    
-    c. On the **Migration summary** screen, review and verify the details associated with the migration project, and then select **Save**.
-    
-6. **Run the migration** activity.
-
-    a. Select the recently saved project, select **+ New Activity**, and then select **Run migration**.
-    
-    ![Run Migration](https://mpbdevcontent.azureedge.net/Images/mi11-dms-create-new-activity.png) 
-    
-    b.	When prompted, enter the credentials for the source and the target servers, and then select **Save**.
-    
-    c. On the **Select source databases** screen, select the source database(s) that you want to migrate.
-    
-    If the target database contains the same database name as the source database, Azure DMS selects the target database by default.
-    
-    ![Map target databases](https://mpbdevcontent.azureedge.net/Images/mi12-dms-select-source-databases.png) 
-    
-    d. Select **Save**, and then on the **Configure migration settings** screen, provide the following detail:
-    
-        - **Server backup location**. The local network share that the Azure Database Migration Service can take the source database backups to. The service account running source SQL Server instance must have write privileges on this network share.
-
-        - **User name**. The windows user name that the Azure Database Migration Service can impersonate and upload the backup files to Azure storage container for restore operation. 
-
-        - **Password**. Password for the above user.
-
-        - **Storage SAS URI**. SAS URI that provides the Azure Database Migration Service with access to your storage account container to which the service uploads the back-up files and that is used for migrating databases to Azure SQL Database Managed Instance. [Learn how to get the SAS URI for blob container](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-blobs#get-the-sas-for-a-blob-container).
-
-    ![Configure migration settings](https://mpbdevcontent.azureedge.net/Images/mi13-dms-configure-migration-settings.png) 
-    
-    e. Select **Save**, and then on the **Migration summary** screen, in the **Activity name** text box, specify a name for the migration activity.
-               
-    f. Select **Save**, and then review the summary to ensure that the source and target details match what you previously specified.
-    
-     ![Specify the activity name](https://mpbdevcontent.azureedge.net/Images/mi14-dms-migration-summary.png)
-       
-    g. Select **Run migration** to start the migration activity.
-
-7. **Monitor the migration**.
-
-    a. Select the migration activity to review the status of the activity.
-
-    ![Target summary](https://mpbdevcontent.azureedge.net/Images/mi15-dms-monitor-migration.png) 
-    
-    b. After the migration completes, verify the target database(s) on the target Azure SQL Database Managed Instance.
-
+**Important**: For detail on the specific steps associated with:
+* Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#register-the-microsoftdatamigration-resource-provider).
+* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#register-the-microsoftdatamigration-resource-provider).

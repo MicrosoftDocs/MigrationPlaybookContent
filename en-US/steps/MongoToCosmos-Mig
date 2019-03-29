@@ -1,135 +1,25 @@
- 
 <!--Migration overview-->
 
-1. Migrations from MongoDB to Cosmos DB Mongo API can be completed using **mongoimport** or **mongorestore**. During the migration, it is important to increase the RU’s in the Cosmos DB target account. Steps 2 through 5 will help you determine the RU amount needed in the target account.
+After you have the necessary prerequisites in place and have completed the tasks associated with the Pre-migration phase, you are ready to proceed with the migration. 
 
-2. Calculate the approximate RU charge for a single document write.
+### Migrate MongoDB data
 
-    a. Connect to your Azure Cosmos DB MongoDB API account from the MongoDB Shell. You can find instructions in [Connect a MongoDB application to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/connect-mongodb-account).
+You can use the Azure Database Migration Service to perform an offline (one-time) migration of databases from an on-premises or cloud instance of MongoDB to Azure Cosmos DB's API for MongoDB.
 
-    b. Run a sample insert command by using one of **your** sample documents from the MongoDB Shell:
+#### Overview of migration steps
 
-    **Sample insert:**
+An overview of the steps associated with using Azure DMS to migrate MongoDB data to Azure Cosmos DB follows.
 
-      ```bash
-      db.coll.insert({ "playerId": "a067ff", "hashedid": "bb0091", "countryCode": "hk" })
-      ```
+1. Register the Microsoft.DataMigration resource provider.
+2. Create an instance.
+3. Create a migration project.
+4. Specify source details.
+5. Specify target details.
+6. Map to target databases.
+7. Run the migration.
+8. Monitor the migration.
+9. Verify data in Cosmos DB.
 
-    c. Run command to get latest request statistics to obtain the number of Request Units (RU's) required for this write
-
-    **Run command:**
-
-      ```bash
-      db.runCommand({getLastRequestStatistics: 1})
-      ```
-
-    You'll receive a response such as the following:
-
-      ```bash
-      globaldb:PRIMARY> db.runCommand({getLastRequestStatistics: 1})
-       {
-        "_t": "GetRequestStatisticsResponse",
-        "ok": 1,
-        "CommandName": "insert",
-        "RequestCharge": 10,
-        "RequestDurationInMilliSeconds": NumberLong(50)
-        }
-      ```
-
-    e. Take note of the request charge.
-
-3. Determine the latency from your machine to the Azure Cosmos DB cloud service:
-
-    a. Enable verbose logging from the MongoDB Shell by using this command: 
-
-      ```bash
-      setVerboseShell(true)
-      ```
-
-    b. Run a simple query against the database: 
-
-      ```bash
-      db.coll.find().limit(1)
-      ```
-    
-    You'll receive a response like the following:
- 
-      ```bash
-      Fetched 1 record(s) in 100(ms)
-      ```
-
-4. Remove the inserted document before the migration to ensure that there are no duplicate documents. You can remove documents by using this command:
-
-      ```bash
-      db.coll.remove({})
-      ```
-
-5. Calculate the approximate *batchSize* and *numInsertionWorkers* values:
-
-    a. As a reminder, provisioned throughput should be increased during the migration
-
-    b. For *batchSize*, divide the total provisioned RUs by the RUs consumed from your single document write in step 3.
-
-    c. If the calculated *batchSize* <= 24, use that number as your *batchSize* value.
-
-    d. If the calculated *batchSize* > 24, set the *batchSize* value to 24.
-
-    e.  For *numInsertionWorkers*, use this equation: 
-
-       *numInsertionWorkers* =  (provisioned throughput \* latency in seconds) / (batch size * consumed RUs for a single write)*.**
-
-      **Example:**
-
-       | **Property**               | **Value** |
-       | -------------------------- | --------- |
-       | Latency                    | 0.1 s     |
-       | RUs provisioned            | 10000     |
-       | batchSize                  | 24        |
-       | RU charged for 1 doc write | 10 RUs    |
-       | numInsertionWorkers        | ?         |
-
-        ​*numInsertionWorkers = (10000 RUs x 0.1 s) / (24 x 10 RUs) = 4.1666*
-
-6. Get your connection string.
-
-    a. In the [Azure portal](https://portal.azure.com/), in the left pane, click the **Azure Cosmos DB** entry.
-
-    b. In the **Subscriptions** pane, select your account name.
-
-    c. In the **Connection String** blade, select **Connection String**.
-
-    The right pane contains all the information that you need to successfully connect to your account.
-
-     ![Cosmos DB selection string](https://mpbdevcontent.azureedge.net/Images/mongo-selection-string.png)
-
-7. **Option #1** - Import data using mongoimport.
-
-    For each collection, export data from MongoDB to JSON by running mongoexport command:
-
-      ```bash
-      mongoexport --db <your_database> --collection <your_collection> --out <json_file>
-      ```
-
-    Run the **mongoimport** migration command for each collection (make sure all collections have the throughput set at or above the number of RUs used in previous calculations). 
-
-      ```bash
-     mongoimport.exe --host <your_hostname>:10255 -u <your_username> -p <your_password> --db <your_database> --collection <your_collection> --ssl --sslAllowInvalidCertificates --type json --file "C:\sample.json"
-      ```
-
-    **Option #2** - Import data using mongorestore. 
-
-    For each collection, export data from MongoDB to bson using **mongodump**.
-
-      ```shell
-      mongodump –-db <your_database> --collection <your_collection>
-      ```
-
-    Run **mongorestore** migration command for each collection (make sure all collections have the throughput set at or above the number of RUs used in previous calculations):
-
-      ```shell
-      mongorestore.exe --host <your_hostname>:10255 -u <your_username> -p <your_password> --db <your_database> --collection <your_collection> --ssl --sslAllowInvalidCertificates <path_to_backup>
-      ```
-
-8. After completing migration, data should be populated in each collection. You can check through the Azure portal
-
-    ![Cosmos DB data explorer](https://mpbdevcontent.azureedge.net/Images/mongo-data-explorer.png)
+**Important**: For detail on the specific steps associated with:
+* Online migrations, see the information [here](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online#register-the-microsoftdatamigration-resource-provider).
+* Offline migrations, see the information [here](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db#register-the-microsoftdatamigration-resource-provider).

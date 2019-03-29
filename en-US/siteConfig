@@ -13,7 +13,7 @@
           "URL": "/scenario/sql-to-sqlserver"
         },
         {
-          "name": "Azure SQL Database MI",
+          "name": "Azure SQL Database (MI)",
           "longname": "Azure SQL Database Managed Instance",
           "URL": "/scenario/sql-to-azuresqldbmi"
         },
@@ -161,20 +161,16 @@
       "link": "/scenario/sql-to-azuresqldb"
     },
     {
-      "text": "SQL Server &rarr; Azure SQL Database Managed Instance",
-      "link": "/scenario/sql-to-azuresqldbmi"
+      "text": "SQL Server &rarr; SQL Server",
+      "link": "/scenario/sql-to-sqlserver"
     },
     {
       "text": "Oracle &rarr; SQL Server",
       "link": "/scenario/oracle-to-sqlserver"
     },
     {
-      "text": "Oracle &rarr; Azure DB for PostgreSQL",
-      "link": "/scenario/oracle-to-azurepostgresql"
-    },
-    {
-      "text": "MongoDB &rarr; Azure Cosmos DB",
-      "link": "/scenario/mongo-to-cosmos"
+      "text": "DB2 &rarr; Azure SQL Database",
+      "link": "/scenario/db2-to-azuresqldb"
     }
   ],
    "otherTools": [
@@ -196,10 +192,10 @@
     }
   ],
   "caseStudies": [{
-      "filelocation": "Floatel"
+      "filelocation": "WillisTowersWatson"
     },
     {
-      "filelocation": "Infosys"
+      "filelocation": "InnovativeSys"
     },
     {
       "filelocation": "HollandAmerica"
@@ -212,49 +208,100 @@
     },
     {
       "filelocation": "Vipps"
+    },
+    {
+      "filelocation": "Floatel"
+    },
+    {
+      "filelocation": "Infosys"
     }
   ],
   "partners": [{
       "filelocation": "Attunity"
     },
     {
-      "filelocation": "Striim"
-    },
-    {
-      "filelocation": "Ispirer"
-    },
-    {
-      "filelocation": "Datometry"
-    },
-    {
-      "filelocation": "Morphis"
+      "filelocation": "Cloudamize"
     },
     {
       "filelocation": "Corent"
     },
     {
+      "filelocation": "credativ"
+    },
+    {
+      "filelocation": "DataSunrise"
+    },
+    {
+      "filelocation": "Datometry"
+    },
+    {
+      "filelocation": "DBBest"
+    },
+    {
+      "filelocation": "DXC"
+    },
+    {
+      "filelocation": "Fujitsu"
+    },
+    {
+      "filelocation": "HVR"
+    },
+    {
+      "filelocation": "Imanis"
+    },
+    {
       "filelocation": "Informatica"
     },
     {
-      "filelocation": "Griddable"
+      "filelocation": "Infosys"
     },
     {
-      "filelocation": "QuerySurge"
+      "filelocation": "Ispirer"
     },
     {
-      "filelocation": "Movere"
-    },
-    {
-      "filelocation": "Cloudamize"
+      "filelocation": "Kangaroot"
     },
     {
       "filelocation": "NayaTech"
     },
     {
+      "filelocation": "Morphis"
+    },
+    {
+      "filelocation": "Movere"
+    },
+    {
+      "filelocation": "Pactera"
+    },
+    {
+      "filelocation": "Pragmatic_Works"
+    },
+    {
+      "filelocation": "QuerySurge"
+    },
+    {
       "filelocation": "Quest"
     },
     {
+      "filelocation": "rhipe"
+    },
+    {
+      "filelocation": "Satalyst"
+    },
+    {
+      "filelocation": "ScalabilityExperts"
+    },
+    {
+      "filelocation": "SNP_Tech"
+    },
+    {
       "filelocation": "Splendid_Data"
+    },
+    {
+      "filelocation": "Striim"
+    },
+    {
+      "filelocation": "Zen3"
     }
   ]
 }

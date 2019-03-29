@@ -85,13 +85,16 @@
 			"filelocation": "ScalabilityExperts"
 		},
 		{
-			"filelocation": "Griddable"
-		},
-		{
 			"filelocation": "Quest"
 		},
 		{
 			"filelocation": "DXC"
+		},
+		{
+			"filelocation": "Zen3"
+		},
+		{
+			"filelocation": "HVR"
 		}
 	]
 }

@@ -1,8 +1,8 @@
 ## Rationale for migrating
 
-Azure SQL Database Managed Instance (preview) is a new capability of Azure SQL Database, providing near 100% compatibility with SQL Server on-premises (Enterprise Edition), providing a native virtual network (VNet) implementation that addresses common security concerns, and a business model favorable for on-premises SQL Server customers. Managed Instance allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes. At the same time, Managed Instance preserves all PaaS capabilities (automatic patching and version updates, backup, high-availability), that drastically reduces management overhead and TCO.
+An Azure SQL Database managed instance is a new capability of Azure SQL Database, providing near 100% compatibility with SQL Server on-premises (Enterprise Edition), providing a native virtual network (VNet) implementation that addresses common security concerns, and a business model favorable for on-premises SQL Server customers. Managed Instance allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes. At the same time, Managed Instance preserves all PaaS capabilities (automatic patching and version updates, backup, high-availability), that drastically reduces management overhead and TCO.
 
-There are several benefits associated with migrating your database to Azure SQL Database Managed Instance.
+There are several benefits associated with migrating your database to an Azure SQL Database managed instance.
 
 ### PaaS benefits
 
@@ -17,7 +17,7 @@ There are several benefits associated with migrating your database to Azure SQL 
 * 99.99% uptime SLA
 * Built in high availability
 * Data protected with automated backups
-* Customer configurable backup retention period (fixed to 7 days in Public Preview)
+* Customer configurable backup retention period
 * User-initiated backups
 * Point in time database restore capability
 
@@ -34,4 +34,4 @@ There are several benefits associated with migrating your database to Azure SQL 
 
 * Azure Resource Manager API for automating service provisioning and scaling
 * Azure portal functionality for manual service provisioning and scaling
-* Azyre Database Migration Service
+* Azure Database Migration Service

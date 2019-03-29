@@ -1,9 +1,0 @@
-<!--Migrate data-->
-
-After the schema(s) is deployed, the next step is to migrate the data. There are two ways to migrate a MySQL database to Azure Database for MySQL.
-
-**For relatively small (<150GB for example) databases that allow for downtime during migration**, you can use dump and restore via the mysqldump utility and MySQL Workbench. For details, refer to the article [Dump and restore](https://docs.microsoft.com/en-us/azure/mysql/concepts-migrate-dump-restore) in the Azure Database for MySQL documentation.
-
-**For relatively large databases that can’t afford downtime during migration**, you can sign up to participate in the Azure Database Migration Service limited preview.
-
-**Note**: To sign up for Private preview of minimal downtime migrations for MySQL to Azure Database for MySQL, submit a nomination on the Azure Database Migration Service [preview site](https://aka.ms/dms-preview).

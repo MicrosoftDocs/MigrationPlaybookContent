@@ -1,42 +1,23 @@
 <!--Migrate schema-->
 
-After you are comfortable with the assessment and satisfied that the selected database is a viable candidate for migration to Azure SQL Database, use the Data Migration Assistant to migrate the schema to Azure SQL Database.
+After you are comfortable with the assessment and satisfied that the selected database is a viable candidate for migration to Azure SQL Database, use the Data Migration Assistant (DMA) to migrate the schema to Azure SQL Database.
 
-**Note**: Before you create a migration project in Data Migration Assistant, be sure that you have already provisioned an Azure SQL database as mentioned in the prerequisites. If you use SSIS, DMA does not yet support the migration of source SSISDB, but you can redeploy your SSIS projects/packages to the destination SSISDB hosted by Azure SQL Database. For more information, see the **Migrate SSIS packages** section.
+**Note**: Before you create a migration project in DMA, be sure that you have already provisioned an Azure SQL database as mentioned in the prerequisites. If you use SSIS, DMA does not yet support the migration of source SSISDB, but you can redeploy your SSIS projects/packages to the destination SSISDB hosted by Azure SQL Database. For more information about migrating SSIS packages, see the article [Migrate SQL Server Integration Services packages to Azure](https://docs.microsoft.com/azure/dms/how-to-migrate-ssis-packages).
 
-### Steps
+### Overview of schema migration steps
 
-To use DMA to create a migration project, perform the following steps.
+An overview of the steps associated with using DMA to migrate the schema follows.
 
-1.	In the Data Migration Assistant, select the New (+) icon, and then under **Project type**, select **Migration**.
-2.	Specify a project name, in the **Source server type** text box, select **SQL Server**, and then in the **Target server type** text box, select **Azure SQL Database**.
-3.	Under **Migration Scope**, select **Schema only**.
+1. Open DMA, and then begin creating a new migration project.
+2. Specify a project name, select SQL Server as the source server type, and then select Azure SQL Database as the target server type.
+3. Specify the migration scope as Schema only, and then create the project.
+4. Specify the source connection details for your SQL Server, and then connect to the source database.
+5. Specify the target connection details for the Azure SQL database, and then connect to the database you had pre-provisioned in Azure SQL Database.
+6. Specify the schema objects in the source database that need to be deployed to Azure SQL Database.
+7. Generate SQL scripts, and then review them for any errors.
+8. Deploy the schema to Azure SQL Database, and then check the target server for any anomalies.
 
-    After performing the previous steps, the Data Migration Assistant interface should appear as shown in the following graphic:
-    
-    ![Create Data Migration Assistant Project](https://mpbdevcontent.azureedge.net/Images/dma-create-project.png)
+**Important**: For detail on the specific steps associated with:
 
-4.	Select **Create** to create the project.
-5.	In the Data Migration Assistant, specify the source connection details for your SQL Server, select **Connect**, and then select the source database.
-
-    ![Data Migration Assistant Source Connection Details](https://mpbdevcontent.azureedge.net/Images/dma-source-connect.png)
-
-6.	Select **Next**, under **Connect to target server**, specify the target connection details for the Azure SQL database, select **Connect**, and then select the database you had pre-provisioned in Azure SQL database.
-
-    ![Data Migration Assistant Target Connection Details](https://mpbdevcontent.azureedge.net/Images/dma-target-connect.png)
-
-7.	Select **Next** to advance to the **Select objects** screen, on which you can specify the schema objects in the source database that need to be deployed to Azure SQL Database.
-
-    By default, all objects are selected.
-
-    ![Generate SQL Scripts](https://mpbdevcontent.azureedge.net/Images/dma-assessment-source.png)
-
-8.	Select **Generate SQL script** to create the SQL scripts, and then review the scripts for any errors.
-
-    ![Schema Script](https://mpbdevcontent.azureedge.net/Images/dma-schema-script.png)
-
-9.	Select **Deploy schema** to deploy the schema to Azure SQL Database, and then after the schema is deployed, check the target server for any anomalies.
-
-    ![Deploy Schema](https://mpbdevcontent.azureedge.net/Images/dma-schema-deploy.png)
-
-       **Note**: Review the right pane for the deployment status. If necessary, update the deployment script(s) for failures and attempt re-deploying the schema.
+* Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#migrate-the-sample-schema).
+* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#migrate-the-sample-schema).

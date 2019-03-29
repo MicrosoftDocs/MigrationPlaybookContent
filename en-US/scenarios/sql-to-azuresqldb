@@ -19,7 +19,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "NoConvert",
+					"filelocation": "SqlToSqlDbNoConvert",
 					"actions": []
 				}
 			]
@@ -40,7 +40,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlToSqlDbDataSyncAndCutover_DmsPreview",
+					"filelocation": "SqlToSqlDbDataSyncAndCutover",
 					"actions": []
 				}
 			]
@@ -67,9 +67,12 @@
 			]
 		}
 	],
-	"casestudies": [
-
-	],
+	"casestudies": [{
+      		"filelocation": "InnovativeSys"
+    	},
+		{
+			"filelocation": "WillisTowersWatson"
+	}],
 	"partners": [{
 			"filelocation": "DBBest"
 		},
@@ -92,13 +95,16 @@
 			"filelocation": "ScalabilityExperts"
 		},
 		{
-			"filelocation": "Griddable"
-		},
-		{
 			"filelocation": "Quest"
 		},
 		{
 			"filelocation": "DXC"
+		},
+		{
+			"filelocation": "Zen3"
+		},
+		{
+			"filelocation": "HVR"
 		}
 	]
 }

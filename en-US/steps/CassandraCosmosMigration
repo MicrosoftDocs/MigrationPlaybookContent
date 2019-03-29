@@ -94,6 +94,8 @@ To learn more about the Azure Cosmos DB Cassandra API, view the following resour
 - [Apache Cassandra features supported by Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-support)
 - [Connect to Azure Cosmos DB Cassandra API from Spark](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-generic)
 
+For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
+
 ### Migration support
 
-The Cosmos DB Ninja and PM Teams are happy to assist customers with migrations. Please reach out to the product team directly at [@askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com).
+The Azure Cosmos DB Ninja and PM Teams are happy to assist customers with migrations. Please reach out to the product team directly at [@askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com).

@@ -15,9 +15,6 @@
 
 	],
 	"partners": [{
-			"filelocation": "Griddable"
-		},
-		{
 			"filelocation": "Splendid_Data"
 		},
 		{
@@ -49,6 +46,15 @@
 		},
 		{
 			"filelocation": "DXC"
+		},
+		{
+			"filelocation": "Zen3"
+		},
+	    {
+    		"filelocation": "Kangaroot"
+    	},
+		{
+			"filelocation": "HVR"
 		}
 	]
 }

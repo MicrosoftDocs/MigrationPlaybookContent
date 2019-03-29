@@ -23,15 +23,11 @@
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlToAzureMySqlSchemaMigration",
+					"filelocation": "MySqlToAzureMySqlSchemaandDataMigration",
 					"actions": []
 				},
 				{
-					"filelocation": "MySqlToAzureMySqlDataMigration",
-					"actions": []
-				},
-				{
-					"filelocation": "MySqlToAzureMySqlDataSyncAndCutover_DmsPreview",
+					"filelocation": "MySqlToAzureMySqlDataSyncAndCutover",
 					"actions": []
 				}
 			]
@@ -101,10 +97,13 @@
 			"filelocation": "Pactera"
 		},
 		{
-			"filelocation": "Griddable"
-		},
-		{
 			"filelocation": "DXC"
+		},
+	    {
+    		"filelocation": "Kangaroot"
+    	},
+		{
+			"filelocation": "HVR"
 		}
 	]
 }
