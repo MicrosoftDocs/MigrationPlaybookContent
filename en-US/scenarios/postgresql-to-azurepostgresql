@@ -57,6 +57,9 @@
 
 	],
 	"partners": [{
+			"filelocation": "Cast"
+		},
+		{
 			"filelocation": "DataSunrise"
 		},
 		{
