@@ -220,49 +220,88 @@
       "filelocation": "Attunity"
     },
     {
-      "filelocation": "Striim"
-    },
-    {
-      "filelocation": "Ispirer"
-    },
-    {
-      "filelocation": "Datometry"
-    },
-    {
-      "filelocation": "Morphis"
+      "filelocation": "Cloudamize"
     },
     {
       "filelocation": "Corent"
     },
     {
+      "filelocation": "credativ"
+    },
+    {
+      "filelocation": "DataSunrise"
+    },
+    {
+      "filelocation": "Datometry"
+    },
+    {
+      "filelocation": "DBBest"
+    },
+    {
+      "filelocation": "DXC"
+    },
+    {
+      "filelocation": "Fujitsu"
+    },
+    {
+      "filelocation": "HVR"
+    },
+    {
+      "filelocation": "Imanis"
+    },
+    {
       "filelocation": "Informatica"
     },
     {
-      "filelocation": "QuerySurge"
+      "filelocation": "Infosys"
     },
     {
-      "filelocation": "Movere"
-    },
-    {
-      "filelocation": "Cloudamize"
-    },
-    {
-      "filelocation": "NayaTech"
-    },
-    {
-      "filelocation": "Quest"
-    },
-    {
-      "filelocation": "Splendid_Data"
-    },
-    {
-      "filelocation": "Zen3"
+      "filelocation": "Ispirer"
     },
     {
       "filelocation": "Kangaroot"
     },
     {
-      "filelocation": "HVR"
+      "filelocation": "NayaTech"
+    },
+    {
+      "filelocation": "Morphis"
+    },
+    {
+      "filelocation": "Movere"
+    },
+    {
+      "filelocation": "Pactera"
+    },
+    {
+      "filelocation": "Pragmatic_Works"
+    },
+    {
+      "filelocation": "QuerySurge"
+    },
+    {
+      "filelocation": "Quest"
+    },
+    {
+      "filelocation": "rhipe"
+    },
+    {
+      "filelocation": "Satalyst"
+    },
+    {
+      "filelocation": "ScalabilityExperts"
+    },
+    {
+      "filelocation": "SNP_Tech"
+    },
+    {
+      "filelocation": "Splendid_Data"
+    },
+    {
+      "filelocation": "Striim"
+    },
+    {
+      "filelocation": "Zen3"
     }
   ]
 }
