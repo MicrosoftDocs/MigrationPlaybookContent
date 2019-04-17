@@ -1,6 +1,6 @@
 {
-	"displayname": "Migrate Oracle to Azure PostgreSQL",
-	"emailmessage": "Check out the process for migrating from Oracle to Azure PostgreSQL here:",
+	"displayname": "Migrate Oracle to Azure Database for PostgreSQL",
+	"emailmessage": "Check out the process for migrating from Oracle to Azure Database for PostgreSQL here:",
 	"description": "",
 	"rationale": "AzurePostgreSqlRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
@@ -15,10 +15,28 @@
 
 	],
 	"partners": [{
-			"filelocation": "Splendid_Data"
+			"filelocation": "credativ"
 		},
 		{
 			"filelocation": "DataSunrise"
+		},
+		{
+			"filelocation": "DXC"
+		},
+		{
+			"filelocation": "HVR"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+	    {
+    		"filelocation": "Kangaroot"
+    	},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "Pragmatic_Works"
 		},
 		{
 			"filelocation": "QuerySurge"
@@ -27,34 +45,16 @@
 			"filelocation": "Satalyst"
 		},
 		{
-			"filelocation": "SNP_Tech"
-		},
-		{
-			"filelocation": "Pragmatic_Works"
-		},
-		{
-			"filelocation": "Infosys"
-		},
-		{
-			"filelocation": "credativ"
-		},
-		{
-			"filelocation": "NayaTech"
-		},
-		{
 			"filelocation": "ScalabilityExperts"
 		},
 		{
-			"filelocation": "DXC"
+			"filelocation": "SNP_Tech"
+		},
+		{
+			"filelocation": "Splendid_Data"
 		},
 		{
 			"filelocation": "Zen3"
-		},
-	    {
-    		"filelocation": "Kangaroot"
-    	},
-		{
-			"filelocation": "HVR"
 		}
 	]
 }
