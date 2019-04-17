@@ -1,6 +1,6 @@
 {
-	"displayname": "Migrate Oracle to Azure PostgreSQL",
-	"emailmessage": "Check out the process for migrating from Oracle to Azure PostgreSQL here:",
+	"displayname": "Migrate Oracle to Azure Database for PostgreSQL",
+	"emailmessage": "Check out the process for migrating from Oracle to Azure Database for PostgreSQL here:",
 	"description": "",
 	"rationale": "AzurePostgreSqlRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
