@@ -7,7 +7,7 @@
 	"steps": [{
 			"name": "Before you start",
 			"items": [{
-					"filelocation": "OracleToAzurePgGetStarted",
+					"filelocation": "OracleToAzurePg-GetStarted",
 					"actions": []
 				}
 			]
