@@ -5,12 +5,73 @@
 	"rationale": "AzurePostgreSqlRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Migration options",
-		"items": [{
-			"filelocation": "OracleToAzurePostgreSqlMigration",
-			"actions": []
-		}]
-	}],
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "OracleToAzurePgGetStarted",
+					"actions": []
+				}
+			]
+		},
+		
+		{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "OracleToAzurePg-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-Discover",
+					"actions": []
+				},
+				{
+					"filelocation": "SOracleToAzurePg-Assessment",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-Convert",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-SchemaAndDataMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-DataSyncAndCutover",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-Optimization",
+					"actions": []
+				}
+			]
+		}
+	],
 	"casestudies": [
 
 	],

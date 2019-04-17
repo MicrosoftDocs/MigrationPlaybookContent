@@ -9,4 +9,4 @@ Microsoft Oracle pre-assessment scripts run against the Oracle database. The Pre
 - Sizing of tables in each schema.
 - The number of lines of code per Package, Function, Procedure, etc.
 
-Download the related scripts from [here](NEED LINK). 
+Download the related scripts from the [ora2pg website](http://ora2pg.darold.net/).
