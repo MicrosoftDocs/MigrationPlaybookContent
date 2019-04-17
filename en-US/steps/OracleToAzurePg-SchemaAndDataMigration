@@ -1,0 +1,7 @@
+<!--Migrate schema and data-->
+
+After the fixes are in place, a stable build of the database is ready for deployment. 
+
+At this point, all that is required is to execute the *psql* import commands, pointing to the files containing the modified code in order to compile the database objects against the PostgreSQL database and import the data. 
+
+In this step, some level of parallelism on importing the data can be implemented. 
