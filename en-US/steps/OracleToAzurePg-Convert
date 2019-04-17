@@ -7,7 +7,7 @@ The process of understanding which elements need manual intervention consists in
 
 1. First, it is recommended to create the migration template that is provided out of the box with ora2pg. The two options --project_base and --init_project when used indicate to ora2pg that it has to create a project template with a work tree, a configuration file and a script to export all objects from the Oracle database. For further information, consult the ora2pg [documentation](https://ora2pg.darold.net/documentation.html).
 
-The command is executed show in the following example:
+        The command is executed show in the following example:
 
 ```
         ora2pg --project_base /app/migration/ --init_project test_project
@@ -22,9 +22,9 @@ The command is executed show in the following example:
                 Creating script import_all.sh to automate all imports.
 ```
 
-The sources/ directory contains the Oracle code, the schema/ directory contains the code ported to PostgreSQL. The reports/ directory contains the html reports with the migration cost assessment. 
+        The sources/ directory contains the Oracle code, the schema/ directory contains the code ported to PostgreSQL. The reports/ directory contains the html reports with the migration cost assessment. 
 
-After the project structure is created, a generic config file is created. Define the Oracle database connection as well as the relevant config parameters in the config. Refer to the ora2pg documentation to understand what can be configured in the config file and how.
+        After the project structure is created, a generic config file is created. Define the Oracle database connection as well as the relevant config parameters in the config. Refer to the ora2pg documentation to understand what can be configured in the config file and how.
 
 2. Next, export the Oracle objects as PostgreSQL objects by running the file export_schema.sh.
 
@@ -33,7 +33,7 @@ After the project structure is created, a generic config file is created. Define
         ./export_schema.sh 
 ```
 
-Run the following command manually:
+        Run the following command manually:
 
 ```
         SET namespace="/app/migration/mig_project" 
@@ -59,7 +59,7 @@ Run the following command manually:
         %namespace%/config/ora2pg.conf ora2pg -p -t TYPE -o types.sql -b %namespace%/schema/types -c %namespace%/config/ora2pg.conf ora2pg -p -t VIEW -o views.sql -b %namespace%/schema/views -c %namespace%/config/ora2pg.conf  
 ```
 
-To extract the data, use the following command: 
+        To extract the data, use the following command: 
 
 ```
         ora2pg -t COPY -o data.sql -b %namespace/data -c %namespace/config/ora2pg.conf 
@@ -74,13 +74,13 @@ To extract the data, use the following command:
         psql -f %namespace%\schema\tables\table.sql -h server1-server.postgres.database.azure.com p 5432 -U username@server1-server -d database -l %namespace%\schema\tables\create_table.log 
 ```
 
-Data import command: 
+        Data import command: 
 
 ```
         psql -f %namespace%\data\table1.sql -h server1-server.postgres.database.azure.com -p 5432 -U username@server1-server -d database -l %namespace%\data\table1.log 
         psql -f %namespace%\data\table2.sql -h server1-server.postgres.database.azure.com -p 5432 -U username@server1-server -d database -l %namespace%\data\table2.log 
 ```
 
-During the compilation of files, check the logs and correct the necessary syntaxes that ora2pg was unable to convert out of the box. 
+        During the compilation of files, check the logs and correct the necessary syntaxes that ora2pg was unable to convert out of the box. 
 
 Refer to the white paper [Oracle to Azure Database for PostgreSQL Migration Workarounds](https://github.com/Microsoft/DataMigrationTeam/blob/master/Whitepapers/Oracle%20to%20Azure%20Database%20for%20PostgreSQL%20Migration%20Workarounds.pdf) for support on working around issues.
