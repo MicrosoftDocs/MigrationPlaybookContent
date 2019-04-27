@@ -298,6 +298,9 @@
       "filelocation": "ScalabilityExperts"
     },
     {
+      "filelocation": "Simora"
+    },
+    {
       "filelocation": "SNP_Tech"
     },
     {
@@ -305,6 +308,18 @@
     },
     {
       "filelocation": "Striim"
+    },
+    {
+      "filelocation": "Sysgain"
+    },
+    {
+      "filelocation": "TSO_Logic"
+    },
+    {
+      "filelocation": "Turbonomic"
+    },
+    {
+      "filelocation": "Unify_Cloud"
     },
     {
       "filelocation": "Zen3"
