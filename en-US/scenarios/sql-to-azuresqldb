@@ -12,7 +12,6 @@
 				}
 			]
 		},
-		
 		{
 			"name": "Pre-migration",
 			"items": [{
@@ -33,7 +32,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Migration",
 			"items": [{
@@ -54,7 +52,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Post-migration",
 			"items": [{
