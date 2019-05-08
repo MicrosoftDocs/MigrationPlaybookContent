@@ -7,7 +7,7 @@
 	"steps": [{
 			"name": "Before you start",
 			"items": [{
-					"filelocation": "SqlToSql-GetStarted",
+					"filelocation": "SqlToSqlDb-GetStarted",
 					"actions": []
 				}
 			]
