@@ -11,7 +11,7 @@ The list below identifies the primary methods for migrating from SQL Server to S
 * Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM.
 * Perform a backup to URL, and then restore into an Azure VM from the URL.
 * Detach and copy the data and log files to Azure Blob storage, and then attach to an Azure VM from the URL.
-* Convert an on-premises VW to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD.
+* Convert an on-premises VM to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD.
 * Ship a hard drive using Windows Import/Export Service.
 * Use the Add Azure Replica Wizard.
 * Use SQL Server transactional replication.
