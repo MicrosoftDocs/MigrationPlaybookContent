@@ -8,11 +8,6 @@
           "URL": "/scenario/sql-to-azuresqldb"
         },
         {
-          "name": "SQL Server (upgrade)",
-          "longname": "SQL Server (on-premises)",
-          "URL": "/scenario/sql-to-sqlserver"
-        },
-        {
           "name": "Azure SQL Database (MI)",
           "longname": "Azure SQL Database Managed Instance",
           "URL": "/scenario/sql-to-azuresqldbmi"
@@ -26,6 +21,11 @@
           "name": "SQL Data Warehouse",
           "longname": "Azure Data Warehouse",
           "URL": "/scenario/sql-to-sqldw"
+        },
+        {
+          "name": "SQL Server (upgrade)",
+          "longname": "SQL Server (on-premises)",
+          "URL": "/scenario/sql-to-sqlserver"
         }
       ]
     },
@@ -38,11 +38,6 @@
           "URL": "/scenario/oracle-to-azuresqldb"
         },
         {
-          "name": "SQL Server",
-          "longname": "SQL Server",
-          "URL": "/scenario/oracle-to-sqlserver"
-        },
-        {
           "name": "Azure DB for PostgreSQL",
           "longname": "Azure Database for PostgreSQL",
           "URL": "/scenario/oracle-to-azurepostgresql"
@@ -51,6 +46,11 @@
           "name": "SQL Data Warehouse",
           "longname": "SQL Data Warehouse",
           "URL": "/scenario/oracle-to-sqldw"
+        },
+        {
+          "name": "SQL Server",
+          "longname": "SQL Server (on-premises)",
+          "URL": "/scenario/sql-to-sqlserver"
         }
       ]
     },
@@ -64,7 +64,7 @@
         },
         {
           "name": "SQL Server",
-          "longname": "SQL Server",
+          "longname": "SQL Server (on-premises)",
           "URL": "/scenario/db2-to-sqlserver"
         }
       ]
@@ -79,7 +79,7 @@
         },
         {
           "name": "SQL Server",
-          "longname": "SQL Server",
+          "longname": "SQL Server (on-premises)",
           "URL": "/scenario/mysql-to-sqlserver"
         },
         {
@@ -126,7 +126,7 @@
         },
         {
           "name": "SQL Server",
-          "longname": "SQL Server",
+          "longname": "SQL Server (on-premises)",
           "URL": "/scenario/access-to-sqlserver"
         }
       ]
@@ -141,7 +141,7 @@
         },
         {
           "name": "SQL Server",
-          "longname": "SQL Server",
+          "longname": "SQL Server (on-premises)",
           "URL": "/scenario/sybase-to-sqlserver"
         }
       ]
