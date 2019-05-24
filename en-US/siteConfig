@@ -38,7 +38,7 @@
           "URL": "/scenario/oracle-to-azuresqldb"
         },
         {
-          "name": "Azure DB for PostgreSQL",
+          "name": "Azure Database for PostgreSQL",
           "longname": "Azure Database for PostgreSQL",
           "URL": "/scenario/oracle-to-azurepostgresql"
         },
@@ -83,7 +83,7 @@
           "URL": "/scenario/mysql-to-sqlserver"
         },
         {
-          "name": "Azure DB for MySQL",
+          "name": "Azure Database for MySQL",
           "longname": "Azure Database for MySQL",
           "URL": "/scenario/mysql-to-azuremysql"
         }
@@ -93,7 +93,7 @@
       "title": "PostgreSQL",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
       "pages": [{
-        "name": "Azure DB for PostgreSQL",
+        "name": "Azure Database for PostgreSQL",
         "longname": "Azure Database for PostgreSQL",
         "URL": "/scenario/postgresql-to-azurepostgresql"
       }]
