@@ -50,7 +50,7 @@
         {
           "name": "SQL Server",
           "longname": "SQL Server (on-premises)",
-          "URL": "/scenario/sql-to-sqlserver"
+          "URL": "/scenario/oracle-to-sqlserver"
         }
       ]
     },

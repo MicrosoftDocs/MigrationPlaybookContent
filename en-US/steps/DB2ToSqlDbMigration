@@ -16,7 +16,7 @@ To use SSMA for DB2 to publish the database schema and migrate the data, perform
   
     c. This action will publish the DB2 schema to the Azure SQL Database instance.
 
-2. **Migrate data to Azure SQL Database **.
+2. **Migrate data to Azure SQL Database**.
 
     a.	After publishing the schema to the Azure SQL Database instance, select the DB2 schema from the "DB2 Metadata Explorer” and choose "Migrate Data" from the right-click menu options or the menu bar on the top.
   
