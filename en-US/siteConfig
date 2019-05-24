@@ -78,14 +78,14 @@
           "URL": "/scenario/mysql-to-azuresqldb"
         },
         {
-          "name": "SQL Server",
-          "longname": "SQL Server (on-premises)",
-          "URL": "/scenario/mysql-to-sqlserver"
-        },
-        {
           "name": "Azure Database for MySQL",
           "longname": "Azure Database for MySQL",
           "URL": "/scenario/mysql-to-azuremysql"
+        },
+        {
+          "name": "SQL Server",
+          "longname": "SQL Server (on-premises)",
+          "URL": "/scenario/mysql-to-sqlserver"
         }
       ]
     },
