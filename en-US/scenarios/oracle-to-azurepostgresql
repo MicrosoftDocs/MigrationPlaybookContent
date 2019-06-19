@@ -1,24 +1,103 @@
 {
-	"displayname": "Migrate Oracle to Azure PostgreSQL",
-	"emailmessage": "Check out the process for migrating from Oracle to Azure PostgreSQL here:",
+	"displayname": "Migrate Oracle to Azure Database for PostgreSQL",
+	"emailmessage": "Check out the process for migrating from Oracle to Azure Database for PostgreSQL here:",
 	"description": "",
 	"rationale": "AzurePostgreSqlRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Migration options",
-		"items": [{
-			"filelocation": "OracleToAzurePostgreSqlMigration",
-			"actions": []
-		}]
-	}],
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "OracleToAzurePg-GetStarted",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "OracleToAzurePg-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-Discover",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-Assessment",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-Convert",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-SchemaAndDataMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-DataSyncAndCutover",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToAzurePg-Optimization",
+					"actions": []
+				}
+			]
+		}
+	],
 	"casestudies": [
 
 	],
 	"partners": [{
-			"filelocation": "Splendid_Data"
+			"filelocation": "Blitzz"
+		},
+		{
+			"filelocation": "credativ"
 		},
 		{
 			"filelocation": "DataSunrise"
+		},
+		{
+			"filelocation": "DXC"
+		},
+		{
+			"filelocation": "HVR"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+	    {
+    		"filelocation": "Kangaroot"
+    	},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "Pragmatic_Works"
 		},
 		{
 			"filelocation": "QuerySurge"
@@ -27,34 +106,16 @@
 			"filelocation": "Satalyst"
 		},
 		{
-			"filelocation": "SNP_Tech"
-		},
-		{
-			"filelocation": "Pragmatic_Works"
-		},
-		{
-			"filelocation": "Infosys"
-		},
-		{
-			"filelocation": "credativ"
-		},
-		{
-			"filelocation": "NayaTech"
-		},
-		{
 			"filelocation": "ScalabilityExperts"
 		},
 		{
-			"filelocation": "DXC"
+			"filelocation": "SNP_Tech"
+		},
+		{
+			"filelocation": "Splendid_Data"
 		},
 		{
 			"filelocation": "Zen3"
-		},
-	    {
-    		"filelocation": "Kangaroot"
-    	},
-		{
-			"filelocation": "HVR"
 		}
 	]
 }

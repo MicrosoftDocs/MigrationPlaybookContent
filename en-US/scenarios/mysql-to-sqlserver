@@ -62,6 +62,12 @@
 
 	],
 	"partners": [{
+			"filelocation": "Blitzz"
+		},
+		{
+			"filelocation": "Cast"
+		},
+		{
 			"filelocation": "QuerySurge"
 		},
 		{

@@ -61,6 +61,12 @@
 		}
 	],
 	"partners": [{
+			"filelocation": "Blitzz"
+		},
+		{
+			"filelocation": "Cast"
+		},
+		{
 			"filelocation": "DataSunrise"
 		},
 		{

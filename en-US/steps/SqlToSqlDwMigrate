@@ -32,12 +32,6 @@ Performing a successful migration requires you to migrate your table schemas, co
 * The article [Migrate your code](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
 * The article [Migrate your data](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-data).
 
-### Additional resources
-
-- The CAT (Customer Advisory Team) has some great SQL Data Warehouse guidance published as blog postings. Be sure to take a look at their article, [Migrating data to Azure SQL Data Warehouse in practice]( https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/), for additional guidance on migration.
-- Check out the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp) for additional information and recommendations.
-- For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
-
 ### Migration learnings and best practices from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
@@ -87,7 +81,26 @@ For additional assistance with completing this migration scenario, please see th
 <p>This white paper describes recommended data type mapping between Netezza and Azure SQL Data Warehouse.</p>
 </td>
 </tr>
+<tr style="height: 62px;">
+<td style="height: 62px;" width="18%">
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/IP%20and%20Scripts/MoveLogins">Utility to move On-Premises SQL Server Logins to Azure SQL DW</a></p>
+</td>
+<td style="height: 62px;" width="59%">
+<p>A PowerShell script that creates a T-SQL command script to re-create logins and select database users from an “on premises” SQL Server to an Azure SQL PaaS service. The tool allows the automatic mapping of Windows AD accounts to Azure AD accounts or it can do UPN lookups for each login against the on premises Windows Active Directory. The tool optionally moves SQL Server native logins as well. Custom server and database roles are scripted, as well as role membership and database role and user permissions. Contained databases are yet not supported and only a subset of possible SQL Server permissions are scripted; i.e. permissions grant with grant are not supported (complex permission trees). More details are available in the support document and the script have comments for ease of understanding.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
 **Note**: These resources were developed as part of the Data Migration Jumpstart Program (DM Jumpstart), which is sponsored by the Azure Data Group engineering team. The core charter DM Jumpstart is to unblock and accelerate complex modernization and compete data platform migration opportunities to Microsoft’s Azure Data platform. If you think your organization would be interested in participating in the DM Jumpstart program, please contact your account team and ask that they submit a nomination.
+
+### Additional resources
+
+- The CAT (Customer Advisory Team) has some great SQL Data Warehouse guidance published as blog postings. Be sure to take a look at their article, [Migrating data to Azure SQL Data Warehouse in practice]( https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/), for additional guidance on migration.
+- Check out the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp) for additional information and recommendations.
+- For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
+
+**Videos**
+
+- For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
+- For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/

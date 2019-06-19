@@ -1,0 +1,12 @@
+<!--Discover-->
+
+The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s Oracle instances together with the version and features in use.
+
+Microsoft Oracle pre-assessment scripts run against the Oracle database. The Pre-assessment script are a set of queries that hits the Oracle metadata and provides the following: 
+
+- Database inventory, including counts of objects by schema, type, and status.
+- A rough estimate of Raw Data in each schema (based on statistics).
+- Sizing of tables in each schema.
+- The number of lines of code per Package, Function, Procedure, etc.
+
+Download the related scripts from the [ora2pg website](http://ora2pg.darold.net/).

@@ -5,6 +5,14 @@
 	"rationale": "SqlDbMiRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "SqlToSqlDbMi-GetStarted",
+					"actions": []
+				}
+			]
+		},
+		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "SqlToSqlDbMi-Pre-Mig",
@@ -40,7 +48,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Post-migration",
 			"items": [{
@@ -65,6 +72,9 @@
 
 	],
 	"partners": [{
+			"filelocation": "Blitzz"
+		},
+		{
 			"filelocation": "DBBest"
 		},
 		{

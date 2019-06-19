@@ -59,6 +59,9 @@
 	],
 	"casestudies": [],
 	"partners": [{
+			"filelocation": "Blitzz"
+		},
+		{
 			"filelocation": "QuerySurge"
 		},
 		{
