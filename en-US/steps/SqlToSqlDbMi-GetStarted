@@ -28,84 +28,52 @@ The following data migration options are discussed:
 Data migration options, details, and supported versions are provided in the following table.
 
 <br>
-<table width="100%">
+<table style="width: 684px;">
 <tbody>
 <tr>
-<td width="131">
-<p><strong>Source database</strong></p>
+<td style="width: 168px;">
+<p><strong>Migration option</strong></p>
 </td>
-<td width="539">
-<p><strong>Supported options</strong></p>
+<td style="width: 504px;">
+<p><strong>Purpose</strong></p>
 </td>
 </tr>
 <tr>
-<td width="131">
-<p>SQL Server 2005</p>
+<td style="width: 168px;">
+<p>Azure Database Migration Service</p>
 </td>
-<td width="539">
+<td style="width: 504px;">
+<p>Azure DMS supports online (minimal downtime) and offline (one time) migrations at scale to an Azure SQL Database managed instance from SQL Server 2005, SQL Server 2008 and SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016, and SQL Server 2017.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 168px;">
+<p>Data Migration Assistant</p>
+</td>
+<td style="width: 504px;">
+<p>Use DMA to detect compatibility issues that can impact database functionality in your target Azure SQL Database managed instance, to recommend performance and reliability improvements, and to move the schema, data, and uncontained objects from your source server to your target server. For information about supported sources and targets, and to download the latest version of DMA, see the <a href="https://aka.ms/get-dma">Microsoft Download Center</a>.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 168px;">
+<p>Transactional replication</p>
+</td>
+<td style="width: 504px;">
+<p>Transactional replication to an Azure SQL Database managed instance is supported for migrations from:</p>
 <ul>
-<li><u>Migration tools</u>: Migration is supported by <a href="https://aka.ms/dms">Azure Database Migration Service</a> (DMS) and <a href="https://aka.ms/dma">Data Migration Assistant</a> (DMA).</li>
-<li>Bulk load: Tables can be bulk copied out from SQL Server 2005 and then bulk copied into an Azure SQL Database managed instance.</li>
+<li>SQL Server 2012 (SP2 CU8, SP3, or later)</li>
+<li>SQL Server 2014 (RTM CU10 or later, or SP1 CU3 or later)</li>
+<li>SQL Server 2016</li>
+<li>SQL Server 2017</li>
 </ul>
 </td>
 </tr>
 <tr>
-<td width="131">
-<p>SQL Server 2008 or<br /> SQL Server 2008 R2</p>
+<td style="width: 168px;">
+<p>Bulk load</p>
 </td>
-<td width="539">
-<ul>
-<li><u>Migration tools</u>: Migration is supported by <a href="https://aka.ms/dms">Azure DMS</a> and <a href="https://aka.ms/dma">DMA</a>.</li>
-<li><u>Bulk load</u>: Tables can be bulk copied out of SQL Server 2008 or SQL Server 2008 R2 and then bulk copied into an Azure SQL Database managed instance.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="131">
-<p>SQL Server 2012</p>
-</td>
-<td width="539">
-<ul>
-<li><u>Migration tools</u>: Migration is supported by <a href="https://aka.ms/dms">Azure DMS</a> and <a href="https://aka.ms/dma">DMA</a>.</li>
-<li><u>Transactional replication</u>: Transactional replication from SQL Server 2012 to an Azure SQL Database managed instance is supported; SQL Server 2012 version needs to be SP2 CU8 or SP3 or later.</li>
-<li><u>Bulk load</u>: Tables can be bulk copied out of SQL Server 2012 and then bulk copied into an Azure SQL Database managed instance.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="131">
-<p>SQL Server 2014</p>
-</td>
-<td width="539">
-<ul>
-<li><u>Migration tools</u>: Migration is supported by <a href="https://aka.ms/dms">Azure DMS</a> and <a href="https://aka.ms/dma">DMA</a>.</li>
-<li><u>Transactional replication</u>: Transactional replication from SQL Server 2014 to an Azure SQL Database managed instance is supported; SQL Server 2014 version needs to be RTM CU10 or later, or SP1 CU3 or later.</li>
-<li><u>Bulk load</u>: Tables can be bulk copied out of SQL Server 2014 and then bulk copied into an Azure SQL Database managed instance.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="131">
-<p>SQL Server 2016</p>
-</td>
-<td width="539">
-<ul>
-<li><u>Migration tools</u>: Migration is supported by <a href="https://aka.ms/dms">Azure DMS</a> and <a href="https://aka.ms/dma">DMA</a>.</li>
-<li><u>Transactional replication</u>: Transactional replication from SQL Server 2016 to an Azure SQL Database managed instance is supported.</li>
-<li><u>Bulk load</u>: Tables can be bulk copied out of SQL Server 2016 and then bulk copied into an Azure SQL Database managed instance.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="131">
-<p>SQL Server 2017</p>
-</td>
-<td width="539">
-<ul>
-<li><u>Migration tools</u>: Migration is supported by <a href="https://aka.ms/dms">Azure DMS</a> and <a href="https://aka.ms/dma">DMA</a>.</li>
-<li><u>Transactional replication</u>: Transactional replication from SQL Server 2017 to an Azure SQL Database managed instance is supported.</li>
-<li><u>Bulk load</u>: Tables can be bulk copied out of SQL Server 2017 and then bulk copied into an Azure SQL Database managed instance.</li>
-</ul>
+<td style="width: 504px;">
+<p>Use bulk load to an Azure SQL Database managed instance for data stored in SQL Server 2005, SQL Server 2008 and SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016, and SQL Server&nbsp;2017.</p>
 </td>
 </tr>
 </tbody>
@@ -120,11 +88,6 @@ Before beginning your migration project, it is important to address the associat
 * Creating an instance of Azure DMS (detail [here](https://docs.microsoft.com/azure/dms/pre-reqs)).
 * Using Azure DMS to perform online migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites)).
 * Using Azure DMS to perform offline migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites))
-
-
-
-* Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites).
-* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites).
 
 ### Migration learnings and best practices from real-world engagements
 
