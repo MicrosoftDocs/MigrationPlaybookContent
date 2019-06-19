@@ -2,7 +2,7 @@
 
 When your schema has been successfully migrated to the target, the next step is to execute the data movement by using the Azure Database Migration Service (DMS).
 
-**Note**: You can also use DMA to migrate databases. However, when using DMA for data migration, you can only move one database at a time. For more information, see the article [Migrate on-premises SQL Server using Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-migrateonpremsql).
+**Note**: You can also use DMA to migrate databases. However, DMA is best for performing proofs of concept (PoCs), test database migrations, or for relatively small database migration efforts. Note that when using DMA for data migration, you can only move one database at a time. For more information, see the article [Migrate on-premises SQL Server using Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-migrateonpremsql).
  
 ### Overview of data migration steps
 
