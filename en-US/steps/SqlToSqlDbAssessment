@@ -12,7 +12,7 @@ An overview of the steps associated with using DMA to create an assessment follo
 
 3. Select the type(s) of assessment reports (database compatibility and feature parity) that you want to generate.
     - The SQL Server feature parity category provides a comprehensive set of recommendations, alternative approaches available in Azure, and mitigating steps to help you plan the effort into your migration projects.
-    - The Compatibility issues category identifies partially supported or unsupported features that reflect compatibility issues that might block migrating on-premises SQL Server database(s) to Azure SQL Database. Recommendations are also provided to help you address those issues.
+    - The Compatibility issues category identifies partially supported or unsupported features that reflect compatibility issues that might block migrating on-premises SQL Server database(s) to an Azure SQL Database managed instance. Recommendations are also provided to help you address those issues.
 
 4. Specify the source connection details for your SQL Server, connect to the source database, and then start the assessment.
 
@@ -20,6 +20,6 @@ An overview of the steps associated with using DMA to create an assessment follo
 
 6. Determine the database compatibility level that you want to minimize your efforts after migrating to Azure SQL Database.
 
-7. Identify the best Azure SQL Database SKU for your on-premises workload.
+7. Identify the best Azure SQL Database managed instance SKU for your on-premises workload.
 
 For additional detail on this process, see the article [Perform a SQL Server migration assessment with Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-assesssqlonprem?view=sql-server-2017).
