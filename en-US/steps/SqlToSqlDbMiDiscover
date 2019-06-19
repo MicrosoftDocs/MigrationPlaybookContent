@@ -1,3 +1,9 @@
 <!--Discover-->
 
 The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s SQL Server instances together with the version and features in use.
+
+You can use the [Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-overview) service to assesses on-premises workloads for migration to Azure. The service assesses the migration suitability of on-premises computers, performs performance-based sizing, and provides cost estimations for running on-premises computers in Azure. If you're contemplating lift-and-shift migrations, or are in the early assessment stages of migration, this service is for you.
+
+You can also use the [Microsoft Assessment and Planning Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=7826) (the "MAP Toolkit") to assess your current IT infrastructure for a variety of technology migration projects. This Solution Accelerator provides a powerful inventory, assessment, and reporting tool to simplify the migration planning process.
+
+For more information about the tools available for use during the Discover phase, see the article [Services and tools available for data migration scenarios](https://docs.microsoft.com/azure/dms/dms-tools-matrix). 
