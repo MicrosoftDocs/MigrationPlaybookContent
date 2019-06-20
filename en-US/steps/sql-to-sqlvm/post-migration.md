@@ -1,4 +1,12 @@
-<!--Perform tests-->
+## Post-migration overview
+
+After you have successfully completed the **Migration** stage, you need to go through a series of post-migration tasks to ensure that everything is functioning as smoothly and efficiently as possible.
+
+## Remediate applications
+
+After the data is migrated to the target environment, all the applications that formerly consumed the source need to start consuming the target. Accomplishing this will in some cases require changes to the applications.
+
+## Perform tests
 
 After the data is migrated to target, perform tests against the databases to verify that the applications perform well against the after the migration.
 Use the Database Experimentation Assistant (DEA) to assist with evaluating the target SQL Server on Azure VM environment.
@@ -71,4 +79,11 @@ To use DEA for database migration testing, perform the following steps.
     
     c. Select an individual query to get performance summary statistics, error information, and query plan information.
     
-    ![Summary Statistics](https://mpbdevcontent.azureedge.net/Images/deasummarystats.png)   
+    ![Summary Statistics](https://mpbdevcontent.azureedge.net/Images/deasummarystats.png)
+
+## Optimize
+
+The post-migration phase is crucial for reconciling any data accuracy issues and verifying completeness, as well as addressing performance issues with the workload.
+
+**Note**: For additional detail about these issues and specific steps to mitigate them, see the following resource:
+* The [Post-migration Validation and Optimization Guide](https://docs.microsoft.com/en-us/sql/relational-databases/post-migration-validation-and-optimization-guide).

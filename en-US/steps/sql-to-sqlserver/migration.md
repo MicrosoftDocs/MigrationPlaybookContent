@@ -1,4 +1,8 @@
-<!--Migrate schema and data-->
+## Migration overview
+
+After you have the necessary prerequisites in place and have completed the tasks associated with the **Pre-migration** stage, you are ready to perform the schema and data migration.
+
+## Migrate schema and data
 
 After assessing your databases, the next step is to begin the process of migrating the schema and database by using DMA.
 
@@ -35,3 +39,9 @@ To use DMA to create a migration project, perform the following steps.
     a. Select **Export report** to save the migration results to a .csv or .json file.
 
     b. Review the saved file for details about data and logins migration and verify successful completion of the process.
+
+## Data sync and Cutover
+
+For minimal-downtime migrations, the source you are migrating continues to change after the one-time migration occurs, and it will drift from the target in terms of data and schema. During this phase, you need to ensure that all changes in the source are captured and applied to the target in near real time. After you verify that all changes in source have been applied to the target, you can cutover from the source to the target environment.
+
+Support for minimal-downtime migrations is not yet available for this scenario, so the Data sync and Cutover phases are not currently applicable.
