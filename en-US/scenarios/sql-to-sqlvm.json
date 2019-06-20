@@ -6,6 +6,10 @@
   "overview": "DbMigrationProcessOverviewStatic",
   "steps": [
     {
+      "name": "Before you start",
+      "fileLocation": "before-you-start.md"
+    },
+    {
       "name": "Pre-migration",
       "fileLocation": "pre-migration.md"
     },

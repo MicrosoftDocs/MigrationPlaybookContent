@@ -25,7 +25,7 @@ To use DEA for database migration testing, perform the following steps.
     
     b. To start a new capture, select **New Capture**.
     
-    c. To configure the capture, speficy the trace name, duration, SQL Server instance name, database name, and the share location for storing the trace file on the computer running SQL Server.
+    c. To configure the capture, specify the trace name, duration, SQL Server instance name, database name, and the share location for storing the trace file on the computer running SQL Server.
     
     ![Provide trace capture inputs](https://mpbdevcontent.azureedge.net/Images/deacaptureinputs.png)
     
@@ -39,7 +39,7 @@ To use DEA for database migration testing, perform the following steps.
     
     b. To start a new replay, select **New Replay**.
     
-    c. To configure the replay, specify the replay name, controller machine name, path to source trace file on controller, SQL Server instance name, and the pathfor storing the target trace file on the computer running SQL Server.
+    c. To configure the replay, specify the replay name, controller machine name, path to source trace file on controller, SQL Server instance name, and the path for storing the target trace file on the computer running SQL Server.
     
     d. Select **Start** to begin replay of your capture.
     
@@ -55,7 +55,7 @@ To use DEA for database migration testing, perform the following steps.
     
     c. Select **New Report**.
     
-    d. To configure the report, specify the report name, and specify paths to the traces fon the source and target SQL Server instances.
+    d. To configure the report, specify the report name, and specify paths to the traces for the source and target SQL Server instances.
     
     ![Provide report analysis inputs](https://mpbdevcontent.azureedge.net/Images/deaanalysisinput.png)
     

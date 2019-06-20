@@ -1,6 +1,6 @@
 ## Migration overview
 
-After you have the necessary prerequisites in place and have completed the tasks asociated with the **Pre-migration** phase, you are ready to perform the actual migration.
+After you have the necessary prerequisites in place and have completed the tasks associated with the **Pre-migration** phase, you are ready to perform the actual migration.
 
 There are several methods for migrating a SQL Server database to an instance of SQL Server on Azure Virtual Machines (Azure VMs).
 
