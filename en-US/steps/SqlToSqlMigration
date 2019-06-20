@@ -12,7 +12,7 @@ To use DMA to create a migration project, perform the following steps.
 
     ![New Migration](https://mpbdevcontent.azureedge.net/Images/dmamigrate.png)    
 
-    b. Provide source and target SQL server conenction details, and then select **Next**.
+    b. Provide source and target SQL server connection details, and then select **Next**.
 
     ![Source & Target details](https://mpbdevcontent.azureedge.net/Images/dmasourcetarget.png)    
 
