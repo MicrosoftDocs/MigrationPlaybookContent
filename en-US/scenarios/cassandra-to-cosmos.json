@@ -7,10 +7,10 @@
   "steps": [
     {
       "name": "Move to Azure Cosmos DB",
-      "fileLocation": "move-to-azure-cosmos-db.md",
-      "actions": []
+      "fileLocation": "move-to-azure-cosmos-db.md"
     }
   ],
+  "actions": [],
   "caseStudies": [],
   "partners": []
 }

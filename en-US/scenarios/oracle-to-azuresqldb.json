@@ -7,26 +7,20 @@
   "steps": [
     {
       "name": "Pre-migration",
-      "fileLocation": "pre-migration.md",
-      "actions": [
-        {
-          "fileLocation": "SSMADownload"
-        }
-      ]
+      "fileLocation": "pre-migration.md"
     },
     {
       "name": "Migration",
-      "fileLocation": "migration.md",
-      "actions": [
-        {
-          "fileLocation": "SSMADownload"
-        }
-      ]
+      "fileLocation": "migration.md"
     },
     {
       "name": "Post-migration",
-      "fileLocation": "post-migration.md",
-      "actions": []
+      "fileLocation": "post-migration.md"
+    }
+  ],
+  "actions": [
+    {
+      "fileLocation": "SSMADownload"
     }
   ],
   "caseStudies": [],

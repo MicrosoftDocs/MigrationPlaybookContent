@@ -6,26 +6,20 @@
   "steps": [
     {
       "name": "Pre-migration",
-      "fileLocation": "pre-migration.md",
-      "actions": [
-        {
-          "fileLocation": "SSMAForSybaseDownload"
-        }
-      ]
+      "fileLocation": "pre-migration.md"
     },
     {
       "name": "Migration",
-      "fileLocation": "migration.md",
-      "actions": [
-        {
-          "fileLocation": "SSMAForSybaseDownload"
-        }
-      ]
+      "fileLocation": "migration.md"
     },
     {
       "name": "Post-migration",
-      "fileLocation": "post-migration.md",
-      "actions": []
+      "fileLocation": "post-migration.md"
+    }
+  ],
+  "actions": [
+    {
+      "fileLocation": "SSMAForSybaseDownload"
     }
   ],
   "caseStudies": [],

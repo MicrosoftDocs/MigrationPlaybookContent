@@ -7,25 +7,22 @@
   "steps": [
     {
       "name": "Before you start",
-      "fileLocation": "before-you-start.md",
-      "actions": []
+      "fileLocation": "before-you-start.md"
     },
     {
       "name": "Pre-migration",
-      "fileLocation": "pre-migration.md",
-      "actions": []
+      "fileLocation": "pre-migration.md"
     },
     {
       "name": "Migration",
-      "fileLocation": "migration.md",
-      "actions": []
+      "fileLocation": "migration.md"
     },
     {
       "name": "Post-migration",
-      "fileLocation": "post-migration.md",
-      "actions": []
+      "fileLocation": "post-migration.md"
     }
   ],
+  "actions": [],
   "caseStudies": [],
   "partners": [
     {

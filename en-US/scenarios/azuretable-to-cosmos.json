@@ -7,10 +7,10 @@
   "steps": [
     {
       "name": "Migration options to Azure Cosmos DB",
-      "fileLocation": "migration-options-to-azure-cosmos-db.md",
-      "actions": []
+      "fileLocation": "migration-options-to-azure-cosmos-db.md"
     }
   ],
+  "actions": [],
   "caseStudies": [
     {
       "fileLocation": "Vipps"
