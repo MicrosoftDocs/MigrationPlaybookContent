@@ -1,0 +1,62 @@
+{
+  "displayName": "Migrate SQL Server to an Azure SQL Database managed instance",
+  "emailMessage": "Check out the process for migrating from SQL Server to an Azure SQL Database managed instance here:",
+  "description": "An Azure SQL Database managed instance delivers predictable performance at multiple service levels, making the switch from SQL Server easier than ever.",
+  "rationale": "SqlDbMiRationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Before you start",
+      "fileLocation": "before-you-start.md"
+    },
+    {
+      "name": "Pre-migration",
+      "fileLocation": "pre-migration.md"
+    },
+    {
+      "name": "Migration",
+      "fileLocation": "migration.md"
+    },
+    {
+      "name": "Post-migration",
+      "fileLocation": "post-migration.md"
+    }
+  ],
+  "actions": [],
+  "caseStudies": [],
+  "partners": [
+    {
+      "fileLocation": "Blitzz"
+    },
+    {
+      "fileLocation": "DBBest"
+    },
+    {
+      "fileLocation": "DataSunrise"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "Quest"
+    },
+    {
+      "fileLocation": "DXC"
+    },
+    {
+      "fileLocation": "Zen3"
+    }
+  ]
+}

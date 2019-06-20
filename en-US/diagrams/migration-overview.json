@@ -1,0 +1,67 @@
+{
+    "footnote": "If you require assistance with your migration, see the <a href=\"https://www.platformmodernization.org/\" class=\"c-hyperlink\">Platform Modernization Alliance</a> site for a list of recommended partners.",
+    "migration": {
+        "tasks": [
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/migrate.svg",
+                "text": "Migrate the source schema, source data and objects to the target.",
+                "title": "Migrate"
+            },
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/syncdata.svg",
+                "subtext": "(Only relevant for minimal-downtime migrations)",
+                "text": "Sync your target schema and data with the source.",
+                "title": "Sync Data"
+            },
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/cutover.svg",
+                "subtext": "(Only relevant for minimal-downtime migrations)",
+                "text": "Cut over from the source tot he target environment.",
+                "title": "Cutover"
+            }
+        ],
+        "title": "Migration"
+    },
+    "postmigration": {
+        "tasks": [
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/remediate.svg",
+                "text": "Iteratively make any necessary changes to your applications.",
+                "title": "Remediate Applications"
+            },
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/performtests.svg",
+                "text": "Iteratively run functional and performance tests.",
+                "title": "Perform Tests"
+            },
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/optimize.svg",
+                "text": "Based on tests, address performance issues and then retest to confirm the performance improvements.",
+                "title": "Optimize"
+            }
+        ],
+        "title": "Post-Migration"
+    },
+    "premigration": {
+        "tasks": [
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/discovery.svg",
+                "text": "Inventory database assets, and application stack discovery.",
+                "title": "Discovery"
+            },
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/assess.svg",
+                "text": "Assess workloads and fix recommendations.",
+                "title": "Assess"
+            },
+            {
+                "icon": "https://mpbdevcontent.azureedge.net/Images/Diagrams/migration-overview/convert.svg",
+                "subtext": "(Only relevant for minimal-downtime migrations)",
+                "text": "Convert the source schema to work in the target environment",
+                "title": "Convert"
+            }
+        ],
+        "title": "Pre-Migration"
+    },
+    "title": "Migration process overview"
+}
