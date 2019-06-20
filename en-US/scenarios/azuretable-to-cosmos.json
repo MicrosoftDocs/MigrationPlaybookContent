@@ -1,0 +1,33 @@
+{
+  "displayName": "Move to Azure Cosmos DB",
+  "emailMessage": "Check out the process for migrating from Azure Table Storage to Azure Cosmos Database:",
+  "description": "No SQL Database",
+  "rationale": "CosmosDbRationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Migration options to Azure Cosmos DB",
+      "fileLocation": "migration-options-to-azure-cosmos-db.md",
+      "actions": []
+    }
+  ],
+  "caseStudies": [
+    {
+      "fileLocation": "Vipps"
+    }
+  ],
+  "partners": [
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "DXC"
+    }
+  ]
+}

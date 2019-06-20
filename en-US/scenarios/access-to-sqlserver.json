@@ -1,0 +1,55 @@
+{
+  "displayName": "Migrate Access to SQL Server",
+  "emailMessage": "Check out the process for migrating from Access to SQL Server here:",
+  "description": "Migrating from Access to SQL Server could not be simpler because of SQL Server's top tier performance, interconnectivity, consistency, and value.",
+  "rationale": "Sql2017RationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Pre-migration",
+      "fileLocation": "pre-migration.md",
+      "actions": []
+    },
+    {
+      "name": "Migration",
+      "fileLocation": "migration.md",
+      "actions": []
+    },
+    {
+      "name": "Post-migration",
+      "fileLocation": "post-migration.md",
+      "actions": []
+    }
+  ],
+  "caseStudies": [
+    {
+      "fileLocation": "PACTGroup"
+    },
+    {
+      "fileLocation": "KDS"
+    },
+    {
+      "fileLocation": "PTC"
+    }
+  ],
+  "partners": [
+    {
+      "fileLocation": "Fujitsu"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "DXC"
+    }
+  ]
+}

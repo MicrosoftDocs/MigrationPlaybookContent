@@ -1,0 +1,52 @@
+{
+  "displayName": "Migrate SAP ASE to Azure SQL Database",
+  "emailMessage": "Check out the process for migrating from SAP ASE to Azure SQL Database here:",
+  "description": "Azure SQL Database holds the top 3 spots for non-clustered scale up performance on multiple hardware platforms, making the migration from SAP ASE simple and reliable.",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Pre-migration",
+      "fileLocation": "pre-migration.md",
+      "actions": [
+        {
+          "fileLocation": "SSMAForSybaseDownload"
+        }
+      ]
+    },
+    {
+      "name": "Migration",
+      "fileLocation": "migration.md",
+      "actions": [
+        {
+          "fileLocation": "SSMAForSybaseDownload"
+        }
+      ]
+    },
+    {
+      "name": "Post-migration",
+      "fileLocation": "post-migration.md",
+      "actions": []
+    }
+  ],
+  "caseStudies": [],
+  "partners": [
+    {
+      "fileLocation": "DBBest"
+    },
+    {
+      "fileLocation": "DataSunrise"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "DXC"
+    }
+  ]
+}

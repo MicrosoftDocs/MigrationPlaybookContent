@@ -1,0 +1,77 @@
+{
+  "displayName": "Migrate Oracle to Azure Database for PostgreSQL",
+  "emailMessage": "Check out the process for migrating from Oracle to Azure Database for PostgreSQL here:",
+  "description": "",
+  "rationale": "AzurePostgreSqlRationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Before you start",
+      "fileLocation": "before-you-start.md",
+      "actions": []
+    },
+    {
+      "name": "Pre-migration",
+      "fileLocation": "pre-migration.md",
+      "actions": []
+    },
+    {
+      "name": "Migration",
+      "fileLocation": "migration.md",
+      "actions": []
+    },
+    {
+      "name": "Post-migration",
+      "fileLocation": "post-migration.md",
+      "actions": []
+    }
+  ],
+  "caseStudies": [],
+  "partners": [
+    {
+      "fileLocation": "Blitzz"
+    },
+    {
+      "fileLocation": "credativ"
+    },
+    {
+      "fileLocation": "DataSunrise"
+    },
+    {
+      "fileLocation": "DXC"
+    },
+    {
+      "fileLocation": "HVR"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "Kangaroot"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "Pragmatic_Works"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Satalyst"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "SNP_Tech"
+    },
+    {
+      "fileLocation": "Splendid_Data"
+    },
+    {
+      "fileLocation": "Zen3"
+    }
+  ]
+}

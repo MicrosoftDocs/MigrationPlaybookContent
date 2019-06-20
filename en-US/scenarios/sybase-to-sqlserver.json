@@ -1,0 +1,50 @@
+{
+  "displayName": "Migrate SAP ASE to SQL Server",
+  "emailMessage": "Check out the process for migrating from SAP ASE to SQL Server here:",
+  "description": "SQL Server has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
+  "rationale": "Sql2017RationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Pre-migration",
+      "fileLocation": "pre-migration.md",
+      "actions": [
+        {
+          "fileLocation": "SSMAForSybaseDownload"
+        }
+      ]
+    },
+    {
+      "name": "Migration",
+      "fileLocation": "migration.md",
+      "actions": [
+        {
+          "fileLocation": "SSMAForSybaseDownload"
+        }
+      ]
+    },
+    {
+      "name": "Post-migration",
+      "fileLocation": "post-migration.md",
+      "actions": []
+    }
+  ],
+  "caseStudies": [],
+  "partners": [
+    {
+      "fileLocation": "DBBest"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "DXC"
+    }
+  ]
+}
