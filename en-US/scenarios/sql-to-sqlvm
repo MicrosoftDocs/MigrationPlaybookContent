@@ -5,6 +5,14 @@
 	"rationale": "SqlVmRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "SqlToSqlVm-GetStarted",
+					"actions": []
+				}
+			]
+		},
+		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "SqlToSqlVm-Pre-Mig",
