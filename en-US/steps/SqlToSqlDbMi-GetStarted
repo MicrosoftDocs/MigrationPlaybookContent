@@ -32,37 +32,37 @@ The following data migration options are discussed:
 Data migration options, details, and supported versions are provided in the following table.
 
 <br>
-<table style="width: 684px;">
+<table width="100%">
 <tbody>
 <tr>
-<td style="width: 168px;">
+<td width="20%">
 <p><strong>Migration option</strong></p>
 </td>
-<td style="width: 504px;">
+<td width="80%">
 <p><strong>Purpose</strong></p>
 </td>
 </tr>
 <tr>
-<td style="width: 168px;">
+<td width="20%">
 <p>Azure Database Migration Service</p>
 </td>
-<td style="width: 504px;">
+<td width="80%">
 <p>Azure DMS supports online (minimal downtime) and offline (one time) migrations at scale to an Azure SQL Database managed instance from SQL Server 2005, SQL Server 2008 and SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016, and SQL Server 2017.</p>
 </td>
 </tr>
 <tr>
-<td style="width: 168px;">
+<td width="20%">
 <p>Data Migration Assistant</p>
 </td>
-<td style="width: 504px;">
+<td width="80%">
 <p>Use DMA to detect compatibility issues that can impact database functionality in your target Azure SQL Database managed instance, to recommend performance and reliability improvements, and to move the schema, data, and uncontained objects from your source server to your target server. For information about supported sources and targets, and to download the latest version of DMA, see the <a href="https://aka.ms/get-dma">Microsoft Download Center</a>.</p>
 </td>
 </tr>
 <tr>
-<td style="width: 168px;">
+<td width="20%">
 <p>Transactional replication</p>
 </td>
-<td style="width: 504px;">
+<td width="80%">
 <p>Transactional replication to an Azure SQL Database managed instance is supported for migrations from:</p>
 <ul>
 <li>SQL Server 2012 (SP2 CU8, SP3, or later)</li>
@@ -73,10 +73,10 @@ Data migration options, details, and supported versions are provided in the foll
 </td>
 </tr>
 <tr>
-<td style="width: 168px;">
+<td width="20%">
 <p>Bulk load</p>
 </td>
-<td style="width: 504px;">
+<td width="80%">
 <p>Use bulk load to an Azure SQL Database managed instance for data stored in SQL Server 2005, SQL Server 2008 and SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016, and SQL Server&nbsp;2017.</p>
 </td>
 </tr>
