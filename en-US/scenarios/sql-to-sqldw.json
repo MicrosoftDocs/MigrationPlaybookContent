@@ -1,0 +1,45 @@
+{
+  "displayName": "Migrate SQL Server to SQL Data Warehouse",
+  "emailMessage": "Check out the process for migrating from SQL Server to SQL Data Warehouse here:",
+  "description": "",
+  "rationale": "SqlDwRationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Process",
+      "fileLocation": "process.md"
+    }
+  ],
+  "actions": [],
+  "caseStudies": [
+    {
+      "fileLocation": "WillisTowersWatson"
+    }
+  ],
+  "partners": [
+    {
+      "fileLocation": "Blitzz"
+    },
+    {
+      "fileLocation": "DataSunrise"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "DXC"
+    },
+    {
+      "fileLocation": "Zen3"
+    }
+  ]
+}

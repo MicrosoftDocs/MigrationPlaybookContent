@@ -1,21 +1,18 @@
-<!--Preparing for database migration-->
+## Preparing for database migration
 
 As you prepare for migrating your database to the cloud, verify that your source environment is supported and that you have addressed any prerequisites. This will help to ensure an efficient and successful migration.
 
 ### Overview
-
-This scenario describes how to migrate a SQL Server instance to an Azure SQL Database managed instance. 
+This scenario describes how to migrate a SQL Server instance to Azure SQL Database. 
 
 ### Offline versus online migrations
-
 When you migrate SQL Server databases to Azure by using Azure Database Migration Service, you can perform an offline or an online migration. With an *offline* migration, application downtime begins when the migration starts. For an *online* migration, downtime is limited to the time required to cut over to the new environment when the migration completes. It's recommended to test an offline migration to determine whether the downtime is acceptable; if not, perform an online migration.
 
 ### Supported versions
 
-This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to an Azure SQL Database managed instance. This information is current as of March 2019.
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of March 2019.
 
-Details for migrations to an Azure SQL Database managed instance from the following SQL Server sources are included:
-
+Details for migrations to Azure SQL Database from the following SQL Server sources are included:
 * SQL Server 2005
 * SQL Server 2008 and SQL Server 2008 R2
 * SQL Server 2012
@@ -23,9 +20,16 @@ Details for migrations to an Azure SQL Database managed instance from the follow
 * SQL Server 2016
 * SQL Server 2017
 
-The following data migration options are discussed:
+You can migrate SQL Server running on-premises or on:
 
+* SQL Server on Virtual Machines
+* Amazon Web Services (AWS) EC2
+* Compute Engine (GCP)
+* AWS RDS
+
+The following data migration options are discussed:
 * [Azure Database Migration Service (DMS)](https://docs.microsoft.com/azure/dms/)
+* [Data Migration Assistant (DMA)](https://docs.microsoft.com/sql/dma/dma-overview?view=sql-server-2017)
 * [Transactional replication](https://docs.microsoft.com/sql/relational-databases/replication/administration/enhance-transactional-replication-performance?view=sql-server-2017)
 * [Bulk load](https://docs.microsoft.com/sql/t-sql/statements/bulk-insert-transact-sql?view=sql-server-2017)
 
@@ -85,18 +89,15 @@ Data migration options, details, and supported versions are provided in the foll
 
 ### Overview of prerequisites
 
-Before beginning your migration project, it is important to address the associated prerequisites. When upgrading from SQL Server on-premises or on SQL Server on Virtual Machines to and Azure SQL Database managed instance, there are prerequisites associated with:
-
 Before beginning your migration project, it is important to address the associated prerequisites for leveraging Azure Database Migration Service (DMS) for migrations. When upgrading from SQL Server on-premises or on SQL Server on Virtual Machines to Azure SQL Database, there are prerequisites associated with:
-
 * Downloading and installing the [Data Migration Assistant (DMA)](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
 * Creating an instance of Azure DMS (detail [here](https://docs.microsoft.com/azure/dms/pre-reqs)).
-* Using Azure DMS to perform online migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites)).
-* Using Azure DMS to perform offline migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites))
+* Using Azure DMS to perform online migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#prerequisites)).
+* Using Azure DMS to perform offline migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#prerequisites)).
 
 ### Migration learnings and best practices from real-world engagements
 
-For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of real-world migration projects at scale.
+For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migrations at scale.
 
 <br>
 <table width="100%">
@@ -137,7 +138,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/IP%20and%20Scripts/MoveLogins">Utility to move On-Premises SQL Server Logins to Azure SQL Managed Instance</a></p>
+<p><a href="https://github.com/Microsoft/DataMigrationTeam/tree/master/IP%20and%20Scripts/MoveLogins">Utility to move On-Premises SQL Server Logins to Azure SQL DB</a></p>
 </td>
 <td width="59%">
 <p>A PowerShell script that creates a T-SQL command script to re-create logins and select database users from an “on premises” SQL Server to an Azure SQL PaaS service. The tool allows the automatic mapping of Windows AD accounts to Azure AD accounts or it can do UPN lookups for each login against the on premises Windows Active Directory. The tool optionally moves SQL Server native logins as well. Custom server and database roles are scripted, as well as role membership and database role and user permissions. Contained databases are yet not supported and only a subset of possible SQL Server permissions are scripted; i.e. permissions grant with grant are not supported (complex permission trees). More details are available in the support document and the script have comments for ease of understanding.</p>
@@ -150,15 +151,15 @@ For additional assistance with completing this migration scenario, please see th
 
 ### Additional resources
 
-* For detail on alternatives for migrating to Azure, see the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp).
-* Use the [Azure Total Cost of Ownership (TCO) Calculator](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
-* For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
-* For options related to migrating Azure SQL Database to a managed instance, see the blog post [How to Migrate Azure SQL Database to Azure SQL Managed Instance](https://blogs.msdn.microsoft.com/azuresqldbsupport/2019/01/28/how-to-migrate-azure-sql-database-to-azure-sql-managed-instance/).
+- For detail on alternatives for migrating to Azure, see the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp).
+- [SQL migration using Azure Data Migration Service (DMS)](https://www.microsoft.com/handsonlabs/SelfPacedLabs/?storyGuid=3b671509-c3cd-4495-8e8f-354acfa09587) hands-on lab.
+- Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
+- For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
+- For options related to migrating Azure SQL Database to a managed instance, see the blog post [How to Migrate Azure SQL Database to Azure SQL Managed Instance](https://blogs.msdn.microsoft.com/azuresqldbsupport/2019/01/28/how-to-migrate-azure-sql-database-to-azure-sql-managed-instance/).
 
 **Videos**
 
-* For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
-* For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/).
-* For details about the pre-requirements, including Azure VNet and firewall set up, needed to create a DMS instance, see the video [How to address pre-requisites and create an instance of the Azure Database Migration Service](https://azure.microsoft.com/resources/videos/how-to-address-prerequisites-and-create-a-dms-instance/).
-* For information about how to monitor an online migration and perform a migration cutover when the initial load and data sync have completed, see the video [How to monitor an online migration and perform migration cutover](https://azure.microsoft.com/resources/videos/how-to-monitor-online-migration-and-perform-cutover/).
-* For a demo of how to migrate end-of-life SQL 2008 and SQL 2008 R2 workloads to an Azure SQL Database managed instance, see the video [How to migrate a SQL Server 2008 or SQL Server 2008 R2 workload to Azure SQL Database Managed Instance](https://azure.microsoft.com/en-us/resources/videos/how-to-migrate-sql-server-2008-or-r2-to-azure-sqldbmi/).
+- For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
+- For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/).
+- For details about the pre-requirements, including Azure VNet and firewall set up, needed to create a DMS instance, see the video [How to address pre-requisites and create an instance of the Azure Database Migration Service](https://azure.microsoft.com/resources/videos/how-to-address-prerequisites-and-create-a-dms-instance/).
+- For information about how to monitor an online migration and perform a migration cutover when the initial load and data sync have completed, see the video [How to monitor an online migration and perform migration cutover](https://azure.microsoft.com/resources/videos/how-to-monitor-online-migration-and-perform-cutover/).
