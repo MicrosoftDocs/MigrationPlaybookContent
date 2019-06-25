@@ -1,0 +1,75 @@
+{
+  "displayName": "Migrate MySQL to Azure SQL Database",
+  "emailMessage": "Check out the process for migrating from MySQL to Azure SQL Database here:",
+  "description": "Migrating from MySQL to the Azure SQL Database, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
+  "rationale": "SqlDbRationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Pre-migration",
+      "fileLocation": "pre-migration.md"
+    },
+    {
+      "name": "Migration",
+      "fileLocation": "migration.md"
+    },
+    {
+      "name": "Post-migration",
+      "fileLocation": "post-migration.md"
+    }
+  ],
+  "actions": [
+    {
+      "fileLocation": "SSMAForMySqlDownload"
+    }
+  ],
+  "caseStudies": [
+    {
+      "fileLocation": "Sumitomo"
+    }
+  ],
+  "partners": [
+    {
+      "fileLocation": "Blitzz"
+    },
+    {
+      "fileLocation": "Cast"
+    },
+    {
+      "fileLocation": "DBBest"
+    },
+    {
+      "fileLocation": "DataSunrise"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Satalyst"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "Pactera"
+    },
+    {
+      "fileLocation": "DXC"
+    },
+    {
+      "fileLocation": "Zen3"
+    },
+    {
+      "fileLocation": "HVR "
+    }
+  ]
+}
