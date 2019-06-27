@@ -2,7 +2,7 @@
     "menu": [
         {
             "title": "SQL Server",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/sql-server.png",
             "pages": [
                 {
                     "name": "Azure SQL Database",
@@ -33,7 +33,7 @@
         },
         {
             "title": "Oracle",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/oracle.png",
             "pages": [
                 {
                     "name": "Azure SQL Database",
@@ -59,7 +59,7 @@
         },
         {
             "title": "DB2",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/DB2.png",
             "pages": [
                 {
                     "name": "Azure SQL Database",
@@ -75,7 +75,7 @@
         },
         {
             "title": "MySQL",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/MySQL.png",
             "pages": [
                 {
                     "name": "Azure SQL Database",
@@ -96,7 +96,7 @@
         },
         {
             "title": "PostgreSQL",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/PostgreSQL.png",
             "pages": [
                 {
                     "name": "Azure Database for PostgreSQL",
@@ -107,7 +107,7 @@
         },
         {
             "title": "Mongo",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/MongoDB.png",
             "pages": [
                 {
                     "name": "Azure Cosmos DB",
@@ -118,7 +118,7 @@
         },
         {
             "title": "Cassandra",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Cassandra_270x160.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/Cassandra.png",
             "pages": [
                 {
                     "name": "Azure Cosmos DB",
@@ -129,7 +129,7 @@
         },
         {
             "title": "Access",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/Access.png",
             "pages": [
                 {
                     "name": "Azure SQL Database",
@@ -145,7 +145,7 @@
         },
         {
             "title": "SAP ASE",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/SAP-ASE.png",
             "pages": [
                 {
                     "name": "Azure SQL Database",
@@ -161,7 +161,7 @@
         },
         {
             "title": "Azure Table Storage",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
+            "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/Azure-Table-Storage.png",
             "pages": [
                 {
                     "name": "Azure Cosmos DB",
@@ -173,29 +173,29 @@
     ],
     "otherTools": [
         {
-            "title": "Azure Migrate Service (Preview)",
+            "title": "Azure Migrate",
             "url": "http://aka.ms/migrate/canary2md",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/azure_migrate.svg"
+            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/azure_migrate.svg"
         },
         {
             "title": "Azure Database Migration Service",
             "url": "https://aka.ms/dms",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/dms_icon.svg"
+            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dms_icon.svg"
         },
         {
             "title": "Data Migration Assistant",
             "url": "https://aka.ms/dma",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/dma_icon.svg"
+            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dma_icon.svg"
         },
         {
             "title": "SQL Server Migration Assistant",
             "url": "https://aka.ms/ssma",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/ssma_icon.svg"
+            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/ssma_icon.svg"
         },
         {
             "title": "Database Experimentation Assistant",
             "url": "https://aka.ms/dea-docs",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/dea_icon.svg"
+            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dea_icon.svg"
         }
     ],
     "caseStudies": [
