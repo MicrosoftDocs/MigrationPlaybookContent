@@ -63,9 +63,7 @@
 			]
 		}
 	],
-	"casestudies": [{
-			"filelocation": "Convergent"
-		},
+	"casestudies": [
 		{
 			"filelocation": "Derivco"
 		},
