@@ -63,11 +63,7 @@
 			]
 		}
 	],
-	"casestudies": [
-		{
-			"filelocation": "SBI"
-		}
-	],
+	"casestudies": [],
 	"partners": [{
 			"filelocation": "Blitzz"
 		},
