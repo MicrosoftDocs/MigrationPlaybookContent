@@ -59,14 +59,7 @@
 			]
 		}
 	],
-	"casestudies": [
-		{
-			"filelocation": "KDS"
-		},
-		{
-			"filelocation": "PTC"
-		}
-	],
+	"casestudies": [],
 	"partners": [{
 			"filelocation": "Blitzz"
 		},
