@@ -1,7 +1,7 @@
 {
-	"title": "Turbonomic",
-	"text": "Turbonomic delivers Workload Automation for Hybrid Cloud environments, simultaneously optimizing performance, cost, and compliance in real-time. It provides workloads with the resources they need, at the right time, and always in accordance with policies.",
-	"url": "https://turbonomic.com/",
-	"logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/turbonomic.png",
-	"logoAltText": "Turbonomic"
+  "title": "Turbonomic",
+  "text": "Turbonomic delivers Workload Automation for Hybrid Cloud environments, simultaneously optimizing performance, cost, and compliance in real-time. It provides workloads with the resources they need, at the right time, and always in accordance with policies.",
+  "url": "https://turbonomic.com/",
+  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/turbonomic_logo-84.png",
+  "logoAltText": "Turbonomic"
 }

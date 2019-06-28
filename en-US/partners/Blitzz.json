@@ -1,7 +1,7 @@
 {
-	"title": "BLITZZ",
-	"text": "An autonomous database migration and cloud-native data replication solution across heterogeneous databases, Blitzz scales to handle concurrent high volume and high-velocity data ingestion from multiple sources to multiple destinations without compromising data integrity.",
-	"url": "https://www.blitzz.io/solutions",
-	"logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/Blitzz.png",
-	"logoAltText": "BLITZZ"
+  "title": "BLITZZ",
+  "text": "An autonomous database migration and cloud-native data replication solution across heterogeneous databases, Blitzz scales to handle concurrent high volume and high-velocity data ingestion from multiple sources to multiple destinations without compromising data integrity.",
+  "url": "https://www.blitzz.io/solutions",
+  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/Blitzz_logo_84.png",
+  "logoAltText": "BLITZZ"
 }

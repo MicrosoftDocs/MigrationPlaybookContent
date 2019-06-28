@@ -1,7 +1,7 @@
 {
-	"title": "Simora",
-	"text": "Simora is a load testing tool for Oracle databases. By capturing the application workload and carefully replaying via a feature-rich playback engine, Simora allows replay of that workload against test platforms of all descriptions.",
-	"url": "http://www.simora.co.uk/",
-	"logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/simora.png",
-	"logoAltText": "Simora"
+  "title": "Simora",
+  "text": "Simora is a load testing tool for Oracle databases. By capturing the application workload and carefully replaying via a feature-rich playback engine, Simora allows replay of that workload against test platforms of all descriptions.",
+  "url": "http://www.simora.co.uk/",
+  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/simora_logo-84.png",
+  "logoAltText": "Simora"
 }

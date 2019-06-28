@@ -1,7 +1,7 @@
 {
-	"title": "Informatica",
-	"text": "For over 20 years, Informatica has been empowering data-driven digital transformation with ETL/ELT, data integration, management, quality and big data solutions for Azure.",
-	"url": "https://www.informatica.com/solutions/cloud-integration-and-data-management/microsoft/azure.html",
-	"logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/informatica.png",
-	"logoAltText": "Informatica Intelligent Cloud Services"
+  "title": "Informatica",
+  "text": "For over 20 years, Informatica has been empowering data-driven digital transformation with ETL/ELT, data integration, management, quality and big data solutions for Azure.",
+  "url": "https://www.informatica.com/solutions/cloud-integration-and-data-management/microsoft/azure.html",
+  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/informatica-logo.png",
+  "logoAltText": "Informatica Intelligent Cloud Services"
 }

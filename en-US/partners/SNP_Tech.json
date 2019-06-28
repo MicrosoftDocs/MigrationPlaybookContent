@@ -1,8 +1,7 @@
 {
-	"title": "SNP Technologies",
-	"text": "A cloud-only service provider, SNP Technologies builds secure and reliable solutions for businesses of the future. From thought to execution, SNP Technologies shares a common purpose with clients, to turn their investment into an advantage.",
-	"url": "https://www.snp.com/",
-	"logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/SNP_Technologies.png",
-	"logoAltText": "SNP Technologies"
+  "title": "SNP Technologies",
+  "text": "A cloud-only service provider, SNP Technologies builds secure and reliable solutions for businesses of the future. From thought to execution, SNP Technologies shares a common purpose with clients, to turn their investment into an advantage.",
+  "url": "https://www.snp.com/",
+  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/SNP_logo.png",
+  "logoAltText": "SNP Technologies"
 }
-

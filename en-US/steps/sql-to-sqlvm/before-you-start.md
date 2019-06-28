@@ -1,10 +1,12 @@
 ## Preparing for database migration
+
 As you prepare for migrating your SQL Server database to SQL Server on Azure VMs, be sure to consider the versions of SQL Server that are supported and to address any prerequisites. This will help to ensure an efficient and successful migration.
 
 **Important**: For scenarios in which you need to meet certain regulatory, policy, or compliance requirements that prevent you from using SQL Server on Azure VMs, you can use [Azure Stack](https://azure.microsoft.com/overview/azure-stack/). You can run Azure Stack at the edge for remote locations, run it completely disconnected from the internet, or create a hybrid solution.
 The guidance in this scenario applies to migrations from SQL Server on-premises to SQL Server on Azure VMs as well as migrations to Azure Stack Virtual Machines.
 
 ### Overview
+
 This scenario describes how to migrate a SQL Server instance to SQL on Azure Virtual Machines (VMs).
 
 ### Supported versions

@@ -103,51 +103,51 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
     
     You will be on the following screen:
     
-    ![MAP Overview](https://mpbdevcontent.azureedge.net/Images/mapoverview.png)
+    ![MAP Overview](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapoverview.png)
     
     b. Select **Create/Select database**.
     
-    ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/mapselectdb.png)
+    ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapselectdb.png)
      
     c. Ensure that **Create an inventory database** is selected, enter a name for the database, a brief description, and then select **OK**.
     
-    ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/mapselectdboverview.png)
+    ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapselectdboverview.png)
     
     The next step is to collect data from the database created.
     
     d. Select **Collect inventory data**.
     
-    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/maporacleoverview.png)
+    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/scenario-assets/maporacleoverview.png)
     
     e. In the Inventory and Assessment Wizard, select **Oracle**, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/mapinventorywizard_oracle.png)
+    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapinventorywizard_oracle.png)
     
     f. Select the best method option to search the computers on which Microsoft Products are hosted, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/mapdiscoverymethods.png)
+    ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverymethods.png)
     
     g. Enter credentianls or create new credentials for the systems that you want to explore, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycreds.png)
+    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverycreds.png)
     
     h. Set the order of the credentials.
     
-    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsorder2.png)
+    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverycredsorder2.png)
     
     Now, you need to specify the credentials for each computer you want to discover. You can use unique credentials for every computer/machine, or you can choose to use the **All Computer Credentials** list.
     
     i. After setting up the credentials, select **Save**, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/mapdiscoverycredsindividual.png)
+    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverycredsindividual.png)
     
     j. Verify your selection summary, and then select **Finish**.
     
-    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdiscoverysummary.png)
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverysummary.png)
     
     k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
     
-    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/mapdatacollectionsummary.png)
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdatacollectionsummary.png)
     
     l. Select **Close**.
     
@@ -161,7 +161,7 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
     
     This will take a couple of seconds to a few minutes depending upon the size of the inventory comlpeted during discovery.
     
-    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/mapexcelreportdone.png)
+    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapexcelreportdone.png)
 
 ## Assess and Convert
 
@@ -183,21 +183,21 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
   
    b. Select **OK**.
 
-   ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/newproject.png)
+   ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/scenario-assets/newproject.png)
 
    c. Select **Connect to Oracle**, provide the connection details, and then select **Connect**.
    
-   ![Image Alt Text Connect to Oracle](https://mpbdevcontent.azureedge.net/Images/connecttooracle.png)
+   ![Image Alt Text Connect to Oracle](https://mpbdevcontent.azureedge.net/Images/scenario-assets/connecttooracle.png)
    
    d. In the **Oracle Metadata Explorer**, select the Oracle schema, and then select **Create Report** to create the conversion report.
    
-   ![Image Alt Text Create Report](https://mpbdevcontent.azureedge.net/Images/createreport.png)
+   ![Image Alt Text Create Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/createreport.png)
    
     This will generate an HTML report with conversion statistics and error/warnings, if any.
      
    e. Analyze this report to understand any conversion issues and their cause.
    
-   ![Image Alt Text Assessment Report](https://mpbdevcontent.azureedge.net/Images/assessmentreport.png)
+   ![Image Alt Text Assessment Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/assessmentreport.png)
    
    You can also access this report from the SSMA projects folder as selected in the first screen.
    
@@ -213,7 +213,7 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
    
    You could do this either by navigating to the **Tools** menu and selecting **Project Settings** or by changing the type mapping for each table by selecting the table in the **Oracle Metadata Explorer**.
    
-   ![Image Alt Text Type Mappings](https://mpbdevcontent.azureedge.net/Images/typemappings.png)
+   ![Image Alt Text Type Mappings](https://mpbdevcontent.azureedge.net/Images/scenario-assets/typemappings.png)
    
    You can add dynamic or ad hoc queries to the **Statements** node by selecting that node and then selecting **Add Statement** on the right-click menu.
    
@@ -221,12 +221,12 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
    
    You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
    
-   ![Image Alt Text Connect to SQL](https://mpbdevcontent.azureedge.net/Images/connecttosql.png)
+   ![Image Alt Text Connect to SQL](https://mpbdevcontent.azureedge.net/Images/scenario-assets/connecttosql.png)
    
    c.	Convert the schema by selecting **Convert Schema** from the right-click menu or the menu bar on the top.
    
-   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschema.png)
+   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/convertschema.png)
    
    d.	After schema conversion, compare and review the structure of the schema to identify potential problems.
    
-   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschemacomplete.png)
+   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/convertschemacomplete.png)
