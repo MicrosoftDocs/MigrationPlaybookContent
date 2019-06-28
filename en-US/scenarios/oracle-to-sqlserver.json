@@ -19,17 +19,7 @@
     }
   ],
   "actions": [],
-  "caseStudies": [
-    {
-      "fileLocation": "Sumitomo"
-    },
-    {
-      "fileLocation": "KDS"
-    },
-    {
-      "fileLocation": "PTC"
-    }
-  ],
+  "caseStudies": [],
   "partners": [
     {
       "fileLocation": "Blitzz"

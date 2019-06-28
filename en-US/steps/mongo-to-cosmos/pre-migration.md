@@ -21,7 +21,7 @@ When you migrate MongoDB data to Azure by using the Azure Database Migration Ser
 
 1. You must create relevant Cosmos DB resources before migrating any data. Create an Azure Cosmos DB account and select MongoDB as the API. Pre-create your databases through the Azure portal. 
 
-    ![Create a Cosmos DB account](https://mpbdevcontent.azureedge.net/Images/mongo-create-cosmos-account.png)
+    ![Create a Cosmos DB account](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-create-cosmos-account.png)
 
 #### Request Units can be provisioned at two granularities 
 
@@ -34,11 +34,11 @@ When you migrate MongoDB data to Azure by using the Azure Database Migration Ser
 2. For customers that are migrating many collections within a database, it is strongly recommend to configure database-level throughput. You must make this choice when you create the database. The minimum database-level [throughput capacity](https://docs.microsoft.com/azure/cosmos-db/request-units) is 400 RU/sec.
 Each collection sharing database-level throughput requires at least 100 RU/sec. For example, if you are migrating 10 collections, database-level throughput must be at least 1,000 RU.
 
-    ![Create a Cosmos DB database](https://mpbdevcontent.azureedge.net/Images/mongo-create-db.png)
+    ![Create a Cosmos DB database](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-create-db.png)
 
 3. Pre-create your collections through the Azure portal. It is strongly recommended that you create unlimited collections and specify a [shard key](https://docs.microsoft.com/en-us/azure/cosmos-db/partition-data). Setting the partition key/shard key, if applicable, must be done **prior** to the migration.
 
-    ![Create a Cosmos DB collection](https://mpbdevcontent.azureedge.net/Images/mongo-create-collection.png)
+    ![Create a Cosmos DB collection](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-create-collection.png)
 
     Alternatively, you could create a fixed collection. You do not need to specify a partition key for fixed collection. Fixed collections have a 10GB max size.
 

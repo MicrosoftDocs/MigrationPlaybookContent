@@ -1,218 +1,218 @@
 {
-    "menu": [
+  "menu": [
+    {
+      "title": "SQL Server",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/sql-server.png",
+      "pages": [
         {
-            "title": "SQL Server",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
-            "pages": [
-                {
-                    "name": "Azure SQL Database",
-                    "longname": "Azure SQL Database",
-                    "URL": "/scenario/sql-to-azuresqldb"
-                },
-                {
-                    "name": "Azure SQL Database (MI)",
-                    "longname": "Azure SQL Database Managed Instance",
-                    "URL": "/scenario/sql-to-azuresqldbmi"
-                },
-                {
-                    "name": "SQL Server on Azure VMs",
-                    "longname": "SQL Server on Azure VMs",
-                    "URL": "/scenario/sql-to-sqlvm"
-                },
-                {
-                    "name": "SQL Data Warehouse",
-                    "longname": "Azure Data Warehouse",
-                    "URL": "/scenario/sql-to-sqldw"
-                },
-                {
-                    "name": "SQL Server (upgrade)",
-                    "longname": "SQL Server (on-premises)",
-                    "URL": "/scenario/sql-to-sqlserver"
-                }
-            ]
+          "name": "Azure SQL Database",
+          "longName": "Azure SQL Database",
+          "url": "/scenario/sql-to-azuresqldb"
         },
         {
-            "title": "Oracle",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
-            "pages": [
-                {
-                    "name": "Azure SQL Database",
-                    "longname": "Azure SQL Database",
-                    "URL": "/scenario/oracle-to-azuresqldb"
-                },
-                {
-                    "name": "Azure Database for PostgreSQL",
-                    "longname": "Azure Database for PostgreSQL",
-                    "URL": "/scenario/oracle-to-azurepostgresql"
-                },
-                {
-                    "name": "SQL Data Warehouse",
-                    "longname": "SQL Data Warehouse",
-                    "URL": "/scenario/oracle-to-sqldw"
-                },
-                {
-                    "name": "SQL Server",
-                    "longname": "SQL Server (on-premises)",
-                    "URL": "/scenario/oracle-to-sqlserver"
-                }
-            ]
+          "name": "Azure SQL Database (MI)",
+          "longName": "Azure SQL Database Managed Instance",
+          "url": "/scenario/sql-to-azuresqldbmi"
         },
         {
-            "title": "DB2",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
-            "pages": [
-                {
-                    "name": "Azure SQL Database",
-                    "longname": "Azure SQL Database",
-                    "URL": "/scenario/db2-to-azuresqldb"
-                },
-                {
-                    "name": "SQL Server",
-                    "longname": "SQL Server (on-premises)",
-                    "URL": "/scenario/db2-to-sqlserver"
-                }
-            ]
+          "name": "SQL Server on Azure VMs",
+          "longName": "SQL Server on Azure VMs",
+          "url": "/scenario/sql-to-sqlvm"
         },
         {
-            "title": "MySQL",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MySQL.png",
-            "pages": [
-                {
-                    "name": "Azure SQL Database",
-                    "longname": "Azure SQL Database",
-                    "URL": "/scenario/mysql-to-azuresqldb"
-                },
-                {
-                    "name": "Azure Database for MySQL",
-                    "longname": "Azure Database for MySQL",
-                    "URL": "/scenario/mysql-to-azuremysql"
-                },
-                {
-                    "name": "SQL Server",
-                    "longname": "SQL Server (on-premises)",
-                    "URL": "/scenario/mysql-to-sqlserver"
-                }
-            ]
+          "name": "SQL Data Warehouse",
+          "longName": "Azure Data Warehouse",
+          "url": "/scenario/sql-to-sqldw"
         },
         {
-            "title": "PostgreSQL",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/PostgreSQL.png",
-            "pages": [
-                {
-                    "name": "Azure Database for PostgreSQL",
-                    "longname": "Azure Database for PostgreSQL",
-                    "URL": "/scenario/postgresql-to-azurepostgresql"
-                }
-            ]
-        },
-        {
-            "title": "Mongo",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MongoDB.png",
-            "pages": [
-                {
-                    "name": "Azure Cosmos DB",
-                    "longname": "Azure Cosmo DB",
-                    "URL": "/scenario/mongo-to-cosmos"
-                }
-            ]
-        },
-        {
-            "title": "Cassandra",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Cassandra_270x160.png",
-            "pages": [
-                {
-                    "name": "Azure Cosmos DB",
-                    "longname": "Azure Cosmos DB",
-                    "URL": "/scenario/cassandra-to-cosmos"
-                }
-            ]
-        },
-        {
-            "title": "Access",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Access.png",
-            "pages": [
-                {
-                    "name": "Azure SQL Database",
-                    "longname": "Azure SQL Database",
-                    "URL": "/scenario/access-to-azuresqldb"
-                },
-                {
-                    "name": "SQL Server",
-                    "longname": "SQL Server (on-premises)",
-                    "URL": "/scenario/access-to-sqlserver"
-                }
-            ]
-        },
-        {
-            "title": "SAP ASE",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/SAP-ASE.png",
-            "pages": [
-                {
-                    "name": "Azure SQL Database",
-                    "longname": "Azure SQL Database",
-                    "URL": "/scenario/sybase-to-azuresqldb"
-                },
-                {
-                    "name": "SQL Server",
-                    "longname": "SQL Server (on-premises)",
-                    "URL": "/scenario/sybase-to-sqlserver"
-                }
-            ]
-        },
-        {
-            "title": "Azure Table Storage",
-            "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/Azure-Table-Storage.png",
-            "pages": [
-                {
-                    "name": "Azure Cosmos DB",
-                    "longname": "Azure Cosmos DB",
-                    "URL": "/scenario/azuretable-to-cosmos"
-                }
-            ]
+          "name": "SQL Server (upgrade)",
+          "longName": "SQL Server (on-premises)",
+          "url": "/scenario/sql-to-sqlserver"
         }
-    ],
-    "otherTools": [
+      ]
+    },
+    {
+      "title": "Oracle",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/oracle.png",
+      "pages": [
         {
-            "title": "Azure Migrate Service (Preview)",
-            "url": "http://aka.ms/migrate/canary2md",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/azure_migrate.svg"
+          "name": "Azure SQL Database",
+          "longName": "Azure SQL Database",
+          "url": "/scenario/oracle-to-azuresqldb"
         },
         {
-            "title": "Azure Database Migration Service",
-            "url": "https://aka.ms/dms",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/dms_icon.svg"
+          "name": "Azure Database for PostgreSQL",
+          "longName": "Azure Database for PostgreSQL",
+          "url": "/scenario/oracle-to-azurepostgresql"
         },
         {
-            "title": "Data Migration Assistant",
-            "url": "https://aka.ms/dma",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/dma_icon.svg"
+          "name": "SQL Data Warehouse",
+          "longName": "SQL Data Warehouse",
+          "url": "/scenario/oracle-to-sqldw"
         },
         {
-            "title": "SQL Server Migration Assistant",
-            "url": "https://aka.ms/ssma",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/ssma_icon.svg"
-        },
-        {
-            "title": "Database Experimentation Assistant",
-            "url": "https://aka.ms/dea-docs",
-            "logoUrl": "https://mpbdevcontent.azureedge.net/Images/icons/dea_icon.svg"
+          "name": "SQL Server",
+          "longName": "SQL Server (on-premises)",
+          "url": "/scenario/oracle-to-sqlserver"
         }
-    ],
-    "caseStudies": [
+      ]
+    },
+    {
+      "title": "DB2",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/DB2.png",
+      "pages": [
         {
-            "filelocation": "WillisTowersWatson"
+          "name": "Azure SQL Database",
+          "longName": "Azure SQL Database",
+          "url": "/scenario/db2-to-azuresqldb"
         },
         {
-            "filelocation": "InnovativeSys"
-        },
-        {
-            "filelocation": "Geekwire"
-        },
-        {
-            "filelocation": "Fotable"
-        },
-        {
-            "filelocation": "Vipps"
+          "name": "SQL Server",
+          "longName": "SQL Server (on-premises)",
+          "url": "/scenario/db2-to-sqlserver"
         }
-    ]
+      ]
+    },
+    {
+      "title": "MySQL",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/MySQL.png",
+      "pages": [
+        {
+          "name": "Azure SQL Database",
+          "longName": "Azure SQL Database",
+          "url": "/scenario/mysql-to-azuresqldb"
+        },
+        {
+          "name": "Azure Database for MySQL",
+          "longName": "Azure Database for MySQL",
+          "url": "/scenario/mysql-to-azuremysql"
+        },
+        {
+          "name": "SQL Server",
+          "longName": "SQL Server (on-premises)",
+          "url": "/scenario/mysql-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "PostgreSQL",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/PostgreSQL.png",
+      "pages": [
+        {
+          "name": "Azure Database for PostgreSQL",
+          "longName": "Azure Database for PostgreSQL",
+          "url": "/scenario/postgresql-to-azurepostgresql"
+        }
+      ]
+    },
+    {
+      "title": "Mongo",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/MongoDB.png",
+      "pages": [
+        {
+          "name": "Azure Cosmos DB",
+          "longName": "Azure Cosmo DB",
+          "url": "/scenario/mongo-to-cosmos"
+        }
+      ]
+    },
+    {
+      "title": "Cassandra",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/Cassandra.png",
+      "pages": [
+        {
+          "name": "Azure Cosmos DB",
+          "longName": "Azure Cosmos DB",
+          "url": "/scenario/cassandra-to-cosmos"
+        }
+      ]
+    },
+    {
+      "title": "Access",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/Access.png",
+      "pages": [
+        {
+          "name": "Azure SQL Database",
+          "longName": "Azure SQL Database",
+          "url": "/scenario/access-to-azuresqldb"
+        },
+        {
+          "name": "SQL Server",
+          "longName": "SQL Server (on-premises)",
+          "url": "/scenario/access-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "SAP ASE",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/SAP-ASE.png",
+      "pages": [
+        {
+          "name": "Azure SQL Database",
+          "longName": "Azure SQL Database",
+          "url": "/scenario/sybase-to-azuresqldb"
+        },
+        {
+          "name": "SQL Server",
+          "longName": "SQL Server (on-premises)",
+          "url": "/scenario/sybase-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Azure Table Storage",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/Azure-Table-Storage.png",
+      "pages": [
+        {
+          "name": "Azure Cosmos DB",
+          "longName": "Azure Cosmos DB",
+          "url": "/scenario/azuretable-to-cosmos"
+        }
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "fileLocation": "WillisTowersWatson"
+    },
+    {
+      "fileLocation": "InnovativeSys"
+    },
+    {
+      "fileLocation": "Geekwire"
+    },
+    {
+      "fileLocation": "Fotable"
+    },
+    {
+      "fileLocation": "Vipps"
+    }
+  ],
+  "otherTools": [
+    {
+      "title": "Azure Migrate",
+      "url": "http://aka.ms/migrate/canary2md",
+      "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/azure_migrate.svg"
+    },
+    {
+      "title": "Azure Database Migration Service",
+      "url": "https://aka.ms/dms",
+      "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dms_icon.svg"
+    },
+    {
+      "title": "Data Migration Assistant",
+      "url": "https://aka.ms/dma",
+      "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dma_icon.svg"
+    },
+    {
+      "title": "SQL Server Migration Assistant",
+      "url": "https://aka.ms/ssma",
+      "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/ssma_icon.svg"
+    },
+    {
+      "title": "Database Experimentation Assistant",
+      "url": "https://aka.ms/dea-docs",
+      "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dea_icon.svg"
+    }
+  ]
 }

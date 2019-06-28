@@ -54,16 +54,7 @@
 			]
 		}
 	],
-	"casestudies": [{
-			"filelocation": "PACTGroup"
-		},
-		{
-			"filelocation": "KDS"
-		},
-		{
-			"filelocation": "PTC"
-		}
-	],
+	"casestudies": [],
 	"partners": [{
 			"filelocation": "Fujitsu"
 		},

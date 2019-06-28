@@ -18,7 +18,7 @@ After the data is migrated to the target environment, all the applications that 
 
 5. Copy and paste the code snippet into your MongoDB app.
 
-    ![Cosmos DB quick start](https://mpbdevcontent.azureedge.net/Images/mongo-quick-start.png)
+    ![Cosmos DB quick start](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-quick-start.png)
 
 ### Optimize  
 
