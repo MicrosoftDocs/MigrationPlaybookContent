@@ -63,16 +63,7 @@
 			]
 		}
 	],
-	"casestudies": [{
-			"filelocation": "Convergent"
-		},
-		{
-			"filelocation": "Derivco"
-		},
-		{
-			"filelocation": "SBI"
-		}
-	],
+	"casestudies": [],
 	"partners": [{
 			"filelocation": "Blitzz"
 		},

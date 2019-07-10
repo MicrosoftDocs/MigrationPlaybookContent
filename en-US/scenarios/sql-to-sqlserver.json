@@ -19,17 +19,7 @@
     }
   ],
   "actions": [],
-  "caseStudies": [
-    {
-      "fileLocation": "Convergent"
-    },
-    {
-      "fileLocation": "Derivco"
-    },
-    {
-      "fileLocation": "SBI"
-    }
-  ],
+  "caseStudies": [],
   "partners": [
     {
       "fileLocation": "Blitzz"

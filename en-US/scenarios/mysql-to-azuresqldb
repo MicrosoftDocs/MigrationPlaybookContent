@@ -59,9 +59,7 @@
 			]
 		}
 	],
-	"casestudies": [{
-		"filelocation": "Sumitomo"
-	}],
+	"casestudies": [],
 	"partners": [{
 			"filelocation": "Blitzz"
 		},
