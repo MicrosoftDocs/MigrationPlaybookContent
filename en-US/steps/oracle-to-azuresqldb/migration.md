@@ -16,7 +16,7 @@ To use SSMA for Oracle to publish the database schema and migrate the data, perf
 
     b. To Publish the schema, select the database from the "Databases" node in the "SQL Azure Metadata Explorer" and choose "Synchronize with Database" from the right-click menu options
   
-    ![Image Alt Text Synchronize with Database](https://mpbdevcontent.azureedge.net/Images/publishschema.png)
+    ![Image Alt Text Synchronize with Database](https://mpbdevcontent.azureedge.net/Images/scenario-assets/publishschema.png)
   
     c. This action will publish the Oracle schema to the Azure SQL instance.
 
@@ -26,15 +26,15 @@ To use SSMA for Oracle to publish the database schema and migrate the data, perf
   
     b.	At this step you will be required to provide connection details for Oracle and Azure SQL in their respective connection dialogs to migrate the data.
   
-    ![Image Alt Text Migrate Data](https://mpbdevcontent.azureedge.net/Images/migratedata.png)
+    ![Image Alt Text Migrate Data](https://mpbdevcontent.azureedge.net/Images/scenario-assets/migratedata.png)
   
     c. After the migration is complete you will be able to view the "Data Migration report".
   
-    ![Image Alt Text Data Migration Report](https://mpbdevcontent.azureedge.net/Images/migrationreport.png)
+    ![Image Alt Text Data Migration Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/migrationreport.png)
   
     d. Validate the migration by reviewing the data and schema on the Azure SQL instance by using SQL Server Management Studio (SSMS).
 
-    ![Image Alt Text Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/migrationcomplete.png)
+    ![Image Alt Text Validate in SSMA](https://mpbdevcontent.azureedge.net/Images/scenario-assets/migrationcomplete.png)
 
 SSMA is not the only option for migrating data, though. You could also use SQL Server Integration Services (SSIS).
 

@@ -110,19 +110,19 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
     
    c. Click "OK".
 
-   ![New Project](https://mpbdevcontent.azureedge.net/Images/newproject.png)
+   ![New Project](https://mpbdevcontent.azureedge.net/Images/scenario-assets/newproject.png)
 
    d. Connect to the Oracle server by providing the connection details in the "Connect to Oracle" dialog.
    
-   ![Connect to Oracle](https://mpbdevcontent.azureedge.net/Images/connecttooracle.png)
+   ![Connect to Oracle](https://mpbdevcontent.azureedge.net/Images/scenario-assets/connecttooracle.png)
    
    e.	Create the conversion report by selecting the Oracle schema in the "Oracle Metadata Explorer" by choosing "Create Report" from the right-click menu options or the menu bar on the top.
    
-   ![Create Report](https://mpbdevcontent.azureedge.net/Images/createreport.png)
+   ![Create Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/createreport.png)
    
    f.	This will generate an HTML report with conversion statistics and error/ warnings, if any. Analyze this report to understand conversion issues and its cause.
    
-   ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/assessmentreport.png)
+   ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/assessmentreport.png)
    
    g.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file 
    from:
@@ -135,18 +135,18 @@ To use SSMA for Oracle to create an assessment, perform the following steps.
 
    a. Before you perform schema conversion validate the default datatype mappings or change them based on requirements. You could do so either by navigating to the "Tools" menu and choosing "Project Settings" or you can change type mapping for each table by selecting the table in the "Oracle Metadata Explorer".
    
-   ![Image Alt Text Type Mappings](https://mpbdevcontent.azureedge.net/Images/typemappings.png)
+   ![Image Alt Text Type Mappings](https://mpbdevcontent.azureedge.net/Images/scenario-assets/typemappings.png)
    
    b.	Dynamic or ad hoc queries can be added to the "Statements" node by selecting that node and choosing "Add Statement" from the right-click menu options.
    
    c.	For converting and moving the schema to Azure SQL Database, connect to the SQL instance by providing the connection details in the "Connect to Azure SQL" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
    
-   ![Image Alt Text Connect to SQL](https://mpbdevcontent.azureedge.net/Images/connecttosql.png)
+   ![Image Alt Text Connect to SQL](https://mpbdevcontent.azureedge.net/Images/scenario-assets/connecttosql.png)
    
    d.	Convert the schema by choosing "Convert Schema" from the right-click menu options or the menu bar on the top.
    
-   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschema.png)
+   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/convertschema.png)
    
    e.	After the schema has converted compare and review the structure of the schema to identify potential problems.
    
-   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/convertschemacomplete.png)
+   ![Image Alt Text Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/convertschemacomplete.png)

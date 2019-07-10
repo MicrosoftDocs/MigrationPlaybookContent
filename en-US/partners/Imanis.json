@@ -1,0 +1,7 @@
+{
+  "title": "Imanis Data",
+  "text": "Imanis Data provides fully automated database migration from MongoDB to Azure Cosmos DB.  Just select the source database you want to migrate from and the target database to migrate to, and Imanis Data does the rest.",
+  "url": "https://www.imanisdata.com/solutions/microsoft-cloud-backup-azure/",
+  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/Imanis_logo_cropped.png",
+  "logoAltText": "Imanis Data"
+}
