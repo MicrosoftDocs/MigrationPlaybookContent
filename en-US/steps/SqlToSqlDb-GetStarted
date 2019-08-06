@@ -12,7 +12,7 @@ When you migrate SQL Server databases to Azure by using Azure Database Migration
 
 ### Supported versions
 
-This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of March 2019.
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of August 2019.
 
 Details for migrations to Azure SQL Database from the following SQL Server sources are included:
 
