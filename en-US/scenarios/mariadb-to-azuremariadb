@@ -11,7 +11,8 @@
 					"actions": []
 				}
 			]
-		},{
+		},
+		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "MariaDBToAzureMariaDB-Pre-Mig",
@@ -69,10 +70,9 @@
 		}
 	],
 	"casestudies": [
-
+	
 	],
-	"partners": [{
-			"filelocation": "Blitzz"
-		}
+	"partners": [
+	
 	]
 }
