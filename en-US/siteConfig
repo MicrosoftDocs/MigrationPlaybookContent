@@ -123,13 +123,7 @@
           "name": "Azure Database for MariaDB",
           "longname": "Azure Database for MariaDB",
           "URL": "/scenario/mariadb-to-azuremariadb"
-        },
-        {
-          "name": "SQL Server",
-          "longname": "SQL Server (on-premises)",
-          "URL": "/scenario/access-to-sqlserver"
-        }
-      ]
+      }]
     },
     {
       "title": "Access",
