@@ -71,6 +71,8 @@
 	"casestudies": [
 
 	],
-	"partners": [
+	"partners": [{
+			"filelocation": "Blitzz"
+		}
 	]
 }
