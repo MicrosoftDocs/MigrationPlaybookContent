@@ -1,0 +1,3 @@
+<!--Assess-->
+
+When the data sources have been identified, the next step is generally to assess the source MariaDB instance(s) migrating to Azure Database for MariaDB to understand the gaps between the source and target instances.
