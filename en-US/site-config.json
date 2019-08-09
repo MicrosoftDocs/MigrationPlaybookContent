@@ -128,6 +128,17 @@
       ]
     },
     {
+      "title": "MariaDB",
+      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/MariaDB.png",
+      "pages": [
+        {
+          "name": "Azure Database for MariaDB",
+          "longname": "Azure Database for MariaDB",
+          "URL": "/scenario/mariadb-to-azuremariadb"
+        }
+      ] 
+    },
+    {
       "title": "Access",
       "logo": "https://mpbdevcontent.azureedge.net/Images/database-logos/Access.png",
       "pages": [
