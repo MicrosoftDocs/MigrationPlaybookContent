@@ -1,0 +1,3 @@
+<!--Remediate applications-->
+
+After the data is migrated to the target environment, all the applications that formerly consumed the source need to start consuming the target. Accomplishing this will in some cases require changes to the applications.

@@ -1,0 +1,76 @@
+{
+	"displayname": "Migrate MariaDB to Azure Database for MariaDB",
+	"emailmessage": "Check out the process for migrating from MariaDB to Azure Database for MariaDB here:",
+	"description": "Azure Database for MariaDB is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
+	"rationale": "AzureMariaDBRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "MariaDBToAzureMariaDB-GetStarted",
+					"actions": []
+				}
+			]
+		},{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "MariaDBToAzureMariaDB-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDBDiscover",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDBAssess",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDBConvert",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "MariaDBToAzureMariaDB-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDB-mysqldump",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDB-phpMyAdmin",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "MariaDBToAzureMariaDB-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDBRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDBPerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "MariaDBToAzureMariaDBOptimize",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+
+	],
+	"partners": [
+	]
+}

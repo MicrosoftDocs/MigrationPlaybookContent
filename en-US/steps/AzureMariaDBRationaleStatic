@@ -1,0 +1,23 @@
+## Rationale for migrating
+
+Azure Database for MariaDB provides fully managed, enterprise-ready community MariaDB database as a service for app development and deployment. Being the MariaDB community edition, this service allows you to easily lift and shift to the cloud and use languages and frameworks for your choice. On top of that, you get built-in high availability and capability to scale in seconds, helping you easily adjust to changes in customer demands. Additionally, you benefit from the unparalleled security and compliance, including Azure IP advantage, as well as Azure’s industry leading reach with more datacenters than any other cloud provider. All this with a flexible pricing model so you can choose resources for your workload with no hidden cost.
+
+When evaluating your rationale for migrating, consider the detail provided in the following sections.
+
+**Community MariaDB that’s fully managed**
+ - Combine MariaDB Community edition with the benefits of a fully managed service provider to free developers from complex infrastructure and database management so they can focus on building exceptional apps.
+
+**Languages and frameworks of your choice**
+ - Azure Database for MariaDB works with popular open-source frameworks and languages, and it features tight integration with Azure Web Apps. Use it with popular content management apps, such as WordPress and Drupal, for a fully integrated experience that supports your specific application development needs.
+
+**Built-in high availability**
+ - Trust Azure to keep enterprise apps up and running. Built to deliver high availability with a service-level agreement (SLA) of 99.99 percent, Azure Database for MariaDB requires no extra configuration, replication, or cost to ensure that your apps run when you need them to.
+
+**Scale within seconds**
+ - Provision in minutes, and flexibly scale your compute or storage independently, within seconds.
+
+**Simple and flexible pricing**
+ - Azure Database for MariaDB provides the database management capabilities you need—like automatic patching, automatic backups, and built-in monitoring and security—at no extra cost.
+
+**Unmatched security and reach**
+ - Run your apps on world-class infrastructure and the world's most trusted cloud. As a fully integrated service, Azure Database for MariaDB plugs you into the Microsoft global network of datacenters with unparalleled security and around-the-clock monitoring.
