@@ -1,0 +1,76 @@
+{
+  "displayName": "Migrate PostgreSQL to Azure Database for PostgreSQL",
+  "emailMessage": "Check out the process for migrating from PostgreSQL to Azure Database for PostgreSQL here:",
+  "description": "Azure Database for PostgreSQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
+  "rationale": "AzurePostgreSqlRationaleStatic",
+  "overview": "DbMigrationProcessOverviewStatic",
+  "steps": [
+    {
+      "name": "Pre-migration",
+      "fileLocation": "pre-migration.md"
+    },
+    {
+      "name": "Migration",
+      "fileLocation": "migration.md"
+    },
+    {
+      "name": "Post-migration",
+      "fileLocation": "post-migration.md"
+    }
+  ],
+  "actions": [],
+  "caseStudies": [],
+  "partners": [
+    {
+      "fileLocation": "Blitzz"
+    },
+    {
+      "fileLocation": "Cast"
+    },
+    {
+      "fileLocation": "DataSunrise"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Satalyst"
+    },
+    {
+      "fileLocation": "SNP_Tech"
+    },
+    {
+      "fileLocation": "Pragmatic_Works"
+    },
+    {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "credativ"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "Pactera"
+    },
+    {
+      "fileLocation": "DXC"
+    },
+    {
+      "fileLocation": "Zen3"
+    },
+    {
+      "fileLocation": "Kangaroot"
+    },
+    {
+      "fileLocation": "HVR"
+    }
+  ]
+}

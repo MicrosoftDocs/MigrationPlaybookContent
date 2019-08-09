@@ -1,0 +1,68 @@
+<!--Backup and restore using mysqldump-->
+
+You can use mysqldump to back up and restore a MariaDB database.
+
+### Create a backup file
+
+To back up an existing MariaDB database on the local on-premises server or in a virtual machine, run the following command using mysqldump:
+
+  ```
+  $ mysqldump --opt -u [uname] -p[pass] [dbname] > [backupfile.sql]
+  ```
+
+The parameters to provide are:
+* [uname] Your database username
+* [pass] The password for your database (note there is no space between -p and the password)
+* [dbname] The name of your database
+* [backupfile.sql] The filename for your database backup
+* [--opt] The mysqldump option
+
+For example, to back up a database named 'testdb' on your MariaDB server with the username 'testuser' and with no password to a file testdb_backup.sql, use the following command. The command backs up the testdb database into a file called testdb_backup.sql, which contains all the SQL statements needed to re-create the database.
+
+```
+$ mysqldump -u root -p testdb > testdb_backup.sql
+```
+
+To select specific tables in your database to back up, list the table names separated by spaces. For example, to back up only table1 and table2 tables from the 'testdb', follow this example:
+
+```
+$ mysqldump -u root -p testdb table1 table2 > testdb_tables_backup.sql
+```
+
+To back up more than one database at once, use the --database switch and list the database names separated by spaces.
+
+```
+$ mysqldump -u root -p --databases testdb1 testdb3 testdb5 > testdb135_backup.sql 
+```
+
+To back up all the databases in the server at one time, you should use the --all-databases option.
+
+```
+$ mysqldump -u root -p --all-databases > alldb_backup.sql 
+```
+
+### Create a database on the target server
+
+Create an empty database on the target Azure Database for MariaDB server where you want to migrate the data. Use a tool such as MySQL Workbench, Toad, or Navicat to create the database. The database can have the same name as the database contained the dumped data or you can create a database with a different name.
+
+To get connected, in the Azure portal, locate the connection information in the **Overview** blade of your Azure Database for MariaDB instance.
+
+![Overview blade - Azure Database for MariaDB](https://mpbdevcontent.azureedge.net/Images/mariadboverviewblade.png)  
+
+Add the connection information into your MySQL Workbench.
+
+![MySQL Workbench screen](https://mpbdevcontent.azureedge.net/Images/mysqlworkbench.png)  
+ 
+### Restore your MariaDB database
+
+After you have created the target database, you can use the mysql command or MySQL Workbench to restore the data into the specific newly created database from the dump file.
+
+```
+mysql -h [hostname] -u [uname] -p[pass] [db_to_restore] < [backupfile.sql]
+```
+
+In this example, restore the data into the newly created database on the target Azure Database for MariaDB server.
+
+```
+$ mysql -h mydemoserver.mariadb.database.azure.com -u myadmin@mydemoserver -p testdb < testdb_backup.sql
+```

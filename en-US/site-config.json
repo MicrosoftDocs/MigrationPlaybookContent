@@ -190,27 +190,32 @@
   ],
   "otherTools": [
     {
-      "title": "Azure Migrate",
-      "url": "http://aka.ms/migrate/canary2md",
+      "title": "Azure Migrate Service",
+      "text":"A central hub for starting, executing, and tracking your Azure migration",
+      "url": "https://aka.ms/am-docs",
       "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/azure_migrate.svg"
     },
     {
       "title": "Azure Database Migration Service",
+      "text":"An end-to-end solution for migrating multiple sources to cloud database platforms at scale",
       "url": "https://aka.ms/dms",
       "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dms_icon.svg"
     },
     {
       "title": "Data Migration Assistant",
+      "text":"A tool for assessing source SQL databases for potential compatibility issues on your target platform",
       "url": "https://aka.ms/dma",
       "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dma_icon.svg"
     },
     {
       "title": "SQL Server Migration Assistant",
+      "text":"A tool for assessing competitor source databases for potential compatibility issues on your target platform",
       "url": "https://aka.ms/ssma",
       "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/ssma_icon.svg"
     },
     {
       "title": "Database Experimentation Assistant",
+      "text":"An experimentation solution for evaluating a targeted version of SQL Server for a specific workload",
       "url": "https://aka.ms/dea-docs",
       "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dea_icon.svg"
     }
