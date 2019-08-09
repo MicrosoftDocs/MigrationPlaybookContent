@@ -1,4 +1,4 @@
-<!--Backup and restore using phpMyAdmin->
+<!--Backup and restore using phpMyAdmin-->
 
 You can use phpMyAdmin to back up and restore a MariaDB database.
 

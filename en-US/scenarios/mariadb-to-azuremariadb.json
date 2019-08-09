@@ -6,6 +6,10 @@
   "overview": "DbMigrationProcessOverviewStatic",
   "steps": [
     {
+      "name": "Before you start",
+      "fileLocation": "before-you-start.md"
+    },
+    {
       "name": "Pre-migration",
       "fileLocation": "pre-migration.md"
     },
@@ -20,57 +24,5 @@
   ],
   "actions": [],
   "caseStudies": [],
-  "partners": [
-    {
-      "fileLocation": "Blitzz"
-    },
-    {
-      "fileLocation": "Cast"
-    },
-    {
-      "fileLocation": "DataSunrise"
-    },
-    {
-      "fileLocation": "QuerySurge"
-    },
-    {
-      "fileLocation": "Satalyst"
-    },
-    {
-      "fileLocation": "SNP_Tech"
-    },
-    {
-      "fileLocation": "Pragmatic_Works"
-    },
-    {
-      "fileLocation": "Infosys"
-    },
-    {
-      "fileLocation": "credativ"
-    },
-    {
-      "fileLocation": "rhipe"
-    },
-    {
-      "fileLocation": "NayaTech"
-    },
-    {
-      "fileLocation": "ScalabilityExperts"
-    },
-    {
-      "fileLocation": "Pactera"
-    },
-    {
-      "fileLocation": "DXC"
-    },
-    {
-      "fileLocation": "Zen3"
-    },
-    {
-      "fileLocation": "Kangaroot"
-    },
-    {
-      "fileLocation": "HVR"
-    }
-  ]
+  "partners": []
 }
