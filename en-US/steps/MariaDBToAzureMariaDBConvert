@@ -1,0 +1,3 @@
+<!--Convert-->
+
+For heterogenous migrations (such as Oracle to Azure Database for PostgreSQL), the Pre-migration stage also involves converting the schema(s) in the source database(s) to be compatible with the target environment. For homogenous migrations, such as MariaDB to Azure Database for MariaDB, conversion of the source schema to work in the target environment is not required.

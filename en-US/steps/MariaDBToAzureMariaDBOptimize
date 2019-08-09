@@ -1,0 +1,5 @@
+<!--Optimize-->
+
+The post-migration phase is crucial for reconciling any issues with data accuracy and completeness, as well as for uncovering potential performance issues with the workload.
+
+**Note**: For additional detail about considerations and guidelines for working with Azure Database for MariaDB servers, see the article [Azure Database for MariaDB servers](https://docs.microsoft.com/azure/mariadb/concepts-servers).

@@ -1,0 +1,3 @@
+<!--Migration overview-->
+
+After you have the necessary prerequisites in place and have completed any tasks associated with the Pre-migration stage, you are ready to perform the schema and data migration, or in this case, to create a backup of your source MariaDB database and restore it to a database in Azure Database for MariaDB.
