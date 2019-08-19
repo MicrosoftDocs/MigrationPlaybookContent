@@ -2,7 +2,7 @@
 
 After identifying the data sources, the next step is to assess the on-premises SQL Server instance(s) upgrading to a later version of SQL Server so that you understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before upgrading your SQL Server instance.
 
-### Steps
+### Steps for the Assess phase
 
 To use DMA to create an assessment, perform the following steps.
 

@@ -367,7 +367,7 @@ The goal of the Discover phase is to identify existing data sources and details 
 
 To use the MAP Toolkit to perform an inventory scan, perform the following steps.
 
-### Steps
+### Steps for the Discover phase
 
 1. Download the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883), and then install it.
 
@@ -443,7 +443,7 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
 
 After identifying the data sources, the next step is to assess the on-premises SQL Server instance(s) upgrading to a later version of SQL Server so that you understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before upgrading your SQL Server instance.
 
-### Steps
+### Steps for the Assess phase
 
 To use DMA to create an assessment, perform the following steps.
 
