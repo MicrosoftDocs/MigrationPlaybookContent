@@ -13,7 +13,7 @@ Use the Database Experimentation Assistant (DEA) to assist with evaluating the t
 
 **Note**: For assistance with developing and running post-migration validation tests, also consider the Data Quality Solution available from [QuerySurge](http://www.querysurge.com/company/partners/microsoft). 
 
-### Perform test phase seps
+### Steps for the Perform tests phase
 
 To use DEA for database migration testing, perform the following steps.
 
