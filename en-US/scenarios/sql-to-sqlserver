@@ -5,6 +5,14 @@
 	"rationale": "Sql2017RationaleStatic",
 	"overview": "DbMigrationSqlToSqlProcessOverviewStatic",
 	"steps": [{
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "SqlToSql-GetStarted",
+					"actions": []
+				}
+			]
+		},
+		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "SqlToSql-Pre-Mig",

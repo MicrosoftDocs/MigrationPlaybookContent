@@ -6,7 +6,7 @@ After you have the necessary prerequisites in place and have completed the tasks
 
 After assessing your databases, the next step is to begin the process of migrating the schema and database by using DMA.
 
-### Steps
+### Steps for the migrate schema and data phase
 
 To use DMA to create a migration project, perform the following steps.
 
