@@ -20,9 +20,9 @@ A couple of key points to consider when reviewing the migration methods to deter
 * For optimum data transfer performance, migrate database files into the SQL Server on Azure VM instance using a compressed backup file.
 * To minimize downtime during the database migration process, use either the AlwaysOn option or the transactional replication option.
 
-**Tip**: There is no supported way to upgrade the version/edition of an existing SQL Server on Azure VM instance. Instead, create a new SQL Server on Azure VM instance running the desired version/edition, and then use one of the techniques in the table above to move your databases.
+**Tip**: There is no supported way to upgrade the version/edition of an existing SQL Server on Azure VM instance. Instead, create a new SQL Server on Azure VM instance running the desired version/edition, and then use one of the techniques listed above to move your databases.
 
-If it is not possible to use the above methods, migrate your database manually. Using this method, you will generally start with a database backup followed by a copy of the database backup into Azure and then perform a database restore. You can also copy the database files themselves into Azure and then attach them.
+If it is not possible to use the above methods, migrate your database manually. Using this method, you will generally start with a database backup followed by a copy of the database backup into Azure and then perform a database restore. You can also copy the database files directly into Azure and then attach them.
 
 **Note**: When upgrading from older versions of SQL Server to SQL Server 2014 or SQL Server 2016, we recommend that you address all dependencies on features that are not supported by the later version of SQL Server as part of the migration project. For more information on the supported editions and scenarios, see the article [Upgrade SQL Server](https://msdn.microsoft.com/library/bb677622.aspx).
 
