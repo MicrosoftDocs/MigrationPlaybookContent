@@ -10,7 +10,7 @@ Supported source and target versions are shown in the following table.
 
 <br>
 <table style="width: 650px;">
-<tbody>
+<thead>
 <tr>
 <td style="width: 325px; vertical-align: middle;">
 <p><strong>&nbsp;SQL Server source versions</strong></p>
@@ -19,6 +19,8 @@ Supported source and target versions are shown in the following table.
 <p><strong>&nbsp;SQL Server target versions</strong></p>
 </td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td style="width: 325px; vertical-align: top;">
 <ul>
@@ -55,7 +57,7 @@ When upgrading from SQL Server 2005, the following migration options are support
 
 <br>
 <table width="100%">
-<tbody>
+<thead>
 <tr>
 <td width="131">
 <p><strong>Target version</strong></p>
@@ -64,6 +66,8 @@ When upgrading from SQL Server 2005, the following migration options are support
 <p><strong>Database migration options</strong></p>
 </td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td width="131">
 <p>SQL Server 2017</p>
@@ -108,7 +112,7 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 
 <br>
 <table width="100%">
-<tbody>
+<thead>
 <tr>
 <td width="131">
 <p><strong>Target version</strong></p>
@@ -117,6 +121,8 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 <p><strong>Database migration options</strong></p>
 </td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td width="131">
 <p>SQL Server 2017</p>
@@ -168,7 +174,7 @@ When upgrading from SQL Server 2012, the following migration options are support
 
 <br>
 <table width="100%">
-<tbody>
+<thead>
 <tr>
 <td width="131">
 <p><strong>Target version</strong></p>
@@ -177,6 +183,8 @@ When upgrading from SQL Server 2012, the following migration options are support
 <p><strong>Database migration options</strong></p>
 </td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td width="131">
 <p>SQL Server 2017</p>
@@ -233,7 +241,7 @@ When upgrading from SQL Server 2014, the following migration options are support
 
 <br>
 <table width="100%">
-<tbody>
+<thead>
 <tr>
 <td width="131">
 <p><strong>Target version</strong></p>
@@ -242,6 +250,8 @@ When upgrading from SQL Server 2014, the following migration options are support
 <p><strong>Database migration options</strong></p>
 </td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td width="131">
 <p>SQL Server 2017</p>
@@ -282,7 +292,7 @@ When upgrading from SQL Server 2016, the following migration options are support
 
 <br>
 <table width="100%">
-<tbody>
+<thead>
 <tr>
 <td width="131">
 <p><strong>Target version</strong></p>
@@ -291,6 +301,8 @@ When upgrading from SQL Server 2016, the following migration options are support
 <p><strong>Database migration options</strong></p>
 </td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td width="131">
 <p>SQL Server 2017</p>
