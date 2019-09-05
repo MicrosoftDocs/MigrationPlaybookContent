@@ -57,6 +57,9 @@
     },
     {
       "fileLocation": "Zen3"
-    }
+    },
+		{
+			"fileLocation": "Wipro"
+		}
   ]
 }
