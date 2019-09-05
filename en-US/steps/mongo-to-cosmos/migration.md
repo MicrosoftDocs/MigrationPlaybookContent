@@ -21,5 +21,5 @@ An overview of the steps associated with using Azure DMS to migrate MongoDB data
 9. Verify data in Cosmos DB.
 
 **Important**: For detail on the specific steps associated with:
-* Online migrations, see the information [here](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online#register-the-microsoftdatamigration-resource-provider).
-* Offline migrations, see the information [here](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db#register-the-microsoftdatamigration-resource-provider).
+* Online migrations, see the information in [Migrate MongoDB to Azure Cosmos DB's API for MongoDB online using DMS](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online#register-the-microsoftdatamigration-resource-provider).
+* Offline migrations, see the information in [Migrate MongoDB to Azure Cosmos DB's API for MongoDB offline using DMS](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db#register-the-microsoftdatamigration-resource-provider).

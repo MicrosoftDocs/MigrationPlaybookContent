@@ -25,7 +25,7 @@ Perform the backup using the **-Fc** switch so that you can perform the restore 
 For example:
     pg_dump -h MySourceServerName -U MySourceUserName -Fc -d MySourceDatabaseName > Z:\Data\Backups\MyDatabaseBackup.dump
 
-**Note**: The detailed syntax for the pg_dump command is available [here](https://www.postgresql.org/docs/9.6/static/app-pgdump.html).
+**Note**: The detailed syntax for the pg_dump command is available in [PostgreSQL documentation](https://www.postgresql.org/docs/9.6/static/app-pgdump.html).
 
 ### For the restore
 Copy the backup files to an Azure blob/store and perform the restore from there, which should be a lot faster than performing the restore across the Internet. While this should occur by default, be sure to open the dump file and verify that the create index statements are after the insert of the data. If it is not the case, move the create index statements so that they appear after the insert of the data.
@@ -37,7 +37,7 @@ For example:
 
 You can also edit the dump file to include the **set synchronous_commit = off;** statement at the beginning and the **set synchronous_commit = on;** statement at the end of the file. If you do not include the statement to turn on synchronous commit at the end of the file and before the apps change the data, a subsequent loss of data may result.
 
-**Note**: The detailed syntax for the pg_restore command is available [here](https://www.postgresql.org/docs/9.6/static/app-pgrestore.html).
+**Note**: The detailed syntax for the pg_restore command is available in [PostgreSQL documentation](https://www.postgresql.org/docs/9.6/static/app-pgrestore.html).
 
 ## Data sync and Cutover
 
