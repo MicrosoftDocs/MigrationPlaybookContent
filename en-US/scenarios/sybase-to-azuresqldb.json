@@ -41,6 +41,9 @@
     },
     {
       "fileLocation": "DXC"
-    }
+    },
+		{
+			"fileLocation": "Wipro"
+		}
   ]
 }

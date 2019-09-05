@@ -65,7 +65,10 @@
       "fileLocation": "Zen3"
     },
     {
-      "fileLocation": "HVR "
-    }
+      "fileLocation": "HVR"
+    },
+		{
+			"fileLocation": "Wipro"
+		}
   ]
 }
