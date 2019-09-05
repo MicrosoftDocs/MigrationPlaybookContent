@@ -106,6 +106,9 @@
     	},
 	    {
     		"filelocation": "HVR"
-    	}
+    	},
+		{
+			"filelocation": "Wipro"
+		}
 	]
 }
