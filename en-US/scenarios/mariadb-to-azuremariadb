@@ -72,7 +72,9 @@
 	"casestudies": [
 	
 	],
-	"partners": [
-	
+	"partners": [,
+		{
+			"filelocation": "Wipro"
+		}
 	]
 }
