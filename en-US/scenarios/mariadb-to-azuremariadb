@@ -72,7 +72,10 @@
 	"casestudies": [
 	
 	],
-	"partners": [,
+	"partners": [
+		{
+			"filelocation": "Commvault"
+		},
 		{
 			"filelocation": "Wipro"
 		}
