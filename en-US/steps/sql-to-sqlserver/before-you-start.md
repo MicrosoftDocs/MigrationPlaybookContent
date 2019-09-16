@@ -322,7 +322,7 @@ When upgrading from SQL Server 2016, the following migration options are support
 </tbody>
 </table>
 
-### Migration learnings and best practices from real-world engagements
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
 
