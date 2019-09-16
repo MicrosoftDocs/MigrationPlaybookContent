@@ -2,7 +2,7 @@
 
 As you prepare for migrating to the cloud, verify that your source environment is supported and that you have address any prerequisites to help ensure a successful migration.
 
-### Migration learnings and best practices from real-world engagements
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
 

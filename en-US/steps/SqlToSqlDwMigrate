@@ -32,7 +32,7 @@ Performing a successful migration requires you to migrate your table schemas, co
 * The article [Migrate your code](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
 * The article [Migrate your data](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-data).
 
-### Migration learnings and best practices from real-world engagements
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
 
