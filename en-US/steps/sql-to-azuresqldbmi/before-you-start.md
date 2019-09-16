@@ -94,7 +94,7 @@ Before beginning your migration project, it is important to address the associat
 * Using Azure DMS to perform online migrations (detail in [Migrate SQL Server to an Azure SQL Database managed instance online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites)).
 * Using Azure DMS to perform offline migrations (detail in [Migrate SQL Server to an Azure SQL Database managed instance offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites))
 
-### Migration learnings and best practices from real-world engagements
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of real-world migration projects at scale.
 

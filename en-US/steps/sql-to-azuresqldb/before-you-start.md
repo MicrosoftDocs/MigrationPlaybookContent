@@ -100,7 +100,7 @@ Before beginning your migration project, it is important to address the associat
 * Using Azure DMS to perform online migrations (detail in [Migrate SQL Server to a single database or pooled database in Azure SQL Database online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#prerequisites)).
 * Using Azure DMS to perform offline migrations (detail in [Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#prerequisites)).
 
-### Migration learnings and best practices from real-world engagements
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migrations at scale.
 

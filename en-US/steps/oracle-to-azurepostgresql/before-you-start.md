@@ -39,7 +39,7 @@ After provisioning the VM and Azure Database for PostgreSQL, two configurations 
 - Create materialized views using the “no data clause” and refresh it later.
 - If possible, implement unique indexes in materialized views, this will make the refresh faster with the syntax “REFRESH MATERIALIZED VIEW CONCURRENTLY”.
 
-### Migration learnings and best practices from real-world engagements
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
 
