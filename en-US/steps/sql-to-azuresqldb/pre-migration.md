@@ -12,7 +12,7 @@ You can also use the [Microsoft Assessment and Planning Toolkit](https://www.mic
 
 For more information about the tools available for use during the Discover phase, see the article [Services and tools available for data migration scenarios](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
 
-##  Assess 
+## Assess
 
 When the data sources have been identified, the next step is to assess on-premises SQL Server instance(s) migrating to Azure SQL database(s) to understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before migrating to Azure SQL Database.
 
