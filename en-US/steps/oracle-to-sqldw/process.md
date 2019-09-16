@@ -37,7 +37,7 @@ Performing a successful migration required you to migrate your table schemas, co
 - The CAT (Customer Advisory Team) also has some great SQL Data Warehouse guidance, which they publish through blogs. Be sure to take a look at their blog posting, [Migrating data to Azure SQL Data Warehouse in practice](https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/), for additional guidance on migration.
 - For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
 
-### Migration learnings and best practices from real-world engagements
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
 
