@@ -5,6 +5,14 @@
 	"rationale": "Sql2017RationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "OracleToSql-GetStarted",
+					"actions": []
+				}
+			]
+		},
+		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "OracleToSql-Pre-Mig",
