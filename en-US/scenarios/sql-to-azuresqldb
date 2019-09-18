@@ -67,7 +67,7 @@
 					"actions": []
 				},
 				{
-					"filelocation": "SqlDbOptimization",
+					"filelocation": "SqlToSqlDbOptimization",
 					"actions": []
 				}
 			]
