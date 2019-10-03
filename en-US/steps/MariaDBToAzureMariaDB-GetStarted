@@ -54,6 +54,7 @@ Before beginning your migration project, it is important to address the associat
 
 ### Additional resources
 
+* For a current listing of supported versions, see the article [Supported MariaDB database versions](https://docs.microsoft.com/azure/mariadb/concepts-supported-versions).
 * For detail on alternatives for migrating to Azure, see the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp).
 * Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
 * For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
