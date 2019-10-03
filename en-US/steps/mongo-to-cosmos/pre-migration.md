@@ -1,6 +1,6 @@
 ## Pre-migration overview
 
-As you prepare for migrating to the cloud, verify that you are migrating from a MongoDB source with version 3.4  or earlier.
+As you prepare for migrating to the cloud, verify that you are migrating from a MongoDB source with version 3.4 or earlier.
 
 Please do not hesitate to reach out to [askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com) with questions.
 
