@@ -1,5 +1,7 @@
 <!--Evaluation-->
 
-Migrating an on-premises PostgreSQL instance, a PostgreSQL instance hosted in a virtual machine, or an RDS PostgreSQL instance to Azure Database for PostgreSQL is considered a homogeneous migration. Microsoft aims to support the currently released major version (n) and the two prior major versions (-2), or n-2. Azure Database for PostgreSQL supports versions 9.5.7 and 9.6.2, and if your on-premises PostgreSQL instance is running one of these versions, the database will be fully compatible, and the migration will be relatively straightforward.
+Migrating an on-premises PostgreSQL instance, a PostgreSQL instance hosted in a virtual machine, or an RDS PostgreSQL instance to Azure Database for PostgreSQL is considered a homogeneous migration. Microsoft aims to support the currently released major version (n) and the two prior major versions (-2), or n-2. Azure Database for PostgreSQL supports a variety of versions of PostgreSQL. If your on-premises PostgreSQL instance is running a support  one of these versions, the database will be fully compatible, and the migration will be relatively straightforward.
+
+For a current listing of supported versions, see the article [Supported PostgreSQL database versions](https://docs.microsoft.com/azure/postgresql/concepts-supported-versions)
 
 If you use extensions in PostgreSQL, please see the article [PostgreSQL extensions in Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/concepts-extensions).
