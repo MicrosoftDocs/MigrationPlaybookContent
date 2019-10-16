@@ -184,23 +184,26 @@
   ],
    "otherTools": [
     {
-      "text": "Azure Database Migration Service (DMS)",
+      "text": "Azure Database Migration Service",
       "url": "https://aka.ms/dms"
     },
     {
-      "text": "Data Migration Assistant (DMA)",
+      "text": "Data Migration Assistant",
       "url": "https://aka.ms/dma"
     },
     {
-      "text": "SQL Server Migration Assistant (SSMA)",
+      "text": "SQL Server Migration Assistant",
       "url": "https://aka.ms/ssma"
     },
     {
-      "text": "Database Experimentation Assistant (DEA)",
+      "text": "Database Experimentation Assistant",
       "url": "https://aka.ms/dea-tool"
     }
   ],
   "caseStudies": [{
+      "filelocation": "Capita"
+    },
+    {
       "filelocation": "WillisTowersWatson"
     },
     {
