@@ -190,7 +190,7 @@
   ],
   "otherTools": [
     {
-      "title": "Azure Migrate Service",
+      "title": "Azure Migrate",
       "text":"A central hub for starting, executing, and tracking your Azure migration",
       "url": "https://aka.ms/am-docs",
       "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/azure_migrate.svg"
