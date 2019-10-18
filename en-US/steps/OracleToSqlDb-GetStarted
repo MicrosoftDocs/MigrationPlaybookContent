@@ -17,12 +17,12 @@ For additional assistance with completing this migration scenario, please see th
 <table width="100%">
 <thead>
 <tr>
-<td width="18%">
+<th width="18%">
 <p><strong>Title/link</strong></p>
-</td>
-<td width="59%">
+</th>
+<th width="59%">
 <p><strong>Description</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>
