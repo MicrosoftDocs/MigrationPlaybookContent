@@ -21,6 +21,7 @@ Details for migrations to Azure Database for PostgreSQL from the following Postg
 * PostgreSQL 9.5
 * PostgreSQL 9.6
 * PostgreSQL 10
+
 You can migrate PostgreSQL running on-premises or on AWS RDS.
 
 ## Overview of prerequisites
