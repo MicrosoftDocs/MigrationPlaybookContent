@@ -12,12 +12,12 @@ Supported source and target versions are shown in the following table.
 <table style="width: 650px;">
 <thead>
 <tr>
-<td style="width: 325px; vertical-align: middle;">
+<th style="width: 325px; vertical-align: middle;">
 <p><strong>&nbsp;SQL Server source versions</strong></p>
-</td>
-<td style="width: 325px; vertical-align: middle;">
+</th>
+<th style="width: 325px; vertical-align: middle;">
 <p><strong>&nbsp;SQL Server target versions</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -59,12 +59,12 @@ When upgrading from SQL Server 2005, the following migration options are support
 <table width="100%">
 <thead>
 <tr>
-<td width="131">
+<th width="131">
 <p><strong>Target version</strong></p>
-</td>
-<td width="539">
+</th>
+<th width="539">
 <p><strong>Database migration options</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -114,12 +114,12 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 <table width="100%">
 <thead>
 <tr>
-<td width="131">
+<th width="131">
 <p><strong>Target version</strong></p>
-</td>
-<td width="539">
+</th>
+<th width="539">
 <p><strong>Database migration options</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -176,12 +176,12 @@ When upgrading from SQL Server 2012, the following migration options are support
 <table width="100%">
 <thead>
 <tr>
-<td width="131">
+<th width="131">
 <p><strong>Target version</strong></p>
-</td>
-<td width="539">
+</th>
+<th width="539">
 <p><strong>Database migration options</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -243,12 +243,12 @@ When upgrading from SQL Server 2014, the following migration options are support
 <table width="100%">
 <thead>
 <tr>
-<td width="131">
+<th width="131">
 <p><strong>Target version</strong></p>
-</td>
-<td width="539">
+</th>
+<th width="539">
 <p><strong>Database migration options</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -294,12 +294,12 @@ When upgrading from SQL Server 2016, the following migration options are support
 <table width="100%">
 <thead>
 <tr>
-<td width="131">
+<th width="131">
 <p><strong>Target version</strong></p>
-</td>
-<td width="539">
+</th>
+<th width="539">
 <p><strong>Database migration options</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -330,12 +330,12 @@ For additional assistance with completing this migration scenario, please see th
 <table width="100%">
 <thead>
 <tr>
-<td width="18%">
+<th width="18%">
 <p><strong>Title/link</strong></p>
-</td>
-<td width="59%">
+</th>
+<th width="59%">
 <p><strong>Description</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>

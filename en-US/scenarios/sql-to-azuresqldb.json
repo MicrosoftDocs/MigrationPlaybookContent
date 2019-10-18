@@ -70,12 +70,6 @@
     },
     {
       "fileLocation": "HVR"
-    },
-		{
-			"fileLocation": "Wipro"
-		},
-		{
-			"fileLocation": "Commvault"
-		}
+    }
   ]
 }
