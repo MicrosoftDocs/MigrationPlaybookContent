@@ -27,7 +27,7 @@ You can migrate MySQL running on-premises or on AWS RDS.
 
 Before beginning your migration project, it is important to address the associated prerequisites for leveraging Azure Database Migration Service (DMS) for migrations. When upgrading from MySQL to Azure Database for MySQL, there are prerequisites associated with:
 
-* Creating and instance of Azure Database for MySQL (detail [here](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal))
+* Creating and instance of Azure Database for MySQL (detail [here](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal)).
 * Creating an instance of Azure Database Migration Service (detail [here](https://docs.microsoft.com/azure/dms/pre-reqs)).
 * Using Azure Database Migration Service to perform online migrations from:
   * MySQL (detail [here](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online#prerequisites)).
