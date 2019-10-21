@@ -5,6 +5,14 @@
 	"rationale": "AzureMySqlRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
+			"name": "Before you start",
+			"items": [{
+					"filelocation": "MySqlToAzureMySql-GetStarted",
+					"actions": []
+				}
+			]
+		},
+		{
 			"name": "Pre-migration",
 			"items": [{
 					"filelocation": "MySqlToAzureMySql-Pre-Mig",
