@@ -7,17 +7,17 @@ The following sections provide an overview of what's involved with migrating an 
 Before migrating, you should verify that SQL Data Warehouse is the best solution for your workload. SQL Data Warehouse is a distributed system designed to perform analytics on large data. Migrating to SQL Data Warehouse requires some design changes that are not difficult to understand but that might take some time to implement. If your business requires an enterprise-class data warehouse, the benefits are worth the effort. However, if you don't need the power of SQL Data Warehouse, it is more cost-effective to use [SQL Server]( https://docs.microsoft.com/en-us/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017) or [Azure SQL Database](https://azure.microsoft.com/services/sql-database/).
 
 Consider using SQL Data Warehouse when you:
-* Have one or more Terabytes of data
-* Plan to run analytics on substantial amounts of data
-* Need the ability to scale compute and storage
+* Have one or more Terabytes of data.
+* Plan to run analytics on substantial amounts of data.
+* Need the ability to scale compute and storage.
 * Want to save on costs by pausing compute resources when you don't need them.
 
 Rather than SQL Data Warehouse, consider other options for operational (OLTP) workloads that have:
-* High frequency reads and writes
-* Large numbers of singleton selects
-* High volumes of single row inserts
-* Row-by-row processing needs
-* Incompatible formats (JSON, XML)
+* High frequency reads and writes.
+* Large numbers of singleton selects.
+* High volumes of single row inserts.
+* Row-by-row processing needs.
+* Incompatible formats (JSON, XML).
 
 ### Plan the migration
 
@@ -103,4 +103,4 @@ For additional assistance with completing this migration scenario, please see th
 **Videos**
 
 * For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
-* For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/
+* For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/)
