@@ -3,7 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" role="group"
 	 viewBox="0 0 1362.6 1454.3" enable-background="new 0 0 1362.6 1454.3" xml:space="preserve" aria-hidden="false" focusable="true">
 <title>Migration process overview</title>
-<desc>An overview of pre migration, migration and post migration process</desc>
+<desc>An overview of the pre-migration, migration, and post-migration stages in the database migration process</desc>
 
 <g id="Layer_2">
 	<g display="none">
@@ -2368,9 +2368,9 @@
 			</g>
 		</g>
 	</g>
-	<text tabindex="2" role="contentinfo" aria-label="Inventory database assets and application stack discovery."  transform="matrix(1 0 0 1 255.2108 310.3036)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Discover</tspan><tspan x="-57.5" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Inventory database assets,  </tspan><tspan x="-76.5" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">and application stack discovery.</tspan></text>
-	<text tabindex="3" role="contentinfo " aria-label="Assess workloads and fix recommendations." transform="matrix(1 0 0 1 644.746 310.3036)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Assess</tspan><tspan x="-34" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Assess workloads  </tspan><tspan x="-65.6" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">and fix recommendations.</tspan></text>
-	<text transform="matrix(1 0 0 1 1020.231 310.3036)" tabindex="4"  role="contentinfo" aria-label="Convert the source schema to work in the target environment. (Only relevant for heterogeneous migrations)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Convert</tspan><tspan x="-75.9" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Convert the source schema to  </tspan><tspan x="-83" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">work in the target environment. </tspan><tspan x="-94.2" y="88" fill="#555555" font-family="'Segoe UI'" font-size="14px">(Only relevant for heterogeneous migrations)</tspan></text>
+	<text tabindex="2" role="contentinfo" aria-label="Inventory database assets and perform application stack discovery." transform="matrix(1 0 0 1 255.2108 310.3036)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Discover</tspan><tspan x="-57.5" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Inventory database assets,</tspan><tspan x="-76.5" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">and application stack discovery.</tspan></text>
+	<text tabindex="3" role="contentinfo " aria-label="Assess workloads and fix recommendations." transform="matrix(1 0 0 1 644.746 310.3036)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Assess</tspan><tspan x="-34" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Assess workloads</tspan><tspan x="-65.6" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">and fix recommendations.</tspan></text>
+	<text transform="matrix(1 0 0 1 1020.231 310.3036)" tabindex="4"  role="contentinfo" aria-label="Convert the source schema to work in the target environment. (Only relevant for heterogeneous migrations)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Convert</tspan><tspan x="-75.9" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Convert the source schema to  </tspan><tspan x="-83" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">work in the target environment. </tspan><tspan x="-94.2" y="88" fill="#555555" font-family="Segoe UI" font-size="14px">(Only relevant for heterogeneous migrations)</tspan></text>
 	<g>
 		<path fill="#59B4D9" d="M259.1,159.8v84.4h78.1v-72.8L323,159.3C323,159.3,258.1,159.8,259.1,159.8z"/>
 		<polygon fill="#1FA1C9" points="337,171.2 324.6,171.2 324.6,160.6 323.2,159.3 321.4,159.3 321.4,174.4 337.2,174.4 337.2,171.4 
@@ -2484,9 +2484,9 @@
 			</g>
 		</g>
 	</g>
-	<text tabindex="6" role="contentinfo" aria-label="Migrate the source schema, source data and objects to the target." transform="matrix(1 0 0 1 259.3432 780.0947)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Migrate</tspan><tspan x="-95.8" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Migrate the source schema, source  </tspan><tspan x="-75.4" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">data and objects to the target.</tspan></text>
-	<text tabindex="7" role="contentinfo" aria-label="Sync your target schema  and data with the source. (Only relevant for minimal-downtime migrations)" transform="matrix(1 0 0 1 625.1254 780.0947)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Sync Data</tspan><tspan x="-43.2" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Sync your target schema  </tspan><tspan x="-45.7" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">and data with the source. </tspan><tspan x="-94.2" y="88" fill="#555555" font-family="'Segoe UI'" font-size="14px">(Only relevant for minimal-downtime migrations)</tspan></text>
-	<text tabindex="8" role="contentinfo" aria-label="Cut over from the source  to the target environment. (Only relevant for minimal-downtime migrations)" transform="matrix(1 0 0 1 1020.231 780.0947)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Cutover</tspan><tspan x="-56.5" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Cut over from the source  </tspan><tspan x="-62.2" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">to the target environment. </tspan><tspan x="-106.1" y="88" fill="#555555" font-family="'Segoe UI'" font-size="14px">(Only relevant for minimal-downtime migrations)</tspan></text>
+	<text tabindex="6" role="contentinfo" aria-label="Migrate the source schema, source data, and objects to the target." transform="matrix(1 0 0 1 259.3432 780.0947)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Migrate</tspan><tspan x="-95.8" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Migrate the source schema, source</tspan><tspan x="-75.4" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">data and objects to the target.</tspan></text>
+	<text tabindex="7" role="contentinfo" aria-label="Sync your target schema and data with the source. (Only relevant for minimal-downtime migrations)" transform="matrix(1 0 0 1 625.1254 780.0947)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Sync Data</tspan><tspan x="-43.2" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Sync your target schema</tspan><tspan x="-45.7" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">and data with the source.</tspan><tspan x="-94.2" y="88" fill="#555555" font-family="Segoe UI" font-size="14px">(Only relevant for minimal-downtime migrations)</tspan></text>
+	<text tabindex="8" role="contentinfo" aria-label="Perform migration cutover from the source to the target environment. (Only relevant for minimal-downtime migrations)" transform="matrix(1 0 0 1 1020.231 780.0947)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Cutover</tspan><tspan x="-56.5" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Cut over from the source</tspan><tspan x="-62.2" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">to the target environment.</tspan><tspan x="-106.1" y="88" fill="#555555" font-family="Segoe UI" font-size="14px">(Only relevant for minimal-downtime migrations)</tspan></text>
 	<path fill="none" stroke="#9E9F9F" stroke-width="3.0686" stroke-miterlimit="10" d="M747.7,696.2"/>
 	<g>
 		<g>
@@ -2598,12 +2598,11 @@
 			</g>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 594.662 128.9918)" font-family="'Segoe UI'" font-size="30px" tabindex="1" aria-label="Pre migration" role="header">Pre-migration</text>
-	<text transform="matrix(1 0 0 1 625.7232 596.3078)" font-family="'Segoe UI'" font-size="30px" tabindex="5" aria-label="Migration" role="header">Migration</text>
-	<text transform="matrix(1 0 0 1 586.7232 1065.941)" font-family="'Segoe UI'" font-size="30px" tabindex="9" aria-label="Post migration" role="header">Post-migration</text>
-	<g display="none">
-		
-			<text transform="matrix(1 0 0 1 6674.7637 990.7374)" display="inline" fill="#555555" font-family="'Segoe UI'" font-size="27px">Optimize</text>
+	<text transform="matrix(1 0 0 1 594.662 128.9918)" font-family="Segoe UI" font-size="30px" tabindex="1" aria-label="Pre migration" role="header">Pre-migration</text>
+	<text transform="matrix(1 0 0 1 625.7232 596.3078)" font-family="Segoe UI" font-size="30px" tabindex="5" aria-label="Migration" role="header">Migration</text>
+	<text transform="matrix(1 0 0 1 586.7232 1065.941)" font-family="Segoe UI" font-size="30px" tabindex="9" aria-label="Post migration" role="header">Post-migration</text>
+	<g display="none">	
+			<text transform="matrix(1 0 0 1 6674.7637 990.7374)" display="inline" fill="#555555" font-family="Segoe UI" font-size="27px">Optimize</text>
 		<g display="inline">
 			<g>
 				<path fill-rule="evenodd" clip-rule="evenodd" fill="#001A50" d="M6746.3,947.4c0,1.8-7.2,3.3-16.2,3.3
@@ -2635,7 +2634,7 @@
 			</g>
 		</g>
 		
-			<text transform="matrix(1 0 0 1 7064.5801 983.9339)" display="inline" fill="#555555" font-family="'Segoe UI'" font-size="27px">Remediate applications</text>
+			<text transform="matrix(1 0 0 1 7064.5801 983.9339)" display="inline" fill="#555555" font-family="Segoe UI" font-size="27px">Remediate applications</text>
 		<g display="inline">
 			<g>
 				<path fill="#59B4D9" d="M7157.3,926.2c0,1.2,1,2.2,2.2,2.2h50.4c1.2,0,2.2-1,2.2-2.2v-34.3h-54.8V926.2z"/>
@@ -2947,9 +2946,9 @@
 			</g>
 		</g>
 	</g>
-	<text tabindex="10" role="contentinfo" aria-label="Remediate Applications. Iteratively make any necessary changes to your applications."  transform="matrix(1 0 0 1 168.7748 1273.3248)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Remediate Applications</tspan><tspan x="13" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Iteratively make any necessary  </tspan><tspan x="19.4" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">changes to your applications.</tspan></text>
-	<text tabindex="11" role="contentinfo" aria-label="Perform Tests. Iteratively run functional  and performance tests."  transform="matrix(1 0 0 1 603.3847 1273.3248)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Perform Tests</tspan><tspan x="-20.3" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Iteratively run functional  </tspan><tspan x="-12.3" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">and performance tests.</tspan></text>
-	<text tabindex="12" role="contentinfo" aria-label="Optimize. Based on tests, address performance  issues and then retest to confirm the  performance improvements."  transform="matrix(1 0 0 1 1013.1851 1273.3248)"><tspan x="0" y="0" fill="#555555" font-family="'Segoe UI'" font-size="26px">Optimize</tspan><tspan x="-95.9" y="34" fill="#555555" font-family="'Segoe UI'" font-size="18px">Based on tests, address performance  </tspan><tspan x="-95.6" y="58" fill="#555555" font-family="'Segoe UI'" font-size="18px">issues and then retest to confirm the  </tspan><tspan x="-62.6" y="82" fill="#555555" font-family="'Segoe UI'" font-size="18px">performance improvements. </tspan></text>
+	<text tabindex="10" role="contentinfo" aria-label="Remediate Applications. Iteratively make any necessary changes to your applications." transform="matrix(1 0 0 1 168.7748 1273.3248)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Remediate Applications</tspan><tspan x="13" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Iteratively make any necessary</tspan><tspan x="19.4" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">changes to your applications.</tspan></text>
+	<text tabindex="11" role="contentinfo" aria-label="Perform Tests. Iteratively run functional and performance tests." transform="matrix(1 0 0 1 603.3847 1273.3248)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Perform Tests</tspan><tspan x="-20.3" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Iteratively run functional</tspan><tspan x="-12.3" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">and performance tests.</tspan></text>
+	<text tabindex="12" role="contentinfo" aria-label="Optimize. Based on tests, address performance issues and then retest to confirm the performance improvements." transform="matrix(1 0 0 1 1013.1851 1273.3248)"><tspan x="0" y="0" fill="#555555" font-family="Segoe UI" font-size="26px">Optimize</tspan><tspan x="-95.9" y="34" fill="#555555" font-family="Segoe UI" font-size="18px">Based on tests, address performance</tspan><tspan x="-95.6" y="58" fill="#555555" font-family="Segoe UI" font-size="18px">issues and then retest to confirm the</tspan><tspan x="-62.6" y="82" fill="#555555" font-family="Segoe UI" font-size="18px">performance improvements.</tspan></text>
 	<path fill="none" stroke="#9E9F9F" stroke-width="3.0686" stroke-miterlimit="10" d="M747.7,1189.4"/>
 </g>
 <g id="Layer_6">
