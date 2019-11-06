@@ -55,6 +55,9 @@
 	],
 	"casestudies": [],
 	"partners": [{
+      		"filelocation": "Cognizant"
+   		},
+		{
 			"filelocation": "Fujitsu"
 		},
 		{
