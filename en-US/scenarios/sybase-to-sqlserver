@@ -63,6 +63,9 @@
 
 	],
 	"partners": [{
+		    "filelocation": "Cognizant"
+	    },
+		{
 			"filelocation": "DBBest"
 		},
 		{
