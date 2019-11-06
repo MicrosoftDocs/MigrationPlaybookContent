@@ -197,7 +197,11 @@
     },
     {
       "text": "Database Experimentation Assistant",
-      "url": "https://aka.ms/dea-tool"
+      "url": "https://aka.ms/dea-docs"
+    },
+    {
+      "text": "Data Access Migration Toolkit",
+      "url": "https://aka.ms/damt-tool"
     }
   ],
   "caseStudies": [{
@@ -230,6 +234,9 @@
     },
     {
       "filelocation": "Cloudamize"
+    },
+    {
+      "filelocation": "Cognizant"
     },
     {
       "filelocation": "Commvault"

@@ -74,6 +74,9 @@
 	],
 	"partners": [
 		{
+    	    "filelocation": "Cognizant"
+    	},
+		{
 			"filelocation": "Commvault"
 		},
 		{
