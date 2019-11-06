@@ -198,6 +198,10 @@
     {
       "text": "Database Experimentation Assistant",
       "url": "https://aka.ms/dea-tool"
+    },
+    {
+      "text": "Data Access Migration Toolkit",
+      "url": "https://aka.ms/damt-tool"
     }
   ],
   "caseStudies": [{
