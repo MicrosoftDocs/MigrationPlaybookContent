@@ -81,18 +81,10 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="https://github.com/Microsoft/DataMigrationTeam/blob/master/Whitepapers/Steps%20to%20Install%20ora2pg%20on%20Windows.pdf">Steps to Install ora2pg on Windows</a></p>
+<p><a href="https://github.com/microsoft/DataMigrationTeam/blob/master/Whitepapers/Steps%20to%20Install%20ora2pg%20on%20Windows%20and%20Linux.pdf">Steps to Install ora2pg on Windows or Linux</a></p>
 </td>
 <td width="59%">
-<p>This document is meant to be used as a Quick Installation Guide for enabling migration of schema & data from Oracle to Azure Database for PostgreSQL using ora2pg tool on Windows. Complete details on the tool can be found at http://ora2pg.darold.net/documentation.html. </p>
-</td>
-</tr>
-<tr>
-<td width="18%">
-<p><a href="https://github.com/Microsoft/DataMigrationTeam/blob/master/Whitepapers/Steps%20to%20Install%20ora2pg%20on%20Linux.pdf">Steps to Install ora2pg on Linux</a></p>
-</td>
-<td width="59%">
-<p>This document is meant to be used as a Quick Installation Guide for enabling migration of schema & data from Oracle to Azure Database for PostgreSQL using ora2pg tool on Linux. Complete details on the tool can be found at http://ora2pg.darold.net/documentation.html. </p>
+<p>This document is meant to be used as a Quick Installation Guide for enabling migration of schema & data from Oracle to Azure Database for PostgreSQL using ora2pg tool on Windows or Linux. Complete details on the tool can be found at http://ora2pg.darold.net/documentation.html. </p>
 </td>
 </tr>
 </tbody>
