@@ -1,16 +1,10 @@
 ## Pre-migration overview
 
-As you prepare for migrating to the cloud, verify that your source environment is supported and that you have address any prerequisites to help ensure a successful migration.
-
-### Additional resources
-
-- For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
-- For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
-- For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/).
+After verifying that your source environment is supported and ensuring that you have addressed any prerequisites, you are ready to start the **Pre-migration** stage. This part of the process involves conducting an inventory of the databases that you need to migrate, assessing those databases for potential migration issues or blockers, and then resolving any items you might have uncovered. For heterogenous migrations (such as Oracle to Azure Database for PostgreSQL), this stage also involves converting the schema(s) in the source database(s) to be compatible with the target environment. For homogenous migrations, such as MySQL to Azure Database for MySQL, conversion of the source schema to work in the target environment is not required.
 
 ## Evaluation
 
-Migrating from an on-premises instance of MySQL, a MySQL instance hosted in a virtual machine, or an RDS MySQL instance to Azure Database for MySQL is considered a homogeneous migration. Azure Database for MySQL automatically manages patching for minor version updates. Azure Database for MySQL supports a variety of MySQL versions using the InnoDB engine. If you are running a supported version of on-premises MySQL, the database will be fully compatible  the migration will be relatively straightforward.
+Migrating from an on-premises instance of MySQL, a MySQL instance hosted in a virtual machine, or an RDS MySQL instance to Azure Database for MySQL is considered a homogeneous migration. Azure Database for MySQL automatically manages patching for minor version updates. Azure Database for MySQL supports a variety of MySQL versions using the InnoDB engine. If you are running a supported version of on-premises MySQL, the database will be fully compatible and the migration will be relatively straightforward.
 
 For a current listing of supported versions, see the article [Supported MySQL database versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions).
 

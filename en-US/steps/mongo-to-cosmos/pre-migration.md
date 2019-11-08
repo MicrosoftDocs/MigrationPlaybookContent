@@ -1,6 +1,6 @@
 ## Pre-migration overview
 
-As you prepare for migrating to the cloud, verify that you are migrating from a MongoDB source with version 3.4 or earlier.
+As you prepare for migrating to the cloud, verify that you are migrating from a MongoDB source with version 3.4  or earlier.
 
 Please do not hesitate to reach out to [askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com) with questions.
 
@@ -57,5 +57,5 @@ Before beginning your migration project, it is important to address the associat
 * Open your Windows firewall to allow Azure DMS to access the source MongoDB server.
 
 **Important**: For detail on the specific prerequisites associated with:
-* Online migrations, see the information in [Migrate MongoDB to Azure Cosmos DB's API for MongoDB online using DMS](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online#prerequisites).
-* Offline migrations, see the information in [Migrate MongoDB to Azure Cosmos DB's API for MongoDB offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#prerequisites).
+* Online migrations, see the information [here](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online#prerequisites).
+* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#prerequisites).

@@ -61,11 +61,11 @@
     {
       "fileLocation": "Zen3"
     },
-		{
-			"fileLocation": "Wipro"
-		},
-		{
-			"fileLocation": "Commvault"
-		}
+    {
+      "fileLocation": "Wipro"
+    },
+    {
+      "fileLocation": "Commvault"
+    }
   ]
 }

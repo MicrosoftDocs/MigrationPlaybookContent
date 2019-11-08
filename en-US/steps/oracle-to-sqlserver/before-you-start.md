@@ -1,12 +1,13 @@
 ## Preparing for database migration
-
 As you prepare for migrating your database to the cloud, verify that your source environment is supported and that you have addressed any prerequisites. This will help to ensure an efficient and successful migration.
 
-## Overview
+### Overview
 
 This scenario describes how to migrate an Oracle instance to SQL Server.
 
-## Migration assets from real-world engagements
+As you prepare for migrating to the cloud, verify that your source environment is supported and that you have addressed any prerequisites. This will help to ensure an efficient and successful migration.
+
+### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
 
@@ -84,9 +85,9 @@ For additional assistance with completing this migration scenario, please see th
 
 **Note**: These resources were developed as part of the Data Migration Jumpstart Program (DM Jumpstart), which is sponsored by the Azure Data Group engineering team. The core charter DM Jumpstart is to unblock and accelerate complex modernization and compete data platform migration opportunities to Microsoft’s Azure Data platform. If you think your organization would be interested in participating in the DM Jumpstart program, please contact your account team and ask that they submit a nomination.
 
-## Additional resources
+### Additional resources
 
-- Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator (Preview)](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
+- Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
 - For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
 
 **Videos**
