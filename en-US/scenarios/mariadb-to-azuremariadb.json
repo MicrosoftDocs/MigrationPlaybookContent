@@ -25,14 +25,14 @@
   "actions": [],
   "caseStudies": [],
   "partners": [
-		{
+    {
       "fileLocation": "Cognizant"
     },
     {
-			"filelocation": "Commvault"
-		},
-		{
-			"fileLocation": "Wipro"
+      "fileLocation": "Commvault"
+    },
+    {
+      "fileLocation": "Wipro"
     }
   ]
 }

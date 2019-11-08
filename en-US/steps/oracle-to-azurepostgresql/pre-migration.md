@@ -6,7 +6,7 @@ After verifying that your source environment is supported and ensuring that you 
 
 The goal of the Discover phase is to identify existing data sources and details about the features that are being used to get a better understanding of and plan for the migration. This process involves scanning the network to identify all your organization’s Oracle instances together with the version and features in use.
 
-Microsoft Oracle pre-assessment scripts run against the Oracle database. The Pre-assessment script are a set of queries that hits the Oracle metadata and provides the following:
+Microsoft Oracle pre-assessment scripts run against the Oracle database. The Pre-assessment script are a set of queries that hits the Oracle metadata and provides the following: 
 
 - Database inventory, including counts of objects by schema, type, and status.
 - A rough estimate of Raw Data in each schema (based on statistics).
@@ -31,10 +31,10 @@ ora2pg -t SHOW_REPORT
 
 After the database is analyzed, ora2pg, with its ability to convert SQL and PL/SQL code from Oracle syntax to PostgreSQL, can go further by estimating the code difficulties and the time necessary to perform a full database migration.
 
-To estimate the migration cost in man-days, ora2pg allows you to use a configuration directive called ESTIMATE_COST, which can also be enabled at command line:
+To estimate the migration cost in man-days, ora2pg allows you to use a configuration directive called ESTIMATE_COST, which can also be enabled at command line: 
 
 ```
-ora2pg -t SHOW_REPORT --estimate_cost
+ora2pg -t SHOW_REPORT --estimate_cost 
 ```
 
 The default migration unit represent around five minutes for a PostgreSQL expert. If this is your first migration you can get it higher with the configuration directive COST_UNIT_VALUE or the --cost_unit_value command line option.

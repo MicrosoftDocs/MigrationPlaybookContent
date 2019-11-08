@@ -22,8 +22,6 @@ The test approach for database migration consists of performing the following ac
 
 ## Optimize
 
-The post migration phase is crucial for reconciling any issues with data accuracy and completeness, as well as addressing potential performance issues with the workload.
+The post-migration phase is crucial for reconciling any data accuracy issues and verifying completeness, as well as addressing performance issues with the workload.
 
-**Note**: For additional detail about these issues and specific steps to mitigate them, see the following resource:
-* The [Post-migration Validation and Optimization Guide](https://docs.microsoft.com/en-us/sql/relational-databases/post-migration-validation-and-optimization-guide).
-* The article [Tuning performance in Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-performance-guidance?wt.mc_id=AID627566_QSG_SCL_239030).
+**Note**: For additional detail about these issues and specific steps to mitigate them, see the [Post-migration Validation and Optimization Guide](https://docs.microsoft.com/en-us/sql/relational-databases/post-migration-validation-and-optimization-guide).

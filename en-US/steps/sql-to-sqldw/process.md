@@ -7,32 +7,27 @@ The following sections provide an overview of what's involved with migrating an 
 Before migrating, you should verify that SQL Data Warehouse is the best solution for your workload. SQL Data Warehouse is a distributed system designed to perform analytics on large data. Migrating to SQL Data Warehouse requires some design changes that are not difficult to understand but that might take some time to implement. If your business requires an enterprise-class data warehouse, the benefits are worth the effort. However, if you don't need the power of SQL Data Warehouse, it is more cost-effective to use [SQL Server]( https://docs.microsoft.com/en-us/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017) or [Azure SQL Database](https://azure.microsoft.com/services/sql-database/).
 
 Consider using SQL Data Warehouse when you:
-
-* Have one or more Terabytes of data
-* Plan to run analytics on substantial amounts of data
-* Need the ability to scale compute and storage
+* Have one or more Terabytes of data.
+* Plan to run analytics on substantial amounts of data.
+* Need the ability to scale compute and storage.
 * Want to save on costs by pausing compute resources when you don't need them.
 
 Rather than SQL Data Warehouse, consider other options for operational (OLTP) workloads that have:
-
-* High frequency reads and writes
-* Large numbers of singleton selects
-* High volumes of single row inserts
-* Row-by-row processing needs
-* Incompatible formats (JSON, XML)
+* High frequency reads and writes.
+* Large numbers of singleton selects.
+* High volumes of single row inserts.
+* Row-by-row processing needs.
+* Incompatible formats (JSON, XML).
 
 ### Plan the migration
 
 After you make the decision to migrate an existing solution to SQL Data Warehouse, it is important to plan the migration before you get started.
-
 A primary goal of planning is to ensure that your data, table schemas, and code are compatible with SQL Data Warehouse. There are some compatibility differences between your current system and SQL Data Warehouse that you will need to work around. In addition, migrating large amounts of data to Azure takes time. Careful planning will speed up the process of getting your data to Azure.
-
 Another key goal of planning is to adjust your design to ensure that your solution takes full advantage of the high query performance that SQL Data Warehouse is designed to provide. Designing data warehouses for scale introduces unique design patterns, so traditional approaches aren't always the best. While some design adjustments can be made after migration, making changes earlier in the process will save you time later.
 
 ### Perform the migration
 
 Performing a successful migration requires you to migrate your table schemas, code, and data. For more detailed guidance on these topics, see:
-
 * The article [Migrate your schemas](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
 * The article [Migrate your code](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-schema).
 * The article [Migrate your data](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-migrate-data).
@@ -108,4 +103,4 @@ For additional assistance with completing this migration scenario, please see th
 **Videos**
 
 * For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
-* For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/
+* For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/)
