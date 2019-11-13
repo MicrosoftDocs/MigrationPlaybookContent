@@ -29,10 +29,10 @@
       "fileLocation": "Blitzz"
     },
     {
-      "fileLocation": "DBBest"
+      "fileLocation": "Cognizant"
     },
     {
-      "fileLocation": "Cognizant"
+      "fileLocation": "DBBest"
     },
     {
       "fileLocation": "DataSunrise"
@@ -61,11 +61,11 @@
     {
       "fileLocation": "Zen3"
     },
-		{
-			"fileLocation": "Wipro"
-		},
-		{
-			"fileLocation": "Commvault"
-		}
+    {
+      "fileLocation": "Wipro"
+    },
+    {
+      "fileLocation": "Commvault"
+    }
   ]
 }

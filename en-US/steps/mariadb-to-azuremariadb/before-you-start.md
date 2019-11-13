@@ -2,7 +2,7 @@
 
 As you prepare for migrating your database to the cloud, verify that your source environment is supported and that you have addressed any prerequisites. This will help to ensure an efficient and successful migration.
 
-## Overview
+### Overview
 
 This scenario describes how to migrate a MariaDB instance to Azure Database for MariaDB.
 
@@ -11,7 +11,7 @@ There are two common ways to back up and restore databases to Azure Database for
 * From the command line, using mysqldump
 * Using PHPMyAdmin.
 
-## Common uses for dump and restore
+### Common uses for dump and restore
 
 You may use MySQL utilities such as mysqldump and mysqlpump to dump and load databases into an Azure Database for MariaDB server in several common scenarios.
 
@@ -26,11 +26,11 @@ You may use MySQL utilities such as mysqldump and mysqlpump to dump and load dat
 
 * To avoid any compatibility issues, use same version of MariaDB on the source and destination systems when dumping databases. For example, if your existing MariaDB server is version 10.2, then migrate to Azure Database for MariaDB configured to run version 10.2. The mysql_upgrade command does not function in an Azure Database for MariaDB server and is not supported. If you need to upgrade across MariaDB versions, first dump or export your lower version database into a higher version of MariaDB in your own environment. Then run mysql_upgrade before attempting migration to Azure Database for MariaDB.
 
-## Use common tools
+### Use common tools
 
 Use common utilities and tools such as MySQL Workbench, mysqldump, Toad, or Navicat to remotely connect and restore data into Azure Database for MariaDB. Use such tools on your client machine with an internet connection to connect to the Azure Database for MariaDB. Use an SSL encrypted connection for best security practices, see also [Configure SSL connectivity in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security). You do not need to move the dump files to any special cloud location when migrating to Azure Database for MariaDB.
 
-## Performance considerations
+### Performance considerations
 
 To optimize performance when dumping large databases, consider the following:
 
@@ -44,7 +44,7 @@ To optimize performance when dumping large databases, consider the following:
 * Use the defer-table-indexes option in mysqlpump when dumping databases, so that index creation happens after tables data is loaded.
 * Copy the backup files to an Azure blob/store and perform the restore from there, which should be a lot faster than performing the restore across the Internet.
 
-## Overview of prerequisites
+### Overview of prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites. When upgrading from MariaDB to Azure Database for MariaDB, you need to:
 
@@ -52,10 +52,10 @@ Before beginning your migration project, it is important to address the associat
 * Install the [mysqldump](https://mariadb.com/kb/en/library/documentation/clients-utilities/backup-restore-and-import-clients/mysqldump/) command-line utility on a computer.
 * Have access to [MySQL Workbench](https://dev.mysql.com/downloads/workbench/), Toad, Navicat, or other third-party MySQL tool to do dump and restore commands.
 
-## Additional resources
+### Additional resources
 
+* For a current listing of supported versions, see the article [Supported MariaDB database versions](https://docs.microsoft.com/azure/mariadb/concepts-supported-versions).
 * For detail on alternatives for migrating to Azure, see the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp).
 * Be sure to check out the [Azure Total Cost of Ownership (TCO) Calculator](https://aka.ms/azure-tco) to help estimate the cost savings you can realize by migrating your workloads to Azure.
 * For a matrix of the Microsoft and third-party services and tools that are available to assist you with various database and data migration scenarios as well as specialty tasks, see the article [Service and tools for data migration](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
-* For options related to migrating Azure SQL Database to a managed instance, see the blog post [How to Migrate Azure SQL Database to Azure SQL Managed Instance](https://blogs.msdn.microsoft.com/azuresqldbsupport/2019/01/28/how-to-migrate-azure-sql-database-to-azure-sql-managed-instance/).
 * For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).

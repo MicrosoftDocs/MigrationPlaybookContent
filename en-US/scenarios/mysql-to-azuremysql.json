@@ -6,6 +6,10 @@
   "overview": "DbMigrationProcessOverviewStatic",
   "steps": [
     {
+      "name": "Before you start",
+      "fileLocation": "before-you-start.md"
+    },
+    {
       "name": "Pre-migration",
       "fileLocation": "pre-migration.md"
     },
@@ -32,10 +36,10 @@
       "fileLocation": "Blitzz"
     },
     {
-      "fileLocation": "Cast"
+      "fileLocation": "Cognizant"
     },
     {
-      "fileLocation": "Cognizant"
+      "fileLocation": "Cast"
     },
     {
       "fileLocation": "DataSunrise"
@@ -82,11 +86,11 @@
     {
       "fileLocation": "HVR"
     },
-		{
-			"fileLocation": "Wipro"
-		},
-		{
-			"fileLocation": "Commvault"
-		}
+    {
+      "fileLocation": "Wipro"
+    },
+    {
+      "fileLocation": "Commvault"
+    }
   ]
 }

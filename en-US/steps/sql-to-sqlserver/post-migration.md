@@ -87,5 +87,4 @@ To use DEA for database migration testing, perform the following steps.
 
 The post-migration phase is crucial for reconciling any data accuracy issues and verifying completeness, as well as addressing performance issues with the workload.
 
-**Note**: For additional detail about these issues and specific steps to mitigate them, see the following resource:
-* The [Post-migration Validation and Optimization Guide](https://docs.microsoft.com/en-us/sql/relational-databases/post-migration-validation-and-optimization-guide).
+**Note**: For additional detail about these issues and specific steps to mitigate them, see the [Post-migration Validation and Optimization Guide](https://docs.microsoft.com/en-us/sql/relational-databases/post-migration-validation-and-optimization-guide).

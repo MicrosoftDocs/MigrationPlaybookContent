@@ -2,17 +2,17 @@
 
 As you prepare for migrating your database to the cloud, verify that your source environment is supported and that you have addressed any prerequisites. This will help to ensure an efficient and successful migration.
 
-### Overview
+## Overview
 
 This scenario describes how to migrate a SQL Server instance to Azure SQL Database. 
 
-### Offline versus online migrations
+## Offline versus online migrations
 
 When you migrate SQL Server databases to Azure by using Azure Database Migration Service, you can perform an offline or an online migration. With an *offline* migration, application downtime begins when the migration starts. For an *online* migration, downtime is limited to the time required to cut over to the new environment when the migration completes. It's recommended to test an offline migration to determine whether the downtime is acceptable; if not, perform an online migration.
 
 ### Supported versions
 
-This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of March 2019.
+This section describes all supported scenarios and options for an upgrade from on-premise SQL Server versions to Azure SQL Database. This information is current as of August 2019.
 
 Details for migrations to Azure SQL Database from the following SQL Server sources are included:
 
@@ -93,16 +93,16 @@ Data migration options, details, and supported versions are provided in the foll
 </tbody>
 </table>
 
-### Overview of prerequisites
+## Overview of prerequisites
 
 Before beginning your migration project, it is important to address the associated prerequisites for leveraging Azure Database Migration Service (DMS) for migrations. When upgrading from SQL Server on-premises or on SQL Server on Virtual Machines to Azure SQL Database, there are prerequisites associated with:
 
 * Downloading and installing the [Data Migration Assistant (DMA)](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
-* Creating an instance of Azure DMS (detail in [Overview of prerequisites for using the Azure Database Migration Service](https://docs.microsoft.com/azure/dms/pre-reqs)).
-* Using Azure DMS to perform online migrations (detail in [Migrate SQL Server to a single database or pooled database in Azure SQL Database online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#prerequisites)).
-* Using Azure DMS to perform offline migrations (detail in [Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#prerequisites)).
+* Creating an instance of Azure DMS (detail [here](https://docs.microsoft.com/azure/dms/pre-reqs)).
+* Using Azure DMS to perform online migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#prerequisites)).
+* Using Azure DMS to perform offline migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#prerequisites)).
 
-### Migration assets from real-world engagements
+## Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migrations at scale.
 
@@ -156,7 +156,7 @@ For additional assistance with completing this migration scenario, please see th
 
 **Note**: These resources were developed as part of the Data Migration Jumpstart Program (DM Jumpstart), which is sponsored by the Azure Data Group engineering team. The core charter DM Jumpstart is to unblock and accelerate complex modernization and compete data platform migration opportunities to Microsoft’s Azure Data platform. If you think your organization would be interested in participating in the DM Jumpstart program, please contact your account team and ask that they submit a nomination.
 
-### Additional resources
+## Additional resources
 
 * For detail on alternatives for migrating to Azure, see the white paper [Choosing your database migration path to Azure](https://aka.ms/dbmigratewp).
 * [SQL migration using Azure Data Migration Service (DMS)](https://www.microsoft.com/handsonlabs/SelfPacedLabs/?storyGuid=3b671509-c3cd-4495-8e8f-354acfa09587) hands-on lab.

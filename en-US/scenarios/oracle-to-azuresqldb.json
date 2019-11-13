@@ -6,9 +6,9 @@
   "overview": "DbMigrationProcessOverviewStatic",
   "steps": [
     {
-			"name": "Before you start",
-			"fileLocation": "before-you-start.md"
-		},
+      "name": "Before you start",
+      "fileLocation": "before-you-start.md"
+    },
     {
       "name": "Pre-migration",
       "fileLocation": "pre-migration.md"
@@ -65,8 +65,8 @@
     {
       "fileLocation": "HVR"
     },
-		{
-			"fileLocation": "Wipro"
-		}
+    {
+      "fileLocation": "Wipro"
+    }
   ]
 }

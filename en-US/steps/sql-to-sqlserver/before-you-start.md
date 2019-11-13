@@ -1,6 +1,6 @@
 ## Preparing for database migration
 
-As you prepare for upgrading your SQL Server database to a later version of SQL Server, consider the versions of SQL Server that are supported and to address any prerequisites. This will help to ensure an efficient and successful migration.
+As you prepare for migration your SQL Server database to a later version of SQL Server, consider the versions of SQL Server that are supported and to address any prerequisites. This will help to ensure an efficient and successful migration.
 
 ### Supported upgrade technologies
 
@@ -47,7 +47,7 @@ The following data migration options are discussed:
 *	Backup and restore
 *	Transactional replication
 *	Always On availability groups
-*	Data Migration tool set (Azure Database Migration Service [Azure DMS] and Data Migration Assistant [Data Migration Assistant])
+*	Data Migration tool set (Azure Database Migration Service [Azure DMS] and Data Migration Assistant [DMA])
 *	Database mirroring
 *	Log shipping
 *	Bulk load
@@ -86,7 +86,7 @@ When upgrading from SQL Server 2005, the following migration options are support
 </td>
 <td width="539">
 <ul>
-<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">Data Migration Assistant</a>.</li>
+<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">DMA</a>.</li>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2016.</li>
 <li><u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2016.</li>
 </ul>
@@ -98,7 +98,7 @@ When upgrading from SQL Server 2005, the following migration options are support
 </td>
 <td width="539">
 <ul>
-<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">Data Migration Assistant</a>.</li>
+<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">DMA</a>.</li>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2005 can be restored to SQL Server 2014.</li>
 <li><u>Bulk load</u>: Tables can be bulk copied from SQL Server 2005 to SQL Server 2014.</li>
 </ul>
@@ -143,7 +143,7 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 </td>
 <td width="539">
 <ul>
-<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">Data Migration Assistant</a>.</li>
+<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">DMA</a>.</li>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2016.</li>
 <li><u>Database mirroring</u>: Database mirroring is supported if principal is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and mirror is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes principal, SQL Server 2008 or SQL Server 2008 R2 instance becomes mirror and will NOT receive changes from principal.</li>
 <li><u>Log shipping</u>: Log shipping is supported if primary is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and secondary is running SQL Server 2016. If a failover, either automatic or manual, happens such that SQL Server 2016 instance becomes primary, SQL Server 2008 or SQL Server 2008 R2 instance becomes secondary and will NOT receive changes from primary.</li>
@@ -157,9 +157,9 @@ When upgrading from SQL Server 2008 or SQL Server 2008 R2, the following migrati
 </td>
 <td width="539">
 <ul>
-<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">Data Migration Assistant</a>.</li>
+<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">DMA</a>.</li>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2008 or SQL Server 2008 R2 can be restored to SQL Server 2014.</li>
-<li><u>Transactional replication</u>: SQL Server replication from SQL Server 2008/2008R2 to SQL Server is supported. Replication upgrade options are outlined in detail in the blog post&nbsp;<a href="https://blogs.msdn.microsoft.com/sql_server_team/upgrading-a-replication-topology-to-sql-server-2016/">Upgrading a Replication Topology to SQL Server 2016</a>.</li>
+<li><u>Transactional replication</u>: SQL Server replication from SQL Server 2008/2008R2 to SQL Server is supported. Replication upgrade options are outlined in detail in the blog&nbsp;<a href="https://blogs.msdn.microsoft.com/sql_server_team/upgrading-a-replication-topology-to-sql-server-2016/">here</a>.</li>
 <li><u>Database mirroring</u>: Database mirroring is supported if principal is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and mirror is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes principal, SQL Server 2008 or SQL Server 2008 R2 instance becomes mirror and will NOT receive changes from principal.</li>
 <li><u>Log shipping</u>: Log shipping is supported if primary is running SQL Server 2008 SP3 or later, or SQL Server 2008 R2 SP2 or later, and secondary is running SQL Server 2014. If a failover, either automatic or manual, happens such that SQL Server 2014 instance becomes primary, SQL Server 2008 or SQL Server 2008 R2 instance becomes secondary and will NOT receive changes from primary.</li>
 <li><u>Bulk load</u>: Tables can be bulk copied from SQL Server 2008 or SQL Server 2008 R2 to SQL Server 2014.</li>
@@ -193,7 +193,6 @@ When upgrading from SQL Server 2012, the following migration options are support
 <ul>
 <li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dma">Data Migration Assistant</a> (DMA).</li>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2012 can be restored to SQL Server 2017.</li>
-<li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2012 to SQL Server 2017 is supported.</li>
 <li><u>Availability group</u>: Always On availability groups are supported if primary replica is running SQL Server 2012 SP2 or later and secondary replicas are running SQL Server 2017. If a failover, either automatic or manual, happens such that a SQL Server 2017 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT be able to receive changes from primary.</li>
 <li><u>Database mirroring</u>: Database mirroring is supported if principal is running SQL Server 2012 SP1 or later and mirror is running SQL Server 2017. If a failover, either automatic or manual, happens such that SQL Server 2017 instance becomes principal, SQL Server 2012 instance becomes mirror and will NOT receive changes from principal.</li>
 <li><u>Log shipping</u>: Log shipping is supported if primary is running SQL Server 2012 SP1 or later and secondary is running SQL Server 2017. If a failover, either automatic or manual, happens such that SQL Server 2017 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT receive changes from primary.</li>
@@ -207,7 +206,7 @@ When upgrading from SQL Server 2012, the following migration options are support
 </td>
 <td width="539">
 <ul>
-<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">Data Migration Assistant</a>.</li>
+<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">DMA</a>.</li>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2012 can be restored to SQL Server 2016.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2012 to SQL Server 2016 is supported.</li>
 <li><u>Availability group</u>: Always On availability groups are supported if primary replica is running SQL Server 2012 SP2 or later and secondary replicas are running SQL Server 2016. If a failover, either automatic or manual, happens such that a SQL Server 2016 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT be able to receive changes from primary.</li>
@@ -223,7 +222,7 @@ When upgrading from SQL Server 2012, the following migration options are support
 </td>
 <td width="539">
 <ul>
-<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">Data Migration Assistant</a>.</li>
+<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">DMA</a>.</li>
 <li><u>Backup and restore</u>: A backup taken on SQL Server 2012 can be restored to SQL Server 2014.</li>
 <li><u>Transactional replication</u>: SQL Server transactional replication from SQL Server 2012 to SQL Server 2014 is supported.</li>
 <li><u>Availability group</u>: Always On availability groups are supported if primary replica is running SQL Server 2012 SP1 or later and secondary replicas are running SQL Server 2014. If a failover, either automatic or manual, happens such that a SQL Server 2014 instance becomes primary, SQL Server 2012 instance becomes secondary and will NOT be able to receive changes from primary.</li>
@@ -274,7 +273,7 @@ When upgrading from SQL Server 2014, the following migration options are support
 </td>
 <td width="539">
 <ul>
-<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">Data Migration Assistant</a>.</li>
+<li><u>Migration tools</u>: Migration is supported through <a href="https://aka.ms/dam">DMA</a>.</li>
 <li>Backup and restore: A backup taken on SQL Server 2014 can be restored to SQL Server 2016.</li>
 <li>Transactional replication: SQL Server transactional replication from SQL Server 2014 to SQL Server 2016 is supported.</li>
 <li><u>Availability group</u>: Always On availability groups are supported if primary replica is running SQL Server 2014 and secondary replicas are running SQL Server 2016. If a failover, either automatic or manual, happens such that a SQL Server 2016 instance becomes primary, SQL Server 2014 instance becomes secondary and will NOT be able to receive changes from primary.</li>
@@ -322,6 +321,14 @@ When upgrading from SQL Server 2016, the following migration options are support
 </tbody>
 </table>
 
+### Prerequisites
+
+Before beginning your migration project, it is important to address the associated prerequisites. To prepare for the migration, download and install the:
+
+* Latest version of the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883).
+* [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
+* Latest version of the [Database Experimentation Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54090).
+
 ### Migration assets from real-world engagements
 
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of a real-world migration project engagement.
@@ -364,11 +371,3 @@ For additional assistance with completing this migration scenario, please see th
 
 - For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
 - For a walk through of the phases of the migration process and detail about the specific tools and services recommended to perform assessment and migration, see the video [Overview of the migration journey and the tools/services recommended for performing assessment and migration](https://azure.microsoft.com/resources/videos/overview-of-migration-and-recommended-tools-services/).
-
-### Prerequisites
-
-Before beginning your migration project, it is important to address the associated prerequisites. To prepare for the migration, download and install the:
-
-* Latest version of the [MAP Toolkit](http://go.microsoft.com/fwlink/?LinkID=316883).
-* [Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595) v3.3 or later.
-* Latest version of the [Database Experimentation Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54090).
