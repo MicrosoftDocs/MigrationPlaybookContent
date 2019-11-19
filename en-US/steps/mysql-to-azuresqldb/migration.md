@@ -20,12 +20,11 @@ To use SSMA for MySQL to publish the database schema and migrate the data, perfo
   
     c. This action will publish the MySQL schema to the Azure SQL Database instance.
 
-
 2. **Migrate data to Azure SQL Database**.
 
-    a.	After publishing the schema to the Azure SQL Database instance, select the MySQL schema from the "MySQL Metadata Explorer” and choose "Migrate Data" from the right-click menu options or the menu bar on the top.
+    a. After publishing the schema to the Azure SQL Database instance, select the MySQL schema from the "MySQL Metadata Explorer” and choose "Migrate Data" from the right-click menu options or the menu bar on the top.
   
-    b.	At this step you will be required to provide connection details for MySQL and Azure SQL Database in their respective connection dialogs to migrate the data.
+    b. At this step you will be required to provide connection details for MySQL and Azure SQL Database in their respective connection dialogs to migrate the data.
   
     ![Migrate Data](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/migratedata.png)
   
