@@ -19,7 +19,7 @@ This section describes all supported scenarios and options for an upgrade from o
 Details for migrations to Azure Database for MySQL from the following MySQL sources are included:
 
 * MySQL 5.6
-* MySQL 5.6
+* MySQL 5.7
 
 You can migrate MySQL running on-premises or on AWS RDS.
 

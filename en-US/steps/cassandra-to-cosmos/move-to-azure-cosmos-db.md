@@ -1,13 +1,14 @@
-## Moving Cassandra data to Azure Cosmos DB
+## Migrating from Cassandra
 
 You can migrate Apache Cassandra data into Azure Cosmos DB via the Cassandra API.
 
 A high-level outline of the process includes:
+
 - Planning for moving the data
 - Addressing the prerequisites for moving the data
 - Moving the data by using:
-    - The cqlsh COPY command
-    - Spark
+  - The cqlsh COPY command
+  - Spark
 
 Using Cassandra API for Azure Cosmos DB has several benefits, including:
 
@@ -22,6 +23,7 @@ Using Cassandra API for Azure Cosmos DB has several benefits, including:
 Before moving Cassandra data to Azure Cosmos DB, estimate the throughput needs of your workload. In general, it's best to start with the average throughput required by the CRUD operations, and then include the additional throughput that is required for the Extract Transform Load (ETL) or spiky operations.
 
 To plan for the move, you need to:
+
 - **Determine the existing data size or estimated data size**: Define the minimum required database size and throughput. If you are estimating data size for a new application, assume that the data is uniformly distributed across the rows and estimate the value by multiplying with the data size.
 - **Determine the required throughput**: Identify the approximate read (query/get) and write (update/delete/insert) throughput rate. This information is necessary to compute the required request units along with steady-state data size.
 - **Export the schema**: Connect to your existing Cassandra cluster through cqlsh and export the schema from Cassandra:
@@ -31,6 +33,7 @@ To plan for the move, you need to:
     ```
 
 After you identify the requirements of your existing workload, create an Azure Cosmos DB account, database, and containers based on the gathered throughput requirements.
+
 - **Determine the RU charge for an operation**: You can determine the RUs by using the Azure Cosmos DB Cassandra API SDK of your choice. This example shows the .NET version of getting RU charges.
 
     ```
@@ -43,7 +46,7 @@ After you identify the requirements of your existing workload, create an Azure C
             byte[] valueInBytes = customPayload[key];
             string value = Encoding.UTF8.GetString(valueInBytes);
             Console.WriteLine($"CustomPayload:  {key}: {value}");  
-            }   
+            }
     ```
 
 - **Allocate the required throughput**: Azure Cosmos DB can automatically scale storage and throughput as your requirements grow. You can estimate your throughput needs by using the [Azure Cosmos DB request unit calculator](https://www.documentdb.com/capacityplanner).
@@ -59,6 +62,7 @@ After you identify the requirements of your existing workload, create an Azure C
 ### Options for moving data
 
 You can move data from existing Cassandra workloads to Azure Cosmos DB by using either of the following options:
+
 - The cqlsh COPY command
 - Spark
 
@@ -66,15 +70,15 @@ You can move data from existing Cassandra workloads to Azure Cosmos DB by using 
 
 You can use the [CQL COPY command](http://cassandra.apache.org/doc/latest/tools/cqlsh.html#cqlsh) to copy local data to Azure Cosmos DB via the Cassandra API. To copy the data, perform the following steps:
 
-1.	Make a note of the connection string information associated with your Cassandra API account:
+1. Make a note of the connection string information associated with your Cassandra API account:
 
-    a.	Sign in to the [Azure portal](https://portal.azure.com/), and then navigate to your Azure Cosmos DB account.
+    a. Sign in to the [Azure portal](https://portal.azure.com/), and then navigate to your Azure Cosmos DB account.
 
-    b.	Open the **Connection String** pane, which contains all the information that you need to connect to your Cassandra API account using cqlsh.
+    b. Open the **Connection String** pane, which contains all the information that you need to connect to your Cassandra API account using cqlsh.
 
-2.	Sign in to cqlsh using the connection information you gathered from the portal.
+2. Sign in to cqlsh using the connection information you gathered from the portal.
 
-3.	Use the CQL COPY command to copy local data to the Cassandra API account.
+3. Use the CQL COPY command to copy local data to the Cassandra API account.
 
     ```
         COPY exampleks.tablename FROM filefolderx/*.csv
@@ -83,13 +87,16 @@ You can use the [CQL COPY command](http://cassandra.apache.org/doc/latest/tools/
 ### Move data using Spark
 
 To move data to Azure Cosmos DB via the Cassandra API using Spark, perform the following steps:
-1.	Provision an [Azure Databricks](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-databricks) or a [HDInsight cluster](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-hdinsight).
-2.	Use the [table copy operation](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-table-copy-ops) to move data to the destination Cassandra API endpoint.
+
+1. Provision an [Azure Databricks](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-databricks) or a [HDInsight cluster](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-hdinsight).
+2. Use the [table copy operation](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-table-copy-ops) to move data to the destination Cassandra API endpoint.
 
 Moving data by using Spark jobs is the recommended option if you have data residing in an existing cluster in Azure virtual machines or in any other cloud. This requires that Spark be set up as intermediary for one-time or regular ingestion. You can accelerate this data movement by using express route connectivity between on-premises and Azure.
 
 ### Additional resources
+
 To learn more about the Azure Cosmos DB Cassandra API, view the following resources:
+
 - [Introduction to the Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-introduction)
 - [Apache Cassandra features supported by Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-support)
 - [Connect to Azure Cosmos DB Cassandra API from Spark](https://docs.microsoft.com/azure/cosmos-db/cassandra-spark-generic)

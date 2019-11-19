@@ -69,16 +69,19 @@
 			"filelocation": "DBBest"
 		},
 		{
-			"filelocation": "QuerySurge"
+			"filelocation": "DXC"
 		},
 		{
 			"filelocation": "Infosys"
 		},
 		{
-			"filelocation": "ScalabilityExperts"
+			"filelocation": "Ispirer"
 		},
 		{
-			"filelocation": "DXC"
+			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
 		},
 		{
 			"filelocation": "Wipro"
