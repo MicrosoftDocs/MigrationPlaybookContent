@@ -23,13 +23,13 @@ To use DEA for database migration testing, perform the following steps.
 
     a. On the left navigation tree, select the camera icon the go to **All Captures**.
     
-    ![New trace capture](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deanewcapture.png)
+    ![New trace capture](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deanewcapture.png)
     
     b. To start a new capture, select **New Capture**.
     
     c. To configure the capture, speficy the trace name, duration, SQL Server instance name, database name, and the share location for storing the trace file on the computer running SQL Server.
     
-    ![Provide trace capture inputs](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deacaptureinputs.png)
+    ![Provide trace capture inputs](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deacaptureinputs.png)
     
     d. Select **Start** to begin trace capture.
 
@@ -37,7 +37,7 @@ To use DEA for database migration testing, perform the following steps.
     
     a. On the left navigation tree, select the play icon the go to **All Replays**.
     
-    ![New trace replay](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deanewreplay.png)
+    ![New trace replay](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deanewreplay.png)
     
     b. To start a new replay, select **New Replay**.
     
@@ -49,7 +49,7 @@ To use DEA for database migration testing, perform the following steps.
  
     a. On the left navigation tree, select the checklist icon to go to **Analysis Reports**. 
     
-    ![New Analysis Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deanewanalysis.png)
+    ![New Analysis Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deanewanalysis.png)
     
     b. Connect to the SQL Server on which you will store your report databases.
     
@@ -59,7 +59,7 @@ To use DEA for database migration testing, perform the following steps.
     
     d. To configure the report, specify the report name, and specify paths to the traces fon the source and target SQL Server instances.
     
-    ![Provide report analysis inputs](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deaanalysisinput.png)
+    ![Provide report analysis inputs](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deaanalysisinput.png)
     
  5. **Review an analysis report**
  
@@ -69,19 +69,19 @@ To use DEA for database migration testing, perform the following steps.
     
     Note: By default, threshold is set to 5%; any performance improvement that is >= 5% is categorized as ‘Improved’. The drop-down selector allows you to evaluate the report using different performance thresholds.
        
-    ![Analysis Threshold](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deathreshold.jpg)
+    ![Analysis Threshold](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/deathreshold.jpg)
     
     b. Select the individual slices of the pie chart to view drill-down metrics on performance.
     
-    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deachart.png)
+    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deachart.png)
     
     On the drill-down page for a performance change category, you will see a list of queries in that category. 
     
-    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deaerrorqueries.png)
+    ![Drill down report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deaerrorqueries.png)
     
     c. Select an individual query to get performance summary statistics, error information, and query plan information.
     
-    ![Summary Statistics](https://mpbdevcontent.azureedge.net/Images/scenario-assets/deasummarystats.png)
+    ![Summary Statistics](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deasummarystats.png)
 
 ## Optimize
 

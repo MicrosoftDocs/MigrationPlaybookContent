@@ -61,29 +61,29 @@ To use SSMA for Access to create an assessment, perform the following steps.
 
     a. Under File menu, click "New Project". Provide the details in the New Project dialog
     
-    ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accessnewproject.png)
+    ![Image Alt Text New Project](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accessnewproject.png)
     
     b. Click on "Add Databases" and select databases to be added to your new project
     
-    ![Image Alt Text Add databases](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accessadddb.png)
+    ![Image Alt Text Add databases](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accessadddb.png)
     
     c. In Access Metadata Explorer, select the database(s) that you want to assess
     
-    ![Image Alt Text Select databases](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accessselectdb.png)
+    ![Image Alt Text Select databases](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accessselectdb.png)
     
     d. Right-click Databases, and select Create Report
     
-     ![Image Alt Text Create Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accesscreatereport.png)
+     ![Image Alt Text Create Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accesscreatereport.png)
     
     e. A sample assessment report looks like the below:
     
-    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accesssamplereport.png)
+    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accesssamplereport.png)
 
 3. **Converting Access Database Objects**. 
 
     a. Connect to SQL Server target database
     
-     ![Image Alt Text SQL Server conenction](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accessconnecttosql.png)
+     ![Image Alt Text SQL Server conenction](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accessconnecttosql.png)
     
     b. In Access Metadata Explorer, expand access-metabase, and then expand Databases
        
@@ -91,13 +91,13 @@ To use SSMA for Access to create an assessment, perform the following steps.
       
     d. To convert schemas, right-click Databases and select Convert Schema
     
-    ![Image Alt Text SQL Server conenction](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accessconvertschema.png)
+    ![Image Alt Text SQL Server conenction](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accessconvertschema.png)
 
     Note: You can also convert individual objects. To convert an object, regardless of which objects are selected, right-click the object and select Convert Schema. 
 
     e. When an object has been converted, it appears bold in Access Metadata Explorer. 
     
-    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/accessconvertcomplete.png)
+    ![Image Alt Text Sample Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/access-to-sqlserver/accessconvertcomplete.png)
     
     f. To convert, load, and migrate schemas and data in one step, right-click Databases and select Convert, Load, and Migrate
 

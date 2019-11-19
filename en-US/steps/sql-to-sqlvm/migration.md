@@ -42,25 +42,25 @@ To use DMA to create a migration project, perform the following steps.
 
     a. Select the New icon, select the **Migration** project type, select **SQL Server** as source and target types, and then select **Create**.
 
-    ![New Migration](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmamigrate.png)    
+    ![New Migration](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmamigrate.png)    
 
     b. Provide source and target SQL server conenction details, and then select **Next**.
 
-    ![Source & Target details](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmasourcetarget.png)    
+    ![Source & Target details](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmasourcetarget.png)    
 
     c. Select databases from the source to migrate, and then specify the **Shared location accessible by source and target SQL servers for backup operation**. 
      
     **Note**: Be sure that the service account running the source SQL Server instance has write privileges on the shared location and that the target SQL Server service account has read privileges on the shared location.
 
-    ![Select databases to migrate](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmamigrateadddb.png) 
+    ![Select databases to migrate](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmamigrateadddb.png) 
 
     d. Select **Next**, select the logins that you want to migrate, and then select **Start Migration**.
 
-    ![Migration Logins](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmaselectlogins.png) 
+    ![Migration Logins](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmaselectlogins.png) 
 
     e. Now, monitor the progress of migration in the **View Results** screen.
 
-    ![Migration View Results](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmamigrateresults.png) 
+    ![Migration View Results](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmamigrateresults.png) 
   
 2. **Review Migration Results**
 
