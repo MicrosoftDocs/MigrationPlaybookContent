@@ -16,51 +16,51 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
     
     You will be on the following screen:
     
-    ![MAP Overview](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapoverview.png)
+    ![MAP Overview](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapoverview.png)
     
     b. Select **Create/Select database**.
     
-    ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapselectdb.png)
+    ![MAP Create/Select DB](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapselectdb.png)
      
     c. Ensure that **Create an inventory database** is selected, enter a name for the database, a brief description, and then select **OK**.
     
-    ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapselectdboverview.png)
+    ![MAP Create/Select DB Overview](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapselectdboverview.png)
     
     The next step is to collect data from the database created.
 
     d. Select **Collect inventory data**.
     
-    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapcollectinventorydata.png)
+    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/mapcollectinventorydata.png)
     
     e. In the Inventory and Assessment Wizard, select **SQL Server** and **SQL Server with Database Details**, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapinventorywizard.png)
+    ![MAP Inventory and Assessment Wizard](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/mapinventorywizard.png)
     
     f. Select the best method option to search the computers on which Microsoft Products are hosted, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverymethods.png)
+    ![MAP Inventory and Assessment Wizard Discovery Methods](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapdiscoverymethods.png)
     
     g. Enter credentials or create new credentials for the systems that you want to explore, and then select **Next**.
     
-   ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverycreds.png)
+   ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapdiscoverycreds.png)
     
     h. Set the order of the credentials, and then select **Next**.
                
-    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverycredsorder.png)
+    ![MAP Inventory and Assessment Wizard Discovery Credentials Order](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/mapdiscoverycredsorder.png)
     
     Now, you need to specify the credentials for each computer that you want to discover. You can use unique credentials for each computer/machine, or you can choose to use the **All Computer Credentials** list.
     
     i. After setting up the credentials, select **Save**, and then select **Next**.
     
-    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverycredsindividual.png)
+    ![MAP Inventory and Assessment Wizard Discovery Credentials](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapdiscoverycredsindividual.png)
     
     j. Verify your selection summary, and then select **Finish**.
     
-    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdiscoverysummary.png)
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapdiscoverysummary.png)
     
     k. Wait for a few minutes (depending on the number of databases) for the Data Collection summary report.
     
-    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapdatacollectionsummary.png)
+    ![MAP Inventory and Assessment Wizard Summary](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapdatacollectionsummary.png)
     
     l. Select **Close**.
     
@@ -70,13 +70,13 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
     
     On the top-right corner of the tool, an **Options** page appears, which you can use to generate report about the SQL Server Assessment and the Database Details.
     
-    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapexcelreport.png)
+    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/mapexcelreport.png)
     
     a. Select both options (one by one) to generate the report.
     
     This will take a couple of seconds to a few minutes depending on the size of the inventory completed during discovery.
     
-    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mapexcelreportdone.png)
+    ![MAP Report Generation](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/mapexcelreportdone.png)
 
 ## Assess
 
@@ -90,17 +90,17 @@ To use DMA to create an assessment, perform the following steps.
 
     a. Launch DMA, select the New (+) icon, select the **Assessment** project type, specify a project name, select **SQL Server** as the source and target, and then select **Create**.
     
-    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmanewproject.bmp)    
+    ![New Assessment](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmanewproject.bmp)    
     
     b. Select the target SQL Server version that you plan to migrate to and against which you need to run an assessment, select one or both of the assessment report types (**Compatibility Issues** and **New features’ recommendation**), and then select **Next**.
     
-    ![Report Types](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmaassessment.bmp)   
+    ![Report Types](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmaassessment.bmp)   
     
     c. In the **Connect to a server** fly-out, specify the name of the SQL Server instance to connect to, specify the Authentication type and Connection properties, and then select **Connect**.
     
     d. In the **Add Sources** fly-out, select the database(s) you that want to assess, and then select **Add**.
             
-    ![Add databases](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmaadddb.bmp)   
+    ![Add databases](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmaadddb.bmp)   
     
     e. Select **Start Assessment**.
     
@@ -108,7 +108,7 @@ To use DMA to create an assessment, perform the following steps.
     
     f. Select the database that has completed assessment, and then switch between **Compatibility issues** and **Feature recommendations** by using the switcher.
     
-    ![Assessment results](https://mpbdevcontent.azureedge.net/Images/scenario-assets/dmaassessmentresults.bmp)  
+    ![Assessment results](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlvm/dmaassessmentresults.bmp)  
     
     g. Review the compatibility issues by analyzing the impacted object and its details for every issue identified under **Breaking changes**, **Behavior changes**, and **Deprecated features**.
     

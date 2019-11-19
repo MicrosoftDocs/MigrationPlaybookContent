@@ -45,11 +45,11 @@ Create an empty database on the target Azure Database for MariaDB server where y
 
 To get connected, in the Azure portal, locate the connection information in the **Overview** blade of your Azure Database for MariaDB instance.
 
-![Overview blade - Azure Database for MariaDB](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mariadboverviewblade.png)  
+![Overview blade - Azure Database for MariaDB](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mariadb-to-azuremariadb/mariadboverviewblade.png)  
 
 Add the connection information into your MySQL Workbench.
 
-![MySQL Workbench screen](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mysqlworkbench.png)  
+![MySQL Workbench screen](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mariadb-to-azuremariadb/mysqlworkbench.png)  
  
 ### Restore your MariaDB database
 

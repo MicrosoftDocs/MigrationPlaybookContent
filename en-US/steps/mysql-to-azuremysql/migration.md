@@ -20,23 +20,23 @@ For MySQL migrations that do not require minimal downtime, the easiest way to mi
 
 2.	Start MySQL Workbench, and then enter the source MySQL instance and the target Azure Database for MySQL environment.
  
- ![Image Alt Text MySQL RDBMS Sources](https://mpbdevcontent.azureedge.net/Images/scenario-assets/1-mysql_RDBMS_Sources.png)
+ ![Image Alt Text MySQL RDBMS Sources](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mysql-to-azuremysql/1-mysql_RDBMS_Sources.png)
 
- ![Image Alt Text MySQL RDBMS Targets](https://mpbdevcontent.azureedge.net/Images/scenario-assets/2-mysql_RDBMS_Targets.png)
+ ![Image Alt Text MySQL RDBMS Targets](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mysql-to-azuremysql/2-mysql_RDBMS_Targets.png)
  
 3.	Select the database schema(s) that you want to migrate:
 
- ![Image Alt Text MySQL Select Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/3_mysql_select_schema.png)
+ ![Image Alt Text MySQL Select Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mysql-to-azuremysql/3_mysql_select_schema.png)
  
 4.	Select all the tables, views, and routines that are appropriate for migration, and then select **Next**.
 
- ![Image Alt Text MySQL Select Objects](https://mpbdevcontent.azureedge.net/Images/scenario-assets/4-mysql_select_objects.png)
+ ![Image Alt Text MySQL Select Objects](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mysql-to-azuremysql/4-mysql_select_objects.png)
 
 5.	Evaluate the schema script and manually edit it, if necessary, and then select **Next** to execute the schema creation script.
 
     **Note**: Be sure to remove any CREATE DEFINER commands manually or by using the --skip-definer command when performing a mysqldump. DEFINER requires super privileges to create and is restricted in Azure Database for MySQL.
 
- ![Image Alt Text MySQL Run Schema Creation](https://mpbdevcontent.azureedge.net/Images/scenario-assets/5-mysql_run_schema_creation.png)
+ ![Image Alt Text MySQL Run Schema Creation](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mysql-to-azuremysql/5-mysql_run_schema_creation.png)
 
 6.	Evaluate the result of schema deployment in the next screen, and then close the migration wizard in MySQL Workbench.
 
