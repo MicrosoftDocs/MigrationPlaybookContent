@@ -23,11 +23,11 @@ When you migrate MongoDB data to Azure by using the Azure Database Migration Ser
 
     ![Create a Cosmos DB account](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-to-cosmos/mongo-create-cosmos-account.png)
 
-#### Request Units can be provisioned at two granularities 
+  Request Units can be provisioned at two granularities
 
 - **Collection-level throughput:** Can be set for fixed collections or unlimited collections (with partitions). This is best for scenarios in which:
-    - If there are a small number of Azure Cosmos DB containers.
-    - If you want to get the guaranteed throughput on a given container backed by SLA.
+  - If there are a small number of Azure Cosmos DB containers.
+  - If you want to get the guaranteed throughput on a given container backed by SLA.
 
 - **Database-level throughput:** If throughput for the entire database will at least 400 RU/sec, it can be shared among any unlimited collections within the database, which can provide significant savings. Sharded MongoDB collections migrate to unlimited collections on Azure Cosmos DB and be eligible for database-level throughput. For MongoDB collections that are not sharded, it is easy to specify a partition key during the migration. This is best for scenarios in which you want to accommodate unplanned spikes in workloads by using pooled throughput at the database level.
 
@@ -36,7 +36,7 @@ Each collection sharing database-level throughput requires at least 100 RU/sec. 
 
     ![Create a Cosmos DB database](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-to-cosmos/mongo-create-db.png)
 
-3. Pre-create your collections through the Azure portal. It is strongly recommended that you create unlimited collections and specify a [shard key](https://docs.microsoft.com/en-us/azure/cosmos-db/partition-data). Setting the partition key/shard key, if applicable, must be done **prior** to the migration.
+3. Pre-create your collections through the Azure portal. It is strongly recommended that you create unlimited collections and specify a [shard key](https://docs.microsoft.com/azure/cosmos-db/partition-data). Setting the partition key/shard key, if applicable, must be done **prior** to the migration.
 
     ![Create a Cosmos DB collection](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-to-cosmos/mongo-create-collection.png)
 
@@ -51,11 +51,12 @@ Each collection sharing database-level throughput requires at least 100 RU/sec. 
 
 Before beginning your migration project, it is important to address the associated prerequisites. When moving data from MongoDB to Azure Cosmos DB, be sure to address the following prerequisites:
 
-* Create an Azure Cosmos DB API for MongoDB account. (completed in the previous section).
-* Create an Azure Virtual Network (VNET) for the Azure Database Migration Service by using the Azure Resource Manager deployment model.
-* Ensure that VNET Network Security Group rules don't block the necessary communication ports.
-* Open your Windows firewall to allow Azure DMS to access the source MongoDB server.
+- Create an Azure Cosmos DB API for MongoDB account. (completed in the previous section).
+- Create an Azure Virtual Network (VNet) for the Azure Database Migration Service by using the Azure Resource Manager deployment model.
+- Ensure that VNet Network Security Group rules don't block the necessary communication ports.
+- Open your Windows firewall to allow Azure DMS to access the source MongoDB server.
 
 **Important**: For detail on the specific prerequisites associated with:
-* Online migrations, see the information [here](https://docs.microsoft.com/en-us/azure/dms/tutorial-mongodb-cosmos-db-online#prerequisites).
-* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#prerequisites).
+
+- Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online#prerequisites).
+- Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#prerequisites).
