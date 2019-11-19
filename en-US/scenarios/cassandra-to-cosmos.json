@@ -6,7 +6,7 @@
   "overview": "DbMigrationProcessOverviewStatic",
   "steps": [
     {
-      "name": "Move to Azure Cosmos DB",
+      "name": "Process",
       "fileLocation": "move-to-azure-cosmos-db.md"
     }
   ],

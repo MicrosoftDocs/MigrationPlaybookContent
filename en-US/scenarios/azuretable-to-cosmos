@@ -1,11 +1,11 @@
 {
-	"displayname": "Move to Azure Cosmos DB",
+	"displayname": "Move Azure Table Storage data to Azure Cosmos DB",
 	"emailmessage": "Check out the process for migrating from Azure Table Storage to Azure Cosmos Database:",
 	"description": "No SQL Database",
 	"rationale": "CosmosDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Migration options to Azure Cosmos DB",
+		"name": "Process",
 		"items": [{
 			"filelocation": "AzureTableCosmosMigration",
 			"actions": []
