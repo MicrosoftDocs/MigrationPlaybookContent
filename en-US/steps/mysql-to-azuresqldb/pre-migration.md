@@ -58,17 +58,17 @@ To use SSMA for MySQL to create an assessment, perform the following steps.
     
    c. Click "OK".
 
-   ![New Project](https://mpbdevcontent.azureedge.net/Images/scenario-assets/ssmamysqlnewproject.png)
+   ![New Project](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mysql-to-azuresqldb/ssmamysqlnewproject.png)
 
    d. Connect to the MySQL server by providing the connection details in the "Connect to MySQL" dialog.
 
    e. Create the conversion report by selecting the MySQL schema in the "MySQL Metadata Explorer" by choosing "Create Report" from the right-click menu options or the menu bar on the top.
    
-   ![Create Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/createreport.png)
+   ![Create Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/createreport.png)
    
    f.	This will generate an HTML report with conversion statistics and error/ warnings, if any. Analyze this report to understand conversion issues and its cause.
    
-   ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/assessmentreport.png)
+   ![Assessment Report](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/assessmentreport.png)
    
    g.	This report can also be accessed from the SSMA projects folder as selected in the first screen. From the example above locate the report.xml file 
    from:
@@ -81,18 +81,18 @@ To use SSMA for MySQL to create an assessment, perform the following steps.
 
    a. Before you perform schema conversion validate the default datatype mappings or change them based on requirements. You could do so either by navigating to the "Tools" menu and choosing "Project Settings" or you can change type mapping for each table by selecting the table in the "MySQL Metadata Explorer".
    
-   ![Type Mappings](https://mpbdevcontent.azureedge.net/Images/scenario-assets/typemappings.png)
+   ![Type Mappings](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/typemappings.png)
    
    b.	Dynamic or ad hoc queries can be added to the "Statements" node by selecting that node and choosing "Add Statement" from the right-click menu options.
    
    c.	For converting and moving the schema to Azure SQL Database, connect to the Azure SQL instance by providing the connection details in the "Connect to Azure SQL Database" dialog. You can choose to connect to an existing database or provide a new name, in which case a database will be created on the target server.
    
-   ![Connect to SQL](https://mpbdevcontent.azureedge.net/Images/scenario-assets/connecttosql.png)
+   ![Connect to SQL](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/connecttosql.png)
    
    d.	Convert the schema by choosing "Convert Schema" from the right-click menu options or the menu bar on the top.
    
-   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/convertschema.png)
+   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/convertschema.png)
    
    e.	After the schema has converted compare and review the structure of the schema to identify potential problems.
    
-   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/convertschemacomplete.png)
+   ![Convert Schema](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/convertschemacomplete.png)
