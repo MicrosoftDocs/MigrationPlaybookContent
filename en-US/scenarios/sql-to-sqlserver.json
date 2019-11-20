@@ -61,11 +61,11 @@
     {
       "fileLocation": "HVR"
     },
-		{
-			"fileLocation": "Wipro"
-		},
-		{
-			"fileLocation": "Commvault"
-		}
+    {
+      "fileLocation": "Wipro"
+    },
+    {
+      "fileLocation": "Commvault"
+    }
   ]
 }

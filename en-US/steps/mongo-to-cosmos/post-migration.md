@@ -18,7 +18,7 @@ After the data is migrated to the target environment, all the applications that 
 
 5. Copy and paste the code snippet into your MongoDB app.
 
-    ![Cosmos DB quick start](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-quick-start.png)
+    ![Cosmos DB quick start](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-to-cosmos/mongo-quick-start.png)
 
 ### Optimize  
 
@@ -53,4 +53,4 @@ Customers can modify the indexing modes to better manage the amount of RU’s us
 
 **Distribute Data Globally** 
 
-Customers can associate an unlimited number of regions with their Azure Cosmos DB accounts. They can also enable multi-master to have multiple write regions. When not using multi-master, customers can assign failover priorities for their globally replicated regions. More information about turnkey global distribution is available in [Manage an Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally-turnkey).
+Customers can associate an unlimited number of regions with their Azure Cosmos DB accounts. They can also enable multi-master to have multiple write regions. When not using multi-master, customers can assign failover priorities for their globally replicated regions. More information about turnkey global distribution is available [here](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally-turnkey).

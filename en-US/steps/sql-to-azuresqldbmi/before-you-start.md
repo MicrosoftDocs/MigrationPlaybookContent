@@ -92,9 +92,9 @@ Before beginning your migration project, it is important to address the associat
 Before beginning your migration project, it is important to address the associated prerequisites for leveraging Azure Database Migration Service (DMS) for migrations. When upgrading from SQL Server on-premises or on SQL Server on Virtual Machines to Azure SQL Database, there are prerequisites associated with:
 
 * Downloading and installing the [Data Migration Assistant (DMA)](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
-* Creating an instance of Azure DMS (detail in [Overview of prerequisites for using the Azure Database Migration Service](https://docs.microsoft.com/azure/dms/pre-reqs)).
-* Using Azure DMS to perform online migrations (detail in [Migrate SQL Server to an Azure SQL Database managed instance online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites)).
-* Using Azure DMS to perform offline migrations (detail in [Migrate SQL Server to an Azure SQL Database managed instance offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites))
+* Creating an instance of Azure DMS (detail [here](https://docs.microsoft.com/azure/dms/pre-reqs)).
+* Using Azure DMS to perform online migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites)).
+* Using Azure DMS to perform offline migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites))
 
 ### Migration assets from real-world engagements
 
@@ -104,12 +104,12 @@ For additional assistance with completing this migration scenario, please see th
 <table width="100%">
 <thead>
 <tr>
-<td width="20%">
+<th width="20%">
 <p><strong>Title/link</strong></p>
-</td>
-<td width="80%">
+</th>
+<th width="80%">
 <p><strong>Description</strong></p>
-</td>
+</th>
 </tr>
 </thead>
 <tbody>

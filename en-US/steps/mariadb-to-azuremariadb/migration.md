@@ -45,11 +45,11 @@ Create an empty database on the target Azure Database for MariaDB server where y
 
 To get connected, in the Azure portal, locate the connection information in the **Overview** blade of your Azure Database for MariaDB instance.
 
-![Overview blade - Azure Database for MariaDB](https://mpbdevcontent.azureedge.net/Images/mariadboverviewblade.png)  
+![Overview blade - Azure Database for MariaDB](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mariadb-to-azuremariadb/mariadboverviewblade.png)  
 
 Add the connection information into your MySQL Workbench.
 
-![MySQL Workbench screen](https://mpbdevcontent.azureedge.net/Images/mysqlworkbench.png)  
+![MySQL Workbench screen](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mariadb-to-azuremariadb/mysqlworkbench.png)  
  
 ### Restore your MariaDB database
 
@@ -72,9 +72,10 @@ You can use phpMyAdmin to back up and restore a MariaDB database.
 ### Export using phpMyAdmin
 
 To export, you can use the common tool phpMyAdmin, which you may already have installed locally in your environment. To export your MariaDB database using phpMyAdmin:
-
 1. In phpMyAdmin, in the list on the left, select the database name.
-2. Select **Export**. A new page appears to view the dump of database.
+2. Select **Export**.
+   A new page appears to view the dump of database.
+
 3. In the **Export** area, select **Select All** to choose the tables in your database.
 4. In the **SQL options** area, select the appropriate options.
 5. Select **Save as file** and the corresponding compression option, and then select **Go**.

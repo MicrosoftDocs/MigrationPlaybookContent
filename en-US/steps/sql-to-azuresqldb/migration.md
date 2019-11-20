@@ -24,8 +24,8 @@ An overview of the steps associated with using DMA to migrate the schema follows
 
 **Important**: For detail on the specific steps associated with:
 
-* Online migrations, see the information in [Migrate SQL Server to a single database or pooled database in Azure SQL Database online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#migrate-the-sample-schema).
-* Offline migrations, see the information in [Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#migrate-the-sample-schema).
+* Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#migrate-the-sample-schema).
+* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#migrate-the-sample-schema).
 
 ## Migrate data
 
@@ -47,11 +47,11 @@ An overview of the steps associated with using Azure DMS to migrate the data fol
 
 **Important**: For detail on the specific steps associated with:
 
-* Online migrations, see the information in [Migrate SQL Server to a single database or pooled database in Azure SQL Database online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#register-the-microsoftdatamigration-resource-provider).
-* Offline migrations, see the information in [Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#register-the-microsoftdatamigration-resource-provider).
+* Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#register-the-microsoftdatamigration-resource-provider).
+* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql#register-the-microsoftdatamigration-resource-provider).
 
 ## Data sync and Cutover
 
 With minimal-downtime migrations, the source you are migrating continues to change, drifting from the target in terms of data and schema, after the one-time migration occurs. During the **Data sync** phase, you need to ensure that all changes in the source are captured and applied to the target in near real time. After you verify that all changes in source have been applied to the target, you can cutover from the source to the target environment.
 
-**Important**: For detail on the specific steps associated with performing a cutover as part of online migrations, see the information in [Migrate SQL Server to a single database or pooled database in Azure SQL Database online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#perform-migration-cutover).
+**Important**: For detail on the specific steps associated with performing a cutover as part of online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online#perform-migration-cutover).

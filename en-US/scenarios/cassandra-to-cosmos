@@ -5,7 +5,7 @@
 	"rationale": "CosmosDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-		"name": "Move to Azure Cosmos DB",
+		"name": "Process",
 		"items": [{
 			"filelocation": "CassandraCosmosMigration",
 			"actions": []

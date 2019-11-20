@@ -11,7 +11,7 @@ ora2pg can be used for tasks from reverse engineering an Oracle database, perfor
 
 ### Typical ora2pg migration architecture
 
-![ora2pg migration architecture](https://mpbdevcontent.azureedge.net/Images/scenario-assets/OracleToAzurePG/ora2pg_architecture.png)
+![ora2pg migration architecture](https://mpbdevcontent.azureedge.net/Images/scenario-assets/oracle-to-azurepostgresql/ora2pg_architecture.png)
 
 After provisioning the VM and Azure Database for PostgreSQL, two configurations are needed for enabling connectivity between them: “Allow Azure Services” and “Enforce SSL Connection”, depicted as follows:
 - “Connection Security” blade -> Allow access to Azure Services -> ON 
@@ -74,7 +74,7 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="https://github.com/Microsoft/DataMigrationTeam/blob/master/Whitepapers/Steps%20to%20Install%20ora2pg%20on%20Windows.pdf">Steps to Install ora2pg on Windows and Linux</a></p>
+<p><a href="https://github.com/microsoft/DataMigrationTeam/blob/master/Whitepapers/Steps%20to%20Install%20ora2pg%20on%20Windows%20and%20Linux.pdf">Steps to Install ora2pg on Windows or Linux</a></p>
 </td>
 <td width="59%">
 <p>This document is meant to be used as a Quick Installation Guide for enabling migration of schema & data from Oracle to Azure Database for PostgreSQL using ora2pg tool on Windows or Linux. Complete details on the tool can be found at http://ora2pg.darold.net/documentation.html. </p>

@@ -1,12 +1,12 @@
 {
-  "displayName": "Move to Azure Cosmos DB",
+  "displayName": "Move Azure Table Storage data to Azure Cosmos DB",
   "emailMessage": "Check out the process for migrating from Azure Table Storage to Azure Cosmos Database:",
   "description": "No SQL Database",
   "rationale": "CosmosDbRationaleStatic",
   "overview": "DbMigrationProcessOverviewStatic",
   "steps": [
     {
-      "name": "Migration options to Azure Cosmos DB",
+      "name": "Process",
       "fileLocation": "migration-options-to-azure-cosmos-db.md"
     }
   ],
@@ -32,8 +32,8 @@
     {
       "fileLocation": "DXC"
     },
-		{
-			"fileLocation": "Wipro"
-		}
+    {
+      "fileLocation": "Wipro"
+    }
   ]
 }
