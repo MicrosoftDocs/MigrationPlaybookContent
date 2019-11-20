@@ -29,7 +29,7 @@ To use DEA for database migration testing, perform the following steps.
     
     c. To configure the capture, speficy the trace name, duration, SQL Server instance name, database name, and the share location for storing the trace file on the computer running SQL Server.
     
-    ![Provide trace capture inputs](https://mpbdevcontent.azureedge.net/Images/scenario-assets/sql-to-sqlserver/deacaptureinputs.png)
+    ![Provide trace capture inputs](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/deacaptureinputs.png)
     
     d. Select **Start** to begin trace capture.
 

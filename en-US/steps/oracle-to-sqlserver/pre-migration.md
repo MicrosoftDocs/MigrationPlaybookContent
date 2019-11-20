@@ -33,7 +33,7 @@ To use the MAP Toolkit to perform an inventory scan, perform the following steps
     
     d. Select **Collect inventory data**.
     
-    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/scenario-assets/_shared/maporacleoverview.png)
+    ![MAP Collect Inventory Data](https://mpbdevcontent.azureedge.net/Images/scenario-assets/oracle-to-sqlserver/maporacleoverview.png)
     
     e. In the Inventory and Assessment Wizard, select **Oracle**, and then select **Next**.
     
