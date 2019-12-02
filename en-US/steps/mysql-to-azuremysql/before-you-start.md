@@ -14,7 +14,7 @@ For selected migration scenarios, Azure Database Migration Service supports both
 
 ## Supported versions
 
-This section describes all supported scenarios and options for an upgrade from on-premises PostgreSQL versions to Azure Database for PostgreSQL. This information is current as of October 2019.
+This section describes all supported scenarios and options for an upgrade from on-premises MySQL versions to Azure Database for MySQL. This information is current as of December 2019.
 
 Details for migrations to Azure Database for MySQL from the following MySQL sources are included:
 
