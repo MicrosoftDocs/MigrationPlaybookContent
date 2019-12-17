@@ -12,11 +12,16 @@ You can also use the [Microsoft Assessment and Planning Toolkit](https://www.mic
 
 For more information about the tools available for use during the Discover phase, see the article [Services and tools available for data migration scenarios](https://docs.microsoft.com/azure/dms/dms-tools-matrix).
 
-##  Assess 
+## Assess
 
 When the data sources have been identified, the next step is to assess any on-premises SQL Server instance(s) that is migrating to Azure SQL Database Managed Instance to understand any gaps between the source and target instances.
 
-**Note**: Data Migration Assistant (DMA) support for migrations to an Azure SQL Database managed instance is available in version 4.1 and later.
+**Note**: Data Migration Assistant (DMA) support for migrations to Azure SQL Database managed instance is available in version 4.1 and later.
+
+You can use Data Migration Assistant to assess databases to get:
+
+- Azure target recommendations, find the relative readiness of the SQL Server instances and databases migrating to Azure SQL Database managed instance. For more information, see the article [here](https://docs.microsoft.com/sql/dma/dma-assess-sql-data-estate-to-sqldb?view=sql-server-ver15).
+- Azure SQL Database managed instance SKU recommendations. For more information, see the article [here](https://docs.microsoft.com/sql/dma/dma-sku-recommend-sql-db?view=sql-server-ver15).
 
 ### Overview of assessment steps
 
