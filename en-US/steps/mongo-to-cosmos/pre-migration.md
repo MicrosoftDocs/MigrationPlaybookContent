@@ -2,8 +2,6 @@
 
 As you prepare for migrating to the cloud, verify that you are migrating from a MongoDB source with version 3.4  or earlier.
 
-Please do not hesitate to reach out to [askcosmosdb@microsoft.com](mailto:askcosmosdb@microsoft.com) with questions.
-
 ### Offline versus online migrations
 
 When you migrate MongoDB data to Azure by using the Azure Database Migration Service, you can perform an offline or an online migration. With an *offline* migration, application downtime begins when the migration starts. For an *online* migration, downtime is limited to the time required to cut over to the new environment when the migration completes. It's recommended to test an offline migration to determine whether the downtime is acceptable; if not, perform an online migration.
@@ -23,7 +21,7 @@ When you migrate MongoDB data to Azure by using the Azure Database Migration Ser
 
     ![Create a Cosmos DB account](https://mpbdevcontent.azureedge.net/Images/scenario-assets/mongo-to-cosmos/mongo-create-cosmos-account.png)
 
-  Request Units can be provisioned at two granularities
+  Request Units can be provisioned at two granularities:
 
 - **Collection-level throughput:** Can be set for fixed collections or unlimited collections (with partitions). This is best for scenarios in which:
   - If there are a small number of Azure Cosmos DB containers.
