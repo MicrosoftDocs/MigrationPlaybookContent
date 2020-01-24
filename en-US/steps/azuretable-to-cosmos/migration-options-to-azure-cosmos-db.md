@@ -12,8 +12,6 @@ Azure Table Storage to Azure Cosmos DB.
 The other option is the Azure Cosmos DB Data Migration Tool, which is an open source solution that imports data to Azure Cosmos DB from a variety of sources, including: MongoDB, JSON files, SQL Server, etc.
 Follow the instructions in the article [Use Data migration tool to migrate your data to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/import-data) on how to download and use the tool.
 
-**Note**: If you are migrating from a data source that is not listed here to Azure Cosmos DB, please send an email to [AskCosmosDB@microsoft.com](mailto:AskCosmosDB@microsoft.com) and the product team will help you with migration.
-
 ### Additional resources
 
 - For an overview of the Azure Database Migration Guide and the information it contains, see the video [How to Use the Database Migration Guide](https://azure.microsoft.com/resources/videos/how-to-use-the-azure-database-migration-guide/).
