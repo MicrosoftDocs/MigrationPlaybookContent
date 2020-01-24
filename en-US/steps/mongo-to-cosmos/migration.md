@@ -1,6 +1,6 @@
 ## Migration overview
 
-After you have the necessary prerequisites in place and have completed the tasks associated with the Pre-migration phase, you are ready to proceed with the migration. 
+After you have the necessary prerequisites in place and have completed the tasks associated with the Pre-migration phase, you are ready to proceed with the migration.
 
 ### Migrate MongoDB data
 
