@@ -26,22 +26,28 @@
   "caseStudies": [],
   "partners": [
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cognizant"
     },
     {
       "fileLocation": "DBBest"
     },
     {
-      "fileLocation": "QuerySurge"
+      "fileLocation": "DXC"
     },
     {
       "fileLocation": "Infosys"
     },
     {
-      "fileLocation": "ScalabilityExperts"
+			"filelocation": "Ispirer"
     },
     {
-      "fileLocation": "DXC"
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
     },
     {
       "fileLocation": "Wipro"

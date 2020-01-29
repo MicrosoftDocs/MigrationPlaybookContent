@@ -26,6 +26,9 @@
   ],
   "partners": [
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cast"
     },
     {
