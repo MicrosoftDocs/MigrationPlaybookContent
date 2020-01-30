@@ -1,7 +1,7 @@
 {
   "title": "Ispirer",
-  "text": "With highly customizable tools for legacy migration projects, Ispirer offers services for Microsoft SQL Server and other sources.",
+  "text": "Ispirer Systems provides innovative software / services for automated migration of various RDBMSes to SQL Server and Azure SQL DB. A key advantage is the power to personalize Ispirer MnMTK to suit every project's requirements.",
   "url": "http://www.ispirer.com/solutions/migration-to-the-microsoft-technology-stack",
-  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/Ispirer_logo.png",
-  "logoAltText": "Ispirer Migration and Modernization Toolkit (MnMTK) 2015"
+  "logoUrl": "https://mpbdevcontent.azureedge.net/Images/company-logos/ispirer_logo.png",
+  "logoAltText": "Ispirer Migration and Modernization Toolkit (MnMTK)"
 }

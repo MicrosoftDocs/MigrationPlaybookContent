@@ -27,31 +27,31 @@
       "fileLocation": "Cognizant"
     },
     {
+      "fileLocation": "Commvault"
+    },
+    {
       "fileLocation": "DataSunrise"
-    },
-    {
-      "fileLocation": "Infosys"
-    },
-    {
-      "fileLocation": "rhipe"
-    },
-    {
-      "fileLocation": "NayaTech"
-    },
-    {
-      "fileLocation": "ScalabilityExperts"
     },
     {
       "fileLocation": "DXC"
     },
     {
-      "fileLocation": "Zen3"
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
     },
     {
       "fileLocation": "Wipro"
     },
     {
-      "fileLocation": "Commvault"
+      "fileLocation": "Zen3"
     }
   ]
 }
