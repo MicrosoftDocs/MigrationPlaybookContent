@@ -39,37 +39,40 @@
       "fileLocation": "Cognizant"
     },
     {
-      "fileLocation": "DBBest"
-    },
-    {
       "fileLocation": "DataSunrise"
     },
     {
-      "fileLocation": "QuerySurge"
-    },
-    {
-      "fileLocation": "Infosys"
-    },
-    {
-      "fileLocation": "NayaTech"
-    },
-    {
-      "fileLocation": "ScalabilityExperts"
-    },
-    {
-      "fileLocation": "Quest"
+      "fileLocation": "DBBest"
     },
     {
       "fileLocation": "DXC"
     },
     {
-      "fileLocation": "Zen3"
-    },
-    {
       "fileLocation": "HVR"
     },
     {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "Ispirer"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "Quest"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
       "fileLocation": "Wipro"
+    },
+    {
+      "fileLocation": "Zen3"
     }
   ]
 }

@@ -23,7 +23,13 @@
       "fileLocation": "Cognizant"
     },
     {
+      "fileLocation": "DXC"
+    },
+    {
       "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "Ispirer"
     },
     {
       "fileLocation": "NayaTech"
@@ -32,13 +38,10 @@
       "fileLocation": "ScalabilityExperts"
     },
     {
-      "fileLocation": "DXC"
+      "fileLocation": "Wipro"
     },
     {
       "fileLocation": "Zen3"
-    },
-    {
-      "fileLocation": "Wipro"
     }
   ]
 }
