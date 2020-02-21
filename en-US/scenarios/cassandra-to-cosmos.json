@@ -12,5 +12,9 @@
   ],
   "actions": [],
   "caseStudies": [],
-  "partners": []
+  "partners": [
+    {
+      "fileLocation": "Blueprint"
+    }
+  ]
 }

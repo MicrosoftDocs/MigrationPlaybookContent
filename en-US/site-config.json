@@ -232,6 +232,12 @@
       "text":"An experimentation solution for evaluating a targeted version of SQL Server for a specific workload",
       "url": "https://aka.ms/dea-docs",
       "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/dea_icon.svg"
+    },
+    {
+      "title": "Data Access Migration Toolkit (Preview)",
+      "text":"A VS Code extension for analyzing Java and .Net source code and detecting data access API calls and queries",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ms-databasemigration.data-access-migration-toolkit",
+      "logoUrl": "https://mpbdevcontent.azureedge.net/Images/tool-logos/damt_icon.svg"
     }
   ]
 }
