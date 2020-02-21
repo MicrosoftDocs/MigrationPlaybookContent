@@ -202,6 +202,10 @@
     {
       "text": "Data Access Migration Toolkit",
       "url": "https://aka.ms/damt-tool"
+    },
+    {
+      "text": "Data Access Migration Toolkit (Preview)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ms-databasemigration.data-access-migration-toolkit"
     }
   ],
   "caseStudies": [{
