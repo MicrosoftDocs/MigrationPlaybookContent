@@ -26,10 +26,19 @@
   ],
   "partners": [
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cast"
     },
     {
+      "fileLocation": "DXC"
+    },
+    {
       "fileLocation": "Cognizant"
+    },
+    {
+      "fileLocation": "Imanis"
     },
     {
       "fileLocation": "Infosys"
@@ -41,16 +50,10 @@
       "fileLocation": "ScalabilityExperts"
     },
     {
-      "fileLocation": "DXC"
-    },
-    {
-      "fileLocation": "Imanis"
+      "fileLocation": "Wipro"
     },
     {
       "fileLocation": "Zen3"
-    },
-    {
-      "fileLocation": "Wipro"
     }
   ]
 }

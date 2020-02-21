@@ -22,31 +22,34 @@
   "caseStudies": [],
   "partners": [
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cognizant"
-    },
-    {
-      "fileLocation": "Fujitsu"
-    },
-    {
-      "fileLocation": "DBBest"
     },
     {
       "fileLocation": "DataSunrise"
     },
     {
-      "fileLocation": "QuerySurge"
+      "fileLocation": "DBBest"
+    },
+    {
+      "fileLocation": "DXC"
+    },
+    {
+      "fileLocation": "Fujitsu"
     },
     {
       "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "QuerySurge"
     },
     {
       "fileLocation": "rhipe"
     },
     {
       "fileLocation": "ScalabilityExperts"
-    },
-    {
-      "fileLocation": "DXC"
     },
     {
       "fileLocation": "Wipro"

@@ -25,43 +25,49 @@
       "fileLocation": "Blitzz"
     },
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cast"
     },
     {
       "fileLocation": "Cognizant"
     },
     {
-      "fileLocation": "QuerySurge"
-    },
-    {
-      "fileLocation": "Satalyst"
-    },
-    {
-      "fileLocation": "Infosys"
-    },
-    {
-      "fileLocation": "rhipe"
-    },
-    {
-      "fileLocation": "NayaTech"
-    },
-    {
-      "fileLocation": "ScalabilityExperts"
-    },
-    {
-      "fileLocation": "Pactera"
-    },
-    {
       "fileLocation": "DXC"
-    },
-    {
-      "fileLocation": "Zen3"
     },
     {
       "fileLocation": "HVR"
     },
     {
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "Ispirer"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "Pactera"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "Satalyst"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
       "fileLocation": "Wipro"
+    },
+    {
+      "fileLocation": "Zen3"
     }
   ]
 }

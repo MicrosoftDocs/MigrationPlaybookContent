@@ -21,34 +21,37 @@
       "fileLocation": "Blitzz"
     },
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cognizant"
+    },
+    {
+      "fileLocation": "Commvault"
     },
     {
       "fileLocation": "DataSunrise"
     },
     {
-      "fileLocation": "Infosys"
+      "fileLocation": "DXC"
     },
     {
-      "fileLocation": "rhipe"
+      "fileLocation": "Infosys"
     },
     {
       "fileLocation": "NayaTech"
     },
     {
+      "fileLocation": "rhipe"
+    },
+    {
       "fileLocation": "ScalabilityExperts"
-    },
-    {
-      "fileLocation": "DXC"
-    },
-    {
-      "fileLocation": "Zen3"
     },
     {
       "fileLocation": "Wipro"
     },
     {
-      "fileLocation": "Commvault"
+      "fileLocation": "Zen3"
     }
   ]
 }

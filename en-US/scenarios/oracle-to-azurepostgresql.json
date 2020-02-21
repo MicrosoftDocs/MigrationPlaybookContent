@@ -29,6 +29,9 @@
       "fileLocation": "Blitzz"
     },
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cognizant"
     },
     {
@@ -45,6 +48,9 @@
     },
     {
       "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "Ispirer"
     },
     {
       "fileLocation": "Kangaroot"
@@ -71,10 +77,13 @@
       "fileLocation": "Splendid_Data"
     },
     {
-      "fileLocation": "Zen3"
+      "fileLocation": "Striim"
     },
     {
       "fileLocation": "Wipro"
+    },
+    {
+      "fileLocation": "Zen3"
     }
   ]
 }

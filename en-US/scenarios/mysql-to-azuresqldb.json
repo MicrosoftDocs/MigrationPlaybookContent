@@ -1,7 +1,7 @@
 {
   "displayName": "Migrate MySQL to Azure SQL Database",
   "emailMessage": "Check out the process for migrating from MySQL to Azure SQL Database here:",
-  "description": "Migrating from MySQL to the Azure SQL Database, the dominant datbase in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
+  "description": "Migrating from MySQL to the Azure SQL Database, the dominant database in the industry, allows you to focus on rapid app development and accelerated time-to-market.",
   "rationale": "SqlDbRationaleStatic",
   "overview": "DbMigrationProcessOverviewStatic",
   "steps": [
@@ -29,52 +29,59 @@
       "fileLocation": "Blitzz"
     },
     {
+      "fileLocation": "Blueprint"
+    },
+    {
       "fileLocation": "Cast"
     },
     {
       "fileLocation": "Cognizant"
     },
     {
-      "fileLocation": "DBBest"
+      "fileLocation": "Commvault"
     },
     {
       "fileLocation": "DataSunrise"
     },
     {
-      "fileLocation": "QuerySurge"
-    },
-    {
-      "fileLocation": "Satalyst"
-    },
-    {
-      "fileLocation": "Infosys"
-    },
-    {
-      "fileLocation": "rhipe"
-    },
-    {
-      "fileLocation": "NayaTech"
-    },
-    {
-      "fileLocation": "ScalabilityExperts"
-    },
-    {
-      "fileLocation": "Pactera"
+      "fileLocation": "DBBest"
     },
     {
       "fileLocation": "DXC"
     },
     {
-      "fileLocation": "Zen3"
+      "fileLocation": "HVR"
     },
     {
-      "fileLocation": "HVR"
+      "fileLocation": "Infosys"
+    },
+    {
+      "fileLocation": "Ispirer"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "Pactera"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "rhipe"
+    },
+    {
+      "fileLocation": "Satalyst"
+    },
+
+    {
+      "fileLocation": "ScalabilityExperts"
     },
     {
       "fileLocation": "Wipro"
     },
     {
-      "fileLocation": "Commvault"
+      "fileLocation": "Zen3"
     }
   ]
 }

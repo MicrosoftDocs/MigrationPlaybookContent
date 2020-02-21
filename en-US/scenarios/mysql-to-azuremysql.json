@@ -36,10 +36,19 @@
       "fileLocation": "Blitzz"
     },
     {
-      "fileLocation": "Cognizant"
+      "fileLocation": "Blueprint"
     },
     {
       "fileLocation": "Cast"
+    },
+    {
+      "fileLocation": "Cognizant"
+    },
+    {
+      "fileLocation": "Commvault"
+    },
+    {
+      "fileLocation": "credativ"
     },
     {
       "fileLocation": "DataSunrise"
@@ -48,49 +57,43 @@
       "fileLocation": "DBBest"
     },
     {
-      "fileLocation": "QuerySurge"
-    },
-    {
-      "fileLocation": "Satalyst"
-    },
-    {
-      "fileLocation": "SNP_Tech"
-    },
-    {
-      "fileLocation": "Pragmatic_Works"
-    },
-    {
-      "fileLocation": "Infosys"
-    },
-    {
-      "fileLocation": "credativ"
-    },
-    {
-      "fileLocation": "rhipe"
-    },
-    {
-      "fileLocation": "NayaTech"
-    },
-    {
-      "fileLocation": "ScalabilityExperts"
-    },
-    {
-      "fileLocation": "Pactera"
-    },
-    {
       "fileLocation": "DXC"
-    },
-    {
-      "fileLocation": "Kangaroot"
     },
     {
       "fileLocation": "HVR"
     },
     {
-      "fileLocation": "Wipro"
+      "fileLocation": "Infosys"
     },
     {
-      "fileLocation": "Commvault"
+      "fileLocation": "Kangaroot"
+    },
+    {
+      "fileLocation": "NayaTech"
+    },
+    {
+      "fileLocation": "Pactera"
+    },
+    {
+      "fileLocation": "Pragmatic_Works"
+    },
+    {
+      "fileLocation": "QuerySurge"
+    },
+    {
+      "fileLocation": "rhipe"
+    },    
+    {
+      "fileLocation": "Satalyst"
+    },
+    {
+      "fileLocation": "ScalabilityExperts"
+    },
+    {
+      "fileLocation": "SNP_Tech"
+    },
+    {
+      "fileLocation": "Wipro"
     }
   ]
 }
