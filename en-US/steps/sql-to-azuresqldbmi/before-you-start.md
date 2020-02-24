@@ -32,7 +32,7 @@ The following data migration options are discussed:
 Data migration options, details, and supported versions are provided in the following table.
 
 <br>
-<table width="100%">
+<table width="100%" aria-label="Data migration options">
 <thead>
 <tr>
 <th width="20%">
@@ -101,7 +101,7 @@ Before beginning your migration project, it is important to address the associat
 For additional assistance with completing this migration scenario, please see the following resources, which were developed in support of real-world migration projects at scale.
 
 <br>
-<table width="100%">
+<table width="100%" aria-label="Assistance for migration scenario">
 <thead>
 <tr>
 <th width="20%">
