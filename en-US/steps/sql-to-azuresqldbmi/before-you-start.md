@@ -92,9 +92,9 @@ Before beginning your migration project, it is important to address the associat
 Before beginning your migration project, it is important to address the associated prerequisites for leveraging Azure Database Migration Service (DMS) for migrations. When upgrading from SQL Server on-premises or on SQL Server on Virtual Machines to Azure SQL Database, there are prerequisites associated with:
 
 * Downloading and installing the [Data Migration Assistant (DMA)](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
-* Creating an instance of Azure DMS (detail [here](https://docs.microsoft.com/azure/dms/pre-reqs)).
-* Using Azure DMS to perform online migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites)).
-* Using Azure DMS to perform offline migrations (detail [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites))
+* Creating an instance of Azure DMS <a href="https://docs.microsoft.com/azure/dms/pre-reqs" aria-label="Creating an instance of Azure DMS">(detail here).</a> 
+* Using Azure DMS to perform online migrations <a href="https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites" aria-label="Using Azure DMS to perform online migrations">(detail here).</a> 
+* Using Azure DMS to perform offline migrations <a href="https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#prerequisites" aria-label="Using Azure DMS to perform offline migrations">(detail here).</a>
 
 ### Migration assets from real-world engagements
 

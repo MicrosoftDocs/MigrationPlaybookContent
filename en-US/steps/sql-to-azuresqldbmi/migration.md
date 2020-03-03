@@ -23,8 +23,8 @@ An overview of the steps associated with using Azure DMS to migrate the schema a
 9.	Run and monitor the migration.
 
 **Important**: For detail on the specific steps associated with:
-* Online migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#register-the-microsoftdatamigration-resource-provider).
-* Offline migrations, see the information [here](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#register-the-microsoftdatamigration-resource-provider).
+* Online migrations, see the information <a href="https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#register-the-microsoftdatamigration-resource-provider" aria-label="Online migrations">here.</a>  
+* Offline migrations, see the information <a href="https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#register-the-microsoftdatamigration-resource-provider" aria-label="Offline migrations">here.</a>   
 
 ## Data sync and Cutover
 
