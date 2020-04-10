@@ -20,8 +20,8 @@ When the data sources have been identified, the next step is to assess any on-pr
 
 You can use Data Migration Assistant to assess databases to get:
 
-- Azure target recommendations, find the relative readiness of the SQL Server instances and databases migrating to Azure SQL Database managed instance. For more information, see the article [here](https://docs.microsoft.com/sql/dma/dma-assess-sql-data-estate-to-sqldb?view=sql-server-ver15).
-- Azure SQL Database managed instance SKU recommendations. For more information, see the article [here](https://docs.microsoft.com/sql/dma/dma-sku-recommend-sql-db?view=sql-server-ver15).
+- Azure target recommendations, find the relative readiness of the SQL Server instances and databases migrating to Azure SQL Database managed instance. For more information, see the article <a href="https://docs.microsoft.com/sql/dma/dma-assess-sql-data-estate-to-sqldb?view=sql-server-ver15" aria-label="Azure target recommendations, find the relative readiness of the SQL Server instances and databases migrating to Azure SQL Database managed instance">here</a> 
+- Azure SQL Database managed instance SKU recommendations. For more information, see the article <a href="https://docs.microsoft.com/sql/dma/dma-sku-recommend-sql-db?view=sql-server-ver15" aria-label="Azure SQL Database managed instance SKU recommendations">here.</a>
 
 ### Overview of assessment steps
 
