@@ -50,14 +50,6 @@ For additional assistance with completing this migration scenario, please see th
 </tr>
 <tr>
 <td width="18%">
-<p><a href="https://aka.ms/dmj-wp-mainframe-optimize">Optimization Guide for Mainframe App/Data recompiled to .NET &amp; SQL Server</a></p>
-</td>
-<td width="59%">
-<p>This guide offers optimization advice for executing point-lookups against SQL Server from .NET as efficiently as possible. Customers wishing to migrate from mainframe databases to SQL Server may desire to migrate existing mainframe-optimized design patterns, especially when using 3rd party tools (such as Raincode Compiler) to automatically migrate mainframe code (COBOL/JCL, etc.) to T-SQL and C# .NET.</p>
-</td>
-</tr>
-<tr>
-<td width="18%">
 <p><a href="https://aka.ms/dmj-wp-oracle-sql-handbook">Oracle to SQL Server Migration Handbook</a></p>
 </td>
 <td width="59%">
