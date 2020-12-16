@@ -1,6 +1,6 @@
 ## Pre-migration overview
 
-As you prepare for migrating to the cloud, verify that you are migrating from a MongoDB source with version 3.4  or earlier.
+As you prepare for migrating to the cloud, verify that you are migrating from a supported MongoDB source. Versions 3.6 and earlier are fully supported. Most version 4.0 deployments not using multi-document transactions are compatible with full support coming in early 2021.
 
 ### Offline versus online migrations
 
