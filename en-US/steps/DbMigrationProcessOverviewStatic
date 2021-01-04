@@ -13,7 +13,7 @@ Migrations should be approached with the same rigor and processes as a full soft
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3" class="premigration">Pre-migration</td>
+      <th rowspan="3" class="premigration" aria-rowspan="3" scope="rowgroup">Pre-migration</th>
       <td>Discover</td>
       <td>Inventory database assets, and application stack discovery.</td>
     </tr>
@@ -26,7 +26,7 @@ Migrations should be approached with the same rigor and processes as a full soft
       <td>Convert the source schema to work in the target environment. This is only relevant for heterogeneous migrations.</td>
     </tr>
     <tr>
-      <td rowspan="3" class="migration">Migration</td>
+      <th rowspan="3" class="migration" aria-rowspan="3" scope="rowgroup">Migration</th>
       <td>Migrate schema, data, and objects</td>
       <td>Migrate the source schema, and then migrate the source data to the target.</td>
     </tr>
@@ -39,7 +39,7 @@ Migrations should be approached with the same rigor and processes as a full soft
       <td>Cut over from the source to the target environment. This is only relevant for minimal-downtime migrations.</td>
     </tr>
     <tr>
-      <td rowspan="3" class="postmigration">Post-migration</td>
+      <th rowspan="3" class="postmigration" aria-rowspan="3" scope="rowgroup">Post-migration</th>
       <td>Remediate applications</td>
       <td>Iteratively make any necessary changes to your applications.</td>
     </tr>
